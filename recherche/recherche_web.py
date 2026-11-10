@@ -274,7 +274,7 @@ def faire_resume(c, v):
 
 
 # ───────────────────────── traitement d'une fiche ─────────────────────────
-def traiter_fiche(c, liens_manuels=(), profondeur=6):
+def traiter_fiche(c, liens_manuels=(), profondeur=12):
     nom, ville = c["etab"], c["ville"]
     unite = c.get("unite") if c.get("unite") not in (None, "", "—") else ""
     requetes = [
@@ -284,6 +284,8 @@ def traiter_fiche(c, liens_manuels=(), profondeur=6):
         f'{nom} {ville} cérémonie 11 novembre élèves',
         f'{nom} {ville} convention classe défense {unite}',
         f'{nom} {ville} classe défense La Provence OR Vaucluse Matin OR Dauphiné',
+        f'collège OR lycée {ville} "classe défense" élèves',
+        f'{ville} {unite} élèves classe défense' if unite else f'{ville} classe défense élèves {nom}',
     ]
     urls = list(liens_manuels)
     for u in explorer_site(c.get("site")):
@@ -301,13 +303,17 @@ def traiter_fiche(c, liens_manuels=(), profondeur=6):
     for u in a_lire:
         page = lire_page(u)
         vues.add(u)
-        if not page or len(page["texte"]) < 200: continue
-        if u not in liens_manuels and not (MOTS_DEFENSE.search(page["texte"]) and slug(nom.split()[-1]) in slug(page["texte"])):
-            continue  # la page ne parle ni de défense ni de l'établissement
+        if not page or len(page["texte"]) < 200:
+            print(f"     · illisible      {u[:100]}"); continue
+        t = slug(page["texte"])
+        if u not in liens_manuels and not (MOTS_DEFENSE.search(page["texte"]) and slug(ville) in t):
+            print(f"     · hors sujet     {u[:100]}"); continue
         if u not in liens_manuels and not trier(c, page):
-            continue
+            print(f"     · écartée (tri)  {u[:100]}"); continue
         r = analyser_page(c, page)
-        if not r: continue
+        if not r:
+            print(f"     · rien d'utile   {u[:100]}"); continue
+        print(f"     ✓ {len(r.get('elements', []))} élément(s)  {u[:100]}")
         for e in r.get("elements", []):
             e["trouve_le"] = datetime.date.today().isoformat()
             if cle_element(e) not in deja:
@@ -342,7 +348,7 @@ def main():
     ap.add_argument("--statut", choices=["active", "dormante", "projet"])
     ap.add_argument("--verifier", action="store_true")
     ap.add_argument("--max", type=int, default=0)
-    ap.add_argument("--profondeur", type=int, default=6, help="pages lues par fiche")
+    ap.add_argument("--profondeur", type=int, default=12, help="pages lues par fiche")
     ap.add_argument("--question")
     a = ap.parse_args()
     if not CLE:
@@ -350,6 +356,11 @@ def main():
 
     classes = lire_classes()
     resumes = lire_resumes()
+    try:
+        test = demander("Réponds OK.", "Test", jsonmode=False, max_tokens=5, specialite="tri")
+        print("Connexion au modèle :", "OK" if test else "ÉCHEC")
+    except Exception as e:
+        print("Connexion au modèle : ÉCHEC", e)
     print(f"{len(classes)} fiches · {BASE} · modèle principal {choisir_modele()} · " + ", ".join(f"{k}={v or choisir_modele()}" for k, v in SPECIALITES.items()))
     if a.question:
         question_libre(a.question, classes, resumes); return
