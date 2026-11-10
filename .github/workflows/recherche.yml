@@ -2,6 +2,9 @@ name: Recherche web
 
 # Lancée depuis une fiche du site (bouton « Chercher en ligne ») ou à la main depuis l'onglet Actions.
 on:
+  # Veille automatique : chaque nuit vers 3 h, les 12 fiches vérifiées il y a le plus longtemps
+  schedule:
+    - cron: "17 2 * * *"
   workflow_dispatch:
     inputs:
       fiche:
@@ -11,7 +14,7 @@ on:
         description: "Liens d'articles à lire en priorité (séparés par des espaces)"
         default: ""
       filtre:
-        description: "Si pas de fiche : toutes / verifier / dormante / projet / active"
+        description: "Si pas de fiche : toutes / verifier / dormante / projet / active / palmares"
         default: "verifier"
       maximum:
         description: "Nombre maximum de fiches (0 = pas de limite)"
@@ -47,13 +50,16 @@ jobs:
           FILTRE: ${{ inputs.filtre }}
           MAXI: ${{ inputs.maximum }}
         run: |
-          if [ -n "$FICHE" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python3 recherche/recherche_web.py --palmares --rotation 12
+          elif [ -n "$FICHE" ]; then
             python3 recherche/recherche_web.py --fiche "$FICHE" --liens "$LIENS"
           else
             OPT=""
             case "$FILTRE" in
               verifier) OPT="--verifier" ;;
               dormante|projet|active) OPT="--statut $FILTRE" ;;
+              palmares) OPT="--palmares" ;;
             esac
             python3 recherche/recherche_web.py $OPT --max "${MAXI:-0}"
           fi
@@ -61,7 +67,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add data/recherche.js classes || true
+          git add data/recherche.js data/actualites.js classes || true
           git diff --cached --quiet && exit 0
-          git commit -m "Veille web : ${{ inputs.fiche || inputs.filtre }}"
+          git commit -m "Veille web : ${{ inputs.fiche || inputs.filtre || 'veille automatique' }}"
           git pull --rebase origin main && git push

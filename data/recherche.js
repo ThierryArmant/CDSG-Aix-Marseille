@@ -6,7 +6,7 @@ window.CDSG_WEB = {
   "nb": 3,
   "derniere_activite": "2026-07-03",
   "derniers": {
-   "ceremonie": {
+   "distinction": {
     "date": "2026-07-03",
     "titre": "Remise du prix inter armées 2025-2026",
     "resume": "Le 3 juillet 2026, le Collège Jean Giono a reçu le prix inter armées 2025-2026 lors d’une cérémonie.",
@@ -18,6 +18,14 @@ window.CDSG_WEB = {
    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html",
    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Acces-ressources-.html",
    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Vie-de-l-etablissement-.html"
+  ],
+  "distinctions": [
+   {
+    "date": "2026-07-03",
+    "titre": "Remise du prix inter armées 2025-2026",
+    "resume": "Le 3 juillet 2026, le Collège Jean Giono a reçu le prix inter armées 2025-2026 lors d’une cérémonie.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html"
+   }
   ]
  }
 };

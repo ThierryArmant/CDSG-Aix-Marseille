@@ -34,6 +34,7 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 FICHIER_CLASSES = RACINE / "data" / "classes.js"
 FICHIER_RESUME = RACINE / "data" / "recherche.js"
+FICHIER_ACTUS = RACINE / "data" / "actualites.js"
 DOSSIER_CLASSES = RACINE / "classes"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 
@@ -47,8 +48,15 @@ SPECIALITES = {
     "synthese":   os.environ.get("MODELE_SYNTHESE")   or "",   # observations de la fiche
     "question":   os.environ.get("MODELE_QUESTION")   or "",   # réponses aux questions
 }
-TYPES = ["sortie", "ceremonie", "convention", "article", "rapport", "projet", "partenaire", "autre"]
-MOTS_DEFENSE = re.compile(r"d[ée]fense|cdsg|militaire|arm[ée]e|base a[ée]rienne|r[ée]giment|gendarmerie|pompier|marine|"
+TYPES = ["distinction", "sortie", "ceremonie", "convention", "article", "rapport", "projet", "partenaire", "autre"]
+PREFECTURES = {"13": "bouches-du-rhone.gouv.fr", "84": "vaucluse.gouv.fr", "04": "alpes-de-haute-provence.gouv.fr", "05": "hautes-alpes.gouv.fr"}
+# Concours et prix où les classes défense sont souvent récompensées (recherche « palmarès »)
+PALMARES = ["prix Armées zone Sud lauréats", "prix Armées zone Sud collège classe défense", "prix inter-armées classe défense lauréat",
+            "concours Clemenceau lauréats collège", "concours national de la Résistance et de la Déportation lauréats Vaucluse",
+            "concours national de la Résistance et de la Déportation lauréats Bouches-du-Rhône", "Bulles de mémoire ONACVG lauréats",
+            "prix de l'éducation citoyenne ANMONM lauréats", "trophées classes défense lauréats", "prix trinôme académique Aix-Marseille",
+            "classe défense récompensée préfet", "classe défense prix Provence collège", "labellisation classe défense et sécurité globales Aix-Marseille"]
+MOTS_DEFENSE = re.compile(r"d[ée]fense|cdsg|prix|laur[ée]at|concours|r[ée]compens|distinction|m[ée]daille|troph[ée]e|militaire|arm[ée]e|base a[ée]rienne|r[ée]giment|gendarmerie|pompier|marine|"
                           r"l[ée]gion|c[ée]r[ée]monie|comm[ée]mor|m[ée]moire|11 novembre|8 mai|rallye|trin[ôo]me|convention", re.I)
 
 
@@ -120,11 +128,17 @@ def http_get(url, timeout=20):
 class Page(HTMLParser):
     def __init__(self):
         super().__init__(); self.txt = []; self.liens = []; self.skip = 0; self.titre = ""; self._t = False; self._a = None
+        self.meta = {}
     def handle_starttag(self, tag, a):
         a = dict(a)
         if tag in ("script", "style", "noscript", "svg"): self.skip += 1
         if tag == "title": self._t = True
         if tag == "a" and a.get("href"): self._a = [a["href"], ""]
+        if tag == "meta":
+            k = (a.get("property") or a.get("name") or "").lower()
+            if k in ("og:image", "twitter:image", "og:title", "og:site_name", "article:published_time",
+                     "og:description", "date", "dc.date", "pubdate") and a.get("content") and k not in self.meta:
+                self.meta[k] = a["content"].strip()
     def handle_endtag(self, tag):
         if tag in ("script", "style", "noscript", "svg") and self.skip: self.skip -= 1
         if tag == "title": self._t = False
@@ -141,7 +155,13 @@ def lire_page(url, maxi=7000):
         p = Page(); p.feed(brut)
         texte = re.sub(r"\s+", " ", " ".join(p.txt))
         liens = [(urllib.parse.urljoin(final, h), t.strip()) for h, t in p.liens]
-        return {"url": final, "titre": p.titre[:200], "texte": texte[:maxi], "liens": liens}
+        m = p.meta
+        image = m.get("og:image") or m.get("twitter:image")
+        if image: image = urllib.parse.urljoin(final, image)
+        if image and re.search(r"logo|favicon|default|placeholder", image, re.I): image = None
+        date = (m.get("article:published_time") or m.get("date") or m.get("dc.date") or m.get("pubdate") or "")[:10] or None
+        return {"url": final, "titre": (m.get("og:title") or p.titre)[:200], "texte": texte[:maxi], "liens": liens,
+                "image": image, "date_pub": date, "site": m.get("og:site_name") or urllib.parse.urlsplit(final).netloc.replace("www.", "")}
     except Exception:
         return None
 
@@ -239,13 +259,15 @@ def demander(systeme, utilisateur, jsonmode=True, max_tokens=1500, specialite=""
 SYSTEME_EXTRACTION = """Tu fais la veille d'une classe défense et sécurité globales (CDSG) de l'académie d'Aix-Marseille.
 On te donne la fiche de la classe et le texte d'UNE page web.
 Relève tout ce qui concerne la classe défense de CET établissement (pas un homonyme, pas un autre collège) :
-sorties, visites de base ou de régiment, cérémonies (11 novembre, 8 mai…), signature ou renouvellement de convention,
+DISTINCTIONS en priorité : prix, concours (prix Armées zone Sud, prix inter-armées, concours Clemenceau, CNRD, Bulles de mémoire,
+prix ANMONM…), récompenses, lauréats, mentions, labels, médailles, décorations, remises de fanion ou de diplôme, félicitations du préfet ;
+puis sorties, visites de base ou de régiment, cérémonies (11 novembre, 8 mai…), signature ou renouvellement de convention,
 unité marraine, rallye citoyen, concours, projets, articles de presse, rapports ou bilans, noms des professeurs référents.
 N'invente rien : uniquement ce qui est écrit dans la page.
 Réponds en JSON :
 {"concerne": true|false,
  "elements": [
-   {"type": "sortie|ceremonie|convention|article|rapport|projet|partenaire|autre",
+   {"type": "distinction|sortie|ceremonie|convention|article|rapport|projet|partenaire|autre",
     "date": "AAAA-MM-JJ, AAAA-MM ou AAAA (date de l'événement ; sinon de la publication) ou null",
     "titre": "titre court en français",
     "extrait": "courte citation exacte de la page (25 mots maximum)",
@@ -261,7 +283,9 @@ def analyser_page(c, page):
                  f"\n\nPage : {page['url']}\nTitre : {page['titre']}\n\n{page['texte']}", specialite="extraction")
     if not r or not r.get("concerne"): return None
     for e in r.get("elements", []):
-        e["source"] = page["url"]; e["page"] = page["titre"]
+        e["source"] = page["url"]; e["page"] = page["titre"]; e["site"] = page.get("site")
+        if page.get("image"): e["image"] = page["image"]
+        if not e.get("date") and page.get("date_pub"): e["date"] = page["date_pub"]
         if e.get("type") not in TYPES: e["type"] = "autre"
         e["extrait"] = " ".join((e.get("extrait") or "").split()[:25])
     return r
@@ -284,6 +308,7 @@ def cle_element(e):
 def fusionner(existant, e):
     """Complète un élément déjà connu (date manquante, autres sources)."""
     if not existant.get("date") and e.get("date"): existant["date"] = e["date"]
+    if not existant.get("image") and e.get("image"): existant["image"] = e["image"]
     if e.get("source") and e["source"] != existant.get("source"):
         autres = existant.setdefault("autres_sources", [])
         if e["source"] not in autres: autres.append(e["source"])
@@ -297,14 +322,14 @@ def date_tri(e):
 def faire_resume(c, v):
     els = sorted(v["elements"], key=date_tri, reverse=True)
     derniers = {}
-    for t in ("sortie", "ceremonie", "convention", "article", "rapport", "projet"):
+    for t in ("distinction", "sortie", "ceremonie", "convention", "article", "rapport", "projet"):
         e = next((x for x in els if x["type"] == t), None)
         if e: derniers[t] = {k: e.get(k) for k in ("date", "titre", "resume", "source")}
     synthese = None
     if els:
         lignes = "\n".join(f"- [{e['type']}] {e.get('date') or '?'} — {e.get('titre')} : {e.get('resume')}" for e in els[:40])
         synthese = demander("Tu rédiges en français, en 3 phrases factuelles maximum, l'état de la classe défense "
-                            "à partir des éléments de veille : activité la plus récente, partenaires, faits marquants. "
+                            "à partir des éléments de veille : activité la plus récente, distinctions et prix obtenus, partenaires, faits marquants. "
                             "N'invente rien. Réponds en texte simple.",
                             f"Classe : {c['etab']} ({c['ville']})\nÉléments :\n{lignes}", jsonmode=False, max_tokens=300, specialite="synthese")
     return {"date": datetime.date.today().strftime("%d/%m/%Y"),
@@ -312,6 +337,7 @@ def faire_resume(c, v):
             "nb": len(els),
             "derniere_activite": els[0].get("date") if els else None,
             "derniers": derniers,
+            "distinctions": [{k: e.get(k) for k in ("date", "titre", "resume", "source")} for e in els if e["type"] == "distinction"],
             "sources": list(dict.fromkeys(e["source"] for e in els))[:8]}
 
 
@@ -327,6 +353,14 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
         f'{nom} {ville} convention classe défense {unite}',
         f'{nom} {ville} classe défense La Provence OR Vaucluse Matin OR Dauphiné',
         f'collège OR lycée {ville} "classe défense" élèves',
+        f'site:laprovence.com {nom} {ville} défense',
+        f'site:ledauphine.com {nom} {ville} défense',
+        f'site:defense.gouv.fr {nom} {ville}',
+        f'{nom} {ville} prix OR lauréat OR concours OR récompense classe défense',
+        f'"prix Armées zone Sud" OR "prix inter-armées" OR "concours Clemenceau" {nom} {ville}',
+        f'site:{PREFECTURES.get(c.get("dep"), "gouv.fr")} {nom} {ville}',
+        f'site:onac-vg.fr {nom} {ville}',
+        f'site:ac-aix-marseille.fr {nom} {ville} classe défense',
         f'{ville} {unite} élèves classe défense' if unite else f'{ville} classe défense élèves {nom}',
     ]
     urls_web = []
@@ -352,7 +386,12 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
         else: uniques[k] = e
     v["elements"] = list(uniques.values())
     deja = {cle_element(e): e for e in v["elements"]}
+    # articles retirés à la main depuis le site : ne jamais les remettre
+    exclus_src = {x.get("source") for x in v.get("exclus", [])}
+    exclus_cle = {(x.get("type"), x.get("cle")) for x in v.get("exclus", [])}
     vues = set(v.get("pages_lues", []))
+    exclus_pages = {x.get("source") for x in v.get("exclus", [])}
+    urls = [u for u in urls if u in liens_manuels or u not in exclus_pages]
     a_lire = [u for u in urls if u in liens_manuels or u not in vues][: profondeur + len(liens_manuels) + len(urls_site)]
     print(f"   {len(urls)} pages trouvées ({len(urls_site)} sur le site de l'établissement), {len(a_lire)} à lire")
     nouveaux = 0
@@ -373,6 +412,8 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
         for e in r.get("elements", []):
             e["trouve_le"] = datetime.date.today().isoformat()
             k = cle_element(e)
+            if e.get("source") in exclus_src or k in exclus_cle:
+                continue
             if k in deja:
                 fusionner(deja[k], e)
             else:
@@ -400,6 +441,64 @@ def question_libre(question, classes, resumes):
                    "Fiches :\n" + "\n".join(lignes) + "\n\nQuestion : " + question, jsonmode=False, specialite="question") or "Pas de réponse.")
 
 
+def palmares(classes, resumes, maxi_pages=25):
+    """Cherche les palmarès des concours et prix, puis rattache chaque page aux classes qu'elle cite."""
+    urls = []
+    for q in PALMARES:
+        for u in recherche_web(q, n=4):
+            if u not in urls: urls.append(u)
+        time.sleep(1.2)
+    print(f"Palmarès : {len(urls)} pages à examiner")
+    touchees = set()
+    for u in urls[:maxi_pages]:
+        page = lire_page(u, maxi=12000)
+        if not page or len(page["texte"]) < 200: continue
+        t = slug(page["texte"])
+        for c in classes:
+            mots = [m for m in slug(c["etab"]).split("-") if len(m) > 3 and m not in ("college", "lycee", "prive", "professionnel", "metiers")]
+            if not mots or slug(c["ville"]).split("-")[0] not in t: continue
+            if not all(m in t for m in mots[-2:]): continue
+            r = analyser_page(c, page)
+            if not r: continue
+            v = lire_veille(c["id"])
+            exclus = {x.get("source") for x in v.get("exclus", [])}
+            if u in exclus: continue
+            connus = {cle_element(e): e for e in v["elements"]}
+            n = 0
+            for e in r.get("elements", []):
+                k = cle_element(e)
+                if k in connus: fusionner(connus[k], e)
+                else: e["trouve_le"] = datetime.date.today().isoformat(); v["elements"].append(e); connus[k] = e; n += 1
+            if n:
+                v["elements"].sort(key=date_tri, reverse=True); ecrire_veille(c["id"], v)
+                resumes[c["id"]] = faire_resume(c, v); touchees.add(c["id"])
+                print(f"   ✓ {c['etab']} ({c['ville']}) : {n} élément(s) — {u[:90]}")
+    ecrire_resumes(resumes); ecrire_actualites(classes)
+    print(f"Palmarès : {len(touchees)} classe(s) complétée(s)")
+
+
+def ecrire_actualites(classes, n=24):
+    """Les derniers éléments trouvés sur tout le réseau (page d'accueil)."""
+    tous = []
+    for c in classes:
+        f = DOSSIER_CLASSES / c["id"] / "veille.json"
+        if not f.exists(): continue
+        for e in json.loads(f.read_text(encoding="utf-8")).get("elements", []):
+            if e.get("type") == "autre" and not e.get("image"): continue
+            tous.append(dict({k: e.get(k) for k in ("date", "type", "titre", "resume", "source", "image", "site")},
+                             fiche=c["id"], etab=c["etab"], ville=c["ville"]))
+    tous.sort(key=date_tri, reverse=True)
+    FICHIER_ACTUS.write_text("// Dernières nouvelles du réseau — généré par recherche/recherche_web.py\n"
+        "window.CDSG_ACTUS = " + json.dumps(tous[:n], ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
+
+
+def derniere_recherche(cid):
+    f = DOSSIER_CLASSES / cid / "veille.json"
+    if not f.exists(): return ""
+    r = json.loads(f.read_text(encoding="utf-8")).get("recherches", [])
+    return r[-1]["date"] if r else ""
+
+
 def main():
     ap = argparse.ArgumentParser(description="Veille web des CDSG")
     ap.add_argument("--fiche", help="identifiant d'une fiche (ex. college-jean-giono-orange)")
@@ -409,6 +508,9 @@ def main():
     ap.add_argument("--max", type=int, default=0)
     ap.add_argument("--profondeur", type=int, default=12, help="pages lues par fiche")
     ap.add_argument("--question")
+    ap.add_argument("--palmares", action="store_true", help="cherche les palmarès des concours et prix pour tout le réseau")
+    ap.add_argument("--rotation", type=int, default=0,
+                    help="veille automatique : traite les N fiches vérifiées il y a le plus longtemps")
     a = ap.parse_args()
     if not CLE:
         sys.exit("Clé absente : export ALBERT_API_KEY=\"…\" (ou secret GitHub ALBERT_API_KEY).")
@@ -423,12 +525,17 @@ def main():
     print(f"{len(classes)} fiches · {BASE} · modèle principal {choisir_modele()} · " + ", ".join(f"{k}={v or choisir_modele()}" for k, v in SPECIALITES.items()))
     if a.question:
         question_libre(a.question, classes, resumes); return
+    if a.palmares:
+        palmares(classes, resumes)
+        if not (a.rotation or a.fiche or a.statut or a.verifier): return
 
     cible = [c for c in classes
              if (not a.fiche or c["id"] == a.fiche)
              and (not a.statut or c["statut"] == a.statut)
              and (not a.verifier or c.get("verifier"))]
     if a.fiche and not cible: sys.exit(f"Fiche inconnue : {a.fiche}")
+    if a.rotation:
+        cible = sorted(cible, key=lambda c: (derniere_recherche(c["id"]), {"active": 0, "dormante": 1, "projet": 2}[c["statut"]]))[:a.rotation]
     if a.max: cible = cible[:a.max]
     liens = [l for l in re.split(r"[\s,]+", a.liens) if l.startswith("http")]
     print(f"{len(cible)} fiche(s) à traiter")
@@ -437,6 +544,7 @@ def main():
         v = traiter_fiche(c, liens if a.fiche else (), a.profondeur)
         resumes[c["id"]] = faire_resume(c, v)
         ecrire_resumes(resumes)
+        ecrire_actualites(classes)
     print("Terminé.")
 
 

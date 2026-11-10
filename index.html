@@ -148,6 +148,26 @@
   .chrono .s{font-size:12px}
   .lancer{margin-top:16px;background:#f3f4fb;border-radius:12px;padding:12px 14px}
   .lancer textarea{width:100%;min-height:54px;border:1px solid var(--trait);border-radius:8px;padding:8px;font:inherit;font-size:13px;margin:6px 0}
+  .presse{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:6px 0 16px}
+  .art{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--trait);border-radius:12px;overflow:hidden;text-decoration:none;color:var(--encre);transition:box-shadow .15s}
+  .art:hover{box-shadow:0 8px 22px rgba(16,27,92,.12)}
+  .art .img{height:110px;background:#e9ecf8 center/cover no-repeat;display:flex;align-items:center;justify-content:center;color:var(--bleu);font-family:var(--serif);font-size:28px}
+  .art .tx{padding:9px 11px 11px;font-size:13px;line-height:1.35}
+  .art .tx b{display:block;font-size:13.5px;margin-bottom:3px}
+  .art .mt{color:var(--gris);font-size:11.5px;margin-top:4px}
+  .retirer{position:absolute;top:6px;right:6px;border:0;border-radius:999px;background:rgba(255,255,255,.92);color:var(--rouge);font-size:11px;padding:3px 8px;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.15)}
+  .chrono .retirer{position:static;margin-left:6px;box-shadow:none;background:#fde6e9}
+  #actus .presse{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+  #actus .art .img{height:140px}
+  .distinctions{background:linear-gradient(135deg,#fff8e6,#fdf1d6);border:1px solid #ecd7a4;border-radius:12px;padding:12px 14px;margin:0 0 14px}
+  .distinctions h4{color:#8a6a2e!important}
+  .distinctions li{margin:4px 0;font-size:14px}
+  .medaille{display:inline-block;font-size:11px;font-weight:600;border-radius:999px;padding:2px 8px;background:#fdf1d6;color:#8a6a2e;margin-left:4px}
+  .medailles{position:absolute;top:22px;right:64px;display:flex;gap:4px;align-items:flex-start}
+  .medailles svg{filter:drop-shadow(0 2px 2px rgba(0,0,0,.18));cursor:help}
+  .fiche .c{position:relative}
+  .carte .med{display:flex;gap:2px;margin-top:2px}
+  .carte .haut{position:relative}
   footer{border-top:1px solid var(--trait);padding:26px 6vw;text-align:center;color:var(--gris);font-size:13px}
   @media (max-width:820px){.tuiles{grid-template-columns:repeat(2,1fr)}.reglages .grid{grid-template-columns:1fr}.qbox{flex-direction:column}.qbox button{padding:12px}}
   @media print{
@@ -176,6 +196,7 @@
 
 <nav class="sommaire"><div class="in">
   <a href="#synthese">Synthèse</a>
+  <a href="#actus">Actualités</a>
   <a href="#assistant">Poser une question</a>
   <a href="#dossier">Les fiches</a>
   <a href="#methode">Méthode</a>
@@ -188,6 +209,13 @@
     <p class="lead">Chaque classe est rattachée à un établissement, un chef d'établissement, un ou plusieurs professeurs référents et une unité marraine. Cliquez sur une tuile pour filtrer les fiches.</p>
     <div class="tuiles" id="tuiles"></div>
     <table class="dep" id="tabDep"></table>
+  </section>
+
+  <!-- ═════════════ ACTUALITÉS ═════════════ -->
+  <section id="actus" style="display:none">
+    <h2>Actualités des classes</h2>
+    <p class="lead">Dernières sorties, cérémonies, conventions et articles de presse repérés en ligne. Mise à jour automatique chaque nuit. Cliquez pour lire.</p>
+    <div class="presse" id="actusGrille"></div>
   </section>
 
   <!-- ═════════════ ASSISTANT ═════════════ -->
@@ -276,16 +304,19 @@
 
 <script src="data/classes.js"></script>
 <script src="data/recherche.js"></script>
+<script src="data/actualites.js" onerror="window.CDSG_ACTUS=[]"></script>
 <script>
 (function(){
 "use strict";
 const DEP = {"13":"Bouches-du-Rhône","84":"Vaucluse","04":"Alpes-de-Haute-Provence","05":"Hautes-Alpes"};
 const LIB = {active:"Active", dormante:"En sommeil", projet:"En projet"};
-const TYP = {sortie:"Dernière sortie",ceremonie:"Dernière cérémonie",convention:"Dernière convention",article:"Dernier article",rapport:"Dernier rapport",projet:"Dernier projet",partenaire:"Partenaire",autre:"Autre"};
+const TYP = {distinction:"Dernière distinction",sortie:"Dernière sortie",ceremonie:"Dernière cérémonie",convention:"Dernière convention",article:"Dernier article",rapport:"Dernier rapport",projet:"Dernier projet",partenaire:"Partenaire",autre:"Autre"};
 const WEB = window.CDSG_WEB || {};
 const norm = s => (s||"").toString().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
 const slug = s => norm(s).replace(/ /g,"-");
 const esc = s => (s||"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const hote = u => { try{ return new URL(u).hostname.replace(/^www\./,""); }catch(x){ return "source"; } };
+const dateFr = d => { if(!d) return ""; const m=d.match(/^(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/); if(!m) return d; const mois=["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."]; return (m[3]?(+m[3])+" ":"")+(m[2]?mois[+m[2]-1]+" ":"")+m[1]; };
 
 const DATA = (window.CDSG||[]).map(c => Object.assign({}, c, {id: c.id || slug(c.etab+" "+c.ville)}));
 let PAR_ID = Object.fromEntries(DATA.map(c=>[c.id,c]));
@@ -407,6 +438,32 @@ document.getElementById("tabDep").innerHTML =
 
 synthese();
 
+/* ───────── Médailles (distinctions) ───────── */
+function rangDistinction(d){
+  const t = norm((d.titre||"")+" "+(d.resume||""));
+  if(/\b(1er|1re|premier|premiere|laureat|grand prix|vainqueur|gagnant|or)\b/.test(t)) return "or";
+  if(/\b(2e|2eme|deuxieme|second|seconde|argent)\b/.test(t)) return "argent";
+  if(/\b(3e|3eme|troisieme|bronze)\b/.test(t)) return "bronze";
+  if(/\b(mention|participation|encouragement|diplome|finaliste|selectionne)/.test(t)) return "mention";
+  if(/\b(prix|recompense|trophee|medaille|palmares)\b/.test(t)) return "or";
+  return "mention";
+}
+const METAL = {or:["#f7d774","#c9962b","#8a6413"], argent:["#f1f3f6","#b8bec8","#7c8390"], bronze:["#f0b98a","#b8733c","#7a4520"], mention:["#dfe6ff","#6f86e0","#2c3f9e"]};
+const RUBAN = {or:["#1d2f8f","#ffffff","#d8243a"], argent:["#1d2f8f","#ffffff","#1d2f8f"], bronze:["#d8243a","#ffffff","#d8243a"], mention:["#2c3f9e","#8fa3f0","#2c3f9e"]};
+function medaille(d, taille){
+  const r = rangDistinction(d), m = METAL[r], rb = RUBAN[r], uid = "m"+Math.random().toString(36).slice(2,8), w = taille||34;
+  const lib = {or:"1er prix / lauréat", argent:"2e prix", bronze:"3e prix", mention:"Mention / participation"}[r];
+  return `<svg width="${w}" height="${w*1.55}" viewBox="0 0 40 62" role="img"><title>${esc((d.titre||"Distinction")+" — "+(dateFr(d.date)||"date ?")+" ("+lib+")")}</title>
+    <defs><radialGradient id="${uid}" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="${m[0]}"/><stop offset=".6" stop-color="${m[1]}"/><stop offset="1" stop-color="${m[2]}"/></radialGradient></defs>
+    <path d="M8 0 h8 v24 l-4 4 l-4 -4z" fill="${rb[0]}"/><path d="M16 0 h8 v26 l-4 3 l-4 -3z" fill="${rb[1]}"/><path d="M24 0 h8 v24 l-4 4 l-4 -4z" fill="${rb[2]}"/>
+    <circle cx="20" cy="43" r="15" fill="url(#${uid})" stroke="${m[2]}" stroke-width="1.2"/>
+    <circle cx="20" cy="43" r="11" fill="none" stroke="${m[0]}" stroke-width="1" opacity=".7"/>
+    <path d="M20 35 l2.4 5 5.4 .6 -4 3.7 1.1 5.4 -4.9 -2.8 -4.9 2.8 1.1 -5.4 -4 -3.7 5.4 -.6z" fill="${m[0]}" stroke="${m[2]}" stroke-width=".6"/>
+  </svg>`;
+}
+const ORDRE_RANG = {or:0,argent:1,bronze:2,mention:3};
+const triDist = L => L.slice().sort((a,b)=>ORDRE_RANG[rangDistinction(a)]-ORDRE_RANG[rangDistinction(b)] || (b.date||"").localeCompare(a.date||""));
+
 /* ───────── Fiches ───────── */
 const etat = {statut:"", dep:"", q:""};
 function choisir(seg, v){
@@ -427,7 +484,7 @@ function afficher(){
   document.getElementById("compte").textContent = `${L.length} fiche${L.length>1?"s":""}`;
   document.getElementById("cartes").innerHTML = L.map(c=>`
     <article class="carte ${c.statut}" data-id="${c.id}">
-      <div class="haut"><div class="t">${esc(c.etab)}</div><div>${badges(c)}</div></div>
+      <div class="haut"><div class="t">${esc(c.etab)}</div><div style="text-align:right">${badges(c)}${(()=>{ const D=triDist((WEB[c.id]||{}).distinctions||[]); return D.length?`<div class="med" style="justify-content:flex-end">${D.slice(0,4).map(d=>medaille(d,16)).join("")}${D.length>4?`<span style="font-size:11px;color:var(--gris)">+${D.length-4}</span>`:""}</div>`:""; })()}</div></div>
       <div class="v">${esc(c.ville)} · ${c.dep}</div>
       <dl><dt>Chef d'étab.</dt><dd>${esc(c.ce)}</dd><dt>Référent(s)</dt><dd>${esc(c.ref)}</dd><dt>Unité</dt><dd>${esc(c.unite)}</dd></dl>
     </article>`).join("");
@@ -443,6 +500,7 @@ function ouvrir(id){
   document.getElementById("fiche").innerHTML = `
     <div class="bandeau"></div><div class="c">
     <button class="fermer" aria-label="Fermer">×</button>
+    ${(()=>{ const D=triDist((w&&w.distinctions)||[]); return D.length?`<div class="medailles">${D.slice(0,6).map(d=>medaille(d,30)).join("")}</div>`:""; })()}
     <div>${badges(c)}</div>
     <h3>${esc(c.etab)}</h3>
     <div class="id">Fiche ${esc(id)}</div>
@@ -567,20 +625,92 @@ async function enregistrer(id){
 document.getElementById("ajouter").onclick = ()=>editer(null);
 
 /* ───────── Dossier de la classe (veille en ligne) ───────── */
+const ICO = {distinction:"🏅",sortie:"⛰",ceremonie:"✦",convention:"✍",article:"❝",rapport:"▤",projet:"◆",partenaire:"⚑",autre:"•"};
+function carteArticle(e, retirable){
+  const img = e.image ? `style="background-image:url('${esc(e.image)}')"` : "";
+  return `<a class="art" href="${esc(e.source)}" target="_blank" rel="noopener">
+    <div class="img" ${img}>${e.image?"":(ICO[e.type]||"•")}</div>
+    <div class="tx"><b>${esc(e.titre||"")}</b>${esc((e.resume||"").slice(0,140))}${(e.resume||"").length>140?"…":""}
+    <div class="mt">${esc(e.etab? e.etab+" · ":"")}${esc(e.site||hote(e.source))}${e.date?" · "+esc(dateFr(e.date)):""}</div></div>
+    ${retirable?`<button class="retirer" data-src="${esc(e.source)}" data-titre="${esc(e.titre||"")}" title="Retirer cet élément erroné">✕ Retirer</button>`:""}
+  </a>`;
+}
 async function chargerVeille(id){
   const zone = document.getElementById("veille"); if(!zone) return;
   let v = null;
   try{ const r = await fetch("classes/"+id+"/veille.json",{cache:"no-store"}); if(r.ok) v = await r.json(); }catch(e){}
   const w = WEB[id];
   if(!v || !(v.elements||[]).length){ zone.innerHTML = ""; return; }
+  const els = v.elements;
+  const presse = els.filter(e=>e.image || e.type==="article" || /presse|laprovence|ledauphine|vaucluse|defense\.gouv|varmatin|actu\.fr/.test(e.source||""));
   const der = (w && w.derniers) || {};
-  zone.innerHTML = `<h4>Dossier de la classe · ${v.elements.length} élément(s) trouvé(s) en ligne</h4>
-    ${Object.keys(der).length?`<div class="derniers">${Object.entries(der).map(([t,d])=>`<div><b>${TYP[t]||t}</b>${esc(d.date||"date ?")} — ${esc(d.titre||"")}</div>`).join("")}</div>`:""}
-    <ul class="chrono">${v.elements.slice(0,30).map(e=>`<li><b>${esc(e.date||"date ?")}</b> · ${esc(TYP[e.type]?TYP[e.type].replace(/^Derni(er|ère) /,""):e.type)} — ${esc(e.titre||"")}
+  zone.innerHTML = `<h4>Dossier de la classe · ${els.length} élément(s) trouvé(s) en ligne</h4>
+    ${Object.keys(der).length?`<div class="derniers">${Object.entries(der).map(([t,d])=>`<div><b>${TYP[t]||t}</b>${esc(dateFr(d.date)||"date ?")} — ${esc(d.titre||"")}</div>`).join("")}</div>`:""}
+    ${(()=>{ const d=els.filter(e=>e.type==="distinction"); return d.length?`<div class="distinctions"><h4>🏅 Distinctions, prix et récompenses (${d.length})</h4><ul style="margin:0;padding-left:18px">${d.map(e=>`<li><b>${esc(dateFr(e.date)||"date ?")}</b> — ${esc(e.titre||"")} <a href="${esc(e.source)}" target="_blank" rel="noopener" style="font-size:12px">${esc(e.site||hote(e.source))}</a></li>`).join("")}</ul></div>`:`<div class="distinctions" style="opacity:.8"><h4>🏅 Distinctions</h4><div style="font-size:13px">Aucune distinction trouvée en ligne pour l'instant.</div></div>`; })()}
+    ${presse.length?`<h4>Revue de presse et photos</h4><div class="presse">${presse.map(e=>carteArticle(e,true)).join("")}</div>`:""}
+    <h4>Chronologie</h4>
+    <ul class="chrono">${els.slice(0,40).map(e=>`<li><b>${esc(dateFr(e.date)||"date ?")}</b> · ${esc(TYP[e.type]?TYP[e.type].replace(/^Derni(er|ère) /,""):e.type)} — ${esc(e.titre||"")}
       <div>${esc(e.resume||"")}</div>${e.extrait?`<div class="q">« ${esc(e.extrait)} »</div>`:""}
-      <div class="s"><a href="${esc(e.source)}" target="_blank" rel="noopener">${esc((()=>{try{return new URL(e.source).hostname}catch(x){return "source"}})())}</a></div></li>`).join("")}</ul>
-    <div style="font-size:12px;color:var(--gris)">Informations publiques, à confirmer auprès de l'établissement. Dernière recherche : ${esc((v.recherches||[]).slice(-1)[0]?.date||"")}</div>`;
+      <div class="s"><a href="${esc(e.source)}" target="_blank" rel="noopener">${esc(e.site||hote(e.source))}</a>${(e.autres_sources||[]).map(u=>` · <a href="${esc(u)}" target="_blank" rel="noopener">${esc(hote(u))}</a>`).join("")}
+      <button class="retirer" data-src="${esc(e.source)}" data-titre="${esc(e.titre||"")}">✕ Retirer</button></div></li>`).join("")}</ul>
+    <div class="msg" id="msgRetrait"></div>
+    <div style="font-size:12px;color:var(--gris)">Informations publiques, à confirmer auprès de l'établissement. Dernière recherche : ${esc(dateFr((v.recherches||[]).slice(-1)[0]?.date||""))}. Un élément erroné ? « ✕ Retirer » : il ne sera plus repris.</div>`;
+  zone.querySelectorAll(".retirer").forEach(b=>b.onclick=(ev)=>{ ev.preventDefault(); ev.stopPropagation(); retirer(id, b.dataset.src, b.dataset.titre); });
 }
+
+/* Retirer un élément erroné du dossier d'une classe (et ne plus jamais le reprendre) */
+async function lireFichierGH(chemin, h){
+  const r = await fetch(`https://api.github.com/repos/${DEPOT.owner}/${DEPOT.repo}/contents/${chemin}?ref=${DEPOT.branche}`,{headers:h,cache:"no-store"});
+  if(r.status===404) return null;
+  if(!r.ok) throw new Error(r.status===401||r.status===403?"jeton refusé":"lecture impossible ("+r.status+")");
+  const j = await r.json(); return {sha:j.sha, texte:b64dec(j.content)};
+}
+async function ecrireFichierGH(chemin, texte, sha, message, h){
+  const r = await fetch(`https://api.github.com/repos/${DEPOT.owner}/${DEPOT.repo}/contents/${chemin}`,{method:"PUT",headers:h,
+    body:JSON.stringify({message, content:b64enc(texte), sha, branch:DEPOT.branche})});
+  if(!r.ok) throw new Error(r.status===409?"fichier modifié entre-temps, réessayez":"écriture impossible ("+r.status+")");
+}
+async function retirer(id, source, titre){
+  const m = document.getElementById("msgRetrait"), dire=(t,k)=>{ if(m){ m.className="msg on "+k; m.textContent=t; m.scrollIntoView({block:"nearest"}); } };
+  const tok = jeton.value.trim();
+  if(!tok){ dire("Pour retirer un élément, collez d'abord le jeton GitHub (cadre « Modifier les fiches et lancer les recherches : réglage » au-dessus des fiches).","err"); return; }
+  if(!confirm("Retirer « "+titre+" » du dossier ? Il ne sera plus repris par les recherches.")) return;
+  dire("Retrait en cours…","info");
+  const h = {Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"};
+  try{
+    const f = await lireFichierGH(`classes/${id}/veille.json`, h);
+    if(!f) throw new Error("dossier introuvable");
+    const v = JSON.parse(f.texte);
+    const avant = v.elements.length;
+    const ret = v.elements.filter(e=>e.source===source && (e.titre||"")===titre);
+    v.elements = v.elements.filter(e=>!(e.source===source && (e.titre||"")===titre));
+    v.exclus = v.exclus || [];
+    ret.forEach(e=>v.exclus.push({source:e.source, type:e.type, cle:slug(e.titre||"").slice(0,50), titre:e.titre, retire_le:new Date().toISOString().slice(0,10)}));
+    if(v.elements.length===avant) throw new Error("élément déjà retiré");
+    await ecrireFichierGH(`classes/${id}/veille.json`, JSON.stringify(v,null,1), f.sha, "Élément retiré : "+titre+" ("+id+")", h);
+    // retirer aussi des actualités de la page d'accueil
+    try{
+      const a = await lireFichierGH("data/actualites.js", h);
+      if(a){ const w2={}; new Function("window",a.texte)(w2);
+        const L=(w2.CDSG_ACTUS||[]).filter(x=>!(x.source===source && (x.titre||"")===titre));
+        await ecrireFichierGH("data/actualites.js","// Dernières nouvelles du réseau — généré par recherche/recherche_web.py\nwindow.CDSG_ACTUS = "+JSON.stringify(L,null,1)+";\n", a.sha, "Actualités : élément retiré", h);
+        window.CDSG_ACTUS = L; actualites(); }
+    }catch(x){}
+    dire("Retiré. Il ne sera plus repris par la veille.","ok");
+    setTimeout(()=>chargerVeille(id), 900);
+  }catch(e){ dire("Échec : "+e.message+".","err"); }
+}
+
+/* Actualités du réseau (page d'accueil) */
+function actualites(){
+  const L = window.CDSG_ACTUS || [];
+  const sec = document.getElementById("actus");
+  if(!L.length){ sec.style.display="none"; return; }
+  sec.style.display="";
+  document.getElementById("actusGrille").innerHTML = L.slice(0,12).map(e=>carteArticle(e,false)).join("");
+}
+actualites();
+
 async function lancerVeille(id){
   const m = document.getElementById("msgVeille"), dire=(t,k)=>{ m.className="msg on "+k; m.textContent=t; };
   const tok = jeton.value.trim();
@@ -597,7 +727,7 @@ async function lancerVeille(id){
 }
 
 /* ───────── Assistant ───────── */
-const EX = ["Qui est le référent à Cassis ?","Quelles classes sont parrainées par la BA 115 ?","Classes en sommeil dans le 13","Projets dans les Hautes-Alpes","Qui gère la classe du lycée Thiers ?"];
+const EX = ["Quelles classes ont reçu un prix ?","Qui est le référent à Cassis ?","Quelles classes sont parrainées par la BA 115 ?","Classes en sommeil dans le 13","Projets dans les Hautes-Alpes","Qui gère la classe du lycée Thiers ?"];
 document.getElementById("exemples").innerHTML = EX.map(e=>`<button>${esc(e)}</button>`).join("");
 document.querySelectorAll("#exemples button").forEach(b=>b.onclick=()=>{ document.getElementById("q").value=b.textContent; repondre(); });
 
@@ -665,7 +795,7 @@ async function repondre(){
   txt.textContent = "Recherche en cours…"; src.textContent="";
   try{
     const modele = await choisirModele(base, cle);
-    const contexte = DATA.map(c=>`[${c.id}] ${c.etab} | ${c.ville} | dép. ${c.dep} | statut: ${LIB[c.statut]}${c.verifier?" (à vérifier)":""} | CE: ${c.ce} | référent(s): ${c.ref} | unité: ${c.unite} | convention: ${c.conv} | suivi: ${c.suivi||"-"} | obs: ${c.note||"-"}${WEB[c.id]?" | veille: "+(WEB[c.id].resume||"")+" "+Object.entries(WEB[c.id].derniers||{}).map(([t,d])=>(TYP[t]||t)+": "+(d.date||"?")+" "+(d.titre||"")).join("; "):""}`).join("\n");
+    const contexte = DATA.map(c=>`[${c.id}] ${c.etab} | ${c.ville} | dép. ${c.dep} | statut: ${LIB[c.statut]}${c.verifier?" (à vérifier)":""} | CE: ${c.ce} | référent(s): ${c.ref} | unité: ${c.unite} | convention: ${c.conv} | suivi: ${c.suivi||"-"} | obs: ${c.note||"-"}${WEB[c.id]?" | veille: "+(WEB[c.id].resume||"")+" "+Object.entries(WEB[c.id].derniers||{}).map(([t,d])=>(TYP[t]||t)+": "+(d.date||"?")+" "+(d.titre||"")).join("; ")+((WEB[c.id].distinctions||[]).length?" | distinctions: "+WEB[c.id].distinctions.map(d=>(d.date||"?")+" "+d.titre).join("; "):""):""}`).join("\n");
     const res = await fetch(base.replace(/\/$/,"")+"/chat/completions",{method:"POST",headers:{"Content-Type":"application/json",Authorization:"Bearer "+cle},
       body:JSON.stringify({model:modele,temperature:0.1,max_tokens:600,messages:[
         {role:"system",content:"Tu aides un inspecteur à consulter le dossier des classes défense et sécurité globales (CDSG) de l'académie d'Aix-Marseille. Réponds en français, brièvement, UNIQUEMENT à partir des fiches fournies. Si l'information n'y est pas, dis-le. Termine toujours par une ligne 'FICHES: id1, id2' listant les identifiants entre crochets des fiches utiles (au plus 8)."},
