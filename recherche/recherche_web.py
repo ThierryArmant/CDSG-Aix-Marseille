@@ -101,7 +101,16 @@ def ecrire_veille(cid, v):
 
 
 # ───────────────────────── web ─────────────────────────
-def http_get(url, timeout=15):
+def adresse_sure(url):
+    """Encode les accents et espaces de l'adresse (sinon la lecture échoue)."""
+    p = urllib.parse.urlsplit(url)
+    return urllib.parse.urlunsplit((p.scheme, p.netloc.encode("idna").decode() if p.netloc else p.netloc,
+        urllib.parse.quote(p.path, safe="/%:@!$&'()*+,;=-._~"),
+        urllib.parse.quote(p.query, safe="=&%:/?+,;@-._~"), ""))
+
+
+def http_get(url, timeout=20):
+    url = adresse_sure(url)
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "fr-FR,fr;q=0.9"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         brut = r.read(800_000)
@@ -155,18 +164,42 @@ def recherche_web(requete, n=5):
     return trouves[:n]
 
 
-def explorer_site(site, maxi=6):
-    """Pages du site de l'établissement qui parlent de défense, sorties, cérémonies…"""
+HOTES_ETAB = ("site.ac-aix-marseille.fr", "web.ac-aix-marseille.fr", "pedagogie.ac-aix-marseille.fr")
+
+
+def racine_site(u):
+    """https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/x.html -> …/clg-giono-orange/"""
+    p = urllib.parse.urlsplit(u)
+    if not any(p.netloc.endswith(h) for h in HOTES_ETAB): return None
+    seg = [x for x in p.path.split("/") if x]
+    return f"{p.scheme}://{p.netloc}/{seg[0]}/" if seg else None
+
+
+def explorer_site(site, maxi=10):
+    """Pages du site de l'établissement qui parlent de défense, sorties, cérémonies…
+    Utilise aussi le moteur de recherche interne (sites SPIP de l'académie)."""
     if not site: return []
     if not site.startswith("http"): site = "https://" + site
-    accueil = lire_page(site)
-    if not accueil: return []
-    hote = urllib.parse.urlparse(accueil["url"]).netloc
+    site = site if site.endswith("/") else site + "/"
+    hote = urllib.parse.urlsplit(site).netloc
+    chemin = urllib.parse.urlsplit(site).path
     cand = []
-    for u, t in accueil["liens"]:
-        if urllib.parse.urlparse(u).netloc == hote and MOTS_DEFENSE.search(u + " " + t) and u not in cand:
-            cand.append(u)
-    return [accueil["url"]] + cand[:maxi]
+    def garder(liens):
+        for u, t in liens:
+            pu = urllib.parse.urlsplit(u)
+            if pu.netloc != hote or not pu.path.startswith(chemin): continue
+            if re.search(r"\.(jpg|jpeg|png|gif|pdf|zip|doc|docx)$|page=recherche|page=backend|#|lang=", u, re.I): continue
+            if (MOTS_DEFENSE.search(u + " " + t) or re.search(r"article|spip\.php\?article|\.html$", u)) and u not in cand:
+                cand.append(u)
+    for base in (site, site + "spip/"):
+        acc = lire_page(base)
+        if acc: garder([(u, t) for u, t in acc["liens"] if MOTS_DEFENSE.search(u + " " + t)])
+        for mot in ("classe défense", "défense", "base aérienne", "cérémonie", "sortie militaire", "CDSG"):
+            r = lire_page(base + "spip.php?" + urllib.parse.urlencode({"page": "recherche", "recherche": mot}))
+            if r: garder(r["liens"])
+        if len(cand) >= maxi: break
+    print(f"   site de l'établissement {site} : {len(cand)} page(s) candidates")
+    return cand[:maxi]
 
 
 # ───────────────────────── modèle ─────────────────────────
@@ -287,18 +320,25 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
         f'collège OR lycée {ville} "classe défense" élèves',
         f'{ville} {unite} élèves classe défense' if unite else f'{ville} classe défense élèves {nom}',
     ]
-    urls = list(liens_manuels)
-    for u in explorer_site(c.get("site")):
-        if u not in urls: urls.append(u)
+    urls_web = []
     for q in requetes:
         for u in recherche_web(q.strip()):
-            if u not in urls: urls.append(u)
+            if u not in urls_web: urls_web.append(u)
         time.sleep(1.2)
+    # site de l'établissement : celui de la fiche, sinon celui repéré dans les résultats
+    sites = [c.get("site")] if c.get("site") else []
+    for u in urls_web:
+        r = racine_site(u)
+        if r and r not in sites and len(sites) < 2: sites.append(r)
+    urls_site = []
+    for st in sites:
+        urls_site += [u for u in explorer_site(st) if u not in urls_site]
+    urls = list(liens_manuels) + [u for u in urls_site + urls_web if u not in liens_manuels]
     v = lire_veille(c["id"])
     deja = {cle_element(e) for e in v["elements"]}
     vues = set(v.get("pages_lues", []))
-    a_lire = [u for u in urls if u in liens_manuels or u not in vues][: profondeur + len(liens_manuels)]
-    print(f"   {len(urls)} pages trouvées, {len(a_lire)} à lire")
+    a_lire = [u for u in urls if u in liens_manuels or u not in vues][: profondeur + len(liens_manuels) + len(urls_site)]
+    print(f"   {len(urls)} pages trouvées ({len(urls_site)} sur le site de l'établissement), {len(a_lire)} à lire")
     nouveaux = 0
     for u in a_lire:
         page = lire_page(u)
@@ -306,7 +346,7 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
         if not page or len(page["texte"]) < 200:
             print(f"     · illisible      {u[:100]}"); continue
         t = slug(page["texte"])
-        if u not in liens_manuels and not (MOTS_DEFENSE.search(page["texte"]) and slug(ville) in t):
+        if u not in liens_manuels and not (MOTS_DEFENSE.search(page["texte"]) and (u in urls_site or slug(ville) in t)):
             print(f"     · hors sujet     {u[:100]}"); continue
         if u not in liens_manuels and not trier(c, page):
             print(f"     · écartée (tri)  {u[:100]}"); continue
