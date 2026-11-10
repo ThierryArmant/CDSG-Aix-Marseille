@@ -40,6 +40,13 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
 BASE = os.environ.get("API_BASE_URL", "https://albert.api.etalab.gouv.fr/v1").rstrip("/")
 CLE = os.environ.get("ALBERT_API_KEY") or os.environ.get("API_KEY")
 MODELE = os.environ.get("API_MODEL", "") or ("openweight-large" if "etalab.gouv.fr" in BASE else "")
+# Un modèle par spécialité (même clé). Vide = modèle principal ci-dessus.
+SPECIALITES = {
+    "tri":        os.environ.get("MODELE_TRI")        or ("openweight-small" if "etalab.gouv.fr" in BASE else ""),  # la page parle-t-elle de la classe ?
+    "extraction": os.environ.get("MODELE_EXTRACTION") or "",   # sorties, conventions, articles…
+    "synthese":   os.environ.get("MODELE_SYNTHESE")   or "",   # observations de la fiche
+    "question":   os.environ.get("MODELE_QUESTION")   or "",   # réponses aux questions
+}
 TYPES = ["sortie", "ceremonie", "convention", "article", "rapport", "projet", "partenaire", "autre"]
 MOTS_DEFENSE = re.compile(r"d[ée]fense|cdsg|militaire|arm[ée]e|base a[ée]rienne|r[ée]giment|gendarmerie|pompier|marine|"
                           r"l[ée]gion|c[ée]r[ée]monie|comm[ée]mor|m[ée]moire|11 novembre|8 mai|rallye|trin[ôo]me|convention", re.I)
@@ -182,8 +189,8 @@ def choisir_modele():
     MODELE = ids[0]; return MODELE
 
 
-def demander(systeme, utilisateur, jsonmode=True, max_tokens=1500):
-    corps = {"model": choisir_modele(), "temperature": 0.1, "max_tokens": max_tokens,
+def demander(systeme, utilisateur, jsonmode=True, max_tokens=1500, specialite=""):
+    corps = {"model": SPECIALITES.get(specialite) or choisir_modele(), "temperature": 0.1, "max_tokens": max_tokens,
              "messages": [{"role": "system", "content": systeme}, {"role": "user", "content": utilisateur}]}
     for essai in range(3):
         try:
@@ -218,13 +225,22 @@ def analyser_page(c, page):
     fiche = {k: c.get(k) for k in ("etab", "ville", "dep", "ce", "ref", "unite", "conv")}
     r = demander(SYSTEME_EXTRACTION,
                  "Fiche :\n" + json.dumps(fiche, ensure_ascii=False) +
-                 f"\n\nPage : {page['url']}\nTitre : {page['titre']}\n\n{page['texte']}")
+                 f"\n\nPage : {page['url']}\nTitre : {page['titre']}\n\n{page['texte']}", specialite="extraction")
     if not r or not r.get("concerne"): return None
     for e in r.get("elements", []):
         e["source"] = page["url"]; e["page"] = page["titre"]
         if e.get("type") not in TYPES: e["type"] = "autre"
         e["extrait"] = " ".join((e.get("extrait") or "").split()[:25])
     return r
+
+
+def trier(c, page):
+    """Petit modèle : la page concerne-t-elle la classe défense de cet établissement ?"""
+    r = demander("Réponds uniquement par OUI ou NON.",
+                 f"La page suivante parle-t-elle de la classe défense (CDSG), d'une sortie, d'une cérémonie ou d'un partenariat "
+                 f"militaire des élèves de « {c['etab']} » à {c['ville']} ?\n\nTitre : {page['titre']}\n{page['texte'][:2500]}",
+                 jsonmode=False, max_tokens=5, specialite="tri")
+    return r is None or "OUI" in r.upper()   # en cas de panne du tri, on laisse passer
 
 
 def cle_element(e):
@@ -248,7 +264,7 @@ def faire_resume(c, v):
         synthese = demander("Tu rédiges en français, en 3 phrases factuelles maximum, l'état de la classe défense "
                             "à partir des éléments de veille : activité la plus récente, partenaires, faits marquants. "
                             "N'invente rien. Réponds en texte simple.",
-                            f"Classe : {c['etab']} ({c['ville']})\nÉléments :\n{lignes}", jsonmode=False, max_tokens=300)
+                            f"Classe : {c['etab']} ({c['ville']})\nÉléments :\n{lignes}", jsonmode=False, max_tokens=300, specialite="synthese")
     return {"date": datetime.date.today().strftime("%d/%m/%Y"),
             "resume": (synthese or "").strip(),
             "nb": len(els),
@@ -288,6 +304,8 @@ def traiter_fiche(c, liens_manuels=(), profondeur=6):
         if not page or len(page["texte"]) < 200: continue
         if u not in liens_manuels and not (MOTS_DEFENSE.search(page["texte"]) and slug(nom.split()[-1]) in slug(page["texte"])):
             continue  # la page ne parle ni de défense ni de l'établissement
+        if u not in liens_manuels and not trier(c, page):
+            continue
         r = analyser_page(c, page)
         if not r: continue
         for e in r.get("elements", []):
@@ -314,7 +332,7 @@ def question_libre(question, classes, resumes):
                       f'| unité {c.get("unite")} | conv. {c.get("conv")} | {c.get("note","")} | veille: {w.get("resume","")} {der}')
     print(demander("Tu réponds à un inspecteur sur le dossier des CDSG de l'académie d'Aix-Marseille, uniquement à partir des fiches. "
                    "Réponds en français, brièvement. Termine par une ligne 'FICHES: id1, id2'.",
-                   "Fiches :\n" + "\n".join(lignes) + "\n\nQuestion : " + question, jsonmode=False) or "Pas de réponse.")
+                   "Fiches :\n" + "\n".join(lignes) + "\n\nQuestion : " + question, jsonmode=False, specialite="question") or "Pas de réponse.")
 
 
 def main():
@@ -332,7 +350,7 @@ def main():
 
     classes = lire_classes()
     resumes = lire_resumes()
-    print(f"{len(classes)} fiches · {BASE} · modèle {choisir_modele()}")
+    print(f"{len(classes)} fiches · {BASE} · modèle principal {choisir_modele()} · " + ", ".join(f"{k}={v or choisir_modele()}" for k, v in SPECIALITES.items()))
     if a.question:
         question_libre(a.question, classes, resumes); return
 

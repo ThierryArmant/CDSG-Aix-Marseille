@@ -32,7 +32,16 @@ Les **Observations** de la fiche et les encadrés « Dernière sortie / conventi
 - **Depuis une fiche** : bouton **Chercher en ligne** (on peut coller des liens d'articles à lire en priorité). Résultat en 3 à 6 minutes.
 - **Pour plusieurs fiches** : onglet **Actions → Recherche web → Run workflow** (`verifier`, `dormante`, `projet`, `active`, `toutes`).
 
-Modèle utilisé par défaut avec Albert : `openweight-large`. Pour en changer : Settings → Secrets and variables → Actions → onglet *Variables* → `API_MODEL`.
+Un modèle par spécialité (une seule clé Albert) :
+
+| Tâche | Modèle par défaut | Variable pour le changer |
+|---|---|---|
+| Tri des pages (la page parle-t-elle de la classe ?) | `openweight-small` | `MODELE_TRI` |
+| Extraction (sorties, conventions, articles…) | `openweight-large` | `MODELE_EXTRACTION` |
+| Observations de la fiche | `openweight-large` | `MODELE_SYNTHESE` |
+| Tout le reste | `openweight-large` | `API_MODEL` |
+
+Pour changer : Settings → Secrets and variables → Actions → onglet *Variables*.
 
 En local :
 ```bash

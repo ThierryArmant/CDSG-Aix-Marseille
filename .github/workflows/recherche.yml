@@ -37,6 +37,9 @@ jobs:
         env:
           ALBERT_API_KEY: ${{ secrets.ALBERT_API_KEY }}
           API_MODEL: ${{ vars.API_MODEL }}
+          MODELE_TRI: ${{ vars.MODELE_TRI }}
+          MODELE_EXTRACTION: ${{ vars.MODELE_EXTRACTION }}
+          MODELE_SYNTHESE: ${{ vars.MODELE_SYNTHESE }}
           FICHE: ${{ inputs.fiche }}
           LIENS: ${{ inputs.liens }}
           FILTRE: ${{ inputs.filtre }}
