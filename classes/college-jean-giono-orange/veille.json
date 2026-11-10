@@ -1,6 +1,47 @@
 {
  "fiche": "college-jean-giono-orange",
- "elements": [],
+ "elements": [
+  {
+   "type": "ceremonie",
+   "date": "2026-07-03",
+   "titre": "Remise du prix inter armées 2025-2026",
+   "extrait": "Remise du prix inter armées 2025-2026",
+   "resume": "Le 3 juillet 2026, le Collège Jean Giono a reçu le prix inter armées 2025-2026 lors d’une cérémonie.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
+   "page": "CDSG - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sou",
+   "trouve_le": "2026-11-10"
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Remise du prix inter armées 2025-2026",
+   "extrait": "Remise du prix inter armées 2025-2026",
+   "resume": "Le Collège Jean Giono d'Orange a organisé la remise du prix inter armées 2025-2026, événement lié à la classe défense et sécurité globales.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html",
+   "page": "Remise du prix inter armées 2025-2026 - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer l",
+   "trouve_le": "2026-11-10"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "CDSG Option Cinéma",
+   "extrait": "CDSG Option Cinéma",
+   "resume": "Le site indique la présence d’une classe Défense et Sécurité Globales (CDSG) option cinéma au Collège Jean Giono d’Orange.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Acces-ressources-.html",
+   "page": "Accès ressources - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffi",
+   "trouve_le": "2026-11-10"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe CDSG Option Cinéma",
+   "extrait": "Classe Bilangue Latin-Grec CDSG Option Cinéma",
+   "resume": "Le collège Jean Giono propose une classe Défense et Sécurité Globales (CDSG) en option cinéma, indiquée dans la rubrique des niveaux 3ème.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Vie-de-l-etablissement-.html",
+   "page": "Vie de l'établissement - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriqu",
+   "trouve_le": "2026-11-10"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-10",
@@ -11,23 +52,44 @@
    "date": "2026-11-10",
    "pages": 8,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-10",
+   "pages": 14,
+   "nouveaux": 4
   }
  ],
  "pages_lues": [
   "https://annuaire-education.fr/etablissement/orange/college-jean-giono/0840116V.html",
+  "https://clg-giono-orange.ac-aix-marseille.fr/spip/spip.php?rubrique3",
   "https://college-lycee.com/College-Jean-Giono/Orange-0840116V",
   "https://fr.wikipedia.org/wiki/Base_aérienne_115_Orange-Caritat",
   "https://ou-vivre-en-france.fr/etablissement/0840116V-college-jean-giono",
   "https://ville-data.com/college/College-Jean-Giono-84106/Orange/84-12809-84087",
+  "https://vis-ma-classe.fr/etablissement/84106-orange/college-jean-giono-0840116v",
   "https://www.aerosteles.net/steleen-orangeba-seynes",
   "https://www.aerosteles.net/stelefr-orangeba-seynes",
   "https://www.anciens-aerodromes.com/?p=143876",
   "https://www.aucollege84.vaucluse.fr/",
+  "https://www.clg-jean-giono-83.ac-nice.fr/?Itemid=0",
   "https://www.facebook.com/ArmeesZoneSud/videos/dans-le-cadre-du-prix-armées-zone-sud-2026-le-collège-jean-giono-dorange-a-été-r/1055483347050790/",
   "https://www.facebook.com/baseaerienne115orange/posts/devoir-de-mémoire-la-classe-de-défense-et-sécurité-globale-cdsg-du-collège-jean-/3203735309845931/",
+  "https://www.ledauphine.com/culture-loisirs/2026/05/08/un-musee-au-coeur-de-la-memoire-de-la-base-aerienne-caritat",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Acces-ressources-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Actualites-7-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Actualites-Pedagogiques-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Informations-generales-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Lutte-contre-le-harcelement-scolaire-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Organigramme-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Reglements-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Vie-de-l-etablissement-.html",
   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Bienvenue.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026-231.html",
   "https://www.ville-orange.fr/base-aerienne-115/",
   "https://www.youtube.com/watch?v=-Dx0xwVa7F4"
  ],
- "etablissement": "Collège Jean Giono (Orange)"
+ "etablissement": "Collège Jean Giono (Orange)",
+ "referents_cites": "M. Armant",
+ "unite_citee": "BA 115 « Capitaine de Seynes »"
 }
