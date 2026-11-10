@@ -1,11 +1,17 @@
 name: Recherche web
 
-# Lancement à la main depuis l'onglet « Actions » du dépôt.
+# Lancée depuis une fiche du site (bouton « Chercher en ligne ») ou à la main depuis l'onglet Actions.
 on:
   workflow_dispatch:
     inputs:
+      fiche:
+        description: "Identifiant de la fiche (vide = plusieurs fiches selon le filtre)"
+        default: ""
+      liens:
+        description: "Liens d'articles à lire en priorité (séparés par des espaces)"
+        default: ""
       filtre:
-        description: "Quelles fiches ? (toutes / verifier / dormante / projet / active)"
+        description: "Si pas de fiche : toutes / verifier / dormante / projet / active"
         default: "verifier"
       maximum:
         description: "Nombre maximum de fiches (0 = pas de limite)"
@@ -14,28 +20,43 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: recherche
+  cancel-in-progress: false
+
 jobs:
   recherche:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Recherche et mise à jour des fiches
+      - name: Veille web
         env:
           ALBERT_API_KEY: ${{ secrets.ALBERT_API_KEY }}
+          API_MODEL: ${{ vars.API_MODEL }}
+          FICHE: ${{ inputs.fiche }}
+          LIENS: ${{ inputs.liens }}
+          FILTRE: ${{ inputs.filtre }}
+          MAXI: ${{ inputs.maximum }}
         run: |
-          OPT=""
-          case "${{ inputs.filtre }}" in
-            verifier) OPT="--verifier" ;;
-            dormante|projet|active) OPT="--statut ${{ inputs.filtre }}" ;;
-          esac
-          python3 recherche/recherche_web.py $OPT --max ${{ inputs.maximum }}
-      - name: Enregistrer les résultats
+          if [ -n "$FICHE" ]; then
+            python3 recherche/recherche_web.py --fiche "$FICHE" --liens "$LIENS"
+          else
+            OPT=""
+            case "$FILTRE" in
+              verifier) OPT="--verifier" ;;
+              dormante|projet|active) OPT="--statut $FILTRE" ;;
+            esac
+            python3 recherche/recherche_web.py $OPT --max "${MAXI:-0}"
+          fi
+      - name: Enregistrer dans le dépôt
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add data/recherche.js
-          git diff --cached --quiet || git commit -m "Recherche web : mise à jour des compléments"
-          git push
+          git add data/recherche.js classes || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Veille web : ${{ inputs.fiche || inputs.filtre }}"
+          git pull --rebase origin main && git push

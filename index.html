@@ -121,6 +121,33 @@
   .fiche .fermer{float:right;border:0;background:none;font-size:26px;line-height:1;color:var(--gris)}
   .fiche .id{font-size:12px;color:var(--gris)}
 
+  .edit label{display:block;margin-top:10px;font-size:13px;color:var(--gris)}
+  .edit input,.edit select,.edit textarea{display:block;width:100%;margin-top:4px;border:1px solid var(--trait);border-radius:8px;padding:8px 10px;font:inherit;color:var(--encre);background:#fff}
+  .edit textarea{min-height:70px;resize:vertical}
+  .edit .deux{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .edit .case{display:flex;gap:8px;align-items:center;margin-top:14px;color:var(--encre)}
+  .edit .case input{width:auto;margin:0}
+  .btn-prim{background:var(--bleu-f)!important;color:#fff;border-color:var(--bleu-f)!important}
+  .msg{margin-top:12px;font-size:13px;padding:10px 12px;border-radius:8px;display:none}
+  .msg.on{display:block} .msg.ok{background:#e3f2ea;color:var(--vert)} .msg.err{background:#fde6e9;color:var(--rouge)} .msg.info{background:#f3f4fb;color:var(--bleu)}
+  .gestion{margin:-8px 0 20px;font-size:13px;color:var(--gris)}
+  .gestion summary{cursor:pointer;color:var(--bleu);font-weight:500}
+  .gestion .in{background:var(--papier);border:1px solid var(--trait);border-radius:12px;padding:14px 16px;margin-top:8px}
+  .gestion input{border:1px solid var(--trait);border-radius:8px;padding:8px 10px;width:100%;max-width:520px;margin-top:4px}
+  .gestion ol{margin:8px 0;padding-left:20px}
+  .ajout{border:1px dashed var(--bleu);background:none;color:var(--bleu);border-radius:10px;padding:9px 14px;font-weight:500}
+  .veille{margin-top:18px}
+  .veille h4{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--bleu)}
+  .derniers{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px;margin-bottom:12px}
+  .derniers div{background:#f3f4fb;border-radius:10px;padding:10px 12px;font-size:13px}
+  .derniers b{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--bleu)}
+  .chrono{list-style:none;margin:0;padding:0;border-left:2px solid var(--trait)}
+  .chrono li{position:relative;padding:0 0 12px 16px;font-size:14px}
+  .chrono li:before{content:"";position:absolute;left:-6px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--bleu)}
+  .chrono .q{font-style:italic;color:var(--gris);font-size:13px}
+  .chrono .s{font-size:12px}
+  .lancer{margin-top:16px;background:#f3f4fb;border-radius:12px;padding:12px 14px}
+  .lancer textarea{width:100%;min-height:54px;border:1px solid var(--trait);border-radius:8px;padding:8px;font:inherit;font-size:13px;margin:6px 0}
   footer{border-top:1px solid var(--trait);padding:26px 6vw;text-align:center;color:var(--gris);font-size:13px}
   @media (max-width:820px){.tuiles{grid-template-columns:repeat(2,1fr)}.reglages .grid{grid-template-columns:1fr}.qbox{flex-direction:column}.qbox button{padding:12px}}
   @media print{
@@ -188,7 +215,7 @@
           </select>
         </label>
         <label>Adresse de l'API <input id="cfgUrl" placeholder="https://…/v1"></label>
-        <label>Modèle <input id="cfgModele" placeholder="laisser vide = choix automatique"></label>
+        <label>Modèle <input id="cfgModele" placeholder="openweight-large (par défaut)"></label>
         <label>Clé personnelle <input id="cfgCle" type="password" placeholder="conservée uniquement dans ce navigateur"></label>
         <div class="note">Sans clé, la recherche fonctionne quand même : elle retrouve les fiches par mots-clés. Avec une clé, les réponses sont rédigées. La clé n'est jamais publiée : elle reste dans votre navigateur.</div>
       </div>
@@ -199,7 +226,22 @@
   <section id="dossier">
     <h2>Les fiches</h2>
     <p class="lead">Une fiche par classe. Les classes marquées « à vérifier » n'ont pas donné de nouvelles récentes : leur statut reste à confirmer.</p>
+    <details class="gestion" id="gestion">
+      <summary>Modifier les fiches et lancer les recherches : réglage (une seule fois)</summary>
+      <div class="in">
+        Pour que vos modifications soient enregistrées dans le dossier en ligne, le site a besoin d'un <b>jeton GitHub</b> (une seule fois, sur votre ordinateur) :
+        <ol>
+          <li>Ouvrir <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com → Settings → Personal access tokens → Fine-grained tokens → Generate new token</a>.</li>
+          <li>Nom : « CDSG site » ; Repository access : <i>Only select repositories</i> → <b>cdsg-aix-marseille</b>.</li>
+          <li>Permissions → Repository permissions → <b>Contents : Read and write</b> et <b>Actions : Read and write</b>. Générer, copier le jeton.</li>
+          <li>Le coller ci-dessous. Il reste dans ce navigateur uniquement.</li>
+        </ol>
+        <label>Jeton GitHub<br><input id="ghJeton" type="password" placeholder="github_pat_…" autocomplete="off"></label>
+        <div style="margin-top:6px">Sans jeton, le bouton « Enregistrer » télécharge le fichier <code>classes.js</code> mis à jour, à déposer dans le dossier <code>data</code> du dépôt.</div>
+      </div>
+    </details>
     <div class="filtres">
+      <button class="ajout" id="ajouter">+ Ajouter une fiche</button>
       <input type="search" id="recherche" placeholder="Filtrer : établissement, ville, nom, unité…">
       <div class="seg" id="segStatut">
         <button data-v="" class="on">Toutes</button>
@@ -239,13 +281,14 @@
 "use strict";
 const DEP = {"13":"Bouches-du-Rhône","84":"Vaucluse","04":"Alpes-de-Haute-Provence","05":"Hautes-Alpes"};
 const LIB = {active:"Active", dormante:"En sommeil", projet:"En projet"};
+const TYP = {sortie:"Dernière sortie",ceremonie:"Dernière cérémonie",convention:"Dernière convention",article:"Dernier article",rapport:"Dernier rapport",projet:"Dernier projet",partenaire:"Partenaire",autre:"Autre"};
 const WEB = window.CDSG_WEB || {};
 const norm = s => (s||"").toString().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
 const slug = s => norm(s).replace(/ /g,"-");
 const esc = s => (s||"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
-const DATA = (window.CDSG||[]).map(c => Object.assign({}, c, {id: slug(c.etab+" "+c.ville)}));
-const PAR_ID = Object.fromEntries(DATA.map(c=>[c.id,c]));
+const DATA = (window.CDSG||[]).map(c => Object.assign({}, c, {id: c.id || slug(c.etab+" "+c.ville)}));
+let PAR_ID = Object.fromEntries(DATA.map(c=>[c.id,c]));
 document.getElementById("majCover").textContent = window.CDSG_MAJ || "";
 
 /* ───────── Couverture : dessin ───────── */
@@ -337,6 +380,8 @@ document.getElementById("majCover").textContent = window.CDSG_MAJ || "";
 
 /* ───────── Synthèse ───────── */
 const n = f => DATA.filter(f).length;
+const deps = ["13","84","04","05"];
+function synthese(){
 const tuiles = [
   {k:"active", cls:"t-active", l:"Classes actives", d:"Convention signée, la classe fonctionne"},
   {k:"dormante", cls:"t-dormante", l:"En sommeil", d:"Sans référent, sans unité ou abandonnée"},
@@ -349,7 +394,6 @@ document.getElementById("tuiles").innerHTML = tuiles.map(t=>{
 }).join("");
 document.querySelectorAll(".tuile").forEach(t=>t.onclick=()=>{ choisir("segStatut",t.dataset.k); location.hash=""; document.getElementById("dossier").scrollIntoView(); });
 
-const deps = ["13","84","04","05"];
 document.getElementById("tabDep").innerHTML =
   `<tr><th>Département</th><th>Actives</th><th>En sommeil</th><th>En projet</th><th>À vérifier</th><th>Total</th></tr>` +
   deps.map(d=>`<tr><td>${d} · ${DEP[d]}</td>
@@ -359,6 +403,9 @@ document.getElementById("tabDep").innerHTML =
     <td class="num">${n(c=>c.dep===d&&c.verifier)}</td>
     <td class="num">${n(c=>c.dep===d)}</td></tr>`).join("") +
   `<tr><td><b>Académie</b></td><td class="num">${n(c=>c.statut==="active")}</td><td class="num">${n(c=>c.statut==="dormante")}</td><td class="num">${n(c=>c.statut==="projet")}</td><td class="num">${n(c=>c.verifier)}</td><td class="num">${DATA.length}</td></tr>`;
+}
+
+synthese();
 
 /* ───────── Fiches ───────── */
 const etat = {statut:"", dep:"", q:""};
@@ -391,7 +438,8 @@ afficher();
 function ouvrir(id){
   const c = PAR_ID[id]; if(!c) return;
   const w = WEB[id];
-  const rows = [["Département",`${c.dep} · ${DEP[c.dep]}`],["Ville",c.ville],["Chef d'établissement",c.ce],["Professeur(s) référent(s)",c.ref],["Unité marraine / partenaire",c.unite],["Convention",c.conv],["Suivi formateur",c.suivi||"—"],["Observations",c.note||"—"]];
+  const rows = [["Département",`${c.dep} · ${DEP[c.dep]}`],["Ville",c.ville],["Chef d'établissement",c.ce],["Professeur(s) référent(s)",c.ref],["Unité marraine / partenaire",c.unite],["Convention",c.conv],["Site de l'établissement",c.site||"—"],["Suivi formateur",c.suivi||"—"],["Observations (veille en ligne)", w && w.resume ? w.resume : "Pas encore de recherche en ligne pour cette classe."],["Notes de suivi",c.note||"—"]];
+  if(c.maj) rows.push(["Fiche mise à jour",c.maj]);
   document.getElementById("fiche").innerHTML = `
     <div class="bandeau"></div><div class="c">
     <button class="fermer" aria-label="Fermer">×</button>
@@ -399,21 +447,154 @@ function ouvrir(id){
     <h3>${esc(c.etab)}</h3>
     <div class="id">Fiche ${esc(id)}</div>
     <table>${rows.map(r=>`<tr><th>${r[0]}</th><td>${esc(r[1])}</td></tr>`).join("")}</table>
-    ${w ? `<div class="web"><h4>Compléments trouvés en ligne · ${esc(w.date||"")}</h4>
-       <div>${esc(w.resume||"")}</div>
-       ${(w.sources||[]).length?`<div style="margin-top:8px;font-size:13px">Sources : ${w.sources.map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname)}</a>`).join(" · ")}</div>`:""}
-       <div style="margin-top:6px;font-size:12px;color:var(--gris)">À confirmer auprès de l'établissement.</div></div>` : ""}
-    <div class="actions"><button id="copier">Copier le lien de la fiche</button><button onclick="window.print()">Imprimer</button></div>
+    <div class="veille" id="veille"></div>
+    <div class="lancer">
+      <b>Chercher en ligne pour cette classe</b>
+      <div style="font-size:13px;color:var(--gris)">L'assistant parcourt le web (site de l'établissement, presse, unités) et range sorties, cérémonies, conventions et articles dans le dossier de la classe. Vous pouvez coller des liens d'articles à lire en priorité.</div>
+      <textarea id="liensManuels" placeholder="Liens d'articles (facultatif), un par ligne"></textarea>
+      <button id="chercherEnLigne" class="btn-prim" style="border-radius:10px;padding:8px 14px;border:1px solid">Chercher en ligne</button>
+      <div class="msg" id="msgVeille"></div>
+    </div>
+    <div class="actions"><button id="modifier" class="btn-prim">Modifier la fiche</button><button id="copier">Copier le lien de la fiche</button><button onclick="window.print()">Imprimer</button></div>
     </div>`;
   document.getElementById("voile").classList.add("on");
   history.replaceState(null,"","#fiche="+id);
   document.querySelector(".fermer").onclick = fermer;
+  document.getElementById("modifier").onclick = ()=>editer(id);
+  document.getElementById("chercherEnLigne").onclick = ()=>lancerVeille(id);
+  chargerVeille(id);
   document.getElementById("copier").onclick = ()=>{ navigator.clipboard && navigator.clipboard.writeText(location.href); document.getElementById("copier").textContent="Lien copié"; };
 }
 function fermer(){ document.getElementById("voile").classList.remove("on"); history.replaceState(null,"",location.pathname+location.search); }
 document.getElementById("voile").onclick = e => { if(e.target.id==="voile") fermer(); };
 document.addEventListener("keydown", e=>{ if(e.key==="Escape") fermer(); });
 const h = location.hash.match(/fiche=([\w-]+)/); if(h) ouvrir(h[1]);
+
+/* ───────── Édition des fiches ───────── */
+const DEPOT = {owner:"thierryarmant", repo:"cdsg-aix-marseille", chemin:"data/classes.js", branche:"main"};
+const jeton = document.getElementById("ghJeton");
+jeton.value = cfg0("gh"); jeton.onchange = ()=>cfg0("gh", jeton.value.trim());
+function cfg0(k,v){ try{ if(v===undefined) return localStorage.getItem("cdsg_"+k)||""; localStorage.setItem("cdsg_"+k,v); }catch(e){ return ""; } }
+const CHAMPS = [["etab","Établissement"],["ville","Ville"],["ce","Chef d'établissement"],["ref","Professeur(s) référent(s)"],["unite","Unité marraine / partenaire"],["conv","Convention (date, renouvellement…)"],["suivi","Suivi formateur"],["site","Site de l'établissement (adresse web)"]];
+
+function editer(id){
+  const c = id ? PAR_ID[id] : {dep:"13",statut:"projet",etab:"",ville:"",ce:"",ref:"",unite:"",conv:"",suivi:"",note:""};
+  const v = k => esc(c[k]||"");
+  document.getElementById("fiche").innerHTML = `
+    <div class="bandeau"></div><div class="c edit">
+    <button class="fermer" aria-label="Fermer">×</button>
+    <h3>${id ? "Modifier la fiche" : "Nouvelle fiche"}</h3>
+    <div class="deux">
+      <label>Département<select id="e_dep">${deps.map(d=>`<option value="${d}" ${c.dep===d?"selected":""}>${d} · ${DEP[d]}</option>`).join("")}</select></label>
+      <label>Statut<select id="e_statut">${Object.keys(LIB).map(k=>`<option value="${k}" ${c.statut===k?"selected":""}>${LIB[k]}</option>`).join("")}</select></label>
+    </div>
+    ${CHAMPS.map(([k,l])=>`<label>${l}<input id="e_${k}" value="${v(k)}"></label>`).join("")}
+    <label>Notes de suivi (les observations, elles, viennent de la veille en ligne)<textarea id="e_note">${v("note")}</textarea></label>
+    <label class="case"><input type="checkbox" id="e_verifier" ${c.verifier?"checked":""}> À vérifier (pas de nouvelles récentes)</label>
+    <div class="actions"><button id="enreg" class="btn-prim">Enregistrer</button><button id="annuler">Annuler</button></div>
+    <div class="msg" id="msg"></div>
+    </div>`;
+  document.getElementById("voile").classList.add("on");
+  document.querySelector(".fermer").onclick = fermer;
+  document.getElementById("annuler").onclick = ()=> id ? ouvrir(id) : fermer();
+  document.getElementById("enreg").onclick = ()=>enregistrer(id);
+}
+
+function lireFormulaire(id){
+  const f = {dep:val("e_dep"), statut:val("e_statut"), note:val("e_note")};
+  CHAMPS.forEach(([k])=>f[k]=val("e_"+k));
+  if(document.getElementById("e_verifier").checked) f.verifier=true;
+  Object.keys(f).forEach(k=>{ if(f[k]==="" && k!=="note") delete f[k]; });
+  f.maj = new Date().toLocaleDateString("fr-FR");
+  f.id = id || slug(f.etab+" "+f.ville);
+  return f;
+  function val(x){ return document.getElementById(x).value.trim(); }
+}
+
+function fichierJS(liste){
+  return "// Dossier CDSG — Académie d'Aix-Marseille\n// Une ligne = une fiche. Modifiable depuis le site (bouton « Modifier ») ou ici.\n// statut : \"active\" | \"dormante\" | \"projet\" ; verifier : true si à confirmer\n"
+    + "window.CDSG_MAJ = " + JSON.stringify(new Date().toLocaleDateString("fr-FR",{day:"numeric",month:"long",year:"numeric"})) + ";\n"
+    + "window.CDSG = [\n" + liste.map(e=>"  "+JSON.stringify(e)).join(",\n") + "\n];\n";
+}
+const b64enc = s => btoa(unescape(encodeURIComponent(s)));
+const b64dec = s => decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+
+function appliquer(liste, fiche, ancienId){
+  const L = liste.map(x=>Object.assign({id:x.id||slug(x.etab+" "+x.ville)},x));
+  const i = L.findIndex(x=>x.id===(ancienId||fiche.id));
+  if(i>=0) L[i]=fiche; else L.push(fiche);
+  return L;
+}
+
+async function enregistrer(id){
+  const msg = document.getElementById("msg"), dire=(t,k)=>{ msg.className="msg on "+k; msg.textContent=t; };
+  const f = lireFormulaire(id);
+  if(!f.etab || !f.ville){ dire("L'établissement et la ville sont obligatoires.","err"); return; }
+  if(!id && PAR_ID[f.id]){ dire("Une fiche existe déjà pour cet établissement dans cette ville.","err"); return; }
+  const tok = jeton.value.trim();
+  // mise à jour immédiate de la page
+  const maj = () => {
+    const i = DATA.findIndex(x=>x.id===f.id);
+    if(i>=0) DATA[i]=f; else DATA.push(f);
+    PAR_ID = Object.fromEntries(DATA.map(c=>[c.id,c]));
+    synthese(); afficher();
+  };
+  if(!tok){
+    maj();
+    const blob = new Blob([fichierJS(DATA.map(x=>{ const y=Object.assign({},x); return y; }))],{type:"text/javascript"});
+    const a = document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="classes.js"; a.click();
+    dire("Fichier classes.js téléchargé. Pour publier : sur GitHub, ouvrir le dossier data → Add file → Upload files → déposer ce fichier → Commit. (Ou ajoutez un jeton GitHub dans « Modifier les fiches et lancer les recherches : réglage » pour publier directement.)","info");
+    return;
+  }
+  dire("Publication en cours…","info");
+  try{
+    const url = `https://api.github.com/repos/${DEPOT.owner}/${DEPOT.repo}/contents/${DEPOT.chemin}`;
+    const h = {Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"};
+    const r1 = await fetch(url+"?ref="+DEPOT.branche,{headers:h, cache:"no-store"});
+    if(!r1.ok) throw new Error(r1.status===401||r1.status===403 ? "jeton refusé ou sans droit d'écriture" : "lecture impossible ("+r1.status+")");
+    const j1 = await r1.json();
+    const w = {}; new Function("window", b64dec(j1.content))(w);   // version la plus récente du dépôt
+    const liste = appliquer(w.CDSG||[], f, id);
+    const r2 = await fetch(url,{method:"PUT",headers:h,body:JSON.stringify({
+      message:(id?"Fiche modifiée : ":"Fiche ajoutée : ")+f.etab+" ("+f.ville+")",
+      content:b64enc(fichierJS(liste)), sha:j1.sha, branch:DEPOT.branche})});
+    if(!r2.ok) throw new Error(r2.status===409 ? "le fichier a changé entre-temps, réessayez" : "écriture impossible ("+r2.status+")");
+    maj();
+    dire("Enregistré. La fiche est à jour ; elle sera visible par tous d'ici une à deux minutes.","ok");
+    setTimeout(()=>ouvrir(f.id), 1600);
+  }catch(e){ dire("Échec : "+e.message+".","err"); }
+}
+document.getElementById("ajouter").onclick = ()=>editer(null);
+
+/* ───────── Dossier de la classe (veille en ligne) ───────── */
+async function chargerVeille(id){
+  const zone = document.getElementById("veille"); if(!zone) return;
+  let v = null;
+  try{ const r = await fetch("classes/"+id+"/veille.json",{cache:"no-store"}); if(r.ok) v = await r.json(); }catch(e){}
+  const w = WEB[id];
+  if(!v || !(v.elements||[]).length){ zone.innerHTML = ""; return; }
+  const der = (w && w.derniers) || {};
+  zone.innerHTML = `<h4>Dossier de la classe · ${v.elements.length} élément(s) trouvé(s) en ligne</h4>
+    ${Object.keys(der).length?`<div class="derniers">${Object.entries(der).map(([t,d])=>`<div><b>${TYP[t]||t}</b>${esc(d.date||"date ?")} — ${esc(d.titre||"")}</div>`).join("")}</div>`:""}
+    <ul class="chrono">${v.elements.slice(0,30).map(e=>`<li><b>${esc(e.date||"date ?")}</b> · ${esc(TYP[e.type]?TYP[e.type].replace(/^Derni(er|ère) /,""):e.type)} — ${esc(e.titre||"")}
+      <div>${esc(e.resume||"")}</div>${e.extrait?`<div class="q">« ${esc(e.extrait)} »</div>`:""}
+      <div class="s"><a href="${esc(e.source)}" target="_blank" rel="noopener">${esc((()=>{try{return new URL(e.source).hostname}catch(x){return "source"}})())}</a></div></li>`).join("")}</ul>
+    <div style="font-size:12px;color:var(--gris)">Informations publiques, à confirmer auprès de l'établissement. Dernière recherche : ${esc((v.recherches||[]).slice(-1)[0]?.date||"")}</div>`;
+}
+async function lancerVeille(id){
+  const m = document.getElementById("msgVeille"), dire=(t,k)=>{ m.className="msg on "+k; m.textContent=t; };
+  const tok = jeton.value.trim();
+  const liens = document.getElementById("liensManuels").value.split(/\s+/).filter(x=>/^https?:\/\//.test(x)).join(" ");
+  if(!tok){ dire("Il faut d'abord coller le jeton GitHub dans « Modifier les fiches et lancer les recherches : réglage » (au-dessus des fiches).","err"); return; }
+  dire("Lancement…","info");
+  try{
+    const r = await fetch(`https://api.github.com/repos/${DEPOT.owner}/${DEPOT.repo}/actions/workflows/recherche.yml/dispatches`,{method:"POST",
+      headers:{Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"},
+      body:JSON.stringify({ref:DEPOT.branche, inputs:{fiche:id, liens}})});
+    if(r.status!==204) throw new Error(r.status===403||r.status===404 ? "le jeton n'a pas le droit « Actions : Read and write »" : "code "+r.status);
+    dire("Recherche lancée. Comptez 3 à 6 minutes, puis rouvrez la fiche : le dossier de la classe et les observations seront remplis.","ok");
+  }catch(e){ dire("Échec : "+e.message+".","err"); }
+}
 
 /* ───────── Assistant ───────── */
 const EX = ["Qui est le référent à Cassis ?","Quelles classes sont parrainées par la BA 115 ?","Classes en sommeil dans le 13","Projets dans les Hautes-Alpes","Qui gère la classe du lycée Thiers ?"];
@@ -465,9 +646,10 @@ inU.onchange = ()=>cfg.set("url",inU.value.trim()); inM.onchange=()=>cfg.set("mo
 
 async function choisirModele(base, cle){
   if(inM.value.trim()) return inM.value.trim();
+  if(/etalab\.gouv\.fr/.test(base)) return "openweight-large";
   const r = await fetch(base.replace(/\/$/,"")+"/models",{headers:{Authorization:"Bearer "+cle}});
   const j = await r.json(); const ids=(j.data||[]).filter(m=>!m.type||/text-generation|chat/.test(m.type)).map(m=>m.id);
-  const pref = ids.find(i=>/mistral-medium|mistral-small|large|llama-3\.3|70b/i.test(i)) || ids[0];
+  const pref = ids.find(i=>/openweight-large|gpt-oss-120b|mistral-large|mistral-medium|large/i.test(i)) || ids[0];
   if(pref){ inM.value=pref; cfg.set("modele",pref); }
   return pref;
 }
@@ -483,7 +665,7 @@ async function repondre(){
   txt.textContent = "Recherche en cours…"; src.textContent="";
   try{
     const modele = await choisirModele(base, cle);
-    const contexte = DATA.map(c=>`[${c.id}] ${c.etab} | ${c.ville} | dép. ${c.dep} | statut: ${LIB[c.statut]}${c.verifier?" (à vérifier)":""} | CE: ${c.ce} | référent(s): ${c.ref} | unité: ${c.unite} | convention: ${c.conv} | suivi: ${c.suivi||"-"} | obs: ${c.note||"-"}${WEB[c.id]?" | en ligne: "+WEB[c.id].resume:""}`).join("\n");
+    const contexte = DATA.map(c=>`[${c.id}] ${c.etab} | ${c.ville} | dép. ${c.dep} | statut: ${LIB[c.statut]}${c.verifier?" (à vérifier)":""} | CE: ${c.ce} | référent(s): ${c.ref} | unité: ${c.unite} | convention: ${c.conv} | suivi: ${c.suivi||"-"} | obs: ${c.note||"-"}${WEB[c.id]?" | veille: "+(WEB[c.id].resume||"")+" "+Object.entries(WEB[c.id].derniers||{}).map(([t,d])=>(TYP[t]||t)+": "+(d.date||"?")+" "+(d.titre||"")).join("; "):""}`).join("\n");
     const res = await fetch(base.replace(/\/$/,"")+"/chat/completions",{method:"POST",headers:{"Content-Type":"application/json",Authorization:"Bearer "+cle},
       body:JSON.stringify({model:modele,temperature:0.1,max_tokens:600,messages:[
         {role:"system",content:"Tu aides un inspecteur à consulter le dossier des classes défense et sécurité globales (CDSG) de l'académie d'Aix-Marseille. Réponds en français, brièvement, UNIQUEMENT à partir des fiches fournies. Si l'information n'y est pas, dis-le. Termine toujours par une ligne 'FICHES: id1, id2' listant les identifiants entre crochets des fiches utiles (au plus 8)."},

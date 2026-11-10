@@ -11,7 +11,8 @@ Site : https://thierryarmant.github.io/CDSG-Aix-Marseille/
 |---|---|
 | `index.html` | Page de présentation, synthèse, assistant de questions, fiches |
 | `data/classes.js` | **Les fiches** (une ligne par classe) — c'est ici qu'on met à jour |
-| `data/recherche.js` | Compléments trouvés sur le web (généré automatiquement) |
+| `data/recherche.js` | Résumés de la veille (générés automatiquement) |
+| `classes/<fiche>/veille.json` | Dossier de chaque classe : tout ce qui a été trouvé en ligne |
 | `recherche/recherche_web.py` | Script de recherche web + extraction par le modèle |
 | `.github/workflows/recherche.yml` | Lance la recherche depuis l'onglet **Actions** |
 
@@ -22,31 +23,33 @@ Site : https://thierryarmant.github.io/CDSG-Aix-Marseille/
 3. **Settings → Secrets and variables → Actions → New repository secret** :
    nom `ALBERT_API_KEY`, valeur = la clé Albert. La clé ne doit **jamais** être écrite dans un fichier du dépôt.
 
-## Compléter les fiches par recherche web
+## Veille en ligne : le dossier de chaque classe
 
-Onglet **Actions → Recherche web → Run workflow**, puis choisir :
-- `verifier` : seulement les classes « à vérifier » (conseillé pour commencer) ;
-- `dormante`, `projet`, `active` ou `toutes`.
+Chaque classe a son dossier `classes/<identifiant>/veille.json`. On y trouve, cumulés d'une recherche à l'autre, les
+sorties, cérémonies, conventions, articles et rapports trouvés en ligne, avec la date, un court extrait et la source.
+Les **Observations** de la fiche et les encadrés « Dernière sortie / convention / article » en sont tirés.
 
-Le résultat est enregistré dans `data/recherche.js` et apparaît dans chaque fiche (encadré « Compléments trouvés en ligne »).
-Ces compléments sont à confirmer auprès des établissements avant d'être reportés dans `data/classes.js`.
+- **Depuis une fiche** : bouton **Chercher en ligne** (on peut coller des liens d'articles à lire en priorité). Résultat en 3 à 6 minutes.
+- **Pour plusieurs fiches** : onglet **Actions → Recherche web → Run workflow** (`verifier`, `dormante`, `projet`, `active`, `toutes`).
+
+Modèle utilisé par défaut avec Albert : `openweight-large`. Pour en changer : Settings → Secrets and variables → Actions → onglet *Variables* → `API_MODEL`.
 
 En local :
 ```bash
 export ALBERT_API_KEY="..."
-python3 recherche/recherche_web.py --verifier
-python3 recherche/recherche_web.py --fiche lycee-thiers-marseille
-python3 recherche/recherche_web.py --question "Quelles classes n'ont pas d'unité marraine ?"
+python3 recherche/recherche_web.py --fiche college-jean-giono-orange --liens "https://..."
+python3 recherche/recherche_web.py --question "Quelle est la dernière sortie de la classe de Sault ?"
 ```
-Autre fournisseur compatible : `export API_BASE_URL=https://api.mistral.ai/v1` (et sa clé dans `ALBERT_API_KEY`).
 
-## Poser des questions sur le site
+## Jeton GitHub (pour modifier les fiches et lancer les recherches depuis le site)
 
-- **Sans clé** : la recherche par mots-clés retrouve les fiches (ville, établissement, nom, unité, statut, département) et ouvre la bonne fiche.
-- **Avec clé** : dans « Réglages du service de réponse », coller la clé une fois ; elle reste dans le navigateur de la personne, jamais sur le site. Les réponses sont alors rédigées et renvoient vers les fiches.
+github.com → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** → Generate new token :
+dépôt `cdsg-aix-marseille` uniquement ; permissions **Contents : Read and write** et **Actions : Read and write**.
+Le coller dans le site (au-dessus des fiches). Il reste dans le navigateur.
 
 ## Mettre à jour une fiche
 
 Dans `data/classes.js`, modifier la ligne de l'établissement. Champs :
 `dep`, `etab`, `ville`, `ce` (chef d'établissement), `ref` (référents), `unite`, `conv` (convention),
-`statut` (`active` / `dormante` / `projet`), `verifier` (`true` si à confirmer), `suivi` (formateur), `note`.
+`statut` (`active` / `dormante` / `projet`), `verifier` (`true` si à confirmer), `suivi` (formateur), `site` (site de l'établissement, aide la recherche), `note` (notes de suivi).
+Le plus simple : bouton **Modifier la fiche** sur le site.
