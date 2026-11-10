@@ -9,17 +9,10 @@
    "resume": "Le 3 juillet 2026, le Collège Jean Giono a reçu le prix inter armées 2025-2026 lors d’une cérémonie.",
    "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
    "page": "CDSG - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sou",
-   "trouve_le": "2026-11-10"
-  },
-  {
-   "type": "ceremonie",
-   "date": null,
-   "titre": "Remise du prix inter armées 2025-2026",
-   "extrait": "Remise du prix inter armées 2025-2026",
-   "resume": "Le Collège Jean Giono d'Orange a organisé la remise du prix inter armées 2025-2026, événement lié à la classe défense et sécurité globales.",
-   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html",
-   "page": "Remise du prix inter armées 2025-2026 - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer l",
-   "trouve_le": "2026-11-10"
+   "trouve_le": "2026-11-10",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html"
+   ]
   },
   {
    "type": "autre",

@@ -1,9 +1,9 @@
 // Résumés de la veille web — généré par recherche/recherche_web.py (détail : classes/<fiche>/veille.json)
 window.CDSG_WEB = {
  "college-jean-giono-orange": {
-  "date": "10/11/2026",
+  "date": "11/11/2026",
   "resume": "La classe Défense et Sécurité Globales du Collège Jean Giono a été mise à l’honneur le 3 juillet 2026 lors de la cérémonie de remise du prix inter‑armées 2025‑2026. Elle collabore avec les forces armées françaises, organisatrices du prix inter‑armées. Le dispositif propose notamment une option « cinéma » au sein du cursus de 3ᵉ.",
-  "nb": 4,
+  "nb": 3,
   "derniere_activite": "2026-07-03",
   "derniers": {
    "ceremonie": {

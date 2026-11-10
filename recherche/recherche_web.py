@@ -277,7 +277,16 @@ def trier(c, page):
 
 
 def cle_element(e):
-    return (e.get("source", ""), slug(e.get("titre", ""))[:60])
+    """Un même événement cité sur plusieurs pages = un seul élément."""
+    return (e.get("type"), slug(e.get("titre", ""))[:50])
+
+
+def fusionner(existant, e):
+    """Complète un élément déjà connu (date manquante, autres sources)."""
+    if not existant.get("date") and e.get("date"): existant["date"] = e["date"]
+    if e.get("source") and e["source"] != existant.get("source"):
+        autres = existant.setdefault("autres_sources", [])
+        if e["source"] not in autres: autres.append(e["source"])
 
 
 def date_tri(e):
@@ -335,7 +344,14 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
         urls_site += [u for u in explorer_site(st) if u not in urls_site]
     urls = list(liens_manuels) + [u for u in urls_site + urls_web if u not in liens_manuels]
     v = lire_veille(c["id"])
-    deja = {cle_element(e) for e in v["elements"]}
+    # dédoublonne aussi ce qui a été trouvé lors des recherches précédentes
+    uniques = {}
+    for e in v["elements"]:
+        k = cle_element(e)
+        if k in uniques: fusionner(uniques[k], e)
+        else: uniques[k] = e
+    v["elements"] = list(uniques.values())
+    deja = {cle_element(e): e for e in v["elements"]}
     vues = set(v.get("pages_lues", []))
     a_lire = [u for u in urls if u in liens_manuels or u not in vues][: profondeur + len(liens_manuels) + len(urls_site)]
     print(f"   {len(urls)} pages trouvées ({len(urls_site)} sur le site de l'établissement), {len(a_lire)} à lire")
@@ -356,8 +372,11 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
         print(f"     ✓ {len(r.get('elements', []))} élément(s)  {u[:100]}")
         for e in r.get("elements", []):
             e["trouve_le"] = datetime.date.today().isoformat()
-            if cle_element(e) not in deja:
-                v["elements"].append(e); deja.add(cle_element(e)); nouveaux += 1
+            k = cle_element(e)
+            if k in deja:
+                fusionner(deja[k], e)
+            else:
+                v["elements"].append(e); deja[k] = e; nouveaux += 1
         if r.get("referents"): v["referents_cites"] = r["referents"]
         if r.get("unite"): v["unite_citee"] = r["unite"]
     v["elements"].sort(key=date_tri, reverse=True)
