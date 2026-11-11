@@ -259,7 +259,7 @@ RESEAUX = re.compile(r"facebook\.com|instagram\.com|linkedin\.com|(^|//)(www\.)?
 
 TAVILY = os.environ.get("TAVILY_API_KEY", "")
 BRAVE = os.environ.get("BRAVE_API_KEY", "")
-BUDGET = int(os.environ.get("MAX_REQUETES_FICHE", "12" if (TAVILY or BRAVE) else "60"))   # requêtes par fiche
+BUDGET = int(os.environ.get("MAX_REQUETES_FICHE") or ("10" if (TAVILY or BRAVE) else "60"))   # requêtes par fiche
 
 
 def recherche_cle(requete, n):
