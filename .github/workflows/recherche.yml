@@ -46,6 +46,8 @@ jobs:
           python-version: "3.12"
       - name: Outils PDF
         run: sudo apt-get install -y -qq poppler-utils >/dev/null
+      - name: Compteur de départ
+        run: cp data/quota.json /tmp/quota_depart.json 2>/dev/null || echo "{}" > /tmp/quota_depart.json
       - name: Veille web
         env:
           ALBERT_API_KEY: ${{ secrets.ALBERT_API_KEY }}
@@ -88,7 +90,8 @@ jobs:
         run: |
           mkdir -p res
           [ -d classes ] && cp -r classes res/ || true
-          cp data/recherche.js data/a_lire.json res/ 2>/dev/null || true
+          cp data/recherche.js data/a_lire.json data/quota.json res/ 2>/dev/null || true
+          cp /tmp/quota_depart.json res/ 2>/dev/null || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -116,7 +119,7 @@ jobs:
             git fetch -q origin main
             git reset -q --hard origin/main
             for d in /tmp/resultats/*/; do python3 recherche/recherche_web.py --fusionner "$d"; done
-            git add data/recherche.js data/actualites.js data/a_lire.json classes
+            git add data/recherche.js data/actualites.js data/a_lire.json data/quota.json classes
             git diff --cached --quiet && exit 0
             git commit -q -m "Veille web : ${{ inputs.fiche || inputs.filtre || 'veille automatique' }}"
             git push -q origin HEAD:main && exit 0

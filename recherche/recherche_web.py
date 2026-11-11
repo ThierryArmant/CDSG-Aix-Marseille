@@ -263,8 +263,28 @@ BRAVE = os.environ.get("BRAVE_API_KEY", "")
 BUDGET = int(os.environ.get("MAX_REQUETES_FICHE") or ("10" if (TAVILY or BRAVE) else "60"))   # requêtes par fiche
 
 
+FICHIER_QUOTA = RACINE / "data" / "quota.json"
+PLAFOND = int(os.environ.get("PLAFOND_MENSUEL") or "900")   # sous les 1 000 gratuites de Tavily : jamais de frais
+
+
+def quota(ajout=0):
+    """Compteur mensuel des recherches payantes potentielles. Renvoie le nombre utilisé ce mois-ci."""
+    mois = datetime.date.today().strftime("%Y-%m")
+    q = json.loads(FICHIER_QUOTA.read_text()) if FICHIER_QUOTA.exists() else {}
+    if ajout:
+        q[mois] = q.get(mois, 0) + ajout
+        FICHIER_QUOTA.write_text(json.dumps(q, indent=1))
+    return q.get(mois, 0)
+
+
 def recherche_cle(requete, n):
-    """Moteur fiable par clé (Tavily ou Brave). Renvoie None si aucune clé ou en cas d'échec."""
+    """Moteur fiable par clé (Tavily ou Brave). Renvoie None si aucune clé, plafond atteint ou échec."""
+    if not (TAVILY or BRAVE): return None
+    if quota() >= PLAFOND:
+        if not STATS.get("plafond"): print(f"   ! plafond mensuel atteint ({PLAFOND} recherches) : moteur gratuit de secours")
+        STATS["plafond"] = True
+        return None
+    quota(1)
     try:
         if TAVILY:
             corps = {"query": requete, "max_results": n, "search_depth": "basic", "country": "france"}
@@ -561,6 +581,13 @@ def fusionner_dossiers(dossier_run):
             if val not in (None, "", [], {}): r[k] = val
         r.update(infos_resume(b))
         resumes[cid] = r
+    fq = run / "quota.json"
+    if fq.exists():
+        base = json.loads(FICHIER_QUOTA.read_text()) if FICHIER_QUOTA.exists() else {}
+        depart = json.loads((run / "quota_depart.json").read_text()) if (run / "quota_depart.json").exists() else {}
+        for m, n in json.loads(fq.read_text()).items():
+            base[m] = base.get(m, 0) + max(0, n - depart.get(m, 0))
+        FICHIER_QUOTA.write_text(json.dumps(base, indent=1))
     fb = run / "a_lire.json"
     if fb.exists():
         traitee = json.loads(fb.read_text(encoding="utf-8"))
