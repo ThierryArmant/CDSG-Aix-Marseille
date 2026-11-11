@@ -2,6 +2,30 @@
  "fiche": "college-les-gorguettes-cassis",
  "elements": [
   {
+   "type": "partenaire",
+   "date": "2025-04-28",
+   "titre": "Unité marraine de la classe défense",
+   "extrait": "\"unite\": \"1er REC (Aubagne)\"",
+   "resume": "La classe défense du collège Les Gorguettes est parrainée par le 1er Régiment Étranger de Cavalerie d'Aubagne.",
+   "source": "https://www.laprovence.com/article/region/6197844713739414/a-cassis-une-capsule-temporelle-enterree-par-les-eleves-du-college-des-gorguettes",
+   "page": "À Cassis, une capsule temporelle enterrée par les élèves du collège des Gorguettes",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/04/28/z-1745823815_c078cdcaec086f478cdcaec08e878cv_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2025-04-28",
+   "titre": "Professeurs référents de la classe défense",
+   "extrait": "\"ref\": \"M. Berchadsky (HG), M. Abel (lettres)\"",
+   "resume": "Les professeurs référents de la classe défense sont M. Berchadsky (histoire‑géographie) et M. Abel (lettres).",
+   "source": "https://www.laprovence.com/article/region/6197844713739414/a-cassis-une-capsule-temporelle-enterree-par-les-eleves-du-college-des-gorguettes",
+   "page": "À Cassis, une capsule temporelle enterrée par les élèves du collège des Gorguettes",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/04/28/z-1745823815_c078cdcaec086f478cdcaec08e878cv_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "article",
    "date": "2023-07-08",
    "titre": "Classe défense au collège les Gorguettes - Cassis",
@@ -9,6 +33,28 @@
    "resume": "Publication du 8 juillet 2023 sur le Réseau Le Garlaban présentant le projet classe défense du collège Les Gorguettes à Cassis.",
    "source": "https://www.site.ac-aix-marseille.fr/reseau-legarlaban/spip/Classe-defense-au-college-les-Gorguettes-Cassis.html",
    "page": "Classe défense au collège les Gorguettes- Cassis - Réseau Le GarlabanAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2023-05-29",
+   "titre": "Parcours accrobranche Cassis Forest",
+   "extrait": "Avec le soutien de la Mairie de Cassis, le parcours aventure accrobranche Cassis Forest nous accueillait pour la séance d’intégration de la classe de 3e1.",
+   "resume": "La classe de 3e1 a réalisé une sortie d’intégration en accrobranche au Cassis Forest (Parc Régis Vidal), organisée avec le soutien de la Mairie de Cassis.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/Classe-Defense-parcours-sans-accrocs-aux-branches.html?lang=fr",
+   "page": "Classe Défense : parcours sans accrocs aux branches - Collège Les Gorguettes - Gilbert RastoinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriques",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2022-10-13",
+   "titre": "Visite du 1er REC",
+   "extrait": "Jeudi 13 octobre 2022, les élèves de la 3e1 ont reçu la visite de militaires du 1e Régiment étranger de cavalerie (1er REC).",
+   "resume": "Dans le cadre du projet Classe Défense, les élèves de 3e1 ont accueilli le 1er Régiment étranger de cavalerie de Carpiagne le 13 octobre 2022 pour un atelier de découverte de la Légion étrangère.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/Classe-Defense-la-Legion-nous-rend-visite.html",
+   "page": "Classe Défense : la Légion nous rend visite ! - Collège Les Gorguettes - Gilbert RastoinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffich",
    "site": "site.ac-aix-marseille.fr",
    "trouve_le": "2026-11-11"
   },
@@ -27,7 +73,8 @@
     "https://www.facebook.com/1erREC/photos/527120909452875?locale=hi_IN",
     "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/",
     "https://www.journaldesfemmes.fr/maman/ecole/college-les-gorguettes/college-0132324F"
-   ]
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2014-09/2014-09-10/20140910_1_2_11_2_1_obj7174096_1.jpg"
   },
   {
    "type": "convention",
@@ -38,6 +85,41 @@
    "source": "https://www.facebook.com/1erREC/posts/lanc%C3%A9-en-2021-le-partenariat-entre-la-classedefense-du-coll%C3%A8ge-des-gorguettes-%C3%A0-/527120956119537?locale=hi_IN",
    "page": "Lancé en 2021, le partenariat entre la #ClasseDefense du ...",
    "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2019-03-28",
+   "titre": "Sortie scolaire au Camp des Milles",
+   "extrait": "\"SORTIE SCOLAIRE CAMP DES MILLES 28/03/2019\"",
+   "resume": "Le 28 mars 2019, 92 élèves du Collège Les Gorguettes ont effectué une sortie au Camp des Milles, départ à 9 h et retour à 14 h.",
+   "source": "https://mapa.aji-france.com/mapa/marche/77611/pdf",
+   "page": "pdf",
+   "site": "mapa.aji-france.com (PDF)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2014-04-10",
+   "titre": "Création de la classe 4e Europe et défense",
+   "extrait": "\"j'ai créé ... au Collège des Gorguettes ... la classe de 4e à dominante Europe et défense dont Fabienne Tinelli, professeur d'histoire‑géographie, est référente\"",
+   "resume": "Mohamed Driouiche a créé il y a quelques années une classe de 4e à dominante Europe et défense au Collège Les Gorguettes, avec Fabienne Tinelli comme professeure référente.",
+   "source": "https://www.laprovence.com/article/edition-aubagne/2832566/les-collegiens-des-gorguettes-seduquent-a-la-defense.html",
+   "page": "Les collégiens des Gorguettes s'éduquent à la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2014-04/2014-04-10/20140410_1_2_11_2_1_obj6228082_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2014-04-08",
+   "titre": "Journée nationale du réserviste – présentation de la défense",
+   "extrait": "\"Mardi dernier a donc eu lieu ... une présentation de la défense nationale et de la réserve organisée dans le cadre de la Journée nationale",
+   "resume": "Le 8 avril 2014, les élèves de 3e et 4e du Collège Les Gorguettes ont assisté à une présentation de la défense nationale et de la réserve, animée par le lieutenant‑colonel Denis Cochet et d’autres réservistes de la DMD13.",
+   "source": "https://www.laprovence.com/article/edition-aubagne/2832566/les-collegiens-des-gorguettes-seduquent-a-la-defense.html",
+   "page": "Les collégiens des Gorguettes s'éduquent à la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2014-04/2014-04-10/20140410_1_2_11_2_1_obj6228082_1.jpg",
    "trouve_le": "2026-11-11"
   },
   {
@@ -83,6 +165,28 @@
    "page": "Collège Les Gorguettes - Gilbert RastoinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesA",
    "site": "site.ac-aix-marseille.fr",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "Classe Défense : la Légion nous rend visite !",
+   "extrait": "Classe Défense : la Légion nous rend visite !",
+   "resume": "Article publié sur le site du collège présentant la visite du 1er REC le 13 octobre 2022 dans le cadre du projet Classe Défense.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/Classe-Defense-la-Legion-nous-rend-visite.html",
+   "page": "Classe Défense : la Légion nous rend visite ! - Collège Les Gorguettes - Gilbert RastoinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffich",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine : 1er REC (Aubagne)",
+   "extrait": "\"unite\": \"1er REC (Aubagne)\"",
+   "resume": "Le 1er Régiment d'Infanterie de Marine d'Aubagne est désigné comme unité marraine de la classe défense du collège.",
+   "source": "https://mapa.aji-france.com/mapa/marche/77611/pdf",
+   "page": "pdf",
+   "site": "mapa.aji-france.com (PDF)",
+   "trouve_le": "2026-11-11"
   }
  ],
  "recherches": [
@@ -95,17 +199,29 @@
    "date": "2026-11-11",
    "pages": 22,
    "nouveaux": 7
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 27,
+   "nouveaux": 9
   }
  ],
  "exclus": [],
  "pages_lues": [
   "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
   "https://annuaire-education.fr/etablissement/cassis/college-les-gorguettes/0132324F.html",
+  "https://archive2024.lestetesdelart.fr/les-actions-educatives-dans-les-colleges-battent-leur-plein/",
+  "https://claude2k6.jeblog.fr/cassis-au-college-des-gorguettes-les-latinistes-se-sont-faits-mosaiste-a105502250",
   "https://college-lycee.com/college-les-gorguettes/Cassis-0132324F",
   "https://departement13.fr/aides-aux-communes/le-college-les-gorguettes-gilbert-rastoin-transforme",
+  "https://lestetesdelart.fr/wp-content/uploads/2024/06/BILAN-2023-TDA.pdf",
+  "https://mapa.aji-france.com/mapa/marche/77611/pdf",
+  "https://ohlesbeauxjours.fr/atelier-type/a-la-rencontre-dun-auteur/",
+  "https://services.ard.fr/fr/espaces-clients/etablissements/cassis-gorguettes/accueil.html",
   "https://www.bouches-du-rhone.gouv.fr/content/download/25467/153019/file/recueil-13-2017-282-recueil-des-actes-administratifs%20du%2008%20d%C3%A9cembre%202017.pdf",
   "https://www.bouches-du-rhone.gouv.fr/content/download/2911/16885/fi/raa",
   "https://www.bouches-du-rhone.gouv.fr/index.php/content/download/798/5865/file/ra20070101.PDF",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.education.gouv.fr/ivac/2022/0132324f/college-les-gorguettes-gilbert-rastoin",
   "https://www.facebook.com/100064325483957/posts/-cassis-open-provence-le-tennis-de-haut-niveau-sinstalle-%C3%A0-cassis-du-7-au-13-sep/1499194268901408",
   "https://www.facebook.com/1erREC/photos/527120909452875?locale=hi_IN",
@@ -115,12 +231,30 @@
   "https://www.facebook.com/maisondeleuropedeprovence/posts/concours-des-coll%C3%A8ges-avec-toutes-nos-f%C3%A9licitations-pour-les-laur%C3%A9ats-qui-avaien/2001319786572168",
   "https://www.instagram.com/reel/DfhS43dKQFW",
   "https://www.journaldesfemmes.fr/maman/ecole/college-les-gorguettes/college-0132324F",
+  "https://www.laprovence.com/article/edition-aubagne-la-ciotat/2538279/une-nouvelle-principale-pour-le-college-des-gorguettes.html",
+  "https://www.laprovence.com/article/edition-aubagne-la-ciotat/4493268/le-college-des-gorguettes-sur-le-podium-departemental.html",
+  "https://www.laprovence.com/article/edition-aubagne/2832566/les-collegiens-des-gorguettes-seduquent-a-la-defense.html",
+  "https://www.laprovence.com/article/edition-aubagne/2895371/le-college-des-gorguettes-pepiniere-de-jeunes-talents.html",
+  "https://www.laprovence.com/article/edition-aubagne/3031735/enfin-un-vrai-stade-pour-le-college-des-gorguettes.html",
+  "https://www.laprovence.com/article/region/6197844713739414/a-cassis-une-capsule-temporelle-enterree-par-les-eleves-du-college-des-gorguettes",
   "https://www.laprovence.com/article/societe/1362014752271114/les-travaux-de-restructuration-et-d-extension-du-college-des-gorguettes-ont-ete-presentes-aux-elus",
+  "https://www.ledauphine.com/culture-loisirs/2024/11/17/le-college-marie-rivier-ouvre-ses-portes-aux-futurs-eleves",
+  "https://www.ledauphine.com/education/2022/10/04/isere-college-jongkind-un-effectif-en-baisse",
+  "https://www.ledauphine.com/education/2023/01/05/college-du-mourion-il-faut-preparer-son-passage-au-lycee-ou-en-cap",
+  "https://www.ledauphine.com/education/2023/03/29/palmares-des-colleges-decouvrez-les-performances-des-etablissements-de-votre-region",
+  "https://www.ledauphine.com/magazine-tourisme-et-patrimoine/2023/11/04/calanques-camargue-arles-les-incontournables-des-bouches-du-rhone",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-les-gorguettes-gilbert-rastoin-13.html",
+  "https://www.redcoolmedia.net/download/videos/cinema/video-le-beau-parleur",
+  "https://www.redcoolmedia.net/download/videos/cinema/video-sonorisation-collge-gorguettes-rastoin",
+  "https://www.servicehistorique.sga.defense.gouv.fr/ark/1465369",
   "https://www.site.ac-aix-marseille.fr/clg-gorguettes/",
   "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/-Pour-les-6e-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/Classe-Defense-la-Legion-nous-rend-visite.html",
+  "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/Classe-Defense-parcours-sans-accrocs-aux-branches.html?lang=fr",
   "https://www.site.ac-aix-marseille.fr/reseau-legarlaban/",
-  "https://www.site.ac-aix-marseille.fr/reseau-legarlaban/spip/Classe-defense-au-college-les-Gorguettes-Cassis.html"
+  "https://www.site.ac-aix-marseille.fr/reseau-legarlaban/spip/Classe-defense-au-college-les-Gorguettes-Cassis.html",
+  "https://www.teleactivite-mediterranee.fr/demande-dintervention/"
  ],
  "etablissement": "Collège Les Gorguettes (Cassis)",
  "referents_cites": "M. Berchadsky, M. Abel",

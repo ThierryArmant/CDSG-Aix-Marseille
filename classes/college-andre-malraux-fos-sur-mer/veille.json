@@ -26,6 +26,17 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "sortie",
+   "date": "2024-09-28",
+   "titre": "Fos atterrit à la base aérienne 125",
+   "extrait": "Les 28 et 29 septembre 2024, la ville de Fos-sur-Mer sera fièrement représentée aux journées portes ouvertes de la base aérienne 125 d'Istres.",
+   "resume": "Le collège a participé aux journées portes ouvertes de la base aérienne 125 d'Istres les 28‑29 septembre 2024, offrant aux habitants une découverte des activités de l'Armée de l'air.",
+   "source": "https://www.fossurmer.fr/app/uploads/2024/09/2024-09-Mensuel-348-BD.pdf",
+   "page": "2024-09-Mensuel-348-BD.pdf",
+   "site": "fossurmer.fr (PDF)",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "convention",
    "date": "2024-06",
    "titre": "Signature de convention avec le 25e Régiment du génie de l'air",
@@ -77,6 +88,29 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "convention",
+   "date": "2024-06",
+   "titre": "Signature de convention avec l'unité marraine",
+   "extrait": "unité marraine : 25e Régiment du génie de l'air – convention signée en juin 2024",
+   "resume": "Le collège André Malraux a signé en juin 2024 une convention avec le 25e Régiment du génie de l'air, unité marraine de la classe défense.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip/spip.php?lang=fr&page=plan",
+   "page": "Plan du site Collège André MalrauxAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffiche",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-06",
+   "titre": "Convention de partenariat",
+   "extrait": "conv: \"Juin 2024\"",
+   "resume": "Une convention a été signée en juin 2024 entre le collège André‑Malraux et son unité marraine.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html",
+   "page": "Les collégiens s'intéressent à l'armée",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2013-10/2013-10-08/20131008_1_2_6_1_1_obj4900509_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "sortie",
    "date": "2022-05-17",
    "titre": "Domino 22 : évacuation de 850 élèves",
@@ -86,6 +120,65 @@
    "page": "Domino 22 : 850 élèves ont été évacués dans le cadre d'un exercice à Fos",
    "site": "laprovence.com",
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=111,trim.height=381,trim.width=693/media/breves/2022-05/2022-05-17/breves6283cd551182e_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2014-05-08",
+   "titre": "Commémoration du 8 mai 1945",
+   "extrait": "le collège André Malraux a participé en chantant la Marseillaise et en lisant des extraits de lettres de soldats de la Seconde Guerre mondiale.",
+   "resume": "Le collège André Malraux de Fos‑sur‑Mer a pris part à la commémoration du 8 mai 1945 organisée par l’union locale des anciens combattants, en chantant la Marseillaise et en lisant des lettres de soldats de la Seconde Guerre mondiale.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/2869852/en-pensant-aux-soldats-du-mali.html",
+   "page": "En pensant aux soldats du Mali",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2013-11-11",
+   "titre": "Commémoration du 11‑Novembre",
+   "extrait": "Elle participera le mois prochain à la commémoration du 11‑Novembre devant le monument aux morts de Fos‑sur‑Mer.",
+   "resume": "Les élèves de la classe défense du collège André‑Malraux prennent part à la cérémonie du 11 novembre 2013 au monument aux morts de Fos‑sur‑Mer.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html",
+   "page": "Les collégiens s'intéressent à l'armée",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2013-10/2013-10-08/20131008_1_2_6_1_1_obj4900509_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2013-10-08",
+   "titre": "Les collégiens s'intéressent à l'armée",
+   "extrait": "Seize élèves du collège Malraux ont choisi l'option \"éducation à la défense et sécurité civile\"",
+   "resume": "Le 8 octobre 2013, La Provence publie un article sur le collège André‑Malraux où 16 élèves de la classe 306 ont choisi l'option défense et sécurité civile.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html",
+   "page": "Les collégiens s'intéressent à l'armée",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2013-10/2013-10-08/20131008_1_2_6_1_1_obj4900509_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2013",
+   "titre": "Intervention du colonel Jean‑René Villecroze",
+   "extrait": "le colonel Jean‑René Villecroze, président des anciens combattants de Fos‑sur‑Mer, est venu livrer aux élèves ses souvenirs personnels d'officier des Forces aériennes stratégiques.",
+   "resume": "Le colonel Jean‑René Villecroze, ancien officier des Forces aériennes stratégiques, est intervenu auprès des élèves de la classe défense pour partager son expérience.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html",
+   "page": "Les collégiens s'intéressent à l'armée",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2013-10/2013-10-08/20131008_1_2_6_1_1_obj4900509_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2012",
+   "titre": "Effectif 2012",
+   "extrait": "contre onze l'an passé",
+   "resume": "En 2012, onze élèves avaient choisi l'option \"éducation à la défense et sécurité civile\" au collège André‑Malraux.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html",
+   "page": "Les collégiens s'intéressent à l'armée",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2013-10/2013-10-08/20131008_1_2_6_1_1_obj4900509_1.jpg",
    "trouve_le": "2026-11-11"
   },
   {
@@ -208,6 +301,11 @@
    "date": "2026-11-11",
    "pages": 26,
    "nouveaux": 16
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 8
   }
  ],
  "exclus": [],
@@ -217,11 +315,20 @@
   "https://college-lycee.com/College-Andre-Malraux/Fos-sur-Mer-0132634T",
   "https://college-lycee.com/college-andre-malraux/Fos-sur-Mer-0132634T",
   "https://copainsdavant.linternaute.com/e/college-andre-malraux-36150",
+  "https://cvrduvaucluse.canalblog.com/2024/06/mercredi-12-juin-2024-au-thor-remise-des-prix-aux-laureats-vauclusiens-du-concours-national-de-la-resistance-et-de-la-deportation.html",
+  "https://fossafm.com/ceremonie-de-fin-dannee-pour-la-classe-defense-du-college-a-malraux/",
   "https://fossafm.com/la-commemoration-du-8-mai-1945",
+  "https://fr.linkedin.com/posts/fournier-sandra-746850244_orientation-equipe-collectif-activity-7417968493645451265-qwEW",
   "https://lescolleges.fr/fos-sur-mer-13270/college-andre-malraux-ie.html",
+  "https://malraux-granville.college.ac-normandie.fr/spip.php?article907=",
   "https://tavily.com/knowledge/company/8dVVpqa4qz1X",
   "https://tavily.com/knowledge/company/x8dlpj3staTq",
+  "https://www.calameo.com/books/0002922453fadac1b2011",
+  "https://www.clg-malraux-fos.ac-aix-marseille.fr/spip/",
   "https://www.commune-mairie.fr/enseignement/college-andre-malraux-0132634T",
+  "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
+  "https://www.enfance-jeunesse.fossurmer.fr/activites-mercredi-samedi/jeunesse/conseil-municipal-des-jeunes-cmj/",
   "https://www.facebook.com/Fossafm/posts/-retour-en-images-sur-la-remise-des-brevets-du-coll%C3%A8ge-andr%C3%A9-malraux-qui-sest-te/1600736925419850",
   "https://www.facebook.com/Fossafm/posts/ce-matin-%C3%A0-11h-place-des-producteurs-%C3%A0-ville-de-fos-sur-mer-d%C3%A9butera-la-c%C3%A9r%C3%A9moni/1426205806206297",
   "https://www.facebook.com/villedefos/posts/%C3%A9ducation-les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-andr%C3%A9-malraux-ont-particip%C3%A9/1324082966562196",
@@ -230,9 +337,17 @@
   "https://www.fossurmer.fr/actualite/cest-la-quille-pour-la-classe-defense-du-college-andre-malraux/",
   "https://www.fossurmer.fr/album/06-11-2025-remise-des-diplomes-des-anciens-eleves-de-3eme-dandre-malraux",
   "https://www.fossurmer.fr/album/25-11-25-accueil-des-delegues-de-classe-du-college-andre-malraux-a-la-mairie",
+  "https://www.fossurmer.fr/app/uploads/2024/09/2024-09-Mensuel-348-BD.pdf",
+  "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
   "https://www.laprovence.com/actu/en-direct/6768618/breve-evacuation-college-fos-sur-mer-domino-22.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html",
   "https://www.laprovence.com/article/edition-martigues-istres/2584201/un-cross-solidaire-au-college-andre-malraux.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/2869852/en-pensant-aux-soldats-du-mali.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/5356068/swag-fm-la-radio-educative-accede-au-grand-public.html",
   "https://www.laprovence.com/article/faits-divers-justice/32049400859731/fos-sur-mer-un-adolescent-de-15-ans-tabasse-a-la-sortie-du-college",
+  "https://www.laprovence.com/article/papier/6410125/il-est-le-premier-torero-de-fos.html",
+  "https://www.laprovence.com/article/papier/6769398/domino-22-le-scenario-du-pire.html",
+  "https://www.laprovence.com/article/region/1042986143645814/alban-jennat-portrait-du-nouveau-proviseur-qui-arrive-au-lycee-langevin-de-martigues",
   "https://www.laprovence.com/article/region/1626030180028814/le-voyage-de-notre-vie-des-eleves-du-college-andre-malraux-de-fos-sur-mer-iront-au-japon-en-2026",
   "https://www.laprovence.com/article/societe/15607604868163/bonne-rentree-ma-puce-a-fos-sur-mer-lheure-des-retrouvailles-avec-lecole-a-sonne",
   "https://www.ledauphine.com/archives/2020/14-10",
@@ -240,11 +355,19 @@
   "https://www.ledauphine.com/archives/2026/05-03",
   "https://www.ledauphine.com/archives/2026/05-10",
   "https://www.ledauphine.com/archives/2026/08-05",
+  "https://www.ledauphine.com/culture-loisirs/2026/02/28/quinze-ans-d-amitie-franco-italienne-au-college-malraux",
+  "https://www.ledauphine.com/education/2021/11/17/le-college-malraux-recompense-au-festival-de-provencal-de-fuveau",
+  "https://www.ledauphine.com/education/2022/10/19/les-eleves-du-college-malraux-decouvrent-les-vendanges",
+  "https://www.ledauphine.com/social/2021/11/27/les-collegiens-s-impliquent-dans-la-collecte-de-la-banque-alimentaire",
+  "https://www.ledauphine.com/sport/2026/04/03/handball-l-equipe-feminine-du-college-malraux-qualifiee-pour-le-championnat-de-france",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-13-1.html",
+  "https://www.planete-perles.org/2025/03/17/eko-lanta-sensibilisation-ludique-a-lenvironnement-dans-les-colleges-du-departement/",
   "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/",
-  "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip"
+  "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip/",
+  "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip/spip.php?lang=fr&page=plan"
  ],
  "etablissement": "Collège André Malraux (Fos-sur-Mer)",
- "referents_cites": "Sophie David, Ardement, Benoit, David",
- "unite_citee": "25e Régiment du Génie de l’Air"
+ "referents_cites": "Mmes Ardement, Benoit, David",
+ "unite_citee": "25e Régiment du génie de l'air"
 }

@@ -320,15 +320,25 @@ window.CDSG_WEB = {
  },
  "college-les-gorguettes-cassis": {
   "date": "11/11/2026",
-  "nb": 7,
-  "photo": null,
-  "derniere_activite": "2023-07-08",
+  "nb": 16,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/04/28/z-1745823815_c078cdcaec086f478cdcaec08e878cv_.jpg",
+   "source": "https://www.laprovence.com/article/region/6197844713739414/a-cassis-une-capsule-temporelle-enterree-par-les-eleves-du-college-des-gorguettes",
+   "manuel": false
+  },
+  "derniere_activite": "2025-04-28",
   "derniers": {
    "sortie": {
-    "date": null,
-    "titre": "Visite du 1er REC",
-    "resume": "La classe défense du collège Les Gorguettes a visité le 1er Régiment étranger de cavalerie, permettant à une trentaine d’élèves de découvrir son histoire et ses missions.",
-    "source": "https://www.facebook.com/1erREC/photos/527120909452875?locale=hi_IN"
+    "date": "2023-05-29",
+    "titre": "Parcours accrobranche Cassis Forest",
+    "resume": "La classe de 3e1 a réalisé une sortie d’intégration en accrobranche au Cassis Forest (Parc Régis Vidal), organisée avec le soutien de la Mairie de Cassis.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/Classe-Defense-parcours-sans-accrocs-aux-branches.html?lang=fr"
+   },
+   "ceremonie": {
+    "date": "2014-04-08",
+    "titre": "Journée nationale du réserviste – présentation de la défense",
+    "resume": "Le 8 avril 2014, les élèves de 3e et 4e du Collège Les Gorguettes ont assisté à une présentation de la défense nationale et de la réserve, animée par le lieutenant‑colonel Denis Cochet et d’autres réservistes de la DMD13.",
+    "source": "https://www.laprovence.com/article/edition-aubagne/2832566/les-collegiens-des-gorguettes-seduquent-a-la-defense.html"
    },
    "convention": {
     "date": "2022-09-07",
@@ -341,15 +351,26 @@ window.CDSG_WEB = {
     "titre": "Classe défense au collège les Gorguettes - Cassis",
     "resume": "Publication du 8 juillet 2023 sur le Réseau Le Garlaban présentant le projet classe défense du collège Les Gorguettes à Cassis.",
     "source": "https://www.site.ac-aix-marseille.fr/reseau-legarlaban/spip/Classe-defense-au-college-les-Gorguettes-Cassis.html"
+   },
+   "projet": {
+    "date": "2014-04-10",
+    "titre": "Création de la classe 4e Europe et défense",
+    "resume": "Mohamed Driouiche a créé il y a quelques années une classe de 4e à dominante Europe et défense au Collège Les Gorguettes, avec Fabienne Tinelli comme professeure référente.",
+    "source": "https://www.laprovence.com/article/edition-aubagne/2832566/les-collegiens-des-gorguettes-seduquent-a-la-defense.html"
    }
   },
   "distinctions": [],
   "sources": [
+   "https://www.laprovence.com/article/region/6197844713739414/a-cassis-une-capsule-temporelle-enterree-par-les-eleves-du-college-des-gorguettes",
    "https://www.site.ac-aix-marseille.fr/reseau-legarlaban/spip/Classe-defense-au-college-les-Gorguettes-Cassis.html",
+   "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/Classe-Defense-parcours-sans-accrocs-aux-branches.html?lang=fr",
+   "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/Classe-Defense-la-Legion-nous-rend-visite.html",
    "https://www.facebook.com/1erREC/posts/lanc%C3%A9-en-2021-le-partenariat-entre-la-classedefense-du-coll%C3%A8ge-des-gorguettes-%C3%A0-/527120956119537?locale=hi_IN",
-   "https://www.facebook.com/1erREC/photos/527120909452875?locale=hi_IN",
-   "https://www.site.ac-aix-marseille.fr/clg-gorguettes/spip/"
-  ]
+   "https://mapa.aji-france.com/mapa/marche/77611/pdf",
+   "https://www.laprovence.com/article/edition-aubagne/2832566/les-collegiens-des-gorguettes-seduquent-a-la-defense.html",
+   "https://www.facebook.com/1erREC/photos/527120909452875?locale=hi_IN"
+  ],
+  "resume": "La classe défense du collège Les Gorguettes (Cassis) est parrainée depuis le 28 avril 2025 par le 1er Régiment Étranger de Cavalerie"
  },
  "lycee-frederic-mistral-avignon": {
   "date": "11/11/2026",
@@ -379,14 +400,26 @@ window.CDSG_WEB = {
  "mfr-de-lambesc-4e-lambesc": {
   "date": "11/11/2026",
   "resume": "En 2025, la classe défense du MFR de Lambesc a participé au projet inter‑académ",
-  "nb": 21,
+  "nb": 48,
   "derniere_activite": "2026",
   "derniers": {
+   "distinction": {
+    "date": "2023-10-14",
+    "titre": "Remise officielle des polos Défense",
+    "resume": "Lors de la cérémonie, les élèves ont reçu leurs polos Défense, marquant officiellement leur appartenance à la promotion.",
+    "source": "https://www.linkedin.com/feed/update/urn:li:activity:7516401285504425984"
+   },
    "sortie": {
     "date": "2025",
     "titre": "Visite du musée de la Résistance",
     "resume": "Dans le cadre du même projet, les élèves du MFR de Lambesc ont visité le musée de la Résistance accompagnés de M. JL. PANICACCI.",
     "source": "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf"
+   },
+   "ceremonie": {
+    "date": "2024-12-04",
+    "titre": "Visite de l'ENSOSP et cérémonie de la Sainte‑Barbe",
+    "resume": "Les élèves de la classe défense ont assisté à la cérémonie de la Sainte‑Barbe à l’ENSOSP, reçu des médailles et visité les salles de formation.",
+    "source": "https://www.garachon.com/_files/ugd/475ebd_a5a314cc50b34abca6a106283cf4e292.pdf"
    },
    "convention": {
     "date": "2025-07-03",
@@ -411,18 +444,29 @@ window.CDSG_WEB = {
    "https://www.garachon.com/3e-classe-de-defense",
    "https://www.laprovence.com/article/ecoplanete/1972648107691214/un-jardin-ecologique-inaugure-au-college-jean-guehenno-a-lambesc-une-promesse-pour-demain",
    "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf",
-   "https://www.laprovence.com/article/edition-aix-pays-daix/6376503/le-nouveau-lycee-annonce-en-2024.html",
-   "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623",
-   "https://www.instagram.com/p/DMI0D1yOlXZ",
-   "https://www.facebook.com/100063999970020/posts/-%F0%9D%97%9F%F0%9D%97%AE-%F0%9D%9F%AF%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%AE%F0%9D%98%82-%F0%9D%97%B0%C5%93%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%B1%F0%9D%98%82%F0%9D%97%BB-%F0%9D%97%B2%F0%9D%98%85%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B0%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%97%B5%F0%9D%97%B2%CC%81%F0%9D%97%B9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%AE%CC%80-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%A0%F0%9D%97%99%F0%9D%97%A5mardi-les-%C3%A9l%C3%A8ves-/1446265787516740",
-   "https://www.garachon.com"
+   "https://www.garachon.com/_files/ugd/475ebd_a5a314cc50b34abca6a106283cf4e292.pdf",
+   "https://www.garachon.com/_files/ugd/475ebd_b804755f37d6474f95a6aa249d9ea07d.pdf",
+   "https://www.garachon.com/_files/ugd/475ebd_de075de7f30f4b9cb7b09fde7587e949.pdf",
+   "https://www.linkedin.com/feed/update/urn:li:activity:7516401285504425984",
+   "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf"
   ],
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/07/03/l-equipe-engagee-le-principal-en-cravate-et-l-adjointe-1751530215_839856fb11686879856fb11686b985v_.jpg",
    "source": "https://www.laprovence.com/article/ecoplanete/1972648107691214/un-jardin-ecologique-inaugure-au-college-jean-guehenno-a-lambesc-une-promesse-pour-demain",
    "manuel": false
   },
-  "distinctions": []
+  "distinctions": [
+   {
+    "date": "2023-10-14",
+    "titre": "Remise officielle des polos Défense",
+    "resume": "Lors de la cérémonie, les élèves ont reçu leurs polos Défense, marquant officiellement leur appartenance à la promotion.",
+    "source": "https://www.linkedin.com/feed/update/urn:li:activity:7516401285504425984",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://www.linkedin.com/feed/update/urn:li:activity:7516401285504425984"
+    ]
+   }
+  ]
  },
  "lycee-provence-marseille": {
   "date": "11/11/2026",
@@ -606,7 +650,7 @@ window.CDSG_WEB = {
  "mfr-de-lambesc-3e-lambesc": {
   "date": "11/11/2026",
   "resume": "Le 27 mai 2025, la classe défense de la MFR de Lambesc a réalisé un projet inter‑académique avec deux établissements partenaires pour le cinquantième de l’Union‑IHEDN, incluant une visite du musée de la Résistance guidée par",
-  "nb": 15,
+  "nb": 29,
   "derniere_activite": "2026-11-09",
   "derniers": {
    "sortie": {
@@ -643,14 +687,18 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.site.ac-aix-marseille.fr/clg-guehenno/spip/",
    "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf",
+   "https://www.garachon.com/_files/ugd/475ebd_a5a314cc50b34abca6a106283cf4e292.pdf",
    "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
    "https://www.instagram.com/p/DMI0D1yOlXZ",
    "https://www.facebook.com/100063999970020/posts/-%F0%9D%97%9F%F0%9D%97%AE-%F0%9D%9F%AF%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%AE%F0%9D%98%82-%F0%9D%97%B0%C5%93%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%B1%F0%9D%98%82%F0%9D%97%BB-%F0%9D%97%B2%F0%9D%98%85%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B0%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%97%B5%F0%9D%97%B2%CC%81%F0%9D%97%B9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%AE%CC%80-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%A0%F0%9D%97%99%F0%9D%97%A5mardi-les-%C3%A9l%C3%A8ves-/1446265787516740",
    "https://www.garachon.com/3e-classe-de-defense",
-   "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623",
-   "https://www.garachon.com"
+   "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623"
   ],
-  "photo": null,
+  "photo": {
+   "url": "https://domky.fr/commune/lambesc-13410/opengraph-image?a364d07a5cf6095d",
+   "source": "https://www.instagram.com/p/DMI0D1yOlXZ",
+   "manuel": false
+  },
   "distinctions": []
  },
  "college-jean-zay-rousset": {
@@ -1210,9 +1258,15 @@ window.CDSG_WEB = {
  "college-saint-joseph-prive-chateaurenard": {
   "date": "11/11/2026",
   "resume": "Le 7 mai 2024, les élèves de quatrième de la classe défense du collège Saint‑Joseph se sont rendus à Saint‑Andiol pour visiter le musée de Jean Moulin et découvrir le morse. En juin 2023, le collège a signé une convention avec la Gendarmerie de Châteaurenard, qui en est désormais l’unité marraine de la classe défense. Aucun prix ou distinction n’a été mentionné dans les informations disponibles.",
-  "nb": 22,
+  "nb": 30,
   "derniere_activite": "2023-2024",
   "derniers": {
+   "distinction": {
+    "date": "2013",
+    "titre": "Prix d'encouragement au principal",
+    "resume": "Lors de la visite du 20/10/2013, le principal Jean‑Jacques Ayme a reçu un Prix d'encouragement pour la participation du collège à l’édition 2013 du concours de la Résistance et de la Déportation.",
+    "source": "https://www.laprovence.com/article/edition-arles/2585417/les-collegiens-de-saint-joseph-vont-plancher-sur-la-liberation.html"
+   },
    "sortie": {
     "date": "2023-06-26",
     "titre": "Rencontre avec les policiers municipaux",
@@ -1258,14 +1312,25 @@ window.CDSG_WEB = {
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-prive-saint-joseph-13-1.html",
    "https://www.facebook.com/saintjo/videos/les-%C3%A9l%C3%A8ves-de-la-future-classe-d%C3%A9fense-qui-verra-le-jour-officiellement-en-septe/1306202900274979",
    "https://www.instagram.com/p/DaQOijLjKdG",
-   "https://www.laprovence.com/article/edition-arles/6597003/brevet-99-de-reussite-au-college-saint-joseph.html"
+   "https://www.laprovence.com/article/edition-arles/3871809/les-collegiens-de-saint-joseph-ont-planche-pour-le-jeu-concours-national-de-francais-defimots.html"
   ],
   "photo": {
-   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=62,trim.height=877,trim.width=1592/media/hermes/2021-12/2021-12-16/20211216_1_2_7_6_1_obj25413217_1.jpg",
-   "source": "https://www.laprovence.com/article/edition-arles/6597003/brevet-99-de-reussite-au-college-saint-joseph.html",
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2013-10/2013-10-20/20131020_1_2_7_6_1_obj4998334_1.jpg",
+   "source": "https://www.laprovence.com/article/edition-arles/2585417/les-collegiens-de-saint-joseph-vont-plancher-sur-la-liberation.html",
    "manuel": false
   },
-  "distinctions": []
+  "distinctions": [
+   {
+    "date": "2013",
+    "titre": "Prix d'encouragement au principal",
+    "resume": "Lors de la visite du 20/10/2013, le principal Jean‑Jacques Ayme a reçu un Prix d'encouragement pour la participation du collège à l’édition 2013 du concours de la Résistance et de la Déportation.",
+    "source": "https://www.laprovence.com/article/edition-arles/2585417/les-collegiens-de-saint-joseph-vont-plancher-sur-la-liberation.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-arles/2585417/les-collegiens-de-saint-joseph-vont-plancher-sur-la-liberation.html"
+    ]
+   }
+  ]
  },
  "college-collines-durance-mallemort": {
   "date": "11/11/2026",
@@ -1528,7 +1593,7 @@ window.CDSG_WEB = {
  },
  "college-andre-malraux-fos-sur-mer": {
   "date": "11/11/2026",
-  "nb": 16,
+  "nb": 24,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/01/le-maire-mario-martinet-accompagne-du-nouveau-directeur-1788275448_d1577949e69a6e5577949e69ae9577v_.jpg",
    "source": "https://www.laprovence.com/article/societe/15607604868163/bonne-rentree-ma-puce-a-fos-sur-mer-lheure-des-retrouvailles-avec-lecole-a-sonne",
@@ -1543,10 +1608,10 @@ window.CDSG_WEB = {
     "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/"
    },
    "sortie": {
-    "date": "2022-05-17",
-    "titre": "Domino 22 : évacuation de 850 élèves",
-    "resume": "En mai 2022, le collège André Malraux a participé à l’exercice civil de défense « Domino 22 », évacuant environ 850 élèves et personnels après la simulation d’un accident d’usine, les bus les conduisant au stade Parsemain.",
-    "source": "https://www.laprovence.com/actu/en-direct/6768618/breve-evacuation-college-fos-sur-mer-domino-22.html"
+    "date": "2024-09-28",
+    "titre": "Fos atterrit à la base aérienne 125",
+    "resume": "Le collège a participé aux journées portes ouvertes de la base aérienne 125 d'Istres les 28‑29 septembre 2024, offrant aux habitants une découverte des activités de l'Armée de l'air.",
+    "source": "https://www.fossurmer.fr/app/uploads/2024/09/2024-09-Mensuel-348-BD.pdf"
    },
    "ceremonie": {
     "date": "2026-05-08",
@@ -1597,11 +1662,13 @@ window.CDSG_WEB = {
   ],
   "sources": [
    "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "https://www.fossurmer.fr/app/uploads/2024/09/2024-09-Mensuel-348-BD.pdf",
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-13-1.html",
    "https://www.laprovence.com/article/societe/15607604868163/bonne-rentree-ma-puce-a-fos-sur-mer-lheure-des-retrouvailles-avec-lecole-a-sonne",
    "https://www.laprovence.com/actu/en-direct/6768618/breve-evacuation-college-fos-sur-mer-domino-22.html",
    "https://copainsdavant.linternaute.com/e/college-andre-malraux-36150",
-   "https://www.facebook.com/villedefos/posts/%C3%A9ducation-les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-andr%C3%A9-malraux-ont-particip%C3%A9/1324082966562196"
+   "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip/spip.php?lang=fr&page=plan",
+   "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html"
   ]
  },
  "college-jules-massenet-marseille-14e": {
