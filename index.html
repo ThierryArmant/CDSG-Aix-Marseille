@@ -285,11 +285,11 @@
           <b>Codes d'accès</b> — chaque code ouvre un jeton chiffré, rangé dans le site (personne ne voit le jeton).
           <ul style="margin:6px 0;padding-left:18px">
             <li><b>Animateur</b> (vous) : tout, y compris les recherches web. Jeton : Contents + Actions (celui collé ci-dessus).</li>
-            <li><b>Rédacteur</b> (collègues) : modifier les fiches, photos, distinctions, signaler un article. Créez un 2<sup>e</sup> jeton avec <b>Contents : Read and write</b> seulement.</li>
+            <li><b>Rédacteur</b> (collègues) : modifier les fiches, photos, distinctions, signaler un article. Jeton rédacteur <i>facultatif</i> : laissé vide, votre jeton sert aussi aux rédacteurs (plus simple) ; un 2<sup>e</sup> jeton « Contents » seul limite davantage leurs droits.</li>
           </ul>
           <label>Code animateur<br><input id="acCodeA" type="password" placeholder="votre code (long de préférence)"></label>
           <label>Code rédacteur<br><input id="acCodeR" type="password" placeholder="code à donner aux collègues"></label>
-          <label>Jeton rédacteur (Contents seulement)<br><input id="acJetonR" type="password" placeholder="github_pat_…"></label>
+          <label>Jeton rédacteur (facultatif)<br><input id="acJetonR" type="password" placeholder="laisser vide = votre jeton"></label>
           <div class="actions"><button class="btn-prim" id="acOk" style="border-radius:10px;padding:8px 14px;border:1px solid">Enregistrer les codes d'accès</button></div>
           <div class="msg" id="acMsg"></div>
           <div style="font-size:12px">Conseil : des codes d'au moins 12 caractères. Pour retirer l'accès des collègues, supprimez leur jeton sur GitHub (Settings → Developer settings → Fine-grained tokens).</div>
@@ -931,14 +931,14 @@ document.getElementById("acOk").onclick = async ()=>{
   if(!tokA){ dire("Collez d'abord votre jeton (animateur) dans la case « Jeton GitHub » ci-dessus.","err"); return; }
   if(cA.length < 6){ dire("Choisissez un code animateur d'au moins 6 caractères.","err"); return; }
   if(cR && cR===cA){ dire("Le code rédacteur doit être différent du code animateur.","err"); return; }
-  if(cR && !tokR){ dire("Collez le jeton rédacteur (Contents seulement).","err"); return; }
+
   dire("Chiffrement et enregistrement…","info");
   try{
     const h = {Authorization:"Bearer "+tokA, Accept:"application/vnd.github+json"};
     const f = await lireFichierGH("data/acces.json", h);
     const acces = f ? JSON.parse(f.texte||"{}") : {};
     acces.animateur = await chiffrer(tokA, cA);
-    if(cR) acces.redacteur = await chiffrer(tokR, cR);
+    if(cR) acces.redacteur = await chiffrer(tokR || tokA, cR);   // sans jeton rédacteur : le jeton animateur sert aussi aux rédacteurs
     acces.maj = new Date().toISOString().slice(0,10);
     await ecrireFichierGH("data/acces.json", JSON.stringify(acces,null,1), f?f.sha:undefined, "Codes d'accès mis à jour (jetons chiffrés)", h);
     ["acCodeA","acCodeR","acJetonR"].forEach(i=>document.getElementById(i).value="");
