@@ -178,6 +178,10 @@
   .menuStatut.on{display:block}
   .menuStatut button{border:1px solid var(--trait);background:#fff;border-radius:999px;padding:5px 12px;margin:3px 4px 3px 0;font-size:13px}
   .menuStatut button.sel{background:var(--bleu-f);color:#fff;border-color:var(--bleu-f)}
+  body:not(.gestion) .g-only{display:none!important}
+  body.gestion .g-off{display:none!important}
+  .cadenas{margin-left:auto;border:1px solid var(--trait);background:#fff;border-radius:999px;padding:4px 12px;font-size:13px}
+  body.gestion .cadenas{background:#e3f2ea;color:var(--vert);border-color:#bfe3cf}
   footer{border-top:1px solid var(--trait);padding:26px 6vw;text-align:center;color:var(--gris);font-size:13px}
   @media (max-width:820px){.tuiles{grid-template-columns:repeat(2,1fr)}.reglages .grid{grid-template-columns:1fr}.qbox{flex-direction:column}.qbox button{padding:12px}}
   @media print{
@@ -210,6 +214,7 @@
   <a href="#assistant">Poser une question</a>
   <a href="#dossier">Les fiches</a>
   <a href="#methode">Méthode</a>
+  <button class="cadenas" id="cadenas">🔒 Gestion</button>
 </div></nav>
 
 <main>
@@ -226,7 +231,7 @@
     <h2>Actualités des classes</h2>
     <p class="lead">Dernières sorties, cérémonies, conventions, distinctions et articles de presse repérés en ligne. Mise à jour automatique chaque nuit. Cliquez pour lire.</p>
     <div class="presse" id="actusGrille"></div>
-    <div class="lancer" style="margin-top:18px">
+    <div class="lancer g-only" style="margin-top:18px">
       <b>Signaler un article</b>
       <div style="font-size:13px;color:var(--gris)">Un article, un PDF, une page de palmarès ou une publication sur une classe défense ? Collez le lien : l'assistant le lit, trouve la ou les classes concernées et range les informations dans leurs fiches (prochaine recherche, ou la nuit).</div>
       <textarea id="signaler" placeholder="Un lien par ligne"></textarea>
@@ -272,7 +277,7 @@
   <section id="dossier">
     <h2>Les fiches</h2>
     <p class="lead">Une fiche par classe. Les classes marquées « à vérifier » n'ont pas donné de nouvelles récentes : leur statut reste à confirmer.</p>
-    <details class="gestion" id="gestion">
+    <details class="gestion g-only" id="gestion">
       <summary>Modifier les fiches et lancer les recherches : réglage (une seule fois)</summary>
       <div class="in">
         Pour que vos modifications soient enregistrées dans le dossier en ligne, le site a besoin d'un <b>jeton GitHub</b> (une seule fois, sur votre ordinateur) :
@@ -287,7 +292,7 @@
       </div>
     </details>
     <div class="filtres">
-      <button class="ajout" id="ajouter">+ Ajouter une fiche</button>
+      <button class="ajout g-only" id="ajouter">+ Ajouter une fiche</button>
       <input type="search" id="recherche" placeholder="Filtrer : établissement, ville, nom, unité…">
       <div class="seg" id="segStatut">
         <button data-v="" class="on">Toutes</button>
@@ -532,7 +537,7 @@ function ouvrir(id){
     <div class="c">
     <button class="fermer" aria-label="Fermer">×</button>
     ${(()=>{ const D=triDist((w&&w.distinctions)||[]); return D.length?`<div class="medailles">${D.map(d=>medaille(d,D.length>8?22:30)).join("")}</div>`:""; })()}
-    <div class="statutRapide" id="statutRapide" title="Cliquer pour changer le statut">${badges(c)} <span style="font-size:12px;color:var(--gris)">✎ changer</span></div>
+    <div class="statutRapide" id="statutRapide" title="Cliquer pour changer le statut">${badges(c)} <span class="g-only" style="font-size:12px;color:var(--gris)">✎ changer</span></div>
     <div class="menuStatut" id="menuStatut">
       <div style="font-size:12px;color:var(--gris);margin-bottom:4px">Statut de la classe</div>
       ${Object.keys(LIB).map(k=>`<button data-s="${k}" class="${c.statut===k?"sel":""}">${LIB[k]}</button>`).join("")}
@@ -543,20 +548,20 @@ function ouvrir(id){
     <div class="id">Fiche ${esc(id)}</div>
     <table>${rows.map(r=>`<tr><th>${r[0]}</th><td>${esc(r[1])}</td></tr>`).join("")}</table>
     <div class="veille" id="veille"></div>
-    <div class="lancer">
+    <div class="lancer g-only">
       <b>Chercher en ligne pour cette classe</b>
       <div style="font-size:13px;color:var(--gris)">L'assistant parcourt le web (site de l'établissement, presse, unités) et range sorties, cérémonies, conventions et articles dans le dossier de la classe. Vous pouvez coller des liens d'articles à lire en priorité.</div>
       <textarea id="liensManuels" placeholder="Liens d'articles (facultatif), un par ligne"></textarea>
       <button id="chercherEnLigne" class="btn-prim" style="border-radius:10px;padding:8px 14px;border:1px solid">Chercher en ligne</button>
       <div class="msg" id="msgVeille"></div>
     </div>
-    <div class="actions"><button id="modifier" class="btn-prim">Modifier la fiche</button><button id="photoBtn" class="btn-photo">📷 Photo</button><button id="copier">Copier le lien de la fiche</button><button onclick="window.print()">Imprimer</button></div>
+    <div class="actions"><button id="modifier" class="btn-prim g-only">Modifier la fiche</button><button id="photoBtn" class="btn-photo g-only">📷 Photo</button><button id="copier">Copier le lien de la fiche</button><button onclick="window.print()">Imprimer</button></div>
     </div>`;
   document.getElementById("voile").classList.add("on");
   history.replaceState(null,"","#fiche="+id);
   document.querySelector(".fermer").onclick = fermer;
   document.getElementById("modifier").onclick = ()=>editer(id);
-  document.getElementById("statutRapide").onclick = ()=>document.getElementById("menuStatut").classList.toggle("on");
+  document.getElementById("statutRapide").onclick = ()=>{ if(document.body.classList.contains("gestion")) document.getElementById("menuStatut").classList.toggle("on"); };
   document.querySelectorAll("#menuStatut button[data-s]").forEach(b=>b.onclick=()=>changerStatut(id,{statut:b.dataset.s}));
   document.querySelector("#menuStatut button[data-v]").onclick = ()=>changerStatut(id,{verifier:!PAR_ID[id].verifier});
   document.getElementById("photoBtn").onclick = ()=>formPhoto(id);
@@ -568,6 +573,23 @@ function fermer(){ document.getElementById("voile").classList.remove("on"); hist
 document.getElementById("voile").onclick = e => { if(e.target.id==="voile") fermer(); };
 document.addEventListener("keydown", e=>{ if(e.key==="Escape") fermer(); });
 const h = location.hash.match(/fiche=([\w-]+)/); if(h) ouvrir(h[1]);
+
+/* ───────── Mode gestion (code de saisie) ───────── */
+const EMPREINTE = "dd5636e85da7fb7ae6dd9bc0e6639678c3ede4685750d310fdc5519563ac6d64";   // empreinte SHA-256 du code, le code lui-même n'est pas dans la page
+async function empreinte(t){ const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join(""); }
+function modeGestion(on){
+  document.body.classList.toggle("gestion", on);
+  document.getElementById("cadenas").textContent = on ? "🔓 Gestion (quitter)" : "🔒 Gestion";
+  try{ on ? sessionStorage.setItem("cdsg_gestion","1") : sessionStorage.removeItem("cdsg_gestion"); }catch(e){}
+}
+document.getElementById("cadenas").onclick = async ()=>{
+  if(document.body.classList.contains("gestion")){ modeGestion(false); return; }
+  const code = prompt("Code de saisie :");
+  if(code === null) return;
+  if(await empreinte(code.trim()) === EMPREINTE) modeGestion(true);
+  else alert("Code incorrect.");
+};
+try{ if(sessionStorage.getItem("cdsg_gestion")==="1") modeGestion(true); }catch(e){}
 
 /* ───────── Édition des fiches ───────── */
 const DEPOT = {owner:"thierryarmant", repo:"cdsg-aix-marseille", chemin:"data/classes.js", branche:"main"};
@@ -697,7 +719,7 @@ function carteArticle(e, retirable){
     <div class="img" ${img}>${e.image?"":(ICO[e.type]||"•")}</div>
     <div class="tx"><b>${esc(e.titre||"")}</b>${esc((e.resume||"").slice(0,140))}${(e.resume||"").length>140?"…":""}
     <div class="mt">${esc(e.etab? e.etab+" · ":"")}${esc(e.site||hote(e.source))}${e.date?" · "+esc(dateFr(e.date)):""}</div></div>
-    ${retirable?`<button class="retirer" data-src="${esc(e.source)}" data-titre="${esc(e.titre||"")}" title="Retirer cet élément erroné">✕ Retirer</button>`:""}
+    ${retirable?`<button class="retirer g-only" data-src="${esc(e.source)}" data-titre="${esc(e.titre||"")}" title="Retirer cet élément erroné">✕ Retirer</button>`:""}
   </a>`;
 }
 async function chargerVeille(id){
@@ -711,17 +733,17 @@ async function chargerVeille(id){
   const der = (w && w.derniers) || {};
   zone.innerHTML = `<h4>Dossier de la classe · ${els.length} élément(s) trouvé(s) en ligne</h4>
     ${Object.keys(der).length?`<div class="derniers">${Object.entries(der).map(([t,d])=>`<div><b>${TYP[t]||t}</b>${esc(dateFr(d.date)||"date ?")} — ${esc(d.titre||"")}</div>`).join("")}</div>`:""}
-    ${(()=>{ const d=els.filter(e=>e.type==="distinction"); return d.length?`<div class="distinctions"><h4>🏅 Distinctions, prix et récompenses (${d.length}) <button class="ajout" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><ul style="margin:0;padding-left:18px">${d.map(e=>{ const srcs=[e.source].concat(e.autres_sources||[]).filter(Boolean); const vf=verif({sources:srcs, verifie:e.verifie});
+    ${(()=>{ const d=els.filter(e=>e.type==="distinction"); return d.length?`<div class="distinctions"><h4>🏅 Distinctions, prix et récompenses (${d.length}) <button class="ajout g-only" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><ul style="margin:0;padding-left:18px">${d.map(e=>{ const srcs=[e.source].concat(e.autres_sources||[]).filter(Boolean); const vf=verif({sources:srcs, verifie:e.verifie});
       return `<li><b>${esc(dateFr(e.date)||"date ?")}</b> — ${esc(e.titre||"")} ${vf==="a_confirmer"?'<span class="badge b-verif">à confirmer</span>':`<span class="badge b-active">✔ vérifié${vf==="presse"?" (presse)":" (source officielle)"}</span>`}
-      <span style="font-size:12px">${srcs.map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hote(u))}</a>`).join(" · ")}</span></li>`; }).join("")}</ul></div>`:`<div class="distinctions"><h4>🏅 Distinctions <button class="ajout" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><div style="font-size:13px">Aucune distinction trouvée en ligne pour l'instant.</div></div>`; })()}
+      <span style="font-size:12px">${srcs.map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hote(u))}</a>`).join(" · ")}</span></li>`; }).join("")}</ul></div>`:`<div class="distinctions"><h4>🏅 Distinctions <button class="ajout g-only" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><div style="font-size:13px">Aucune distinction trouvée en ligne pour l'instant.</div></div>`; })()}
     ${presse.length?`<h4>Revue de presse et photos</h4><div class="presse">${presse.map(e=>carteArticle(e,true)).join("")}</div>`:""}
     <h4>Chronologie</h4>
     <ul class="chrono">${els.slice(0,40).map(e=>`<li><b>${esc(dateFr(e.date)||"date ?")}</b> · ${esc(TYP[e.type]?TYP[e.type].replace(/^Derni(er|ère) /,""):e.type)} — ${esc(e.titre||"")}
       <div>${esc(e.resume||"")}</div>${e.extrait?`<div class="q">« ${esc(e.extrait)} »</div>`:""}
       <div class="s"><a href="${esc(e.source)}" target="_blank" rel="noopener">${esc(e.site||hote(e.source))}</a>${(e.autres_sources||[]).map(u=>` · <a href="${esc(u)}" target="_blank" rel="noopener">${esc(hote(u))}</a>`).join("")}
-      <button class="retirer" data-src="${esc(e.source)}" data-titre="${esc(e.titre||"")}">✕ Retirer</button></div></li>`).join("")}</ul>
+      <button class="retirer g-only" data-src="${esc(e.source)}" data-titre="${esc(e.titre||"")}">✕ Retirer</button></div></li>`).join("")}</ul>
     <div class="msg" id="msgRetrait"></div>
-    <div style="font-size:12px;color:var(--gris)">Informations publiques, à confirmer auprès de l'établissement. Dernière recherche : ${esc(dateFr((v.recherches||[]).slice(-1)[0]?.date||""))}. Un élément erroné ? « ✕ Retirer » : il ne sera plus repris.</div>`;
+    <div style="font-size:12px;color:var(--gris)">Informations publiques, à confirmer auprès de l'établissement. Dernière recherche : ${esc(dateFr((v.recherches||[]).slice(-1)[0]?.date||""))}. <span class="g-only">Un élément erroné ? « ✕ Retirer » : il ne sera plus repris.</span></div>`;
   zone.querySelectorAll(".retirer").forEach(b=>b.onclick=(ev)=>{ ev.preventDefault(); ev.stopPropagation(); retirer(id, b.dataset.src, b.dataset.titre); });
   const aj = document.getElementById("ajDist"); if(aj) aj.onclick = ()=>formDistinction(id);
 }
