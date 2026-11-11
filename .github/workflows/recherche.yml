@@ -4,7 +4,7 @@ name: Recherche web
 # filtre « toutes » : les 89 fiches en parallèle (8 équipes), puis fusion des résultats.
 on:
   schedule:
-    - cron: "17 2 * * *"   # chaque nuit vers 3 h : palmarès + 10 fiches vérifiées il y a le plus longtemps
+    - cron: "17 2 * * *"   # chaque nuit vers 3 h : palmarès + 4 fiches vérifiées il y a le plus longtemps
   workflow_dispatch:
     inputs:
       fiche:
@@ -38,7 +38,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        tranche: ${{ fromJSON((github.event_name == 'workflow_dispatch' && inputs.filtre == 'toutes' && inputs.fiche == '') && '[0,1,2,3,4,5,6,7]' || '[0]') }}
+        tranche: ${{ fromJSON((github.event_name == 'workflow_dispatch' && inputs.filtre == 'toutes' && inputs.fiche == '') && '[0,1,2,3]' || '[0]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -49,6 +49,9 @@ jobs:
       - name: Veille web
         env:
           ALBERT_API_KEY: ${{ secrets.ALBERT_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          MAX_REQUETES_FICHE: ${{ vars.MAX_REQUETES_FICHE }}
           API_MODEL: ${{ vars.API_MODEL }}
           MODELE_TRI: ${{ vars.MODELE_TRI }}
           MODELE_EXTRACTION: ${{ vars.MODELE_EXTRACTION }}
@@ -61,15 +64,15 @@ jobs:
           TRANCHE: ${{ matrix.tranche }}
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            python3 recherche/recherche_web.py --palmares --rotation 10
+            python3 recherche/recherche_web.py --palmares --rotation 4
           elif [ -n "$FICHE" ]; then
             python3 recherche/recherche_web.py --fiche "$FICHE" --liens "$LIENS"
           elif [ "$FILTRE" = "toutes" ]; then
             BOITE=""; [ "$TRANCHE" != "0" ] && BOITE="--sans-boite"
             PALM=""; [ "$TRANCHE" = "0" ] && PALM="--palmares"
-            python3 recherche/recherche_web.py $PALM $BOITE --statut active --tranche "$TRANCHE/8" || true
-            python3 recherche/recherche_web.py --sans-boite --statut dormante --tranche "$TRANCHE/8" || true
-            python3 recherche/recherche_web.py --sans-boite --statut projet --tranche "$TRANCHE/8" || true
+            python3 recherche/recherche_web.py $PALM $BOITE --statut active --tranche "$TRANCHE/4" || true
+            python3 recherche/recherche_web.py --sans-boite --statut dormante --tranche "$TRANCHE/4" || true
+            python3 recherche/recherche_web.py --sans-boite --statut projet --tranche "$TRANCHE/4" || true
           else
             OPT=""
             case "$FILTRE" in

@@ -257,8 +257,46 @@ EXTRAITS = {}   # url -> (titre, extrait) tels qu'affichés par le moteur de rec
 RESEAUX = re.compile(r"facebook\.com|instagram\.com|linkedin\.com|(^|//)(www\.)?x\.com|twitter\.com|tiktok\.com|youtube\.com", re.I)
 
 
+TAVILY = os.environ.get("TAVILY_API_KEY", "")
+BRAVE = os.environ.get("BRAVE_API_KEY", "")
+BUDGET = int(os.environ.get("MAX_REQUETES_FICHE", "12" if (TAVILY or BRAVE) else "60"))   # requêtes par fiche
+
+
+def recherche_cle(requete, n):
+    """Moteur fiable par clé (Tavily ou Brave). Renvoie None si aucune clé ou en cas d'échec."""
+    try:
+        if TAVILY:
+            corps = {"query": requete, "max_results": n, "search_depth": "basic", "country": "france"}
+            req = urllib.request.Request("https://api.tavily.com/search", data=json.dumps(corps).encode(),
+                                         headers={"Authorization": "Bearer " + TAVILY, "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                res = json.loads(r.read()).get("results", [])
+            out = []
+            for x in res:
+                EXTRAITS[x["url"]] = (x.get("title", ""), (x.get("content") or "")[:600]); out.append(x["url"])
+            return out
+        if BRAVE:
+            req = urllib.request.Request("https://api.search.brave.com/res/v1/web/search?" + urllib.parse.urlencode(
+                {"q": requete, "count": n, "country": "fr", "search_lang": "fr"}),
+                headers={"X-Subscription-Token": BRAVE, "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                res = json.loads(r.read()).get("web", {}).get("results", [])
+            time.sleep(1.1)   # offre gratuite : 1 requête par seconde
+            out = []
+            for x in res:
+                EXTRAITS[x["url"]] = (x.get("title", ""), re.sub(r"<[^>]+>", "", x.get("description", ""))); out.append(x["url"])
+            return out
+    except Exception as e:
+        print(f"     ! moteur à clé : {e}", file=sys.stderr)
+    return None
+
+
 def recherche_web(requete, n=5):
-    """DuckDuckGo (HTML puis version lite), sans clé. Garde aussi titre et extrait de chaque résultat."""
+    """Moteur à clé si disponible, sinon DuckDuckGo (HTML puis lite) puis Bing. Garde titre et extrait de chaque résultat."""
+    r = recherche_cle(requete, n)
+    if r is not None:
+        STATS["requetes"] += 1; STATS["vides"] += 0 if r else 1
+        return r[:n]
     trouves = []
     for base in ("https://html.duckduckgo.com/html/?", "https://lite.duckduckgo.com/lite/?"):
         try:
@@ -627,6 +665,11 @@ def traiter_fiche(c, liens_manuels=(), profondeur=25):
         f'site:ac-aix-marseille.fr {nom} {ville} classe défense',
         f'{ville} {unite} élèves classe défense' if unite else f'{ville} classe défense élèves {nom}',
     ]
+    # avec un moteur à clé, on garde les requêtes les plus utiles (budget mensuel)
+    prioritaires = [requetes[0], requetes[1], requetes[2]] + [q for q in requetes if "laprovence" in q or "ledauphine" in q] \
+                   + [q for q in requetes if "prix" in q and "OR" in q][:2] + [q for q in requetes if "facebook" in q][:1] \
+                   + [q for q in requetes if "defense.gouv" in q or "gouv.fr" in q][:2]
+    requetes = list(dict.fromkeys(prioritaires + requetes))[:BUDGET]
     urls_web = []
     for q in requetes:
         for u in recherche_web(q.strip()):
@@ -712,14 +755,24 @@ def question_libre(question, classes, resumes):
 
 
 def fiches_citees(classes, page):
-    """Fiches dont l'établissement (nom distinctif + ville) apparaît dans la page."""
-    t = slug(page["titre"] + " " + page["texte"])
-    out = []
+    """Fiches réellement citées : nom distinctif complet de l'établissement ET ville dans le texte de l'article,
+    puis confirmation par le modèle (évite de ranger un article d'Avignon dans un collège d'Orange)."""
+    t = " " + slug(page["titre"] + " " + page["texte"]).replace("-", " ") + " "
+    vides = {"college", "lycee", "prive", "professionnel", "metiers", "des", "de", "du", "la", "le", "les", "d", "l", "lpp", "lp", "mfr"}
+    candidats = []
     for c in classes:
-        mots = [m for m in slug(c["etab"]).split("-") if len(m) > 3 and m not in ("college", "lycee", "prive", "professionnel", "metiers", "jean", "saint")]
-        if not mots or slug(c["ville"]).split("-")[0] not in t: continue
-        if all(m in t for m in mots[-1:]): out.append(c)
-    return out
+        nom = [m for m in slug(re.sub(r"\(.*?\)", "", c["etab"])).split("-") if m and m not in vides]
+        ville = slug(c["ville"].split()[0]).replace("-", " ")
+        if not nom or f" {ville} " not in t: continue
+        if f" {' '.join(nom)} " in t or f" {nom[-1]} " in t and len(nom) == 1:
+            candidats.append(c)
+    confirmes = []
+    for c in candidats[:6]:
+        ok = demander("Réponds OUI ou NON.", f"Cet article parle-t-il des élèves ou de la classe défense de « {c['etab']} » à {c['ville']} "
+                      f"(et pas seulement d'un autre établissement) ?\n\n{page['titre']}\n{page['texte'][:6000]}",
+                      jsonmode=False, max_tokens=5, specialite="tri")
+        if ok and "OUI" in ok.upper(): confirmes.append(c)
+    return confirmes
 
 
 def ranger_page(c, page, resumes):
@@ -784,26 +837,10 @@ def palmares(classes, resumes, maxi_pages=25):
     for u in urls[:maxi_pages]:
         page = lire_page(u, maxi=12000)
         if not page or len(page["texte"]) < 200: continue
-        t = slug(page["texte"])
-        for c in classes:
-            mots = [m for m in slug(c["etab"]).split("-") if len(m) > 3 and m not in ("college", "lycee", "prive", "professionnel", "metiers")]
-            if not mots or slug(c["ville"]).split("-")[0] not in t: continue
-            if not all(m in t for m in mots[-2:]): continue
-            r = analyser_page(c, page)
-            if not r: continue
-            v = lire_veille(c["id"])
-            exclus = {x.get("source") for x in v.get("exclus", [])}
-            if u in exclus: continue
-            connus = {cle_element(e): e for e in v["elements"]}
-            n = 0
-            for e in r.get("elements", []):
-                k = cle_element(e)
-                if k in connus: fusionner(connus[k], e)
-                else: e["trouve_le"] = datetime.date.today().isoformat(); v["elements"].append(e); connus[k] = e; n += 1
+        for c in fiches_citees(classes, page):
+            n = ranger_page(c, page, resumes)
             if n:
-                v["elements"].sort(key=date_tri, reverse=True); ecrire_veille(c["id"], v)
-                resumes[c["id"]] = faire_resume(c, v); touchees.add(c["id"])
-                print(f"   ✓ {c['etab']} ({c['ville']}) : {n} élément(s) — {u[:90]}")
+                touchees.add(c["id"]); print(f"   ✓ {c['etab']} ({c['ville']}) : {n} élément(s) — {u[:90]}")
     ecrire_resumes(resumes); ecrire_actualites(classes)
     print(f"Palmarès : {len(touchees)} classe(s) complétée(s)")
 
