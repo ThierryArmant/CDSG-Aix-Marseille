@@ -937,6 +937,94 @@ def derniere_recherche(cid):
 
 
 DOSSIER_REPONSES = RACINE / "data" / "reponses"
+DOSSIER_VERIFS = RACINE / "data" / "verifications"
+
+
+def ecrire_classes(classes):
+    """Réécrit data/classes.js au format du site (une ligne par fiche)."""
+    entete = ("// Dossier CDSG — Académie d'Aix-Marseille\n// Une ligne = une fiche. Modifiable depuis le site (bouton « Modifier ») ou ici.\n"
+              "// statut : \"active\" | \"dormante\" | \"projet\" ; verifier : true si à confirmer\n")
+    src = FICHIER_CLASSES.read_text(encoding="utf-8")
+    m = re.search(r'window\.CDSG_MAJ\s*=\s*("[^"]*")', src)
+    FICHIER_CLASSES.write_text(entete + "window.CDSG_MAJ = " + (m.group(1) if m else '""') + ";\nwindow.CDSG = [\n" +
+        ",\n".join("  " + json.dumps(c, ensure_ascii=False, separators=(",", ":")) for c in classes) + "\n];\n", encoding="utf-8")
+
+
+def meme_personne(a, b):
+    """Compare deux noms en ignorant civilité, accents et prénoms : même nom de famille ?"""
+    n = lambda x: [m for m in slug(x or "").split("-") if m not in ("m", "mme", "mr", "monsieur", "madame", "mlle", "principal", "principale", "proviseur", "directeur", "directrice")]
+    na, nb = n(a), n(b)
+    return bool(na and nb and (na[-1] == nb[-1] or na[-1] in nb or nb[-1] in na))
+
+
+def verifier_chefs(classes, dep):
+    """Vérifie en ligne le chef d'établissement actuel de chaque fiche du département et corrige si besoin."""
+    aujourd_hui = datetime.date.today().isoformat()
+    bilan = []
+    for c in [x for x in classes if x.get("dep") == dep]:
+        nom, ville = c["etab"], c["ville"]
+        print(f"[{c['id']}] {nom} ({ville}) — fiche : {c.get('ce') or '—'}")
+        fonction = "proviseur" if re.search(r"lyc[ée]e|LP", nom) else "principal"
+        urls = []
+        for q in (f'"{re.sub(r"[()]", "", nom)}" {ville} {fonction}', f'{nom} {ville} {fonction} OR "chef d\'établissement" 2026 OR 2025'):
+            for u in recherche_web(q, n=5):
+                if u not in urls: urls.append(u)
+        # le site de l'établissement d'abord
+        urls.sort(key=lambda u: 0 if racine_site(u) else (1 if nature_source(u) in ("officielle", "presse") else 2))
+        pages = []
+        for u in urls[:5]:
+            p = lire_page(u, maxi=6000)
+            if p and len(p["texte"]) > 150: pages.append(p)
+        if not pages:
+            bilan.append({"id": c["id"], "etab": nom, "ville": ville, "ancien": c.get("ce"), "resultat": "aucune page trouvée"}); continue
+        r = demander("Tu vérifies qui est AUJOURD'HUI (année scolaire 2026-2027) le chef d'établissement (principal de collège, proviseur de lycée, "
+                     "directeur pour un établissement privé ou une MFR) d'un établissement précis. N'invente rien. "
+                     'Réponds en JSON : {"nom": "Mme/M. Prénom Nom ou null", "annee": "année de l\'information ou null", '
+                     '"source": "url de la page qui l\'indique ou null", "certitude": "forte|moyenne|faible"}. '
+                     "Certitude forte : page officielle récente (site de l'établissement, académie, annuaire de l'Éducation nationale) qui nomme la personne pour cet établissement.",
+                     f"Établissement : {nom}, {ville}\nNom actuellement dans la fiche : {c.get('ce') or 'inconnu'}\n\n" +
+                     "\n\n".join(f"--- {p['url']}\n{p['titre']}\n{p['texte'][:4500]}" for p in pages), max_tokens=400)
+        if not r or not r.get("nom"):
+            bilan.append({"id": c["id"], "etab": nom, "ville": ville, "ancien": c.get("ce"), "resultat": "non trouvé en ligne"}); continue
+        item = {"id": c["id"], "etab": nom, "ville": ville, "ancien": c.get("ce"), "trouve": r["nom"], "annee": r.get("annee"),
+                "source": r.get("source"), "certitude": r.get("certitude")}
+        if meme_personne(c.get("ce"), r["nom"]):
+            item["resultat"] = "confirmé"; c["ce_verifie"] = {"date": aujourd_hui, "source": r.get("source")}
+        elif r.get("certitude") in ("forte", "moyenne") and (str(r.get("annee") or "")[:4] >= "2025" or r.get("certitude") == "forte"):
+            item["resultat"] = "corrigé"
+            if c.get("ce") and c.get("ce") not in ("—", ""):
+                c["note"] = ((c.get("note") or "") + f" [Ancien chef d'établissement : {c['ce']}]").strip()
+            c["ce"] = r["nom"]; c["ce_verifie"] = {"date": aujourd_hui, "source": r.get("source")}; c["maj"] = datetime.date.today().strftime("%d/%m/%Y")
+        else:
+            item["resultat"] = "à vérifier (source incertaine)"
+        print(f"   → {item['resultat']} : {r.get('nom')} ({r.get('certitude')}, {r.get('annee')})")
+        bilan.append(item)
+    ecrire_classes(classes)
+    DOSSIER_VERIFS.mkdir(parents=True, exist_ok=True)
+    (DOSSIER_VERIFS / f"chefs-{dep}.json").write_text(json.dumps({"date": aujourd_hui, "departement": dep, "fiches": bilan},
+                                                                 ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Bilan : " + ", ".join(f"{k} {sum(1 for b in bilan if b['resultat'] == k)}" for k in ("confirmé", "corrigé")) + f" sur {len(bilan)} fiches")
+
+
+def appliquer_verifs(dossier_run):
+    """Fusion : réapplique les corrections de chefs d'établissement sur la version la plus récente des fiches."""
+    run = Path(dossier_run)
+    if not (run / "verifications").exists(): return
+    classes = lire_classes(); par_id = {c["id"]: c for c in classes}
+    for f in (run / "verifications").glob("*.json"):
+        DOSSIER_VERIFS.mkdir(parents=True, exist_ok=True)
+        (DOSSIER_VERIFS / f.name).write_text(f.read_text(encoding="utf-8"), encoding="utf-8")
+        v = json.loads(f.read_text(encoding="utf-8"))
+        for b in v.get("fiches", []):
+            c = par_id.get(b["id"])
+            if not c: continue
+            if b.get("resultat") in ("confirmé", "corrigé"):
+                c["ce_verifie"] = {"date": v["date"], "source": b.get("source")}
+            if b.get("resultat") == "corrigé" and not meme_personne(c.get("ce"), b.get("trouve")):
+                if c.get("ce") and c.get("ce") not in ("—", ""):
+                    c["note"] = ((c.get("note") or "") + f" [Ancien chef d'établissement : {c['ce']}]").strip()
+                c["ce"] = b["trouve"]
+    ecrire_classes(classes)
 
 
 def question_web(question, qid, classes, resumes):
@@ -998,6 +1086,7 @@ def main():
     ap.add_argument("--max", type=int, default=0)
     ap.add_argument("--profondeur", type=int, default=25, help="pages lues par fiche (hors site de l'établissement)")
     ap.add_argument("--question")
+    ap.add_argument("--verifier-chefs", help="vérifie en ligne les chefs d'établissement d'un département (ex. 84)")
     ap.add_argument("--question-web", help="question posée depuis le site (recherche web + réponse sourcée)")
     ap.add_argument("--qid", default="", help="identifiant de la réponse (data/reponses/<qid>.json)")
     ap.add_argument("--tranche", help="traitement en parallèle : i/n (ex. 0/8) = une fiche sur n à partir de i")
@@ -1008,7 +1097,7 @@ def main():
                     help="veille automatique : traite les N fiches vérifiées il y a le plus longtemps")
     a = ap.parse_args()
     if a.fusionner:
-        fusionner_dossiers(a.fusionner); return
+        fusionner_dossiers(a.fusionner); appliquer_verifs(a.fusionner); return
     if not CLE:
         sys.exit("Clé absente : export ALBERT_API_KEY=\"…\" (ou secret GitHub ALBERT_API_KEY).")
 
@@ -1022,6 +1111,8 @@ def main():
     print(f"{len(classes)} fiches · {BASE} · modèle principal {choisir_modele()} · " + ", ".join(f"{k}={v or choisir_modele()}" for k, v in SPECIALITES.items()))
     if a.question:
         question_libre(a.question, classes, resumes); return
+    if a.verifier_chefs:
+        verifier_chefs(classes, a.verifier_chefs); return
     if a.question_web:
         question_web(a.question_web, re.sub(r"[^\w-]", "", a.qid) or datetime.datetime.now().strftime("%Y%m%d%H%M%S"), classes, resumes); return
     if not a.sans_boite:

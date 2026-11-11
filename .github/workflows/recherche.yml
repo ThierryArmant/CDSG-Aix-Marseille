@@ -14,7 +14,7 @@ on:
         description: "Liens d'articles à lire en priorité (séparés par des espaces)"
         default: ""
       filtre:
-        description: "Si pas de fiche : toutes / verifier / dormante / projet / active / palmares"
+        description: "Si pas de fiche : toutes / verifier / dormante / projet / active / palmares / chefs:84 (vérifier les chefs d'établissement d'un département)"
         default: "verifier"
       maximum:
         description: "Nombre maximum de fiches (0 = pas de limite)"
@@ -95,6 +95,7 @@ jobs:
               verifier) OPT="--verifier" ;;
               dormante|projet|active) OPT="--statut $FILTRE" ;;
               palmares) OPT="--palmares" ;;
+              chefs:*) OPT="--sans-boite --verifier-chefs ${FILTRE#chefs:}" ;;
             esac
             python3 recherche/recherche_web.py $OPT --max "${MAXI:-0}"
           fi
@@ -104,6 +105,7 @@ jobs:
           mkdir -p res
           [ -d classes ] && cp -r classes res/ || true
           [ -d data/reponses ] && cp -r data/reponses res/ || true
+          [ -d data/verifications ] && cp -r data/verifications res/ || true
           cp data/recherche.js data/a_lire.json data/quota.json res/ 2>/dev/null || true
           cp /tmp/quota_depart.json res/ 2>/dev/null || true
       - uses: actions/upload-artifact@v4
@@ -133,7 +135,7 @@ jobs:
             git fetch -q origin main
             git reset -q --hard origin/main
             for d in /tmp/resultats/*/; do python3 recherche/recherche_web.py --fusionner "$d"; done
-            git add data/recherche.js data/actualites.js data/a_lire.json data/quota.json classes data/reponses 2>/dev/null || git add data/recherche.js data/actualites.js data/a_lire.json data/quota.json classes
+            git add data/recherche.js data/actualites.js data/a_lire.json data/quota.json data/classes.js classes data/reponses data/verifications 2>/dev/null || git add data/recherche.js data/actualites.js data/a_lire.json data/quota.json classes
             git diff --cached --quiet && exit 0
             git commit -q -m "${{ inputs.question != '' && 'Question web' || 'Veille web' }} : ${{ inputs.fiche || inputs.qid || inputs.filtre || 'veille automatique' }}"
             git push -q origin HEAD:main && exit 0

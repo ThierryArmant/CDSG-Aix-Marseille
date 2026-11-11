@@ -550,7 +550,7 @@ afficher();
 function ouvrir(id){
   const c = PAR_ID[id]; if(!c) return;
   const w = WEB[id];
-  const rows = [["Département",`${c.dep} · ${DEP[c.dep]}`],["Ville",c.ville],["Chef d'établissement",c.ce],["Professeur(s) référent(s)",c.ref],["Unité marraine / partenaire",c.unite],["Convention",c.conv],["Site de l'établissement",c.site||"—"],["Suivi formateur",c.suivi||"—"],["Observations (veille en ligne)", w && w.resume ? w.resume : (w && w.nb ? "Dernières activités repérées : "+Object.entries(w.derniers||{}).slice(0,4).map(([t,d])=>(TYP[t]||t).replace(/^Derni(er|ère) /,"").toLowerCase()+" « "+(d.titre||"")+" » ("+(dateFr(d.date)||"date ?")+")").join(" ; ")+"." : "Pas encore de recherche en ligne pour cette classe.")],["Notes de suivi",c.note||"—"]];
+  const rows = [["Département",`${c.dep} · ${DEP[c.dep]}`],["Ville",c.ville],["Chef d'établissement",(c.ce||"—")+(c.ce_verifie?"  ✔ vérifié en ligne le "+new Date(c.ce_verifie.date).toLocaleDateString("fr-FR")+(c.ce_verifie.source?" ("+hote(c.ce_verifie.source)+")":""):"")],["Professeur(s) référent(s)",c.ref],["Unité marraine / partenaire",c.unite],["Convention",c.conv],["Site de l'établissement",c.site||"—"],["Suivi formateur",c.suivi||"—"],["Observations (veille en ligne)", w && w.resume ? w.resume : (w && w.nb ? "Dernières activités repérées : "+Object.entries(w.derniers||{}).slice(0,4).map(([t,d])=>(TYP[t]||t).replace(/^Derni(er|ère) /,"").toLowerCase()+" « "+(d.titre||"")+" » ("+(dateFr(d.date)||"date ?")+")").join(" ; ")+"." : "Pas encore de recherche en ligne pour cette classe.")],["Notes de suivi",c.note||"—"]];
   if(c.maj) rows.push(["Fiche mise à jour",c.maj]);
   document.getElementById("fiche").innerHTML = `
     <div class="bandeau"></div>
