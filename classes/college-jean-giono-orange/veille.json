@@ -13,16 +13,6 @@
    "autres_sources": [
     "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html"
    ]
-  },
-  {
-   "type": "autre",
-   "date": null,
-   "titre": "CDSG Option Cinéma",
-   "extrait": "CDSG Option Cinéma",
-   "resume": "Le site indique la présence d’une classe Défense et Sécurité Globales (CDSG) option cinéma au Collège Jean Giono d’Orange.",
-   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Acces-ressources-.html",
-   "page": "Accès ressources - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffi",
-   "trouve_le": "2026-11-10"
   }
  ],
  "recherches": [
@@ -88,6 +78,13 @@
    "type": "autre",
    "cle": "classe-cdsg-option-cinema",
    "titre": "Classe CDSG Option Cinéma",
+   "retire_le": "2026-11-11"
+  },
+  {
+   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Acces-ressources-.html",
+   "type": "autre",
+   "cle": "cdsg-option-cinema",
+   "titre": "CDSG Option Cinéma",
    "retire_le": "2026-11-11"
   }
  ]
