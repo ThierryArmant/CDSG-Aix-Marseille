@@ -210,9 +210,9 @@
 
 <nav class="sommaire"><div class="in">
   <a href="#synthese">Synthèse</a>
-  <a href="#actus">Actualités</a>
   <a href="#assistant">Poser une question</a>
   <a href="#dossier">Les fiches</a>
+  <a href="#actus">Actualités</a>
   <a href="#methode">Méthode</a>
   <button class="cadenas" id="cadenas">🔒 Gestion</button>
 </div></nav>
@@ -224,21 +224,6 @@
     <p class="lead">Chaque classe est rattachée à un établissement, un chef d'établissement, un ou plusieurs professeurs référents et une unité marraine. Cliquez sur une tuile pour filtrer les fiches.</p>
     <div class="tuiles" id="tuiles"></div>
     <table class="dep" id="tabDep"></table>
-  </section>
-
-  <!-- ═════════════ ACTUALITÉS ═════════════ -->
-  <section id="actus">
-    <h2>Actualités des classes</h2>
-    <p class="lead">Dernières sorties, cérémonies, conventions, distinctions et articles de presse repérés en ligne. Mise à jour automatique chaque nuit. Cliquez pour lire.</p>
-    <div class="presse" id="actusGrille"></div>
-    <div class="lancer g-only" style="margin-top:18px">
-      <b>Signaler un article</b>
-      <div style="font-size:13px;color:var(--gris)">Un article, un PDF, une page de palmarès ou une publication sur une classe défense ? Collez le lien : l'assistant le lit, trouve la ou les classes concernées et range les informations dans leurs fiches (prochaine recherche, ou la nuit).</div>
-      <textarea id="signaler" placeholder="Un lien par ligne"></textarea>
-      <button id="signalerOk" class="btn-prim" style="border-radius:10px;padding:8px 14px;border:1px solid">Déposer dans « Articles à lire »</button>
-      <div class="msg" id="msgSignaler"></div>
-      <div id="boite" style="font-size:12.5px;margin-top:10px"></div>
-    </div>
   </section>
 
   <!-- ═════════════ ASSISTANT ═════════════ -->
@@ -311,6 +296,21 @@
       <span class="compte" id="compte"></span>
     </div>
     <div class="cartes" id="cartes"></div>
+  </section>
+
+  <!-- ═════════════ ACTUALITÉS ═════════════ -->
+  <section id="actus">
+    <h2>Actualités des classes</h2>
+    <p class="lead">Dernières sorties, cérémonies, conventions, distinctions et articles de presse repérés en ligne. Mise à jour automatique chaque nuit. Cliquez pour lire.</p>
+    <div class="presse" id="actusGrille"></div>
+    <div class="lancer g-only" style="margin-top:18px">
+      <b>Signaler un article</b>
+      <div style="font-size:13px;color:var(--gris)">Un article, un PDF, une page de palmarès ou une publication sur une classe défense ? Collez le lien : l'assistant le lit, trouve la ou les classes concernées et range les informations dans leurs fiches (prochaine recherche, ou la nuit).</div>
+      <textarea id="signaler" placeholder="Un lien par ligne"></textarea>
+      <button id="signalerOk" class="btn-prim" style="border-radius:10px;padding:8px 14px;border:1px solid">Déposer dans « Articles à lire »</button>
+      <div class="msg" id="msgSignaler"></div>
+      <div id="boite" style="font-size:12.5px;margin-top:10px"></div>
+    </div>
   </section>
 
   <!-- ═════════════ MÉTHODE ═════════════ -->
