@@ -163,10 +163,10 @@
   .distinctions h4{color:#8a6a2e!important}
   .distinctions li{margin:4px 0;font-size:14px}
   .medaille{display:inline-block;font-size:11px;font-weight:600;border-radius:999px;padding:2px 8px;background:#fdf1d6;color:#8a6a2e;margin-left:4px}
-  .medailles{position:absolute;top:22px;right:64px;display:flex;gap:4px;align-items:flex-start}
+  .medailles{position:absolute;top:22px;right:64px;display:flex;flex-wrap:wrap;justify-content:flex-end;max-width:55%;gap:4px;align-items:flex-start}
   .medailles svg{filter:drop-shadow(0 2px 2px rgba(0,0,0,.18));cursor:help}
   .fiche .c{position:relative}
-  .carte .med{display:flex;gap:2px;margin-top:2px}
+  .carte .med{display:flex;flex-wrap:wrap;gap:2px;margin-top:2px;max-width:120px}
   .carte .haut{position:relative}
   footer{border-top:1px solid var(--trait);padding:26px 6vw;text-align:center;color:var(--gris);font-size:13px}
   @media (max-width:820px){.tuiles{grid-template-columns:repeat(2,1fr)}.reglages .grid{grid-template-columns:1fr}.qbox{flex-direction:column}.qbox button{padding:12px}}
@@ -310,9 +310,11 @@
 <!-- ═════════════ FICHE (fenêtre) ═════════════ -->
 <div class="voile" id="voile"><div class="fiche" id="fiche"></div></div>
 
-<script src="data/classes.js"></script>
-<script src="data/recherche.js"></script>
-<script src="data/actualites.js" onerror="window.CDSG_ACTUS=[]"></script>
+<script>
+  // toujours charger la dernière version des données (pas de copie ancienne gardée par le navigateur)
+  (function(){ var t = Date.now(); ["data/classes.js","data/recherche.js","data/actualites.js"].forEach(function(f){
+    document.write('<script src="'+f+'?t='+t+'" onerror="if(\''+f+'\'.indexOf(\'actualites\')>0)window.CDSG_ACTUS=[]"><\/script>'); }); })();
+</script>
 <script>
 (function(){
 "use strict";
@@ -458,13 +460,21 @@ function rangDistinction(d){
 }
 const METAL = {or:["#f7d774","#c9962b","#8a6413"], argent:["#f1f3f6","#b8bec8","#7c8390"], bronze:["#f0b98a","#b8733c","#7a4520"], mention:["#dfe6ff","#6f86e0","#2c3f9e"]};
 const RUBAN = {or:["#1d2f8f","#ffffff","#d8243a"], argent:["#1d2f8f","#ffffff","#1d2f8f"], bronze:["#d8243a","#ffffff","#d8243a"], mention:["#2c3f9e","#8fa3f0","#2c3f9e"]};
+const NATURE = u => /laprovence|ledauphine|vauclusematin|lamarseillaise|francetvinfo|france3|francebleu|actu\.fr|varmatin|frequencemistral|20minutes|ouest-france|lefigaro|lemonde/i.test(u||"") ? "presse"
+  : /gouv\.fr|onac-vg|union-ihedn|ihedn|pedagogie\.ac-aix|ac-aix-marseille\.fr\/jcms|education\.gouv|feminisonslaeronautique|souvenir-francais|anmonm|assemblee-nationale/i.test(u||"") ? "officielle" : "autre";
+function verif(d){
+  if(d.verifie) return d.verifie;
+  const n = (d.sources||[d.source]).map(NATURE);
+  return n.includes("presse") ? "presse" : n.includes("officielle") ? "officielle" : "a_confirmer";
+}
 function medaille(d, taille){
   const r = rangDistinction(d), m = METAL[r], rb = RUBAN[r], uid = "m"+Math.random().toString(36).slice(2,8), w = taille||34;
+  const vf = verif(d), pale = vf==="a_confirmer";
   const lib = {or:"1er prix / lauréat", argent:"2e prix", bronze:"3e prix", mention:"Mention / participation"}[r];
-  return `<svg width="${w}" height="${w*1.55}" viewBox="0 0 40 62" role="img"><title>${esc((d.titre||"Distinction")+" — "+(dateFr(d.date)||"date ?")+" ("+lib+")")}</title>
+  return `<svg width="${w}" height="${w*1.55}" viewBox="0 0 40 62" role="img" style="${pale?"opacity:.38;filter:grayscale(.6)":""}"><title>${esc((d.titre||"Distinction")+" — "+(dateFr(d.date)||"date ?")+" ("+lib+") — "+(vf==="presse"?"vérifié par la presse":vf==="officielle"?"vérifié par une source officielle":"à confirmer par la presse"))}</title>
     <defs><radialGradient id="${uid}" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="${m[0]}"/><stop offset=".6" stop-color="${m[1]}"/><stop offset="1" stop-color="${m[2]}"/></radialGradient></defs>
     <path d="M8 0 h8 v24 l-4 4 l-4 -4z" fill="${rb[0]}"/><path d="M16 0 h8 v26 l-4 3 l-4 -3z" fill="${rb[1]}"/><path d="M24 0 h8 v24 l-4 4 l-4 -4z" fill="${rb[2]}"/>
-    <circle cx="20" cy="43" r="15" fill="url(#${uid})" stroke="${m[2]}" stroke-width="1.2"/>
+    <circle cx="20" cy="43" r="15" fill="url(#${uid})" stroke="${m[2]}" stroke-width="1.2" ${pale?'stroke-dasharray="2 2"':''}/>
     <circle cx="20" cy="43" r="11" fill="none" stroke="${m[0]}" stroke-width="1" opacity=".7"/>
     <path d="M20 35 l2.4 5 5.4 .6 -4 3.7 1.1 5.4 -4.9 -2.8 -4.9 2.8 1.1 -5.4 -4 -3.7 5.4 -.6z" fill="${m[0]}" stroke="${m[2]}" stroke-width=".6"/>
   </svg>`;
@@ -492,7 +502,7 @@ function afficher(){
   document.getElementById("compte").textContent = `${L.length} fiche${L.length>1?"s":""}`;
   document.getElementById("cartes").innerHTML = L.map(c=>`
     <article class="carte ${c.statut}" data-id="${c.id}">
-      <div class="haut"><div class="t">${esc(c.etab)}</div><div style="text-align:right">${badges(c)}${(()=>{ const D=triDist((WEB[c.id]||{}).distinctions||[]); return D.length?`<div class="med" style="justify-content:flex-end">${D.slice(0,4).map(d=>medaille(d,16)).join("")}${D.length>4?`<span style="font-size:11px;color:var(--gris)">+${D.length-4}</span>`:""}</div>`:""; })()}</div></div>
+      <div class="haut"><div class="t">${esc(c.etab)}</div><div style="text-align:right">${badges(c)}${(()=>{ const D=triDist((WEB[c.id]||{}).distinctions||[]); return D.length?`<div class="med" style="justify-content:flex-end">${D.map(d=>medaille(d,16)).join("")}</div>`:""; })()}</div></div>
       <div class="v">${esc(c.ville)} · ${c.dep}</div>
       <dl><dt>Chef d'étab.</dt><dd>${esc(c.ce)}</dd><dt>Référent(s)</dt><dd>${esc(c.ref)}</dd><dt>Unité</dt><dd>${esc(c.unite)}</dd></dl>
     </article>`).join("");
@@ -503,12 +513,12 @@ afficher();
 function ouvrir(id){
   const c = PAR_ID[id]; if(!c) return;
   const w = WEB[id];
-  const rows = [["Département",`${c.dep} · ${DEP[c.dep]}`],["Ville",c.ville],["Chef d'établissement",c.ce],["Professeur(s) référent(s)",c.ref],["Unité marraine / partenaire",c.unite],["Convention",c.conv],["Site de l'établissement",c.site||"—"],["Suivi formateur",c.suivi||"—"],["Observations (veille en ligne)", w && w.resume ? w.resume : "Pas encore de recherche en ligne pour cette classe."],["Notes de suivi",c.note||"—"]];
+  const rows = [["Département",`${c.dep} · ${DEP[c.dep]}`],["Ville",c.ville],["Chef d'établissement",c.ce],["Professeur(s) référent(s)",c.ref],["Unité marraine / partenaire",c.unite],["Convention",c.conv],["Site de l'établissement",c.site||"—"],["Suivi formateur",c.suivi||"—"],["Observations (veille en ligne)", w && w.resume ? w.resume : (w && w.nb ? "Dernières activités repérées : "+Object.entries(w.derniers||{}).slice(0,4).map(([t,d])=>(TYP[t]||t).replace(/^Derni(er|ère) /,"").toLowerCase()+" « "+(d.titre||"")+" » ("+(dateFr(d.date)||"date ?")+")").join(" ; ")+"." : "Pas encore de recherche en ligne pour cette classe.")],["Notes de suivi",c.note||"—"]];
   if(c.maj) rows.push(["Fiche mise à jour",c.maj]);
   document.getElementById("fiche").innerHTML = `
     <div class="bandeau"></div><div class="c">
     <button class="fermer" aria-label="Fermer">×</button>
-    ${(()=>{ const D=triDist((w&&w.distinctions)||[]); return D.length?`<div class="medailles">${D.slice(0,6).map(d=>medaille(d,30)).join("")}</div>`:""; })()}
+    ${(()=>{ const D=triDist((w&&w.distinctions)||[]); return D.length?`<div class="medailles">${D.map(d=>medaille(d,D.length>8?22:30)).join("")}</div>`:""; })()}
     <div>${badges(c)}</div>
     <h3>${esc(c.etab)}</h3>
     <div class="id">Fiche ${esc(id)}</div>
@@ -654,7 +664,9 @@ async function chargerVeille(id){
   const der = (w && w.derniers) || {};
   zone.innerHTML = `<h4>Dossier de la classe · ${els.length} élément(s) trouvé(s) en ligne</h4>
     ${Object.keys(der).length?`<div class="derniers">${Object.entries(der).map(([t,d])=>`<div><b>${TYP[t]||t}</b>${esc(dateFr(d.date)||"date ?")} — ${esc(d.titre||"")}</div>`).join("")}</div>`:""}
-    ${(()=>{ const d=els.filter(e=>e.type==="distinction"); return d.length?`<div class="distinctions"><h4>🏅 Distinctions, prix et récompenses (${d.length}) <button class="ajout" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><ul style="margin:0;padding-left:18px">${d.map(e=>`<li><b>${esc(dateFr(e.date)||"date ?")}</b> — ${esc(e.titre||"")} <a href="${esc(e.source)}" target="_blank" rel="noopener" style="font-size:12px">${esc(e.site||hote(e.source))}</a></li>`).join("")}</ul></div>`:`<div class="distinctions"><h4>🏅 Distinctions <button class="ajout" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><div style="font-size:13px">Aucune distinction trouvée en ligne pour l'instant.</div></div>`; })()}
+    ${(()=>{ const d=els.filter(e=>e.type==="distinction"); return d.length?`<div class="distinctions"><h4>🏅 Distinctions, prix et récompenses (${d.length}) <button class="ajout" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><ul style="margin:0;padding-left:18px">${d.map(e=>{ const srcs=[e.source].concat(e.autres_sources||[]).filter(Boolean); const vf=verif({sources:srcs, verifie:e.verifie});
+      return `<li><b>${esc(dateFr(e.date)||"date ?")}</b> — ${esc(e.titre||"")} ${vf==="a_confirmer"?'<span class="badge b-verif">à confirmer</span>':`<span class="badge b-active">✔ vérifié${vf==="presse"?" (presse)":" (source officielle)"}</span>`}
+      <span style="font-size:12px">${srcs.map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hote(u))}</a>`).join(" · ")}</span></li>`; }).join("")}</ul></div>`:`<div class="distinctions"><h4>🏅 Distinctions <button class="ajout" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><div style="font-size:13px">Aucune distinction trouvée en ligne pour l'instant.</div></div>`; })()}
     ${presse.length?`<h4>Revue de presse et photos</h4><div class="presse">${presse.map(e=>carteArticle(e,true)).join("")}</div>`:""}
     <h4>Chronologie</h4>
     <ul class="chrono">${els.slice(0,40).map(e=>`<li><b>${esc(dateFr(e.date)||"date ?")}</b> · ${esc(TYP[e.type]?TYP[e.type].replace(/^Derni(er|ère) /,""):e.type)} — ${esc(e.titre||"")}

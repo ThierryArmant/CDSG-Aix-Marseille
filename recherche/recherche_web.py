@@ -77,6 +77,29 @@ MOTS_DEFENSE = re.compile(r"d[ée]fense|cdsg|prix|laur[ée]at|concours|r[ée]com
 
 MOTS_DISTINCTION = re.compile(r"prix|laur[ée]at|concours|r[ée]compens|distinction|m[ée]daille|troph[ée]e|palmar[eè]s|1er|premier prix|class[ée]|drapeau|fanion|label", re.I)
 
+PRESSE = re.compile(r"laprovence|ledauphine|vauclusematin|lamarseillaise|francetvinfo|france3|francebleu|actu\.fr|varmatin|"
+                    r"frequencemistral|20minutes|lepoint|ouest-france|lefigaro|lemonde|liberation|radio|tv|info", re.I)
+OFFICIEL = re.compile(r"gouv\.fr|defense\.gouv|onac-vg|union-ihedn|ihedn|ac-aix-marseille\.fr/jcms|pedagogie\.ac-aix|education\.gouv|"
+                      r"feminisonslaeronautique|souvenir-francais|anmonm|reseau-canope|assemblee-nationale|senat\.fr", re.I)
+
+
+def nature_source(u):
+    """presse / officielle / etablissement / autre"""
+    if PRESSE.search(u or ""): return "presse"
+    if OFFICIEL.search(u or ""): return "officielle"
+    if re.search(r"site\.ac-aix-marseille\.fr|web\.ac-aix-marseille\.fr", u or ""): return "etablissement"
+    return "autre"
+
+
+def etat_verification(e):
+    """Une distinction est vérifiée si au moins une source est de la presse ou officielle."""
+    srcs = [e.get("source")] + e.get("autres_sources", [])
+    natures = {nature_source(x) for x in srcs if x}
+    if "presse" in natures: return "presse"
+    if "officielle" in natures: return "officielle"
+    return "a_confirmer"
+
+
 # ───────────────────────── fichiers ─────────────────────────
 def slug(s):
     s = unicodedata.normalize("NFD", s.lower())
@@ -443,7 +466,10 @@ def infos_resume(v):
         if e: derniers[t] = {k: e.get(k) for k in ("date", "titre", "resume", "source")}
     return {"nb": len(els), "derniere_activite": els[0].get("date") if els else None, "derniers": derniers,
             "distinctions": [{"date": e.get("date"), "titre": e.get("resume") if e.get("manuel") else e.get("titre"),
-                              "resume": e.get("resume"), "source": e.get("source")} for e in els if e["type"] == "distinction"],
+                              "resume": e.get("resume"), "source": e.get("source"),
+                              "verifie": etat_verification(e),
+                              "sources": [x for x in [e.get("source")] + e.get("autres_sources", []) if x]}
+                             for e in els if e["type"] == "distinction"],
             "sources": list(dict.fromkeys(e["source"] for e in els))[:8]}
 
 
@@ -478,7 +504,10 @@ def fusionner_dossiers(dossier_run):
         for k in ("fiche", "etablissement", "referents_cites", "unite_citee"):
             if a.get(k): b[k] = a[k]
         ecrire_veille(cid, b)
-        r = dict(res_run.get(cid) or resumes.get(cid) or {})
+        r = dict(resumes.get(cid) or {})
+        rr = res_run.get(cid) or {}
+        for k, val in rr.items():
+            if val not in (None, "", [], {}): r[k] = val
         r.update(infos_resume(b))
         resumes[cid] = r
     fb = run / "a_lire.json"
@@ -496,10 +525,6 @@ def fusionner_dossiers(dossier_run):
 
 def faire_resume(c, v):
     els = sorted(v["elements"], key=date_tri, reverse=True)
-    derniers = {}
-    for t in ("distinction", "sortie", "ceremonie", "convention", "article", "rapport", "projet"):
-        e = next((x for x in els if x["type"] == t), None)
-        if e: derniers[t] = {k: e.get(k) for k in ("date", "titre", "resume", "source")}
     synthese = None
     if els:
         lignes = "\n".join(f"- [{e['type']}] {e.get('date') or '?'} — {e.get('titre')} : {e.get('resume')}" for e in els[:40])
@@ -507,13 +532,39 @@ def faire_resume(c, v):
                             "à partir des éléments de veille : activité la plus récente, distinctions et prix obtenus, partenaires, faits marquants. "
                             "N'invente rien. Réponds en texte simple.",
                             f"Classe : {c['etab']} ({c['ville']})\nÉléments :\n{lignes}", jsonmode=False, max_tokens=300, specialite="synthese")
-    return {"date": datetime.date.today().strftime("%d/%m/%Y"),
-            "resume": (synthese or "").strip(),
-            "nb": len(els),
-            "derniere_activite": els[0].get("date") if els else None,
-            "derniers": derniers,
-            "distinctions": [{"date": e.get("date"), "titre": e.get("resume") if e.get("manuel") else e.get("titre"), "resume": e.get("resume"), "source": e.get("source")} for e in els if e["type"] == "distinction"],
-            "sources": list(dict.fromkeys(e["source"] for e in els))[:8]}
+    r = {"date": datetime.date.today().strftime("%d/%m/%Y"), "resume": (synthese or "").strip()}
+    r.update(infos_resume(v))
+    return r
+
+
+def verifier_distinctions(c, v):
+    """Pour chaque distinction non confirmée, cherche une confirmation dans la presse ou une source officielle."""
+    nom, ville = c["etab"], c["ville"]
+    mots = [m for m in re.sub(r"\(.*?\)", "", nom).split() if m[:1].isupper() and m.lower() not in ("collège", "lycée", "college", "lycee", "lpp", "lp", "lpo")]
+    court = ("lycée " if re.search(r"lyc[ée]e|LP", nom) else "collège ") + (mots[-1] if mots else nom)
+    for e in v["elements"]:
+        if e.get("type") != "distinction" or etat_verification(e) != "a_confirmer": continue
+        cle = re.sub(r"[«»\"()]", " ", e.get("titre", ""))[:80]
+        annee = (e.get("date") or "")[:4]
+        for q in (f'"{court}" {ville} {cle} {annee}', f'{court} {ville} prix {annee} site:laprovence.com OR site:ledauphine.com',
+                  f'{nom} {cle}'):
+            trouve = False
+            for u in recherche_web(q, n=5):
+                if nature_source(u) not in ("presse", "officielle") or u in e.get("autres_sources", []) + [e.get("source")]: continue
+                page = lire_page(u)
+                if not page: continue
+                t = slug(page["titre"] + " " + page["texte"])
+                if slug(ville).split("-")[0] in t and slug(mots[-1] if mots else nom) in t and MOTS_DISTINCTION.search(page["texte"]):
+                    ok = demander("Réponds OUI ou NON.", f"Cette page confirme-t-elle que « {nom} » ({ville}) a obtenu : {e.get('titre')} ({annee or 'année ?'}) ?\n\n{page['titre']}\n{page['texte'][:5000]}",
+                                  jsonmode=False, max_tokens=5, specialite="tri")
+                    if ok and "OUI" in ok.upper():
+                        e.setdefault("autres_sources", []).append(u)
+                        if page.get("image") and not e.get("image"): e["image"] = page["image"]
+                        print(f"   ✔ confirmé ({nature_source(u)}) : {e.get('titre')} — {u[:80]}")
+                        trouve = True; break
+            time.sleep(1)
+            if trouve: break
+        e["verifie"] = etat_verification(e)
 
 
 # ───────────────────────── traitement d'une fiche ─────────────────────────
@@ -632,6 +683,7 @@ def traiter_fiche(c, liens_manuels=(), profondeur=25):
                 v["elements"].append(e); deja[k] = e; nouveaux += 1
         if r.get("referents"): v["referents_cites"] = r["referents"]
         if r.get("unite"): v["unite_citee"] = r["unite"]
+    verifier_distinctions(c, v)
     v["elements"].sort(key=date_tri, reverse=True)
     v["pages_lues"] = sorted(vues)
     v["recherches"].append({"date": datetime.date.today().isoformat(), "pages": len(a_lire), "nouveaux": nouveaux})
