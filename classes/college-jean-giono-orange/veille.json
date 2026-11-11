@@ -23,16 +23,6 @@
    "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Acces-ressources-.html",
    "page": "Accès ressources - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffi",
    "trouve_le": "2026-11-10"
-  },
-  {
-   "type": "autre",
-   "date": null,
-   "titre": "Classe CDSG Option Cinéma",
-   "extrait": "Classe Bilangue Latin-Grec CDSG Option Cinéma",
-   "resume": "Le collège Jean Giono propose une classe Défense et Sécurité Globales (CDSG) en option cinéma, indiquée dans la rubrique des niveaux 3ème.",
-   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Vie-de-l-etablissement-.html",
-   "page": "Vie de l'établissement - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriqu",
-   "trouve_le": "2026-11-10"
   }
  ],
  "recherches": [
@@ -91,5 +81,14 @@
  ],
  "etablissement": "Collège Jean Giono (Orange)",
  "referents_cites": "M. Armant",
- "unite_citee": "BA 115 « Capitaine de Seynes »"
+ "unite_citee": "BA 115 « Capitaine de Seynes »",
+ "exclus": [
+  {
+   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Vie-de-l-etablissement-.html",
+   "type": "autre",
+   "cle": "classe-cdsg-option-cinema",
+   "titre": "Classe CDSG Option Cinéma",
+   "retire_le": "2026-11-11"
+  }
+ ]
 }
