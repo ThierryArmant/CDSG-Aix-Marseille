@@ -26,7 +26,7 @@ Exemples :
   python3 recherche/recherche_web.py --verifier
   python3 recherche/recherche_web.py --question "Quelle classe a fait la dernière sortie à la BA 115 ?"
 """
-import argparse, datetime, html, json, os, re, sys, time, unicodedata
+import argparse, base64, datetime, html, json, os, re, shutil, subprocess, sys, tempfile, time, unicodedata
 import urllib.parse, urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
@@ -47,6 +47,7 @@ SPECIALITES = {
     "extraction": os.environ.get("MODELE_EXTRACTION") or "",   # sorties, conventions, articles…
     "synthese":   os.environ.get("MODELE_SYNTHESE")   or "",   # observations de la fiche
     "question":   os.environ.get("MODELE_QUESTION")   or "",   # réponses aux questions
+    "vision":     os.environ.get("MODELE_VISION")     or ("gemma-4-31b-it" if "etalab.gouv.fr" in BASE else ""),  # lecture des PDF scannés ou mal encodés
 }
 TYPES = ["distinction", "sortie", "ceremonie", "convention", "article", "rapport", "projet", "partenaire", "autre"]
 # Concours et prix cherchés pour CHAQUE établissement (ajouter ici tout nouveau concours)
@@ -67,7 +68,7 @@ PALMARES = ["prix Armées zone Sud lauréats", "prix Armées zone Sud collège c
             "1er régiment étranger de cavalerie classe défense collège", "4e régiment de chasseurs Gap classe défense",
             "2e régiment étranger de génie classe défense collège", "site:facebook.com classe défense collège Vaucluse",
             "site:facebook.com classe défense Bouches-du-Rhône collège prix", "classe défense prix Provence collège", "labellisation classe défense et sécurité globales Aix-Marseille",
-            "prix Louis Quinio lauréats", "prix Louis Quinio collège classe défense", "site:union-ihedn.org prix Louis Quinio",
+            "prix Louis Quinio lauréats", "site:union-ihedn.org Presentation Prix Louis QUINIO pdf", "prix Louis Quinio collège classe défense", "site:union-ihedn.org prix Louis Quinio",
             "AR-IHEDN Provence prix classe défense", "prix Louis Quinio Aix-Marseille trinôme"]
 MOTS_DEFENSE = re.compile(r"d[ée]fense|cdsg|prix|laur[ée]at|concours|r[ée]compens|distinction|m[ée]daille|troph[ée]e|militaire|arm[ée]e|base a[ée]rienne|r[ée]giment|gendarmerie|pompier|marine|"
                           r"l[ée]gion|c[ée]r[ée]monie|comm[ée]mor|m[ée]moire|11 novembre|8 mai|rallye|trin[ôo]me|convention", re.I)
@@ -136,8 +137,46 @@ def http_get(url, timeout=20):
     url = adresse_sure(url)
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "fr-FR,fr;q=0.9"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        brut = r.read(800_000)
+        brut = r.read(25_000_000 if url.lower().split("?")[0].endswith(".pdf") else 800_000)
+        DERNIER["type"] = r.headers.get_content_type(); DERNIER["octets"] = brut
         return brut.decode(r.headers.get_content_charset() or "utf-8", errors="replace"), r.geturl()
+
+
+DERNIER = {"type": "", "octets": b""}
+
+
+def texte_lisible(t):
+    """Vrai si le texte ressemble à du français (et non à une police mal encodée)."""
+    mots = re.findall(r"[a-zàâçéèêëîïôûùüÿœ]+", t.lower())
+    if len(mots) < 30: return False
+    courants = {"le", "la", "les", "de", "des", "du", "et", "en", "un", "une", "pour", "au", "aux", "dans", "par", "sur", "est", "qui"}
+    return sum(1 for m in mots if m in courants) / len(mots) > 0.06
+
+
+def lire_pdf(octets, maxi_pages=10):
+    """Texte d'un PDF : extraction directe, sinon lecture des pages en images par le modèle de vision."""
+    with tempfile.TemporaryDirectory() as d:
+        f = os.path.join(d, "doc.pdf"); open(f, "wb").write(octets)
+        texte = ""
+        if shutil.which("pdftotext"):
+            subprocess.run(["pdftotext", "-l", str(maxi_pages * 2), "-layout", f, f + ".txt"], capture_output=True, timeout=60)
+            if os.path.exists(f + ".txt"): texte = open(f + ".txt", encoding="utf-8", errors="replace").read()
+        if texte_lisible(texte): return texte
+        if not (shutil.which("pdftoppm") and CLE and SPECIALITES.get("vision")): return texte
+        subprocess.run(["pdftoppm", "-r", "90", "-png", "-l", str(maxi_pages), f, os.path.join(d, "p")], capture_output=True, timeout=180)
+        morceaux = []
+        for img in sorted(x for x in os.listdir(d) if x.startswith("p") and x.endswith(".png")):
+            b64 = base64.b64encode(open(os.path.join(d, img), "rb").read()).decode()
+            try:
+                rep = api("/chat/completions", {"model": SPECIALITES["vision"], "temperature": 0, "max_tokens": 1500,
+                    "messages": [{"role": "user", "content": [
+                        {"type": "text", "text": "Recopie fidèlement tout le texte de cette page (titres, noms d'établissements, villes, rangs, prix, années). Texte brut uniquement."},
+                        {"type": "image_url", "image_url": {"url": "data:image/png;base64," + b64}}]}]})
+                morceaux.append(rep["choices"][0]["message"]["content"])
+            except Exception as e:
+                print(f"     ! lecture image impossible ({e})"); break
+        print(f"     PDF lu en images : {len(morceaux)} page(s)")
+        return "\n".join(morceaux) or texte
 
 
 class Page(HTMLParser):
@@ -171,6 +210,10 @@ def lire_page(url, maxi=16000):
                 "site": urllib.parse.urlsplit(url).netloc.replace("www.", "") + " (extrait public)"}
     try:
         brut, final = http_get(url)
+        if "pdf" in DERNIER["type"] or DERNIER["octets"][:5] == b"%PDF-":
+            t = re.sub(r"[ \t]+", " ", lire_pdf(DERNIER["octets"]))
+            return {"url": final, "titre": urllib.parse.unquote(final.rsplit("/", 1)[-1]), "texte": t[:maxi * 2], "liens": [],
+                    "image": None, "date_pub": None, "site": urllib.parse.urlsplit(final).netloc.replace("www.", "") + " (PDF)"}
         p = Page(); p.feed(brut)
         texte = re.sub(r"\s+", " ", " ".join(p.txt))
         liens = [(urllib.parse.urljoin(final, h), t.strip()) for h, t in p.liens]

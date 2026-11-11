@@ -39,6 +39,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Outils PDF
+        run: sudo apt-get install -y -qq poppler-utils >/dev/null
       - name: Veille web
         env:
           ALBERT_API_KEY: ${{ secrets.ALBERT_API_KEY }}
