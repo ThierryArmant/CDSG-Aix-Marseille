@@ -239,17 +239,5 @@ window.CDSG_ACTUS = [
   "fiche": "college-jean-giono-orange",
   "etab": "Collège Jean Giono",
   "ville": "Orange"
- },
- {
-  "date": "2016-06-10",
-  "type": "article",
-  "titre": "Une classe défense du Collège Jean Giono",
-  "resume": "Le 10 juin 2016, le collège Jean Giono d'Orange a présenté sa classe défense lors d'un reportage de Fréquence Mistral, avec la professeure Virginie François et des élèves.",
-  "source": "https://www.frequencemistral.com/Une-classe-defense-du-College-Jean-Giono_a3202.html",
-  "image": "https://www.frequencemistral.com/photo/art/grande/9654112-15540614.jpg?v=1465550989",
-  "site": "Fréquence Mistral",
-  "fiche": "college-jean-giono-orange",
-  "etab": "Collège Jean Giono",
-  "ville": "Orange"
  }
 ];
