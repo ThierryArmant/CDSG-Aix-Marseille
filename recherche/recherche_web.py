@@ -505,6 +505,9 @@ def cle_element(e):
         vides = {"prix", "de", "du", "la", "le", "des", "et", "edition", "college", "jean", "giono", "orange", "avec", "remise", "d", "l", "les", "au", "a"}
         mots = sorted(m for m in t.split("-") if len(m) > 2 and m not in vides and not m.isdigit())
         return ("distinction", "-".join(mots[:4]))
+    d = str(e.get("date") or "")
+    if len(d) >= 10 and e.get("type") in ("convention", "ceremonie", "sortie"):
+        return (e.get("type"), d[:10])   # même événement à la même date, quelle que soit la formulation
     return (e.get("type"), t[:50])
 
 

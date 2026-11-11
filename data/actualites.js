@@ -169,18 +169,6 @@ window.CDSG_ACTUS = [
   "ville": "Marignane"
  },
  {
-  "date": "2025-05-12",
-  "type": "sortie",
-  "titre": "Visite du mémorial du camp des Milles",
-  "resume": "Le lendemain, les collégiens ont visité le mémorial du camp des Milles, lieu de mémoire de l’internement et de la déportation.",
-  "source": "https://www.laprovence.com/article/region/1838066081972715/a-marignane-les-collegiens-de-la-classe-defense-tissent-le-lien-entre-memoire-citoyennete-et-armee",
-  "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/05/12/classe-defense-1747042461_9b17c0ea80286d127c0ea80285627cv_.jpg",
-  "site": "laprovence.com",
-  "fiche": "college-georges-brassens-marignane",
-  "etab": "Collège Georges Brassens",
-  "ville": "Marignane"
- },
- {
   "date": "2025-05-11",
   "type": "article",
   "titre": "Collège Giono : les élèves de la classe défense à Paris",
@@ -230,18 +218,6 @@ window.CDSG_ACTUS = [
  },
  {
   "date": "2025-05-08",
-  "type": "sortie",
-  "titre": "Visite de l’Assemblée nationale",
-  "resume": "Dans le cadre de la sortie à Paris, les élèves ont visité l’Assemblée nationale le 8 mai 2025.",
-  "source": "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris",
-  "image": "https://cdn-s-www.ledauphine.com/images/1EF89220-7832-4B5B-83E5-E2CCBCC44BD0/FB1200/photo-1746983914.jpg",
-  "site": "ledauphine.com",
-  "fiche": "college-jean-giono-orange",
-  "etab": "Collège Jean Giono",
-  "ville": "Orange"
- },
- {
-  "date": "2025-05-08",
   "type": "ceremonie",
   "titre": "Commémoration de la victoire des forces alliées",
   "resume": "Le 8 mai 2025, les élèves ont assisté, sur invitation de la Présidence, à la cérémonie du 8 mai au pied de l’Arc de Triomphe.",
@@ -281,6 +257,30 @@ window.CDSG_ACTUS = [
   "type": "article",
   "titre": "Le recteur de l’académie remet un prix prestigieux aux collégiens",
   "resume": "Un article du 23 mars 2025 rapporte la visite du recteur Benoît Delaunay à Orange et la remise du prix Louis‑Quinio à la classe défense du Collège Jean Giono.",
+  "source": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
+  "image": "https://cdn-s-www.ledauphine.com/images/71799470-A785-4E9D-BC2B-8680A55751D2/FB1200/photo-1742754980.jpg",
+  "site": "ledauphine.com",
+  "fiche": "college-jean-giono-orange",
+  "etab": "Collège Jean Giono",
+  "ville": "Orange"
+ },
+ {
+  "date": "2025-03-19",
+  "type": "distinction",
+  "titre": "Prix national Louis‑Quinio",
+  "resume": "Le recteur Benoît Delaunay, accompagné de responsables académiques et militaires, a décerné le prix national Louis‑Quinio à la classe défense du Collège Jean Giono pour son travail de mémoire.",
+  "source": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
+  "image": "https://cdn-s-www.ledauphine.com/images/71799470-A785-4E9D-BC2B-8680A55751D2/FB1200/photo-1742754980.jpg",
+  "site": "ledauphine.com",
+  "fiche": "college-jean-giono-orange",
+  "etab": "Collège Jean Giono",
+  "ville": "Orange"
+ },
+ {
+  "date": "2025-03-19",
+  "type": "ceremonie",
+  "titre": "Remise du prix Louis‑Quinio",
+  "resume": "Lors d’une cérémonie le 19 mars 2025, le recteur, avec l’inspecteur Julien Cuminetto, a remis le prix Louis‑Quinio aux élèves de la classe défense du collège.",
   "source": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
   "image": "https://cdn-s-www.ledauphine.com/images/71799470-A785-4E9D-BC2B-8680A55751D2/FB1200/photo-1742754980.jpg",
   "site": "ledauphine.com",

@@ -3,7 +3,7 @@ window.CDSG_WEB = {
  "college-jean-giono-orange": {
   "date": "11/11/2026",
   "resume": "",
-  "nb": 34,
+  "nb": 33,
   "derniere_activite": "2026-07-03",
   "derniers": {
    "distinction": {
@@ -395,7 +395,7 @@ window.CDSG_WEB = {
  },
  "college-stephane-mallarme-marseille-13e": {
   "date": "11/11/2026",
-  "nb": 5,
+  "nb": 3,
   "photo": null,
   "derniere_activite": "2025",
   "derniers": {
@@ -433,7 +433,6 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
    "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
-   "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U",
    "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321"
   ],
   "resume": "La classe défense du collège Stéphane Mallarmé a reçu en 2025 le prix « Armées zone Sud » décerné par le général Laval, récompensant son projet. Elle"
@@ -742,7 +741,7 @@ window.CDSG_WEB = {
    "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385",
    "manuel": false
   },
-  "nb": 11,
+  "nb": 10,
   "derniere_activite": "2020-03-31",
   "derniers": {
    "distinction": {
@@ -1009,7 +1008,7 @@ window.CDSG_WEB = {
    "source": "https://www.laprovence.com/article/region/1838066081972715/a-marignane-les-collegiens-de-la-classe-defense-tissent-le-lien-entre-memoire-citoyennete-et-armee",
    "manuel": false
   },
-  "nb": 5,
+  "nb": 4,
   "derniere_activite": "2025-05-12",
   "derniers": {
    "sortie": {

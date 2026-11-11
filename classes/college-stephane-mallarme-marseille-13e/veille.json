@@ -21,29 +21,11 @@
    "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
    "page": "Depuis 2018, la Classe Défense du collège Stéphane ...",
    "site": "facebook.com (extrait public)",
-   "trouve_le": "2026-11-11"
-  },
-  {
-   "type": "convention",
-   "date": "2022-09-22",
-   "titre": "Signature de la convention avec le BMPM",
-   "extrait": "Convention signée le 22/09/2022 avec le Bataillon de marins‑pompiers (BMPM).",
-   "resume": "Le collège Stéphane Mallarmé a signé une convention de partenariat avec le Bataillon de marins‑pompiers le 22 septembre 2022.",
-   "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
-   "page": "Prix armées zone Sud : les minots du collège Stéphane ...",
-   "site": "facebook.com (extrait public)",
-   "trouve_le": "2026-11-11"
-  },
-  {
-   "type": "convention",
-   "date": "2022-09-22",
-   "titre": "Convention avec le Bataillon de marins-pompiers",
-   "extrait": "Bataillon de marins-pompiers (BMPM) – convention le 22/09/2022",
-   "resume": "Le Collège Stéphane Mallarmé a signé une convention le 22 septembre 2022 avec le Bataillon de marins-pompiers (BMPM), unité marraine de la classe défense.",
-   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U",
-   "page": "Collège Stéphane Mallarmé (13381, Marseille)",
-   "site": "journaldesfemmes.fr",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
+    "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U"
+   ]
   },
   {
    "type": "article",
