@@ -85,9 +85,9 @@ window.CDSG_WEB = {
    "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
   ],
   "photo": {
-   "url": "https://cdn-s-www.ledauphine.com/images/41765D24-C8D9-4D9D-9C01-84B3F410BAE5/FB1200/photo-1685901633.jpg",
-   "source": "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono",
-   "manuel": false
+   "url": "https://fr.linkedin.com/posts/academie-d-aix-marseille_grande-fiert%C3%A9-au-coll%C3%A8ge-jean-giono-dorange-activity-7308071412689178624-n-5r",
+   "source": "https://fr.linkedin.com/posts/academie-d-aix-marseille_grande-fiert%C3%A9-au-coll%C3%A8ge-jean-giono-dorange-activity-7308071412689178624-n-5r",
+   "manuel": true
   }
  }
 };
