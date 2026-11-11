@@ -50,6 +50,11 @@
    "date": "2026-11-10",
    "pages": 14,
    "nouveaux": 4
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 2,
+   "nouveaux": 0
   }
  ],
  "pages_lues": [
@@ -78,9 +83,11 @@
   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Reglements-.html",
   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Vie-de-l-etablissement-.html",
   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Bienvenue.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Concours-2025-2026-224.html",
   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026-231.html",
   "https://www.ville-orange.fr/base-aerienne-115/",
-  "https://www.youtube.com/watch?v=-Dx0xwVa7F4"
+  "https://www.youtube.com/watch?v=-Dx0xwVa7F4",
+  "https://www.youtube.com/watch?v=a4mxdlLi1yg"
  ],
  "etablissement": "Collège Jean Giono (Orange)",
  "referents_cites": "M. Armant",
