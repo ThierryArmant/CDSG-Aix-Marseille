@@ -1124,10 +1124,25 @@ document.getElementById("goWeb").onclick = async ()=>{
   };
   setTimeout(attendre, 30000);
 };
+function miseEnForme(t){
+  // mise en forme simple : gras, titres, listes, tableaux
+  const lignes = esc(t).split(/\n/); let html = "", tab = [];
+  const fin = ()=>{ if(!tab.length) return; const rows = tab.filter(l=>!/^\s*\|?\s*:?-{3,}/.test(l)).map(l=>l.trim().replace(/^\||\|$/g,"").split("|").map(c=>c.trim()));
+    html += `<table style="border-collapse:collapse;margin:8px 0;font-size:14px">`+rows.map((r,i)=>`<tr>${r.map(c=>`<${i?"td":"th"} style="border:1px solid var(--trait);padding:5px 8px;text-align:left">${c}</${i?"td":"th"}>`).join("")}</tr>`).join("")+`</table>`; tab=[]; };
+  lignes.forEach(l=>{
+    if(/^\s*\|/.test(l)){ tab.push(l); return; } fin();
+    if(/^\s*#{1,4}\s/.test(l)) html += `<div style="font-weight:600;margin:8px 0 4px">${l.replace(/^\s*#+\s/,"")}</div>`;
+    else if(/^\s*[-•*]\s/.test(l)) html += `<div style="padding-left:14px">• ${l.replace(/^\s*[-•*]\s/,"")}</div>`;
+    else if(l.trim()) html += `<div style="margin:3px 0">${l}</div>`;
+  });
+  fin();
+  return html.replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
+}
 function afficherReponseWeb(r){
   const txt=document.getElementById("repWebTxt"), src=document.getElementById("repWebSrc");
   document.getElementById("repWeb").classList.add("on");
-  txt.innerHTML = esc(r.reponse||"").replace(/\[(\d+)\]/g,(m,n)=>{ const s=(r.sources||[])[+n-1]; return s?`<a href="${esc(s.url)}" target="_blank" rel="noopener">[${n}]</a>`:m; });
+  txt.style.whiteSpace = "normal";
+  txt.innerHTML = miseEnForme(r.reponse||"").replace(/\[(\d+)\]/g,(m,n)=>{ const s=(r.sources||[])[+n-1]; return s?`<a href="${esc(s.url)}" target="_blank" rel="noopener">[${n}]</a>`:m; });
   document.getElementById("repWebFiches").innerHTML = (r.fiches||[]).filter(id=>PAR_ID[id]).map(id=>`<span class="chip" data-id="${id}">${esc(PAR_ID[id].etab)} · ${esc(PAR_ID[id].ville)}</span>`).join("");
   document.querySelectorAll("#repWebFiches .chip").forEach(c=>c.onclick=()=>ouvrir(c.dataset.id));
   src.innerHTML = (r.sources||[]).length ? "Sources : "+r.sources.map((s,i)=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">[${i+1}] ${esc(s.site||hote(s.url))}</a>`).join(" · ") : "Aucune page web exploitable : réponse tirée des fiches.";
