@@ -1,0 +1,184 @@
+{
+ "date": "2026-11-11",
+ "departement": "84",
+ "fiches": [
+  {
+   "id": "college-francois-raspail-carpentras",
+   "etab": "Collège François Raspail",
+   "ville": "Carpentras",
+   "ancien": "—",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "lycee-val-de-durance-pertuis",
+   "etab": "Lycée Val de Durance",
+   "ville": "Pertuis",
+   "ancien": "M. Nègre",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-paul-gauthier-cavaillon",
+   "etab": "Collège Paul Gauthier",
+   "ville": "Cavaillon",
+   "ancien": "M. Jars",
+   "trouve": "M. Bernard Nahon",
+   "annee": "2025",
+   "source": "https://www.laprovence.com/article/societe/6118598974677714/deux-nouveaux-principaux-ont-pris-la-tete-des-colleges-paul-gauthier-et-rosa-parks-a-cavaillon",
+   "certitude": "moyenne",
+   "resultat": "corrigé"
+  },
+  {
+   "id": "college-jean-giono-orange",
+   "etab": "Collège Jean Giono",
+   "ville": "Orange",
+   "ancien": "Me Gestone",
+   "trouve": "Mme Isabelle Gestone",
+   "annee": "2026-2027",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Organigramme-2025-2026.html",
+   "certitude": "forte",
+   "resultat": "confirmé"
+  },
+  {
+   "id": "college-joseph-roumanille-avignon",
+   "etab": "Collège Joseph Roumanille",
+   "ville": "Avignon",
+   "ancien": "M. Talbot",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-arausio-orange",
+   "etab": "Collège Arausio",
+   "ville": "Orange",
+   "ancien": "—",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-du-pays-de-sault-sault",
+   "etab": "Collège du Pays de Sault",
+   "ville": "Sault",
+   "ancien": "Mme Descamps",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "lycee-frederic-mistral-avignon",
+   "etab": "Lycée Frédéric Mistral",
+   "ville": "Avignon",
+   "ancien": "M. Donnat",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-jean-garcin-l-isle-sur-la-sorgue",
+   "etab": "Collège Jean Garcin",
+   "ville": "L'Isle-sur-la-Sorgue",
+   "ancien": "M. Falzei",
+   "trouve": "M. Christophe Falzei",
+   "annee": "2026",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/",
+   "certitude": "forte",
+   "resultat": "confirmé"
+  },
+  {
+   "id": "college-marcel-pagnol-pertuis",
+   "etab": "Collège Marcel Pagnol",
+   "ville": "Pertuis",
+   "ancien": "Mme Mangin",
+   "trouve": "Mme Naïs Mengin",
+   "annee": "2026",
+   "source": "https://www.ac-aix-marseille.fr/etablissement/clg-pagnol-pertuis/chef-d-etablissement",
+   "certitude": "forte",
+   "resultat": "corrigé"
+  },
+  {
+   "id": "lycee-philippe-de-girard-avignon",
+   "etab": "Lycée Philippe de Girard",
+   "ville": "Avignon",
+   "ancien": "M. Briard",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-andre-malraux-mazan",
+   "etab": "Collège André Malraux",
+   "ville": "Mazan",
+   "ancien": "M. Poulain",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-charles-de-gaulle-apt",
+   "etab": "Collège Charles de Gaulle",
+   "ville": "Apt",
+   "ancien": "M. Aiello",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-marie-mauron-pertuis",
+   "etab": "Collège Marie Mauron",
+   "ville": "Pertuis",
+   "ancien": "Mme Armogathe",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-lucie-aubrac-bollene",
+   "etab": "Collège Lucie Aubrac",
+   "ville": "Bollène",
+   "ancien": "Mme Bertrand",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-alphonse-silve-monteux",
+   "etab": "Collège Alphonse Silve",
+   "ville": "Monteux",
+   "ancien": "M. Camacho",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-saint-louis-prive-orange",
+   "etab": "Collège Saint-Louis (privé)",
+   "ville": "Orange",
+   "ancien": "—",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-jules-verne-le-pontet",
+   "etab": "Collège Jules Verne",
+   "ville": "Le Pontet",
+   "ancien": "—",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-victor-sch-lcher-sainte-cecile-les-vignes",
+   "etab": "Collège Victor Schœlcher",
+   "ville": "Sainte-Cécile-les-Vignes",
+   "ancien": "—",
+   "trouve": "M. Alexandre Hirsch",
+   "annee": "2026‑2027",
+   "source": "https://www.sainte-cecile.org/services-aux-familles/college-victor-schoelcher-de-sainte-cecile-les-vignes.html",
+   "certitude": "moyenne",
+   "resultat": "corrigé"
+  },
+  {
+   "id": "college-joseph-vernet-avignon",
+   "etab": "Collège Joseph Vernet",
+   "ville": "Avignon",
+   "ancien": "M. Roland",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "college-alphonse-daudet-carpentras",
+   "etab": "Collège Alphonse Daudet",
+   "ville": "Carpentras",
+   "ancien": "—",
+   "resultat": "non trouvé en ligne"
+  },
+  {
+   "id": "champfleury-prive-vaucluse",
+   "etab": "Champfleury (privé)",
+   "ville": "Vaucluse",
+   "ancien": "—",
+   "trouve": "Mme Anne-Claire Gonzalez",
+   "annee": "2026",
+   "source": "https://www.ec84.org/ecole-college-champfleury-avignon-84000/",
+   "certitude": "forte",
+   "resultat": "corrigé"
+  }
+ ]
+}
