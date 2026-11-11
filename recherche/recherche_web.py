@@ -35,6 +35,7 @@ RACINE = Path(__file__).resolve().parent.parent
 FICHIER_CLASSES = RACINE / "data" / "classes.js"
 FICHIER_RESUME = RACINE / "data" / "recherche.js"
 FICHIER_ACTUS = RACINE / "data" / "actualites.js"
+FICHIER_A_LIRE = RACINE / "data" / "a_lire.json"
 DOSSIER_CLASSES = RACINE / "classes"
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 
@@ -480,6 +481,14 @@ def fusionner_dossiers(dossier_run):
         r = dict(res_run.get(cid) or resumes.get(cid) or {})
         r.update(infos_resume(b))
         resumes[cid] = r
+    fb = run / "a_lire.json"
+    if fb.exists():
+        traitee = json.loads(fb.read_text(encoding="utf-8"))
+        actuelle = json.loads(FICHIER_A_LIRE.read_text(encoding="utf-8")) if FICHIER_A_LIRE.exists() else {}
+        faits = {x["url"] for x in traitee.get("traites", [])}
+        actuelle["a_lire"] = [x for x in actuelle.get("a_lire", []) if x["url"] not in faits]
+        vus = set(); actuelle["traites"] = [x for x in traitee.get("traites", []) + actuelle.get("traites", []) if not (x["url"], x.get("traite_le")) in vus and not vus.add((x["url"], x.get("traite_le")))][:200]
+        FICHIER_A_LIRE.write_text(json.dumps(actuelle, ensure_ascii=False, indent=1), encoding="utf-8")
     ecrire_resumes(resumes)
     ecrire_actualites(lire_classes())
     print(f"Fusion : {len(list((run / 'classes').glob('*/veille.json')))} dossier(s) fusionné(s)")
@@ -644,6 +653,67 @@ def question_libre(question, classes, resumes):
                    "Fiches :\n" + "\n".join(lignes) + "\n\nQuestion : " + question, jsonmode=False, specialite="question") or "Pas de réponse.")
 
 
+def fiches_citees(classes, page):
+    """Fiches dont l'établissement (nom distinctif + ville) apparaît dans la page."""
+    t = slug(page["titre"] + " " + page["texte"])
+    out = []
+    for c in classes:
+        mots = [m for m in slug(c["etab"]).split("-") if len(m) > 3 and m not in ("college", "lycee", "prive", "professionnel", "metiers", "jean", "saint")]
+        if not mots or slug(c["ville"]).split("-")[0] not in t: continue
+        if all(m in t for m in mots[-1:]): out.append(c)
+    return out
+
+
+def ranger_page(c, page, resumes):
+    """Analyse une page pour une fiche et range les éléments dans son dossier. Renvoie le nombre de nouveautés."""
+    r = analyser_page(c, page)
+    if not r: return 0
+    v = lire_veille(c["id"])
+    if page["url"] in {x.get("source") for x in v.get("exclus", [])}: return 0
+    connus = {cle_element(e): e for e in v["elements"]}
+    n = 0
+    for e in r.get("elements", []):
+        k = cle_element(e)
+        if k in connus: fusionner(connus[k], e)
+        else: e["trouve_le"] = datetime.date.today().isoformat(); v["elements"].append(e); connus[k] = e; n += 1
+    v["elements"].sort(key=date_tri, reverse=True)
+    v["pages_lues"] = sorted(set(v.get("pages_lues", [])) | {page["url"]})
+    ecrire_veille(c["id"], v)
+    resumes[c["id"]] = faire_resume(c, v)
+    return n
+
+
+def traiter_a_lire(classes, resumes):
+    """Boîte « Articles à lire » : liens déposés depuis le site, rangés dans la ou les bonnes fiches."""
+    if not FICHIER_A_LIRE.exists(): return
+    boite = json.loads(FICHIER_A_LIRE.read_text(encoding="utf-8") or "{}")
+    a_faire = boite.get("a_lire", [])
+    if not a_faire: return
+    par_id = {c["id"]: c for c in classes}
+    print(f"Boîte « Articles à lire » : {len(a_faire)} lien(s)")
+    for item in a_faire:
+        u = item["url"]
+        page = lire_page(u, maxi=16000)
+        if not page or len(page["texte"]) < 80:
+            item["resultat"] = "illisible (page protégée ou vide)"
+        else:
+            cibles = [par_id[item["fiche"]]] if item.get("fiche") in par_id else fiches_citees(classes, page)
+            if not cibles:
+                item["resultat"] = "aucune classe du réseau reconnue dans la page"
+            else:
+                bilan = []
+                for c in cibles:
+                    n = ranger_page(c, page, resumes)
+                    bilan.append(f"{c['etab']} ({c['ville']}) : {n} élément(s)")
+                item["resultat"] = " ; ".join(bilan)
+        item["traite_le"] = datetime.date.today().isoformat()
+        print(f"   {u[:90]} → {item['resultat']}")
+    boite["traites"] = (a_faire + boite.get("traites", []))[:200]
+    boite["a_lire"] = []
+    FICHIER_A_LIRE.write_text(json.dumps(boite, ensure_ascii=False, indent=1), encoding="utf-8")
+    ecrire_resumes(resumes); ecrire_actualites(classes)
+
+
 def palmares(classes, resumes, maxi_pages=25):
     """Cherche les palmarès des concours et prix, puis rattache chaque page aux classes qu'elle cite."""
     urls = []
@@ -731,6 +801,7 @@ def main():
     print(f"{len(classes)} fiches · {BASE} · modèle principal {choisir_modele()} · " + ", ".join(f"{k}={v or choisir_modele()}" for k, v in SPECIALITES.items()))
     if a.question:
         question_libre(a.question, classes, resumes); return
+    traiter_a_lire(classes, resumes)
     if a.palmares:
         palmares(classes, resumes)
         if not (a.rotation or a.fiche or a.statut or a.verifier): return

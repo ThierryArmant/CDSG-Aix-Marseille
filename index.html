@@ -212,10 +212,18 @@
   </section>
 
   <!-- ═════════════ ACTUALITÉS ═════════════ -->
-  <section id="actus" style="display:none">
+  <section id="actus">
     <h2>Actualités des classes</h2>
-    <p class="lead">Dernières sorties, cérémonies, conventions et articles de presse repérés en ligne. Mise à jour automatique chaque nuit. Cliquez pour lire.</p>
+    <p class="lead">Dernières sorties, cérémonies, conventions, distinctions et articles de presse repérés en ligne. Mise à jour automatique chaque nuit. Cliquez pour lire.</p>
     <div class="presse" id="actusGrille"></div>
+    <div class="lancer" style="margin-top:18px">
+      <b>Signaler un article</b>
+      <div style="font-size:13px;color:var(--gris)">Un article, un PDF, une page de palmarès ou une publication sur une classe défense ? Collez le lien : l'assistant le lit, trouve la ou les classes concernées et range les informations dans leurs fiches (prochaine recherche, ou la nuit).</div>
+      <textarea id="signaler" placeholder="Un lien par ligne"></textarea>
+      <button id="signalerOk" class="btn-prim" style="border-radius:10px;padding:8px 14px;border:1px solid">Déposer dans « Articles à lire »</button>
+      <div class="msg" id="msgSignaler"></div>
+      <div id="boite" style="font-size:12.5px;margin-top:10px"></div>
+    </div>
   </section>
 
   <!-- ═════════════ ASSISTANT ═════════════ -->
@@ -738,20 +746,57 @@ async function ajouterDistinction(id){
   }catch(err){ dire("Échec : "+err.message+".","err"); }
 }
 
+/* Boîte « Articles à lire » */
+async function deposer(liens, fiche, dire){
+  const tok = jeton.value.trim();
+  if(!tok){ dire("Collez d'abord le jeton GitHub (cadre « Modifier les fiches et lancer les recherches : réglage », au-dessus des fiches).","err"); return false; }
+  const h = {Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"};
+  for(let essai=0; essai<3; essai++){
+    try{
+      const f = await lireFichierGH("data/a_lire.json", h);
+      const b = f ? JSON.parse(f.texte||"{}") : {};
+      b.a_lire = b.a_lire||[]; b.traites = b.traites||[];
+      liens.forEach(u=>{ if(!b.a_lire.some(x=>x.url===u)) b.a_lire.push(Object.assign({url:u, ajoute_le:new Date().toISOString().slice(0,10)}, fiche?{fiche}:{})); });
+      await ecrireFichierGH("data/a_lire.json", JSON.stringify(b,null,1), f?f.sha:undefined, "Articles à lire : "+liens.length+" lien(s)", h);
+      return true;
+    }catch(e){ if(essai===2){ dire("Échec : "+e.message+".","err"); return false; } }
+  }
+}
+document.getElementById("signalerOk").onclick = async ()=>{
+  const m = document.getElementById("msgSignaler"), dire=(t,k)=>{ m.className="msg on "+k; m.textContent=t; };
+  const liens = document.getElementById("signaler").value.split(/\s+/).filter(x=>/^https?:\/\//.test(x));
+  if(!liens.length){ dire("Collez au moins un lien commençant par https://","err"); return; }
+  dire("Dépôt…","info");
+  if(await deposer(liens, null, dire)){
+    document.getElementById("signaler").value="";
+    dire(liens.length+" lien(s) déposé(s). Ils seront lus à la prochaine recherche (au plus tard cette nuit).","ok");
+    boite();
+  }
+};
+async function boite(){
+  let b=null; try{ const r=await fetch("data/a_lire.json",{cache:"no-store"}); if(r.ok) b=await r.json(); }catch(e){}
+  if(!b) return;
+  const att=(b.a_lire||[]), tr=(b.traites||[]).slice(0,6);
+  document.getElementById("boite").innerHTML =
+    (att.length?`<div><b>En attente (${att.length})</b> : ${att.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(hote(x.url))}</a>`).join(" · ")}</div>`:"")+
+    (tr.length?`<div style="margin-top:4px"><b>Derniers traités</b><ul style="margin:4px 0;padding-left:18px">${tr.map(x=>`<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(hote(x.url))}</a> — ${esc(x.resultat||"")}</li>`).join("")}</ul></div>`:"");
+}
+boite();
+
 /* Actualités du réseau (page d'accueil) */
 function actualites(){
   const L = window.CDSG_ACTUS || [];
-  const sec = document.getElementById("actus");
-  if(!L.length){ sec.style.display="none"; return; }
-  sec.style.display="";
-  document.getElementById("actusGrille").innerHTML = L.slice(0,12).map(e=>carteArticle(e,false)).join("");
+  document.getElementById("actusGrille").innerHTML = L.length ? L.slice(0,12).map(e=>carteArticle(e,false)).join("")
+    : `<div style="color:var(--gris);font-size:14px">Les premières actualités apparaîtront après la veille de la nuit.</div>`;
 }
 actualites();
 
 async function lancerVeille(id){
   const m = document.getElementById("msgVeille"), dire=(t,k)=>{ m.className="msg on "+k; m.textContent=t; };
   const tok = jeton.value.trim();
-  const liens = document.getElementById("liensManuels").value.split(/\s+/).filter(x=>/^https?:\/\//.test(x)).join(" ");
+  const liensL = document.getElementById("liensManuels").value.split(/\s+/).filter(x=>/^https?:\/\//.test(x));
+  const liens = liensL.join(" ");
+  if(tok && liensL.length) await deposer(liensL, id, dire);   // gardés dans la boîte : jamais perdus
   if(!tok){ dire("Il faut d'abord coller le jeton GitHub dans « Modifier les fiches et lancer les recherches : réglage » (au-dessus des fiches).","err"); return; }
   dire("Lancement…","info");
   try{
