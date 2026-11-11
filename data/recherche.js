@@ -83,6 +83,11 @@ window.CDSG_WEB = {
    "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
    "https://www.ledauphine.com/defense-guerre-conflit/2022/06/19/des-eleves-du-college-giono-ont-commemore-l-appel-du-18-juin",
    "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
-  ]
+  ],
+  "photo": {
+   "url": "https://cdn-s-www.ledauphine.com/images/41765D24-C8D9-4D9D-9C01-84B3F410BAE5/FB1200/photo-1685901633.jpg",
+   "source": "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono",
+   "manuel": false
+  }
  }
 };

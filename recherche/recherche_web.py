@@ -464,7 +464,13 @@ def infos_resume(v):
     for t in ("distinction", "sortie", "ceremonie", "convention", "article", "rapport", "projet"):
         e = next((x for x in els if x["type"] == t), None)
         if e: derniers[t] = {k: e.get(k) for k in ("date", "titre", "resume", "source")}
-    return {"nb": len(els), "derniere_activite": els[0].get("date") if els else None, "derniers": derniers,
+    # photo de la fiche : choisie à la main, sinon la plus récente image de presse, sinon toute image trouvée
+    photo = v.get("photo")
+    if not photo:
+        imgs = [e for e in els if e.get("image")]
+        imgs.sort(key=lambda e: (nature_source(e.get("source")) != "presse", e.get("type") != "distinction"))
+        if imgs: photo = {"url": imgs[0]["image"], "source": imgs[0].get("source"), "manuel": False}
+    return {"photo": photo, "nb": len(els), "derniere_activite": els[0].get("date") if els else None, "derniers": derniers,
             "distinctions": [{"date": e.get("date"), "titre": e.get("resume") if e.get("manuel") else e.get("titre"),
                               "resume": e.get("resume"), "source": e.get("source"),
                               "verifie": etat_verification(e),
@@ -501,8 +507,8 @@ def fusionner_dossiers(dossier_run):
         b["pages_lues"] = sorted(set(b.get("pages_lues", [])) | set(a.get("pages_lues", [])))
         vues = {json.dumps(r, sort_keys=True) for r in b.get("recherches", [])}
         b["recherches"] = b.get("recherches", []) + [r for r in a.get("recherches", []) if json.dumps(r, sort_keys=True) not in vues]
-        for k in ("fiche", "etablissement", "referents_cites", "unite_citee"):
-            if a.get(k): b[k] = a[k]
+        for k in ("fiche", "etablissement", "referents_cites", "unite_citee", "photo"):
+            if a.get(k) and not (k == "photo" and b.get("photo")): b[k] = a[k]
         ecrire_veille(cid, b)
         r = dict(resumes.get(cid) or {})
         rr = res_run.get(cid) or {}
