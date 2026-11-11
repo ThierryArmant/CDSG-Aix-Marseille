@@ -475,6 +475,12 @@ def cle_element(e):
     Pour les distinctions : même concours (mots significatifs du titre), quelle que soit la page."""
     t = slug(e.get("titre", ""))
     if e.get("type") == "distinction":
+        # même concours, même année = une seule médaille
+        texte = slug((e.get("titre") or "") + " " + (e.get("resume") or ""))
+        for k in CONCOURS + ["prix inter-armées", "inter armees", "gouverneur militaire"]:
+            ks = slug(k)
+            if ks and ks in texte:
+                return ("distinction", ks, str(e.get("date") or "")[:4])
         vides = {"prix", "de", "du", "la", "le", "des", "et", "edition", "college", "jean", "giono", "orange", "avec", "remise", "d", "l", "les", "au", "a"}
         mots = sorted(m for m in t.split("-") if len(m) > 2 and m not in vides and not m.isdigit())
         return ("distinction", "-".join(mots[:4]))
