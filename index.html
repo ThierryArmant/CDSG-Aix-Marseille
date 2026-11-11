@@ -179,6 +179,7 @@
   .menuStatut button{border:1px solid var(--trait);background:#fff;border-radius:999px;padding:5px 12px;margin:3px 4px 3px 0;font-size:13px}
   .menuStatut button.sel{background:var(--bleu-f);color:#fff;border-color:var(--bleu-f)}
   body:not(.gestion) .g-only{display:none!important}
+  body:not(.animateur) .a-only{display:none!important}
   body.gestion .g-off{display:none!important}
   .cadenas{margin-left:auto;border:1px solid var(--trait);background:#fff;border-radius:999px;padding:4px 12px;font-size:13px}
   body.gestion .cadenas{background:#e3f2ea;color:var(--vert);border-color:#bfe3cf}
@@ -233,7 +234,7 @@
     <div class="qbox">
       <input id="q" type="text" placeholder="Votre question sur une classe, un établissement, une unité…" autocomplete="off">
       <button id="go">Chercher</button>
-      <button id="goWeb" class="g-only" style="background:#fff;color:var(--bleu-f)" title="Recherche sur Internet avec vos clés (1 à 3 minutes)">🌐 Chercher aussi sur le web</button>
+      <button id="goWeb" class="g-only a-only" style="background:#fff;color:var(--bleu-f)" title="Recherche sur Internet avec vos clés (1 à 3 minutes)">🌐 Chercher aussi sur le web</button>
     </div>
     <div class="exemples" id="exemples"></div>
     <div class="reponse" id="repWeb">
@@ -269,7 +270,7 @@
   <section id="dossier">
     <h2>Les fiches</h2>
     <p class="lead">Une fiche par classe. Les classes marquées « à vérifier » n'ont pas donné de nouvelles récentes : leur statut reste à confirmer.</p>
-    <details class="gestion g-only" id="gestion">
+    <details class="gestion g-only a-only" id="gestion">
       <summary>Modifier les fiches et lancer les recherches : réglage (une seule fois)</summary>
       <div class="in">
         Pour que vos modifications soient enregistrées dans le dossier en ligne, le site a besoin d'un <b>jeton GitHub</b> (une seule fois, sur votre ordinateur) :
@@ -280,6 +281,19 @@
           <li>Le coller ci-dessous. Il reste dans ce navigateur uniquement.</li>
         </ol>
         <label>Jeton GitHub<br><input id="ghJeton" type="password" placeholder="github_pat_…" autocomplete="off"></label>
+        <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--trait)">
+          <b>Codes d'accès</b> — chaque code ouvre un jeton chiffré, rangé dans le site (personne ne voit le jeton).
+          <ul style="margin:6px 0;padding-left:18px">
+            <li><b>Animateur</b> (vous) : tout, y compris les recherches web. Jeton : Contents + Actions (celui collé ci-dessus).</li>
+            <li><b>Rédacteur</b> (collègues) : modifier les fiches, photos, distinctions, signaler un article. Créez un 2<sup>e</sup> jeton avec <b>Contents : Read and write</b> seulement.</li>
+          </ul>
+          <label>Code animateur<br><input id="acCodeA" type="password" placeholder="votre code (long de préférence)"></label>
+          <label>Code rédacteur<br><input id="acCodeR" type="password" placeholder="code à donner aux collègues"></label>
+          <label>Jeton rédacteur (Contents seulement)<br><input id="acJetonR" type="password" placeholder="github_pat_…"></label>
+          <div class="actions"><button class="btn-prim" id="acOk" style="border-radius:10px;padding:8px 14px;border:1px solid">Enregistrer les codes d'accès</button></div>
+          <div class="msg" id="acMsg"></div>
+          <div style="font-size:12px">Conseil : des codes d'au moins 12 caractères. Pour retirer l'accès des collègues, supprimez leur jeton sur GitHub (Settings → Developer settings → Fine-grained tokens).</div>
+        </div>
         <div style="margin-top:6px">Sans jeton, le bouton « Enregistrer » télécharge le fichier <code>classes.js</code> mis à jour, à déposer dans le dossier <code>data</code> du dépôt.</div>
       </div>
     </details>
@@ -555,7 +569,7 @@ function ouvrir(id){
     <div class="id">Fiche ${esc(id)}</div>
     <table>${rows.map(r=>`<tr><th>${r[0]}</th><td>${esc(r[1])}</td></tr>`).join("")}</table>
     <div class="veille" id="veille"></div>
-    <div class="lancer g-only">
+    <div class="lancer g-only a-only">
       <b>Chercher en ligne pour cette classe</b>
       <div style="font-size:13px;color:var(--gris)">L'assistant parcourt le web (site de l'établissement, presse, unités) et range sorties, cérémonies, conventions et articles dans le dossier de la classe. Vous pouvez coller des liens d'articles à lire en priorité.</div>
       <textarea id="liensManuels" placeholder="Liens d'articles (facultatif), un par ligne"></textarea>
@@ -581,22 +595,46 @@ document.getElementById("voile").onclick = e => { if(e.target.id==="voile") ferm
 document.addEventListener("keydown", e=>{ if(e.key==="Escape") fermer(); });
 const h = location.hash.match(/fiche=([\w-]+)/); if(h) ouvrir(h[1]);
 
-/* ───────── Mode gestion (code de saisie) ───────── */
-const EMPREINTE = "dd5636e85da7fb7ae6dd9bc0e6639678c3ede4685750d310fdc5519563ac6d64";   // empreinte SHA-256 du code, le code lui-même n'est pas dans la page
-async function empreinte(t){ const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(t)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join(""); }
-function modeGestion(on){
-  document.body.classList.toggle("gestion", on);
-  document.getElementById("cadenas").textContent = on ? "🔓 Gestion (quitter)" : "🔒 Gestion";
-  try{ on ? sessionStorage.setItem("cdsg_gestion","1") : sessionStorage.removeItem("cdsg_gestion"); }catch(e){}
+/* ───────── Mode gestion : codes rédacteur / animateur ───────── */
+const EMPREINTE = "dd5636e85da7fb7ae6dd9bc0e6639678c3ede4685750d310fdc5519563ac6d64";   // ancien code animateur (empreinte seulement)
+const enc = new TextEncoder(), dec = new TextDecoder();
+const b64 = u8 => btoa(String.fromCharCode(...u8)), unb64 = t => Uint8Array.from(atob(t), c=>c.charCodeAt(0));
+async function empreinte(t){ const b = await crypto.subtle.digest("SHA-256", enc.encode(t)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join(""); }
+async function cleDe(code, sel){
+  const base = await crypto.subtle.importKey("raw", enc.encode(code), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey({name:"PBKDF2", salt:sel, iterations:250000, hash:"SHA-256"}, base, {name:"AES-GCM", length:256}, false, ["encrypt","decrypt"]);
+}
+async function chiffrer(texte, code){
+  const sel = crypto.getRandomValues(new Uint8Array(16)), iv = crypto.getRandomValues(new Uint8Array(12));
+  const c = await crypto.subtle.encrypt({name:"AES-GCM", iv}, await cleDe(code, sel), enc.encode(texte));
+  return {sel:b64(sel), iv:b64(iv), donnees:b64(new Uint8Array(c))};
+}
+async function dechiffrer(bloc, code){
+  try{ const p = await crypto.subtle.decrypt({name:"AES-GCM", iv:unb64(bloc.iv)}, await cleDe(code, unb64(bloc.sel)), unb64(bloc.donnees)); return dec.decode(p); }
+  catch(e){ return null; }
+}
+function modeGestion(role, tok){
+  document.body.classList.toggle("gestion", !!role);
+  document.body.classList.toggle("animateur", role==="animateur");
+  document.getElementById("cadenas").textContent = role ? (role==="animateur" ? "🔓 Animateur (quitter)" : "🔓 Rédacteur (quitter)") : "🔒 Gestion";
+  if(tok) jeton.value = tok;
+  try{
+    if(role){ sessionStorage.setItem("cdsg_role", role); if(tok) sessionStorage.setItem("cdsg_tok", tok); }
+    else { sessionStorage.removeItem("cdsg_role"); sessionStorage.removeItem("cdsg_tok"); if(!localStorage.getItem("cdsg_gh")) jeton.value=""; }
+  }catch(e){}
 }
 document.getElementById("cadenas").onclick = async ()=>{
-  if(document.body.classList.contains("gestion")){ modeGestion(false); return; }
-  const code = prompt("Code de saisie :");
-  if(code === null) return;
-  if(await empreinte(code.trim()) === EMPREINTE) modeGestion(true);
-  else alert("Code incorrect.");
+  if(document.body.classList.contains("gestion")){ modeGestion(null); return; }
+  const code = prompt("Code d'accès (rédacteur ou animateur) :");
+  if(code === null || !code.trim()) return;
+  let acces = {};
+  try{ const r = await fetch("data/acces.json?t="+Date.now(),{cache:"no-store"}); if(r.ok) acces = await r.json(); }catch(e){}
+  if(acces.animateur){ const t = await dechiffrer(acces.animateur, code.trim()); if(t){ modeGestion("animateur", t); return; } }
+  if(acces.redacteur){ const t = await dechiffrer(acces.redacteur, code.trim()); if(t){ modeGestion("redacteur", t); return; } }
+  if(await empreinte(code.trim()) === EMPREINTE){ modeGestion("animateur", null); return; }   // avant configuration des accès
+  alert("Code incorrect.");
 };
-try{ if(sessionStorage.getItem("cdsg_gestion")==="1") modeGestion(true); }catch(e){}
+try{ const r = sessionStorage.getItem("cdsg_role"); if(r) modeGestion(r, sessionStorage.getItem("cdsg_tok")); }catch(e){}
 
 /* ───────── Édition des fiches ───────── */
 const DEPOT = {owner:"thierryarmant", repo:"cdsg-aix-marseille", chemin:"data/classes.js", branche:"main"};
@@ -885,6 +923,28 @@ async function enregistrerPhoto(id, auto){
     afficher(); ouvrir(id);
   }catch(e){ dire("Échec : "+e.message+".","err"); }
 }
+
+/* Codes d'accès : chiffrement des jetons et enregistrement dans data/acces.json */
+document.getElementById("acOk").onclick = async ()=>{
+  const m = document.getElementById("acMsg"), dire=(t,k)=>{ m.className="msg on "+k; m.textContent=t; };
+  const tokA = jeton.value.trim(), cA = document.getElementById("acCodeA").value.trim(), cR = document.getElementById("acCodeR").value.trim(), tokR = document.getElementById("acJetonR").value.trim();
+  if(!tokA){ dire("Collez d'abord votre jeton (animateur) dans la case « Jeton GitHub » ci-dessus.","err"); return; }
+  if(cA.length < 6){ dire("Choisissez un code animateur d'au moins 6 caractères.","err"); return; }
+  if(cR && cR===cA){ dire("Le code rédacteur doit être différent du code animateur.","err"); return; }
+  if(cR && !tokR){ dire("Collez le jeton rédacteur (Contents seulement).","err"); return; }
+  dire("Chiffrement et enregistrement…","info");
+  try{
+    const h = {Authorization:"Bearer "+tokA, Accept:"application/vnd.github+json"};
+    const f = await lireFichierGH("data/acces.json", h);
+    const acces = f ? JSON.parse(f.texte||"{}") : {};
+    acces.animateur = await chiffrer(tokA, cA);
+    if(cR) acces.redacteur = await chiffrer(tokR, cR);
+    acces.maj = new Date().toISOString().slice(0,10);
+    await ecrireFichierGH("data/acces.json", JSON.stringify(acces,null,1), f?f.sha:undefined, "Codes d'accès mis à jour (jetons chiffrés)", h);
+    ["acCodeA","acCodeR","acJetonR"].forEach(i=>document.getElementById(i).value="");
+    dire("Codes enregistrés. Vos collègues entrent le code rédacteur via « 🔒 Gestion » ; vous, le code animateur (sur n'importe quel ordinateur, sans recoller le jeton).","ok");
+  }catch(e){ dire("Échec : "+e.message+".","err"); }
+};
 
 /* Boîte « Articles à lire » */
 async function deposer(liens, fiche, dire){
