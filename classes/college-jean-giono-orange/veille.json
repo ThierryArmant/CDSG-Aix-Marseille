@@ -241,18 +241,6 @@
    "site": "ledauphine.com",
    "image": "https://cdn-s-www.ledauphine.com/images/41765D24-C8D9-4D9D-9C01-84B3F410BAE5/FB1200/photo-1685901633.jpg",
    "trouve_le": "2026-11-11"
-  },
-  {
-   "type": "article",
-   "date": "2016-06-10",
-   "titre": "Une classe défense du Collège Jean Giono",
-   "extrait": "Le collège Jean Giono a une classe… défense ! Collégiens et enseignant sont nos invités pour parler de cette initiative citoyenne originale.",
-   "resume": "Le 10 juin 2016, le collège Jean Giono d'Orange a présenté sa classe défense lors d'un reportage de Fréquence Mistral, avec la professeure Virginie François et des élèves.",
-   "source": "https://www.frequencemistral.com/Une-classe-defense-du-College-Jean-Giono_a3202.html",
-   "page": "Une classe défense du Collège Jean Giono",
-   "site": "Fréquence Mistral",
-   "image": "https://www.frequencemistral.com/photo/art/grande/9654112-15540614.jpg?v=1465550989",
-   "trouve_le": "2026-11-11"
   }
  ],
  "recherches": [
@@ -337,6 +325,13 @@
    "type": "autre",
    "cle": "cdsg-option-cinema",
    "titre": "CDSG Option Cinéma",
+   "retire_le": "2026-11-11"
+  },
+  {
+   "source": "https://www.frequencemistral.com/Une-classe-defense-du-College-Jean-Giono_a3202.html",
+   "type": "article",
+   "cle": "une-classe-defense-du-college-jean-giono",
+   "titre": "Une classe défense du Collège Jean Giono",
    "retire_le": "2026-11-11"
   }
  ]
