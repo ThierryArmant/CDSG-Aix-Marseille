@@ -1,6 +1,106 @@
 {
  "fiche": "college-grande-bastide-marseille-9e",
- "elements": [],
+ "elements": [
+  {
+   "type": "article",
+   "date": "2025-06-04",
+   "titre": "L’armée décerne des prix aux collégiens",
+   "extrait": "Le prix de l’académie d’Aix-Marseille, doté lui de 500 euros, est revenu au collège Grande‑Bastide pour la réalisation d’un diaporama sur les risques d’incendie dans",
+   "resume": "Article publié le 4 juin 2025 relatant la remise du prix de l’académie d’Aix‑Marseille au Collège Grande‑Bastide.",
+   "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "page": "L’armée décerne des prix aux collégiens",
+   "site": "www.lamarseillaise.fr",
+   "image": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2025-06-03",
+   "titre": "Prix Armées zone Sud 2025",
+   "extrait": "Deux classes ont été primées ... le 3 juin 2025 au fort Ganteaume de Marseille.",
+   "resume": "Le 3 juin 2025, la classe de troisième du Collège Grande Bastide a reçu le Prix Armées zone Sud au fort Ganteaume, pour un projet sur la défense en zone Sud.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2025-06-03",
+   "titre": "« Ça donne envie de travailler dans l'armée » : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "extrait": "Publié le 03/06/25 à 22:40.",
+   "resume": "Article de La Provence du 3 juin 2025 relatant la remise du Prix Armées zone Sud aux classes du Collège Grande Bastide et du Collège Stéphane Mallarmé.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-06-03",
+   "titre": "Visite du fort Ganteaume",
+   "extrait": "Ce mardi 3 juin a eu lieu la remise des prix Armées zone Sud ... au fort Ganteaume de Marseille.",
+   "resume": "Les élèves du Collège Grande Bastide se sont rendus au fort Ganteaume à Marseille le 3 juin 2025 pour la cérémonie de remise du Prix Armées zone Sud.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2025-06-03",
+   "titre": "Cérémonie de remise du Prix Armées zone Sud",
+   "extrait": "Ce mardi 3 juin a eu lieu la remise des prix Armées zone Sud ... au fort Ganteaume de Marseille.",
+   "resume": "Cérémonie officielle au fort Ganteaume où le Collège Grande Bastide a reçu le prix, en présence du général Laval.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
+   ]
+  },
+  {
+   "type": "distinction",
+   "date": "2025-06-03",
+   "titre": "Prix de l’académie d’Aix-Marseille",
+   "extrait": "Le prix de l’académie d’Aix-Marseille (500 €) a été attribué au collège Grande‑Bastide pour un diaporama sur les risques d’incendie dans les calanques.",
+   "resume": "Le Collège Grande‑Bastide a reçu le prix de l’académie d’Aix‑Marseille (500 €) pour son diaporama sur les risques d’incendie dans les calanques, remis le 3 juin 2025.",
+   "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "page": "L’armée décerne des prix aux collégiens",
+   "site": "www.lamarseillaise.fr",
+   "image": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2025",
+   "titre": "Jeu de plateau sur les zones Sud",
+   "extrait": "On a créé un jeu de plateau pour connaître les zones Sud.",
+   "resume": "Les élèves du Collège Grande Bastide ont réalisé un jeu de plateau pédagogique sur la géopolitique des zones Sud, présenté lors de la remise du prix.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2025",
+   "titre": "Diaporama sur les risques d’incendie dans les calanques",
+   "extrait": "Réalisation d’un diaporama sur les risques d’incendie dans les calanques, projet du collège Grande‑Bastide.",
+   "resume": "Les élèves du Collège Grande‑Bastide ont réalisé un diaporama sur les risques d’incendie dans les calanques, projet qui a valu le prix de l’académie.",
+   "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "page": "L’armée décerne des prix aux collégiens",
+   "site": "www.lamarseillaise.fr",
+   "image": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
@@ -9,6 +109,9 @@
   }
  ],
  "exclus": [],
- "pages_lues": [],
+ "pages_lues": [
+  "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+  "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+ ],
  "etablissement": "Collège Grande Bastide (Marseille 9e)"
 }

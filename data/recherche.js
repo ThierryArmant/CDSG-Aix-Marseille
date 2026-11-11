@@ -395,15 +395,25 @@ window.CDSG_WEB = {
  },
  "college-stephane-mallarme-marseille-13e": {
   "date": "11/11/2026",
-  "nb": 3,
-  "photo": null,
-  "derniere_activite": "2025",
+  "nb": 9,
+  "photo": {
+   "url": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
+   "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "manuel": false
+  },
+  "derniere_activite": "2025-06-04",
   "derniers": {
    "distinction": {
     "date": "2025",
     "titre": "Prix armées zone Sud 2025",
     "resume": "Le général Laval a décerné le prix « armées zone Sud » 2025 aux élèves du collège Stéphane Mallarmé, reconnaissant leur projet de classe défense.",
     "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723"
+   },
+   "ceremonie": {
+    "date": "2025-06-03",
+    "titre": "Remise des prix au fort Ganteaume",
+    "resume": "Cérémonie de remise des Prix Armées zone Sud au fort Ganteaume, Marseille, le 3 juin 2025.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
    },
    "convention": {
     "date": "2022-09-22",
@@ -412,10 +422,16 @@ window.CDSG_WEB = {
     "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
    },
    "article": {
-    "date": null,
-    "titre": "Les rencontres du gouverneur militaire – Jeunesse et défense",
-    "resume": "Le gouverneur militaire a rencontré Sandrine Babou, professeure du collège Stéphane Mallarmé, formatrice des classes défense, lors d’une séance à Marseille.",
-    "source": "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321"
+    "date": "2025-06-04",
+    "titre": "L’armée décerne des prix aux collégiens",
+    "resume": "Article du journal La Marseillaise du 4 juin 2025 relatant la remise des prix aux collégiens, dont le collège Stéphane‑Mallarmé.",
+    "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
+   },
+   "projet": {
+    "date": "2025",
+    "titre": "Jeu de plateau sur les zones Sud",
+    "resume": "Les élèves du collège Stéphane Mallarmé ont conçu un jeu de plateau pédagogique sur les zones Sud, projet primé.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
    }
   },
   "distinctions": [
@@ -431,6 +447,8 @@ window.CDSG_WEB = {
    }
   ],
   "sources": [
+   "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
    "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
    "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
    "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321"
@@ -921,12 +939,71 @@ window.CDSG_WEB = {
  },
  "college-grande-bastide-marseille-9e": {
   "date": "11/11/2026",
-  "nb": 0,
-  "photo": null,
-  "derniere_activite": null,
-  "derniers": {},
-  "distinctions": [],
-  "sources": []
+  "nb": 8,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "manuel": false
+  },
+  "derniere_activite": "2025-06-04",
+  "derniers": {
+   "distinction": {
+    "date": "2025-06-03",
+    "titre": "Prix Armées zone Sud 2025",
+    "resume": "Le 3 juin 2025, la classe de troisième du Collège Grande Bastide a reçu le Prix Armées zone Sud au fort Ganteaume, pour un projet sur la défense en zone Sud.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+   },
+   "sortie": {
+    "date": "2025-06-03",
+    "titre": "Visite du fort Ganteaume",
+    "resume": "Les élèves du Collège Grande Bastide se sont rendus au fort Ganteaume à Marseille le 3 juin 2025 pour la cérémonie de remise du Prix Armées zone Sud.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+   },
+   "ceremonie": {
+    "date": "2025-06-03",
+    "titre": "Cérémonie de remise du Prix Armées zone Sud",
+    "resume": "Cérémonie officielle au fort Ganteaume où le Collège Grande Bastide a reçu le prix, en présence du général Laval.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+   },
+   "article": {
+    "date": "2025-06-04",
+    "titre": "L’armée décerne des prix aux collégiens",
+    "resume": "Article publié le 4 juin 2025 relatant la remise du prix de l’académie d’Aix‑Marseille au Collège Grande‑Bastide.",
+    "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
+   },
+   "projet": {
+    "date": "2025",
+    "titre": "Jeu de plateau sur les zones Sud",
+    "resume": "Les élèves du Collège Grande Bastide ont réalisé un jeu de plateau pédagogique sur la géopolitique des zones Sud, présenté lors de la remise du prix.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2025-06-03",
+    "titre": "Prix Armées zone Sud 2025",
+    "resume": "Le 3 juin 2025, la classe de troisième du Collège Grande Bastide a reçu le Prix Armées zone Sud au fort Ganteaume, pour un projet sur la défense en zone Sud.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+    ]
+   },
+   {
+    "date": "2025-06-03",
+    "titre": "Prix de l’académie d’Aix-Marseille",
+    "resume": "Le Collège Grande‑Bastide a reçu le prix de l’académie d’Aix‑Marseille (500 €) pour son diaporama sur les risques d’incendie dans les calanques, remis le 3 juin 2025.",
+    "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+    "verifie": "presse",
+    "sources": [
+     "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+  ]
  },
  "lpp-poutrain-saint-jean-saint-nicolas": {
   "date": "11/11/2026",

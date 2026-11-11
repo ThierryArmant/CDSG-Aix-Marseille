@@ -1,0 +1,31 @@
+{
+ "question": "Quelles classes défense de l'académie ont reçu le prix Armées zone Sud ?",
+ "date": "2026-11-11T07:40",
+ "reponse": "**Classes défense de l’académie d’Aix‑Marseille lauréates du Prix Armées zone Sud 2025**\n\n| Établissement | Niveau | Unité marraine | Distinction mentionnée |\n|---------------|--------|----------------|------------------------|\n| Collège **Stéphane Mallarmé** (Marseille 13e) | 3ᵉ | Bataillon de marins‑pompiers (BMPM) | Prix Armées zone Sud 2025 (premier prix) |\n| Collège **Grande Bastide** (Marseille 9e) | 3ᵉ | BMPM | Prix Armées zone Sud 2025 (prix de l’académie) + Prix de l’académie d’Aix‑Marseille |\n\n**Sources**  \n- Article de La Provence : les deux classes primées (Stéphane Mallarmé et Grande Bastide) [3].  \n- Article de La Marseillaise : premier prix attribué à Stéphane Mallarmé, prix de l’académie à Grande Bastide [4].  \n- Fiches des établissements indiquent les distinctions : Stéphane Mallarmé 2025 Prix Armées zone Sud [college-stephane-mallarme-marseille-13e] ; Grande Bastide 2025 Prix Armées zone Sud et Prix de l’académie [college-grande-bastide-marseille-9e].\n\n**Conclusion**  \nLes seules classes défense de l’académie d’Aix‑Marseille à avoir reçu le Prix Armées zone Sud en 2025 sont :\n\n- le Collège Stéphane Mallarmé (13ᵉ)  \n- le Collège Grande Bastide (9ᵉ)",
+ "sources": [
+  {
+   "url": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
+   "titre": "Prix armées zone Sud : les minots du collège Stéphane ...",
+   "site": "facebook.com (extrait public)"
+  },
+  {
+   "url": "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense/",
+   "titre": "Etablissements avec des classes de Défense ou des classes de défense et de sécurité globales",
+   "site": "data.pays-de-la-loire.education.gouv.fr"
+  },
+  {
+   "url": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "titre": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com"
+  },
+  {
+   "url": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "titre": "L’armée décerne des prix aux collégiens",
+   "site": "www.lamarseillaise.fr"
+  }
+ ],
+ "fiches": [
+  "college-stephane-mallarme-marseille-13e",
+  "college-grande-bastide-marseille-9e"
+ ]
+}

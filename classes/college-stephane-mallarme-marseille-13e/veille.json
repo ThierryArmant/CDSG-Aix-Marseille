@@ -2,6 +2,57 @@
  "fiche": "college-stephane-mallarme-marseille-13e",
  "elements": [
   {
+   "type": "partenaire",
+   "date": "2025-06-04",
+   "titre": "Partenaires du prix",
+   "extrait": "Des mécènes tels que la société de nettoyage Onet, représentée par Dominique Lambaressé, et le Crédit Agricole, ainsi qu’Airbus, ont apporté leur soutien.",
+   "resume": "Onet, le Crédit Agricole et Airbus ont soutenu le projet du collège Stéphane‑Mallarmé récompensé par le prix Armées zone sud.",
+   "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "page": "L’armée décerne des prix aux collégiens",
+   "site": "www.lamarseillaise.fr",
+   "image": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2025-06-04",
+   "titre": "L’armée décerne des prix aux collégiens",
+   "extrait": "L’armée décerne des prix aux collégiens – cérémonie de remise du prix Armées zone sud et du prix de l’académie d’Aix-Marseille.",
+   "resume": "Article du journal La Marseillaise du 4 juin 2025 relatant la remise des prix aux collégiens, dont le collège Stéphane‑Mallarmé.",
+   "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "page": "L’armée décerne des prix aux collégiens",
+   "site": "www.lamarseillaise.fr",
+   "image": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2025-06-03",
+   "titre": "« Ça donne envie de travailler dans l'armée » : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "extrait": "Publié le 03/06/25 à 22:40",
+   "resume": "Article publié le 3 juin 2025 relatant la remise du Prix Armées zone Sud à des classes dont celle du collège Stéphane Mallarmé.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2025-06-03",
+   "titre": "Remise des prix au fort Ganteaume",
+   "extrait": "Ce mardi 3 juin a eu lieu la remise des prix Armées zone Sud",
+   "resume": "Cérémonie de remise des Prix Armées zone Sud au fort Ganteaume, Marseille, le 3 juin 2025.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
+   ]
+  },
+  {
    "type": "distinction",
    "date": "2025",
    "titre": "Prix armées zone Sud 2025",
@@ -10,6 +61,31 @@
    "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
    "page": "Prix armées zone Sud : les minots du collège Stéphane ...",
    "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg"
+  },
+  {
+   "type": "projet",
+   "date": "2025",
+   "titre": "Jeu de plateau sur les zones Sud",
+   "extrait": "On a créé un jeu de plateau pour connaître les zones Sud",
+   "resume": "Les élèves du collège Stéphane Mallarmé ont conçu un jeu de plateau pédagogique sur les zones Sud, projet primé.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2025",
+   "titre": "Diaporama prévention incendies à Marseille",
+   "extrait": "On a fait un diaporama pour expliquer comment éviter les incendies à Marseille",
+   "resume": "Les élèves ont réalisé un diaporama sur la prévention des incendies, inspiré par l’incendie de Luminy en 2016.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
    "trouve_le": "2026-11-11"
   },
   {
@@ -65,7 +141,9 @@
   "https://www.facebook.com/marsactu/posts/bref-un-collectif-soppose-au-d%C3%A9placement-du-coll%C3%A8ge-de-mallarm%C3%A9%EF%B8%8F/1294041932747790",
   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
   "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U",
+  "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
   "https://www.lamarseillaise.fr/societe/la-disparition-de-la-classe-relais-de-mallarme-brise-la-confiance-IC17737069",
+  "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
   "https://www.ledauphine.com/archives/2018/13-06",
   "https://www.ledauphine.com/archives/2026/04-10",
   "https://www.ledauphine.com/education/2024/09/26/tirs-sur-un-college-a-marseille-genetet-organise-une-reunion-sur-la-securite",
