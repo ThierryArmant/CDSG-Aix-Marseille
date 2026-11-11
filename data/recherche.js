@@ -3,7 +3,7 @@ window.CDSG_WEB = {
  "college-jean-giono-orange": {
   "date": "11/11/2026",
   "resume": "",
-  "nb": 35,
+  "nb": 34,
   "derniere_activite": "2026-07-03",
   "derniers": {
    "distinction": {
@@ -59,16 +59,6 @@ window.CDSG_WEB = {
     "date": "2025-03-19",
     "titre": "Prix national Louis‑Quinio",
     "resume": "Le recteur Benoît Delaunay, accompagné de responsables académiques et militaires, a décerné le prix national Louis‑Quinio à la classe défense du Collège Jean Giono pour son travail de mémoire.",
-    "source": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
-    "verifie": "presse",
-    "sources": [
-     "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens"
-    ]
-   },
-   {
-    "date": "2025-03-19",
-    "titre": "Remise du prix Louis-Quinio à la classe défense du collège Giono",
-    "resume": "Le 19 mars 2025, le recteur Benoît Delaunay, accompagné de Julien Cuminetto, Philippe Koszyk et du général Michel Foudriat, a décerné le prix national Louis‑Quinio à la classe défense du Collège Jean Giono pour son travail sur le devoir de mémoire.",
     "source": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
     "verifie": "presse",
     "sources": [

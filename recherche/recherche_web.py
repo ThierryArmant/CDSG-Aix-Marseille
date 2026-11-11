@@ -478,7 +478,7 @@ def cle_element(e):
         # même concours, même année = une seule médaille
         texte = slug((e.get("titre") or "") + " " + (e.get("resume") or ""))
         for k in CONCOURS + ["prix inter-armées", "inter armees", "gouverneur militaire"]:
-            ks = slug(k)
+            ks = "-".join(m for m in slug(k).split("-") if m not in ("prix", "concours", "de", "du", "la", "le", "l", "d", "national", "nationale"))
             if ks and ks in texte:
                 return ("distinction", ks, str(e.get("date") or "")[:4])
         vides = {"prix", "de", "du", "la", "le", "des", "et", "edition", "college", "jean", "giono", "orange", "avec", "remise", "d", "l", "les", "au", "a"}
