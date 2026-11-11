@@ -1,14 +1,58 @@
 {
  "fiche": "college-des-hautes-vallees-guillestre",
- "elements": [],
+ "elements": [
+  {
+   "type": "article",
+   "date": null,
+   "titre": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+   "extrait": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+   "resume": "Le collège des Hautes Vallées (Guillestre) a présenté, via un post de Réunion la 1ère, sa classe défense où les élèves de 3e sont initiés aux métiers de l'armée.",
+   "source": "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+   "page": "13K views · 106 reactions | Classe défense : des élèves de 3e formés aux métiers de l'armée | Réunion la 1ère",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 1
   }
  ],
  "exclus": [],
- "pages_lues": [],
+ "pages_lues": [
+  "https://college-lycee.com/college-des-hautes-vallees/Guillestre-0050013M",
+  "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
+  "https://ram05.fr/college-hautes-vallees-guillestre-rouverture",
+  "https://ram05.fr/guillestre-des-collegiens-imaginent-une-cour-de-recreation-adaptee-au-rechauffement-climatique",
+  "https://www.ecrins-parcnational.fr/ungardeuneclasse/vivre-la-montagne-au-college",
+  "https://www.facebook.com/GendarmerieAlpesDeHauteProvence/posts/visite-de-la-classe-de-seconde-option-defensece-19-mai-la-classe-de-2nde-option-/1309086378076281",
+  "https://www.facebook.com/groups/423690234372280/posts/34392837220364146",
+  "https://www.facebook.com/groups/423690234372280/posts/36427008236947024",
+  "https://www.facebook.com/parcduqueyras/videos/-projection-%C3%A9change-le-film-plus-haut-que-les-sommets-%EF%B8%8Fle-parc-du-queyras-a-le-p/1731120301640033",
+  "https://www.facebook.com/prefet05/posts/jeudi-11-juin-2020-h%C3%A9l%C3%A8ne-lestarquit-sous-pr%C3%A9f%C3%A8te-de-larrondissement-de-brian%C3%A7on/2959267354187437",
+  "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+  "https://www.facebook.com/ville.de.crevecoeur.le.grand/posts/-%F0%9D%97%94%F0%9D%97%A1%F0%9D%97%A1%F0%9D%97%A8%F0%9D%97%9F%F0%9D%97%94%F0%9D%97%A7%F0%9D%97%9C%F0%9D%97%A2%F0%9D%97%A1-%F0%9D%97%97%F0%9D%97%A8-%F0%9D%97%96%F0%9D%97%9C%F0%9D%97%A1%F0%9D%97%98%CC%81-%F0%9D%97%97%F0%9D%97%98%CC%81%F0%9D%97%95%F0%9D%97%94%F0%9D%97%A7-pour-des-raisons-ind%C3%A9pendantes-de-notre-volont%C3%A9-le-c/1540953678060210",
+  "https://www.hautes-alpes.fr/canton/guillestre",
+  "https://www.hautes-alpes.gouv.fr/layout/set/print/Actualites/Bilan-des-initiatives-scolaires-pour-une-reussite-accessible-a-tous",
+  "https://www.instagram.com/p/Dasp-j0jNNg",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-des-hautes-vallees/college-0050013M",
+  "https://www.lasalle-grenoble.fr/sejour-des-laureats-de-la-classe-defense",
+  "https://www.ledauphine.com/education/2021/06/11/college-des-hautes-vallees-les-6e-a-la-decouverte-du-pnrq",
+  "https://www.ledauphine.com/education/2021/09/13/les-5es-du-college-des-hautes-vallees-ont-joue-les-scientifiques-dans-la-reserve-du-mont-viso",
+  "https://www.ledauphine.com/education/2025/09/02/au-college-les-6e-ont-ouvert-le-bal",
+  "https://www.ledauphine.com/education/2025/11/20/les-collegiens-ont-fait-leur-pause-fruitee",
+  "https://www.ledauphine.com/hautes-alpes/2019/09/03/81-eleves-ont-decouvert-leur-college",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-des-hautes-vallees-05.html",
+  "https://www.saint-joseph-auxerre.fr/la-classe-defense-participe-au-prix-national-des-classes-de-defense-terre-p745.html",
+  "https://www.site.ac-aix-marseille.fr/clg-guillestre/",
+  "https://www.site.ac-aix-marseille.fr/clg-guillestre/spip"
+ ],
  "etablissement": "Collège des Hautes Vallées (Guillestre)"
 }

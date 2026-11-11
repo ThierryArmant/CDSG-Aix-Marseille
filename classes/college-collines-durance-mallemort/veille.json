@@ -1,14 +1,97 @@
 {
  "fiche": "college-collines-durance-mallemort",
- "elements": [],
+ "elements": [
+  {
+   "type": "autre",
+   "date": "2024-09-03",
+   "titre": "Classe défense au Collège Collines‑Durance",
+   "extrait": "Il propose toujours une classe bilangue, une classe sport et santé et une classe défense.",
+   "resume": "Le Collège Collines‑Durance de Mallemort continue d’offrir une classe défense, en plus de ses classes bilingues et sport‑santé, selon un article publié le 3 septembre 2024.",
+   "source": "https://www.laprovence.com/article/region/1703869161308715/a-mallemort-municipalite-et-parents-deleves-cherchent-une-solution-pour-le-periscolaire",
+   "page": "À Mallemort, municipalité et parents d'élèves cherchent une solution pour le périscolaire",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=0,trim.height=534,trim.width=950/media/hermes/20240903/20240903_1_2_3_1_1_obj29669154_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2023-12-02",
+   "titre": "Visite du 25e régiment du génie de l'air",
+   "extrait": "La classe de 3e défense a accueilli le 25e régiment du génie de l'air au collège.",
+   "resume": "La classe de 3e défense du Collège Collines Durance a reçu le 25e régiment du génie de l'air (RGA) d'Istres, permettant aux élèves d’échanger sur les missions et le quotidien des militaires.",
+   "source": "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance",
+   "page": "Mallemort : les militaires du 25e régiment du génie de l'air auprès des élèves du collège Collines Durance",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=0,trim.height=1014,trim.width=1800/media/hermes/20231202/20231202_1_2_3_1_1_obj28836155_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-12-02",
+   "titre": "Signature d’une convention avec le 25e RGA",
+   "extrait": "le collège Collines Durance de Mallemort a signé une convention avec le 25e régiment du génie de l'air.",
+   "resume": "Le collège a officialisé son partenariat avec le 25e régiment du génie de l'air en signant une convention, cadre de l’activité de la classe défense.",
+   "source": "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance",
+   "page": "Mallemort : les militaires du 25e régiment du génie de l'air auprès des élèves du collège Collines Durance",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=0,trim.height=1014,trim.width=1800/media/hermes/20231202/20231202_1_2_3_1_1_obj28836155_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2022",
+   "titre": "Visite à Berlin",
+   "extrait": "On se souvient aussi d'une visite à Berlin en fin d'année dernière.",
+   "resume": "Les élèves de la classe défense ont effectué une sortie à Berlin à la fin de l’année précédente, dans le cadre de leurs échanges avec le 25e RGA.",
+   "source": "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance",
+   "page": "Mallemort : les militaires du 25e régiment du génie de l'air auprès des élèves du collège Collines Durance",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=0,trim.height=1014,trim.width=1800/media/hermes/20231202/20231202_1_2_3_1_1_obj28836155_1.jpg",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 4
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Collines Durance (Mallemort)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "http://www.mallemortdeprovence.com/fr/a-tout-age/vie-scolaire-33",
+  "https://annuaire-education.fr/etablissement/mallemort/college-collines-durance/0130032P.html",
+  "https://college-lycee.com/College-Collines-durance/Mallemort-0130032P",
+  "https://concours.edunet.tn/liste_concours",
+  "https://forum.concours.org/index.php",
+  "https://trousseaprojets.fr/projet/17760-classe-engagement-defense-lancon-provence",
+  "https://www.ac-rennes.fr/les-classes-de-defense-et-les-classes-de-defense-et-de-securite-globales-122825",
+  "https://www.education.gouv.fr/ivac/2022/0130032p/college-collines-durance",
+  "https://www.facebook.com/Mallemort.actus/photos/862625792664619",
+  "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+  "https://www.laprovence.com/article/region/1703869161308715/a-mallemort-municipalite-et-parents-deleves-cherchent-une-solution-pour-le-periscolaire",
+  "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance",
+  "https://www.laprovence.com/article/region/3512784727283214/a-mallemort-la-suppression-annoncee-du-cursus-bilangue-italien-du-college-collines-durance-ne-passe-pas",
+  "https://www.laprovence.com/article/region/76135251259892/le-college-colline-durance-a-mallemort-adapte-sa-rentree-et-l-enseignement-de-l-italien",
+  "https://www.laprovence.com/article/societe/2893323983044414/perte-de-classe-cursus-bilangue-depart-le-directeur-de-l-ecole-frederic-mistral-a-mallemort-fait-le-point",
+  "https://www.lasvegasconcours.com",
+  "https://www.ledauphine.com/archives/2019/03-07",
+  "https://www.ledauphine.com/archives/2019/22-04",
+  "https://www.ledauphine.com/archives/2021/11-12",
+  "https://www.ledauphine.com/archives/2026/12-05",
+  "https://www.ledauphine.com/environnement/2026/06/25/un-nouveau-president-pour-le-syndicat-mixte-d-amenagement-de-la-vallee-de-la-durance",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-collines-durance-13.html",
+  "https://www.planete-perles.org/2022/11/15/les-eleves-font-bouger-le-college-colline-durance-a-mallemort",
+  "https://www.site.ac-aix-marseille.fr/clg-durance/",
+  "https://www.site.ac-aix-marseille.fr/clg-durance/spip"
+ ],
+ "etablissement": "Collège Collines Durance (Mallemort)",
+ "referents_cites": "Julien Bonino",
+ "unite_citee": "25e régiment du génie de l'air (RGA) d'Istres"
 }

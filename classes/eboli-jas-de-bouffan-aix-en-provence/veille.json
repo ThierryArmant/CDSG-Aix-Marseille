@@ -1,14 +1,77 @@
 {
  "fiche": "eboli-jas-de-bouffan-aix-en-provence",
- "elements": [],
+ "elements": [
+  {
+   "type": "autre",
+   "date": "2022-02-15",
+   "titre": "Lycée militaire à Aix‑en‑Provence",
+   "extrait": "Lycée militaire, à Aix en Provence (13)",
+   "resume": "Le lycée militaire d'Aix‑en‑Provence fait partie des six lycées de la Défense répertoriés sur le site du ministère des Armées.",
+   "source": "https://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+   "page": "Les lycées militaires de la Défense",
+   "site": "Secrétariat général pour l'administration",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2018",
+   "titre": "Plan lycées",
+   "extrait": "Depuis 2018, les lycées de la Défense bénéficient du « plan lycées »",
+   "resume": "Le lycée d'Aix‑en‑Provence participe au plan lycées lancé en 2018, visant à élargir l’offre de formation, rénover les infrastructures et renforcer l’excellence comportementale.",
+   "source": "https://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+   "page": "Les lycées militaires de la Défense",
+   "site": "Secrétariat général pour l'administration",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 34,
+   "nouveaux": 2
   }
  ],
  "exclus": [],
- "pages_lues": [],
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "https://classement-colleges.fr",
+  "https://fr.wikipedia.org/wiki/Lyc%C3%A9e_militaire_d%27Aix-en-Provence",
+  "https://lyceevaclavhavel.fr/actions/classe_defense/la-classe-defense-remporte-le-1er-prix-national-du-ssa",
+  "https://maritima.fr/actualites/education/aix-en-provence/16695/commemoration-du-11-novembre-a-aix-en-provence-convertir-le-devoir-en-envie-de-memoire",
+  "https://saintecatherineaix.fr/2021/04/28/participation-eleves-5e-4e-1e-concours-sur-europe-sainte-catherine",
+  "https://tavily.com/knowledge/company/3ITmbxYdROKt",
+  "https://tavily.com/knowledge/company/EoEdNV3jjxaP",
+  "https://tavily.com/knowledge/company/WQUnX1hY9HvE",
+  "https://tavily.com/knowledge/company/tbmjFB6ACRgn",
+  "https://trousseaprojets.fr/projet/17760-classe-engagement-defense-lancon-provence",
+  "https://www.ac-aix-marseille.fr/palmares-academique-de-l-edition-2026-du-prix-de-l-action-eco-deleguee-124550",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/25487/153156/file/recueil-13-2017-284-recueil-des-actes-administratifs%20du%2012%20d%C3%A9cembre%202017.pdf",
+  "https://www.facebook.com/ConstantaInternationalPianoCompetition/posts/jury-member-pianist-and-professor-alessandra-sepe-unul-din-membrii-juriului-conc/273102449962578",
+  "https://www.facebook.com/aguopera/posts/7215ee9c/1596639135182046",
+  "https://www.facebook.com/gerhard.santos.7/posts/happy-63rd-birthday-violeta-urmana-born-in-lithuania-violeta-urmana-is-one-of-th/8419678034749467",
+  "https://www.facebook.com/groups/clubartlyrique/posts/4424578074261291",
+  "https://www.facebook.com/villecannes/posts/-%C3%A0-linitiative-de-l%C3%A9cole-saint-joseph-une-c%C3%A9r%C3%A9monie-a-r%C3%A9uni-les-%C3%A9l%C3%A8ves-de-trois-/1609923017842573",
+  "https://www.facebook.com/zenithoperacomp/posts/meet-our-2026-finalist-margarita-polonskaya-trained-at-the-paris-national-opera-/1404842145017205",
+  "https://www.laprovence.com/article/societe/1389723252176215/l-education-nationale-distribue-ses-notes-decouvrez-levaluation-annuelle-des-lycees-et-colleges-en-provence",
+  "https://www.ledauphine.com/politique/2020/03/06/villette-de-vienne-jean-tissot-presente-sa-liste-et-son-projet",
+  "https://www.maison-europe-provence.eu/resultats-du-concours-de-colleges-2025-2026",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/aide.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/index.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10761841/fr/inversons-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10988338/fr/ia-dans-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11228482/fr/enseignant-du-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11248634/fr/concours-scolaires",
+  "https://www.sengager.fr/assets/Lycees_de_la_Defense_80445bf4bd.pdf",
+  "https://www.site.ac-aix-marseille.fr/clg-jasdebouffan/",
+  "https://www.site.ac-aix-marseille.fr/clg-jasdebouffan/spip/Ceremonie-de-commemoration-de-l-armistice-du-11-novembre-1918.html"
+ ],
  "etablissement": "Éboli (Jas de Bouffan) (Aix-en-Provence)"
 }

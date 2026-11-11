@@ -2,6 +2,18 @@
  "fiche": "college-alphonse-daudet-carpentras",
  "elements": [
   {
+   "type": "article",
+   "date": "2026-04-06",
+   "titre": "Le premier forum des métiers du collège Alphonse-Daudet de Carpentras réunit 38 intervenants",
+   "extrait": "Étaient également présents des représentants du ministère de la Défense (l’entreprise aux 300 métiers).",
+   "resume": "Le mercredi 1er avril 2026, le collège Alphonse‑Daudet de Carpentras a organisé son premier forum des métiers, réunissant 38 professionnels dont des représentants du ministère de la Défense, afin d’informer les élèves de la 5e à la 3e sur les débouchés et les compétences attendues.",
+   "source": "https://www.laprovence.com/article/politique/26227111636542/le-premier-forum-des-metiers-du-college-alphonse-daudet-de-carpentras-reunit-38-intervenants",
+   "page": "Le premier forum des métiers du collège Alphonse-Daudet de Carpentras réunit 38 intervenants",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/04/06/le-centre-d-information-et-de-recrutement-de-l-armee-de-terre-1775480767_00bb8600ecc9604bb8600ecc9d7bb8v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "sortie",
    "date": "2020-03-31",
    "titre": "Visite du sous‑marin",
@@ -121,6 +133,17 @@
    "site": "ledauphine.com",
    "image": "https://cdn-s-www.ledauphine.com/images/77FC1835-81A4-4D9C-9772-D14E5A9C7747/FB1200/photo-1569257340.jpg",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": null,
+   "titre": "Création de la classe défense",
+   "extrait": "La classe défense est une création en partenariat avec la Marine Nationale, base navale de Toulon, la municipalité de Carpentras",
+   "resume": "Le collège Alphonse Daudet de Carpentras a créé une classe défense en partenariat avec la Marine Nationale (base navale de Toulon) et la municipalité de Carpentras.",
+   "source": "https://www.facebook.com/Carpentras/posts/classe-d%C3%A9fense-coll%C3%A8ge-adaudet-la-classe-d%C3%A9fense-est-une-cr%C3%A9ation-en-partenariat/10156675874600914",
+   "page": "Collège A.Daudet 👉La classe défense est une création en ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
   }
  ],
  "recherches": [
@@ -128,20 +151,44 @@
    "date": "2026-11-11",
    "pages": 10,
    "nouveaux": 11
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 18,
+   "nouveaux": 2
   }
  ],
  "exclus": [],
  "pages_lues": [
   "https://annuaire-education.fr/etablissement/carpentras/college-alphonse-daudet/0840761W.html",
   "https://college-lycee.com/College-Alphonse-Daudet/Carpentras-0840761W",
+  "https://www.carpentras.fr/actualites/retour-sur-la-ceremonie-du-8-mai.html",
   "https://www.clg-alphonse-daudet-06.ac-nice.fr/",
+  "https://www.clg-alphonse-daudet-06.ac-nice.fr/les-classes-a-projets/classe-citoyennete-securite-defense",
   "https://www.clg-alphonse-daudet-06.ac-nice.fr/les-classes-a-projets/classe-citoyennete-securite-defense/",
+  "https://www.defense.gouv.fr/gendarmerie",
+  "https://www.education.gouv.fr/ivac/2022/0830182x/college-alphonse-daudet",
+  "https://www.facebook.com/Carpentras/posts/classe-d%C3%A9fense-coll%C3%A8ge-adaudet-la-classe-d%C3%A9fense-est-une-cr%C3%A9ation-en-partenariat/10156675874600914",
   "https://www.facebook.com/FranceBleuVaucluse/posts/au-collège-daudet-de-carpentras-certains-élèves-de-4e-rêvent-de-sengager-sous-lu/10157166443608831/",
+  "https://www.facebook.com/LaProvenceVaucluse/videos/vaucluse-une-rentr%C3%A9e-scolaire-avec-protocole-sanitaire-renforc%C3%A9-pour-les-30-000-/237542758145260",
   "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-alphonse-daudet/college-0840761W",
+  "https://www.laprovence.com/article/politique/26227111636542/le-premier-forum-des-metiers-du-college-alphonse-daudet-de-carpentras-reunit-38-intervenants",
   "https://www.laprovence.com/article/region/31861609714534/au-college-daudet-de-carpentras-les-eleves-de-troisieme-se-preparent-au-brevet",
   "https://www.laprovence.com/article/region/4724199178222314/le-college-daudet-de-carpentras-rend-hommage-aux-heroines-de-lhistoire",
+  "https://www.laprovence.com/article/societe/39498378703462/le-college-alphonse-daudet-de-carpentras-lie-la-notion-de-fraternite-a-celle-de-la-laicite",
+  "https://www.ledauphine.com/education/2020/06/22/ferme-apres-la-detection-d-un-cas-de-covid-19-le-college-daudet-a-carpentras-rouvre-ses-portes-ce-mardi-matin",
+  "https://www.ledauphine.com/education/2023/11/08/college-daudet-des-protocoles-pour-prevenir-le-harcelement-scolaire",
+  "https://www.ledauphine.com/education/2026/10/21/les-collegiens-d-alphonse-daudet-explorent-l-histoire-antique-locale",
+  "https://www.ledauphine.com/social/2024/02/01/college-daudet-les-professeurs-grevistes-expliquent-leurs-motivations",
+  "https://www.ledauphine.com/sport/2026/04/10/badminton-le-college-daudet-qualifie-pour-le-championnat-de-france",
   "https://www.ledauphine.com/vaucluse/2019/09/24/une-classe-defense-ouverte-au-college-daudet",
-  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/college-alphonse-daudet/classes-de-college"
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-alphonse-daudet-1-84.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/college-alphonse-daudet",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/college-alphonse-daudet/classes-de-college",
+  "https://www.site.ac-aix-marseille.fr/clg-daudet-carpentras/",
+  "https://www.site.ac-aix-marseille.fr/clg-daudet-carpentras/spip"
  ],
- "etablissement": "Collège Alphonse Daudet (Carpentras)"
+ "etablissement": "Collège Alphonse Daudet (Carpentras)",
+ "referents_cites": "M. Chesnel"
 }

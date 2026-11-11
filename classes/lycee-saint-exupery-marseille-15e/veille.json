@@ -1,14 +1,125 @@
 {
  "fiche": "lycee-saint-exupery-marseille-15e",
- "elements": [],
+ "elements": [
+  {
+   "type": "sortie",
+   "date": "2025-05-15",
+   "titre": "Invitation de la promotion 2024/2025 au Sénat",
+   "extrait": "j'ai tenu à inviter au Sénat la promotion 2024/2025.",
+   "resume": "Le 15 mai 2025, Valérie Boyer a invité la promotion 2024‑2025 de la classe défense du collège Stéphane Mallarmé à une visite du Sénat.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-11",
+   "titre": "Convention classe défense",
+   "extrait": "Nov. 2023 / oct. 2024",
+   "resume": "Convention signée en novembre 2023 et renouvelée en octobre 2024 pour la classe défense du lycée Saint‑Exupéry.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
+   "page": "﻿Accueil",
+   "site": "WPAM",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-11",
+   "titre": "Convention de partenariat",
+   "extrait": "conv: Nov. 2023 / oct. 2024",
+   "resume": "Convention signée en novembre 2023 et renouvelée en octobre 2024, encadrant la classe défense du lycée Saint‑Exupéry.",
+   "source": "https://dossierappel.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=24460&typeBac=0&originePc=0",
+   "page": "Fiche formation - Lycée Saint Exupery (Marseille 15e  Arrondissement - 13) Classe préparatoire aux études supérieures - Générale - Parcoursup",
+   "site": "dossierappel.parcoursup.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2018",
+   "titre": "Parrainage par les Marins Pompiers de Marseille",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille, parrainée par les Marins Pompiers de Marseille.",
+   "resume": "Depuis 2018, la classe défense du collège Stéphane Mallarmé bénéficie du parrainage des Marins Pompiers de Marseille.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "4e Régiment de chasseurs (Gap) + BMPM",
+   "resume": "L’unité marraine de la classe défense est le 4e Régiment de chasseurs de Gap, en partenariat avec le BMPM.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
+   "page": "﻿Accueil",
+   "site": "WPAM",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://dossierappel.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=24460&typeBac=0&originePc=0"
+   ]
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "S'engager, se dépasser et apprendre",
+   "extrait": "Parce que la Classe Défense du Lycée Saint-Exupéry, c'est bien plus que des cours : c'est un lien unique entre la jeunesse de Saint-Dizier et",
+   "resume": "L'article met en avant la Classe Défense du Lycée Saint-Exupéry, soulignant son rôle de lien entre les élèves de Saint‑Dizier et les forces armées.",
+   "source": "https://www.facebook.com/activeradio52/posts/sengager-se-d%C3%A9passer-et-apprendre-le-lyc%C3%A9e-saint-exup%C3%A9ry-aux-couleurs-de-la-d%C3%A9fe/1472348774902035",
+   "page": "S'engager, se dépasser et apprendre : le Lycée Saint-Exupéry ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 33,
+   "nouveaux": 6
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Lycée Saint-Exupéry (Marseille 15e)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-fraternite-engagement-au-service-defense",
+  "https://college-lycee.com/lycee-saint-exupery/Marseille-15e-Arrondissement-0130048G",
+  "https://dossierappel.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=24460&typeBac=0&originePc=0",
+  "https://etudiant.lefigaro.fr/article/abdel-bouziane-du-lycee-saint-exupery-de-marseille-gagne-le-premier-concours-d-eloquence-des-classes-preparatoires-2022_5c79dda2-5065-11ed-bd2d-153893d0b676",
+  "https://fr.wikipedia.org/wiki/Lyc%C3%A9e_Saint-Exup%C3%A9ry_(Marseille)",
+  "https://jhm.fr/au-lycee-saint-exupery-une-classe-defense-offensive",
+  "https://tavily.com/knowledge/company/gQ8uA0EZmFGO",
+  "https://tavily.com/knowledge/company/rN70F6TMJQA1",
+  "https://www.ac-aix-marseille.fr/ceremonie-de-remise-des-labels-edusante-2026-126502",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/39430/223640/file/recueil-13-2020-301-recueil-des-actes-administratifs%20du%204%20d%C3%A9cembre%202020.pdf",
+  "https://www.facebook.com/activeradio52/posts/sengager-se-d%C3%A9passer-et-apprendre-le-lyc%C3%A9e-saint-exup%C3%A9ry-aux-couleurs-de-la-d%C3%A9fe/1472348774902035",
+  "https://www.facebook.com/ecoledelair/posts/cette-ann%C3%A9e-40-prix-saint-exup%C3%A9ry-seront-officiellement-remis-aux-laur%C3%A9ats-de-la/2358812664205798",
+  "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+  "https://www.instagram.com/reel/DfhS43dKQFW",
+  "https://www.laprovence.com/article/faits-divers-justice/1819051275205815/une-enseignante-du-lycee-saint-exupery-percutee-par-une-audi-rs6-apres-un-rodeo",
+  "https://www.laprovence.com/article/region/2709724965421514/au-lycee-saint-exupery-a-marseille-les-personnels-reclament-des-accompagnants-pour-leurs-eleves-handicapes",
+  "https://www.laprovence.com/article/region/79736596042808/a-marseille-linquietude-des-syndicats-enseignants-avec-la-cite-scolaire-internationale-on-va-perdre-nos-meilleurs-elements",
+  "https://www.laprovence.com/article/societe/76651551368349/direct-laprovence-direct-blocus-des-lycees-une-nouvelle-semaine-de-mobilisation-commence",
+  "https://www.laprovence.com/article/societe/8763341665240414/direct-laprovence-direct-blocus-des-lycees-en-provence-interdiction-de-manifester-autour-des-etablissements-fermes-ce-vendredi",
+  "https://www.ledauphine.com/education/2026/04/03/classement-2026-voila-les-meilleurs-colleges-de-votre-departement",
+  "https://www.ledauphine.com/faits-divers-justice/2026/10/05/blocus-des-lycees-reprise-partielle-des-cours-ce-lundi-a-la-veille-d-une-journee-nationale-de-mobilisation",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-saint-exupery-13.html",
+  "https://www.lyc-stexupery.ac-aix-marseille.fr/spip",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/aide.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/index.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10761841/fr/inversons-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10988338/fr/ia-dans-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11228482/fr/enseignant-du-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11248634/fr/concours-scolaires"
+ ],
+ "etablissement": "Lycée Saint-Exupéry (Marseille 15e)",
+ "referents_cites": "Mme Beaumont, M. Belliardo",
+ "unite_citee": "4e Régiment de chasseurs (Gap) + BMPM"
 }

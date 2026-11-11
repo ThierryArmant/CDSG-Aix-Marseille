@@ -2,6 +2,17 @@
  "fiche": "college-caroline-aigle-lancon-de-provence",
  "elements": [
   {
+   "type": "ceremonie",
+   "date": "2024-09",
+   "titre": "Ouverture de la Classe Défense",
+   "extrait": "Le collège Caroline Aigle ouvrira une Classe Défense dès septembre 2024.",
+   "resume": "Le collège Caroline Aigle de Lançon‑de‑Provence inaugurera une Classe Défense à partir de septembre 2024.",
+   "source": "https://www.facebook.com/LeRegional/posts/-lan%C3%A7on-provence-le-coll%C3%A8ge-caroline-aigle-ouvre-une-classe-d%C3%A9fense-d%C3%A8s-septembr/988098663321495",
+   "page": "le collège Caroline Aigle ouvre une \"Classe Défense\" 👩🏼‍ ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "article",
    "date": "2024-04-30",
    "titre": "Le CFAMI : unité marraine de la classe défense du collège Caroline Aigle",
@@ -35,6 +46,17 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "ceremonie",
+   "date": "2024-04-19",
+   "titre": "Première classe de défense",
+   "extrait": "École de l'air et de l'espace. Caroline Aigle de Lancon-Provence se concrétise ! le collège Caroline Aigle, ayant eu lieu le 19 avril dernier",
+   "resume": "Le 19 avril 2024, le collège Caroline Aigle a organisé la toute première classe de défense, en présence de l'École de l'air et de l'espace (BA 701).",
+   "source": "https://www.facebook.com/ecoledelair/posts/notred%C3%A9fense-%F0%9D%90%8B%F0%9D%90%9E-%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A3%F0%9D%90%9E%F0%9D%90%AD-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%A5%F0%9D%90%9A-%F0%9D%90%9C%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%83%F0%9D%90%9E%CC%81%F0%9D%90%9F%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AC%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%AE-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A5%F0%9D%90%A5%F0%9D%90%9E%CC%80%F0%9D%90%A0%F0%9D%90%9E-%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A5%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E-%F0%9D%90%80%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%8B%F0%9D%90%9A/937106858454888",
+   "page": "École de l'air et de l'espace",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "convention",
    "date": "2024-04-18",
    "titre": "Signature de la première convention CFAMI – Collège Caroline Aigle",
@@ -44,6 +66,17 @@
    "page": "Le CFAMI : unité marraine de la classe défense du collège Caroline Aigle",
    "site": "Armée de l’Air et de l'Espace",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "École de l'air et de l'espace (BA 701) est l’unité marraine de la classe défense.",
+   "resume": "L’École de l’air et de l’espace (BA 701) agit comme unité marraine du projet Classe Défense du collège.",
+   "source": "https://www.facebook.com/LeRegional/posts/-lan%C3%A7on-provence-le-coll%C3%A8ge-caroline-aigle-ouvre-une-classe-d%C3%A9fense-d%C3%A8s-septembr/988098663321495",
+   "page": "le collège Caroline Aigle ouvre une \"Classe Défense\" 👩🏼‍ ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
   }
  ],
  "recherches": [
@@ -51,16 +84,48 @@
    "date": "2026-11-11",
    "pages": 5,
    "nouveaux": 4
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://www.defense.gouv.fr/air/actualites/cfami-unite-marraine-classe-defense-du-college-caroline-aigle",
   "https://annuaire-education.fr/etablissement/lancon-provence/college-lancon-provence/0134431W.html",
   "https://mesinfos.fr/13680-lancon-provence/lancon-provence-le-college-caroline-aigle-ouvre-une-classe-defense-200907.html",
+  "https://mesinfos.fr/13680-lancon-provence/lancon-provence-le-college-caroline-aigle-prend-son-envol-europeen-332945.html",
+  "https://trousseaprojets.fr/projet/17760-classe-engagement-defense-lancon-provence",
+  "https://www.ac-aix-marseille.fr/une-belle-aventure-humaine-pour-les-eleves-du-college-caroline-aigle-de-lancon-de-provence-126139",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/25787/154836/file/AT-ADAP-2015-2016.pdf",
   "https://www.defense.gouv.fr/air/actualites/cfami-unite-marraine-classe-defense-du-college-caroline-aigle",
+  "https://www.defense.gouv.fr/recherche?f%5B0%5D=organisme%3AAOCOE-CASPOA&f%5B1%5D=organisme%3AAir&f%5B2%5D=organisme%3ADGRIS&page=83",
+  "https://www.defense.gouv.fr/recherche?f%5B0%5D=organisme%3AAOCOE-CASPOA&f%5B1%5D=organisme%3AAir&f%5B2%5D=organisme%3AFID&page=62",
+  "https://www.defense.gouv.fr/recherche?f%5B0%5D=organisme%3AAir&f%5B1%5D=organisme%3ACICDE&f%5B2%5D=organisme%3A%C3%A9nergie-ops&search_api_fulltext=&page=85",
+  "https://www.facebook.com/100063781636281/posts/sur-la-commune-de-lan%C3%A7on-de-provence-%C3%A0-deux-pas-du-coll%C3%A8ge-caroline-aigle-duplex/795213342614713",
+  "https://www.facebook.com/LeRegional/posts/-lan%C3%A7on-provence-le-coll%C3%A8ge-caroline-aigle-ouvre-une-classe-d%C3%A9fense-d%C3%A8s-septembr/988098663321495",
+  "https://www.facebook.com/ecoledelair/posts/notred%C3%A9fense-%F0%9D%90%8B%F0%9D%90%9E-%F0%9D%90%A9%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A3%F0%9D%90%9E%F0%9D%90%AD-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%A5%F0%9D%90%9A-%F0%9D%90%9C%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%83%F0%9D%90%9E%CC%81%F0%9D%90%9F%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AC%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%AE-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A5%F0%9D%90%A5%F0%9D%90%9E%CC%80%F0%9D%90%A0%F0%9D%90%9E-%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A5%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9E-%F0%9D%90%80%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%A5%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%8B%F0%9D%90%9A/937106858454888",
+  "https://www.facebook.com/events/gymnase-du-coll%C3%A8ge-caroline-aigle-275-route-de-p%C3%A9lissanne-13680-lan%C3%A7on-provence/c%C3%A9r%C3%A9monie-des-voeux-2024/364555172845675",
+  "https://www.facebook.com/ville.de.grans/photos/1254880573345695",
+  "https://www.lancon-provence.fr/fr/cadre-de-vie/amenagements-grands-projets/detail-amenagements-grands-projets/news/college-caroline-aigle.html",
   "https://www.lancon-provence.fr/oc/cadre-de-vie/amenagements-grands-projets/detail-amenagements-grands-projets/news/le-college.html",
-  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/college-caroline-aigle"
+  "https://www.laprovence.com/article/culture-loisirs/1129805426584114/caroline-aigle-une-pionniere-du-ciel-pour-nommer-le-college-de-lancon",
+  "https://www.laprovence.com/article/region/1439615452366915/lancon-provence-et-le-college-portera-le-nom-de-la-pilote-caroline-aigle",
+  "https://www.laprovence.com/article/region/91443066191131/collecter-trier-sensibiliser-pour-lecologie-les-eleves-de-salon-de-provence-sont-sur-tous-les-fronts",
+  "https://www.laprovence.com/article/societe/39492779257972/de-1-200-eleves-a-523-l-abandon-du-college-joseph-d-arbaud-de-salon-de-provence-denonce-par-les-parents-et-enseignants",
+  "https://www.laprovence.com/article/societe/562128687030714/les-professeurs-du-college-caroline-aigle-a-lancon-font-greve-pour-denoncer-leurs-conditions-de-travail",
+  "https://www.ledauphine.com/archives/2018/08-10",
+  "https://www.ledauphine.com/archives/2019/20-06",
+  "https://www.ledauphine.com/archives/2026/04-10",
+  "https://www.ledauphine.com/archives/2026/15-08",
+  "https://www.ledauphine.com/archives/2026/30-09",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/college-caroline-aigle",
+  "https://www.site.ac-aix-marseille.fr/clg-lancon-provence/",
+  "https://www.site.ac-aix-marseille.fr/clg-lancon-provence/spip"
  ],
  "etablissement": "Collège Caroline Aigle (Lançon-de-Provence)",
- "unite_citee": "Centre de formation aéronautique militaire initiale (CFAMI) – base aérienne 701 de Salon‑de‑Provence"
+ "unite_citee": "Centre de formation aéronautique militaire initiale (CFAMI) – base aérienne 701 de Salon‑de‑Provence",
+ "referents_cites": "Mme Lukuikilu"
 }

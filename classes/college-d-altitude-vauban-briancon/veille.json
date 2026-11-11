@@ -1,14 +1,108 @@
 {
  "fiche": "college-d-altitude-vauban-briancon",
- "elements": [],
+ "elements": [
+  {
+   "type": "ceremonie",
+   "date": "2023-11-08",
+   "titre": "Hommage aux poilus",
+   "extrait": "élèves de 3ème du collège des Garcins et une classe du collège Vauban ont rendu hommage aux poilus sur la place du monument aux morts.",
+   "resume": "Le 8 novembre 2023, les élèves de 3ᵉ du collège des Garcins, accompagnés d’une classe du collège Vauban, ont déposé un vibrant hommage aux poilus sur la place du monument aux morts de Briançon.",
+   "source": "https://www.facebook.com/villedebriancon/posts/la-le%C3%A7on-de-citoyennet%C3%A9-des-coll%C3%A9giens-brian%C3%A7onnaisles-7-et-8-novembre-180-coll%C3%A9/2621077484643772",
+   "page": "Ville de Briançon",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023",
+   "titre": "Convention avec l'unité de défense",
+   "extrait": "\"conv\": \"2023\"",
+   "resume": "Le Collège d'altitude Vauban a signé ou renouvelé une convention en 2023, probablement liée à la classe défense.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-daltitude-05.html",
+   "page": "Lycée polyvalent d'altitude, Briançon (05), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023",
+   "titre": "Convention de partenariat",
+   "extrait": "\"conv\": \"2023\"",
+   "resume": "Le Collège d'altitude Vauban a signé une convention en 2023 pour la mise en place de la classe défense.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-climatique-vauban-05.html",
+   "page": "Collège climatique Vauban, Briançon (05), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "\"unite\": \"7e Bataillon de chasseurs alpins (Varces)\"",
+   "resume": "Le 7e Bataillon de chasseurs alpins de Varces est l'unité marraine du collège, partenaire de la classe défense.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-daltitude-05.html",
+   "page": "Lycée polyvalent d'altitude, Briançon (05), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-climatique-vauban-05.html"
+   ]
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Référent de la classe défense",
+   "extrait": "\"ref\": \"M. Doret (HG)\"",
+   "resume": "M. Doret (HG) est indiqué comme référent pour la classe défense du collège.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-daltitude-05.html",
+   "page": "Lycée polyvalent d'altitude, Briançon (05), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 27,
+   "nouveaux": 5
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège d'altitude Vauban (Briançon)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "https://college-vauban.fr",
+  "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
+  "https://lyceevaclavhavel.fr/actions/classe_defense/la-classe-defense-remporte-le-1er-prix-national-du-ssa",
+  "https://saint-chaffrey.fr/colleges-lycee",
+  "https://tavily.com/knowledge/company/Icrla9oKoXjF",
+  "https://vaubanproduction.org/la-classe-defense-au-35-r-i",
+  "https://www.arearegionsud.com/realisations/lycee-daltitude",
+  "https://www.facebook.com/35emeRI/posts/le-9-d%C3%A9cembre-2025-le-coll%C3%A8ge-vauban-de-belfort-et-la-ccl-du-35e-ri-ont-sign%C3%A9-le/1163696919304769",
+  "https://www.facebook.com/BFMDICI/posts/-lann%C3%A9e-derni%C3%A8re-en-sixi%C3%A8me-on-a-d%C3%A9j%C3%A0-pass%C3%A9-six-semaines-sans-professeur-danglai/4303020473078880",
+  "https://www.facebook.com/villedebriancon/posts/la-le%C3%A7on-de-citoyennet%C3%A9-des-coll%C3%A9giens-brian%C3%A7onnaisles-7-et-8-novembre-180-coll%C3%A9/2621077484643772",
+  "https://www.facebook.com/villedebriancon/posts/les-%C3%A9l%C3%A8ves-de-brian%C3%A7on-brillent-en-ce-moment-hier-la-classe-de-cm2-de-l%C3%A9cole-jos/1403813331780992",
+  "https://www.hautes-alpes.gouv.fr/layout/set/print/Actualites/Bilan-des-initiatives-scolaires-pour-une-reussite-accessible-a-tous",
+  "https://www.laprovence.com/article/politique/5135946/laura-flessel-rentree-en-haute-altitude-pour-la-ministre-a-briancon.html",
+  "https://www.laprovence.com/article/region/1168792311665415/pra-loup-vars-montgenevre-retrouvez-tous-les-feux-dartifice-du-31-decembre-dans-les-alpes-du-sud",
+  "https://www.laprovence.com/article/sports/3789757/luciano-basile-le-sorcier-des-glaces.html",
+  "https://www.ledauphine.com/education/2021/06/08/briancon-le-college-vauban-remporte-le-defi-robots",
+  "https://www.ledauphine.com/education/2023/08/28/quelle-organisation-de-rentree-au-college-vauban",
+  "https://www.ledauphine.com/education/2025/04/27/une-section-internationale-italienne-creee-au-college-vauban",
+  "https://www.ledauphine.com/societe/2026/02/01/portes-ouvertes-au-college-vauban-samedi-7-fevrier",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-climatique-vauban-05.html",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-daltitude-05.html",
+  "https://www.site.ac-aix-marseille.fr/clg-vauban/",
+  "https://www.site.ac-aix-marseille.fr/clg-vauban/spip",
+  "https://www.site.ac-aix-marseille.fr/lyc-altitude/",
+  "https://www.site.ac-aix-marseille.fr/lyc-altitude/spip",
+  "https://www.sudouest.fr/gironde/blaye/blaye-la-quatrieme-promotion-de-la-classe-de-defense-du-college-vauban-aura-un-programme-charge-21474034.php"
+ ],
+ "etablissement": "Collège d'altitude Vauban (Briançon)",
+ "referents_cites": "M. Doret, Mme Chemissi",
+ "unite_citee": "7e Bataillon de chasseurs alpins (Varces)"
 }

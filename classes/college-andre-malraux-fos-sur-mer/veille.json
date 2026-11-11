@@ -1,20 +1,250 @@
 {
  "fiche": "college-andre-malraux-fos-sur-mer",
- "elements": [],
+ "elements": [
+  {
+   "type": "ceremonie",
+   "date": "2026-05-08",
+   "titre": "Commémoration du 8 mai 1945 à Fos‑sur‑Mer",
+   "extrait": "cérémonie du 8 mai 1945 à Fos-sur-Mer se déroulera à partir de 11h place des Producteurs",
+   "resume": "Le 8 mai 2026, les élèves de l’Option Défense ont participé à la cérémonie officielle du 8 mai 1945 sur la place des Producteurs à Fos‑sur‑Mer.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2026-05-08",
+   "titre": "La Commémoration du 8 Mai 1945 – Fossa FM",
+   "extrait": "Article publié le : 08/05/2026",
+   "resume": "Un article du site Fossa FM, publié le 8 mai 2026, décrit la participation de l’Option Défense à la commémoration du 8 mai 1945.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-06",
+   "titre": "Signature de convention avec le 25e Régiment du génie de l'air",
+   "extrait": "unité marraine : 25e Régiment du génie de l'air – convention signée en juin 2024",
+   "resume": "Le collège André Malraux a signé en juin 2024 une convention avec le 25e Régiment du génie de l'air, unité marraine de la classe défense.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-13-1.html",
+   "page": "Collège André Malraux, Fos-sur-Mer (13), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-06",
+   "titre": "Convention avec le 25e Régiment du génie de l'air",
+   "extrait": "unité marraine : 25e Régiment du génie de l'air",
+   "resume": "Le collège André Malraux a signé une convention avec le 25e Régiment du génie de l'air en juin 2024, l’unité étant marraine de la classe défense.",
+   "source": "https://www.laprovence.com/article/societe/15607604868163/bonne-rentree-ma-puce-a-fos-sur-mer-lheure-des-retrouvailles-avec-lecole-a-sonne",
+   "page": "À Fos-sur-Mer, l’heure des retrouvailles entre élèves et bancs de l’école a sonné",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/01/le-maire-mario-martinet-accompagne-du-nouveau-directeur-1788275448_d1577949e69a6e5577949e69ae9577v_.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip/",
+    "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+   ]
+  },
+  {
+   "type": "convention",
+   "date": "2024-06",
+   "titre": "Signature de la convention avec le 25e Régiment du génie de l'air",
+   "extrait": "Convention signée en juin 2024 avec le 25e Régiment du génie de l'air.",
+   "resume": "Le collège a conclu en juin 2024 une convention avec le 25e Régiment du génie de l'air, officialisant le partenariat pour l’atelier défense.",
+   "source": "https://www.laprovence.com/actu/en-direct/6768618/breve-evacuation-college-fos-sur-mer-domino-22.html",
+   "page": "Domino 22 : 850 élèves ont été évacués dans le cadre d'un exercice à Fos",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=111,trim.height=381,trim.width=693/media/breves/2022-05/2022-05-17/breves6283cd551182e_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-06",
+   "titre": "Signature de la convention",
+   "extrait": "\"conv\": \"Juin 2024\"",
+   "resume": "Le collège André Malraux a signé une convention de classe défense en juin 2024.",
+   "source": "https://copainsdavant.linternaute.com/e/college-andre-malraux-36150",
+   "page": "Collège André Malraux",
+   "site": "Copains d'avant",
+   "image": "https://copainsdavant.linternaute.com/skin/common/img/school/college-blue.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2022-05-17",
+   "titre": "Domino 22 : évacuation de 850 élèves",
+   "extrait": "Le collège Malraux à Fos-sur-Mer où près de 850 élèves et une centaine de membres du personnel ont évacué les locaux après avoir simulé catastrophe.",
+   "resume": "En mai 2022, le collège André Malraux a participé à l’exercice civil de défense « Domino 22 », évacuant environ 850 élèves et personnels après la simulation d’un accident d’usine, les bus les conduisant au stade Parsemain.",
+   "source": "https://www.laprovence.com/actu/en-direct/6768618/breve-evacuation-college-fos-sur-mer-domino-22.html",
+   "page": "Domino 22 : 850 élèves ont été évacués dans le cadre d'un exercice à Fos",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=111,trim.height=381,trim.width=693/media/breves/2022-05/2022-05-17/breves6283cd551182e_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Cérémonie de clôture de l'année de la classe Défense",
+   "extrait": "Les élèves de la classe Défense du collège André Malraux ont participé à une cérémonie retraçant les moments forts de l'année.",
+   "resume": "Les élèves de la classe Défense du collège André Malraux ont assisté à une cérémonie rétrospective des activités réalisées durant l'année scolaire.",
+   "source": "https://www.facebook.com/villedefos/posts/%C3%A9ducation-les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-andr%C3%A9-malraux-ont-particip%C3%A9/1324082966562196",
+   "page": "[ÉDUCATION] 📺 Les élèves de la classe Défense, du ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite du Peloton de Gendarmerie Maritime de Port‑de‑Bouc",
+   "extrait": "visite du Peloton de Gendarmerie Maritime de Port-de-Bouc",
+   "resume": "Les élèves de l’Option Défense ont effectué une sortie pour visiter le Peloton de Gendarmerie Maritime de Port‑de‑Bouc.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite du Centre de Secours",
+   "extrait": "visite du Centre de Secours",
+   "resume": "Une sortie a permis aux élèves de découvrir le Centre de Secours dans le cadre de leurs activités pédagogiques.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite du Camp des Milles",
+   "extrait": "visite du Camp des Milles",
+   "resume": "Les élèves ont visité le Camp des Milles, site mémoriel, lors d’une sortie organisée par l’Option Défense.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": null,
+   "titre": "5ᵉ Prix Départemental – Devoir Collectif",
+   "extrait": "5e Prix Départemental pour la catégorie « Devoir Collectif »",
+   "resume": "L’Option Défense a remporté le 5ᵉ prix départemental du concours de la Résistance dans la catégorie Devoir Collectif.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11",
+   "verifie": "a_confirmer"
+  },
+  {
+   "type": "distinction",
+   "date": null,
+   "titre": "19ᵉ Prix Départemental – Devoir Individuel",
+   "extrait": "19 ème Prix Départemental dans la catégorie « Devoir Individuel »",
+   "resume": "Les élèves ont également décroché le 19ᵉ prix départemental du même concours dans la catégorie Devoir Individuel.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11",
+   "verifie": "a_confirmer"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Partenariat avec le 25e Régiment du Génie de l’Air",
+   "extrait": "en partenariat avec le 25e Régiment du Génie de l’Air",
+   "resume": "Le 25e Régiment du Génie de l’Air intervient régulièrement auprès des élèves de l’Option Défense.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Union Locale des Anciens Combattants (ULAC)",
+   "extrait": "Union Locale des Anciens Combattants ... transmettre et commémorer les grandes dates",
+   "resume": "L’ULAC, représentée par son président Jean‑Réne Villecroze, collabore avec la classe pour les activités de mémoire.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": null,
+   "titre": "Participation au concours de la Résistance",
+   "extrait": "participé au concours de la Résistance",
+   "resume": "Les élèves ont mené un projet pédagogique autour du concours de la Résistance, aboutissant aux distinctions départementales mentionnées.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 5,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 16
   }
  ],
  "exclus": [],
  "pages_lues": [
   "https://annuaire-education.fr/etablissement/fos-sur-mer/college-andre-malraux/0132634T.html",
+  "https://clg-malraux-asnieres.ac-versailles.fr/spip.php?rubrique234=",
   "https://college-lycee.com/College-Andre-Malraux/Fos-sur-Mer-0132634T",
+  "https://college-lycee.com/college-andre-malraux/Fos-sur-Mer-0132634T",
+  "https://copainsdavant.linternaute.com/e/college-andre-malraux-36150",
+  "https://fossafm.com/la-commemoration-du-8-mai-1945",
   "https://lescolleges.fr/fos-sur-mer-13270/college-andre-malraux-ie.html",
+  "https://tavily.com/knowledge/company/8dVVpqa4qz1X",
+  "https://tavily.com/knowledge/company/x8dlpj3staTq",
   "https://www.commune-mairie.fr/enseignement/college-andre-malraux-0132634T",
-  "https://www.fossurmer.fr/actualite/cest-la-quille-pour-la-classe-defense-du-college-andre-malraux/"
+  "https://www.facebook.com/Fossafm/posts/-retour-en-images-sur-la-remise-des-brevets-du-coll%C3%A8ge-andr%C3%A9-malraux-qui-sest-te/1600736925419850",
+  "https://www.facebook.com/Fossafm/posts/ce-matin-%C3%A0-11h-place-des-producteurs-%C3%A0-ville-de-fos-sur-mer-d%C3%A9butera-la-c%C3%A9r%C3%A9moni/1426205806206297",
+  "https://www.facebook.com/villedefos/posts/%C3%A9ducation-les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-andr%C3%A9-malraux-ont-particip%C3%A9/1324082966562196",
+  "https://www.facebook.com/villedefos/posts/ceremonie-ce-jeudi-6-novembre-%C3%A0-la-maison-de-la-mer-le-coll%C3%A8ge-andr%C3%A9-malraux-a-f/1138783781758783",
+  "https://www.facebook.com/villedefos/posts/commemoration-ce-mardi-11-novembre-la-ville-a-comm%C3%A9mor%C3%A9-larmistice-du-11-novembr/1140407174929777",
+  "https://www.fossurmer.fr/actualite/cest-la-quille-pour-la-classe-defense-du-college-andre-malraux/",
+  "https://www.fossurmer.fr/album/06-11-2025-remise-des-diplomes-des-anciens-eleves-de-3eme-dandre-malraux",
+  "https://www.fossurmer.fr/album/25-11-25-accueil-des-delegues-de-classe-du-college-andre-malraux-a-la-mairie",
+  "https://www.laprovence.com/actu/en-direct/6768618/breve-evacuation-college-fos-sur-mer-domino-22.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/2584201/un-cross-solidaire-au-college-andre-malraux.html",
+  "https://www.laprovence.com/article/faits-divers-justice/32049400859731/fos-sur-mer-un-adolescent-de-15-ans-tabasse-a-la-sortie-du-college",
+  "https://www.laprovence.com/article/region/1626030180028814/le-voyage-de-notre-vie-des-eleves-du-college-andre-malraux-de-fos-sur-mer-iront-au-japon-en-2026",
+  "https://www.laprovence.com/article/societe/15607604868163/bonne-rentree-ma-puce-a-fos-sur-mer-lheure-des-retrouvailles-avec-lecole-a-sonne",
+  "https://www.ledauphine.com/archives/2020/14-10",
+  "https://www.ledauphine.com/archives/2025/05-09",
+  "https://www.ledauphine.com/archives/2026/05-03",
+  "https://www.ledauphine.com/archives/2026/05-10",
+  "https://www.ledauphine.com/archives/2026/08-05",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-13-1.html",
+  "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/",
+  "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip"
  ],
- "etablissement": "Collège André Malraux (Fos-sur-Mer)"
+ "etablissement": "Collège André Malraux (Fos-sur-Mer)",
+ "referents_cites": "Sophie David, Ardement, Benoit, David",
+ "unite_citee": "25e Régiment du Génie de l’Air"
 }

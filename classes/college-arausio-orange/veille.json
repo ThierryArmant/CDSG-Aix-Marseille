@@ -1,14 +1,165 @@
 {
  "fiche": "college-arausio-orange",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Convention actualisée",
+   "extrait": "conv: \"Actualisée déc. 2025\"",
+   "resume": "La convention de la classe défense a été actualisée en décembre 2025.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-arausio-84.html",
+   "page": "Collège Arausio, Orange (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-arausio/spip/",
+    "https://www.laprovence.com/article/edition-vaucluse/4269470/des-eleves-de-3e-darausio-creent-leur-journal-numerique.html",
+    "https://www.laprovence.com/article/region/52594413958248/a-orange-les-choristes-du-college-arausio-vont-monter-sur-la-scene-du-theatre-antique",
+    "https://www.laprovence.com/article/edition-haut-vaucluse/1673199/de-jeunes-artistes-decorent-un-mur-du-college-arausio.html"
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=16,trim.top=0,trim.height=981,trim.width=1750/media/hermes/20240530/20240530_1_1_4_1_0_obj29359689_1.jpg"
+  },
+  {
+   "type": "article",
+   "date": "2023-03-08",
+   "titre": "Le collège Arausio a désormais une classe défense et sécurité, en partenariat avec la gendarmerie",
+   "extrait": "La classe CDSG qui fait son apparition cette année compte 16 élèves.",
+   "resume": "Article du 8 mars 2023 annonçant la création d’une classe Défense et Sécurité Globale (CDSG) au Collège Arausio d’Orange, en partenariat avec la gendarmerie, avec 16 élèves inscrits.",
+   "source": "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie",
+   "page": "Orange. Le collège Arausio a désormais une classe défense et sécurité, en partenariat avec la gendarmerie",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/37C0A41E-CDB3-4A34-A729-05266A51BEAB/FB1200/photo-1678294381.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2023-03-08",
+   "titre": "Ouverture du club défense",
+   "extrait": "Il y a quatre ans, le collège Arausio avait ouvert un club défense.",
+   "resume": "Environ en 2019, le Collège Arausio a créé un club défense afin de créer un lien armée‑nation, précurseur de la classe CDSG actuelle.",
+   "source": "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie",
+   "page": "Orange. Le collège Arausio a désormais une classe défense et sécurité, en partenariat avec la gendarmerie",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/37C0A41E-CDB3-4A34-A729-05266A51BEAB/FB1200/photo-1678294381.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-03-06",
+   "titre": "Signature de la convention avec la gendarmerie",
+   "extrait": "une convention a été signée symboliquement avec la gendarmerie pour appuyer le projet de classe.",
+   "resume": "Le lundi 6 mars 2023, une convention symbolique a été signée entre le Collège Arausio et la gendarmerie du Vaucluse pour soutenir le nouveau projet de classe CDSG.",
+   "source": "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie",
+   "page": "Orange. Le collège Arausio a désormais une classe défense et sécurité, en partenariat avec la gendarmerie",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/37C0A41E-CDB3-4A34-A729-05266A51BEAB/FB1200/photo-1678294381.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2023",
+   "titre": "Première classe CDSG avec la gendarmerie dans le Vaucluse",
+   "extrait": "c’est la toute première fois dans le département que cela se fait avec la gendarmerie.",
+   "resume": "La classe CDSG du Collège Arausio est la première du département du Vaucluse à être mise en place en partenariat avec la gendarmerie.",
+   "source": "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie",
+   "page": "Orange. Le collège Arausio a désormais une classe défense et sécurité, en partenariat avec la gendarmerie",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/37C0A41E-CDB3-4A34-A729-05266A51BEAB/FB1200/photo-1678294381.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2017-01-07",
+   "titre": "Unité marraine",
+   "extrait": "unite: \"BA 115 + gendarmerie d'Orange\"",
+   "resume": "L'unité marraine de la classe défense est la BA 115 et la gendarmerie d'Orange.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-arausio-84.html",
+   "page": "Collège Arausio, Orange (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.laprovence.com/article/edition-vaucluse/4269470/des-eleves-de-3e-darausio-creent-leur-journal-numerique.html",
+    "https://www.laprovence.com/article/region/52594413958248/a-orange-les-choristes-du-college-arausio-vont-monter-sur-la-scene-du-theatre-antique",
+    "https://www.laprovence.com/article/edition-haut-vaucluse/1673199/de-jeunes-artistes-decorent-un-mur-du-college-arausio.html"
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=16,trim.top=0,trim.height=981,trim.width=1750/media/hermes/20240530/20240530_1_1_4_1_0_obj29359689_1.jpg"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Rallye Sécurité‑Citoyen",
+   "extrait": "Rallye sécurité défense collège Arausio. La Police Nationale s'ouvre aux collégiens d'Orange lors du Rallye Sécurité‑Citoyen orchestré par la Classe de Défense.",
+   "resume": "Une activité de rallye sécurité‑citoyen organisée par la classe de défense du Collège Arausio, en partenariat avec la Police Nationale d'Orange.",
+   "source": "https://www.facebook.com/PoliceNat84/videos/rallye-s%C3%A9curit%C3%A9-d%C3%A9fense-coll%C3%A8ge-arausio/960911055552632",
+   "page": "Rallye sécurité défense collège Arausio",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Référents pédagogiques",
+   "extrait": "ref: \"M. Bigajski, M. Laporte (allemand)\"",
+   "resume": "Les professeurs référents de la classe défense sont M. Bigajski et M. Laporte.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-arausio-84.html",
+   "page": "Collège Arausio, Orange (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Classe de défense du Collège Arausio au biathlon et Cross OPS",
+   "extrait": "la classe de défense du Collège Arausio d'Orange s'est essayé au biathlon (tir carabine et course) et au Cross OPS.",
+   "resume": "La classe de défense du Collège Arausio d'Orange a participé à une journée de biathlon (tir à la carabine et course) et à un Cross OPS, organisés en partenariat avec la Base aérienne 115 d'Orange.",
+   "source": "https://www.facebook.com/baseaerienne115orange/posts/armeenation-une-journ%C3%A9e-de-partage-a-%C3%A9t%C3%A9-organis%C3%A9e-entre-la-ba115-et-la-jeunesse/763531105968431",
+   "page": "Base aérienne 115 Orange",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 9
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Arausio (Orange)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/centac/nos-activites-rayonnement/classes-defense",
+  "https://college-lycee.com/college-arausio/Orange-0840764Z",
+  "https://tavily.com/knowledge/company/3HtAweJebkFp",
+  "https://www.education.gouv.fr/ivac/2023/0840764z/college-arausio",
+  "https://www.facebook.com/PoliceNat84/videos/rallye-s%C3%A9curit%C3%A9-d%C3%A9fense-coll%C3%A8ge-arausio/960911055552632",
+  "https://www.facebook.com/baseaerienne115orange/posts/armeenation-une-journ%C3%A9e-de-partage-a-%C3%A9t%C3%A9-organis%C3%A9e-entre-la-ba115-et-la-jeunesse/763531105968431",
+  "https://www.facebook.com/bouquins.malins.84/posts/%C3%A7a-y-est-le-prix-bouquins-malins-niveaux-cm2-6e-est-lanc%C3%A9-rous-les-%C3%A9l%C3%A8ves-ont-eu/1357272942865931",
+  "https://www.facebook.com/ville.dorange/posts/-l-%F0%9D%97%96%F0%9D%97%A5%F0%9D%97%A2%F0%9D%97%A6%F0%9D%97%A6-%F0%9D%97%97%F0%9D%97%A8-%F0%9D%97%96%F0%9D%97%A2%F0%9D%97%9F%F0%9D%97%9F%F0%9D%97%98%CC%80%F0%9D%97%9A%F0%9D%97%98-%F0%9D%97%94%F0%9D%97%A5%F0%9D%97%94%F0%9D%97%A8%F0%9D%97%A6%F0%9D%97%9C%F0%9D%97%A2-ce-matin-monsieur-le-maire-jean-dominique-artaud-a-/1586856983473649",
+  "https://www.facebook.com/ville.dorange/posts/-l-%F0%9D%97%A5%F0%9D%97%98%F0%9D%97%A0%F0%9D%97%9C%F0%9D%97%A6%F0%9D%97%98-%F0%9D%97%97%F0%9D%97%98%F0%9D%97%A6-%F0%9D%97%97%F0%9D%97%9C%F0%9D%97%A3%F0%9D%97%9F%F0%9D%97%A2%CC%82%F0%9D%97%A0%F0%9D%97%98%F0%9D%97%A6-%F0%9D%97%96%F0%9D%97%A2%F0%9D%97%9F%F0%9D%97%9F%F0%9D%97%98%CC%80%F0%9D%97%9A%F0%9D%97%98-%F0%9D%97%94%F0%9D%97%A5%F0%9D%97%94%F0%9D%97%A8%F0%9D%97%A6%F0%9D%97%9C%F0%9D%97%A2-vendredi-apr%C3%A8s-midi-les-%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%CC%81%F0%9D%97%B4%F0%9D%97%B6%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80-%F0%9D%97%B1%F0%9D%97%94%F0%9D%97%BF/1279010607591623",
+  "https://www.instagram.com/reel/DaS1TazNLj1",
+  "https://www.laprovence.com/article/edition-haut-vaucluse/1673199/de-jeunes-artistes-decorent-un-mur-du-college-arausio.html",
+  "https://www.laprovence.com/article/edition-vaucluse/4269470/des-eleves-de-3e-darausio-creent-leur-journal-numerique.html",
+  "https://www.laprovence.com/article/region/52594413958248/a-orange-les-choristes-du-college-arausio-vont-monter-sur-la-scene-du-theatre-antique",
+  "https://www.laprovence.com/article/region/7895284493318914/une-classe-de-3e-supprimee-a-la-rentree-greve-de-la-surveillance-du-brevet-annoncee-dans-un-college-dorange",
+  "https://www.laprovence.com/article/sortie-loisirs/1707321323597714/le-club-de-tarot-de-sorgues-developpe-son-ecole-pour-les-plus-jeunes",
+  "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie",
+  "https://www.ledauphine.com/culture-loisirs/2025/01/27/prix-godot-les-eleves-du-college-arausio-dans-le-jury",
+  "https://www.ledauphine.com/education/2024/09/06/sandrine-bellavista-une-nouvelle-principale-au-college-arausio",
+  "https://www.ledauphine.com/education/2025/07/09/college-arausio-et-lycee-de-l-argensol-dix-sept-departs-vers-de-nouveaux-destins",
+  "https://www.ledauphine.com/education/2025/11/26/college-arausio-ils-ont-ete-recus-au-brevet-des-colleges",
+  "https://www.ledauphine.com/education/2026/09/02/college-arausio-196-eleves-de-sixieme-sont-rentres-et-pas-encore-d-enseignant-pour-le-dispositif-ulis",
+  "https://www.ledauphine.com/sport/2026/10/18/750-sportifs-au-cross-du-college-arausio",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-arausio-84.html",
+  "https://www.saint-joseph-auxerre.fr/la-classe-defense-participe-au-prix-national-des-classes-de-defense-terre-p745.html",
+  "https://www.site.ac-aix-marseille.fr/clg-arausio/",
+  "https://www.site.ac-aix-marseille.fr/clg-arausio/spip"
+ ],
+ "etablissement": "Collège Arausio (Orange)",
+ "referents_cites": "M. Bigajski, M. Laporte",
+ "unite_citee": "BA 115 + gendarmerie d'Orange"
 }

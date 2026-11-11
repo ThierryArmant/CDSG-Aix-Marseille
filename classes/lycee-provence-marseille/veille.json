@@ -3,6 +3,39 @@
  "elements": [
   {
    "type": "projet",
+   "date": "2026-10-14",
+   "titre": "Stage de neuroéducation à La Ciotat",
+   "extrait": "Pendant 2 jours et demi, nos élèves ont appris à mieux comprendre le fonctionnement de leur cerveau et leurs mécani…",
+   "resume": "Le 14 octobre 2026, les élèves du lycée militaire d’Aix‑en‑Provence ont participé à un stage de neuroéducation de deux jours et demi à La Ciotat pour approfondir leurs connaissances cérébrales.",
+   "source": "https://www.terre.defense.gouv.fr/lycee-militaire-aix/actualites/journee-marseille",
+   "page": "Une journée à Marseille",
+   "site": "Lycée militaire d'Aix-en-Provence",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2026-06-20",
+   "titre": "Cérémonie de fin d'année scolaire 2025-2026",
+   "extrait": "La cérémonie de fin d'année scolaire 2025-2026 s'est déroulée le samedi 20 juin 2026.",
+   "resume": "Le 20 juin 2026, le lycée militaire d’Aix‑en‑Provence a tenu sa cérémonie de clôture de l'année scolaire 2025‑2026, rassemblant élèves et encadrants.",
+   "source": "https://www.terre.defense.gouv.fr/lycee-militaire-aix/actualites/journee-marseille",
+   "page": "Une journée à Marseille",
+   "site": "Lycée militaire d'Aix-en-Provence",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-11-24",
+   "titre": "Une journée à Marseille",
+   "extrait": "Après une traversée vers les îles du Frioul, visite du fort de Ratonneau, du Mucem et du porte‑hélicoptères Dixmude, puis Fort Saint‑Jean.",
+   "resume": "Le 24 novembre 2025, le professeur Nicolas Néant a organisé une sortie à Marseille pour les élèves du lycée militaire d’Aix‑en‑Provence : îles du Frioul, fort Ratonneau, Mucem, embarquement à bord du porte‑hélicoptères amphibie Dixmude guidés par des élèves‑officiers de l’École navale, puis visite du Fort Saint‑Jean et du quartier du Panier.",
+   "source": "https://www.terre.defense.gouv.fr/lycee-militaire-aix/actualites/journee-marseille",
+   "page": "Une journée à Marseille",
+   "site": "Lycée militaire d'Aix-en-Provence",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
    "date": "2025-05-27",
    "titre": "Projet inter‑académique des classes défense – AR 9 Marseille Provence",
    "extrait": "AR 9 – MARSEILLE PROVENCE – Projet inter‑académique des jeunes engagés dans des classes défense ou citoyenneté, 58 élèves de trois établissements.",
@@ -11,11 +44,78 @@
    "page": "Presentation-Prix-Louis-QUINIO-2025.pdf",
    "site": "union-ihedn.org (PDF)",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2021-06-13",
+   "titre": "La Provence 13062021 _ Classe Défense",
+   "extrait": "Classe « Défense & Citoyenneté »",
+   "resume": "Une page du lycée Pierre‑Gilles de Gennes présente la classe Défense & Citoyenneté, publiée le 13 juin 2021.",
+   "source": "https://www.site.ac-aix-marseille.fr/lyc-gillesdegennes/spip/La-Provence-13062021-_-Classe-Defense.html",
+   "page": "La Provence 13062021 _ Classe Défense - Lycée Pierre-Gilles de GennesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "EDSA 01.950, BA 125 Istres",
+   "resume": "Le lycée de Provence a pour unité marraine EDSA 01.950, BA 125 Istres dans le cadre de la classe Défense et Sécurité Globales.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-prive-de-provence-13.html",
+   "page": "Lycée de Provence, Marseille (13), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
   }
  ],
- "recherches": [],
+ "recherches": [
+  {
+   "date": "2026-11-11",
+   "pages": 34,
+   "nouveaux": 5
+  }
+ ],
  "exclus": [],
  "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "http://www.terre.defense.gouv.fr/lycee-militaire-aix/actualites/journee-marseille",
+  "http://www.terre.defense.gouv.fr/lyceedefenseterre/sinscrire-lycee-defense-relevant-larmee-terre",
+  "https://fr.wikipedia.org/wiki/%C3%89cole_de_Provence",
+  "https://marsactu.fr/bref/la-direction-du-lycee-thiers-fait-voter-en-catimini-la-creation-dune-classe-defense",
+  "https://www.ac-aix-marseille.fr/la-classe-defense-du-college-roumanille-participe-au-rallye-citoyen-esprit-defense-126459",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/21333/130445/file/Projet%20de%20SDCI.pdf",
+  "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.defense.gouv.fr/sites/default/files/commissariat/Antennes%20m%C3%A9dicales%20des%20arm%C3%A9es%20et%20AEMI-2021.pdf",
+  "https://www.ecoledeprovence.fr/college",
+  "https://www.ecoledeprovence.fr/lycee",
+  "https://www.facebook.com/villecannes/videos/-%C3%A0-linitiative-de-l%C3%A9cole-saint-joseph-une-c%C3%A9r%C3%A9monie-a-r%C3%A9uni-les-%C3%A9l%C3%A8ves-de-trois-/1100698222960059",
+  "https://www.instagram.com/ecole_de_provence?hl=en",
+  "https://www.laprovence.com/article/edition-marseille/5084873/vent-de-fronde-au-lycee-provence.html",
+  "https://www.laprovence.com/article/politique/1356456396864514/tenue-unique-dans-les-colleges-apres-deux-ans-dexperimentation-les-bouches-du-rhone-arretent-les-frais",
+  "https://www.laprovence.com/article/region/54652078288132/travailler-ensemble-pour-reussir-ensemble-a-marseille-le-college-jesuite-loyola-a-accueilli-ses-premiers-eleves",
+  "https://www.laprovence.com/article/societe/30928848396886/marseille-cours-annules-le-college-craque",
+  "https://www.laprovence.com/article/societe/94762221108093/direct-laprovence-direct-rentree-scolaire-2026-ambiance-images-reportages-suivez-la-journee-dans-les-ecoles-en-provence",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-prive-de-provence-13.html",
+  "https://www.maison-europe-provence.eu/resultats-du-concours-de-colleges-2025-2026",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/aide.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/index.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10761841/fr/inversons-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10988338/fr/ia-dans-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11228482/fr/enseignant-du-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11248634/fr/concours-scolaires",
+  "https://www.sengager.fr/assets/Lycees_de_la_Defense_80445bf4bd.pdf",
+  "https://www.site.ac-aix-marseille.fr/clg-jasdebouffan/spip/Ceremonie-de-commemoration-de-l-armistice-du-11-novembre-1918.html",
+  "https://www.site.ac-aix-marseille.fr/lyc-gillesdegennes/",
+  "https://www.site.ac-aix-marseille.fr/lyc-gillesdegennes/spip/La-Provence-13062021-_-Classe-Defense.html",
+  "https://www.terre.defense.gouv.fr/sites/default/files/lyceedefenseterre/Antennes%20m%C3%A9dicales%20des%20arm%C3%A9es.pdf",
   "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf"
- ]
+ ],
+ "etablissement": "Lycée Provence (Marseille)",
+ "referents_cites": [
+  "Nicolas Néant"
+ ],
+ "unite_citee": "EDSA 01.950, BA 125 Istres"
 }

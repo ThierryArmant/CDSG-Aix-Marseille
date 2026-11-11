@@ -1,14 +1,96 @@
 {
  "fiche": "college-saint-charles-prive-arles",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Renouvellement de convention",
+   "extrait": "conv: Juin 2026",
+   "resume": "Le collège Saint‑Charles (Arles) a signé ou renouvelé sa convention de partenariat pour la classe défense en juin 2026.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-prive-saint-charles-13.html",
+   "page": "Collège Saint-Charles, Arles (13), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Signature de convention avec la Gendarmerie (groupement 13)",
+   "extrait": "Juin 2026",
+   "resume": "Le Collège Saint‑Charles a signé une convention avec la Gendarmerie du groupement 13 en juin 2026 dans le cadre de sa classe défense.",
+   "source": "https://www.laprovence.com/article/edition-arles/3383692/le-lycee-saint-charles-trois-ans-dexigence-scolaire-et-humaine.html",
+   "page": "Le lycée Saint-Charles, trois ans d'exigence scolaire et humaine",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2015-04/2015-04-29/20150429_1_2_7_2_1_obj8794197_1.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.laprovence.com/article/edition-arles/4132915/bernard-puech-directeur-du-lycee-st-charles.html"
+   ]
+  },
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Signature de la convention pour la Classe Défense",
+   "extrait": "Convention signée en juin 2026 pour la mise en place de la Classe Défense",
+   "resume": "Une convention a été conclue en juin 2026 entre le collège Saint‑Charles et son partenaire pour lancer la Classe Défense.",
+   "source": "https://www.facebook.com/StCharlesArles/posts/%EF%B8%8F-nouveaut%C3%A9-%C3%A0-saint-charles-%EF%B8%8F%C3%A0-partir-de-la-rentr%C3%A9e-2026-2027-les-%C3%A9l%C3%A8ves-de-4%C3%A8me/1656796456455252",
+   "page": "un parcours unique pour découvrir, comprendre, s ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "Nouveauté à Saint‑Charles – Classe Défense 4ème",
+   "extrait": "À partir de la rentrée 2026-2027, les élèves de 4ème pourront intégrer la Classe Défense : un parcours unique",
+   "resume": "Le collège Saint‑Charles annonce, via sa page Facebook, que dès la rentrée 2026‑2027 les élèves de 4ème pourront rejoindre la Classe Défense, un nouveau parcours pédagogique.",
+   "source": "https://www.facebook.com/StCharlesArles/posts/%EF%B8%8F-nouveaut%C3%A9-%C3%A0-saint-charles-%EF%B8%8F%C3%A0-partir-de-la-rentr%C3%A9e-2026-2027-les-%C3%A9l%C3%A8ves-de-4%C3%A8me/1656796456455252",
+   "page": "un parcours unique pour découvrir, comprendre, s ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 25,
+   "nouveaux": 4
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Saint-Charles (privé) (Arles)"
+ "pages_lues": [
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://lasalle.stcharles.fr/2025/11/04/le-lycee-la-salle-saint-charles-inaugure-sa-classe-defense",
+  "https://lasalle.stcharles.fr/wp-content/uploads/2025/02/Reglement-Financier-CLG-LYC-25-26.pdf",
+  "https://stch-arles.com",
+  "https://stch-arles.com/college",
+  "https://tavily.com/knowledge/company/gh4PJXBqdF6X",
+  "https://www.cdfnancy.fr/page-college/le-college/decouvrir-le-college/classe-defense",
+  "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.facebook.com/StCharlesArles",
+  "https://www.facebook.com/StCharlesArles/posts/%EF%B8%8F-nouveaut%C3%A9-%C3%A0-saint-charles-%EF%B8%8F%C3%A0-partir-de-la-rentr%C3%A9e-2026-2027-les-%C3%A9l%C3%A8ves-de-4%C3%A8me/1656796456455252",
+  "https://www.facebook.com/StCharlesArles/posts/-la-chorale-du-coll%C3%A8ge-saint-charles-pr%C3%A9sente-le-roi-lion-rendez-vous-pour-un-sp/1658603792941185",
+  "https://www.facebook.com/StCharlesArles/posts/-une-belle-%C3%A9tape-%C3%A0-c%C3%A9l%C3%A9brer-le-vendredi-6-novembre-2026-lensemble-scolaire-saint/1800760342058862",
+  "https://www.facebook.com/StCharlesArles/posts/un-engagement-qui-porte-ses-fruits-la-r%C3%A9alisation-des-pupitres-financ%C3%A9s-par-la-t/1089110086557228",
+  "https://www.instagram.com/college_lycee_stcharles?hl=en",
+  "https://www.laprovence.com/article/culture-loisirs/1837283469506714/la-chorale-du-college-saint-charles-vous-plonge-dans-la-savane-avec-le-roi-lion-au-theatre-antique-d-arles",
+  "https://www.laprovence.com/article/economie/1743745040482715/on-ne-se-sent-pas-proteges-la-colere-des-enseignants-contre-la-direction-du-college-saint-charles-d-arles",
+  "https://www.laprovence.com/article/edition-arles/3383692/le-lycee-saint-charles-trois-ans-dexigence-scolaire-et-humaine.html",
+  "https://www.laprovence.com/article/edition-arles/4132915/bernard-puech-directeur-du-lycee-st-charles.html",
+  "https://www.laprovence.com/article/region/458714466139314/a-arles-les-eleves-du-college-saint-charles-visitent-un-laboratoire-pour-s-initier-aux-metiers-de-la-science",
+  "https://www.ledauphine.com/archives/2025/09-10",
+  "https://www.ledauphine.com/archives/2026/10-10",
+  "https://www.ledauphine.com/archives/2026/29-01",
+  "https://www.ledauphine.com/vaucluse/2016/09/28/une-classe-de-3e-rencontre-caroline-loeb",
+  "https://www.ledauphine.com/vaucluse/2018/02/24/concert-d-accordeons-les-musiciens-jouent-a-l-unisson",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-prive-saint-charles-13.html"
+ ],
+ "etablissement": "Collège Saint-Charles (privé) (Arles)",
+ "referents_cites": "Mme Porte",
+ "unite_citee": "Gendarmerie (groupement 13)"
 }

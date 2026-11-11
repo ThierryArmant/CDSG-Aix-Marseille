@@ -1,14 +1,109 @@
 {
  "fiche": "lycee-pierre-gilles-de-gennes-digne-les-bains",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2022-09-01",
+   "titre": "Convention classe défense",
+   "extrait": "\"conv\": \"01/09/2022 — maj nov. 2025\"",
+   "resume": "Le lycée a signé une convention pour la classe défense le 1er septembre 2022, mise à jour en novembre 2025.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-pierre-gilles-de-gennes-04.html",
+   "page": "Lycée Pierre-Gilles de Gennes, Digne-les-Bains (04), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.facebook.com/LeFigaroEtudiant/videos/concours-g%C3%A9n%C3%A9ral-des-coll%C3%A8ges-faut-il-revaloriser-le-m%C3%A9rite-individuel-concours-/1491301702653180",
+    "https://www.linternaute.com/ville/lycee/lycee-pierre-gilles-de-gennes/lycee-0040490L",
+    "https://annuaire-education.fr/etablissement/digne-les-bains/lycee-pierre-gilles-de-gennes/0040490L.html"
+   ],
+   "image": "https://astatic.ccmbg.com/www.linternaute.com/img/annuaire_palmareslycees/picto-partage-facebook.jpg"
+  },
+  {
+   "type": "article",
+   "date": "2021-06-04",
+   "titre": "Nouvelle classe défense à Digne-Les-Bains",
+   "extrait": "Le lycée Pierre Gilles de Gennes à Digne-Les-Bains ouvrira dès la rentrée prochaine une classe \"défense\" avec des rencontres tout au long de l'année avec",
+   "resume": "Le lycée Pierre‑Gilles de Gennes (Digne‑les‑Bains) annoncera l’ouverture d’une classe « défense » dès la prochaine rentrée, avec des rencontres régulières tout au long de l’année avec des militaires.",
+   "source": "https://www.facebook.com/BFMDICI/videos/une-nouvelle-classe-d%C3%A9fense-%C3%A0-digne-les-bains/567955724367491",
+   "page": "4.1K views · 33 reactions | 👨🎓 Le lycée Pierre Gilles de Gennes à Digne-Les-Bains ouvrira dès la rentrée prochaine une classe \"défense\" avec des rencontres tout au long de l'année avec des militaires | BFM DICI",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite de la classe de seconde option défense",
+   "extrait": "Ce 19 mai, la classe de 2nde, option défense du lycée Pierre Gilles de Gennes à Digne-les-Bains",
+   "resume": "Le 19 mai, la classe de seconde option défense du lycée Pierre‑Gilles de Gennes a reçu la visite de la Gendarmerie des Alpes de Haute‑Provence.",
+   "source": "https://www.facebook.com/GendarmerieAlpesDeHauteProvence/posts/visite-de-la-classe-de-seconde-option-defensece-19-mai-la-classe-de-2nde-option-/1309086378076281",
+   "page": "Gendarmerie des Alpes de Haute Provence",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe à thème défense",
+   "extrait": "\"Il y a aussi des classes à thème (défense, environnement, culture) avec des sorties en lien avec ces thèmes.\"",
+   "resume": "Le lycée propose une classe à thème défense, incluant des sorties en lien avec le sujet.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-pierre-gilles-de-gennes-04.html",
+   "page": "Lycée Pierre-Gilles de Gennes, Digne-les-Bains (04), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe « défense et citoyenneté »",
+   "extrait": "classe « défense et citoyenneté », classe « culture » et classe « environnement » en seconde",
+   "resume": "Le lycée Pierre‑Gilles de Gennes propose, en classe de seconde, une classe « défense et citoyenneté » parmi les options offertes aux élèves.",
+   "source": "https://www.site.ac-aix-marseille.fr/lyc-gillesdegennes/spip/",
+   "page": "Lycée Pierre-Gilles de GennesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 25,
+   "nouveaux": 5
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Lycée Pierre-Gilles de Gennes (Digne-les-Bains)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "https://annuaire-education.fr/etablissement/digne-les-bains/lycee-pierre-gilles-de-gennes/0040490L.html",
+  "https://anopex.org/organiser-une-ceremonie-commemorative-dans-les-etablissements-scolaires",
+  "https://eduscol.education.gouv.fr/6078/actions-educatives-et-dispositifs-pedagogiques-d-education-la-defense-et-la-securite",
+  "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
+  "https://fr.wikipedia.org/wiki/Lyc%C3%A9e_Pierre-Gilles-de-Gennes_de_Digne-les-Bains",
+  "https://paul-eluard.anjou.e-lyco.fr/page/4?et_blog=",
+  "https://tavily.com/knowledge/company/TlJ94MC22ey9",
+  "https://www.alpes-de-haute-provence.gouv.fr/content/download/10147/57298/file/Palmar",
+  "https://www.alpes-de-haute-provence.gouv.fr/content/download/11781/70394/file/CNRD%20-%20Palmar%C3%A8s%202016.pdf",
+  "https://www.facebook.com/100064307274721/posts/-exercice-de-s%C3%A9curit%C3%A9-%C3%A0-digne-les-bains-aujourdhui-le-lyc%C3%A9e-pierre-gilles-de-gen/1062020522618180",
+  "https://www.facebook.com/BFMDICI/videos/une-nouvelle-classe-d%C3%A9fense-%C3%A0-digne-les-bains/567955724367491",
+  "https://www.facebook.com/GendarmerieAlpesDeHauteProvence/posts/cadets-de-la-gendarmerie-nationale-le-groupement-de-gendarmerie-des-alpes-de-hau/1162698002715120",
+  "https://www.facebook.com/GendarmerieAlpesDeHauteProvence/posts/visite-de-la-classe-de-seconde-option-defensece-19-mai-la-classe-de-2nde-option-/1309086378076281",
+  "https://www.facebook.com/LeFigaroEtudiant/videos/concours-g%C3%A9n%C3%A9ral-des-coll%C3%A8ges-faut-il-revaloriser-le-m%C3%A9rite-individuel-concours-/1491301702653180",
+  "https://www.facebook.com/nicolas.daragon.9/posts/dans-le-cadre-des-c%C3%A9r%C3%A9monies-qui-ont-lieu-cette-semaine-dans-les-%C3%A9tablissements-/1681824056647860",
+  "https://www.ledauphine.com/archives/2022/07-10",
+  "https://www.ledauphine.com/archives/2026/02-10",
+  "https://www.ledauphine.com/education/2020/03/17/zoom-sur-les-resultats-des-lycees-des-alpes-du-sud",
+  "https://www.ledauphine.com/education/2021/06/04/ils-ont-decroche-le-label-internat-du-xxie-siecle",
+  "https://www.ledauphine.com/education/2023/09/01/rentree-2023-26-531-ecoliers-collegiens-lyceens-sont-attendus-en-classe",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-pierre-gilles-de-gennes-04.html",
+  "https://www.linternaute.com/ville/lycee/lycee-pierre-gilles-de-gennes/lycee-0040490L",
+  "https://www.lyc-gillesdegennes.ac-aix-marseille.fr/spip",
+  "https://www.service-public.gouv.fr/particuliers/actualites/A18870?lang=en"
+ ],
+ "etablissement": "Lycée Pierre-Gilles de Gennes (Digne-les-Bains)",
+ "referents_cites": "Mme Gaillard, M. Gras, M. Chevrier",
+ "unite_citee": "DMD 04"
 }

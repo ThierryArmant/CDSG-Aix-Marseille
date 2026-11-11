@@ -2,6 +2,17 @@
  "fiche": "lycee-d-ormesson-chateaurenard",
  "elements": [
   {
+   "type": "partenaire",
+   "date": "2025-05-16",
+   "titre": "Unité marraine proposée",
+   "extrait": "unite : \"Gendarmerie proposée\"",
+   "resume": "Le lycée Jean d’Ormesson de Châteaurenard a indiqué que la Gendarmerie était proposée comme unité marraine pour la classe défense.",
+   "source": "https://www.laprovence.com/article/societe/15336635642311/port-de-l-uniforme-au-lycee-de-chateaurenard-des-eleves-en-desaccord-avec-l-experimentation",
+   "page": "Port de l’uniforme au lycée de Châteaurenard : des élèves en désaccord avec l’expérimentation",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "projet",
    "date": "2025-03-28",
    "titre": "Lancement de l'Agora Défense",
@@ -31,11 +42,43 @@
    "date": "2026-11-11",
    "pages": 1,
    "nouveaux": 2
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 25,
+   "nouveaux": 1
   }
  ],
  "exclus": [],
  "pages_lues": [
-  "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480"
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "http://www.lyc-dormesson.ac-aix-marseille.fr/spip",
+  "https://annuaire-education.fr/etablissement/chateaurenard/lycee-regional-jean-dormesson/0134252B.html",
+  "https://lyceevaclavhavel.fr/actions/classe_defense/la-classe-defense-remporte-le-1er-prix-national-du-ssa",
+  "https://www.arearegionsud.com/lycee-flambant-neuf-a-chateaurenard",
+  "https://www.arearegionsud.com/realisations/lycee-de-chateaurenard",
+  "https://www.defense.gouv.fr/sante/actualites/lycee-vaclav-havel-remporte-concours-national-classes-defense-securite-globale-du-service-sante",
+  "https://www.facebook.com/BFMMarseille/videos/bouches-du-rh%C3%B4ne-luniforme-des-%C3%A9l%C3%A8ves-du-lyc%C3%A9e-jean-dormesson-de-ch%C3%A2teaurenard-p/357892110726912",
+  "https://www.facebook.com/groups/2096880907268995/posts/3886768884946846",
+  "https://www.facebook.com/saintmartindefrance/videos/comm%C3%A9morer-se-souvenir-et-transmettrece-lundi-9-novembre-lensemble-des-%C3%A9l%C3%A8ves-du/1137533498634206",
+  "https://www.facebook.com/santearmees/videos/ils-ont-relev%C3%A9-le-d%C3%A9fi-ils-remportent-le-concours-national-des-classes-de-d%C3%A9fen/1301788792138214",
+  "https://www.facebook.com/villedebarbentaneofficiel/posts/remise-des-m%C3%A9dailles-des-bacheliers-du-lyc%C3%A9e-jean-dormessondans-le-cadre-de-son-/1025620586505771",
+  "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/6376503/le-nouveau-lycee-annonce-en-2024.html",
+  "https://www.laprovence.com/article/region/18571668595579/le-lycee-avignonnais-philippe-de-girard-beneficie-de-33-me-pour-renover-ces-batiments-qui-tombent-en-ruine",
+  "https://www.laprovence.com/article/societe/1057964798650915/des-lyceens-de-jean-d-ormesson-de-chateaurenard-se-lancent-dans-laventure-entrepreneuriale",
+  "https://www.laprovence.com/article/societe/15336635642311/port-de-l-uniforme-au-lycee-de-chateaurenard-des-eleves-en-desaccord-avec-l-experimentation",
+  "https://www.laprovence.com/article/societe/3379662905947514/experimentation-de-la-tenue-unique-au-lycee-la-region-retropedale-et-poursuit-l-experience-a-chateaurenard",
+  "https://www.ledauphine.com/culture-loisirs/2021/05/27/les-projets-culturels-du-lycee-jean-d-ormesson-ont-accueilli-la-troupe-d-angelin-preljocaj",
+  "https://www.ledauphine.com/education/2021/05/18/le-lycee-de-chateaurenard-baptise-jean-d-ormesson",
+  "https://www.ledauphine.com/education/2024/08/28/l-uniforme-scolaire-teste-des-la-rentree-au-lycee-jean-d-ormesson",
+  "https://www.ledauphine.com/education/2026/04/03/voici-les-meilleurs-lycees-generaux-de-votre-departement",
+  "https://www.ledauphine.com/education/2026/10/05/des-blocus-de-lycees-et-une-grande-manifestation",
+  "https://www.leparisien.fr/etudiant/orientation/lycees/annuaire-lycees/lycee-jean-d-ormesson",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-jean-dormesson-13.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-regional-jean-d-ormesson/classe-de-1re-generale"
  ],
- "etablissement": "Lycée d'Ormesson (Châteaurenard)"
+ "etablissement": "Lycée d'Ormesson (Châteaurenard)",
+ "referents_cites": "M. Alili",
+ "unite_citee": "Gendarmerie"
 }

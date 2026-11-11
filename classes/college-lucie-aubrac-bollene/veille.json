@@ -1,14 +1,94 @@
 {
  "fiche": "college-lucie-aubrac-bollene",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2026-10",
+   "titre": "Convention de partenariat",
+   "extrait": "conv: \"Oct. 2026\"",
+   "resume": "Une convention liant la classe défense à son unité marraine a été signée en octobre 2026.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-lucie-aubrac-84.html",
+   "page": "Lycée Lucie Aubrac, Bollène (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-10",
+   "titre": "Convention",
+   "extrait": "\"conv\": \"Oct. 2026\"",
+   "resume": "Renouvellement ou signature de la convention de la classe défense avec l'unité BA 115 « Capitaine de Seynes » en octobre 2026.",
+   "source": "https://www.site.ac-aix-marseille.fr/lyc-bollene/spip/",
+   "page": "Lycée Lucie AubracAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubri",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-10",
+   "titre": "Renouvellement de convention",
+   "extrait": "\"conv\": \"Oct. 2026\"",
+   "resume": "Convention de partenariat pour la classe défense signée ou renouvelée en octobre 2026.",
+   "source": "https://www.ledauphine.com/education/2025/04/10/l-aubrac-confirme-son-bon-niveau-au-classement-des-lycees-vauclusiens",
+   "page": "Bollène. “L.-Aubrac” confirme son bon niveau au classement des lycées vauclusiens",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/BD00710A-430F-4C85-90B5-6920199B6CC4/FB1200/photo-1744308432.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine BA 115 « Capitaine de Seynes »",
+   "extrait": "unite: \"BA 115 « Capitaine de Seynes »\"",
+   "resume": "La classe défense du Collège Lucie Aubrac est parrainée par l'unité BA 115 \"Capitaine de Seynes\".",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-lucie-aubrac-84.html",
+   "page": "Lycée Lucie Aubrac, Bollène (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 27,
+   "nouveaux": 4
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Lucie Aubrac (Bollène)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://college-lycee.com/lycee-lucie-aubrac/Bollene-0841093G",
+  "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
+  "https://lyc-84-bollene.gitlab.io/presentation/proviseur",
+  "https://pompidou-isere.ent.auvergnerhonealpes.fr/1-l-etablissement/actualites/la-classe-defense-poursuit-son-engagement-citoyen-9683.htm",
+  "https://www.cdfnancy.fr/page-college/le-college/decouvrir-le-college/classe-defense",
+  "https://www.enviroboite.net/scolaire-lycee-lucie-aubrac-bollene-84",
+  "https://www.facebook.com/LaProvenceVaucluse/posts/les-parents-d%C3%A9l%C3%A8ves-du-lyc%C3%A9e-lucie-aubrac-%C3%A0-boll%C3%A8ne-seront-ils-%C3%A9cout%C3%A9s-alors-que/1473857008077273",
+  "https://www.facebook.com/lyceelucieaubrac/photos",
+  "https://www.facebook.com/villebollene/photos/d41d8cd9/1276402314515297",
+  "https://www.facebook.com/villebollene/posts/%F0%9D%97%9D%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%BB%F0%9D%97%B2%CC%81%F0%9D%97%B2-%F0%9D%97%B2%F0%9D%97%BB-%F0%9D%97%B5%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%AE%CC%80-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%B2-%F0%9D%97%95%F0%9D%97%94%F0%9D%97%A6%F0%9D%97%96%F0%9D%97%9B-%EF%B8%8Fjeudi-4-d%C3%A9cembre-%C3%A9tait-une-journ%C3%A9e-partic/1290915616397300",
+  "https://www.facebook.com/villebollene/posts/-%F0%9D%97%A5%F0%9D%97%B2%F0%9D%97%BA%F0%9D%97%B6%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B0%F0%9D%97%AE%F0%9D%97%B1%F0%9D%97%B2%F0%9D%97%AE%F0%9D%98%82%F0%9D%98%85-%F0%9D%97%BD%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%B9%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%B2%CC%81%F0%9D%97%B9%F0%9D%97%B2%CC%80%F0%9D%98%83%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%9A%F0%9D%97%A6-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B9%F0%9D%97%B2%CC%81%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%B9%F0%9D%97%B2-%F0%9D%97%96%F0%9D%98%82%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%B2-%EF%B8%8Fce-vendredi-la-muni/1149723690516494",
+  "https://www.facebook.com/villebollene/posts/-dans-le-cadre-du-projet-racines-crois%C3%A9es-port%C3%A9-par-la-commune-les-%C3%A9l%C3%A8ves-de-pre/1250609103761285",
+  "https://www.ledauphine.com/education/2025/04/10/l-aubrac-confirme-son-bon-niveau-au-classement-des-lycees-vauclusiens",
+  "https://www.ledauphine.com/education/2025/08/30/une-nouvelle-equipe-a-la-direction-du-lycee-lucie-aubrac",
+  "https://www.ledauphine.com/education/2025/12/04/le-lycee-aubrac-sans-professeur-de-francais-depuis-septembre-les-parents-d-eleves-inquiets",
+  "https://www.ledauphine.com/education/2026/03/27/la-semaine-des-langues-a-battu-son-plein-dans-les-colleges-et-au-lycee",
+  "https://www.ledauphine.com/education/2026/05/14/une-exposition-destinee-aux-eleves-marque-les-20-ans-du-lycee-aubrac",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-lucie-aubrac-84.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/lycee-lucie-aubrac",
+  "https://www.projet-ariane.fr/ecoles/lycee-lucie-aubrac-2",
+  "https://www.site.ac-aix-marseille.fr/clg-veil/",
+  "https://www.site.ac-aix-marseille.fr/clg-veil/spip/-La-classe-defense-.html",
+  "https://www.site.ac-aix-marseille.fr/lyc-bollene/spip/Bienvenue-au-Lycee-Lucie-AUBRAC.html",
+  "https://www.site.ac-aix-marseille.fr/reseau-hautvaucluse/",
+  "https://www.site.ac-aix-marseille.fr/reseau-hautvaucluse/spip/Lycee-Lucie-Aubrac.html",
+  "https://www.snes.edu/article/classes-de-defense-larmee-entre-a-leducation-nationale"
+ ],
+ "etablissement": "Collège Lucie Aubrac (Bollène)",
+ "unite_citee": "BA 115 « Capitaine de Seynes »"
 }

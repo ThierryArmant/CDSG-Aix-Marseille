@@ -1,14 +1,136 @@
 {
  "fiche": "college-andre-malraux-mazan",
- "elements": [],
+ "elements": [
+  {
+   "type": "article",
+   "date": "2024-09-02",
+   "titre": "Une classe sécurité-défense au collège André-Malraux de Mazan",
+   "extrait": "Une classe sécurité-défense au collège André-Malraux de Mazan",
+   "resume": "Publication du 2 septembre 2024 présentant la mise en place d’une classe sécurité‑défense au collège André‑Malraux de Mazan.",
+   "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "page": "Une classe sécurité-défense au collège André-Malraux de Mazan",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=336,trim.top=0,trim.height=863,trim.width=1536/media/2024/09/02/THUMBNAIL_20240704_162448.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-09-02",
+   "titre": "Signature de la convention de partenariat",
+   "extrait": "Le principal du collège, Thierry Poulain, et le colonel Cédric Garence ont signé la convention en présence du chef d’escadron Guillaume Bourez...",
+   "resume": "Le principal Thierry Poulain et le colonel Cédric Garence ont signé la convention de partenariat avec la gendarmerie, en présence de plusieurs responsables.",
+   "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "page": "Une classe sécurité-défense au collège André-Malraux de Mazan",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=336,trim.top=0,trim.height=863,trim.width=1536/media/2024/09/02/THUMBNAIL_20240704_162448.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2024-09-02",
+   "titre": "Atelier mémoire et citoyenneté devenu classe sécurité-défense",
+   "extrait": "L'atelier \"mémoire et citoyenneté\" proposé aux collégiens va évoluer cette année en une véritable classe sécurité-défense.",
+   "resume": "L’atelier mémoire et citoyenneté, initié par les professeurs Léa Bourgues et Cécile Bonnet, se transforme en classe sécurité‑défense pour 24 élèves de 3e.",
+   "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "page": "Une classe sécurité-défense au collège André-Malraux de Mazan",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=336,trim.top=0,trim.height=863,trim.width=1536/media/2024/09/02/THUMBNAIL_20240704_162448.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2024-09-02",
+   "titre": "Stage de trois jours dans une compagnie de gendarmerie",
+   "extrait": "un stage de trois jours au sein d'une compagnie de gendarmerie.",
+   "resume": "Les élèves de la classe sécurité‑défense effectueront un stage de trois jours au sein d’une compagnie de gendarmerie.",
+   "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "page": "Une classe sécurité-défense au collège André-Malraux de Mazan",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=336,trim.top=0,trim.height=863,trim.width=1536/media/2024/09/02/THUMBNAIL_20240704_162448.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2024-09-02",
+   "titre": "Interventions au collège",
+   "extrait": "une dizaine d'interventions seront programmées au collège.",
+   "resume": "Une dizaine d’interventions de la gendarmerie sont prévues au collège durant l’année scolaire.",
+   "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "page": "Une classe sécurité-défense au collège André-Malraux de Mazan",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=336,trim.top=0,trim.height=863,trim.width=1536/media/2024/09/02/THUMBNAIL_20240704_162448.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-07",
+   "titre": "Convention avec la Gendarmerie (groupement, Carpentras)",
+   "extrait": "unité marraine : Gendarmerie (groupement, Carpentras) ; convention Juillet 2024",
+   "resume": "Le collège André Malraux a signé en juillet 2024 une convention avec la Gendarmerie du groupement de Carpentras, qui devient l’unité marraine de la classe défense.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-84.html",
+   "page": "Collège André Malraux, Mazan (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-mazan/spip/",
+    "https://www.laprovence.com/article/sports/1158507103778514/handball-les-u15-du-college-malraux-de-mazan-en-finale-du-championnat-de-france"
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/04/03/photo-dr-1775237374_d246bd3b5ec960746bd3b5ec93b46bv_.jpg"
+  },
+  {
+   "type": "convention",
+   "date": "2024-07",
+   "titre": "Convention avec la Gendarmerie de Carpentras",
+   "extrait": "Convention signée en juillet 2024 avec le groupement de Gendarmerie de Carpentras",
+   "resume": "Le collège André Malraux de Mazan a signé en juillet 2024 une convention avec le groupement de Gendarmerie de Carpentras, officialisant le partenariat de l'atelier défense.",
+   "source": "https://www.facebook.com/departementdevaucluse/posts/les-coll%C3%A9giens-reporters-en-herbe-r%C3%A9compens%C3%A9sorganis%C3%A9-par-le-club-de-la-presse-d/1425203299652111",
+   "page": "Département de Vaucluse",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 7
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège André Malraux (Mazan)"
+ "pages_lues": [
+  "https://0451241e.index-education.net/pronote/pageetablissement.html",
+  "https://annuaire-education.fr/etablissement/mazan/college-andre-malraux/0841043C.html",
+  "https://clg-malraux-asnieres.ac-versailles.fr/spip.php?rubrique234=",
+  "https://tavily.com/knowledge/company/8dVVpqa4qz1X",
+  "https://tavily.com/knowledge/company/x8dlpj3staTq",
+  "https://www.facebook.com/LaProvenceVaucluse/posts/35-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-andr%C3%A9-malraux-de-mazan-ont-particip%C3%A9-et-remport%C3%A9-le-premier/1586730036789969",
+  "https://www.facebook.com/VilleMazan/posts/ce-soir-jai-assist%C3%A9-%C3%A0-la-remise-de-dipl%C3%B4me-national-du-brevet-aux-%C3%A9l%C3%A8ves-du-coll/1248591463968854",
+  "https://www.facebook.com/VilleMazan/posts/la-ville-de-mazan-vous-invite-%C3%A0-participer-%C3%A0-la-c%C3%A9r%C3%A9monie-comm%C3%A9morative-de-larmi/1547232470771417",
+  "https://www.facebook.com/departementdevaucluse/posts/les-coll%C3%A9giens-reporters-en-herbe-r%C3%A9compens%C3%A9sorganis%C3%A9-par-le-club-de-la-presse-d/1425203299652111",
+  "https://www.laprovence.com/article/edition-vaucluse/4105935/mazan-les-deux-principales-du-college-rencontrent-le-maire.html",
+  "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+  "https://www.laprovence.com/article/societe/16611264486611/erasmus-le-college-andre-malraux-de-mazan-accueille-28-jeunes-italiens-en-immersion",
+  "https://www.laprovence.com/article/societe/18438305424767/vingt-eleves-du-college-andre-malraux-de-mazan-ont-rendu-visite-a-leurs-correspondants-irlandais",
+  "https://www.laprovence.com/article/societe/30961115420864/de-mazan-a-la-pologne-les-eleves-du-college-andre-malraux-sur-les-traces-de-la-shoah",
+  "https://www.laprovence.com/article/sports/1158507103778514/handball-les-u15-du-college-malraux-de-mazan-en-finale-du-championnat-de-france",
+  "https://www.ledauphine.com/education/2022/10/19/les-eleves-du-college-malraux-decouvrent-les-vendanges",
+  "https://www.ledauphine.com/education/2024/06/25/le-college-andre-malraux-confirme-son-engagement-d-ouverture-a-l-international",
+  "https://www.ledauphine.com/education/2025/10/08/le-college-andre-malraux-a-l-heure-italienne",
+  "https://www.ledauphine.com/education/2026/03/05/le-college-andre-malraux-a-l-heure-roumaine",
+  "https://www.ledauphine.com/sport/2026/04/03/handball-l-equipe-feminine-du-college-malraux-qualifiee-pour-le-championnat-de-france",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-84.html",
+  "https://www.mazan.fr/decouvrir-mazan/pratique/mes-enfants/au-college.html",
+  "https://www.ofaj.org/partenaires/atelier-memoire-et-citoyennete-college-andre-malraux-mazan",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/college-andre-malraux",
+  "https://www.site.ac-aix-marseille.fr/clg-mazan/",
+  "https://www.site.ac-aix-marseille.fr/clg-mazan/spip"
+ ],
+ "etablissement": "Collège André Malraux (Mazan)",
+ "referents_cites": "Mme Bourgues",
+ "unite_citee": "Gendarmerie (groupement, Carpentras)"
 }

@@ -1,14 +1,86 @@
 {
  "fiche": "college-joseph-roumanille-avignon",
- "elements": [],
+ "elements": [
+  {
+   "type": "sortie",
+   "date": "2026-11-09",
+   "titre": "Immersion auprès de son unité marraine",
+   "extrait": "La classe Défense du collège Roumanille en immersion auprès de son unité marraine par GAELLE RAFFAELLI",
+   "resume": "La classe Défense du Collège Joseph Roumanille a réalisé une immersion auprès de son unité marraine, encadrée par Gaëlle Raffaelli.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/La-classe-Defense-du-college-Roumanille-en-immersion-aupres-de-son-unite.html",
+   "page": "La classe Défense du collège Roumanille en immersion auprès (…) - Collège Joseph RoumanilleAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAff",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-03",
+   "titre": "Convention classe défense",
+   "extrait": "\"conv\": \"Mars 2023\"",
+   "resume": "Signature d'une convention en mars 2023 pour l'atelier défense du collège Joseph Roumanille.",
+   "source": "https://www.laprovence.com/article/region/57157942872534/a-avignon-craignant-pour-leur-securite-et-celle-des-eleves-des-professeurs-du-college-roumanille-debrayent",
+   "page": "À Avignon, craignant pour \"leur sécurité et celle des élèves\", des professeurs du collège Roumanille débrayent",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/03/03/college-roumanille-a-avignon-des-professeurs-du-college-tirent-la-sonnette-d-alarme-a-cause-de-l-ins-1741027422_d594cd50e5c76d994cd50e5c7bd94cv_.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/"
+   ]
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Option Défense",
+   "extrait": "Défense",
+   "resume": "Le collège propose une option « Défense » parmi les choix d'options proposés aux élèves.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/",
+   "page": "Collège Joseph RoumanilleAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sou",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Joseph Roumanille (Avignon)"
+ "pages_lues": [
+  "https://annuaire.ecole-futee.com/etablissement/0840007B",
+  "https://podeduc.apps.education.fr/video/13889-edevoirfaits-college-roumanille-avignonmp4?is_iframe=true",
+  "https://univ-avignon.fr/cordees-de-la-reussite-reussir-avec-les-sciences-au-college-roumanille-davignon",
+  "https://www.ac-aix-marseille.fr/la-classe-Defense-du-college-roumanille-en-immersion-aupres-de-son-unite-marraine-126221",
+  "https://www.ac-aix-marseille.fr/la-classe-defense-du-college-roumanille-participe-au-rallye-citoyen-esprit-defense-126459",
+  "https://www.ac-aix-marseille.fr/la-cordee-reussir-avec-les-sciences-au-college-roumanille-d-avignon-annee-2025-2026-126228",
+  "https://www.ac-aix-marseille.fr/le-projet-memoire-cheminote-de-la-classe-defense-du-college-roumanille-d-avignon-125996",
+  "https://www.education.gouv.fr/ivac/2022/0840007b/college-joseph-roumanille",
+  "https://www.facebook.com/LaProvenceVaucluse/posts/le-centre-social-la-fen%C3%AAtre-le-coll%C3%A8ge-roumanille-et-l%C3%A9cole-primaire-pierre-de-c/1759445426185095",
+  "https://www.facebook.com/groups/avignonandco/posts/2734642013408168",
+  "https://www.facebook.com/p/Option-Sapeur-Pompier-Roumanille-CSP-Avignon-100032458193347",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-joseph-roumanille/college-0840007B",
+  "https://www.laprovence.com/article/edition-vaucluse/4328129/la-securite-routiere-fait-ecole-au-college-roumanille.html",
+  "https://www.laprovence.com/article/region/57157942872534/a-avignon-craignant-pour-leur-securite-et-celle-des-eleves-des-professeurs-du-college-roumanille-debrayent",
+  "https://www.laprovence.com/article/societe/4843664737297514/les-collegiens-de-roumanille-a-avignon-sinitient-a-la-mixite-a-travers-la-journee-sois-sport",
+  "https://www.laprovence.com/article/societe/58127402881294/a-avignon-la-section-sapeur-pompier-de-roumanille-fete-ses-20-ans",
+  "https://www.laprovence.com/article/sports/2933654/le-college-roumanille-exemple-de-reussite.html",
+  "https://www.ledauphine.com/education/2020/11/22/avignon-le-college-roumanille-plombe-par-les-problemes-informatiques",
+  "https://www.ledauphine.com/education/2025/01/31/c-est-l-un-des-etablissements-les-plus-degrades-du-vaucluse-apres-vingt-ans-d-attente-le-college-roumanille-sera-renove",
+  "https://www.ledauphine.com/education/2025/03/03/depart-du-principal-insecurite-a-roumanille-des-enseignants-inquiets",
+  "https://www.ledauphine.com/education/2025/03/13/magali-descamps-remplace-pierre-talbot-a-la-direction-de-roumanille",
+  "https://www.ledauphine.com/education/2026/10/16/premier-tournoi-d-echecs-pour-les-joueurs-de-roumanille-et-philippe-de-girard",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-joseph-roumanille-84.html",
+  "https://www.site.ac-aix-marseille.fr/clg-roumanille/",
+  "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/La-classe-Defense-du-college-Roumanille-en-immersion-aupres-de-son-unite.html"
+ ],
+ "etablissement": "Collège Joseph Roumanille (Avignon)",
+ "referents_cites": "Mme Jammes, M. Talbot",
+ "unite_citee": "Nouvelle unité marraine (à préciser)"
 }

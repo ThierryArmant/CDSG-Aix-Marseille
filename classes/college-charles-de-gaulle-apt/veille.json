@@ -1,14 +1,106 @@
 {
  "fiche": "college-charles-de-gaulle-apt",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Renouvellement de la convention",
+   "extrait": "Déc. 2025",
+   "resume": "Convention de partenariat renouvelée en décembre 2025 pour la classe défense et sécurité globales du collège.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-charles-de-gaulle-84.html",
+   "page": "Collège Charles de Gaulle, Apt (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Convention",
+   "extrait": "conv: Déc. 2025",
+   "resume": "Convention signée en décembre 2025 pour la classe défense du collège Charles‑de‑Gaulle d’Apt.",
+   "source": "https://www.ledauphine.com/faits-divers-justice/2021/10/12/alerte-a-la-bombe-a-apt-le-college-evacue",
+   "page": "Vaucluse. Alerte à la bombe au collège de Apt : l'incident est clos",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/DB94770D-D0FC-4709-B8A6-6A52F2ECB3E4/FB1200/photo-1634053276.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2021-10-12",
+   "titre": "Unité marraine",
+   "extrait": "unite: 2e REG (Saint‑Christol)",
+   "resume": "Le 2e Régiment Étranger de Génie de Saint‑Christol est l’unité marraine de la classe défense.",
+   "source": "https://www.ledauphine.com/faits-divers-justice/2021/10/12/alerte-a-la-bombe-a-apt-le-college-evacue",
+   "page": "Vaucluse. Alerte à la bombe au collège de Apt : l'incident est clos",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/DB94770D-D0FC-4709-B8A6-6A52F2ECB3E4/FB1200/photo-1634053276.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "2e REG (Saint-Christol)",
+   "resume": "Le 2e Régiment Étranger de Génie de Saint‑Christol est l’unité marraine de la classe défense du collège.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-charles-de-gaulle-84.html",
+   "page": "Collège Charles de Gaulle, Apt (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Professeur référent",
+   "extrait": "Mme Fageot (HG)",
+   "resume": "Mme Fageot, professeure d’histoire‑géographie, est la référente de la classe défense du collège.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-charles-de-gaulle-84.html",
+   "page": "Collège Charles de Gaulle, Apt (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 5
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Charles de Gaulle (Apt)"
+ "pages_lues": [
+  "https://clg-rostand-milly.ac-versailles.fr/classe-defense",
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
+  "https://tavily.com/knowledge/company/H7fmASp8xRgZ",
+  "https://www.ac-lyon.fr/une-classe-de-defense-au-college-de-la-haute-azergues-pour-l-annee-scolaire-2023-2024-129012",
+  "https://www.ac-rennes.fr/les-classes-de-defense-et-les-classes-de-defense-et-de-securite-globales-122825",
+  "https://www.apt.fr/vie-quotidienne/education-et-jeunesse/colleges-et-lycees",
+  "https://www.cdfnancy.fr/page-college/le-college/decouvrir-le-college/classe-defense",
+  "https://www.facebook.com/groups/116441738386491",
+  "https://www.facebook.com/groups/116441738386491/posts/29387897154147561",
+  "https://www.facebook.com/people/Graineterie-du-Quai/100008469751944?locale=hi_IN",
+  "https://www.facebook.com/prefetnord/posts/citoyennet%C3%A9-engagement-prix-de-l%C3%A9ducation-citoyenne-et-m%C3%A9moire-des-%C3%A9l%C3%A8ves-mis-%C3%A0-/1360398729453518",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-charles-de-gaulle/college-0840759U",
+  "https://www.ledauphine.com/education/2021/09/03/apt-college-charles-de-gaulle",
+  "https://www.ledauphine.com/education/2021/09/07/nouvelles-equipes-administratives-a-la-cite-scolaire",
+  "https://www.ledauphine.com/education/2022/01/20/distribution-de-pc-hybrides-aux-eleves-du-college-charles-de-gaulle",
+  "https://www.ledauphine.com/faits-divers-justice/2021/10/12/alerte-a-la-bombe-a-apt-le-college-evacue",
+  "https://www.ledauphine.com/vaucluse/2018/09/15/les-projets-du-lycee-charles-de-gaulle-explicites",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-charles-de-gaulle-84.html",
+  "https://www.memoiredeshommes.defense.gouv.fr/fichier/6819694/14462606",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/college-charles-de-gaulle",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/lycee-polyvalent-charles-de-gaulle",
+  "https://www.parisladefense.com/en/activities/studies/student-residences",
+  "https://www.site.ac-aix-marseille.fr/lyc-apt/",
+  "https://www.site.ac-aix-marseille.fr/lyc-apt/spip",
+  "https://www.unsa-education.com/article-/les-classes-defense-doivent-etre-exclusivement-un-levier-au-service-de-la-citoyennete"
+ ],
+ "etablissement": "Collège Charles de Gaulle (Apt)",
+ "referents_cites": "Mme Fageot",
+ "unite_citee": "2e REG (Saint‑Christol)"
 }

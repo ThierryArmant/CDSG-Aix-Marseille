@@ -1,14 +1,70 @@
 {
  "fiche": "college-saint-louis-prive-orange",
- "elements": [],
+ "elements": [
+  {
+   "type": "partenaire",
+   "date": "2026-08-30",
+   "titre": "Partenariat avec la Délégation militaire départementale",
+   "extrait": "ouverture d’une classe défense, en partenariat avec la Délégation militaire départementale.",
+   "resume": "Le 30 août 2026, l’établissement Saint‑Louis à Orange a créé une classe défense au lycée, en partenariat avec la Délégation militaire départementale.",
+   "source": "https://www.ledauphine.com/education/2026/08/30/1-300-eleves-vont-faire-leur-rentree-a-saint-louis",
+   "page": "Crest. 1 300 élèves vont faire leur rentrée à Saint-Louis",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/E5DB99FE-97B1-4DE3-B47C-059B49E5F38E/FB1200/photo-1788109017.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2026-08-30",
+   "titre": "Ouverture d’une classe défense",
+   "extrait": "ouverture d’une classe défense, en partenariat avec la Délégation militaire départementale.",
+   "resume": "Le 30 août 2026, l’établissement Saint‑Louis à Orange a ouvert une classe défense au sein du lycée.",
+   "source": "https://www.ledauphine.com/education/2026/08/30/1-300-eleves-vont-faire-leur-rentree-a-saint-louis",
+   "page": "Crest. 1 300 élèves vont faire leur rentrée à Saint-Louis",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/E5DB99FE-97B1-4DE3-B47C-059B49E5F38E/FB1200/photo-1788109017.jpg",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 25,
+   "nouveaux": 2
   }
  ],
  "exclus": [],
- "pages_lues": [],
+ "pages_lues": [
+  "http://www.defense.gouv.fr/garde-nationale/nos-partenaires",
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://fr.mappy.com/poi/50ace7f384ae9c6b733fd9c1",
+  "https://saintlouis-lapaix.com/lycee-saint-louis/formations/classe-defense-et-securite-globales",
+  "https://stlouis49.org",
+  "https://tavily.com/knowledge/company/9ck9vunHyfv8",
+  "https://www.college-stlouis.fr/actualite/la-classe-defense-a-paris-",
+  "https://www.facebook.com/100076281881381/videos/portes-ouvertes-lyc%C3%A9e-st-louis-s-1sais-tu-quau-lyc%C3%A9e-saint-louis-on-travaille-ce/614616974047024",
+  "https://www.facebook.com/61582497890691/mentions",
+  "https://www.facebook.com/groups/avignonandco/posts/2893263520879349",
+  "https://www.facebook.com/officielcollegesaintlouis?locale=fr_FR",
+  "https://www.facebook.com/p/Saint-Louis-Orange-100076281881381",
+  "https://www.instagram.com/explore/locations/310055514/college-lycee-saint-louis-orange",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-saint-louis/college-0840853W",
+  "https://www.ledauphine.com/education/2026/03/15/le-college-et-lycee-saint-louis-organise-son-carnaval",
+  "https://www.ledauphine.com/education/2026/07/03/ensemble-scolaire-saint-louis-un-nouveau-visage-sur-2-hectares",
+  "https://www.ledauphine.com/education/2026/08/30/1-300-eleves-vont-faire-leur-rentree-a-saint-louis",
+  "https://www.ledauphine.com/education/2026/09/02/college-saint-louis-les-eleves-de-sixieme-de-plus-en-plus-nombreux",
+  "https://www.ledauphine.com/politique/2025/12/12/pourquoi-l-extension-du-college-lycee-saint-louis-interroge-les-elus",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-prive-saint-louis-84.html",
+  "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2020-01/inventaire_71_recueils_1.pdf",
+  "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2026-07/HistoireGendarmerie-BIBLIO-15sept2025.pdf",
+  "https://www.servicehistorique.sga.defense.gouv.fr/sites/default/files/2026-09/Luc-RapportRechercheHistoriqueMinArm-2020-2025.pdf",
+  "https://www.stlouis-orange.fr/wp-content/uploads/2024/03/SITE-5-24-25-REGLEMENT-FINANCIER-college-V2.pdf",
+  "https://www.terre.defense.gouv.fr/sites/default/files/ccf/20220311_NP_CDEC_PEP_NOTE-DE-RECHERCHE-PROSPECTIVE_Combat-ecologique.pdf"
+ ],
  "etablissement": "Collège Saint-Louis (privé) (Orange)"
 }

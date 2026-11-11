@@ -2,6 +2,89 @@
  "fiche": "lycee-val-de-durance-pertuis",
  "elements": [
   {
+   "type": "article",
+   "date": "2026-09-22",
+   "titre": "Classe défense",
+   "extrait": "Classe défense Dernière publication : 22 septembre 2026",
+   "resume": "Une rubrique dédiée à la classe défense a été mise à jour le 22 septembre 2026.",
+   "source": "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/-Les-projets-d-equipe-.html",
+   "page": "Les projets d'équipe - Lycée Val de Durance - Henri SilvyAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer le",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-10-09",
+   "titre": "Journée Défense et avenir",
+   "extrait": "les lycéens du Val de Durance ont pu découvrir une diversité de carrières lors de la journée Défense et avenir",
+   "resume": "Le 9 octobre 2025, les élèves des classes de défense ont participé à la journée Défense et avenir organisée par l’IHEDN Provence en collaboration avec le proviseur Lionel Nègre.",
+   "source": "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+   "page": "Les lycéens de Val de Durance, à Pertuis, découvrent les métiers de la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/10/09/les-lyceens-du-val-de-durance-ont-pu-decouvrir-une-diversite-de-carrieres-dont-le-pilotage-lors-de-c-1759998918_a7ce70579bd86dbce70579bd8bfce7v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-10-09",
+   "titre": "Association Castel‑Mauboussin",
+   "extrait": "activité spectaculaire rendue possible grâce à l'association Castel‑Mauboussin",
+   "resume": "L’association Castel‑Mauboussin a fourni le simulateur d’hélicoptère Alouette 2 pour l’atelier de pilotage.",
+   "source": "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+   "page": "Les lycéens de Val de Durance, à Pertuis, découvrent les métiers de la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/10/09/les-lyceens-du-val-de-durance-ont-pu-decouvrir-une-diversite-de-carrieres-dont-le-pilotage-lors-de-c-1759998918_a7ce70579bd86dbce70579bd8bfce7v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-10-09",
+   "titre": "CIRFA d’Aix",
+   "extrait": "le centre d’information et de recrutement des forces armées (Cirfa) d’Aix",
+   "resume": "Le CIRFA d’Aix a présenté les métiers des forces armées aux lycéens.",
+   "source": "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+   "page": "Les lycéens de Val de Durance, à Pertuis, découvrent les métiers de la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/10/09/les-lyceens-du-val-de-durance-ont-pu-decouvrir-une-diversite-de-carrieres-dont-le-pilotage-lors-de-c-1759998918_a7ce70579bd86dbce70579bd8bfce7v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-10-09",
+   "titre": "Police nationale et police municipale",
+   "extrait": "la police nationale et la police municipale pour les métiers de la sécurité publique",
+   "resume": "Les services de police ont animé des stands sur les métiers de la sécurité publique.",
+   "source": "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+   "page": "Les lycéens de Val de Durance, à Pertuis, découvrent les métiers de la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/10/09/les-lyceens-du-val-de-durance-ont-pu-decouvrir-une-diversite-de-carrieres-dont-le-pilotage-lors-de-c-1759998918_a7ce70579bd86dbce70579bd8bfce7v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-10-09",
+   "titre": "Mission locale Sud Luberon",
+   "extrait": "la Mission locale Sud Luberon pour les questions d’insertion professionnelle",
+   "resume": "La Mission locale Sud Luberon a conseillé les élèves sur l’insertion professionnelle.",
+   "source": "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+   "page": "Les lycéens de Val de Durance, à Pertuis, découvrent les métiers de la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/10/09/les-lyceens-du-val-de-durance-ont-pu-decouvrir-une-diversite-de-carrieres-dont-le-pilotage-lors-de-c-1759998918_a7ce70579bd86dbce70579bd8bfce7v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2025-10-09",
+   "titre": "Atelier cybersécurité",
+   "extrait": "un atelier de sensibilisation sur la cybersécurité",
+   "resume": "Un atelier a sensibilisé les lycéens aux enjeux de la cybersécurité.",
+   "source": "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+   "page": "Les lycéens de Val de Durance, à Pertuis, découvrent les métiers de la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/10/09/les-lyceens-du-val-de-durance-ont-pu-decouvrir-une-diversite-de-carrieres-dont-le-pilotage-lors-de-c-1759998918_a7ce70579bd86dbce70579bd8bfce7v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "distinction",
    "date": "2024-05-15",
    "titre": "Troisième prix du Prix de l’Éducation citoyenne",
@@ -13,6 +96,36 @@
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=169,trim.height=1125,trim.width=2000/media/2024/05/18/FQ-CITOYENNETE-B.jpg",
    "trouve_le": "2026-11-11",
    "verifie": "presse"
+  },
+  {
+   "type": "convention",
+   "date": "2021-02-16",
+   "titre": "Convention de partenariat",
+   "extrait": "conv: 16/02/2021 (tacite reconduction)",
+   "resume": "Convention tacite reconduite le 16 février 2021 entre le lycée Val de Durance et les partenaires de la classe défense.",
+   "source": "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+   "page": "Les lycéens de Val de Durance, à Pertuis, découvrent les métiers de la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/10/09/les-lyceens-du-val-de-durance-ont-pu-decouvrir-une-diversite-de-carrieres-dont-le-pilotage-lors-de-c-1759998918_a7ce70579bd86dbce70579bd8bfce7v_.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/-Les-projets-d-equipe-.html",
+    "https://diplomeo.com/etablissement-lycee_polyvalent_val_de_durance_henri_silvy-15760"
+   ]
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "BA 115 + commandos de l'air + escadron d'hélicoptères + gendarmerie de Pertuis",
+   "resume": "L’unité marraine de la classe défense regroupe la BA 115, les commandos de l’air, un escadron d’hélicoptères et la gendarmerie de Pertuis.",
+   "source": "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/-Les-projets-d-equipe-.html",
+   "page": "Les projets d'équipe - Lycée Val de Durance - Henri SilvyAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer le",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://diplomeo.com/etablissement-lycee_polyvalent_val_de_durance_henri_silvy-15760"
+   ]
   }
  ],
  "recherches": [
@@ -20,11 +133,44 @@
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 9
   }
  ],
  "exclus": [],
  "pages_lues": [
-  "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des"
+  "https://annuaire-education.fr/etablissement/pertuis/lycee-polyvalent-val-de-durance/0840918S.html",
+  "https://college-lycee.com/lycee-polyvalent-val-de-durance-henri-silvy/Pertuis-0840918S",
+  "https://diplomeo.com/etablissement-lycee_polyvalent_val_de_durance_henri_silvy-15760",
+  "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
+  "https://www.dsden94.ac-creteil.fr/spip.php?article2686=",
+  "https://www.facebook.com/Blangysurbresle/videos/ce-matin-les-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-du-campigny-se-sont-r%C3%A9unis-pour-comm%C3%A9morer-larmis/1089687904072194",
+  "https://www.facebook.com/Ville.de.Pertuis/posts/-50-ans-du-coll%C3%A8ge-marcel-pagnol-une-journ%C3%A9e-m%C3%A9morable-%C3%A0-pertuis-ce-mardi-17-jui/1060901546249072",
+  "https://www.facebook.com/Ville.de.Pertuis/posts/-passeurs-de-m%C3%A9moire-une-jeunesse-engag%C3%A9e-pour-ne-jamais-oublierle-lundi-2-juin-/1049692277369999",
+  "https://www.facebook.com/Ville.de.Pertuis/posts/-vide-grenier-au-lyc%C3%A9e-val-de-durance-pertuis-samedi-26-avril-de-8h-%C3%A0-13h-lyc%C3%A9e-/1009670031372224",
+  "https://www.facebook.com/auclair.aurelien/posts/%EF%B8%8F-en-cette-journ%C3%A9e-dhommage-aux-professeurs-samuel-paty-et-dominique-bernard-ass/28979583408334029",
+  "https://www.facebook.com/laprovence/posts/le-lyc%C3%A9e-val-de-durance-de-pertuis-sest-lanc%C3%A9-dans-laventure-erasmus-depuis-quat/1453590596812100",
+  "https://www.facebook.com/laprovence/posts/les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-marie-mauron-de-pertuis-ont-particip%C3%A9/1383090087195485",
+  "https://www.facebook.com/laprovence/posts/les-%C3%A9l%C3%A8ves-des-coll%C3%A8ges-marie-mauron-et-marcel-pagnol-ainsi-que-du-lyc%C3%A9e-val-de-/1481628200675006",
+  "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des",
+  "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+  "https://www.ledauphine.com/archives/2026/20-09",
+  "https://www.ledauphine.com/archives/2026/21-06",
+  "https://www.ledauphine.com/education/2024/05/17/trois-cent-vingt-cinq-eleves-aureoles-pour-leur-engagement-citoyen",
+  "https://www.ledauphine.com/education/2026/04/03/classement-2026-voila-les-meilleurs-colleges-de-votre-departement",
+  "https://www.ledauphine.com/vaucluse/2015/11/29/la-jeunesse-mise-tout-sur-le-developpement-durable",
+  "https://www.leparisien.fr/etudiant/orientation/lycees/annuaire-lycees/lycee-val-de-durance-pertuis",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-val-de-durance-84.html",
+  "https://www.lyc-valdedurance.ac-aix-marseille.fr",
+  "https://www.ouest-france.fr/bretagne/dinan-22100/les-eleves-de-3e-de-roger-vercel-a-dinan-rendent-hommage-aux-victimes-de-la-grande-guerre-5064650c-be5b-11f0-b8fb-6e3fd978b47c",
+  "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/",
+  "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/-Les-projets-d-equipe-.html",
+  "https://x.com/laprovence/status/1976236673122898373"
  ],
- "etablissement": "Lycée Val de Durance (Pertuis)"
+ "etablissement": "Lycée Val de Durance (Pertuis)",
+ "referents_cites": "M. Dubois, Mme Abran, Mme Rolland, M. Eyriey",
+ "unite_citee": "BA 115 + commandos de l'air + escadron d'hélicoptères + gendarmerie de Pertuis"
 }

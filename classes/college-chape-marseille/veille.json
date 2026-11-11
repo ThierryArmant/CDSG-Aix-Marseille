@@ -1,14 +1,152 @@
 {
  "fiche": "college-chape-marseille",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2026-03",
+   "titre": "Signature de convention avec l'unité marraine",
+   "extrait": "unité marraine : BRF Jacques Chevallier (base navale de Toulon), convention signée en mars 2026",
+   "resume": "Le Collège Chape a signé en mars 2026 une convention avec le BRF Jacques Chevallier de la base navale de Toulon, unité marraine de la classe défense.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10444225/fr/ent-1er-degre",
+   "page": "﻿Accueil",
+   "site": "WPAM",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-03",
+   "titre": "Convention de partenariat",
+   "extrait": "conv: \"Mars 2026\"",
+   "resume": "Le collège Chape a signé une convention de partenariat en mars 2026 pour son atelier défense.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
+   "page": "﻿Accueil",
+   "site": "WPAM",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-03",
+   "titre": "Convention de parrainage",
+   "extrait": "unité marraine : BRF Jacques Chevallier (base navale de Toulon) – convention mars 2026",
+   "resume": "Le Collège Chape a signé une convention de parrainage avec le BRF Jacques Chevallier, base navale de Toulon, en mars 2026.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille",
+   "page": "Education à la défense",
+   "site": "WPAM",
+   "image": "https://www.pedagogie.ac-aix-marseille.fr/non",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-03",
+   "titre": "Signature de la convention de classe défense",
+   "extrait": "\"conv\": \"Mars 2026\"",
+   "resume": "Le Collège Chape a signé en mars 2026 une convention de classe défense avec l'unité marraine BRF Jacques Chevallier de la base navale de Toulon.",
+   "source": "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre/",
+   "page": "L'école de la guerre - CGT - Éduc’action Aix-Marseille",
+   "site": "CGT - Éduc’action Aix-Marseille",
+   "image": "https://www.cgteduc-aixmarseille.org/wp-content/uploads/2026/06/Faites-lecole-pas-la-guerre.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-03",
+   "titre": "Convention avec le BRF Jacques Chevallier",
+   "extrait": "\"unite\": \"BRF Jacques Chevallier (base navale de Toulon)\", \"conv\": \"Mars 2026\"",
+   "resume": "Le collège Chape a signé en mars 2026 une convention avec le brigade de fusiliers marins Jacques Chevallier de la base navale de Toulon, unité marraine de la classe défense.",
+   "source": "https://www.laprovence.com/article/edition-marseille/3361908/cajazz-pour-les-eleves-du-college-chape.html",
+   "page": "Çajazz pour les élèves \ndu collège Chape",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2015-04/2015-04-15/20150415_1_5_1_1_0_obj8681876_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2025-05-15",
+   "titre": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille, parrainée par les Marins Pompiers de Marseille, fait preuve d'un engagement exemplaire en faveur",
+   "resume": "Le 15 mai 2025, Valérie Boyer publie sur Facebook que la classe défense du collège Stéphane Mallarmé, parrainée par les Marins Pompiers de Marseille, montre un engagement exemplaire et qu’elle a invité la promotion 2024/2025 au Sénat.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-05-15",
+   "titre": "Parrainage par les Marins Pompiers de Marseille",
+   "extrait": "parrainée par les Marins Pompiers de Marseille",
+   "resume": "Depuis 2018, la classe défense du collège Stéphane Mallarmé de Marseille est parrainée par les Marins Pompiers de Marseille.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2024-11-23",
+   "titre": "Unité marraine",
+   "extrait": "BRF Jacques Chevallier (base navale de Toulon)",
+   "resume": "L’unité marraine du collège Chape est le BRF Jacques Chevallier, basé à la base navale de Toulon.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
+   "page": "﻿Accueil",
+   "site": "WPAM",
+   "trouve_le": "2026-11-11",
+   "image": "https://www.pedagogie.ac-aix-marseille.fr/non",
+   "autres_sources": [
+    "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille"
+   ]
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 34,
+   "nouveaux": 8
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Chape (Marseille)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-fraternite-engagement-au-service-defense",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/41996/238490/file/recueil-13-2021-150-recueil-des-actes-administratifs-special%20du%201er%20juin%202021.pdf",
+  "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.education.gouv.fr/ivac/2023/0130079r/college-chape-rue",
+  "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
+  "https://www.facebook.com/MartineVassalOfficiel/posts/-le-coll%C3%A8ge-chape-porte-d%C3%A9sormais-le-nom-daretha-franklinune-nouvelle-d%C3%A9nominati/1638507347644979",
+  "https://www.facebook.com/MartineVassalOfficiel/videos/-le-coll%C3%A8ge-chape-porte-d%C3%A9sormais-le-nom-daretha-franklinune-nouvelle-d%C3%A9nominati/2576246016169564",
+  "https://www.facebook.com/festivalohlesbeauxjours/videos/%C3%A9coutez-les-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-chape-%C3%A0-marseille-pr%C3%A9senter-leur-nouvelle/341819257245274",
+  "https://www.facebook.com/rjmarseille/videos/%C3%A0-marseille-le-coll%C3%A8ge-chape-porte-depuis-la-rentr%C3%A9e-le-nom-daretha-franklin-ce-/3397687613744884",
+  "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+  "https://www.instagram.com/reel/Dd4JY1wgq6Y",
+  "https://www.laprovence.com/article/edition-marseille/3361908/cajazz-pour-les-eleves-du-college-chape.html",
+  "https://www.laprovence.com/article/edition-marseille/3858447/le-college-chape-avait-un-rencard-avec-coluche.html",
+  "https://www.laprovence.com/article/region/55828111505443/experimentation-de-l-uniforme-le-projet-suspendu-au-college-chape-a-marseille",
+  "https://www.laprovence.com/article/region/95593788809801/marseille-les-eleves-du-college-chateau-forbin-11e-porteront-l-uniforme-a-la-rentree",
+  "https://www.laprovence.com/article/societe/51304487628061/rentree-scolaire-69-des-colleges-et-lycees-francais-ont-repris-avec-une-equipe-incomplete-selon-l-enquete-du-snes-fsu",
+  "https://www.ledauphine.com/archives/2021/16-11",
+  "https://www.ledauphine.com/archives/2023/17-06",
+  "https://www.ledauphine.com/archives/2025/24-06",
+  "https://www.ledauphine.com/archives/2026/04-01",
+  "https://www.ledauphine.com/vaucluse/2026/07/03/festival-d-avignon-decouvrez-les-coups-de-coeur-de-la-redaction",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-chape-13.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/college-chape",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/aide.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10444225/fr/ent-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10761841/fr/inversons-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10988338/fr/ia-dans-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_11228482/fr/enseignant-du-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_11248634/fr/concours-scolaires",
+  "https://www.site.ac-aix-marseille.fr/clg-chape/",
+  "https://www.site.ac-aix-marseille.fr/clg-chape/spip"
+ ],
+ "etablissement": "Collège Chape (Marseille)",
+ "referents_cites": "Mme Jabra",
+ "unite_citee": "BRF Jacques Chevallier (base navale de Toulon)"
 }

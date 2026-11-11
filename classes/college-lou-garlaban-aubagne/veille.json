@@ -1,14 +1,213 @@
 {
  "fiche": "college-lou-garlaban-aubagne",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Convention réactualisée avec la Légion étrangère",
+   "extrait": "Convention réactualisée déc. 2025 entre le collège et la Légion étrangère.",
+   "resume": "Le collège a actualisé en décembre 2025 la convention liant l’établissement à la Légion étrangère pour le dispositif de classe défense.",
+   "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere",
+   "page": "À Aubagne, le collège Lou Garlaban ouvre une classe \"défense\" en partenariat avec la Légion étrangère",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=399,trim.height=1013,trim.width=1800/media/hermes/20241112/20241112_1_2_5_1_1_obj29840528_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Convention réactualisée",
+   "extrait": "Réactualisée déc. 2025",
+   "resume": "La convention de partenariat du collège a été réactualisée en décembre 2025.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-lou-garlaban-13.html",
+   "page": "Collège Lou Garlaban, Aubagne (13), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.journaldesfemmes.fr/maman/ecole/college-lou-garlaban/college-0132412B",
+    "https://www.laprovence.com/article/papier/6900126/le-college-lou-garlaban-sactive-contre-le-harcelement.html"
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=121,trim.height=353,trim.width=642/media/hermes/2022-09/2022-09-15/20220915_1_2_5_1_1_obj26813841_1.jpg"
+  },
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Convention classe défense",
+   "extrait": "Réactualisée déc. 2025",
+   "resume": "La fiche de l’établissement précise que la convention de la classe défense a été réactualisée en décembre 2025.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/",
+   "page": "Collège Lou GarlabanAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rub",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2024-11-12",
+   "titre": "Ouverture d'une classe défense à Lou Garlaban",
+   "extrait": "Le collège accueille la 51e classe « défense » de l’académie en partenariat avec la Légion étrangère.",
+   "resume": "L’article du 12 novembre 2024 annonce que le collège Lou Garlaban d’Aubagne ouvre la 51e classe défense de l’académie, en partenariat avec la Légion étrangère.",
+   "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere",
+   "page": "À Aubagne, le collège Lou Garlaban ouvre une classe \"défense\" en partenariat avec la Légion étrangère",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=399,trim.height=1013,trim.width=1800/media/hermes/20241112/20241112_1_2_5_1_1_obj29840528_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2024-11-12",
+   "titre": "Partenaire : Légion étrangère",
+   "extrait": "Le dispositif est réalisé en partenariat avec la Légion étrangère.",
+   "resume": "La Légion étrangère est l’unité militaire partenaire du projet de classe défense du collège Lou Garlaban.",
+   "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere",
+   "page": "À Aubagne, le collège Lou Garlaban ouvre une classe \"défense\" en partenariat avec la Légion étrangère",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=399,trim.height=1013,trim.width=1800/media/hermes/20241112/20241112_1_2_5_1_1_obj29840528_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2024-10",
+   "titre": "Mise en place du projet classe défense",
+   "extrait": "Mi-octobre 2024, le collège Lou Garlaban a signé un accord pour une classe défense.",
+   "resume": "En octobre 2024, le collège Lou Garlaban a conclu un accord avec la Légion étrangère afin de créer sa première classe défense, la 51e de l’académie.",
+   "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere",
+   "page": "À Aubagne, le collège Lou Garlaban ouvre une classe \"défense\" en partenariat avec la Légion étrangère",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=399,trim.height=1013,trim.width=1800/media/hermes/20241112/20241112_1_2_5_1_1_obj29840528_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2024",
+   "titre": "Déclaration de la principale du collège Lou Garlaban sur la classe défense",
+   "extrait": "la principale du collège Lou Garlaban déclarait au sujet de sa classe défense avec la légion étrangère, vouloir mettre en avant les valeurs de l’armée",
+   "resume": "En 2024, la principale du collège Lou Garlaban à Aubagne a déclaré que la classe défense, en partenariat avec la Légion étrangère, vise à mettre en avant les valeurs de l'armée telles que le courage, la détermination et le respect de la parole donnée.",
+   "source": "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre/",
+   "page": "L'école de la guerre - CGT - Éduc’action Aix-Marseille",
+   "site": "CGT - Éduc’action Aix-Marseille",
+   "image": "https://www.cgteduc-aixmarseille.org/wp-content/uploads/2026/06/Faites-lecole-pas-la-guerre.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2024",
+   "titre": "Création de la classe Défense au Collège Lou Garlaban",
+   "extrait": "création d’une classe Défense au sein du collège Lou Garlaban en 2024, la 51e de l’Académie d’Aix-Marseille",
+   "resume": "En 2024, le collège Lou Garlaban a mis en place une classe Défense, 51ᵉ de l’académie, parrainée par la Légion étrangère pour faire connaître les enjeux de défense.",
+   "source": "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/",
+   "page": "Aubagne, au cœur du lien Armée-Nation – Site de la ville d’Aubagne",
+   "site": "aubagne.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Participation à la cérémonie du 11 novembre",
+   "extrait": "participation à la cérémonie du 11 novembre",
+   "resume": "Les élèves de la classe Défense ont pris part à la cérémonie nationale du 11 novembre, rappelant le devoir de mémoire.",
+   "source": "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/",
+   "page": "Aubagne, au cœur du lien Armée-Nation – Site de la ville d’Aubagne",
+   "site": "aubagne.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Forums métiers sur les bases de Salon et Toulon",
+   "extrait": "forums métiers sur les bases de Salon et Toulon",
+   "resume": "Dans le cadre de la classe Défense, les élèves ont assisté à des forums métiers organisés sur les bases militaires de Salon et Toulon.",
+   "source": "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/",
+   "page": "Aubagne, au cœur du lien Armée-Nation – Site de la ville d’Aubagne",
+   "site": "aubagne.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Immersion de deux jours à la Légion étrangère",
+   "extrait": "immersion de deux jours à la Légion",
+   "resume": "Les élèves ont effectué une immersion de deux jours au sein du 1ᵉʳ Régiment étranger de la Légion étrangère, découvrant le quotidien des légionnaires.",
+   "source": "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/",
+   "page": "Aubagne, au cœur du lien Armée-Nation – Site de la ville d’Aubagne",
+   "site": "aubagne.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite du camp des Milles",
+   "extrait": "visite du camp des Milles",
+   "resume": "Chaque année, la classe Défense visite le camp des Milles, site mémoriel d’internement, pour travailler sur l’histoire, la mémoire et la vigilance citoyenne.",
+   "source": "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/",
+   "page": "Aubagne, au cœur du lien Armée-Nation – Site de la ville d’Aubagne",
+   "site": "aubagne.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Cérémonies commémoratives du 8 mai, 14 juillet, 21 août et 11 novembre",
+   "extrait": "cérémonies commémoratives du 8 mai, 14 juillet, 21 août et 11 novembre",
+   "resume": "Les élèves de la classe Défense sont associés aux cérémonies commémoratives du 8 mai, 14 juillet, 21 août et 11 novembre organisées par la ville.",
+   "source": "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/",
+   "page": "Aubagne, au cœur du lien Armée-Nation – Site de la ville d’Aubagne",
+   "site": "aubagne.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe Défense",
+   "extrait": "Classe Défense",
+   "resume": "Le menu du site du Collège Lou Garlaban comporte la rubrique « Classe Défense », indiquant l’existence d’une classe défense au sein de l’établissement.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/",
+   "page": "Collège Lou GarlabanAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rub",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 14
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Lou Garlaban (Aubagne)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://annuaire-education.fr/etablissement/aubagne/college-lou-garlaban/0132412B.html",
+  "https://college-lycee.com/college-lou-garlaban/Aubagne-0132412B",
+  "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/31142/181724/file/recueil-13-2019-101-recueil-des-actes-administratifs%20du%2017%20avril%202019.pdf",
+  "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.facebook.com/BFMMarseille/posts/aubagne-beaucoup-de-questions-et-dinqui%C3%A9tudes-devant-le-coll%C3%A8ge/1824168963044213",
+  "https://www.facebook.com/GroupeLegendre/posts/%EF%B8%8F-les-%C3%A9quipes-m%C3%A9diterran%C3%A9ennes-de-legendre-construction-r%C3%A9habilitent-le-coll%C3%A8ge-/1121044043145459",
+  "https://www.facebook.com/IRDenAC/posts/science-participative-et-observation-de-la-biodiversit%C3%A9-en-provence-le-lyc%C3%A9e-bil/122182079480625366",
+  "https://www.facebook.com/aubagne.fr/posts/-jumelage-10-ans-de-rencontres-et-de-partages-entre-aubagne-et-argentona-la-c%C3%A9r%C3%A9/1501913465275358",
+  "https://www.facebook.com/gerard.gazay/posts/jumelage-argentona-aubagnele-jumelage-actif-de-la-ville-daubagne-avec-la-ville-d/1975954645828513",
+  "https://www.facebook.com/p/FSE-Coll%C3%A8ge-Lou-Garlaban-100053673957080",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-lou-garlaban/college-0132412B",
+  "https://www.laprovence.com/article/faits-divers-justice/12472498916749/alcoolise-il-menace-d-incendier-un-college-d-aubagne-et-finit-au-tribunal",
+  "https://www.laprovence.com/article/faits-divers-justice/286691552326514/un-college-evacue-a-cause-dune-nouvelle-alerte-a-la-bombe-a-aubagne",
+  "https://www.laprovence.com/article/faits-divers-justice/2965734619705514/alerte-a-la-bombe-un-trentenaire-en-garde-a-vue-apres-avoir-diffuse-une-video-menacant-de-faire-exploser-un-college-d-aubagne",
+  "https://www.laprovence.com/article/papier/6900126/le-college-lou-garlaban-sactive-contre-le-harcelement.html",
+  "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere",
+  "https://www.ledauphine.com/archives/2018/13-11",
+  "https://www.ledauphine.com/archives/2024/25-09",
+  "https://www.ledauphine.com/faits-divers-justice/2026/10/12/aubagne-le-principal-et-une-professeure-de-college-blesses-par-un-tir-de-fusil-un-eleve-a-ete-arrete",
+  "https://www.ledauphine.com/sport/2020/09/17/les-equipes-de-cran-pringy-dans-les-starting-blocks",
+  "https://www.ledauphine.com/vaucluse/2016/04/30/quatre-vingt-quatre-nageurs-se-jettent-a-l-eau",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-lou-garlaban-13.html",
+  "https://www.site.ac-aix-marseille.fr/clg-garlaban/",
+  "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip"
+ ],
+ "etablissement": "Collège Lou Garlaban (Aubagne)",
+ "referents_cites": "Mme Dol (HG), Mme Feuillard",
+ "unite_citee": "Légion étrangère"
 }

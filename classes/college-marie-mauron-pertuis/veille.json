@@ -1,14 +1,144 @@
 {
  "fiche": "college-marie-mauron-pertuis",
- "elements": [],
+ "elements": [
+  {
+   "type": "sortie",
+   "date": "2026-03-13",
+   "titre": "Sortie pédagogique aéronautique",
+   "extrait": "Les élèves de la classe défense du collège Marie-Mauron de Pertuis ont participé à une sortie pédagogique aéronautique au musée de l’aviation de Saint-Victoret.",
+   "resume": "Le 13 mars 2026, les élèves de la classe défense du collège Marie‑Mauron (Pertuis) ont effectué une sortie pédagogique d’aéronautique au musée de l’aviation de Saint‑Victoret.",
+   "source": "https://www.facebook.com/laprovence/posts/les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-marie-mauron-de-pertuis-ont-particip%C3%A9/1383090087195485",
+   "page": "La Provence",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/13/la-classe-defense-du-college-marie-mauron-en-sortie-consacree-a-l-aeronautique-photo-d-r-1773398153_3cfdb85292b96200eb85292b9e30ebv_.jpg",
+   "autres_sources": [
+    "https://www.laprovence.com/article/societe/1036329933248314/les-eleves-du-college-marie-mauron-de-pertuis-participent-a-une-sortie-scolaire-sur-l-aeronautique"
+   ]
+  },
+  {
+   "type": "article",
+   "date": "2026-03-13",
+   "titre": "Les élèves du collège Marie-Mauron de Pertuis participent à une sortie scolaire sur l’aéronautique",
+   "extrait": "Les élèves du collège Marie-Mauron de Pertuis participent à une sortie scolaire sur l’aéronautique.",
+   "resume": "Article publié le 13 /03 /2026 décrivant la sortie de la classe défense du collège Marie‑Mauron au musée de l’aviation de Saint‑Victoret puis sur le site d’Airbus à Marignane.",
+   "source": "https://www.laprovence.com/article/societe/1036329933248314/les-eleves-du-college-marie-mauron-de-pertuis-participent-a-une-sortie-scolaire-sur-l-aeronautique",
+   "page": "Les élèves du collège Marie-Mauron de Pertuis participent à une sortie scolaire sur l’aéronautique",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/13/la-classe-defense-du-college-marie-mauron-en-sortie-consacree-a-l-aeronautique-photo-d-r-1773398153_3cfdb85292b96200eb85292b9e30ebv_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-11",
+   "titre": "Convention avec le CIRFA d'Aix",
+   "extrait": "unité marraine : CIRFA d'Aix, convention Nov. 2025",
+   "resume": "Le collège Marie Mauron a signé ou renouvelé une convention avec le CIRFA d'Aix en novembre 2025, unité marraine de la classe défense.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marie-mauron-84.html",
+   "page": "Collège Marie Mauron, Pertuis (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-11",
+   "titre": "Renouvellement de convention",
+   "extrait": "conv: Nov. 2025",
+   "resume": "Renouvellement de la convention de la classe défense du Collège Marie Mauron en novembre 2025.",
+   "source": "https://www.instagram.com/p/DV0boo2jKF5",
+   "page": "13e édition du prix académique Non au harcèlement ...",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.youtube.com/watch?v=d39pflpQSzo"
+   ]
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Professeur référent",
+   "extrait": "ref: M. Morille (HG)",
+   "resume": "M. Morille (HG) est le professeur référent de la classe défense du Collège Marie Mauron.",
+   "source": "https://www.instagram.com/p/DV0boo2jKF5",
+   "page": "13e édition du prix académique Non au harcèlement ...",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "unite: CIRFA d'Aix",
+   "resume": "Le CIRFA d'Aix est l'unité marraine de la classe défense du Collège Marie Mauron.",
+   "source": "https://www.instagram.com/p/DV0boo2jKF5",
+   "page": "13e édition du prix académique Non au harcèlement ...",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Chef d'établissement",
+   "extrait": "ce: Mme Armogathe",
+   "resume": "Mme Armogathe est la chef d'établissement du Collège Marie Mauron.",
+   "source": "https://www.instagram.com/p/DV0boo2jKF5",
+   "page": "13e édition du prix académique Non au harcèlement ...",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "La classe défense du clg Marie Mauron",
+   "extrait": "Nos reporters en herbe du club reportage se sont intéressés à la classe défense du collège Marie Mauron de Fayence.",
+   "resume": "Une vidéo YouTube réalisée par le club reportage présente la classe défense du collège Marie Mauron à Fayence.",
+   "source": "https://www.youtube.com/watch?v=d39pflpQSzo",
+   "page": "La classe défense du clg Marie Mauron",
+   "site": "youtube.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 23,
+   "nouveaux": 8
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Marie Mauron (Pertuis)"
+ "pages_lues": [
+  "https://mariemauron.fr/classe-defense",
+  "https://www.facebook.com/Blangysurbresle/videos/ce-matin-les-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-du-campigny-se-sont-r%C3%A9unis-pour-comm%C3%A9morer-larmis/1089687904072194",
+  "https://www.facebook.com/Ville.de.Pertuis/posts/-le-coll%C3%A8ge-marie-mauron-de-pertuis-a-accueilli-la-15%E1%B5%89-%C3%A9dition-du-concours-iter-/1347247537614470",
+  "https://www.facebook.com/laprovence/posts/les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-marie-mauron-de-pertuis-ont-particip%C3%A9/1383090087195485",
+  "https://www.instagram.com/p/DV0boo2jKF5",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/6604814/les-collegiens-de-mauron-recoltent-516-euro-pour-lunicef.html",
+  "https://www.laprovence.com/article/edition-vaucluse/6830467/les-collegiens-de-marie-mauron-remportent-le-1er-prix-samuel-paty.html",
+  "https://www.laprovence.com/article/region/1862309632949815/perthuis-le-nouveau-stade-du-tourrier-sera-pret-pour-la-rentree",
+  "https://www.laprovence.com/article/societe/1036329933248314/les-eleves-du-college-marie-mauron-de-pertuis-participent-a-une-sortie-scolaire-sur-l-aeronautique",
+  "https://www.laprovence.com/article/societe/58437894858476/a-pertuis-les-mathematiques-sortent-des-salles-de-classe-a-loccasion-dune-semaine-thematique",
+  "https://www.ledauphine.com/education/2025/03/16/les-differents-ateliers-dans-les-colleges-vauclusiens",
+  "https://www.ledauphine.com/education/2026/01/24/80-collegiens-et-lyceens-au-championnat-de-jeu-d-echecs-scolaire",
+  "https://www.ledauphine.com/environnement/2022/05/19/quand-les-toits-des-colleges-produisent-de-l-electricite",
+  "https://www.ledauphine.com/vaucluse/2009/10/09/le-departement-mise-sur-la-prevention-des-jeunes-vingt-deux-campus-cette-annee",
+  "https://www.ledauphine.com/vaucluse/2014/02/14/le-college-marie-mauron-a-l-honneur",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marie-mauron-84.html",
+  "https://www.site.ac-aix-marseille.fr/clg-mauron-pertuis/",
+  "https://www.site.ac-aix-marseille.fr/clg-mauron-pertuis/spip/-Pedagogie-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-mauron-pertuis/spip/Classe-MEMOIRE-CITOYENNETE-DEFENSE.html",
+  "https://www.site.ac-aix-marseille.fr/clg-mauron-pertuis/spip/Prix-Concours-et-Competitions.html",
+  "https://www.ville-pertuis.fr/archive-de-lagenda/709-ceremonie-de-commemoration-de-la-simone",
+  "https://www.ville-pertuis.fr/en-bref/1836-pertuis-a-lassaut-des-podiums",
+  "https://www.youtube.com/watch?v=d39pflpQSzo"
+ ],
+ "etablissement": "Collège Marie Mauron (Pertuis)",
+ "referents_cites": [
+  "M. Morille"
+ ],
+ "unite_citee": "CIRFA d'Aix"
 }

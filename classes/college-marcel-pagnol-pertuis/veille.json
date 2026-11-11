@@ -1,14 +1,133 @@
 {
  "fiche": "college-marcel-pagnol-pertuis",
- "elements": [],
+ "elements": [
+  {
+   "type": "partenaire",
+   "date": "2025-06-09",
+   "titre": "Partenaires du projet « Passeurs de Mémoire »",
+   "extrait": "Soutien de la Ville et du Rotary Club pour l’exposition.",
+   "resume": "Le projet pédagogique a été soutenu financièrement et logistiquement par la Ville de Pertuis et le Rotary Club.",
+   "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+   "page": "Au collège Marcel-Pagnol de Pertuis, une jeunesse engagée pour ne jamais oublier",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/09/en-amont-de-la-grande-fete-danniversaire-la-college-marcel-pagnol-a-inaugure-lexposition-passeurs-de-1749479413_3bc33ad6e64864fc33ad6e64823d33v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2025-06-09",
+   "titre": "Unité marraine",
+   "extrait": "Unité marraine : Base navale de Toulon (compagnie de marins‑pompiers).",
+   "resume": "La classe défense du collège est parrainée par la compagnie de marins‑pompiers de la Base navale de Toulon.",
+   "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+   "page": "Au collège Marcel-Pagnol de Pertuis, une jeunesse engagée pour ne jamais oublier",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/09/en-amont-de-la-grande-fete-danniversaire-la-college-marcel-pagnol-a-inaugure-lexposition-passeurs-de-1749479413_3bc33ad6e64864fc33ad6e64823d33v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2025-06-02",
+   "titre": "Inauguration de l’exposition « Passeurs de Mémoire »",
+   "extrait": "Le collège a inauguré l’exposition « Passeurs de Mémoire » le 2 juin 2025.",
+   "resume": "Exposition présentée le 2 juin 2025, fruit d’un projet pédagogique entre le collège et le lycée Val‑de‑Durance, soutenu par la Ville et le Rotary Club.",
+   "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+   "page": "Au collège Marcel-Pagnol de Pertuis, une jeunesse engagée pour ne jamais oublier",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/09/en-amont-de-la-grande-fete-danniversaire-la-college-marcel-pagnol-a-inaugure-lexposition-passeurs-de-1749479413_3bc33ad6e64864fc33ad6e64823d33v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-03",
+   "titre": "Visite du camp d’Auschwitz‑Birkenau",
+   "extrait": "Huit élèves sont partis début mars 2025 visiter Auschwitz‑Birkenau en Pologne.",
+   "resume": "Voyage pédagogique de huit élèves de la 3e à la terminale, encadrés par leurs professeurs d’histoire, au camp d’Auschwitz‑Birkenau en mars 2025.",
+   "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+   "page": "Au collège Marcel-Pagnol de Pertuis, une jeunesse engagée pour ne jamais oublier",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/09/en-amont-de-la-grande-fete-danniversaire-la-college-marcel-pagnol-a-inaugure-lexposition-passeurs-de-1749479413_3bc33ad6e64864fc33ad6e64823d33v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-03",
+   "titre": "Rencontre avec Ginette Kolinka à Paris",
+   "extrait": "Les élèves se sont rendus à Paris pour rencontrer Ginette Kolinka, rescapée de la Shoah.",
+   "resume": "Après le voyage à Auschwitz, les élèves ont rencontré à Paris la survivante Ginette Kolinka, témoignage de la Shoah, en mars 2025.",
+   "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+   "page": "Au collège Marcel-Pagnol de Pertuis, une jeunesse engagée pour ne jamais oublier",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/09/en-amont-de-la-grande-fete-danniversaire-la-college-marcel-pagnol-a-inaugure-lexposition-passeurs-de-1749479413_3bc33ad6e64864fc33ad6e64823d33v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-12-01",
+   "titre": "Convention avec la Base navale de Toulon (compagnie de marins‑pompiers)",
+   "extrait": "unite\": \"Base navale de Toulon (compagnie de marins-pompiers)\"",
+   "resume": "Le collège Marcel Pagnol a signé une convention avec la Base navale de Toulon, compagnie de marins‑pompiers, du 1 décembre 2023 jusqu’en septembre 2024.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marcel-pagnol-84.html",
+   "page": "Collège Marcel Pagnol, Pertuis (84), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-pagnol-pertuis/spip/",
+    "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier"
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/09/en-amont-de-la-grande-fete-danniversaire-la-college-marcel-pagnol-a-inaugure-lexposition-passeurs-de-1749479413_3bc33ad6e64864fc33ad6e64823d33v_.jpg"
+  },
+  {
+   "type": "distinction",
+   "date": null,
+   "titre": "Remise du drapeau de l'ACPG-CATM",
+   "extrait": "Remise du drapeau de l'ACPG-CATM au collège Marcel Pagnol – C.A.T.M et Lidia Llario, jeune collégienne, pour son engagement comme porte-drapeau.",
+   "resume": "Le maire de Pertuis a assisté à la remise du drapeau de l'ACPG-CATM au collège Marcel Pagnol, honorant Lidia Llario comme porte-drapeau de l’établissement.",
+   "source": "https://www.facebook.com/Ville.de.Pertuis/posts/-pertuis-ville-solidairece-matin-le-maire-de-pertuis-%C3%A9tait-pr%C3%A9sent-pour-la-remis/1499783199027569",
+   "page": "Remise du drapeau de l'ACPG-CATM au collège Marcel ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 21,
+   "nouveaux": 7
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Marcel Pagnol (Pertuis)"
+ "pages_lues": [
+  "https://copainsdavant.linternaute.com/e/college-marcel-pagnol-15989",
+  "https://tavily.com/knowledge/company/bji7rJlK13Yd",
+  "https://valeurs-de-la-republique.reseau-canope.fr/approfondir/notice/pourquoi-commemorer-le-11-novembre/introduction",
+  "https://www.defense.gouv.fr/gendarmerie",
+  "https://www.facebook.com/Ville.de.Pertuis/posts/-50-ans-du-coll%C3%A8ge-marcel-pagnol-une-journ%C3%A9e-m%C3%A9morable-%C3%A0-pertuis-ce-mardi-17-jui/1060901546249072",
+  "https://www.facebook.com/Ville.de.Pertuis/posts/-passeurs-de-m%C3%A9moire-une-jeunesse-engag%C3%A9e-pour-ne-jamais-oublierle-lundi-2-juin-/1049692277369999",
+  "https://www.facebook.com/Ville.de.Pertuis/posts/-pertuis-ville-solidairece-matin-le-maire-de-pertuis-%C3%A9tait-pr%C3%A9sent-pour-la-remis/1499783199027569",
+  "https://www.facebook.com/groups/294359831691184/posts/1307508840376273",
+  "https://www.facebook.com/valerie.pommier.1297/videos/tr%C3%A8s-belle-soir%C3%A9e-d-anniversaire-du-coll%C3%A8ge-marcel-pagnol-%EF%B8%8F50-ansque-de-souvenir/1497816828254286",
+  "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+  "https://www.ledauphine.com/archives/2026/02-09",
+  "https://www.ledauphine.com/archives/2026/07-09",
+  "https://www.ledauphine.com/elections/resultats?commune=05061&bureau=0005",
+  "https://www.ledauphine.com/societe/2025/06/08/concours-de-la-resistance-et-de-la-deportation-la-jeunesse-s-implique",
+  "https://www.ledauphine.com/vaucluse/2015/06/20/il-y-a-75-ans-l-appel-du-general-de-gaulle",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marcel-pagnol-84.html",
+  "https://www.rentreediscount.com/etablissement/MARCEL-PAGNOL-51852626.html",
+  "https://www.site.ac-aix-marseille.fr/clg-pagnol-pertuis/",
+  "https://www.site.ac-aix-marseille.fr/clg-pagnol-pertuis/spip",
+  "https://www.ville-pertuis.fr/actualites/1532-le-college-marcel-pagnol-a-fete-50-ans-dhistoire-et-de-transmission",
+  "https://www.ville-pertuis.fr/actualites/936-journee-defense-citoyennete-au-college-marcel-pagnol"
+ ],
+ "etablissement": "Collège Marcel Pagnol (Pertuis)",
+ "referents_cites": [
+  "M. Gardi"
+ ],
+ "unite_citee": "Base navale de Toulon (compagnie de marins-pompiers)"
 }

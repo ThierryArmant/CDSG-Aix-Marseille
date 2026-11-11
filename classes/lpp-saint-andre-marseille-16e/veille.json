@@ -1,14 +1,73 @@
 {
  "fiche": "lpp-saint-andre-marseille-16e",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2022-08-29",
+   "titre": "Signature de la convention de la classe défense",
+   "extrait": "conv: 29/08/2022",
+   "resume": "Convention officielle signée le 29 août 2022 entre le lycée professionnel Pierre‑Paul Saint‑André et l’unité marraine 1er REC pour la mise en place de la classe défense.",
+   "source": "https://www.facebook.com/prefetaube/posts/classed%C3%A9fense-une-immersion-au-c%C5%93ur-de-l%C3%A9tat-jeudi-11-juin-charles-no%C3%AFn-sous-pr%C3%A9/1626614756130626",
+   "page": "Une immersion au cœur de l'État ! ... - Facebook",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.location-etudiant.fr/liste-ecoles-Lycee-professionnel-Saint-Andre-les-Routiers--11342.html"
+   ]
+  },
+  {
+   "type": "sortie",
+   "date": "2022-06-11",
+   "titre": "Immersion au cœur de l'État",
+   "extrait": "La classe défense ... jeudi 11 juin ...",
+   "resume": "Les élèves de la classe défense du LPP Saint‑André ont participé le jeudi 11 juin 2022 à une immersion au sein des services de l’État, organisée par la préfecture.",
+   "source": "https://www.facebook.com/prefetaube/posts/classed%C3%A9fense-une-immersion-au-c%C5%93ur-de-l%C3%A9tat-jeudi-11-juin-charles-no%C3%AFn-sous-pr%C3%A9/1626614756130626",
+   "page": "Une immersion au cœur de l'État ! ... - Facebook",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 2
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "LPP Saint-André (Marseille 16e)"
+ "pages_lues": [
+  "https://etablissements.pass-education.fr/etablissement/lycee-professionnel-saint-andre-les-routiers-lycee-prive-a-marseille",
+  "https://fr.mappy.com/poi/5109e31a84aecdaecd2c1863",
+  "https://linkpick.fr/blog/decouvrez-les-formations-d-excellence-au-lycee-saint-andre",
+  "https://lyceevaclavhavel.fr/actions/classe_defense/la-classe-defense-remporte-le-1er-prix-national-du-ssa",
+  "https://tavily.com/knowledge/company/1LACKubmKlhJ",
+  "https://tavily.com/knowledge/company/7zvO1Ld2HEll",
+  "https://www.culture.gouv.fr/regions/drac-provence-alpes-cote-d-azur/politique-et-actions-culturelles/architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/le-label-architecture-contemporaine-remarquable-en-provence-alpes-cote-d-azur/label-acr-bouches-du-rhone/marseille/marseille-16e-ecole-elementaire-saint-andre-condorcet",
+  "https://www.facebook.com/prefetaube/posts/classed%C3%A9fense-une-immersion-au-c%C5%93ur-de-l%C3%A9tat-jeudi-11-juin-charles-no%C3%AFn-sous-pr%C3%A9/1626614756130626",
+  "https://www.instagram.com/reel/DfhS43dKQFW",
+  "https://www.laprovence.com/article/actualites/3341131/le-top-20-des-lycees-provencaux.html",
+  "https://www.laprovence.com/article/edition-marseille/3143416/seances-de-coaching-professionnel-au-lycee.html",
+  "https://www.laprovence.com/article/faits-divers-justice/8940467241503714/effondrement-d-un-immeuble-a-marseille-secteur-boucle-dans-le-16e-pas-de-victime-ce-que-l-on-sait",
+  "https://www.laprovence.com/article/papier/3382486/cest-fait.html",
+  "https://www.laprovence.com/article/politique/6287586836134814/au-lycee-saint-exupery-de-marseille-des-detecteurs-de-metaux-contre-la-fraude-au-baccalaureat",
+  "https://www.ledauphine.com/archives/2025/06-09",
+  "https://www.ledauphine.com/archives/2026/06-04",
+  "https://www.ledauphine.com/archives/2026/08-03",
+  "https://www.ledauphine.com/archives/2026/15-10",
+  "https://www.ledauphine.com/archives/2026/24-06",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-prive-saint-andre-lycee-des-metiers-du-transport-de-la-logistique-et-de-la-maintenance-des-vehicules-industriels-13.html",
+  "https://www.linternaute.com/ville/lycee/lycee-professionnel-saint-andre-les-routiers/lycee-0131432L",
+  "https://www.location-etudiant.fr/liste-ecoles-Lycee-professionnel-Saint-Andre-les-Routiers--11342.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-professionnel-saint-andre-les-routiers",
+  "https://www.pappers.fr/entreprise/les-jeunes-entrepreneurs-du-lycee-professionnel-prive-saint-andre-a-marseille-W133004723",
+  "https://www.site.ac-aix-marseille.fr/clg-barnier/",
+  "https://www.site.ac-aix-marseille.fr/clg-barnier/spip/-Classe-defense-.html"
+ ],
+ "etablissement": "LPP Saint-André (Marseille 16e)",
+ "unite_citee": "1er REC (à confirmer)"
 }

@@ -1,14 +1,60 @@
 {
  "fiche": "lp-martin-bret-manosque",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2022-09-01",
+   "titre": "Signature de convention pour la classe défense",
+   "extrait": "conv : 01/09/2022 — maj nov. 2025",
+   "resume": "Le lycée professionnel Louis Martin Bret a signé une convention le 1er septembre 2022, mise à jour en novembre 2025, relative à la mise en place ou au suivi de la classe défense.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-louis-martin-bret-lycee-des-metiers-de-lhotellerie-restauration-des-secteurs-tertiaire-et-industriel-04.html",
+   "page": "Lycée professionnel Louis Martin Bret, Manosque (04), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.journaldesfemmes.fr/maman/ecole/lycee-professionnel-louis-martin-bret/lycee-0040011R",
+    "https://www.laprovence.com/article/societe/1336822473061614/des-eleves-et-acteurs-locaux-engages-dans-un-projet-autour-d-halloween-au-lycee-louis-martin-bret-a-manosque"
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/10/27/les-decorations-d-halloween-sont-mis-a-l-honneur-au-lycee-louis-martin-bret-a-manosque-1793119974_cc026d4eb0ea6c0126d4eb0ea94126v_.jpg"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 21,
+   "nouveaux": 1
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "LP Martin Bret (Manosque)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "https://www.facebook.com/BFMDICI/videos/nouvelle-alerte-au-lyc%C3%A9e-martin-bret-de-manosque/2415439898941309",
+  "https://www.facebook.com/lyceemartinbret/posts/madame-monsieurdepuis-quatre-ann%C3%A9es-le-lyc%C3%A9e-des-m%C3%A9tiers-louis-martin-bret-de-ma/1610572834407664",
+  "https://www.facebook.com/lyceemartinbret?locale=fr_FR",
+  "https://www.instagram.com/lpmartinbret",
+  "https://www.journaldesfemmes.fr/maman/ecole/lycee-professionnel-louis-martin-bret/lycee-0040011R",
+  "https://www.laprovence.com/article/region/30476590799998/le-personnel-du-lycee-louis-martin-bret-a-manosque-en-greve-pour-denoncer-la-degradation-des-conditions-de-travail",
+  "https://www.laprovence.com/article/region/41561657403207/repondre-aux-defis-de-demain-a-manosque-elisabeth-borne-inaugure-le-lycee-martin-bret-apres-3-ans-de-travaux",
+  "https://www.laprovence.com/article/societe/1336822473061614/des-eleves-et-acteurs-locaux-engages-dans-un-projet-autour-d-halloween-au-lycee-louis-martin-bret-a-manosque",
+  "https://www.laprovence.com/article/societe/13950914721342/trois-surveillants-prennent-la-porte-au-lycee-louis-martin-bret-de-manosque-on-vise-notre-engagement-syndical",
+  "https://www.laprovence.com/article/societe/1408931017411514/des-eleves-du-lycee-louis-martin-bret-de-manosque-en-route-pour-devenir-meilleurs-apprentis-de-france",
+  "https://www.laprovence.com/article/societe/3965709431399614/ma-fille-fait-des-malaises-un-probleme-de-gaz-persistant-au-lycee-martin-bret-de-manosque",
+  "https://www.ledauphine.com/faits-divers-justice/2023/10/02/odeur-suspecte-dans-un-lycee-de-manosque-environ-660-personnes-evacuees",
+  "https://www.ledauphine.com/faits-divers/2018/02/05/gaz-contre-jets-de-pierres-la-manifestation-degenere",
+  "https://www.ledauphine.com/faits-divers/2018/02/07/debordements-devant-le-lycee-martin-bret-acte-ii",
+  "https://www.ledauphine.com/faits-divers/2019/05/15/le-bac-a-linge-prend-feu-180-personnes-evacuent-le-lycee-louis-martin-bret",
+  "https://www.ledauphine.com/politique/2025/03/14/elisabeth-borne-inaugure-le-lycee-louis-martin-bret-soyez-fiers-des-metiers-que-vous-apprendrez-ici",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-louis-martin-bret-lycee-des-metiers-de-lhotellerie-restauration-des-secteurs-tertiaire-et-industriel-04.html",
+  "https://www.lyc-bret.ac-aix-marseille.fr",
+  "https://www.maregionsud.fr/actualites/detail/a-manosque-la-region-sud-investit-pour-le-lycee-louis-martin-bret",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/alpes-de-haute-provence/lycee-professionnel-louis-martin-bret"
+ ],
+ "etablissement": "LP Martin Bret (Manosque)",
+ "referents_cites": "Mme Gouin, M. Cortial",
+ "unite_citee": "DMD 04"
 }

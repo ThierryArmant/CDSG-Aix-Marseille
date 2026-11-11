@@ -1,14 +1,345 @@
 {
  "fiche": "college-du-pays-de-banon-banon",
- "elements": [],
+ "elements": [
+  {
+   "type": "article",
+   "date": "2026-09-09",
+   "titre": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+   "extrait": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+   "resume": "Le 9 septembre 2026, Réunion la 1ère a publié un post présentant la classe défense du Collège du Pays de Banon, où des élèves de 3e sont formés aux métiers de l'armée.",
+   "source": "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+   "page": "13K views · 106 reactions | Classe défense : des élèves de 3e formés aux métiers de l'armée | Réunion la 1ère",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2026-09-09",
+   "titre": "Vidéo classe défense",
+   "extrait": "Vidéo de 1 min 53 s montrant la classe défense des élèves de 3e",
+   "resume": "Une vidéo d'1 minute 53 secondes accompagne le post du 9 septembre 2026, illustrant la formation des élèves de 3e aux métiers de l'armée.",
+   "source": "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+   "page": "13K views · 106 reactions | Classe défense : des élèves de 3e formés aux métiers de l'armée | Réunion la 1ère",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2026-03-26",
+   "titre": "Des élèves du collège du Pays de Banon ont visité l’ancien camp d’internement des Milles",
+   "extrait": "Des élèves du collège du Pays de Banon ont visité l’ancien camp d’internement des Milles.",
+   "resume": "Le 26 mars 2026, La Provence a publié un article relatant la visite du camp des Milles par les élèves de troisième du collège du Pays de Banon.",
+   "source": "https://www.laprovence.com/article/societe/1981597427492914/des-eleves-du-college-du-pays-de-banon-ont-visite-l-ancien-camp-dinternement-des-milles",
+   "page": "Des élèves du collège du Pays de Banon ont visité l’ancien camp d'internement des Milles",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/26/les-eleves-de-3eme-de-banon-au-camp-des-milles-1774539366_bfde5fdf10c96a3ee5fdf10c967ee5v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2026-03-26",
+   "titre": "Visite du camp des Milles",
+   "extrait": "Les élèves de troisième se sont rendus au camp des Milles d’Aix‑en‑Provence dans le cadre du projet Mémoire, Défense et citoyenneté.",
+   "resume": "Dans le cadre du projet « Mémoire, Défense et citoyenneté », une classe de troisième a effectué une sortie pédagogique au camp des Milles à Aix‑en‑Provence.",
+   "source": "https://www.laprovence.com/article/societe/1981597427492914/des-eleves-du-college-du-pays-de-banon-ont-visite-l-ancien-camp-dinternement-des-milles",
+   "page": "Des élèves du collège du Pays de Banon ont visité l’ancien camp d'internement des Milles",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/26/les-eleves-de-3eme-de-banon-au-camp-des-milles-1774539366_bfde5fdf10c96a3ee5fdf10c967ee5v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2026-03-26",
+   "titre": "Atelier pédagogique « Créer pour résister »",
+   "extrait": "L’atelier a porté sur les peintres du camp des Milles et s’est conclu par un exposé sur une toile tirée au sort.",
+   "resume": "Lors de la visite, les élèves ont suivi un atelier pédagogique intitulé « Créer pour résister », consacré aux artistes internés au camp des Milles.",
+   "source": "https://www.laprovence.com/article/societe/1981597427492914/des-eleves-du-college-du-pays-de-banon-ont-visite-l-ancien-camp-dinternement-des-milles",
+   "page": "Des élèves du collège du Pays de Banon ont visité l’ancien camp d'internement des Milles",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/26/les-eleves-de-3eme-de-banon-au-camp-des-milles-1774539366_bfde5fdf10c96a3ee5fdf10c967ee5v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2026-03-26",
+   "titre": "Comité du Souvenir Français de Forcalquier",
+   "extrait": "Mireille et Henri Begliomini, du comité du Souvenir Français de Forcalquier, ont accompagné les élèves et pris en charge les frais de déplacement.",
+   "resume": "Le comité du Souvenir Français de Forcalquier a participé à la sortie en accompagnant les élèves et en finançant les frais de déplacement.",
+   "source": "https://www.laprovence.com/article/societe/1981597427492914/des-eleves-du-college-du-pays-de-banon-ont-visite-l-ancien-camp-dinternement-des-milles",
+   "page": "Des élèves du collège du Pays de Banon ont visité l’ancien camp d'internement des Milles",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/26/les-eleves-de-3eme-de-banon-au-camp-des-milles-1774539366_bfde5fdf10c96a3ee5fdf10c967ee5v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2026-03-03",
+   "titre": "Unité marraine",
+   "extrait": "2e REG (Saint-Christol)",
+   "resume": "L’unité marraine de la classe défense est le 2e Régiment Étranger de Génie basé à Saint‑Christol.",
+   "source": "https://www.laprovence.com/article/societe/77837623379386/les-defis-de-la-ruralite-et-le-climat-scolaire-local-se-rencontrent-au-college-de-banon",
+   "page": "Les défis de la ruralité et le climat scolaire local se rencontrent au collège de Banon",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/03/arrivee-en-septembre-dernier-corinne-devrieux-la-nouvelle-principale-du-college-apporte-a-banon-son-1772537748_723c2dc53b896c63c2dc53b89ba3c2v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2026",
+   "titre": "Projet Mémoire, Défense et citoyenneté",
+   "extrait": "Depuis quatre ans, le lycée des métiers Louis‑Martin‑Bret pilote le projet « Mémoire et Résistance » en partenariat avec d’autres établissements.",
+   "resume": "Le collège du Pays de Banon participe au projet « Mémoire, Défense et citoyenneté », initiative éducative visant à sensibiliser les élèves aux enjeux de la défense des valeurs démocratiques.",
+   "source": "https://www.laprovence.com/article/societe/1981597427492914/des-eleves-du-college-du-pays-de-banon-ont-visite-l-ancien-camp-dinternement-des-milles",
+   "page": "Des élèves du collège du Pays de Banon ont visité l’ancien camp d'internement des Milles",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/26/les-eleves-de-3eme-de-banon-au-camp-des-milles-1774539366_bfde5fdf10c96a3ee5fdf10c967ee5v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-11",
+   "titre": "Mise à jour de la convention",
+   "extrait": "Mise à jour nov. 2025",
+   "resume": "La convention de la classe défense du Collège du Pays de Banon a été mise à jour en novembre 2025.",
+   "source": "https://www.ici.fr/infos/education/le-college-de-banon-maintient-ses-20-minutes-de-lecture-obligatoire-pour-tous-1506616134",
+   "page": "Le collège de Banon maintient ses 20 minutes de lecture obligatoire pour tous - ICI",
+   "site": "ici.fr",
+   "image": "https://www.ici.fr/pikapi/images/c3837198-484a-4ed2-9420-ae0898607c2f/1200x630?webp=false",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.laprovence.com/article/societe/77837623379386/les-defis-de-la-ruralite-et-le-climat-scolaire-local-se-rencontrent-au-college-de-banon"
+   ]
+  },
+  {
+   "type": "article",
+   "date": "2023-12-25",
+   "titre": "Ban​on : Connaissez‑vous les « classes défense » ?",
+   "extrait": "Il existe à ce jour plus de 475 classes défense sur l’ensemble du territoire, impliquant plus de 11 875 élèves et plus de 200 entités",
+   "resume": "Article publié le 25 /12 /2023 présentant les classes défense en France et mentionnant la classe du collège du Pays de Banon.",
+   "source": "https://www.hauteprovenceinfo.com/actualite-42671-banon-connaissez-vous-les-classes-defense",
+   "page": "Banon. Connaissez-vous les \"classes défense\" ?",
+   "site": "hauteprovenceinfo.com",
+   "image": "https://medias.hauteprovenceinfo.com/photos/1200/42671/?v=1703064721",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2023-12-25",
+   "titre": "Professeur référent de la classe défense",
+   "extrait": "Mélanie Andrews professeur d’histoire au collège de Banon en charge d’une classe défense nous en dit plus.",
+   "resume": "Mélanie Andrews, professeure d’histoire au collège du Pays de Banon, est référente de la classe défense.",
+   "source": "https://www.hauteprovenceinfo.com/actualite-42671-banon-connaissez-vous-les-classes-defense",
+   "page": "Banon. Connaissez-vous les \"classes défense\" ?",
+   "site": "hauteprovenceinfo.com",
+   "image": "https://medias.hauteprovenceinfo.com/photos/1200/42671/?v=1703064721",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2023-12-04",
+   "titre": "Commémoration du 80ᵉ anniversaire de la rafle du Contadour",
+   "extrait": "Le 4 décembre à Redortiers, les « troisièmes de la classe défense » participaient à la commémoration du 80ᵉ anniversaire de la rafle du Contadour.",
+   "resume": "Les élèves de troisième de la classe défense du collège de Banon ont assisté à la cérémonie à Redortiers le 4 décembre 2023.",
+   "source": "https://www.hauteprovenceinfo.com/actualite-42671-banon-connaissez-vous-les-classes-defense",
+   "page": "Banon. Connaissez-vous les \"classes défense\" ?",
+   "site": "hauteprovenceinfo.com",
+   "image": "https://medias.hauteprovenceinfo.com/photos/1200/42671/?v=1703064721",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2023-11-05",
+   "titre": "Alerte à la bombe dans les collèges des Alpes-de-Haute-Provence",
+   "extrait": "Les collèges de Banon ont reçu entre 7 h et 9 h le lundi 5 novembre un mail les informant qu'une bombe était dissimulée.",
+   "resume": "Le 5 novembre 2023, le Collège du Pays de Banon a été évacué après la réception d'un mail anonyme annonçant la présence d'une bombe ; les forces de l'ordre (police nationale, gendarmerie) ont procédé aux recherches et à la sécurisation du site, impactant notamment la classe défense.",
+   "source": "https://www.laprovence.com/article/region/53751683313439/plusieurs-colleges-evacues-dans-les-alpes-de-haute-provence-a-la-suite-dune-alerte-a-la-bombe",
+   "page": "Alerte à la bombe dans les collèges des Alpes-de-Haute-Provence : les cours suspendus dans les établissements concernés",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=69,trim.height=446,trim.width=794/media/2023/11/06/Capture.JPG",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2023-09-28",
+   "titre": "Nettoyage du Toulourenc",
+   "extrait": "Les élèves de la classe Défense de Banon, encadrés par le 2e REG et capitaine Daniel, ont nettoyé les gorges du Toulourenc 28 sept. 2023.",
+   "resume": "Le 28 septembre 2023, les élèves de la classe Défense du collège du Pays de Banon, accompagnés de militaires du 2e Régiment étranger de génie de Saint‑Christol et du capitaine Daniel, ont réalisé une opération de nettoyage des gorges du Toulourenc à Saint‑Léger‑du‑Ventoux.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2023/09/29/eleves-professeurs-et-militaires-retirent-des-kilos-de-dechets-du-toulourenc",
+   "page": "Saint-Léger-du-Ventoux. Élèves, professeurs et militaires retirent des kilos de déchets du Toulourenc",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/0D26D257-63FA-417D-AA13-E8ABB66534EA/FB1200/photo-1696177567.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2022-06",
+   "titre": "Signature de convention de partenariat",
+   "extrait": "En juin 2022, la classe Défense du collège de Banon a signé convention de partenariat pour mise en œuvre d’une classe Défense et sécurité globale.",
+   "resume": "En juin 2022, la classe Défense du collège du Pays de Banon a conclu une convention de partenariat avec le 2e REG afin de mettre en place le dispositif « classe Défense et sécurité globale ».",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2023/09/29/eleves-professeurs-et-militaires-retirent-des-kilos-de-dechets-du-toulourenc",
+   "page": "Saint-Léger-du-Ventoux. Élèves, professeurs et militaires retirent des kilos de déchets du Toulourenc",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/0D26D257-63FA-417D-AA13-E8ABB66534EA/FB1200/photo-1696177567.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2013-05-08",
+   "titre": "Victoire au concours de la résistance",
+   "extrait": "Les élèves du pied du plateau d’Albion ont réussi le concours de la résistance, thème « La résistance dans les camps nazis ».",
+   "resume": "Les collégiens du Pays de Banon ont remporté le concours de la résistance dont le thème était la résistance dans les camps nazis.",
+   "source": "https://www.hauteprovenceinfo.com/actualite-2233-banon-les-eleves-du-college-re-ccedil-oivent-le-drapeau-du-souvenir",
+   "page": "Banon: Les élèves du collège re&ccedil;oivent le drapeau du souvenir",
+   "site": "hauteprovenceinfo.com",
+   "image": "https://medias.hauteprovenceinfo.com/photos/1200/2233/",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2013-05-08",
+   "titre": "Remise du drapeau du souvenir",
+   "extrait": "Lors de la cérémonie, le sous‑préfet de Forcalquier a remis au collège de Banon le drapeau de la mémoire offert par les anciens combattants.",
+   "resume": "Le 8 mai 2013, les élèves ont reçu le drapeau du souvenir lors d’une cérémonie avec le sous‑préfet de Forcalquier, le député et le maire.",
+   "source": "https://www.hauteprovenceinfo.com/actualite-2233-banon-les-eleves-du-college-re-ccedil-oivent-le-drapeau-du-souvenir",
+   "page": "Banon: Les élèves du collège re&ccedil;oivent le drapeau du souvenir",
+   "site": "hauteprovenceinfo.com",
+   "image": "https://medias.hauteprovenceinfo.com/photos/1200/2233/",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2013-05-08",
+   "titre": "Banon : Les élèves du collège reçoivent le drapeau du souvenir",
+   "extrait": "Ce 8 mai, jour de l'armistice 1939-1945, les collégiens de Banon prennent le relais des lycéens dignois.",
+   "resume": "Article publié le 8 mai 2013 relatant la cérémonie de remise du drapeau du souvenir et la participation des élèves à la commémoration du 68ᵉ anniversaire de la victoire.",
+   "source": "https://www.hauteprovenceinfo.com/actualite-2233-banon-les-eleves-du-college-re-ccedil-oivent-le-drapeau-du-souvenir",
+   "page": "Banon: Les élèves du collège re&ccedil;oivent le drapeau du souvenir",
+   "site": "hauteprovenceinfo.com",
+   "image": "https://medias.hauteprovenceinfo.com/photos/1200/2233/",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "2e REG (Saint‑Christol)",
+   "resume": "Le collège du Pays de Banon a pour unité marraine le 2e Régiment Étranger de Génie (2e REG) basé à Saint‑Christol.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-du-pays-de-banon-04.html",
+   "page": "Collège du Pays de Banon, Banon (04), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Commémoration du 11 novembre",
+   "extrait": "Lundi 11 novembre, les élèves de 3ème de la classe Mémoires, Défense et Citoyenneté du collège de Banon seront",
+   "resume": "Les élèves de 3e de la classe Mémoires, Défense et Citoyenneté du collège du Pays de Banon participent à la commémoration du 11 novembre.",
+   "source": "https://www.facebook.com/MairieBanon/posts/commemoration-du-11-novembrelundi-11-novembre-les-%C3%A9l%C3%A8ves-de-3%C3%A8me-de-la-classe-m%C3%A9/981608517344426",
+   "page": "Commune de Banon",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-banon/spip/"
+   ]
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Cérémonie du 8 mai",
+   "extrait": "Félix, élève du collège de Banon, a lu le discours de l'UFAC et M. Jacques Blanc lui a remis le drapeau confié par l'Union Fédérale",
+   "resume": "Le 8 mai, Félix, élève du Collège du Pays de Banon, a lu le discours de l'UFAC et a reçu le drapeau confié par l'Union Fédérale lors d'une cérémonie de commémoration.",
+   "source": "https://www.facebook.com/MairieBanon/posts/-c%C3%A9r%C3%A9monie-de-comm%C3%A9moration-du-8-mai-la-c%C3%A9r%C3%A9monie-de-comm%C3%A9moration-du-77e-annive/518888653109336",
+   "page": "Commune de Banon",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Rencontre des élus avec la classe Mémoire Défense Citoyenneté",
+   "extrait": "Les élus à la rencontre des collégiens de la classe mémoire défense citoyenneté.",
+   "resume": "Des élus locaux ont rencontré les élèves de la classe Mémoire Défense Citoyenneté du Collège du Pays de Banon pour échanger sur les enjeux de la défense et de la citoyenneté.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-banon/spip/",
+   "page": "Collège du Pays de BanonAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Découverte du 2e Régiment étranger",
+   "extrait": "À la découverte du 2ème Régiment étranger de...",
+   "resume": "Les élèves de la classe défense ont visité le 2e Régiment étranger de Saint‑Christol, unité marraine du collège, afin de mieux connaître le métier des légionnaires.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-banon/spip/",
+   "page": "Collège du Pays de BanonAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Rencontre avec la ministre déléguée aux armées",
+   "extrait": "La Classe Défense de Banon rencontre Mme la ministre déléguée aux armées dans le cadre des 80 ans de la Libération",
+   "resume": "Dans le cadre du 80ᵉ anniversaire de la Libération, la classe défense a reçu la ministre déléguée aux armées pour une séance d’échanges et de sensibilisation.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-banon/spip/",
+   "page": "Collège du Pays de BanonAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Option Mémoires, Défense et Citoyenneté",
+   "extrait": "Option Mémoires, Défense et Citoyenneté",
+   "resume": "Le collège propose une option « Mémoires, Défense et Citoyenneté » qui regroupe les activités pédagogiques liées à la classe défense et aux projets de mémoire.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-banon/spip/",
+   "page": "Collège du Pays de BanonAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 25,
+   "nouveaux": 25
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège du Pays de Banon (Banon)"
+ "pages_lues": [
+  "https://annuaire-education.fr/etablissement/banon/college-du-pays-de-banon/0040002F.html",
+  "https://www.clg-banon.ac-aix-marseille.fr/spip",
+  "https://www.education.gouv.fr/ivac/2022/0040002f/college-pays-de-banon-du",
+  "https://www.facebook.com/GendarmerieAlpesDeHauteProvence/posts/visite-de-la-classe-de-seconde-option-defensece-19-mai-la-classe-de-2nde-option-/1309086378076281",
+  "https://www.facebook.com/MairieBanon/posts/-c%C3%A9r%C3%A9monie-de-comm%C3%A9moration-du-8-mai-la-c%C3%A9r%C3%A9monie-de-comm%C3%A9moration-du-77e-annive/518888653109336",
+  "https://www.facebook.com/MairieBanon/posts/commemoration-du-11-novembrelundi-11-novembre-les-%C3%A9l%C3%A8ves-de-3%C3%A8me-de-la-classe-m%C3%A9/981608517344426",
+  "https://www.facebook.com/Prefet60/posts/-des-%C3%A9l%C3%A8ves-de-noyon-laur%C3%A9ats-dun-concours-national-%C3%A0-loccasion-des-80-ans-du-8-/1386990713456516",
+  "https://www.facebook.com/lexpress.mu/posts/zubeida-hafsah-banon-dahoo-centre-laur%C3%A9ate-du-coll%C3%A8ge-droopnath-ramphul-science-/10156165129879540",
+  "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+  "https://www.hauteprovenceinfo.com/actualite-2233-banon-les-eleves-du-college-re-ccedil-oivent-le-drapeau-du-souvenir",
+  "https://www.hauteprovenceinfo.com/actualite-42671-banon-connaissez-vous-les-classes-defense",
+  "https://www.ici.fr/infos/education/le-college-de-banon-maintient-ses-20-minutes-de-lecture-obligatoire-pour-tous-1506616134",
+  "https://www.laprovence.com/article/region/53751683313439/plusieurs-colleges-evacues-dans-les-alpes-de-haute-provence-a-la-suite-dune-alerte-a-la-bombe",
+  "https://www.laprovence.com/article/societe/1121225547043914/rentree-scolaire-2026-dans-les-alpes-de-haute-provence-les-images-du-retour-en-classe-sur-le-territoire",
+  "https://www.laprovence.com/article/societe/1389723252176215/l-education-nationale-distribue-ses-notes-decouvrez-levaluation-annuelle-des-lycees-et-colleges-en-provence",
+  "https://www.laprovence.com/article/societe/1981597427492914/des-eleves-du-college-du-pays-de-banon-ont-visite-l-ancien-camp-dinternement-des-milles",
+  "https://www.laprovence.com/article/societe/77837623379386/les-defis-de-la-ruralite-et-le-climat-scolaire-local-se-rencontrent-au-college-de-banon",
+  "https://www.ledauphine.com/defense-guerre-conflit/2023/09/29/eleves-professeurs-et-militaires-retirent-des-kilos-de-dechets-du-toulourenc",
+  "https://www.ledauphine.com/education/2023/11/06/plusieurs-colleges-evacues-apres-une-alerte-a-la-bombe",
+  "https://www.ledauphine.com/education/resultats-examens?departmentCode=4&city=Banon&diplomaCode=670",
+  "https://www.ledauphine.com/faits-divers-justice/2021/02/28/c-est-a-l-adulte-de-controler-ses-pulsions-face-a-de-jeunes-adolescentes",
+  "https://www.ledauphine.com/faits-divers-justice/2023/11/15/quinze-fausses-alertes-a-la-bombe-en-dix-jours-comment-faire-face",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-du-pays-de-banon-04.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/alpes-de-haute-provence/college-du-pays-de-banon",
+  "https://www.saint-joseph-auxerre.fr/la-classe-defense-participe-au-prix-national-des-classes-de-defense-terre-p745.html"
+ ],
+ "etablissement": "Collège du Pays de Banon (Banon)",
+ "referents_cites": "Mme Andrews",
+ "unite_citee": "2e REG (Saint-Christol)"
 }

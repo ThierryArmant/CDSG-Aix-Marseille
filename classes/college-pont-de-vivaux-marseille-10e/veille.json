@@ -1,14 +1,91 @@
 {
  "fiche": "college-pont-de-vivaux-marseille-10e",
- "elements": [],
+ "elements": [
+  {
+   "type": "article",
+   "date": "2025-05-15",
+   "titre": "Post Facebook Valérie Boyer sur la Classe Défense",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille, parrainée par les Marins Pompiers de Marseille, fait preuve d'un engagement exemplaire…",
+   "resume": "Le 15 mai 2025, Valérie Boyer souligne que la classe défense du collège Stéphane Mallarmé, existante depuis 2018 et parrainée par les Marins Pompiers de Marseille, a été invitée au Sénat avec la promotion 2024/2025.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-05-23",
+   "titre": "Signature de convention",
+   "extrait": "conv: \"23/05/2024\"",
+   "resume": "Convention signée le 23 mai 2024 pour l'atelier défense du Collège Pont‑de‑Vivaux.",
+   "source": "https://www.youtube.com/watch?v=nUTZkFX1UTU",
+   "page": "Prix Non au Harcèlement 2022 - Collège Pont de Vivaux de Marseille",
+   "site": "youtube.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.journaldesfemmes.fr/maman/ecole/college-pont-de-vivaux/college-0132204A"
+   ]
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Année de création de la classe défense",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille…",
+   "resume": "La classe défense du collège Stéphane Mallarmé a été mise en place en 2018.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "unite: \"3e Division\"",
+   "resume": "L'unité marraine de la classe défense est la 3e Division.",
+   "source": "https://www.youtube.com/watch?v=nUTZkFX1UTU",
+   "page": "Prix Non au Harcèlement 2022 - Collège Pont de Vivaux de Marseille",
+   "site": "youtube.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 21,
+   "nouveaux": 4
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Pont-de-Vivaux (Marseille 10e)"
+ "pages_lues": [
+  "https://college-lycee.com/college-pont-de-vivaux/Marseille-10e-Arrondissement-0132204A",
+  "https://etablissements.pass-education.fr/etablissement/college-pont-de-vivaux-college-public-a-marseille",
+  "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.facebook.com/asgondrexangevolleyball/posts/envie-de-d%C3%A9couvrir-le-volley-rejoignez-nous-que-tu-sois-d%C3%A9butante-ou-d%C3%A9j%C3%A0-passio/1674981074630022",
+  "https://www.facebook.com/groups/539032542943109",
+  "https://www.facebook.com/groups/539032542943109/posts/3530173847162282",
+  "https://www.facebook.com/groups/772609022786422/posts/28823068720647076",
+  "https://www.facebook.com/groups/931997518252830/posts/1836950751090831",
+  "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-pont-de-vivaux/college-0132204A",
+  "https://www.laprovence.com/article/actualites/3182035/la-nouvelle-carte-de-leducation-prioritaire.html",
+  "https://www.laprovence.com/article/region/10368041848541/marseille-le-temps-d-une-dictee-soprano-a-joue-au-prof-dans-un-college",
+  "https://www.laprovence.com/article/region/2019631548980815/prix-de-la-recherche-sept-collegiens-marseillais-ont-remis-les-recompenses",
+  "https://www.laprovence.com/article/region/2783955474660614/ca-nous-desole-a-marseille-des-classes-qui-ferment-malgre-des-postes-supplementaires",
+  "https://www.laprovence.com/article/region/66615341154427/a-marseille-un-banc-de-la-fraternite-pour-dire-non-au-harcelement",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-pont-de-vivaux-13.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/college-pont-de-vivaux",
+  "https://www.rentreediscount.com/etablissement/PONT-DE-VIVAUX-51857563.html",
+  "https://www.site.ac-aix-marseille.fr/clg-vivaux/",
+  "https://www.site.ac-aix-marseille.fr/clg-vivaux/spip",
+  "https://www.youtube.com/watch?v=nUTZkFX1UTU"
+ ],
+ "etablissement": "Collège Pont-de-Vivaux (Marseille 10e)",
+ "referents_cites": "Mme Deleuze, Mme Malzac",
+ "unite_citee": "3e Division"
 }

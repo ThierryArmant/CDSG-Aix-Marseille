@@ -2,6 +2,51 @@
  "fiche": "lycee-professionnel-la-floride-marseille",
  "elements": [
   {
+   "type": "article",
+   "date": "2026-09-30",
+   "titre": "Blocus des lycées à Marseille, Aix et Martigues",
+   "extrait": "5 interpellations au lycée Floride à Marseille (4 pour attroupement malgré sommation et une pour stupéfiants)",
+   "resume": "Le 30 septembre 2026, cinq élèves ont été interpellés au lycée professionnel La Floride à Marseille lors du mouvement de blocage des lycées.",
+   "source": "https://www.laprovence.com/article/societe/7183251002019414/blocus-des-lycees-a-marseille-aix-et-martigues-la-colere-des-eleves-ne-faiblit-pas-ce-mercredi",
+   "page": "Marseille, Aix, Martigues : les lycées bloqués par la colère des élèves",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/30/lycee-paul-langevin-martigues-mobilisation-lyceens-blocus-lycee-1790758866_ae0f411fccba6821f411fccba761f4v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2025-05-15",
+   "titre": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille, parrainée par les Marins Pompiers de Marseille, fait preuve d'un engagement exemplaire.",
+   "resume": "Publication Facebook du 15 mai 2025 annonçant que la classe défense du collège Stéphane Mallarmé est parrainée depuis 2018 par les Marins Pompiers de Marseille et que la députée a invité la promotion 2024/2025 au Sénat.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-05-15",
+   "titre": "Invitation de la promotion 2024/2025 au Sénat",
+   "extrait": "j'ai tenu à inviter au Sénat la promotion 2024/2025",
+   "resume": "La députée Valérie Boyer a invité la promotion 2024‑2025 de la classe défense du collège Stéphane Mallarmé à une visite du Sénat.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2018",
+   "titre": "Parrainage par les Marins Pompiers de Marseille",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille, parrainée par les Marins Pompiers de Marseille.",
+   "resume": "Depuis 2018, la classe défense du collège Stéphane Mallarmé bénéficie du parrainage des Marins Pompiers de Marseille.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "autre",
    "date": null,
    "titre": "Professeur référent Lt Royer",
@@ -48,6 +93,17 @@
    "site": "Annuaire des établissements scolaires",
    "image": "https://etablissements.pass-education.fr/wp-content/uploads/2026/04/pe-159564-dfs-2.jpg",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Référent de la classe défense",
+   "extrait": "Lt Royer (professeur, aussi à l'Estaque)",
+   "resume": "Le professeur Lt Royer, également affecté à l'Estaque, est référent de la classe défense du lycée professionnel La Floride à Marseille.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_11248634/fr/concours-scolaires",
+   "page": "﻿Accueil",
+   "site": "WPAM",
+   "trouve_le": "2026-11-11"
   }
  ],
  "recherches": [
@@ -55,15 +111,54 @@
    "date": "2026-11-11",
    "pages": 5,
    "nouveaux": 4
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 34,
+   "nouveaux": 5
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://www.defense.gouv.fr/dsae/lorganisation-lespace-aerien-national",
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-fraternite-engagement-au-service-defense",
   "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-la-floride/0130056R.html",
+  "https://college-lycee.com/lycee-professionnel-la-floride/Marseille-14e-Arrondissement-0130056R",
   "https://etablissements.pass-education.fr/etablissement/lycee-professionnel-la-floride-lycee-public-a-marseille/",
+  "https://fr.linkedin.com/company/lycee-professionnel-la-floride",
+  "https://fr.wikipedia.org/wiki/Classes_d%C3%A9fense_et_s%C3%A9curit%C3%A9_globale",
+  "https://maritima.fr/actualites/education/marseille/13674/marseille-444-collegiens-recompenses-pour-leur-merite-par-le-departement-13",
+  "https://marsactu.fr/bref/la-direction-du-lycee-thiers-fait-voter-en-catimini-la-creation-dune-classe-defense",
   "https://vis-ma-classe.fr/etablissement/13014-marseille/lycee-professionnel-la-floride-0130056r",
+  "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.colsbleus.defense.gouv.fr/sites/default/files/2026-08/COLSbleus_3139_PDFweb_PAGE.pdf",
+  "https://www.defense.gouv.fr/mission-liberation/vivre-liberation/liberation-via-ses-historiens/regards-dhistoriens-liberation/dissidence",
+  "https://www.defense.gouv.fr/sites/default/files/ministere-armees/HCECM%20-%20Revue%20annuelle%2016e%20rapport%20-%202022.pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+  "https://www.facebook.com/villecannes/videos/-%C3%A0-linitiative-de-l%C3%A9cole-saint-joseph-une-c%C3%A9r%C3%A9monie-a-r%C3%A9uni-les-%C3%A9l%C3%A8ves-de-trois-/1100698222960059",
+  "https://www.laprovence.com/article/edition-martigues-istres/5160570/istres-rencontre-avec-guillaume-longuet-le-nouveau-proviseur-du-lycee-latecoere.html",
+  "https://www.laprovence.com/article/papier/3769249/un-forum-au-college-pour-ne-plus-decrocher.html",
+  "https://www.laprovence.com/article/societe/19467965823946/preoccupations-legitimes-ou-chienlit-blocages-et-echauffourees-le-recit-d-une-journee-rythmee-a-marseille",
+  "https://www.laprovence.com/article/societe/7183251002019414/blocus-des-lycees-a-marseille-aix-et-martigues-la-colere-des-eleves-ne-faiblit-pas-ce-mercredi",
+  "https://www.laprovence.com/article/societe/76651551368349/direct-laprovence-direct-blocus-des-lycees-une-nouvelle-semaine-de-mobilisation-commence",
+  "https://www.ledauphine.com/archives/2025/16-01",
+  "https://www.ledauphine.com/archives/2026/02-09",
+  "https://www.ledauphine.com/archives/2026/06-04",
+  "https://www.ledauphine.com/archives/2026/29-10",
   "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-lycee-des-metiers-la-floride-13.html",
-  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-professionnel-la-floride"
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-professionnel-la-floride",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/aide.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10444225/fr/ent-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10761841/fr/inversons-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10988338/fr/ia-dans-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_11228482/fr/enseignant-du-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_11248634/fr/concours-scolaires",
+  "https://www.site.ac-aix-marseille.fr/lyc-floride/",
+  "https://www.site.ac-aix-marseille.fr/lyc-floride/spip"
  ],
  "etablissement": "Lycée professionnel La Floride (Marseille)",
  "referents_cites": "Lt Royer",

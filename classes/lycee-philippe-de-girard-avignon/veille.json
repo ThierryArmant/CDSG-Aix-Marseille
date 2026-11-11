@@ -1,14 +1,92 @@
 {
  "fiche": "lycee-philippe-de-girard-avignon",
- "elements": [],
+ "elements": [
+  {
+   "type": "distinction",
+   "date": "2026-03-16",
+   "titre": "Prix Passe Ton Hack d'Abord 2026 – catégorie bac professionnel",
+   "extrait": "L’équipe « Girard », lycée professionnel Philippe de Girard d’Avignon de Vaucluse, remporte le prix dans la catégorie baccalauréat filière professionnelle.",
+   "resume": "Le 16 mars 2026, l’équipe « Girard » du lycée professionnel Philippe de Girard d’Avignon a reçu le prix de la 4e édition du challenge « Passe Ton Hack d’Abord » dans la catégorie bac professionnel, lors d’une cérémonie au campus cyber de La Défense.",
+   "source": "https://www.defense.gouv.fr/comcyber/actualites/ceremonie-passe-ton-hack-dabord-celebre-gagnants-4e-edition",
+   "page": "La cérémonie \"Passe Ton Hack d'Abord\" célèbre les gagnants de la 4e édition",
+   "site": "Commandement de la cyberdéfense",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2026",
+   "titre": "1er – catégorie bac pro – Lycée Philippe de Girard",
+   "extrait": "1 er : GIRARD LPO Philippe de Girard à Avignon Académie d’Aix-Marseille",
+   "resume": "Le Lycée Philippe de Girard (Avignon) a remporté la première place de la catégorie bac pro du challenge « Passe Ton Hack d’Abord 2026 », organisé par le Commandement de la cyberdéfense.",
+   "source": "https://www.defense.gouv.fr/comcyber/actualites/passe-ton-hack-dabord-2026-lyceens-etudiants-terminent-challenge",
+   "page": "Passe Ton Hack d’Abord 2026 : les lycéens et étudiants terminent le challenge",
+   "site": "Commandement de la cyberdéfense",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-11-25",
+   "titre": "Signature d’une convention de partenariat pour la classe défense",
+   "extrait": "La base aérienne 115 et le lycée Philippe de Girard d’Avignon ont signé une convention de partenariat pour la classe défense.",
+   "resume": "La base aérienne 115 (BA115) a signé une convention de partenariat avec le lycée Philippe de Girard d’Avignon afin de soutenir la classe défense de l’établissement.",
+   "source": "https://www.campus-avignon.fr/les-eleves-du-lycee-philippe-de-girard-feront-leur-classe-avec-la-ba115",
+   "page": "Les élèves du lycée Philippe de Girard feront leur classe avec la BA115 - Lycée Avignon Pro CFA",
+   "site": "Lycée Avignon Pro CFA",
+   "image": "https://www.campus-avignon.fr/wp-content/uploads/2024/12/campus-actu-BA115.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+   "extrait": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+   "resume": "Une vidéo publiée par Réunion la 1ère présente les élèves de 3e du lycée Philippe de Girard formés aux métiers de l'armée dans le cadre de la classe défense.",
+   "source": "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+   "page": "13K views · 106 reactions | Classe défense : des élèves de 3e formés aux métiers de l'armée | Réunion la 1ère",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 25,
+   "nouveaux": 4
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Lycée Philippe de Girard (Avignon)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/comcyber/actualites/ceremonie-passe-ton-hack-dabord-celebre-gagnants-4e-edition",
+  "http://www.defense.gouv.fr/comcyber/actualites/passe-ton-hack-dabord-2026-lyceens-etudiants-terminent-challenge",
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://www.ac-aix-marseille.fr/cordee-de-la-reussite-cap-inge-les-collegiens-d-avignon-a-la-decouverte-de-l-ingenierie-126420",
+  "https://www.ac-aix-marseille.fr/la-classe-defense-du-college-roumanille-participe-au-rallye-citoyen-esprit-defense-126459",
+  "https://www.campus-avignon.fr",
+  "https://www.campus-avignon.fr/les-eleves-du-lycee-philippe-de-girard-feront-leur-classe-avec-la-ba115",
+  "https://www.education.gouv.fr/ivac/2024/0251857h/college-claude-girard-les-sorentines",
+  "https://www.facebook.com/100057416080834/posts/lucie-girard-d%C3%A9bute-tr%C3%A8s-jeune-le-violoncelle-au-conservatoire-davignon-elle-obt/2900664640249503",
+  "https://www.facebook.com/VMatinAvignon/posts/le-lyc%C3%A9e-polyvalent-philippe-de-girard-poursuit-sa-transformation/1664505469010326",
+  "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+  "https://www.laprovence.com/article/edition-arles/2514698/une-nouvelle-equipe-de-direction-au-college-roquecoquille.html",
+  "https://www.laprovence.com/article/edition-avignon-grand-avignon/37925/le-college-paul-giera-vit-ses-derniers-jours.html",
+  "https://www.laprovence.com/article/faits-divers-justice/1937009675015614/un-jeune-de-17-ans-poignarde-devant-le-lycee-philippe-de-girard-a-avignon-son-agresseur-en-fuite",
+  "https://www.laprovence.com/article/region/18571668595579/le-lycee-avignonnais-philippe-de-girard-beneficie-de-33-me-pour-renover-ces-batiments-qui-tombent-en-ruine",
+  "https://www.laprovence.com/article/sports/4198397/le-college-paul-gauthier-en-haut-de-laffiche.html",
+  "https://www.ledauphine.com/education/2025/05/23/philippe-de-girard-un-concours-d-education-financiere-pour-les-etudiants-en-bts",
+  "https://www.leparisien.fr/etudiant/orientation/lycees/annuaire-lycees/lycee-philippe-de-girard-avignon",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-gerard-philipe-84.html",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-philippe-de-girard-84.html",
+  "https://www.sengager.fr/assets/Lycees_de_la_Defense_80445bf4bd.pdf",
+  "https://www.trinitaires84.org/Notre-Ecole-Porte-drapeaux.html",
+  "https://www.vaucluse.gouv.fr/Demarches/Permis-de-conduire/Attestation-et-brevet-de-securite-routiere/Attestation-de-securite-routiere-ASR"
+ ],
+ "etablissement": "Lycée Philippe de Girard (Avignon)",
+ "unite_citee": "Base aérienne 115"
 }

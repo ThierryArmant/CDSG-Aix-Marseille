@@ -1,14 +1,83 @@
 {
  "fiche": "lycee-des-metiers-de-l-estaque-marseille-16e",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2023-09",
+   "titre": "Renouvellement convention atelier défense",
+   "extrait": "Sept. 2023 (atelier défense)",
+   "resume": "Convention signée ou renouvelée en septembre 2023 pour l'atelier défense du Lycée des métiers de l'Estaque, en partenariat avec l'unité marraine 503e Régiment du train (Nîmes).",
+   "source": "https://www.youtube.com/watch?v=_cDvi54zbqU",
+   "page": "L'Estaque Regional High School of Marseille",
+   "site": "youtube.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-09",
+   "titre": "Convention atelier défense",
+   "extrait": "Sept. 2023 (atelier défense)",
+   "resume": "Signature d’une convention pour l’atelier défense en septembre 2023 entre le lycée des métiers de l'Estaque et le 503e Régiment du train (Nîmes).",
+   "source": "https://dossierappel.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=25048&typeBac=0&originePc=0",
+   "page": "Fiche formation - Lycée professionnel Estaque (L') (Marseille 16e  Arrondissement - 13) FCIL - préparation aux concours de la sécurité publique et civile - Parcoursup",
+   "site": "dossierappel.parcoursup.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-09",
+   "titre": "Atelier défense – convention",
+   "extrait": "Sept. 2023 (atelier défense)",
+   "resume": "Signature ou renouvellement de la convention d'atelier défense en septembre 2023 avec l'unité marraine 503e Régiment du train (Nîmes).",
+   "source": "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-et-technologique-regional-lestaque/0130058T.html",
+   "page": "Lycée professionnel et technologique régional L’Estaque, Marseille 16e — effectifs, brevet, bac",
+   "site": "Annuaire de l’éducation",
+   "image": "https://annuaire-education.fr/partage.png",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Lycée des métiers de l'Estaque (Marseille 16e)"
+ "pages_lues": [
+  "https://0130058t.index-education.net/pronote",
+  "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-et-technologique-regional-lestaque/0130058T.html",
+  "https://dossierappel.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=25048&typeBac=0&originePc=0",
+  "https://fr.linkedin.com/company/lyc%C3%A9e-des-m%C3%A9tiers-l-estaque",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/21964/134150/file/attestation",
+  "https://www.facebook.com/61560269640603/posts/la-semaine-derni%C3%A8re-la-police-municipale-a-accueilli-une-quinzaine-d%C3%A9l%C3%A8ves-en-te/122212106060342321",
+  "https://www.facebook.com/61569542277944/posts/visite-de-l%C3%A9cole-gustave-%C3%A0-marseille-la-rel%C3%A8ve-des-%C3%A9lectriciens-et-des-plombiers/122153235362651409",
+  "https://www.facebook.com/ConservatoireMPA/posts/et-si-les-%C3%A9l%C3%A8ves-d%C3%A9couvraient-les-coulisses-dun-concert-pierre-est%C3%A9ban-rivero-in/1449445520722912",
+  "https://www.facebook.com/Prefet22/posts/-jeunesse-ce-24-juillet-fran%C3%A7ois-de-ker%C3%A9ver-pr%C3%A9fet-des-c%C3%B4tesdarmor-sest-rendu-%C3%A0-/1485869333584774",
+  "https://www.facebook.com/ville.heninbeaumont/posts/%EF%B8%8F-hier-en-d%C3%A9but-de-soir%C3%A9e-les-parents-des-enfants-de-l%C3%A9cole-bracke-desrousseaux-/1031545765844956",
+  "https://www.instagram.com/lycee_estaque?hl=en",
+  "https://www.laprovence.com/archives/2024-03-28",
+  "https://www.laprovence.com/article/edition-marseille/6666647/pour-les-maths-le-compte-ny-est-pas.html",
+  "https://www.laprovence.com/bouches-du-rhone/orgon-13067",
+  "https://www.ledauphine.com/archives/2018/12-11",
+  "https://www.ledauphine.com/archives/2018/28-01",
+  "https://www.ledauphine.com/archives/2019/20-12",
+  "https://www.ledauphine.com/archives/2019/22-04",
+  "https://www.ledauphine.com/archives/2025/29-01",
+  "https://www.leparisien.fr/etudiant/orientation/lycees/annuaire-lycees/lycee-professionnel-et-technologique-regional-l-estaque-marseille",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-lestaque-lycee-des-metiers-du-nautisme-et-de-la-securite-13.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-professionnel-et-technologique-regional-l-estaque",
+  "https://www.site.ac-aix-marseille.fr/lyc-estaque/",
+  "https://www.site.ac-aix-marseille.fr/lyc-estaque/spip",
+  "https://www.site.ac-aix-marseille.fr/lyc-estaque/spip/La-1MS-au-centre-de-la-commemoration-du-11-Novembre.html",
+  "https://www.youtube.com/watch?v=_cDvi54zbqU"
+ ],
+ "etablissement": "Lycée des métiers de l'Estaque (Marseille 16e)",
+ "referents_cites": "M. Goutierrez, Mme Olive (DDFPT), M. Benabdeljalil",
+ "unite_citee": "503e Régiment du train (Nîmes)"
 }

@@ -1,14 +1,85 @@
 {
  "fiche": "college-frederic-mistral-rep-port-de-bouc",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Convention avec la Flottille 31F",
+   "extrait": "Convention signée en juin 2026 avec la Flottille 31F comme unité marraine.",
+   "resume": "Le collège a signé en juin 2026 une convention avec la Flottille 31F, qui devient l’unité marraine de la classe défense.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/6095128/les-profs-de-mistral-presentent-leurs-projets-au-recteur.html",
+   "page": "Port-de-Bouc : les profs de Mistral présentent leurs projets au recteur",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=7,trim.height=353,trim.width=642/media/hermes/2020-09/2020-09-02/20200902_1_2_6_1_1_obj23049449_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2020-09-02",
+   "titre": "Cadets de la sécurité",
+   "extrait": "Le projet 'Cadets de la sécurité' transmet à douze élèves la prévention et la sécurité civile avec les pompiers de Port‑de‑Bouc.",
+   "resume": "En septembre 2020, le collège Frédéric Mistral a présenté le projet 'Cadets de la sécurité' qui forme 12 élèves à la prévention et à la sécurité civile, en partenariat avec les pompiers de Port‑de‑Bouc.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/6095128/les-profs-de-mistral-presentent-leurs-projets-au-recteur.html",
+   "page": "Port-de-Bouc : les profs de Mistral présentent leurs projets au recteur",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=7,trim.height=353,trim.width=642/media/hermes/2020-09/2020-09-02/20200902_1_2_6_1_1_obj23049449_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2020-09-02",
+   "titre": "Unité marraine Flottille 31F",
+   "extrait": "Unité marraine de la classe défense : Flottille 31F.",
+   "resume": "La Flottille 31F est désignée comme unité marraine de la classe défense du collège.",
+   "source": "https://www.laprovence.com/article/edition-martigues-istres/6095128/les-profs-de-mistral-presentent-leurs-projets-au-recteur.html",
+   "page": "Port-de-Bouc : les profs de Mistral présentent leurs projets au recteur",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=7,trim.height=353,trim.width=642/media/hermes/2020-09/2020-09-02/20200902_1_2_6_1_1_obj23049449_1.jpg",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Frédéric Mistral (REP+) (Port-de-Bouc)"
+ "pages_lues": [
+  "https://college-lycee.com/college-frederic-mistral/Port-de-Bouc-0132212J",
+  "https://collegefredericmistral.blogs.laclasse.com/tag/commemoration",
+  "https://tavily.com/knowledge/company/0CiP5a1FbXfI",
+  "https://tavily.com/knowledge/company/qrF8FCZdHTEi",
+  "https://www.facebook.com/13.snuipp.fr/posts/-pour-louverture-dune-classe-ulis-coll%C3%A8ge-%C3%A0-port-de-bouc-rassemblement-intersynd/1523276753142888",
+  "https://www.facebook.com/VilledePortdeBouc13110/posts/%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A0%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%A6%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%AB%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9E%CC%81%F0%9D%90%9E-%F0%9D%90%AC%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A5%F0%9D%90%9A%F0%9D%90%A2%F0%9D%90%AB%F0%9D%90%9E-%F0%9D%9F%90%F0%9D%9F%8E%F0%9D%9F%90%F0%9D%9F%93%F0%9D%9F%90%F0%9D%9F%8E%F0%9D%9F%90%F0%9D%9F%94-%F0%9D%90%9D%F0%9D%90%AE-%F0%9D%90%9C%F0%9D%90%A8%F0%9D%90%A5%F0%9D%90%A5%F0%9D%90%9E%CC%80%F0%9D%90%A0%F0%9D%90%9E-%F0%9D%90%85%F0%9D%90%AB%F0%9D%90%9E%CC%81%F0%9D%90%9D%F0%9D%90%9E%CC%81%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%9C-%F0%9D%90%8C%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A5-maj-31082/1184367897051031",
+  "https://www.facebook.com/VilledePortdeBouc13110/posts/-%F0%9D%97%A5%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2%CC%81%F0%9D%97%B2-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AE%F0%9D%9F%B2-%F0%9D%97%96%F0%9D%97%BC%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%CC%80%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%99%F0%9D%97%BF%F0%9D%97%B2%CC%81%F0%9D%97%B1%F0%9D%97%B2%CC%81%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%B0-%F0%9D%97%A0%F0%9D%97%B6%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%B9la-rentr%C3%A9e-scolaire-approche-pour-les-/1504367688384382",
+  "https://www.facebook.com/denis.franceschi.9/posts/et-le-stage-dapplications-martiales-le-15-novembre-%C3%A0-fr%C3%A9d%C3%A9ric-mistral-0681248354/2117511792464860",
+  "https://www.facebook.com/otportdebouc/posts/-retour-sur-la-visite-du-port-renaissance-ce-matin-25-participants-ont-eu-le-pla/1863256205135086",
+  "https://www.facebook.com/portdeboucplaisance/posts/1721542309973099",
+  "https://www.laprovence.com/article/actualites/3182035/la-nouvelle-carte-de-leducation-prioritaire.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/2525303/renovation-reussie-pour-le-college-du-bord-de-mer.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/6095128/les-profs-de-mistral-presentent-leurs-projets-au-recteur.html",
+  "https://www.laprovence.com/article/region/1405858521243715/lycees-et-colleges-autour-de-l-etang-l-accompagnement-des-eleves-de-la-6e-vers-la-3e-au-coeur-de-la-reussite",
+  "https://www.laprovence.com/article/region/1419873480955115/syndicats-d-enseignants-et-parents-d-eleves-reclament-encore-l-ouverture-d-une-classe-ulis-en-college-a-port-de-bouc",
+  "https://www.ledauphine.com/archives/2024/19-06",
+  "https://www.ledauphine.com/archives/2025/21-01",
+  "https://www.ledauphine.com/archives/2026/13-06",
+  "https://www.ledauphine.com/archives/2026/15-03",
+  "https://www.ledauphine.com/education/2025/09/21/une-nouvelle-direction-a-mistral",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-frederic-mistral-13-1.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/college-frederic-mistral2",
+  "https://www.portdebouc.fr/colleges",
+  "https://www.site.ac-aix-marseille.fr/clg-mistral-portdebouc/",
+  "https://www.site.ac-aix-marseille.fr/clg-mistral-portdebouc/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-mistral-portdebouc/spip/-Nos-informations-.html"
+ ],
+ "etablissement": "Collège Frédéric Mistral (REP+) (Port-de-Bouc)",
+ "referents_cites": "Mme Abel",
+ "unite_citee": "Flottille 31F"
 }

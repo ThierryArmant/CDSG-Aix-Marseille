@@ -1,14 +1,204 @@
 {
  "fiche": "college-francois-raspail-carpentras",
- "elements": [],
+ "elements": [
+  {
+   "type": "distinction",
+   "date": "2026-06-10",
+   "titre": "Qualification au Festival national de danse UNSS",
+   "extrait": "Les élèves du groupe compétition de la classe à horaires aménagés danse (CHAD) se sont qualifiés pour la finale UNSS du Festival national de danse",
+   "resume": "Le groupe compétition de la CHAD se qualifie pour le Festival national de danse UNSS qui se tiendra à Albi du 10 au 12 juin 2026.",
+   "source": "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse",
+   "page": "Les apprentis danseurs de la CHAD du collège Raspail de Carpentras qualifiés au Festival national de danse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/05/12/classe-chad-carpentras-1778601707_6664a240230a6ba64a240230aee64av_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2026-05-12",
+   "titre": "Les apprentis danseurs de la CHAD du collège Raspail de Carpentras qualifiés au Festival national de danse",
+   "extrait": "Les élèves du groupe compétition de la classe à horaires aménagés danse (CHAD) du collège François‑Raspail de Carpentras se sont qualifiés pour la finale UNSS",
+   "resume": "Publication du 12 mai 2026 annonçant la qualification du groupe compétition de la CHAD du collège François‑Raspail pour le Festival national de danse UNSS à Albi du 10 au 12 juin 2026.",
+   "source": "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse",
+   "page": "Les apprentis danseurs de la CHAD du collège Raspail de Carpentras qualifiés au Festival national de danse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/05/12/classe-chad-carpentras-1778601707_6664a240230a6ba64a240230aee64av_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2026-05-12",
+   "titre": "Quatrième victoire à la compétition académique",
+   "extrait": "C’est la quatrième fois qu’on remporte la compétition académique et la troisième fois que l’on va au festival national.",
+   "resume": "La CHAD du collège François‑Raspail remporte pour la quatrième fois la compétition académique de danse, confirmant son excellence.",
+   "source": "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse",
+   "page": "Les apprentis danseurs de la CHAD du collège Raspail de Carpentras qualifiés au Festival national de danse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/05/12/classe-chad-carpentras-1778601707_6664a240230a6ba64a240230aee64av_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2026-05-12",
+   "titre": "Chorégraphie sur le racisme systémique",
+   "extrait": "Une chorégraphie sur le thème du racisme systémique semble emporter un engouement auprès du public et du jury à chaque représentation.",
+   "resume": "Les élèves de la CHAD présentent une création chorégraphique abordant le racisme systémique, suscitant l’intérêt du public et du jury.",
+   "source": "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse",
+   "page": "Les apprentis danseurs de la CHAD du collège Raspail de Carpentras qualifiés au Festival national de danse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/05/12/classe-chad-carpentras-1778601707_6664a240230a6ba64a240230aee64av_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2021-09-01",
+   "titre": "Convention de partenariat avec la BA 115 d'Orange",
+   "extrait": "Convention signée le 01/09/2021, reconduite en septembre 2024, entre le collège et la BA 115 d'Orange.",
+   "resume": "Le collège a signé une convention de partenariat avec la base aérienne 115 d'Orange le 1er septembre 2021, renouvelée en 2024.",
+   "source": "https://www.laprovence.com/article/edition-carpentras-comtat/1976797/le-college-raspail-ouvre-la-premiere-classe-defense-du-vaucluse.html",
+   "page": "Le collège Raspail ouvre la première classe \"Défense\" du Vaucluse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2012-09/2012-09-28/20120928_1_1_6_8_1_obj2168531_1.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-francois-raspail-84.html",
+    "https://www.laprovence.com/article/region/12680116887587/vaucluse-une-mobilisation-inedite-contre-le-manque-de-moyens-au-college-raspail-de-carpentras-le-jeudi-13-juin",
+    "https://www.facebook.com/Carpentras/posts/-victoire-%C3%A9clatante-de-la-classe-de-chad-classe-%C3%A0-horaires-am%C3%A9nag%C3%A9s-danse-du-con/759974486362140",
+    "https://www.journaldesfemmes.fr/maman/ecole/college-francois-raspail/college-0840114T",
+    "https://www.laprovence.com/article/region/45386270009859/le-college-raspail-de-carpentras-a-ouvert-ses-portes-a-ses-futurs-eleves",
+    "https://www.laprovence.com/article/region/45662487152330/a-carpenytras-le-college-raspail-a-teste-les-cours-en-visio",
+    "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse"
+   ]
+  },
+  {
+   "type": "article",
+   "date": "2012-09-28",
+   "titre": "Le collège Raspail ouvre la première classe \"Défense\" du Vaucluse",
+   "extrait": "Le collège Raspail ouvre la première classe \"Défense\" du Vaucluse, avec 27 élèves de 5e rencontrant police, gendarmerie, pompiers, armée de l'air.",
+   "resume": "Le 28/09/2012, le collège François Raspail de Carpentras a lancé la première classe Défense du Vaucluse, réunissant élus et représentants de la défense pour les élèves de 5e.",
+   "source": "https://www.laprovence.com/article/edition-carpentras-comtat/1976797/le-college-raspail-ouvre-la-premiere-classe-defense-du-vaucluse.html",
+   "page": "Le collège Raspail ouvre la première classe \"Défense\" du Vaucluse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2012-09/2012-09-28/20120928_1_1_6_8_1_obj2168531_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2012-09-28",
+   "titre": "Participation aux cérémonies du 11 novembre",
+   "extrait": "Les élèves sont conviés à participer aux cérémonies du 11 novembre auprès des Anciens combattants.",
+   "resume": "Les élèves de la classe Défense assisteront aux commémorations du 11 novembre aux côtés des Anciens combattants.",
+   "source": "https://www.laprovence.com/article/edition-carpentras-comtat/1976797/le-college-raspail-ouvre-la-premiere-classe-defense-du-vaucluse.html",
+   "page": "Le collège Raspail ouvre la première classe \"Défense\" du Vaucluse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2012-09/2012-09-28/20120928_1_1_6_8_1_obj2168531_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2012-09-28",
+   "titre": "Base aérienne 115 d'Orange",
+   "extrait": "Un colonel de la base aérienne d'Orange s'est félicité du partenariat avec le collège.",
+   "resume": "La base aérienne 115 d'Orange, représentée par un colonel, est partenaire principal de la classe Défense.",
+   "source": "https://www.laprovence.com/article/edition-carpentras-comtat/1976797/le-college-raspail-ouvre-la-premiere-classe-defense-du-vaucluse.html",
+   "page": "Le collège Raspail ouvre la première classe \"Défense\" du Vaucluse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2012-09/2012-09-28/20120928_1_1_6_8_1_obj2168531_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2012",
+   "titre": "Classe \"Prévenir, protéger, servir\"",
+   "extrait": "Classe rebaptisée \"Prévenir, protéger, servir\" pour faire découvrir les métiers de la protection, sécurité et service à la personne.",
+   "resume": "Le projet pédagogique, nommé \"Prévenir, protéger, servir\", vise à sensibiliser les élèves aux métiers de la défense et de la sécurité.",
+   "source": "https://www.laprovence.com/article/edition-carpentras-comtat/1976797/le-college-raspail-ouvre-la-premiere-classe-defense-du-vaucluse.html",
+   "page": "Le collège Raspail ouvre la première classe \"Défense\" du Vaucluse",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2012-09/2012-09-28/20120928_1_1_6_8_1_obj2168531_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": null,
+   "titre": "Projet récompensé au Barroux",
+   "extrait": "Félicitations aux élèves de 3ème du collège Raspail de Carpentras !",
+   "resume": "Les élèves de 3e du Collège François Raspail ont reçu une distinction pour un projet de longue haleine lors d’une remise de prix au Barroux.",
+   "source": "https://www.instagram.com/p/DXJz0Otiqte",
+   "page": "🏰 Un projet de longue haleine récompensé au Barroux ! ...",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.facebook.com/chateaudubarroux/posts/-un-projet-de-longue-haleine-r%C3%A9compens%C3%A9-au-barroux-f%C3%A9licitations-aux-%C3%A9l%C3%A8ves-de-3/966699532553620"
+   ],
+   "verifie": "a_confirmer"
+  },
+  {
+   "type": "distinction",
+   "date": null,
+   "titre": "Première place et prix Coup de cœur excellence",
+   "extrait": "La classe CHAD, représentant le collège F. Raspail de Carpentras, a remporté la première place ainsi que le prix \"Coup de cœur excellence\" !",
+   "resume": "La classe CHAD du collège François Raspail à Carpentras a obtenu la première place et le prix « Coup de cœur excellence » lors d’un concours.",
+   "source": "https://www.facebook.com/Carpentras/posts/-victoire-%C3%A9clatante-de-la-classe-de-chad-classe-%C3%A0-horaires-am%C3%A9nag%C3%A9s-danse-du-con/759974486362140",
+   "page": "Carpentras",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "verifie": "a_confirmer"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 34,
+   "nouveaux": 11
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège François Raspail (Carpentras)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://fr.wikipedia.org/wiki/Classes_d%C3%A9fense_et_s%C3%A9curit%C3%A9_globale",
+  "https://www.1538mediterranee.com/ateliers-medias/college-francois-raspail-carpentras",
+  "https://www.cheminsdememoire.gouv.fr/fr/enseignement-secondaire",
+  "https://www.education.gouv.fr/ivac/2022/0840114t/college-francois-raspail",
+  "https://www.facebook.com/Carpentras/posts/-victoire-%C3%A9clatante-de-la-classe-de-chad-classe-%C3%A0-horaires-am%C3%A9nag%C3%A9s-danse-du-con/759974486362140",
+  "https://www.facebook.com/PoliceNat84/posts/contr%C3%B4le-ce-mardi-9-septembre-les-policiers-du-vaucluse-ont-men%C3%A9-une-op%C3%A9ration-d/1106924588210133",
+  "https://www.facebook.com/chateaudubarroux/posts/-un-projet-de-longue-haleine-r%C3%A9compens%C3%A9-au-barroux-f%C3%A9licitations-aux-%C3%A9l%C3%A8ves-de-3/966699532553620",
+  "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385",
+  "https://www.instagram.com/p/DXJz0Otiqte",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-francois-raspail/college-0840114T",
+  "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse",
+  "https://www.laprovence.com/article/edition-carpentras-comtat/1976797/le-college-raspail-ouvre-la-premiere-classe-defense-du-vaucluse.html",
+  "https://www.laprovence.com/article/region/12680116887587/vaucluse-une-mobilisation-inedite-contre-le-manque-de-moyens-au-college-raspail-de-carpentras-le-jeudi-13-juin",
+  "https://www.laprovence.com/article/region/45386270009859/le-college-raspail-de-carpentras-a-ouvert-ses-portes-a-ses-futurs-eleves",
+  "https://www.laprovence.com/article/region/45662487152330/a-carpenytras-le-college-raspail-a-teste-les-cours-en-visio",
+  "https://www.laprovence.com/article/societe/78634002822531/des-eleves-belges-en-erasmus-a-carpentras-sinvitent-au-college-raspail",
+  "https://www.ledauphine.com/education/2021/06/03/ecocitoyennete-les-sixiemes-medias-de-raspail-enquetent",
+  "https://www.ledauphine.com/education/2022/11/15/remise-de-diplomes-et-portes-ouvertes-au-college-raspail",
+  "https://www.ledauphine.com/education/2023/06/23/des-eleves-du-college-raspail-aux-rencontres-unss",
+  "https://www.ledauphine.com/education/2024/05/07/au-college-raspail-le-temoignage-glacant-d-un-rescape-du-genocide-rwandais",
+  "https://www.ledauphine.com/sport/2026/05/08/sports-scolaires-coup-double-pour-le-college-raspail",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-francois-raspail-84.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/aide.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/index.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10761841/fr/inversons-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10988338/fr/ia-dans-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11228482/fr/enseignant-du-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11248634/fr/concours-scolaires",
+  "https://www.site.ac-aix-marseille.fr/clg-raspail/",
+  "https://www.site.ac-aix-marseille.fr/clg-raspail/spip"
+ ],
+ "etablissement": "Collège François Raspail (Carpentras)",
+ "referents_cites": [
+  "Jenny Parouty",
+  "Émilie Dalmay‑Chenin"
+ ],
+ "unite_citee": "BA 115 Orange"
 }

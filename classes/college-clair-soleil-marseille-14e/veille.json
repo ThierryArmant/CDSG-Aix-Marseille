@@ -1,14 +1,70 @@
 {
  "fiche": "college-clair-soleil-marseille-14e",
- "elements": [],
+ "elements": [
+  {
+   "type": "sortie",
+   "date": "2025-05-15",
+   "titre": "Invitation de la promotion 2024/2025 au Sénat",
+   "extrait": "j'ai tenu à inviter au Sénat la promotion 2024/2025",
+   "resume": "Le 15 mai 2025, Valérie Boyer a invité la promotion 2024/2025 de la Classe Défense du collège Stéphane Mallarmé au Sénat.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2018",
+   "titre": "Parrainage de la Classe Défense",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille, parrainée par les Marins Pompiers de Marseille...",
+   "resume": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé est parrainée par les Marins Pompiers de Marseille.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 2
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Clair Soleil (Marseille 14e)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-fraternite-engagement-au-service-defense",
+  "https://annuaire-education.fr/etablissement/marseille/college-clair-soleil/0132404T.html",
+  "https://college-lycee.com/college-clair-soleil/Marseille-14e-Arrondissement-0132404T",
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://fr.wikipedia.org/wiki/Classes_d%C3%A9fense_et_s%C3%A9curit%C3%A9_globale",
+  "https://ville-data.com/college/College-Clair-Soleil-13014/Marseille-14e-Arrondissement/13-64243-13214",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/33026/190534/file/M%C3%A9moire%20en%20r%C3%A9ponse%20de%20l%27exploitant%20%C3%A0%20l%27avis%20de%20la%20Mission%20r%C3%A9gionale%20d%27Autorit%C3%A9%20environnementale.pdf",
+  "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.education.gouv.fr/ivac/2023/0132404t/college-clair-soleil",
+  "https://www.facebook.com/laprovence/posts/le-maire-de-marseille-a-fait-sa-rentr%C3%A9e-aux-c%C3%B4t%C3%A9s-des-%C3%A9coliers-de-clair-soleil-1/1540212708149888",
+  "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+  "https://www.instagram.com/reel/DfhS43dKQFW",
+  "https://www.laprovence.com/actu/en-direct/5198238/breve-ecole.html",
+  "https://www.laprovence.com/article/edition-marseille/4792836/le-latin-et-le-grec-sont-loin-detre-morts.html",
+  "https://www.laprovence.com/article/region/6441187043004814/au-college-clair-soleil-a-marseille-une-scolarisation-en-pointille-pour-deux-eleves-a-la-rue",
+  "https://www.laprovence.com/article/region/7829836114548815/envolee-pedagogique-pour-les-collegiens-marseillais",
+  "https://www.laprovence.com/article/societe/1238101124984514/la-meme-emotion-que-lors-de-mes-6-ans-benoit-payan-fait-sa-rentree-a-clair-soleil-dans-les-quartiers-nord-a-marseille",
+  "https://www.ledauphine.com/archives/2024/14-02",
+  "https://www.ledauphine.com/archives/2024/20-11",
+  "https://www.ledauphine.com/archives/2026/03-08",
+  "https://www.ledauphine.com/archives/2026/10-10",
+  "https://www.ledauphine.com/magazine-tourisme-et-patrimoine/2024/10/10/vacances-de-la-toussaint-ou-trouver-le-soleil-pour-moins-de-200?ii=",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-clair-soleil-13.html",
+  "https://www.lucyol.fr/fiches/0130553F",
+  "https://www.site.ac-aix-marseille.fr/clg-soleil/",
+  "https://www.site.ac-aix-marseille.fr/clg-soleil/spip"
+ ],
+ "etablissement": "Collège Clair Soleil (Marseille 14e)",
+ "unite_citee": "Marins Pompiers de Marseille"
 }

@@ -1,14 +1,89 @@
 {
  "fiche": "lycee-frederic-mistral-avignon",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2023-07",
+   "titre": "Convention classe défense",
+   "extrait": "\"conv\": \"Juillet 2023\"",
+   "resume": "Signature d’une convention en juillet 2023 pour la classe défense du lycée Frédéric‑Mistral, avec l’unité DMD 84 comme marraine.",
+   "source": "https://fr.wikipedia.org/wiki/Cit%C3%A9_scolaire_Fr%C3%A9d%C3%A9ric-Mistral",
+   "page": "Cité scolaire Frédéric-Mistral — Wikipédia",
+   "site": "fr.wikipedia.org",
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Lyc%C3%A9e_Fr%C3%A9d%C3%A9ric_Mistral_Avignon.JPG/1280px-Lyc%C3%A9e_Fr%C3%A9d%C3%A9ric_Mistral_Avignon.JPG?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.laprovence.com/article/edition-vaucluse/4196109/le-college-mistral-mobilise-pour-mohamed.html"
+   ]
+  },
+  {
+   "type": "convention",
+   "date": "2023-07",
+   "titre": "Convention avec DMD 84",
+   "extrait": "\"unite\": \"DMD 84\", \"conv\": \"Juillet 2023\"",
+   "resume": "Le lycée Frédéric Mistral d'Avignon a signé en juillet 2023 une convention avec l'unité DMD 84 pour la classe défense et sécurité globales.",
+   "source": "https://www.ledauphine.com/education/2025/11/30/les-eleves-du-college-mistral-recoivent-leur-brevet",
+   "page": "Avignon. Les élèves du collège Mistral reçoivent leur Brevet",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/4EC740E8-EC67-448F-8B59-EDA730A343F2/FB1200/photo-1764529145.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-07",
+   "titre": "Signature de convention avec DMD 84",
+   "extrait": "\"conv\": \"Juillet 2023\"",
+   "resume": "Le lycée Frédéric Mistral a signé une convention avec l'unité DMD 84 en juillet 2023 pour la classe défense.",
+   "source": "https://www.ledauphine.com/education/2026/10/11/le-lycee-mistral-aureole-pour-son-ouverture-a-l-europe",
+   "page": "Avignon. Le lycée Mistral auréolé pour son ouverture à l’Europe",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/08F6D4D2-8AED-42E2-8D44-2A7F9DF1181C/FB1200/photo-1791741531.jpg",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 27,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Lycée Frédéric Mistral (Avignon)"
+ "pages_lues": [
+  "https://annuaire-education.fr/etablissement/avignon/college-frederic-mistral/0840758T.html",
+  "https://collegefredericmistral.blogs.laclasse.com/tag/commemoration",
+  "https://en.wikipedia.org/wiki/Lyc%C3%A9e_Fr%C3%A9d%C3%A9ric_Mistral",
+  "https://fr.wikipedia.org/wiki/Cit%C3%A9_scolaire_Fr%C3%A9d%C3%A9ric-Mistral",
+  "https://tavily.com/knowledge/company/yXrINIViYrGb",
+  "https://www.dailymotion.com/video/x3vkjoo",
+  "https://www.facebook.com/VMatinAvignon/posts/%C3%A0-avignon-mistral-est-%C3%A0-la-fois-un-coll%C3%A8ge-un-lyc%C3%A9e-et-dans-le-sup%C3%A9rieur-il-y-a-/1691474266313446",
+  "https://www.facebook.com/groups/nyonsaujourdhui/posts/1385394960440433",
+  "https://www.laprovence.com/article/edition-vaucluse/4196109/le-college-mistral-mobilise-pour-mohamed.html",
+  "https://www.laprovence.com/article/region/13598432188306/avignon-rendre-possible-limpossible-cest-la-philosophie-de-la-cite-scolaire-frederic-mistral",
+  "https://www.laprovence.com/article/region/2826877949165914/avignon-un-lyceen-chute-du-3eme-etage-de-la-cite-scolaire-frederic-mistral-son-pronostic-vital-engage",
+  "https://www.laprovence.com/article/region/53183803078914/mobilisation-des-lyceens-comment-se-presente-ce-mardi-6-octobre-2026-en-vaucluse",
+  "https://www.laprovence.com/article/societe/3029294810729714/deux-classes-menacees-au-lycee-mistral-d-avignon-syndicats-profs-et-eleves-en-etat-d-alerte",
+  "https://www.ledauphine.com/education/2025/09/21/une-nouvelle-direction-a-mistral",
+  "https://www.ledauphine.com/education/2025/11/30/les-eleves-du-college-mistral-recoivent-leur-brevet",
+  "https://www.ledauphine.com/education/2026/01/30/la-cite-scolaire-mistral-ouvre-ses-portes-ce-samedi-31-janvier",
+  "https://www.ledauphine.com/education/2026/09/23/nouveau-principal-adjoint-au-college-mistral",
+  "https://www.ledauphine.com/education/2026/10/11/le-lycee-mistral-aureole-pour-son-ouverture-a-l-europe",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-frederic-mistral-84.html",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-frederic-mistral-84.html",
+  "https://www.midilibre.fr/2026/11/07/la-jeune-generation-a-toute-sa-place-dans-cette-commemoration-au-college-frederic-mistral-les-eleves-sensibilises-au-devoir-de-memoire-13639773.php",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/lycee-frederic-mistral",
+  "https://www.site.ac-aix-marseille.fr/clg-mistral-avignon/",
+  "https://www.site.ac-aix-marseille.fr/clg-mistral-avignon/spip",
+  "https://www.site.ac-aix-marseille.fr/lyc-mistral-avignon/",
+  "https://www.site.ac-aix-marseille.fr/lyc-mistral-avignon/spip",
+  "https://www.site.ac-aix-marseille.fr/lyc-mistral-avignon/spip/Option-Theatre.html"
+ ],
+ "etablissement": "Lycée Frédéric Mistral (Avignon)",
+ "referents_cites": "M. Noique, M. Donnat",
+ "unite_citee": "DMD 84"
 }

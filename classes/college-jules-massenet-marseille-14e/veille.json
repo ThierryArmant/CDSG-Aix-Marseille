@@ -1,14 +1,110 @@
 {
  "fiche": "college-jules-massenet-marseille-14e",
- "elements": [],
+ "elements": [
+  {
+   "type": "sortie",
+   "date": "2025-05-15",
+   "titre": "Invitation de la promotion 2024/2025 au Sénat",
+   "extrait": "j'ai tenu à inviter au Sénat la promotion 2024/2025",
+   "resume": "Le 15 mai 2025, Valérie Boyer a invité la promotion 2024/2025 de la Classe Défense du collège Stéphane Mallarmé à une visite du Sénat.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2022-09-01",
+   "titre": "Convention classe défense",
+   "extrait": "\"conv\": \"01/09/2022 — maj nov. 2025\"",
+   "resume": "Convention signée le 1 septembre 2022, mise à jour en novembre 2025, pour la classe défense du collège Jules Massenet.",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jules-massenet/college-0132207D",
+   "page": "Collège Jules Massenet (13014, Marseille)",
+   "site": "journaldesfemmes.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.facebook.com/MartineVassalOfficiel/videos/instaur%C3%A9e-depuis-2016-la-c%C3%A9r%C3%A9monie-de-remise-des-prix-aux-coll%C3%A9giens-m%C3%A9ritants-d/2316376918578437"
+   ]
+  },
+  {
+   "type": "partenaire",
+   "date": "2018",
+   "titre": "Parrainage par les Marins Pompiers",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille, parrainée par les Marins Pompiers de Marseille",
+   "resume": "La Classe Défense du collège Stéphane Mallarmé est parrainée par les Marins Pompiers de Marseille depuis 2018.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Valérie Boyer - Depuis 2018, la Classe Défense du collège...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2016",
+   "titre": "Cérémonie de remise des prix aux collégiens méritants de Provence",
+   "extrait": "Instaurée depuis 2016, la cérémonie de remise des prix aux collégiens méritants de #Provence récompense des élèves de 3e de 115 collèges.",
+   "resume": "Depuis 2016, une cérémonie récompense chaque année les élèves de 3e de 115 collèges provençaux, dont le Collège Jules Massenet, pour leurs mérites académiques.",
+   "source": "https://www.facebook.com/MartineVassalOfficiel/videos/instaur%C3%A9e-depuis-2016-la-c%C3%A9r%C3%A9monie-de-remise-des-prix-aux-coll%C3%A9giens-m%C3%A9ritants-d/2316376918578437",
+   "page": "Instaurée depuis 2016, la cérémonie de remise des prix aux ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "verifie": "a_confirmer"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine DMD 13",
+   "extrait": "\"unite\": \"DMD 13\"",
+   "resume": "L'unité marraine de la classe défense est le DMD 13.",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jules-massenet/college-0132207D",
+   "page": "Collège Jules Massenet (13014, Marseille)",
+   "site": "journaldesfemmes.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 5
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Jules Massenet (Marseille 14e)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-fraternite-engagement-au-service-defense",
+  "https://annuaire-education.fr/etablissement/marseille/college-jules-massenet/0132207D.html",
+  "https://college-lycee.com/college-jules-massenet/Marseille-14e-Arrondissement-0132207D",
+  "https://fr.mappy.com/poi/510cded384aec73dd8852bb2",
+  "https://fr.wikipedia.org/wiki/Classes_d%C3%A9fense_et_s%C3%A9curit%C3%A9_globale",
+  "https://maritima.fr/actualites/education/marseille/13674/marseille-444-collegiens-recompenses-pour-leur-merite-par-le-departement-13",
+  "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.facebook.com/ActivRadio/posts/fait-divers-assistance-d%C3%A9ducation-rou%C3%A9e-de-coups-au-coll%C3%A8ge-massenet-du-chambon-/1305296198064780",
+  "https://www.facebook.com/MaritimaMedias/posts/%EF%B8%8F-marseille-444-coll%C3%A9giens-r%C3%A9compens%C3%A9s-pour-leur-m%C3%A9rite-par-le-d%C3%A9partement-13/1620137450121803",
+  "https://www.facebook.com/MartineVassalOfficiel/videos/instaur%C3%A9e-depuis-2016-la-c%C3%A9r%C3%A9monie-de-remise-des-prix-aux-coll%C3%A9giens-m%C3%A9ritants-d/2316376918578437",
+  "https://www.facebook.com/bouzanaimade",
+  "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-jules-massenet/college-0132207D",
+  "https://www.laprovence.com/article/actualites/3182035/la-nouvelle-carte-de-leducation-prioritaire.html",
+  "https://www.laprovence.com/article/edition-marseille/4323622/les-eleves-decouvrent-le-monde-de-lentreprise.html",
+  "https://www.laprovence.com/article/politique/4002185339419/macron-a-marseille-scroller-des-contenus-ou-publier-des-messages-n-est-pas-debattre-denonce-le-president",
+  "https://www.laprovence.com/article/region/3199945806174814/ils-ne-sont-plus-dans-vos-quartiers-pour-demanteler-les-reseaux-a-massenet-crs-et-collegiens-jouent-a-lunisson",
+  "https://www.laprovence.com/article/region/7497877967216714/marseille-le-sport-reprend-ses-droits-a-la-paternelle-avec-la-rehabilitation-du-gymnase-massenet",
+  "https://www.ledauphine.com/archives/2024/12-11",
+  "https://www.ledauphine.com/archives/2024/20-12",
+  "https://www.ledauphine.com/archives/2024/26-11",
+  "https://www.ledauphine.com/archives/2026/14-05",
+  "https://www.ledauphine.com/archives/2026/30-10",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-massenet-13.html",
+  "https://www.site.ac-aix-marseille.fr/clg-massenet/",
+  "https://www.site.ac-aix-marseille.fr/clg-massenet/spip"
+ ],
+ "etablissement": "Collège Jules Massenet (Marseille 14e)",
+ "referents_cites": [
+  "Mme Varbetian"
+ ],
+ "unite_citee": "DMD 13"
 }

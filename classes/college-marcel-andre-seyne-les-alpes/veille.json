@@ -1,14 +1,184 @@
 {
  "fiche": "college-marcel-andre-seyne-les-alpes",
- "elements": [],
+ "elements": [
+  {
+   "type": "ceremonie",
+   "date": "2026-11-06",
+   "titre": "Invitation à la cérémonie commémorative de l’armistice du 11 novembre 1918",
+   "extrait": "Invitation à la cérémonie commémorative de l’armistice du 11 novembre 1918.",
+   "resume": "Le collège Marcel André invite les élèves et les familles à la cérémonie du 11 novembre 2026 commémorant l’armistice de 1918.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-andre/spip/",
+   "page": "Collège Marcel AndréAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rub",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-06-25",
+   "titre": "Sortie à Toulon sur le thème du débarquement en Provence",
+   "extrait": "Une sortie à Toulon sur le thème du débarquement en Provence a rassemblé collégiens saint‑andréens et anciens combattants.",
+   "resume": "Le 25 juin 2025, des élèves du collège Marcel‑André de Seyne‑les‑Alpes, accompagnés de leurs professeurs, ont effectué une sortie à Toulon organisée par la Fnaca et le Souvenir français, visitant le musée de l’Arsenal et le mémorial du Mont‑Faron.",
+   "source": "https://www.laprovence.com/article/region/7113780774025414/des-eleves-du-college-marcel-andre-de-seyne-les-alpes-sur-les-traces-du-debarquement-en-provence",
+   "page": "Des élèves du collège Marcel-André de Seyne-les-Alpes sur les traces du débarquement en Provence",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/25/un-bel-echange-transgenerationnel-sur-les-traces-du-debarquement-en-provence-1750845340_c0fbd7dc30586c4fbd7dc3058c8fbdv_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-06-25",
+   "titre": "Partenaires de la sortie",
+   "extrait": "Les comités locaux de la Fnaca et du Souvenir français ont cofinancé ce voyage.",
+   "resume": "La Fnaca (Fédération nationale des anciens combattants en Algérie, Maroc et Tunisie) et le Souvenir français ont été partenaires et co‑financiers de la sortie des élèves du collège Marcel‑André à Toulon.",
+   "source": "https://www.laprovence.com/article/region/7113780774025414/des-eleves-du-college-marcel-andre-de-seyne-les-alpes-sur-les-traces-du-debarquement-en-provence",
+   "page": "Des élèves du collège Marcel-André de Seyne-les-Alpes sur les traces du débarquement en Provence",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/25/un-bel-echange-transgenerationnel-sur-les-traces-du-debarquement-en-provence-1750845340_c0fbd7dc30586c4fbd7dc3058c8fbdv_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2024-11-11",
+   "titre": "Cérémonie du 11 novembre 2024 – Classe défense",
+   "extrait": "Cérémonie du 11 novembre 2024 Classe défense",
+   "resume": "Les élèves de la classe défense ont participé à la cérémonie commémorative du 11 novembre 2024 au sein du collège Marcel André.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-andre/spip/spip.php?page=plan&lang=fr&tri_arts=date",
+   "page": "Plan du site Collège Marcel AndréAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2024-10-14",
+   "titre": "Cérémonie du 14 octobre 2024",
+   "extrait": "Les élèves de la classe Défense (3ème) et une élève volontaire de 4ème ont lu un texte défendant les valeurs de la République.",
+   "resume": "Le 14 octobre 2024, le collège Marcel André a organisé une cérémonie où les élèves de la classe Défense de 3ᵉ, accompagnés d’une élève de 4ᵉ, ont lu un texte en défense des valeurs de la République, en présence du maire de Seyne, Laurent Pascal.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-andre/spip/Ceremonie-du-14-octobre-2024.html",
+   "page": "Cérémonie du 14 octobre 2024 - Collège Marcel AndréAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-09",
+   "titre": "Signature de convention",
+   "extrait": "conv: Sept. 2024",
+   "resume": "Convention signée en septembre 2024 pour la classe défense du Collège Marcel André.",
+   "source": "https://www.instagram.com/p/DWq7GrfjPAt",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-09",
+   "titre": "Signature de la convention de la classe défense",
+   "extrait": "conv: \"Sept. 2024\"",
+   "resume": "Le collège a signé, en septembre 2024, la convention officielle encadrant la classe défense.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-andre/spip/",
+   "page": "Collège Marcel AndréAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rub",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2024-01-31",
+   "titre": "Les Élèves du BIA Assistents à une Présentation Captivante sur les Métiers de la Défense Aérienne et de la Lutte Anti‑Drone",
+   "extrait": "Les Élèves du BIA Assistents à une Présentation Captivante sur les Métiers de la Défense Aérienne et de la Lutte Anti‑Drone.",
+   "resume": "Des élèves du Brevet d’Initiation Aéronautique ont suivi une présentation sur les métiers de la défense aérienne et la lutte anti‑drone.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-andre/spip/",
+   "page": "Collège Marcel AndréAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rub",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2015-02-20",
+   "titre": "Responsabilité pénale des mineurs expliquée aux collégiens",
+   "extrait": "Les 120 élèves du collège Marcel André ont reçu une information sur la responsabilité pénale des mineurs, en présence de l’adjudant Lairys, commandant de gendarmerie.",
+   "resume": "Le 20 février 2015, les 120 élèves de 6e, 5e et 4e du collège Marcel André ont été informés sur la responsabilité pénale des mineurs par la principale Véronique Fontaine, le maire Francis Hermitte, son adjoint, l’adjudant Lairys (commandant de brigade de gendarmerie) et le maréchal des logis‑chef Arnault, militaire spécialisé dans la prévention de la délinquance juvénile.",
+   "source": "https://www.ledauphine.com/haute-provence/2015/02/20/la-responsabilite-penale-des-mineurs-expliquee-aux-collegiens",
+   "page": "SEYNE-LES-ALPES. La responsabilité pénale des mineurs expliquée aux collégiens",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/BC11E7AA-A66A-40AF-9B70-3B1E2E13A4DD/FB1200/photo-1424429899.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite du 4ᵉ régiment de chasseurs alpins – Classe défense",
+   "extrait": "Parcours citoyen Classe défense Visite au 4ème régiment de chasseurs alpins",
+   "resume": "Dans le cadre du parcours citoyen, la classe défense a effectué une sortie de visite au 4ᵉ régiment de chasseurs alpins.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-andre/spip/spip.php?page=plan&lang=fr&tri_arts=date",
+   "page": "Plan du site Collège Marcel AndréAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "unite: DMD 04",
+   "resume": "L'unité marraine de la classe défense est le DMD 04.",
+   "source": "https://www.instagram.com/p/DWq7GrfjPAt",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Référent classe défense",
+   "extrait": "ref: M. Maurin (HG)",
+   "resume": "Le professeur référent de la classe défense est M. Maurin (HG).",
+   "source": "https://www.instagram.com/p/DWq7GrfjPAt",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 12
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Marcel André (Seyne-les-Alpes)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://pompidou-isere.ent.auvergnerhonealpes.fr/1-l-etablissement/actualites/la-classe-defense-poursuit-son-engagement-citoyen-9683.htm",
+  "https://tavily.com/knowledge/company/5xKu4RJyZafr",
+  "https://www.alpes-de-haute-provence.gouv.fr/content/download/24118/138153/file/raa%2056%20-%203.pdf",
+  "https://www.alpes-de-haute-provence.gouv.fr/content/download/24128/138193/file/raa%2051%20bis_n2.pdf",
+  "https://www.dailymotion.com/video/x9yr4us",
+  "https://www.facebook.com/departementdevaucluse/posts/les-coll%C3%A9giens-reporters-en-herbe-r%C3%A9compens%C3%A9sorganis%C3%A9-par-le-club-de-la-presse-d/1425203299652111",
+  "https://www.facebook.com/santearmees/videos/ils-ont-relev%C3%A9-le-d%C3%A9fi-ils-remportent-le-concours-national-des-classes-de-d%C3%A9fen/1301788792138214",
+  "https://www.facebook.com/ville.draguignan/posts/le-prix-de-la-l%C3%A9gion-dhonneur-aux-%C3%A9l%C3%A8ves-m%C3%A9ritantsle-comit%C3%A9-local-de-la-soci%C3%A9t%C3%A9-/848083600686294",
+  "https://www.instagram.com/p/DWq7GrfjPAt",
+  "https://www.laprovence.com/article/region/1405858521243715/lycees-et-colleges-autour-de-l-etang-l-accompagnement-des-eleves-de-la-6e-vers-la-3e-au-coeur-de-la-reussite",
+  "https://www.laprovence.com/article/region/7113780774025414/des-eleves-du-college-marcel-andre-de-seyne-les-alpes-sur-les-traces-du-debarquement-en-provence",
+  "https://www.laprovence.com/article/region/7218980418337315/une-section-sportive-montagne-inauguree-au-college-marcel-andre-a-seyne-les-alpes",
+  "https://www.laprovence.com/article/societe/1334385426116214/rentree-2026-134-eleves-attendus-au-regroupement-pedagogique-et-pres-de-110-au-college-dans-le-pays-de-seyne",
+  "https://www.laprovence.com/article/societe/1583376894308715/le-college-marcel-andre-a-seyne-les-alpes-affiche-un-taux-de-reussite-de-96-au-brevet",
+  "https://www.ledauphine.com/education/2026/02/13/les-syndicats-alertent-sur-une-degradation-des-conditions-dans-les-colleges",
+  "https://www.ledauphine.com/faits-divers-justice/2023/11/15/quinze-fausses-alertes-a-la-bombe-en-dix-jours-comment-faire-face",
+  "https://www.ledauphine.com/haute-provence/2015/02/20/la-responsabilite-penale-des-mineurs-expliquee-aux-collegiens",
+  "https://www.ledauphine.com/haute-provence/2017/09/07/rentree-sous-l-oeil-du-recteur-d-academie-au-college-marcel-andre",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marcel-andre-04.html",
+  "https://www.mondepartement04.fr/lannuaire/college-marcel-andre-seyne-les-alpes",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/alpes-de-haute-provence/college-marcel-andre",
+  "https://www.site.ac-aix-marseille.fr/clg-andre/",
+  "https://www.site.ac-aix-marseille.fr/clg-andre/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-andre/spip/Ceremonie-du-14-octobre-2024.html",
+  "https://www.site.ac-aix-marseille.fr/clg-andre/spip/spip.php?page=plan&lang=fr&tri_arts=date"
+ ],
+ "etablissement": "Collège Marcel André (Seyne-les-Alpes)",
+ "referents_cites": "M. Maurin, Véronique Fontaine",
+ "unite_citee": "DMD 04"
 }

@@ -1,14 +1,95 @@
 {
  "fiche": "lycee-pierre-mendes-france-vitrolles",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2024-12",
+   "titre": "Signature / renouvellement de convention",
+   "extrait": "\"conv\": \"Déc. 2024\"",
+   "resume": "Le lycée Pierre Mendès France a signé ou renouvelé une convention pour la classe défense en décembre 2024.",
+   "source": "https://www.upsti.fr/etablissements/etablissement/295/",
+   "page": "UPSTI - Lycée polyvalent Pierre Mendès France - lycée des métiers de l'aeronautique (Vitrolles)",
+   "site": "upsti.fr",
+   "image": "https://www.upsti.fr/static/fav/mstile-310x310.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-12",
+   "titre": "Signature de convention",
+   "extrait": "\"conv\": \"Déc. 2024\"",
+   "resume": "Convention signée en décembre 2024 entre le lycée Pierre Mendès France et l'unité BA 125 d'Istres pour la classe défense.",
+   "source": "https://www.youtube.com/watch?v=9FuNeBpxNM0",
+   "page": "The Heads of Company Offices (RBDE) #4: Pierre Mendès France High School, Vitrolles",
+   "site": "youtube.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "\"unite\": \"BA 125 Istres\"",
+   "resume": "L'unité marraine de la classe défense du lycée est le BA 125 basé à Istres.",
+   "source": "https://www.upsti.fr/etablissements/etablissement/295/",
+   "page": "UPSTI - Lycée polyvalent Pierre Mendès France - lycée des métiers de l'aeronautique (Vitrolles)",
+   "site": "upsti.fr",
+   "image": "https://www.upsti.fr/static/fav/mstile-310x310.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "\"unite\": \"BA 125 Istres\"",
+   "resume": "L'unité marraine de la classe défense est la BA 125 basée à Istres.",
+   "source": "https://www.youtube.com/watch?v=9FuNeBpxNM0",
+   "page": "The Heads of Company Offices (RBDE) #4: Pierre Mendès France High School, Vitrolles",
+   "site": "youtube.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 4
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Lycée Pierre Mendès France (Vitrolles)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://annuaire-education.fr/etablissement/vitrolles/college-henri-fabre/0132214L.html",
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://tavily.com/knowledge/company/1WbM2S3EK8ZO",
+  "https://ville-data.com/college/College-Simone-de-Beauvoir-13127/Vitrolles/13-33380-13117",
+  "https://www.ac-aix-marseille.fr/la-classe-defense-du-college-roumanille-participe-au-rallye-citoyen-esprit-defense-126459",
+  "https://www.ac-rennes.fr/les-classes-de-defense-et-les-classes-de-defense-et-de-securite-globales-122825",
+  "https://www.ac-reunion.fr/les-classes-defense-126458",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/794/5849/file/ra209.pdf",
+  "https://www.facebook.com/ville.vitrolles/videos/-quand-la-parole-devient-une-force-la-fin-de-lann%C3%A9e-scolaire-est-le-moment-id%C3%A9al/2060641424845843",
+  "https://www.laprovence.com/article/edition-vitrolles-marignane/4751686/le-college-cousteau-sinvestit-pour-la-paix.html",
+  "https://www.laprovence.com/article/edition-vitrolles-marignane/5410355/la-fronde-sorganise-du-cote-du-monde-educatif-local.html",
+  "https://www.laprovence.com/article/edition-vitrolles-marignane/5576906/la-fronde-est-bien-la-du-cote-de-simone-de-beauvoir.html",
+  "https://www.laprovence.com/article/politique/5170336/a-marseille-et-vitrolles-jean-michel-blanquer-teste-lefficacite-de-ses-reformes.html",
+  "https://www.laprovence.com/article/region/1273888944273714/quand-l-education-prioritaire-fait-rimer-diversite-avec-harmonie-dans-les-classes-de-vitrolles",
+  "https://www.ledauphine.com/education/2024/06/06/college-vauban-ils-ont-gagne-le-concours-iter-robot",
+  "https://www.ledauphine.com/education/2025/06/03/une-escapade-a-marseille-pour-les-collegiens-de-notre-dame",
+  "https://www.ledauphine.com/education/resultats-examens?departmentCode=13&city=Vitrolles&establishmentCode=013+VITROLLES&diplomaCode=670",
+  "https://www.ledauphine.com/faits-divers-justice/2026/10/12/aubagne-le-principal-et-une-professeure-de-college-blesses-par-un-tir-de-fusil-un-eleve-a-ete-arrete",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-simone-de-beauvoir-05.html",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-pierre-mendes-france-lycee-des-metiers-de-laeronautique-05.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-polyvalent-pierre-mendes-france",
+  "https://www.site.ac-aix-marseille.fr/lyc-mendesfrance-vitrolles/",
+  "https://www.site.ac-aix-marseille.fr/lyc-mendesfrance-vitrolles/spip",
+  "https://www.upsti.fr/etablissements/etablissement/295",
+  "https://www.youtube.com/watch?v=9FuNeBpxNM0"
+ ],
+ "etablissement": "Lycée Pierre Mendès France (Vitrolles)",
+ "referents_cites": "M. Blondel",
+ "unite_citee": "BA 125 Istres"
 }

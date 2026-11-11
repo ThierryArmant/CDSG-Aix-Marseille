@@ -1,14 +1,109 @@
 {
  "fiche": "lycee-des-metiers-sevigne-gap",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2026-05",
+   "titre": "Convention avec l'unité marraine",
+   "extrait": "unité marraine : 4e Régiment de chasseurs – convention signée en mai 2026",
+   "resume": "Le lycée professionnel Sévigné a signé en mai 2026 une convention avec le 4e Régiment de chasseurs, qui devient son unité marraine pour la classe défense.",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-sevigne-lycee-des-metiers-de-la-restauration-des-services-aux-entreprises-et-aux-personnes-05.html",
+   "page": "Lycée professionnel Sévigné, Gap (05), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-05",
+   "titre": "Convention avec le 4e Régiment de chasseurs",
+   "extrait": "conv: Mai 2026",
+   "resume": "Convention signée en mai 2026 entre le lycée Sévigné et le 4e Régiment de chasseurs, unité marraine de la classe défense.",
+   "source": "https://www.facebook.com/parlementeuropeenmarseille/posts/-aujourdhui-vendredi-21-octobre-2022-le-lyc%C3%A9e-s%C3%A9vign%C3%A9-%C3%A0-gap-a-%C3%A9t%C3%A9-r%C3%A9compens%C3%A9-par/488559803312219",
+   "page": "🔝 Aujourd'hui, vendredi 21 octobre 2022, le lycée Sévigné à Gap ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.facebook.com/lyceesevignegap/posts/-festival-de-cannes-dans-le-cadre-de-lyc%C3%A9ens-et-apprentis-au-cin%C3%A9ma-la-classe-de/476567036551953"
+   ]
+  },
+  {
+   "type": "convention",
+   "date": "2026-05",
+   "titre": "Signature de convention avec le 4e Régiment de chasseurs",
+   "extrait": "conv : \"Mai 2026\"",
+   "resume": "Le lycée des métiers Sévigné a signé (ou renouvelé) une convention de partenariat en mai 2026 avec le 4e Régiment de chasseurs, unité marraine de la classe défense.",
+   "source": "https://www.ledauphine.com/education/2023/01/14/le-lycee-sevigne-tisse-des-liens-avec-le-quebec",
+   "page": "Gap. Le lycée Sévigné tisse des liens avec le Québec",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/FB1DB2D6-E4CC-4D1A-A44E-A34B93511F24/FB1200/photo-1673721988.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2024-03-15",
+   "titre": "Rencontre des terminales du lycée Sévigné avec Patricia Miralles",
+   "extrait": "les élevés de Terminale du lycée Sévigné de Gap ont élaboré l'ouvrage « Gap au fil de l'Histoire », récipiendaire de nombreux prix nationaux.",
+   "resume": "Le 15 mars 2024, la secrétaire d’État aux Anciens combattants, Patricia Miralles, a rencontré les élèves de terminale du lycée Sévigné de Gap, qui ont présenté leur ouvrage « Gap au fil de l'Histoire », lauréat de plusieurs prix nationaux.",
+   "source": "https://www.laprovence.com/article/region/27902799278321/patricia-miralles-secretaire-detat-chargee-des-anciens-combattants-en-deplacement-dans-les-hautes-alpes-ce-vendredi",
+   "page": "Patricia Miralles, secrétaire d'Etat chargée des Anciens combattants en déplacement dans les Hautes-Alpes ce vendredi",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=0,trim.height=1115,trim.width=2000/media/2024/03/13/CCS_9184.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "unite: 4e Régiment de chasseurs",
+   "resume": "Le 4e Régiment de chasseurs est désigné comme unité marraine de la classe défense du lycée Sévigné.",
+   "source": "https://www.facebook.com/parlementeuropeenmarseille/posts/-aujourdhui-vendredi-21-octobre-2022-le-lyc%C3%A9e-s%C3%A9vign%C3%A9-%C3%A0-gap-a-%C3%A9t%C3%A9-r%C3%A9compens%C3%A9-par/488559803312219",
+   "page": "🔝 Aujourd'hui, vendredi 21 octobre 2022, le lycée Sévigné à Gap ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 5
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Lycée des métiers Sévigné (Gap)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "https://tavily.com/knowledge/company/S2NSvxBBOgkH",
+  "https://www.ensemble-montplaisir.org/la-classe-defense",
+  "https://www.facebook.com/ArmeesZoneSud/posts/la-classe-m%C3%A9moire-et-avenir-du-coll%C3%A8ge-les-giraudes-laur%C3%A9ate-du-prix-arm%C3%A9es-zone/819731320200917",
+  "https://www.facebook.com/lyceesevignegap/mentions",
+  "https://www.facebook.com/lyceesevignegap/posts/-festival-de-cannes-dans-le-cadre-de-lyc%C3%A9ens-et-apprentis-au-cin%C3%A9ma-la-classe-de/476567036551953",
+  "https://www.facebook.com/parlementeuropeenmarseille/posts/-aujourdhui-vendredi-21-octobre-2022-le-lyc%C3%A9e-s%C3%A9vign%C3%A9-%C3%A0-gap-a-%C3%A9t%C3%A9-r%C3%A9compens%C3%A9-par/488559803312219",
+  "https://www.facebook.com/prefet05/posts/-c%C3%A9r%C3%A9monie-du-souvenir-fran%C3%A7ais-hommage-aux-morts-pour-la-france-en-ce-1er-novem/1137550748553929",
+  "https://www.facebook.com/santearmees/videos/ils-ont-relev%C3%A9-le-d%C3%A9fi-ils-remportent-le-concours-national-des-classes-de-d%C3%A9fen/1301788792138214",
+  "https://www.facebook.com/villecannes/posts/-%C3%A0-linitiative-de-l%C3%A9cole-saint-joseph-une-c%C3%A9r%C3%A9monie-a-r%C3%A9uni-les-%C3%A9l%C3%A8ves-de-trois-/1609923017842573",
+  "https://www.hautes-alpes.gouv.fr/layout/set/print/Actualites/Actualites-des-services-de-l-Etat/Ceremonie-d-hommage-pour-acte-de-courage-et-de-devouement",
+  "https://www.hautes-alpes.gouv.fr/layout/set/print/Actualites/Bilan-des-initiatives-scolaires-pour-une-reussite-accessible-a-tous",
+  "https://www.laprovence.com/archives/2025-12-15/4",
+  "https://www.laprovence.com/article/edition-alpes/2721888/des-enseignants-occupent-le-lycee-paul-heraud.html",
+  "https://www.laprovence.com/article/region/27902799278321/patricia-miralles-secretaire-detat-chargee-des-anciens-combattants-en-deplacement-dans-les-hautes-alpes-ce-vendredi",
+  "https://www.laprovence.com/article/societe/555946578047314/les-enseignants-les-plus-innovants-de-l-academie-d-aix-marseille-recompenses",
+  "https://www.laprovence.com/article/sports/4731570/ils-ont-decroche-leur-billet-pour-les-france.html",
+  "https://www.ledauphine.com/education/2020/09/23/la-semaine-du-developpement-durable-au-lycee-sevigne",
+  "https://www.ledauphine.com/education/2023/01/14/le-lycee-sevigne-tisse-des-liens-avec-le-quebec",
+  "https://www.ledauphine.com/education/2025/05/01/au-lycee-sevigne-des-eleves-ont-collecte-les-souvenirs-d-anciens",
+  "https://www.ledauphine.com/education/2026/04/17/neuf-serviteurs-de-l-ecole-honores-au-lycee-sevigne",
+  "https://www.ledauphine.com/education/2026/04/29/les-eleves-du-lycee-sevigne-se-preparent-au-monde-du-travail",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-sevigne-lycee-des-metiers-de-la-restauration-des-services-aux-entreprises-et-aux-personnes-05.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/hautes-alpes/lycee-professionnel-sevigne",
+  "https://www.site.ac-aix-marseille.fr/lyc-sevigne/",
+  "https://www.site.ac-aix-marseille.fr/lyc-sevigne/spip"
+ ],
+ "etablissement": "Lycée des métiers Sévigné (Gap)",
+ "referents_cites": "M. Bertocchi",
+ "unite_citee": "4e Régiment de chasseurs"
 }

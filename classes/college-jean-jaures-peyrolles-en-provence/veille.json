@@ -1,14 +1,88 @@
 {
  "fiche": "college-jean-jaures-peyrolles-en-provence",
- "elements": [],
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2022-09-09",
+   "titre": "Signature de convention avec l'unité FREMM Provence (Toulon)",
+   "extrait": "unité marraine : FREMM Provence (Toulon), convention signée le 09/09/2022",
+   "resume": "Le collège Jean Jaurès a signé une convention le 9 septembre 2022 avec l’unité FREMM Provence de Toulon, marraine de la classe défense.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-jaures-13.html",
+   "page": "Collège Jean Jaurès, Peyrolles-en-Provence (13), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/",
+    "https://www.journaldesfemmes.fr/maman/ecole/college-jean-jaures/college-0131723C",
+    "https://www.laprovence.com/article/societe/1032101534670415/le-college-de-peyrolles-rebaptise-du-nom-de-lex-maire-olivier-fregeac"
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/04/29/olivier-fregeac-maire-de-peyrolles-et-president-du-grand-site-concors-sainte-victoire-maire-280125sd-1777465867_7165d289d07865565d289d0782965dv_.jpg"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe 3° Défense EPI",
+   "extrait": "Classe 3° Défense EPI",
+   "resume": "Le collège propose une classe de 3e intitulée Défense dans le cadre des EPI.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/",
+   "page": "Collège Olivier FrégeacAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "FREMM Provence (Toulon)",
+   "resume": "L’unité marraine de la classe Défense est le FREMM Provence basé à Toulon.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/",
+   "page": "Collège Olivier FrégeacAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Jean Jaurès (Peyrolles-en-Provence)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://tavily.com/knowledge/company/2HGPz1iAnptQ",
+  "https://tavily.com/knowledge/company/ZQhnNqqI6J9l",
+  "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.defense.gouv.fr/gendarmerie",
+  "https://www.facebook.com/MartineVassalOfficiel/posts/aujourdhui-le-coll%C3%A8ge-de-peyrolles-en-provence-porte-d%C3%A9sormais-le-nom-dolivier-f/1634573331371714",
+  "https://www.facebook.com/departement13/videos/%EF%B8%8F-voselusontvot%C3%A9sous-limpulsion-de-martine-vassal-et-de-vos-%C3%A9lus-4-rapports-phar/1728822811826277",
+  "https://www.facebook.com/groups/359816797922779/posts/2172102900027484",
+  "https://www.facebook.com/laprovence/posts/%C3%A0-peyrolles-en-provence-le-coll%C3%A8ge-jean-jaur%C3%A8s-a-officiellement-%C3%A9t%C3%A9-rebaptis%C3%A9-lo/1563322935838865",
+  "https://www.facebook.com/laprovence/posts/un-coll%C3%A8ge-de-peyrolles-en-provence-devrait-%C3%AAtre-renomm%C3%A9-par-le-conseil-d%C3%A9partem/1409473107890516",
+  "https://www.facebook.com/p/Parents-Unis-Jean-Jaur%C3%A8s-100086214540960",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-jean-jaures/college-0131723C",
+  "https://www.laprovence.com/actu/en-direct/5759946/unss-2400-participants-au-cross-departemental-a-marignane.html",
+  "https://www.laprovence.com/article/politique/9820599445225814/un-college-olivier-fregeac-du-nom-de-lancien-maire-disparu-bientot-inaugure-a-peyrolles",
+  "https://www.laprovence.com/article/region/20398128504248/le-nom-de-l-ancien-maire-decede-de-peyrolles-en-provence-olivier-fregeac-inscrit-dans-l-avenir-des-collegiens",
+  "https://www.laprovence.com/article/societe/1032101534670415/le-college-de-peyrolles-rebaptise-du-nom-de-lex-maire-olivier-fregeac",
+  "https://www.laprovence.com/article/societe/8712587864501514/direct-laprovence-direct-greve-du-5-novembre-aix-marseille-avignon-digne-le-point-sur-la-mobilisation-en-provence",
+  "https://www.ledauphine.com/archives/2018/29-09",
+  "https://www.ledauphine.com/archives/2022/22-06",
+  "https://www.ledauphine.com/archives/2024/16-10",
+  "https://www.ledauphine.com/edition-gap-alpes-du-sud/2019/12/19/les-marseillais-qualifies-pour-la-finale",
+  "https://www.ledauphine.com/sport/2022/11/25/les-matchs-championnat-regional-honneur",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-jaures-13.html",
+  "https://www.plus.transformation.gouv.fr/0131723c-college-jean-jaures",
+  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/",
+  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip"
+ ],
+ "etablissement": "Collège Jean Jaurès (Peyrolles-en-Provence)",
+ "referents_cites": "Mme Nozais",
+ "unite_citee": "FREMM Provence (Toulon)"
 }

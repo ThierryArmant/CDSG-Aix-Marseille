@@ -1,14 +1,87 @@
 {
  "fiche": "college-du-pays-de-sault-sault",
- "elements": [],
+ "elements": [
+  {
+   "type": "article",
+   "date": "2026-09-09",
+   "titre": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+   "extrait": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+   "resume": "Le 9 septembre 2026, le Collège du Pays de Sault a présenté sa classe défense où les élèves de 3e ont été initiés aux métiers de l'armée, selon un post de Réunion la 1ère.",
+   "source": "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+   "page": "13K views · 106 reactions | Classe défense : des élèves de 3e formés aux métiers de l'armée | Réunion la 1ère",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-11",
+   "titre": "Mise à jour de la convention",
+   "extrait": "Mise à jour nov. 2025",
+   "resume": "La convention de la classe défense du Collège du Pays de Sault a été actualisée en novembre 2025.",
+   "source": "https://www.laprovence.com/article/region/3727600961750414/les-eleves-du-college-de-sault-ont-ete-sensibilises-au-gaspillage-alimentaire",
+   "page": "Les élèves du collège de Sault ont été sensibilisés au gaspillage alimentaire",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/18/maud-a-invite-les-les-eleves-a-reflechir-sur-le-gaspillage-alimentaire-1789725802_384575de69aa64c4575de69aa10557v_.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.laprovence.com/article/region/4527304443584114/college-bilan-en-demi-teinte-pour-les-parents-d-eleves"
+   ]
+  },
+  {
+   "type": "sortie",
+   "date": "2015-02-17",
+   "titre": "Exercice d’évacuation réussi au collège",
+   "extrait": "250 élèves sont évacués en bon ordre en moins de trois minutes.",
+   "resume": "Le 17 février 2015, le collège du Pays de Sault a mené un exercice d’évacuation où 250 élèves ont été évacués en moins de trois minutes, suivi d’une visite complète des lieux par les pompiers.",
+   "source": "https://www.ledauphine.com/vaucluse/2015/02/17/exercice-d-evacuation-reussi-au-college",
+   "page": "Sault. Exercice d’évacuation réussi au collège",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/D6E4E1A2-34A8-4AE4-A5B7-AE3395B86932/FB1200/photo-1783043517.jpg",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège du Pays de Sault (Sault)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/centac/nos-activites-rayonnement/classes-defense",
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
+  "https://en.wikipedia.org/wiki/Sault_College",
+  "https://lyceevaclavhavel.fr/actions/classe_defense/la-classe-defense-remporte-le-1er-prix-national-du-ssa",
+  "https://www.ac-aix-marseille.fr/la-classe-defense-du-college-roumanille-participe-au-rallye-citoyen-esprit-defense-126459",
+  "https://www.ac-rennes.fr/les-classes-de-defense-et-les-classes-de-defense-et-de-securite-globales-122825",
+  "https://www.cdfnancy.fr/page-college/le-college/decouvrir-le-college/classe-defense",
+  "https://www.education.gouv.fr/ivac/2023/0840032d/college-pays-de-sault-du",
+  "https://www.facebook.com/SaultCollege",
+  "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+  "https://www.instagram.com/p/Dasp-j0jNNg",
+  "https://www.laprovence.com/article/edition-vaucluse/4100321/changements-et-projets-au-college-du-pays-de-sault.html",
+  "https://www.laprovence.com/article/region/3727600961750414/les-eleves-du-college-de-sault-ont-ete-sensibilises-au-gaspillage-alimentaire",
+  "https://www.laprovence.com/article/region/4527304443584114/college-bilan-en-demi-teinte-pour-les-parents-d-eleves",
+  "https://www.laprovence.com/article/region/53235671732991/mets-tes-baskets-et-bats-la-maladie-les-eleves-du-college-du-pays-de-sault-courent-pour-la-bonne-cause",
+  "https://www.laprovence.com/article/sports/4198397/le-college-paul-gauthier-en-haut-de-laffiche.html",
+  "https://www.ledauphine.com/culture-loisirs/2024/02/02/un-loto-au-profit-de-l-ape-du-college-dimanche",
+  "https://www.ledauphine.com/education/2026/09/04/a-sault-derriere-une-prof-d-anglais-le-cri-d-un-territoire-rural",
+  "https://www.ledauphine.com/education/2026/09/18/une-journee-pour-sensibiliser-les-eleves-au-gaspillage-alimentaire",
+  "https://www.ledauphine.com/vaucluse/2015/02/17/exercice-d-evacuation-reussi-au-college",
+  "https://www.ledauphine.com/vaucluse/2017/05/13/l-expo-une-derniere-annee-lumiere-a-l-ancien-college",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-du-pays-de-sault-84.html",
+  "https://www.saultcollege.ca/news",
+  "https://www.site.ac-aix-marseille.fr/clg-sault/",
+  "https://www.site.ac-aix-marseille.fr/clg-sault/spip"
+ ],
+ "etablissement": "Collège du Pays de Sault (Sault)",
+ "referents_cites": "M. Guiraud",
+ "unite_citee": "2e Régiment étranger de génie"
 }

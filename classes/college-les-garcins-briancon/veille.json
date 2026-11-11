@@ -1,14 +1,295 @@
 {
  "fiche": "college-les-garcins-briancon",
- "elements": [],
+ "elements": [
+  {
+   "type": "ceremonie",
+   "date": "2026-11-11",
+   "titre": "Commémoration du 11‑Novembre",
+   "extrait": "La classe défense se prépare pour le 11‑Novembre.",
+   "resume": "La classe défense se prépare à participer à la cérémonie du 11 novembre 2026, jour de l’Armistice.",
+   "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
+   "page": "Briançon. La classe défense se prépare pour le 11-Novembre",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/762D3FE6-FDC0-4973-8ADE-A4AF1415F720/FB1200/photo-1793989579.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2026-11-06",
+   "titre": "La classe défense se prépare pour le 11-Novembre",
+   "extrait": "Briançon. La classe défense se prépare pour le 11-Novembre",
+   "resume": "Article du Dauphiné Libéré du 6 novembre 2026 présentant les activités de la classe défense du collège Les Garcins.",
+   "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
+   "page": "Briançon. La classe défense se prépare pour le 11-Novembre",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/762D3FE6-FDC0-4973-8ADE-A4AF1415F720/FB1200/photo-1793989579.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2026-11-05",
+   "titre": "Visite du Souvenir français",
+   "extrait": "Jeudi 5 novembre, la classe défense du collège des Garcins a reçu la visite d’une délégation du Souvenir français, antenne de Briançon.",
+   "resume": "Le 5 novembre 2026, une délégation du Souvenir français (antenne de Briançon) a rendu visite à la classe défense du collège Les Garcins.",
+   "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
+   "page": "Briançon. La classe défense se prépare pour le 11-Novembre",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/762D3FE6-FDC0-4973-8ADE-A4AF1415F720/FB1200/photo-1793989579.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2026-11-05",
+   "titre": "Souvenir français (antenne de Briançon)",
+   "extrait": "délégation du Souvenir français, antenne de Briançon.",
+   "resume": "Le Souvenir français, antenne de Briançon, a été partenaire de la visite du 5 novembre 2026.",
+   "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
+   "page": "Briançon. La classe défense se prépare pour le 11-Novembre",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/762D3FE6-FDC0-4973-8ADE-A4AF1415F720/FB1200/photo-1793989579.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2026-11-04",
+   "titre": "Classe défense",
+   "extrait": "PEDAGOGIE Anglais Classe défense Education Physique et Sportive",
+   "resume": "Le site du Collège Les Garcins mentionne la classe défense parmi les enseignements de pédagogie.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/",
+   "page": "Collège Les GarcinsAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubr",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2026-08-28",
+   "titre": "Visite surprise pour la classe défense",
+   "extrait": "Visite surprise pour la classe défense - Collège Les Garcins",
+   "resume": "Article publié le 28 août 2026 présentant la visite du 5 septembre 2025 de la classe défense du collège Les Garcins.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html",
+   "page": "Visite surprise pour la classe défense - Collège Les GarcinsAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2026-04-09",
+   "titre": "Visite du 4e Régiment de chasseurs à Gap",
+   "extrait": "Les militaires ont donné rendez‑vous aux adolescents pour une visite sur le terrain des infrastructures du 4e RCh à Gap.",
+   "resume": "Une visite du 4e Régiment de chasseurs de Gap était prévue le 9 avril 2026 pour les élèves de la classe défense afin de découvrir les installations du régiment.",
+   "source": "https://www.ledauphine.com/societe/2026/04/06/des-militaires-du-4-sup-e-sup-rch-en-visite-au-college-les-garcins",
+   "page": "Briançon. Des militaires du 4e RCh en visite au collège Les Garcins",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/F1B587C4-1B52-4755-A877-E1D160A88A9D/FB1200/photo-1775491557.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2026-04-06",
+   "titre": "Des militaires du 4e RCh en visite au collège Les Garcins",
+   "extrait": "La classe défense du collège Les Garcins, parrainée par le 4e Régiment de chasseurs de Gap, a proposé une rencontre entre militaires et élèves jeudi",
+   "resume": "Le 6 avril 2026, Le Dauphiné Libéré a publié un article sur la visite de militaires du 4e RCh au collège Les Garcins, où la classe défense, parrainée par le 4e RCh de Gap, a organisé une rencontre avec les élèves.",
+   "source": "https://www.ledauphine.com/societe/2026/04/06/des-militaires-du-4-sup-e-sup-rch-en-visite-au-college-les-garcins",
+   "page": "Briançon. Des militaires du 4e RCh en visite au collège Les Garcins",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/F1B587C4-1B52-4755-A877-E1D160A88A9D/FB1200/photo-1775491557.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2026-04-06",
+   "titre": "4e Régiment de chasseurs (Gap) – unité marraine",
+   "extrait": "parrainée par le 4e Régiment de chasseurs de Gap",
+   "resume": "Le 4e Régiment de chasseurs de Gap agit comme unité marraine de la classe défense du collège Les Garcins.",
+   "source": "https://www.ledauphine.com/societe/2026/04/06/des-militaires-du-4-sup-e-sup-rch-en-visite-au-college-les-garcins",
+   "page": "Briançon. Des militaires du 4e RCh en visite au collège Les Garcins",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/F1B587C4-1B52-4755-A877-E1D160A88A9D/FB1200/photo-1775491557.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2026-04-02",
+   "titre": "Rencontre entre militaires et élèves",
+   "extrait": "Durant deux heures, élèves et militaires ont échangé en toute simplicité.",
+   "resume": "Le jeudi 2 avril 2026, les 15 collégiens de la classe défense ont reçu trois militaires du 4e RCh pour un échange de deux heures au sein du collège.",
+   "source": "https://www.ledauphine.com/societe/2026/04/06/des-militaires-du-4-sup-e-sup-rch-en-visite-au-college-les-garcins",
+   "page": "Briançon. Des militaires du 4e RCh en visite au collège Les Garcins",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/F1B587C4-1B52-4755-A877-E1D160A88A9D/FB1200/photo-1775491557.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2025-10-02",
+   "titre": "Présentez‑armes !",
+   "extrait": "Briançon s'est rendu le jeudi 2 octobre 2025 dans une classe défense convention avec le 4e Régiment de Chasseur à Gap",
+   "resume": "Le jeudi 2 octobre 2025, les élèves du collège Les Garcins ont participé à la cérémonie « Présentez‑armes » dans le cadre de leur classe défense, en présence du 4e Régiment de chasseurs de Gap.",
+   "source": "https://www.facebook.com/Gendarmeriedeshautesalpes/posts/prise-de-commandement-ccie-brian%C3%A7onpr%C3%A9sentez-armeslors-dune-c%C3%A9r%C3%A9monie-militaire-/941981761304436",
+   "page": "CCIE BRIANÇON] \"Présentez-armes!\" ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2025-10-02",
+   "titre": "CCIE BRIANÇON – Présentez‑armes !",
+   "extrait": "CCIE BRIANÇON] \"Présentez-armes!\"",
+   "resume": "Publication Facebook de la Gendarmerie des Hautes‑Alpes annonçant la participation du collège Les Garcins à la cérémonie « Présentez‑armes » le 2 octobre 2025, dans le cadre de la classe défense avec le 4e Régiment de chasseurs (Gap).",
+   "source": "https://www.facebook.com/Gendarmeriedeshautesalpes/posts/prise-de-commandement-ccie-brian%C3%A7onpr%C3%A9sentez-armeslors-dune-c%C3%A9r%C3%A9monie-militaire-/941981761304436",
+   "page": "CCIE BRIANÇON] \"Présentez-armes!\" ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-09-05",
+   "titre": "Visite surprise pour la classe défense",
+   "extrait": "Le vendredi 5 septembre 2025, Monsieur Aymeric Meiss, Directeur Académique des Hautes‑Alpes, a visité le collège Les Garcins à Briançon.",
+   "resume": "Le 5 septembre 2025, le Directeur Académique des Hautes‑Alpes, M. Aymeric Meiss, accompagné de la députée Valérie Rossi, a visité le collège Les Garcins où la classe défense a présenté son projet, en lien avec le 4e régiment de chasseurs de Gap.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html",
+   "page": "Visite surprise pour la classe défense - Collège Les GarcinsAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11",
+   "image": "https://cdn-s-www.ledauphine.com/images/62AE496A-3240-4CE1-BEF8-2D218166422C/FB1200/photo-1757093873.jpg",
+   "autres_sources": [
+    "https://www.ledauphine.com/societe/2025/09/05/aux-garcins-des-classes-s-ajustent-aux-parcours-des-eleves"
+   ]
+  },
+  {
+   "type": "convention",
+   "date": "2023-10",
+   "titre": "Signature de convention avec le 4e Régiment de chasseurs",
+   "extrait": "conv: Oct. 2023",
+   "resume": "Une convention de partenariat a été signée en octobre 2023 entre le collège Les Garcins et le 4e Régiment de chasseurs de Gap, officialisant le parrainage de la classe défense.",
+   "source": "https://www.ledauphine.com/societe/2026/04/06/des-militaires-du-4-sup-e-sup-rch-en-visite-au-college-les-garcins",
+   "page": "Briançon. Des militaires du 4e RCh en visite au collège Les Garcins",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/F1B587C4-1B52-4755-A877-E1D160A88A9D/FB1200/photo-1775491557.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-10",
+   "titre": "Signature de la convention avec le 4e Régiment de chasseurs",
+   "extrait": "Convention signée en octobre 2023 entre le collège et le 4e Régiment de chasseurs (Gap)",
+   "resume": "En octobre 2023, le collège des Garcins a signé une convention avec le 4e Régiment de chasseurs de Gap, officialisant le partenariat de la classe défense.",
+   "source": "https://www.facebook.com/LeDL05/posts/si-la-classe-d%C3%A9fense-du-coll%C3%A8ge-des-garcins-a-%C3%A9t%C3%A9-cr%C3%A9%C3%A9e-en-septembre-2023-alors-/1901051861215537",
+   "page": "Si la classe défense du collège des Garcins a été créée en ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-10",
+   "titre": "Convention avec le 4e Régiment de chasseurs (Gap)",
+   "extrait": "Convention signée en octobre 2023 avec le 4e Régiment de chasseurs de Gap",
+   "resume": "Le collège Les Garcins a signé en octobre 2023 une convention avec le 4e Régiment de chasseurs de Gap, unité marraine de la classe défense.",
+   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-les-garcins-05.html",
+   "page": "Collège les Garcins, Briançon (05), avis et classement, toutes les infos et les spécialités - L'Etudiant",
+   "site": "letudiant.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-10",
+   "titre": "Signature de la convention de partenariat pour la classe Défense et sécurité globale",
+   "extrait": "Convention signée en octobre 2023 pour la classe Défense et sécurité globale du collège Les Garcins.",
+   "resume": "En octobre 2023, le collège Les Garcins a conclu une convention de partenariat relative à la mise en place de la classe Défense et sécurité globale.",
+   "source": "https://www.ledauphine.com/societe/2025/09/05/aux-garcins-des-classes-s-ajustent-aux-parcours-des-eleves",
+   "page": "Briançon. Aux Garcins, des classes s’ajustent aux parcours des élèves",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/62AE496A-3240-4CE1-BEF8-2D218166422C/FB1200/photo-1757093873.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-10",
+   "titre": "Signature de convention",
+   "extrait": "conv: Oct. 2023",
+   "resume": "Une convention entre le collège Les Garcins de Briançon et le 4e Régiment de chasseurs de Gap a été signée en octobre 2023.",
+   "source": "https://www.facebook.com/Gendarmeriedeshautesalpes/posts/prise-de-commandement-ccie-brian%C3%A7onpr%C3%A9sentez-armeslors-dune-c%C3%A9r%C3%A9monie-militaire-/941981761304436",
+   "page": "CCIE BRIANÇON] \"Présentez-armes!\" ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2023-10",
+   "titre": "Convention avec le 4e Régiment de chasseurs",
+   "extrait": "Convention signée en octobre 2023 avec le 4e Régiment de chasseurs (Gap)",
+   "resume": "Le collège Les Garcins a signé en octobre 2023 une convention avec le 4e Régiment de chasseurs de Gap, unité marraine de la classe défense.",
+   "source": "https://www.laprovence.com/actu/en-direct/5317755/hautes-alpes-blanquer-ne-confirme-pas-la-fin-des-allocations-des-parents-des-eleves-violents.html",
+   "page": "Hautes-Alpes : Blanquer ne confirme pas la fin des allocations des parents des élèves violents",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2018-12/2018-12-15/20181215_1_2_8_1_0_obj19111821_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2023-09",
+   "titre": "Création de la classe défense",
+   "extrait": "Créée en septembre 2023, la classe défense est mixée avec la classe « prépa‑métiers »",
+   "resume": "La classe défense du collège des Garcins a été mise en place en septembre 2023, en association avec la classe prépa‑métiers.",
+   "source": "https://www.facebook.com/LeDL05/posts/si-la-classe-d%C3%A9fense-du-coll%C3%A8ge-des-garcins-a-%C3%A9t%C3%A9-cr%C3%A9%C3%A9e-en-septembre-2023-alors-/1901051861215537",
+   "page": "Si la classe défense du collège des Garcins a été créée en ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": null,
+   "titre": "Projet classe défense avec le 4e régiment de chasseurs",
+   "extrait": "Toute l’année scolaire, notre classe va être en relation avec le 4e régiment de chasseurs de Gap afin de découvrir tous les métiers de l’armée.",
+   "resume": "La classe défense de 3e Prépa‑Métiers collabore toute l’année avec le 4e régiment de chasseurs de Gap pour découvrir les métiers de l’armée.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html",
+   "page": "Visite surprise pour la classe défense - Collège Les GarcinsAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 21
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Les Garcins (Briançon)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/centac/nos-activites-rayonnement/classes-defense",
+  "https://annuaire-education.fr/etablissement/briancon/college-les-garcins/0050519M.html",
+  "https://college-lycee.com/college-les-garcins/Briancon-0050519M",
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://www.facebook.com/Gendarmeriedeshautesalpes/posts/prise-de-commandement-ccie-brian%C3%A7onpr%C3%A9sentez-armeslors-dune-c%C3%A9r%C3%A9monie-militaire-/941981761304436",
+  "https://www.facebook.com/LeDL05/posts/si-la-classe-d%C3%A9fense-du-coll%C3%A8ge-des-garcins-a-%C3%A9t%C3%A9-cr%C3%A9%C3%A9e-en-septembre-2023-alors-/1901051861215537",
+  "https://www.facebook.com/murgiaarnaud/videos/c%C3%A9r%C3%A9monie-de-remise-des-dipl%C3%B4mes-du-brevet-des-coll%C3%A8ges-bravo-%C3%A0-nos-jeunes-brian/849928214390591",
+  "https://www.hautes-alpes.gouv.fr/Services-de-l-Etat/Direction-des-services-departementaux-de-l-Education-nationale-DSDEN/Retour-sur-les-derniers-evenements",
+  "https://www.hautes-alpes.gouv.fr/layout/set/print/Services-de-l-Etat/Direction-des-services-departementaux-de-l-Education-nationale-DSDEN/Bilan-de-la-rentree-scolaire-2025",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-les-garcins/college-0050519M",
+  "https://www.laprovence.com/actu/en-direct/5317755/hautes-alpes-blanquer-ne-confirme-pas-la-fin-des-allocations-des-parents-des-eleves-violents.html",
+  "https://www.laprovence.com/article/bloc-note/6454572/etat-civil-mariages-et-naissances.html",
+  "https://www.laprovence.com/article/culture-loisirs/1233257670426415/leducation-artistique-est-un-outil-majeur-le-cineaste-guediguian-epaule-les-collegiens-a-chateau-arnoux-saint-auban",
+  "https://www.laprovence.com/article/edition-martigues-istres/3691880/une-jeune-istreenne-en-lice-pour-imposer-son-timbre.html",
+  "https://www.laprovence.com/article/papier/5318545/deux-ministres-face-a-la-colere-des-territoires-ruraux.html",
+  "https://www.ledauphine.com/education/2026/06/02/pourquoi-les-sacs-des-collegiens-ont-ils-ete-fouilles-aux-garcins",
+  "https://www.ledauphine.com/education/2026/09/03/516-eleves-ont-fait-leur-rentree-aux-garcins",
+  "https://www.ledauphine.com/societe/2025/08/30/aux-garcins-les-equipes-sont-pretes",
+  "https://www.ledauphine.com/societe/2025/09/05/aux-garcins-des-classes-s-ajustent-aux-parcours-des-eleves",
+  "https://www.ledauphine.com/societe/2025/09/18/qui-est-flavien-james-le-nouveau-principal-des-garcins",
+  "https://www.ledauphine.com/societe/2026/04/06/des-militaires-du-4-sup-e-sup-rch-en-visite-au-college-les-garcins",
+  "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-les-garcins-05.html",
+  "https://www.site.ac-aix-marseille.fr/clg-garcins/",
+  "https://www.site.ac-aix-marseille.fr/clg-garcins/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html"
+ ],
+ "etablissement": "Collège Les Garcins (Briançon)",
+ "referents_cites": "Mme Baillard, Mme Payen",
+ "unite_citee": "4e Régiment de chasseurs (Gap)"
 }

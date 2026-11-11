@@ -1,14 +1,269 @@
 {
  "fiche": "college-jean-garcin-l-isle-sur-la-sorgue",
- "elements": [],
+ "elements": [
+  {
+   "type": "ceremonie",
+   "date": "2026-11-11",
+   "titre": "Commémoration de l’Armistice du 11 novembre 1918",
+   "extrait": "La Ville de l’Isle-sur-la-Sorgue invite les habitants à se rassembler le 11 novembre 2026, avec la participation du collège Jean Garcin.",
+   "resume": "Le 11/11/2026, la commune a organisé une commémoration de l’Armistice avec une messe, un défilé et une cérémonie au monument aux morts, où les élèves du collège Jean Garcin ont participé.",
+   "source": "https://www.islesurlasorgue.fr/evenements/evenement/commemoration-de-larmistice-du-11-novembre-1918",
+   "page": "Événement",
+   "site": "islesurlasorgue.fr",
+   "image": "https://www.islesurlasorgue.fr/fileadmin/_processed_/d/2/csm_SAS-EVENEMENTS_0964753855.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2026-01-12",
+   "titre": "LES CCFF84 au collège Jean Garcin",
+   "extrait": "Lundi 12 janvier 2026, les élèves de la classe de 3e3 (Classe Défense et Citoyenneté) du collège Jean Garcin, dans le cadre du volet «",
+   "resume": "Le 12 janvier 2026, la classe 3e3 Défense a présenté son projet « Sécurité et défense de l’environnement » et a reçu des intervenants extérieurs.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
+   "page": "La classe défense du collège Jean Garcin - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2025-11-11",
+   "titre": "Commémoration du 11 novembre 2025",
+   "extrait": "Tous les élèves de la classe Défense du collège Jean Garcin ont participé à la cérémonie républicaine du 11 novembre qui a eu lieu devant",
+   "resume": "Le 11 novembre 2025, les élèves ont pris part à la cérémonie républicaine devant le monument aux morts du cimetière communal de L’Isle‑sur‑la‑Sorgue.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
+   "page": "La classe défense du collège Jean Garcin - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-03-13",
+   "titre": "Rallye citoyen à la Base aérienne 115 d'Orange",
+   "extrait": "Le jeudi 13 mars 2025, la classe Défense et citoyenneté du collège Jean Garcin a participé avec panache au rallye citoyen organisé par les autorités",
+   "resume": "Le 13 mars 2025, la classe Défense a participé au rallye citoyen à la BA 115 d’Orange, organisé avec la DMD 84.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
+   "page": "La classe défense du collège Jean Garcin - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2024-11-14",
+   "titre": "Visite de la Base navale de Toulon",
+   "extrait": "Les élèves de la classe Défense du collège Jean Garcin ont été reçus à la Base navale de Toulon le jeudi 14 novembre pour participer",
+   "resume": "Le 14 novembre 2024, la classe Défense a visité la Base navale de Toulon et a assisté au forum des métiers de la Marine nationale.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
+   "page": "La classe défense du collège Jean Garcin - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2024-09-02",
+   "titre": "Classe 3e « Défense » au collège Jean Garcin : des élèves engagés au service des valeurs de la République",
+   "extrait": "Les enseignements dispensés dans ce dispositif ont pour but de favoriser l’engagement citoyen autour d’un projet pluridisciplinaire axé sur la défense des valeurs de la",
+   "resume": "Article du 2 septembre 2024 présentant les objectifs pédagogiques de la classe Défense, centrés sur l’engagement citoyen et la défense des valeurs républicaines.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
+   "page": "La classe défense du collège Jean Garcin - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Classe-3e-Defense-au-college-Jean-Garcin-des-eleves-engages-au-service-des.html"
+   ]
+  },
+  {
+   "type": "article",
+   "date": "2024-06-01",
+   "titre": "Le collège Jean‑Garcin a célébré le 80e anniversaire de la libération de la ville",
+   "extrait": "Le collège Jean‑Garcin a tenu à participer en organisant une célébration patriotique dans son enceinte.",
+   "resume": "L’article du Le Dauphiné Libéré du 1 juin 2024 décrit la participation du collège à la commémoration du 80ᵉ anniversaire de la libération, avec l’implication de la classe de 3ᵉ Défense.",
+   "source": "https://www.ledauphine.com/education/2024/06/01/le-college-jean-garcin-a-celebre-le-80e-anniversaire-de-la-liberation-de-la-ville",
+   "page": "L’Isle-sur-la-Sorgue. Le collège Jean-Garcin a célébré le 80e anniversaire de la libération de la ville",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/98755E81-C2E4-4D73-A62A-DAE4DEBE2BFB/FB1200/photo-1717267774.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2024-06-01",
+   "titre": "ACPG du canton de L’Isle‑sur‑la‑Sorgue",
+   "extrait": "le drapeau des ACPG du canton de L’Isle‑sur‑la‑Sorgue",
+   "resume": "L’association locale des Anciens Combattants‑Prisonniers de Guerre (ACPG) est partenaire de la classe de Défense pour la remise du drapeau.",
+   "source": "https://www.ledauphine.com/education/2024/06/01/le-college-jean-garcin-a-celebre-le-80e-anniversaire-de-la-liberation-de-la-ville",
+   "page": "L’Isle-sur-la-Sorgue. Le collège Jean-Garcin a célébré le 80e anniversaire de la libération de la ville",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/98755E81-C2E4-4D73-A62A-DAE4DEBE2BFB/FB1200/photo-1717267774.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2024-05-29",
+   "titre": "Commémoration du 80e anniversaire de la libération de L'Isle-sur-la-Sorgue",
+   "extrait": "Le mercredi 29 mai, les élèves de la classe Défense ont animé dans l’enceinte du collège Jean Garcin la commémoration du 80e anniversaire de la",
+   "resume": "Le 29 mai 2024, les élèves de la classe Défense ont organisé la commémoration du 80ᵉ anniversaire de la libération de L’Isle‑sur‑la‑Sorgue au sein du collège.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
+   "page": "La classe défense du collège Jean Garcin - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11",
+   "image": "https://cdn-s-www.ledauphine.com/images/98755E81-C2E4-4D73-A62A-DAE4DEBE2BFB/FB1200/photo-1717267774.jpg",
+   "autres_sources": [
+    "https://www.ledauphine.com/education/2024/06/01/le-college-jean-garcin-a-celebre-le-80e-anniversaire-de-la-liberation-de-la-ville"
+   ]
+  },
+  {
+   "type": "sortie",
+   "date": "2024-04-19",
+   "titre": "Visite de la secrétaire d’État Patricia Mirallès au collège Jean Garcin",
+   "extrait": "Patricia Mirallès ... se rendra au collège Jean Garcin d’Isle-sur-la-Sorgue où les élèves de la classe « Défense » lui présenteront leurs projets.",
+   "resume": "La secrétaire d’État aux Anciens combattants et à la Mémoire a visité le collège Jean Garcin le 19 avril 2024 pour assister à la présentation des projets de la classe Défense.",
+   "source": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/17.04.2024%20Patricia%20Miralle%CC%80s%2C%20secre%CC%81taire%20d%E2%80%99E%CC%81tat%20aupre%CC%80s%20du%20ministre%20des%20Arme%CC%81es%2C%20charge%CC%81e%20des%20Anciens%20combattants%20et%20de%20la%20Me%CC%81moire%2C%20se%20rendra%20en%20Vaucluse%20le%20vendredi%2019%20avril..pdf",
+   "page": "17.04.2024 Patricia Mirallès, secrétaire d’État auprès du ministre des Armées, chargée des Anciens combattants et de la Mémoire, se rendra en Vaucluse le vendredi 19 avril..pdf",
+   "site": "defense.gouv.fr (PDF)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2024-04-19",
+   "titre": "Présentation des projets de la classe Défense",
+   "extrait": "Présentation des projets portés par la classe « Défense » du collège Jean Garcin",
+   "resume": "Les élèves de la classe Défense du collège Jean Garcin ont présenté leurs projets mémoriels lors de la visite officielle du 19 avril 2024.",
+   "source": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/17.04.2024%20Patricia%20Miralle%CC%80s%2C%20secre%CC%81taire%20d%E2%80%99E%CC%81tat%20aupre%CC%80s%20du%20ministre%20des%20Arme%CC%81es%2C%20charge%CC%81e%20des%20Anciens%20combattants%20et%20de%20la%20Me%CC%81moire%2C%20se%20rendra%20en%20Vaucluse%20le%20vendredi%2019%20avril..pdf",
+   "page": "17.04.2024 Patricia Mirallès, secrétaire d’État auprès du ministre des Armées, chargée des Anciens combattants et de la Mémoire, se rendra en Vaucluse le vendredi 19 avril..pdf",
+   "site": "defense.gouv.fr (PDF)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2024-04-19",
+   "titre": "Cérémonie de commémoration du Train fantôme",
+   "extrait": "Cérémonie de commémoration ... sur le parvis de la gare SNCF de Sorgues",
+   "resume": "Après la marche mémorielle, les élèves, dont ceux de la classe Défense, ont assisté à la cérémonie de commémoration du Train fantôme le 19 avril 2024.",
+   "source": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/17.04.2024%20Patricia%20Miralle%CC%80s%2C%20secre%CC%81taire%20d%E2%80%99E%CC%81tat%20aupre%CC%80s%20du%20ministre%20des%20Arme%CC%81es%2C%20charge%CC%81e%20des%20Anciens%20combattants%20et%20de%20la%20Me%CC%81moire%2C%20se%20rendra%20en%20Vaucluse%20le%20vendredi%2019%20avril..pdf",
+   "page": "17.04.2024 Patricia Mirallès, secrétaire d’État auprès du ministre des Armées, chargée des Anciens combattants et de la Mémoire, se rendra en Vaucluse le vendredi 19 avril..pdf",
+   "site": "defense.gouv.fr (PDF)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2024",
+   "titre": "Journée mémorielle en Vaucluse",
+   "extrait": "En cette année 2024, ... au sein du collège Jean Garcin de l'Isle‑sur‑la‑Sorgue, le travail de mémoire fut également porté par la classe défense de",
+   "resume": "En 2024, la classe défense du collège Jean Garcin a participé à la Journée mémorielle en Vaucluse, contribuant aux activités de mémoire organisées dans le département.",
+   "source": "https://www.facebook.com/OnacvgPACA/posts/journ%C3%A9e-m%C3%A9morielle-en-vaucluseen-cette-ann%C3%A9e-2024-lactivit%C3%A9-m%C3%A9morielle-est-foiso/443366391388447",
+   "page": "[Journée mémorielle en Vaucluse] En cette année 2024, l ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2023-04-16",
+   "titre": "Le collège Jean‑Garcin devient le gardien du drapeau des aïeux",
+   "extrait": "Le drapeau des ACPG de L’Isle‑sur‑la‑Sorgue ... remis aux élèves de la classe de 3e Défense",
+   "resume": "Article du 16 avril 2023 dans Le Dauphiné Libéré relatant la remise du drapeau des anciens combattants prisonniers de guerre aux élèves de la classe de 3e Défense du collège Jean‑Garcin, L’Isle‑sur‑la‑Sorgue.",
+   "source": "https://www.ledauphine.com/societe/2023/04/16/le-college-jean-garcin-devient-le-gardien-du-drapeau-des-aieux",
+   "page": "Vaucluse. Le collège Jean-Garcin de L'Isle-sur-la-Sorgue devient le gardien « du drapeau des aïeux »",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/CAD91555-11E8-40FC-8ADF-8D0DCB2BA5DE/FB1200/photo-1681663528.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2023-04-12",
+   "titre": "Remise du drapeau des ACPG aux élèves de 3e Défense",
+   "extrait": "le comité d’entente des associations patriotiques a confié le précieux fanion aux élèves de la toute nouvelle classe de 3e Défense",
+   "resume": "Lors d’une cérémonie officielle le 12 avril 2023, le comité d’entente des associations patriotiques a remis le drapeau des anciens combattants prisonniers de guerre aux élèves de la nouvelle classe de 3e Défense du collège Jean‑Garcin à L’Isle‑sur‑la‑Sorgue, en présence du professeur Christophe De Michele.",
+   "source": "https://www.ledauphine.com/societe/2023/04/16/le-college-jean-garcin-devient-le-gardien-du-drapeau-des-aieux",
+   "page": "Vaucluse. Le collège Jean-Garcin de L'Isle-sur-la-Sorgue devient le gardien « du drapeau des aïeux »",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/CAD91555-11E8-40FC-8ADF-8D0DCB2BA5DE/FB1200/photo-1681663528.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": null,
+   "titre": "Signature d’une convention de partenariat pour la mise en œuvre de la classe défense",
+   "extrait": "concrétisé le 21 novembre dernier par la signature d’une convention de partenariat et de mise en oeuvre de « classe défense » entre le collège",
+   "resume": "Le 21 novembre (année non précisée) le collège Jean Garcin a signé une convention avec la délégation militaire départementale afin de mettre en place la classe défense.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Classe-3e-Defense-au-college-Jean-Garcin-des-eleves-engages-au-service-des.html",
+   "page": "Classe 3e « Défense » au collège Jean Garcin : des élèves (…) - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher le",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": null,
+   "titre": "Projet citoyen pluridisciplinaire classe défense",
+   "extrait": "Le projet « citoyen » pluridisciplinaire porté depuis plusieurs années par M. De Michele (enseignant d’histoire‑géographie/EMC) en classe de 3ème...",
+   "resume": "Depuis plusieurs années, M. De Michele conduit un projet citoyen pluridisciplinaire en classe de 3e, intégré au dispositif classe défense, visant à valoriser les compétences civiques des élèves.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Classe-3e-Defense-au-college-Jean-Garcin-des-eleves-engages-au-service-des.html",
+   "page": "Classe 3e « Défense » au collège Jean Garcin : des élèves (…) - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher le",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "La classe défense du collège",
+   "extrait": "La classe défense du collège...",
+   "resume": "Le site du collège Jean Garcin mentionne l’existence d’une classe défense, sans fournir de détail sur les activités, dates, distinctions ou partenaires.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/",
+   "page": "Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubr",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Lecture de l'Appel par une élève",
+   "extrait": "Aux côtés de la Musique l'Avenir l'Islois, des porte-drapeaux, des élus et des autorités, une élève de 4ᵉ du collège Jean Garcin a lu l'Appel",
+   "resume": "Le 11 novembre, une élève de 4e du collège Jean Garcin a lu l'Appel devant la musique, les porte-drapeaux, les élus et les autorités de L'Isle-sur-la-Sorgue.",
+   "source": "https://www.facebook.com/VilledeLIslesurlaSorgue/posts/%F0%9D%97%A6%F0%9D%97%A2%F0%9D%97%A8%F0%9D%97%A9%F0%9D%97%98%F0%9D%97%A1%F0%9D%97%9C%F0%9D%97%A5-%F0%9D%97%96%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%BA%F0%9D%97%B2%CC%81%F0%9D%97%BA%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B9%F0%9D%97%94%F0%9D%97%BD%F0%9D%97%BD%F0%9D%97%B2%F0%9D%97%B9-%F0%9D%97%B5%F0%9D%97%B6%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%BE%F0%9D%98%82%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%98%82-%F0%9D%9F%AD%F0%9D%9F%B4-%F0%9D%97%B7%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%B5%F0%9D%9F%B0%F0%9D%9F%ACce-matin-la-ville-de/1482929187206986",
+   "page": "L'Isle-sur-la-Sorgue ° L'Officiel",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 25,
+   "nouveaux": 19
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Jean Garcin (L'Isle-sur-la-Sorgue)"
+ "pages_lues": [
+  "https://annuaire-education.fr/etablissement/lisle-sur-la-sorgue/college-jean-garcin/0841118J.html",
+  "https://college-lycee.com/college-jean-garcin/L-Isle-sur-la-Sorgue-0841118J",
+  "https://www.defense.gouv.fr/sites/default/files/ministere-armees/17.04.2024%20Patricia%20Miralle%CC%80s%2C%20secre%CC%81taire%20d%E2%80%99E%CC%81tat%20aupre%CC%80s%20du%20ministre%20des%20Arme%CC%81es%2C%20charge%CC%81e%20des%20Anciens%20combattants%20et%20de%20la%20Me%CC%81moire%2C%20se%20rendra%20en%20Vaucluse%20le%20vendredi%2019%20avril..pdf",
+  "https://www.facebook.com/100081629386198/posts/la-remise-des-prix-du-concours-2026-des-ecoles-fleuries-des-dden-a-eu-lieu-le-me/1003649215699382",
+  "https://www.facebook.com/OnacvgPACA/posts/journ%C3%A9e-m%C3%A9morielle-en-vaucluseen-cette-ann%C3%A9e-2024-lactivit%C3%A9-m%C3%A9morielle-est-foiso/443366391388447",
+  "https://www.facebook.com/VilledeLIslesurlaSorgue/posts/%F0%9D%97%A6%F0%9D%97%A2%F0%9D%97%A8%F0%9D%97%A9%F0%9D%97%98%F0%9D%97%A1%F0%9D%97%9C%F0%9D%97%A5-%F0%9D%97%96%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%BA%F0%9D%97%B2%CC%81%F0%9D%97%BA%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B9%F0%9D%97%94%F0%9D%97%BD%F0%9D%97%BD%F0%9D%97%B2%F0%9D%97%B9-%F0%9D%97%B5%F0%9D%97%B6%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%BE%F0%9D%98%82%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%98%82-%F0%9D%9F%AD%F0%9D%9F%B4-%F0%9D%97%B7%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%B5%F0%9D%9F%B0%F0%9D%9F%ACce-matin-la-ville-de/1482929187206986",
+  "https://www.facebook.com/VilledeLIslesurlaSorgue/posts/-%C3%A7a-suffit-le-g%C3%A2chis-au-self-cest-le-titre-de-ce-clip-produit-par-le-conseil-d%C3%A9p/1950891948301529",
+  "https://www.facebook.com/VilledeLIslesurlaSorgue/videos/souvenirce-vendredi-8-mai-2026-la-ville-de-lisle-sur-la-sorgue-sest-unie-pour-co/27643430695242980",
+  "https://www.instagram.com/reel/DYFQJo2j-7X",
+  "https://www.islesurlasorgue.fr/evenements/evenement/commemoration-de-larmistice-du-11-novembre-1918",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-jean-garcin/college-0841118J",
+  "https://www.laprovence.com/article/culture-loisirs/1121319014363115/a-l-isle-sur-la-sorgue-manon-heral-est-finaliste-des-voix-du-college",
+  "https://www.laprovence.com/article/ecoplanete/38922558650902/quatre-etablissements-de-vaucluse-primes-au-concours-des-ecoles-fleuries-pour-un-developpement-durable-et-citoyen",
+  "https://www.laprovence.com/article/edition-vaucluse/4472251/a-lisle-sur-la-sorgue-patrick-bruel-en-tournee-dans-les-ecoles.html",
+  "https://www.laprovence.com/article/region/52597896310062/les-collegiens-de-lisle-sur-la-sorgue-mangeront-davantage-de-proteines-vegetales-a-la-cantine",
+  "https://www.laprovence.com/article/societe/5147844/de-bons-reflexes-contre-le-gaspillage.html",
+  "https://www.ledauphine.com/education/2024/06/01/le-college-jean-garcin-a-celebre-le-80e-anniversaire-de-la-liberation-de-la-ville",
+  "https://www.ledauphine.com/societe/2023/04/16/le-college-jean-garcin-devient-le-gardien-du-drapeau-des-aieux",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-garcin-84.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/college-jean-garcin",
+  "https://www.rentreediscount.com/etablissement/JEAN-GARCIN-51835004.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Classe-3e-Defense-au-college-Jean-Garcin-des-eleves-engages-au-service-des.html"
+ ],
+ "etablissement": "Collège Jean Garcin (L'Isle-sur-la-Sorgue)",
+ "referents_cites": "M. De Michele",
+ "unite_citee": "DMD 84"
 }

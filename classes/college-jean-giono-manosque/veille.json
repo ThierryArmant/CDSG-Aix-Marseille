@@ -1,14 +1,181 @@
 {
  "fiche": "college-jean-giono-manosque",
- "elements": [],
+ "elements": [
+  {
+   "type": "ceremonie",
+   "date": "2025-11-11",
+   "titre": "Cérémonie du 11‑novembre 2025 à Orange",
+   "extrait": "plus de 50 jeunes du collège Jean‑Giono ont participé à la cérémonie du 11‑Novembre devant le monument aux Morts du cimetière Saint‑Clément",
+   "resume": "Les élèves de 4e et 3e CDSG du collège Jean‑Giono d’Orange ont assisté à la cérémonie du 11 novembre 2025 au cimetière Saint‑Clément, en présence de civils, militaires et associations d’anciens combattants.",
+   "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+   "page": "11-Novembre : les élèves du collège Jean-Giono d'Orange rendent hommage aux Poilus",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/11/11/les-classes-cdsg-du-college-giono-ont-participe-a-la-ceremonie-aux-monuments-aux-morts-1762883413_43f850c843196d7f850c843197cf85v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-11-11",
+   "titre": "Partenariat avec la BA 115",
+   "extrait": "option CDSG créée en partenariat avec la BA 115",
+   "resume": "Le collège Jean‑Giono d’Orange propose l’option CDSG en partenariat avec la Base aérienne 115, renforçant le lien avec les forces armées.",
+   "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+   "page": "11-Novembre : les élèves du collège Jean-Giono d'Orange rendent hommage aux Poilus",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/11/11/les-classes-cdsg-du-college-giono-ont-participe-a-la-ceremonie-aux-monuments-aux-morts-1762883413_43f850c843196d7f850c843197cf85v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2025-11-11",
+   "titre": "Projet avec le Souvenir français",
+   "extrait": "Un projet conduit avec le Souvenir français et Jean‑Claude Tibere‑Inglesse",
+   "resume": "Les élèves de CDSG du collège Jean‑Giono ont mené un projet de mémoire en collaboration avec le Souvenir français et Jean‑Claude Tibere‑Inglesse.",
+   "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+   "page": "11-Novembre : les élèves du collège Jean-Giono d'Orange rendent hommage aux Poilus",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/11/11/les-classes-cdsg-du-college-giono-ont-participe-a-la-ceremonie-aux-monuments-aux-morts-1762883413_43f850c843196d7f850c843197cf85v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2025-11-11",
+   "titre": "11‑Novembre : les élèves du collège Jean‑Giono d’Orange rendent hommage aux Poilus",
+   "extrait": "Les classes CDSG du collège Giono d'Orange ont participé à la cérémonie aux monuments aux Morts",
+   "resume": "Publication du 11 novembre 2025 relatant la participation des élèves de CDSG du collège Jean‑Giono à la cérémonie du 11‑Novembre à Orange.",
+   "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+   "page": "11-Novembre : les élèves du collège Jean-Giono d'Orange rendent hommage aux Poilus",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/11/11/les-classes-cdsg-du-college-giono-ont-participe-a-la-ceremonie-aux-monuments-aux-morts-1762883413_43f850c843196d7f850c843197cf85v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2025",
+   "titre": "Prix national Louis Quinio",
+   "extrait": "2025, les élèves CDSG du collège Jean Giono sont lauréats du prix national Louis Quinio remis pas l'IHEDN.",
+   "resume": "En 2025, les élèves de la classe défense du Collège Jean Giono ont reçu le prix national Louis Quinio décerné par l'IHEDN, première fois attribué à cet établissement.",
+   "source": "https://www.facebook.com/nonauharcelementalecole/posts/prix-cycle-3-bravo-au-coll%C3%A8ge-jean-giono-de-lacad%C3%A9mie-de-nice-nonauharcelement/3148014958609454",
+   "page": "Prix cycle 3 : bravo au Collège Jean Giono de l'Académie ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "verifie": "a_confirmer"
+  },
+  {
+   "type": "distinction",
+   "date": "2022-03-02",
+   "titre": "Remise du drapeau de la 2e DB du général Leclerc",
+   "extrait": "Le drapeau de la 2e DB a été remis aux élèves par l’association de la 2e DB en présence des généraux Cuche et Michel",
+   "resume": "Le 2 mars 2022, l’association de la 2e division blindée a remis le drapeau de la 2e DB du général Leclerc aux élèves de CDSG du collège Jean‑Giono, au nom de Pierre Retzignac.",
+   "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+   "page": "11-Novembre : les élèves du collège Jean-Giono d'Orange rendent hommage aux Poilus",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/11/11/les-classes-cdsg-du-college-giono-ont-participe-a-la-ceremonie-aux-monuments-aux-morts-1762883413_43f850c843196d7f850c843197cf85v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2018-06-07",
+   "titre": "Nous recevons la classe défense du Collège Jean Giono",
+   "extrait": "La 3ème option défense du collège manosquin propose une approche concrète des missions de l'armée.",
+   "resume": "Diffusion radio du 7 juin 2018 présentant la classe défense du collège Jean Giono, avec le professeur Virginie François et les élèves Irène, Chloé, Jade et Salim.",
+   "source": "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html",
+   "page": "La classe défense du collège Jean Giono en direct",
+   "site": "Fréquence Mistral",
+   "image": "https://www.frequencemistral.com/photo/art/grande/22822923-25356285.jpg?v=1528363594",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2018",
+   "titre": "Visite des chasseurs alpins à Gap",
+   "extrait": "cette année, des chasseurs alpins à Gap ... ont été ouverts aux jeunes visiteurs.",
+   "resume": "Les élèves de la classe défense ont visité les chasseurs alpins à Gap en 2018.",
+   "source": "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html",
+   "page": "La classe défense du collège Jean Giono en direct",
+   "site": "Fréquence Mistral",
+   "image": "https://www.frequencemistral.com/photo/art/grande/22822923-25356285.jpg?v=1528363594",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2018",
+   "titre": "Visite de la base aérienne d'Istres",
+   "extrait": "cette année, ... la base d'Istres ... ont été ouverts aux jeunes visiteurs.",
+   "resume": "Les élèves ont visité la base aérienne d'Istres en 2018.",
+   "source": "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html",
+   "page": "La classe défense du collège Jean Giono en direct",
+   "site": "Fréquence Mistral",
+   "image": "https://www.frequencemistral.com/photo/art/grande/22822923-25356285.jpg?v=1528363594",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2018",
+   "titre": "Visite de la frégate Auvergne à Toulon",
+   "extrait": "la frégate Auvergne ... ont été ouverts aux jeunes visiteurs.",
+   "resume": "Les élèves ont découvert la frégate Auvergne à Toulon en 2018.",
+   "source": "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html",
+   "page": "La classe défense du collège Jean Giono en direct",
+   "site": "Fréquence Mistral",
+   "image": "https://www.frequencemistral.com/photo/art/grande/22822923-25356285.jpg?v=1528363594",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2018",
+   "titre": "Visite du porte‑avions Charles de Gaulle",
+   "extrait": "le porte‑avions Charles de Gaulle ... ont été ouverts aux jeunes visiteurs.",
+   "resume": "Les élèves ont visité le porte‑avions Charles de Gaulle en 2018.",
+   "source": "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html",
+   "page": "La classe défense du collège Jean Giono en direct",
+   "site": "Fréquence Mistral",
+   "image": "https://www.frequencemistral.com/photo/art/grande/22822923-25356285.jpg?v=1528363594",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 11
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Jean Giono (Manosque)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/centac/nos-activites-rayonnement/classes-defense",
+  "https://college-lycee.com/college-jean-giono/Manosque-0040055N",
+  "https://www.alpes-de-haute-provence.gouv.fr/content/download/24377/139325/file/RS%20100_partie%202.pdf",
+  "https://www.cheminsdememoire.gouv.fr/fr/enseignement-secondaire",
+  "https://www.dailymotion.com/video/x6l0p0h",
+  "https://www.facebook.com/ArmeesZoneSud/videos/dans-le-cadre-du-prix-arm%C3%A9es-zone-sud-2026-le-coll%C3%A8ge-jean-giono-dorange-a-%C3%A9t%C3%A9-r/1055483347050790",
+  "https://www.facebook.com/BFMDICI/videos/a-manosque-le-coll%C3%A8ge-jean-giono-se-mobilise/940894315085792",
+  "https://www.facebook.com/VilledeManosque/posts/jeunesse-%EF%B8%8F-soutenir-les-jeunes-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-jean-giono-pour-un-voyage-scola/787725940055332",
+  "https://www.facebook.com/groups/1128805704660144/posts/2152247485649289",
+  "https://www.facebook.com/nonauharcelementalecole/posts/prix-cycle-3-bravo-au-coll%C3%A8ge-jean-giono-de-lacad%C3%A9mie-de-nice-nonauharcelement/3148014958609454",
+  "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html",
+  "https://www.instagram.com/reel/DaS1TazNLj1",
+  "https://www.laprovence.com/actu/en-direct/6239736/manosque-la-quasi-totalite-des-assistants-deducation-du-college-jean-giono-en-greve.html",
+  "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+  "https://www.laprovence.com/article/societe/1279604976305416/manosque-la-responsabilisation-plutot-que-lexclusion-des-cours",
+  "https://www.laprovence.com/article/societe/2311979633141414/les-eleves-s-entrainent-a-l-effort-et-au-depassement-de-soi-lors-du-cross-du-college-jean-giono-de-manosque",
+  "https://www.laprovence.com/article/societe/43643534815907/des-enseignants-en-colere-face-a-la-suppression-de-deux-classes-au-college-jean-giono-de-manosque",
+  "https://www.laprovence.com/article/societe/77425710413382/les-eleves-de-segpa-du-college-jean-giono-de-manosque-organisent-leur-marche-de-noel",
+  "https://www.ledauphine.com/culture-loisirs/2024/09/30/le-college-giono-labellise-reseau-e3d",
+  "https://www.ledauphine.com/culture-loisirs/2024/12/02/les-cinquiemes-du-college-jean-giono-s-initient-au-handisport",
+  "https://www.ledauphine.com/culture-loisirs/2024/12/04/une-deuxieme-lv1-des-la-6e-le-concept-des-classes-bilangues-au-college-giono",
+  "https://www.ledauphine.com/education/2026/11/03/chauffage-le-personnel-debraye-les-eleves-font-cours-dans-la-cour",
+  "https://www.ledauphine.com/faits-divers-justice/2023/11/14/alerte-a-la-bombe-le-college-jean-giono-de-manosque-evacue-pour-la-troisieme-fois",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-giono-1-04.html",
+  "https://www.site.ac-aix-marseille.fr/clg-giono/",
+  "https://www.site.ac-aix-marseille.fr/clg-giono/spip"
+ ],
+ "etablissement": "Collège Jean Giono (Manosque)",
+ "referents_cites": "Thierry Armant, Christophe Cabanes, Céline Armand",
+ "unite_citee": "BA 115"
 }

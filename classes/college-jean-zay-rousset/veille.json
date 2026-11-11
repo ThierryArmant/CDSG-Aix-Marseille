@@ -1,14 +1,278 @@
 {
  "fiche": "college-jean-zay-rousset",
- "elements": [],
+ "elements": [
+  {
+   "type": "article",
+   "date": "2026-07-02",
+   "titre": "La classe Défense - Collège Jean Zay",
+   "extrait": "La Classe Défense est un projet proposé aux élèves de 4e et 3e, découvrant les métiers du droit, de la sécurité et de la défense.",
+   "resume": "Publication du 2 juillet 2026 présentant le projet éducatif Classe Défense destiné aux élèves de 4e et 3e du collège Jean Zay.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/-La-classe-Defense-.html",
+   "page": "La classe Défense - Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffic",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2026-06-16",
+   "titre": "Unité marraine 1er RE (Aubagne)",
+   "extrait": "1er RE (Aubagne)",
+   "resume": "Le 1er Régiment Étranger d'Aubagne agit comme unité marraine de la classe Défense du collège Jean Zay.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/-La-classe-Defense-.html",
+   "page": "La classe Défense - Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffic",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/06/16/des-quatriemes-motives-qui-ont-remporte-le-premier-du-concours-international-buzzons-contre-le-sexis-1781625979_b1758a093c2a6d5758a093c2ae9758v_.jpg",
+   "autres_sources": [
+    "https://www.laprovence.com/article/region/1327539905566314/les-collegiens-de-rousset-distingues-pour-leur-projet-video-de-grande-lessive-pour-lutter-contre-le-sexisme"
+   ]
+  },
+  {
+   "type": "distinction",
+   "date": "2026-06-16",
+   "titre": "Premier prix du concours Buzzons contre le sexisme",
+   "extrait": "Les élèves de 4e du collège Jean‑Zay ont remporté le premier prix du concours international « Buzzons contre le sexisme ».",
+   "resume": "Les élèves de 4e du collège Jean‑Zay ont gagné le premier prix du concours vidéo international « Buzzons contre le sexisme », catégorie jeunesse 10‑14 ans, organisé par la plateforme Matilda.",
+   "source": "https://www.laprovence.com/article/region/1327539905566314/les-collegiens-de-rousset-distingues-pour-leur-projet-video-de-grande-lessive-pour-lutter-contre-le-sexisme",
+   "page": "Les collégiens de Rousset distingués pour leur projet vidéo de \"grande lessive\" pour lutter contre le sexisme",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/06/16/des-quatriemes-motives-qui-ont-remporte-le-premier-du-concours-international-buzzons-contre-le-sexis-1781625979_b1758a093c2a6d5758a093c2ae9758v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Convention de partenariat",
+   "extrait": "Réactualisée déc. 2025",
+   "resume": "Convention de partenariat réactualisée en décembre 2025 pour la classe Défense du collège Jean Zay.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/-La-classe-Defense-.html",
+   "page": "La classe Défense - Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffic",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Convention réactualisée",
+   "extrait": "Réactualisée déc. 2025",
+   "resume": "La convention de la classe défense du collège Jean Zay a été réactualisée en décembre 2025.",
+   "source": "https://ville-rousset13.fr/education-et-jeunesse/scolaire-periscolaire/etablissements-enseignement-secondaire/",
+   "page": "Etablissements enseignement secondaire - Mairie de Rousset",
+   "site": "Mairie de Rousset",
+   "image": "https://ville-rousset13.fr/wp-content/uploads/2024/04/banner-education-jeunesse-college.webp",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.laprovence.com/article/region/1327539905566314/les-collegiens-de-rousset-distingues-pour-leur-projet-video-de-grande-lessive-pour-lutter-contre-le-sexisme"
+   ]
+  },
+  {
+   "type": "convention",
+   "date": "2025-12",
+   "titre": "Convention classe défense",
+   "extrait": "conv: Réactualisée déc. 2025",
+   "resume": "Convention de la classe défense réactualisée en décembre 2025.",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jean-zay/college-0133451F",
+   "page": "Collège Jean Zay (13790, Rousset)",
+   "site": "journaldesfemmes.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2019-11-13",
+   "titre": "Cross départemental UNSS à Marignane",
+   "extrait": "COL JEAN ZAY - ROUSSET 72.615 pts",
+   "resume": "La classe défense du Collège Jean Zay (Rousset) a participé au cross départemental organisé par l'UNSS à Marignane le 13 novembre 2019, obtenant 72,615 points dans la catégorie Minimes Mixte 1.",
+   "source": "https://www.laprovence.com/actu/en-direct/5759946/unss-2400-participants-au-cross-departemental-a-marignane.html",
+   "page": "UNSS : 2400 participants au cross départemental à Marignane",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2019-11/2019-11-13/20191113_1_7_5_1_1_obj21495496_1_10631652785dcb7c68a13484.89721816.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2016-03-22",
+   "titre": "Visite du collège Jean Zay à Airbus Helicopters",
+   "extrait": "Airbus Helicopters a reçu la visite des élèves du collège Jean Zay de Rousset lors de la 6e édition de la semaine de l'industrie.",
+   "resume": "Le 22 mars 2016, les élèves du collège Jean Zay de Rousset ont effectué une sortie à Airbus Helicopters à Marignane, dans le cadre de la 6e édition de la semaine de l'industrie, afin de découvrir les métiers aéronautiques.",
+   "source": "https://www.laprovence.com/article/edition-vitrolles-marignane/3856685/des-collegiens-de-rousset-en-visite-a-airbus-helicopters.html",
+   "page": "Des collégiens de Rousset en visite à Airbus Helicopters",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2016-03/2016-03-22/20160322_1_2_10_4_1_obj11319756_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "11-11",
+   "titre": "Porte-drapeau 11 novembre",
+   "extrait": "Chaque drapeau sera remis par un ancien combattant à un élève représentant son école, lors de la cérémonie du 11 novembre au Monument aux morts",
+   "resume": "Le 11 novembre, un ancien combattant remettra le drapeau à un élève du collège Jean Zay lors d’une cérémonie au Monument aux morts.",
+   "source": "https://www.facebook.com/villedecapbreton/posts/un-porte-drapeau-pour-le-college-jean-rostand-le-10-novembre-les-associations-d/1148968654027828",
+   "page": "[ UN PORTE-DRAPEAU POUR LE COLLEGE JEAN ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "La classe Défense",
+   "extrait": "La classe Défense",
+   "resume": "Le site indique la présence d’une rubrique « La classe Défense » dans le menu du collège Jean Zay de Rousset.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/Adminisration.html",
+   "page": "Adminisration - Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher ",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/"
+   ]
+  },
+  {
+   "type": "projet",
+   "date": null,
+   "titre": "Classe Défense",
+   "extrait": "La Classe Défense est un projet proposé aux élèves de 4e et 3e, découvrant les métiers du droit, de la sécurité et de la défense.",
+   "resume": "Projet éducatif permettant aux élèves de 4e et 3e de découvrir les métiers du droit, de la sécurité et de la défense nationale.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/-La-classe-Defense-.html",
+   "page": "La classe Défense - Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffic",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "Classes défense en 4ème",
+   "extrait": "Classes défense en 4ème Qu'est‑ce que la classe défense ?",
+   "resume": "Page présentant le dispositif « classe défense » pour les élèves de 4ᵉ au Collège Jean Zay. Elle explique les objectifs et le fonctionnement du projet.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/spip.php?page=plan",
+   "page": "Plan du site Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "Commémoration Lionel Hart",
+   "extrait": "La classe Défense commémore Lionel Hart #NAH",
+   "resume": "Les élèves de la classe défense ont organisé une cérémonie en mémoire de Lionel Hart, marquant le #NAH. L’événement s’est déroulé au sein du collège.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/spip.php?page=plan",
+   "page": "Plan du site Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "1er RE (Aubagne)",
+   "resume": "Le 1er Régiment d'Infanterie de Marine d'Aubagne est l'unité marraine de la classe défense du collège Jean Zay.",
+   "source": "https://ville-rousset13.fr/education-et-jeunesse/scolaire-periscolaire/etablissements-enseignement-secondaire/",
+   "page": "Etablissements enseignement secondaire - Mairie de Rousset",
+   "site": "Mairie de Rousset",
+   "image": "https://ville-rousset13.fr/wp-content/uploads/2024/04/banner-education-jeunesse-college.webp",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "unite: \"1er RE (Aubagne)\"",
+   "resume": "L’unité marraine de la classe défense est le 1er Régiment Étranger d'Aubagne.",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jean-zay/college-0133451F",
+   "page": "Collège Jean Zay (13790, Rousset)",
+   "site": "journaldesfemmes.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Référent pédagogique",
+   "extrait": "ref: \"M. Divaret (HG)\"",
+   "resume": "M. Divaret (HG) est le professeur référent de la classe défense.",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jean-zay/college-0133451F",
+   "page": "Collège Jean Zay (13790, Rousset)",
+   "site": "journaldesfemmes.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Chef d’établissement",
+   "extrait": "ce: \"Mme Chalabi\"",
+   "resume": "Mme Chalabi est la cheffe d’établissement du collège Jean Zay.",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jean-zay/college-0133451F",
+   "page": "Collège Jean Zay (13790, Rousset)",
+   "site": "journaldesfemmes.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": null,
+   "titre": "1er prix départemental",
+   "extrait": "C’est une grande fierté pour les élèves de 3ème d’avoir obtenu le 1er prix au niveau département pour leur travail collectif.",
+   "resume": "Les élèves de 3e du collège Jean Zay ont reçu le premier prix départemental pour leur projet collectif, présenté le 22 mai.",
+   "source": "https://www.facebook.com/groups/854603239257790/posts/1498825114835596",
+   "page": "Le 22 mai, j'ai eu le plaisir d'être accueilli au collège Jean ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.laprovence.com/article/region/1327539905566314/les-collegiens-de-rousset-distingues-pour-leur-projet-video-de-grande-lessive-pour-lutter-contre-le-sexisme"
+   ],
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/06/16/des-quatriemes-motives-qui-ont-remporte-le-premier-du-concours-international-buzzons-contre-le-sexis-1781625979_b1758a093c2a6d5758a093c2ae9758v_.jpg",
+   "verifie": "presse"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classes défense en 4ème",
+   "extrait": "Classes défense en 4ème",
+   "resume": "Rubrique du site mentionnant les classes défense proposées aux élèves de 4ème.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/",
+   "page": "Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 19
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Jean Zay (Rousset)"
+ "pages_lues": [
+  "https://annuaire-education.fr/etablissement/rousset/college-jean-zay/0133451F.html",
+  "https://uat-cdn-s-www.ledauphine.com/elections/resultats/elections-europeennes-2019?commune=26362&bureau=0004",
+  "https://uat-cdn-s-www.ledauphine.com/elections/resultats/elections-municipales-2020?commune=26362&bureau=0036",
+  "https://ville-rousset13.fr/education-et-jeunesse/scolaire-periscolaire/etablissements-enseignement-secondaire",
+  "https://www.clg-rousset.ac-aix-marseille.fr/spip",
+  "https://www.facebook.com/groups/728061177238831/posts/27984016751216572",
+  "https://www.facebook.com/groups/854603239257790",
+  "https://www.facebook.com/groups/854603239257790/posts/1498825114835596",
+  "https://www.facebook.com/groups/854603239257790/posts/1839179680800136",
+  "https://www.facebook.com/groups/854603239257790/posts/1930701014981335",
+  "https://www.facebook.com/mairiedelens/posts/r%C3%A9compensele-coll%C3%A8ge-jean-zay-de-lens-a-re%C3%A7u-un-prix-sp%C3%A9cial/1428568520620808?locale=fr_FR",
+  "https://www.facebook.com/villedecapbreton/posts/un-porte-drapeau-pour-le-college-jean-rostand-le-10-novembre-les-associations-d/1148968654027828",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-jean-zay/college-0133451F",
+  "https://www.laprovence.com/actu/en-direct/5759946/unss-2400-participants-au-cross-departemental-a-marignane.html",
+  "https://www.laprovence.com/article/edition-ailleurs/2715499/le-college-jean-zay-en-memoire-dun-humaniste-de-la-republique.html",
+  "https://www.laprovence.com/article/edition-vitrolles-marignane/3856685/des-collegiens-de-rousset-en-visite-a-airbus-helicopters.html",
+  "https://www.laprovence.com/article/region/1327539905566314/les-collegiens-de-rousset-distingues-pour-leur-projet-video-de-grande-lessive-pour-lutter-contre-le-sexisme",
+  "https://www.laprovence.com/article/societe/57912855743117/a-rousset-deux-classes-du-college-jean-zay-mobilisees-contre-les-stereotypes-de-genre-et-le-harcelement",
+  "https://www.ledauphine.com/archives/2025/28-05",
+  "https://www.ledauphine.com/elections/resultats/elections-municipales-2020?commune=26362&bureau=0016",
+  "https://www.ledauphine.com/hautes-alpes/2018/05/16/les-basketteurs-en-tournoi",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-zay-05.html",
+  "https://www.site.ac-aix-marseille.fr/clg-rousset/",
+  "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/-La-classe-Defense-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/Adminisration.html",
+  "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/spip.php?page=plan"
+ ],
+ "etablissement": "Collège Jean Zay (Rousset)",
+ "referents_cites": "Mme Chalabi, M. Divaret",
+ "unite_citee": "1er RE (Aubagne)"
 }

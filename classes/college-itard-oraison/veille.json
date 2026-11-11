@@ -1,14 +1,272 @@
 {
  "fiche": "college-itard-oraison",
- "elements": [],
+ "elements": [
+  {
+   "type": "distinction",
+   "date": "2026-06-27",
+   "titre": "Lauréats du Concours national de la Résistance",
+   "extrait": "Les élèves de la classe de 3e du collège JMG Itard d’Oraison sont les lauréats bas-alpins du Concours national de la Résistance.",
+   "resume": "Le 27 juin 2026, la classe de 3e du Collège Itard d’Oraison a été désignée lauréate bas-alpins du Concours national de la Résistance, prix national créé en 1961.",
+   "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
+   "page": "Alpes-de-Haute-Provence. Concours national de la Résistance : les jeunes lauréats récompensés",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/A2378B2D-CD19-4A06-A676-D47BF8B6643A/FB1200/photo-1782580617.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2026-06-24",
+   "titre": "La Classe Défense 2025/2026",
+   "extrait": "La Classe Défense 2025/2026 par CROCITTI DIDIER, GUERRA ISABELLE",
+   "resume": "Publication du bilan de la classe défense 2025‑2026, rédigée par Didier Crocitti et Isabelle Guerra, diffusée le 24 juin 2026.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/-Classe-defense-.html",
+   "page": "Classe défense - Collège JMG ItardAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffiche",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-itard/spip/"
+   ]
+  },
+  {
+   "type": "sortie",
+   "date": "2026-06-02",
+   "titre": "Sortie au Camp des Milles",
+   "extrait": "les élèves des trois classes de 3ème du collège ont participé à la sortie annuelle au Camp des Milles.",
+   "resume": "Le 2 juin 2026, les élèves de 3e, dont ceux de la classe défense, ont visité le Camp des Milles dans le cadre d’une sortie pédagogique.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/",
+   "page": "Collège JMG ItardAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriq",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Convention de la classe défense",
+   "extrait": "Re‑signée juin 2026",
+   "resume": "La convention encadrant la classe défense du Collège JMG Itard a été re‑signée en juin 2026.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/-Classe-defense-.html",
+   "page": "Classe défense - Collège JMG ItardAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAffiche",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Renouvellement de la convention classe défense",
+   "extrait": "Re‑signée juin 2026",
+   "resume": "La convention liant le collège Itard à son unité marraine a été re‑signée en juin 2026.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/",
+   "page": "Collège JMG ItardAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriq",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Convention de classe défense re‑signée",
+   "extrait": "Re‑signée juin 2026",
+   "resume": "La convention de la classe défense du collège Itard d’Oraison a été re‑signée en juin 2026.",
+   "source": "https://www.laprovence.com/article/edition-grand-vaucluse/3870621/la-science-infuse-chez-les-jeunes.html",
+   "page": "La science infuse chez les jeunes",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2016-03/2016-03-31/20160331_1_1_4_1_0_obj11395439_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Renouvellement de convention",
+   "extrait": "Re‑signée juin 2026",
+   "resume": "La convention de partenariat de la classe défense du collège Itard a été renouvelée en juin 2026.",
+   "source": "https://www.laprovence.com/article/edition-alpes/6811593/deux-eleves-du-college-itard-laureates-au-concours-national-de-la-resistance.html",
+   "page": "Oraison : deux élèves du collège Itard lauréates au concours national de la Résistance",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=27,trim.height=652,trim.width=1184/media/hermes/2022-06/2022-06-22/20220622_1_3_2_1_0_obj26389582_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Convention re‑signée",
+   "extrait": "Re‑signée juin 2026",
+   "resume": "La convention liant le Collège Itard à son unité marraine DMD 04 a été renouvelée en juin 2026.",
+   "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
+   "page": "Alpes-de-Haute-Provence. Concours national de la Résistance : les jeunes lauréats récompensés",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/A2378B2D-CD19-4A06-A676-D47BF8B6643A/FB1200/photo-1782580617.jpg",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.facebook.com/MairieOraison/posts/information-importantecoll%C3%A8ge-jmg-itardtous-les-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-jmg-itard-pour/554736426688802",
+    "https://www.laprovence.com/actu/en-direct/149172532543616/oraison-le-college-rouvre-ce-mardi"
+   ]
+  },
+  {
+   "type": "convention",
+   "date": "2026-06",
+   "titre": "Renouvellement de la convention",
+   "extrait": "Re‑signée juin 2026",
+   "resume": "La convention liant le Collège Itard à l’unité DMD 04 pour l’atelier défense a été renouvelée en juin 2026.",
+   "source": "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+   "page": "Le drapeau du Souvenir français a été remis aux collégiens",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": "2026",
+   "titre": "Bilan CNRD 2026",
+   "extrait": "CNRD 2026 : La fin de la Shoah et de l’univers concentrationnaire nazi : survivre, témoigner, juger (1944-1948).",
+   "resume": "Le projet mémoire CNRD 2026, présenté par Didier Crocitti, porte sur la fin de la Shoah et le jugement des crimes nazis, réalisé avec la classe défense.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/",
+   "page": "Collège JMG ItardAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriq",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2022-06-22",
+   "titre": "Lauréates au concours national de la Résistance",
+   "extrait": "Manon Carnoli et Adèle Renouf ont été récompensées pour leur travail sur cette période de l'histoire.",
+   "resume": "En 2022, deux élèves de 3e du collège Itard, Manon Carnoli et Adèle Renouf, ont été lauréates du concours national de la Résistance et de la déportation.",
+   "source": "https://www.laprovence.com/article/edition-alpes/6811593/deux-eleves-du-college-itard-laureates-au-concours-national-de-la-resistance.html",
+   "page": "Oraison : deux élèves du collège Itard lauréates au concours national de la Résistance",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=27,trim.height=652,trim.width=1184/media/hermes/2022-06/2022-06-22/20220622_1_3_2_1_0_obj26389582_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2022-06-22",
+   "titre": "Unité marraine DMD 04",
+   "extrait": "unite\": \"DMD 04\"",
+   "resume": "L'unité DMD 04 est désignée comme unité marraine de la classe défense du collège Itard.",
+   "source": "https://www.laprovence.com/article/edition-alpes/6811593/deux-eleves-du-college-itard-laureates-au-concours-national-de-la-resistance.html",
+   "page": "Oraison : deux élèves du collège Itard lauréates au concours national de la Résistance",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=27,trim.height=652,trim.width=1184/media/hermes/2022-06/2022-06-22/20220622_1_3_2_1_0_obj26389582_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2016-03-31",
+   "titre": "Unité marraine DMD 04",
+   "extrait": "\"unite\": \"DMD 04\"",
+   "resume": "L’unité marraine de la classe défense du collège Itard est le détachement militaire départemental 04 (DMD 04).",
+   "source": "https://www.laprovence.com/article/edition-grand-vaucluse/3870621/la-science-infuse-chez-les-jeunes.html",
+   "page": "La science infuse chez les jeunes",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2016-03/2016-03-31/20160331_1_1_4_1_0_obj11395439_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2015-06-04",
+   "titre": "Remise du drapeau du Souvenir français",
+   "extrait": "Le drapeau du Souvenir français a été remis aux collégiens",
+   "resume": "Le drapeau du Souvenir français a été remis aux élèves du Collège Itard d’Oraison par le collège Camille‑Reymond, en présence du sous‑préfet de Forcalquier et du président du Conseil départemental, en récompense des résultats au Concours national annuel de la Résistance.",
+   "source": "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+   "page": "Le drapeau du Souvenir français a été remis aux collégiens",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2015-06-04",
+   "titre": "Cérémonie de remise du drapeau",
+   "extrait": "La cérémonie était présidée par le sous‑préfet de Forcalquier Pascal Zingraff",
+   "resume": "Lors d’une cérémonie officielle, le sous‑préfet Pascal Zingraff a présidé la remise du drapeau du Souvenir français aux collégiens du Collège Itard, avec la participation du corps enseignant et de personnalités locales.",
+   "source": "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+   "page": "Le drapeau du Souvenir français a été remis aux collégiens",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2014",
+   "titre": "Premier prix du Concours national annuel de la Résistance",
+   "extrait": "Caroline Fouque, élève de 3e, a remporté le 1er prix dans sa catégorie",
+   "resume": "Caroline Fouque, élève de 3e du Collège Itard, a obtenu le premier prix du Concours national annuel de la Résistance, contribuant à l’attribution du drapeau du Souvenir français à l’établissement.",
+   "source": "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+   "page": "Le drapeau du Souvenir français a été remis aux collégiens",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2005",
+   "titre": "Transmission du drapeau depuis 2005",
+   "extrait": "Depuis 2005 ce drapeau est ainsi transmis entre établissements du département",
+   "resume": "Le drapeau du Souvenir français est transmis chaque année depuis 2005 entre les établissements scolaires du département des Alpes‑de‑Haute‑Provence.",
+   "source": "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+   "page": "Le drapeau du Souvenir français a été remis aux collégiens",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Atelier théâtre – Classe défense",
+   "extrait": "Atelier théâtre Classe défense",
+   "resume": "Le collège propose un atelier théâtre dédié à la classe défense, intégré aux activités culturelles du site.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/",
+   "page": "Collège JMG ItardAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriq",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe défense",
+   "extrait": "Classe défense",
+   "resume": "Le collège Itard propose une Classe défense parmi ses ateliers et projets culturels.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/Le-college-en-bref.html",
+   "page": "Le collège en bref - Collège JMG ItardAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAff",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 19
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Itard (Oraison)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/forger-lesprit-defense-college",
+  "https://annuaire-education.fr/etablissement/oraison/college-docteur-jmg-itard/0040051J.html",
+  "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://ent04.fr/blog/pub/fse-college-dr-jmg-itard",
+  "https://www.alpes-de-haute-provence.gouv.fr/Actualites/Signature-de-la-500eme-aide-a-l-Embauche-PME-dans-les-Alpes-de-Haute-Provence/Ceremonie-de-commemoration-de-la-victoire-du-8-mai-1945",
+  "https://www.alpes-de-haute-provence.gouv.fr/content/download/10147/57298/file/Palmar",
+  "https://www.alpes-de-haute-provence.gouv.fr/content/download/11781/70394/file/CNRD%20-%20Palmar%C3%A8s%202016.pdf",
+  "https://www.clg-itard.ac-aix-marseille.fr/spip",
+  "https://www.facebook.com/MairieOraison/posts/information-importantecoll%C3%A8ge-jmg-itardtous-les-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-jmg-itard-pour/554736426688802",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-docteur-jmg-itard/college-0040051J",
+  "https://www.laprovence.com/actu/en-direct/149172532543616/oraison-le-college-rouvre-ce-mardi",
+  "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+  "https://www.laprovence.com/article/edition-alpes/4049897/retraite-pour-la-gestionnaire-du-college-itard-a-oraison.html",
+  "https://www.laprovence.com/article/edition-alpes/6811593/deux-eleves-du-college-itard-laureates-au-concours-national-de-la-resistance.html",
+  "https://www.laprovence.com/article/edition-grand-vaucluse/3870621/la-science-infuse-chez-les-jeunes.html",
+  "https://www.laprovence.com/article/region/1405858521243715/lycees-et-colleges-autour-de-l-etang-l-accompagnement-des-eleves-de-la-6e-vers-la-3e-au-coeur-de-la-reussite",
+  "https://www.ledauphine.com/education/2021/04/07/cours-a-distance-macron-s-invite-dans-un-college-bas-alpin",
+  "https://www.ledauphine.com/education/2023/01/16/en-raison-d-un-important-probleme-technique-les-collegiens-d-oraison-restent-chez-eux",
+  "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
+  "https://www.ledauphine.com/haute-provence/2017/06/23/six-eleves-hospitalises-apres-un-coup-de-chaleur",
+  "https://www.ledauphine.com/sante/2021/04/06/macron-s-invite-a-un-cours-d-histoire-en-distanciel-avec-des-collegiens",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-docteur-jean-marc-gaspard-itard-04.html",
+  "https://www.oraison.fr/vivre-a-oraison/enfance-jeunesse-et-education/scolarite/college",
+  "https://www.site.ac-aix-marseille.fr/clg-itard/",
+  "https://www.site.ac-aix-marseille.fr/clg-itard/spip/-Classe-defense-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-itard/spip/Le-college-en-bref.html"
+ ],
+ "etablissement": "Collège Itard (Oraison)",
+ "referents_cites": "M. Crocitti",
+ "unite_citee": "DMD 04"
 }

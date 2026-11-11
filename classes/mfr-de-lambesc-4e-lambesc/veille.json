@@ -2,6 +2,29 @@
  "fiche": "mfr-de-lambesc-4e-lambesc",
  "elements": [
   {
+   "type": "article",
+   "date": "2026",
+   "titre": "Inscription 2026",
+   "extrait": "Inscription 2026",
+   "resume": "Ouverture des inscriptions pour la classe de défense à compter de l'année scolaire 2026.",
+   "source": "https://www.garachon.com/3e-classe-de-defense",
+   "page": "4e / 3e Classe de Défense | MFRGarachon",
+   "site": "MFRGarachon",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-07-03",
+   "titre": "Convention OK",
+   "extrait": "Convention OK",
+   "resume": "Convention signée pour la classe défense du MFR de Lambesc.",
+   "source": "https://www.laprovence.com/article/ecoplanete/1972648107691214/un-jardin-ecologique-inaugure-au-college-jean-guehenno-a-lambesc-une-promesse-pour-demain",
+   "page": "Un jardin écologique inauguré au collège Jean-Guéhenno à Lambesc : \"Une promesse pour demain\"",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/07/03/l-equipe-engagee-le-principal-en-cravate-et-l-adjointe-1751530215_839856fb11686879856fb11686b985v_.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "projet",
    "date": "2025",
    "titre": "Projet inter‑académique des classes défense – 50e anniversaire de l’Union‑IHEDN",
@@ -22,6 +45,201 @@
    "page": "Presentation-Prix-Louis-QUINIO-2025.pdf",
    "site": "union-ihedn.org (PDF)",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2021-06-04",
+   "titre": "Convention OK",
+   "extrait": "Convention OK",
+   "resume": "L’établissement a indiqué que la convention relative à la classe défense est validée (OK).",
+   "source": "https://www.laprovence.com/article/edition-aix-pays-daix/6376503/le-nouveau-lycee-annonce-en-2024.html",
+   "page": "Le nouveau lycée de Lambesc annoncé en 2024",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=30,trim.top=78,trim.height=305,trim.width=556/media/hermes/2021-06/2021-06-04/20210604_1_2_3_1_1_obj24384469_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": "2021-06-04",
+   "titre": "Gendarmerie (groupement 13, compagnie de Salon)",
+   "extrait": "Gendarmerie (groupement 13, compagnie de Salon)",
+   "resume": "L’unité marraine de la classe défense de la MFR de Lambesc est la Gendarmerie du groupement 13, compagnie de Salon.",
+   "source": "https://www.laprovence.com/article/edition-aix-pays-daix/6376503/le-nouveau-lycee-annonce-en-2024.html",
+   "page": "Le nouveau lycée de Lambesc annoncé en 2024",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=30,trim.top=78,trim.height=305,trim.width=556/media/hermes/2021-06/2021-06-04/20210604_1_2_3_1_1_obj24384469_1.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": null,
+   "titre": "4ème en partenariat avec la Gendarmerie des Bouches-du-Rhône",
+   "extrait": "Inscription 4ème en partenariat avec la Gendarmerie des Bouches-du-Rhône",
+   "resume": "La classe de défense de 4ème est réalisée en partenariat avec la Gendarmerie des Bouches-du-Rhône, unité marraine du dispositif.",
+   "source": "https://www.garachon.com/3e-classe-de-defense",
+   "page": "4e / 3e Classe de Défense | MFRGarachon",
+   "site": "MFRGarachon",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": null,
+   "titre": "3ème en partenariat avec le 25e Régiment du Génie de l'Air",
+   "extrait": "3ème en partenariat avec le 25e Régiment du Génie de l'Air",
+   "resume": "La classe de défense de 3ème est réalisée en partenariat avec le 25e Régiment du Génie de l'Air, unité marraine du dispositif.",
+   "source": "https://www.garachon.com/3e-classe-de-defense",
+   "page": "4e / 3e Classe de Défense | MFRGarachon",
+   "site": "MFRGarachon",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite du 25e Régiment du Génie de l'Air",
+   "extrait": "Visite et étude en lien avec le 25e Régiment du Génie de l'Air sur les thématiques de la citoyenneté et de la défense nationale",
+   "resume": "Les élèves effectuent une visite et une étude au 25e Régiment du Génie de l'Air portant sur la citoyenneté et la défense nationale.",
+   "source": "https://www.garachon.com/3e-classe-de-defense",
+   "page": "4e / 3e Classe de Défense | MFRGarachon",
+   "site": "MFRGarachon",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite de la classe défense de la MFR Lambesc",
+   "extrait": "Les classes défense du collège et du lycée d'Etat ont eu la chance de participer à une intervention de la Gendarmerie autour des sciences",
+   "resume": "La classe défense de la MFR de Lambesc a été reçue par la Gendarmerie des Bouches‑du‑Rhône pour une intervention scientifique, dans le cadre de la convention avec le groupement 13.",
+   "source": "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623",
+   "page": "[VISITE DE LA CLASSE DÉFENSE DE LA MFR LAMBESC ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": null,
+   "titre": "Convention avec la Gendarmerie",
+   "extrait": "dans le cadre de la convention entr…",
+   "resume": "La visite s’inscrit dans le cadre de la convention signée entre la MFR de Lambesc et la Gendarmerie du groupement 13, compagnie de Salon.",
+   "source": "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623",
+   "page": "[VISITE DE LA CLASSE DÉFENSE DE LA MFR LAMBESC ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-guehenno-13.html"
+   ]
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "Publication Instagram – Classe de Défense",
+   "extrait": "#MFRLambesc #ClasseDeDéfense #ParcoursCitoyen #DevoirDeMémoire #25eRGA #ÉcoleDeLAir",
+   "resume": "Publication Instagram présentant la classe de défense du MFR de Lambesc, son parcours citoyen et ses partenaires comme le 25e RGA et l’École de l’Air.",
+   "source": "https://www.instagram.com/p/DMI0D1yOlXZ",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": null,
+   "titre": "Convention OK",
+   "extrait": "Convention OK",
+   "resume": "La classe de défense du MFR de Lambesc dispose d’une convention officielle avec la Gendarmerie (groupement 13, compagnie de Salon).",
+   "source": "https://www.instagram.com/p/DMI0D1yOlXZ",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.journaldesfemmes.fr/maman/ecole/college-jean-guehenno/college-0131259Y"
+   ]
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "25e Régiment d'Artillerie",
+   "extrait": "#25eRGA",
+   "resume": "Le 25e Régiment d'Artillerie est mentionné comme partenaire de la classe de défense.",
+   "source": "https://www.instagram.com/p/DMI0D1yOlXZ",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "École de l'Air",
+   "extrait": "#ÉcoleDeLAir",
+   "resume": "L’École de l’Air est citée parmi les partenaires de la classe de défense.",
+   "source": "https://www.instagram.com/p/DMI0D1yOlXZ",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "MFR Garachon",
+   "extrait": "#mfrgarachon",
+   "resume": "Le compte MFR Garachon est mentionné comme partenaire ou relais de la classe de défense.",
+   "source": "https://www.instagram.com/p/DMI0D1yOlXZ",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "projet",
+   "date": null,
+   "titre": "Parcours citoyen",
+   "extrait": "#ParcoursCitoyen",
+   "resume": "La classe de défense propose un parcours citoyen axé sur le devoir de mémoire et la citoyenneté active.",
+   "source": "https://www.instagram.com/p/DMI0D1yOlXZ",
+   "page": "Instagram",
+   "site": "instagram.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "La 3e Défense au cœur d'un exercice",
+   "extrait": "La 3e Défense a vécu une expérience exceptionnelle à la MFR de Lambesc.",
+   "resume": "Les élèves de la classe de Défense et de Sécurité Globale du collège ont participé à un exercice spécial à la MFR de Lambesc.",
+   "source": "https://www.facebook.com/100063999970020/posts/-%F0%9D%97%9F%F0%9D%97%AE-%F0%9D%9F%AF%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%AE%F0%9D%98%82-%F0%9D%97%B0%C5%93%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%B1%F0%9D%98%82%F0%9D%97%BB-%F0%9D%97%B2%F0%9D%98%85%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B0%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%97%B5%F0%9D%97%B2%CC%81%F0%9D%97%B9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%AE%CC%80-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%A0%F0%9D%97%99%F0%9D%97%A5mardi-les-%C3%A9l%C3%A8ves-/1446265787516740",
+   "page": "🚁🇫🇷 𝗟𝗮 𝟯𝗲 𝗗𝗲́𝗳𝗲𝗻𝘀𝗲 𝗮𝘂 𝗰œ𝘂𝗿 𝗱'𝘂𝗻 𝗲𝘅𝗲𝗿𝗰𝗶𝗰𝗲 𝗱 ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Option Classe de Défense",
+   "extrait": "Quatrième et Troisième EA Option Classe de Défense Cycle d'orientation Formation par alternance scolaire pour découvrir son orientation dans esprit de citoyenneté et de défense",
+   "resume": "L'option Classe de Défense est proposée aux élèves de 4e et 3e au sein de la MFR de Lambesc, visant à développer la citoyenneté et la défense nationale.",
+   "source": "https://www.garachon.com",
+   "page": "Accueil | MFRGarachon",
+   "site": "MFRGarachon",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "Gendarmerie (groupement 13, compagnie de Salon)",
+   "resume": "L'unité marraine de la classe défense de la MFR de Lambesc est la Gendarmerie du groupement 13, compagnie de Salon.",
+   "source": "https://www.garachon.com",
+   "page": "Accueil | MFRGarachon",
+   "site": "MFRGarachon",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": null,
+   "titre": "Convention",
+   "extrait": "Convention OK",
+   "resume": "Une convention a été signée pour la classe défense de la MFR de Lambesc.",
+   "source": "https://www.garachon.com",
+   "page": "Accueil | MFRGarachon",
+   "site": "MFRGarachon",
+   "trouve_le": "2026-11-11"
   }
  ],
  "recherches": [
@@ -29,12 +247,45 @@
    "date": "2026-11-11",
    "pages": 1,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 26,
+   "nouveaux": 19
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://www.clg-guehenno.ac-aix-marseille.fr/spip",
+  "https://annuaire-education.fr/etablissement/lambesc/college-jean-guehenno/0131259Y.html",
+  "https://batiscolaire.education.gouv.fr/un-cocon-tres-protecteur-240478",
+  "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
   "https://lescolleges.fr/lambesc-13410/",
+  "https://www.ac-aix-marseille.fr/les-eleves-du-college-guehenno-de-lambesc-participent-au-concours-d-eloquence-mots-en-scene-124472",
+  "https://www.apprentissage-sud.fr/cfa/mfr-cfa-garachon",
+  "https://www.facebook.com/100063999970020/posts/-%F0%9D%97%9F%F0%9D%97%AE-%F0%9D%9F%AF%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%AE%F0%9D%98%82-%F0%9D%97%B0%C5%93%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%B1%F0%9D%98%82%F0%9D%97%BB-%F0%9D%97%B2%F0%9D%98%85%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B0%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%97%B5%F0%9D%97%B2%CC%81%F0%9D%97%B9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%AE%CC%80-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%A0%F0%9D%97%99%F0%9D%97%A5mardi-les-%C3%A9l%C3%A8ves-/1446265787516740",
+  "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623",
+  "https://www.garachon.com",
+  "https://www.garachon.com/3e-classe-de-defense",
+  "https://www.garachon.com/citoyen",
+  "https://www.instagram.com/p/DMI0D1yOlXZ",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-jean-guehenno/college-0131259Y",
+  "https://www.lambesc.fr/mon-quotidien/enfance-et-jeunesse/jeunesse-11-18-ans",
+  "https://www.laprovence.com/article/ecoplanete/1972648107691214/un-jardin-ecologique-inaugure-au-college-jean-guehenno-a-lambesc-une-promesse-pour-demain",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/3025123/une-ecole-montessori-ouvre-ses-portes-aujourdhui.html",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/6376503/le-nouveau-lycee-annonce-en-2024.html",
+  "https://www.laprovence.com/article/region/1597089403092815/les-ecoliers-de-lambesc-honores-par-la-municipalite-avant-de-prendre-leur-envol-pour-le-college",
+  "https://www.laprovence.com/article/societe/63163710304347/un-groupe-de-collegiens-de-lambesc-planche-sur-la-creation-d-un-espace-jeunes-dans-la-commune",
+  "https://www.ledauphine.com/archives/2025/14-10",
+  "https://www.ledauphine.com/education/2025/06/03/une-escapade-a-marseille-pour-les-collegiens-de-notre-dame",
+  "https://www.ledauphine.com/education/resultats-examens?departmentCode=13&city=Lambesc&diplomaCode=670&serieCode=P",
+  "https://www.ledauphine.com/haute-savoie/2019/09/29/roger-artaud-le-nouveau-gestionnaire-du-college-du-val-des-usses",
+  "https://www.ledauphine.com/vaucluse/2015/10/01/les-associations-investissent-le-college-clovis-hugues",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-guehenno-13.html",
+  "https://www.site.ac-aix-marseille.fr/clg-guehenno/",
   "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf"
  ],
- "etablissement": "MFR de Lambesc (4e) (Lambesc)"
+ "etablissement": "MFR de Lambesc (4e) (Lambesc)",
+ "referents_cites": "M. L. Bruguier, Mme Sicard",
+ "unite_citee": "Gendarmerie (groupement 13, compagnie de Salon)"
 }

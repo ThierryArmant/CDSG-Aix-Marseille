@@ -1,14 +1,98 @@
 {
  "fiche": "lpp-poutrain-saint-jean-saint-nicolas",
- "elements": [],
+ "elements": [
+  {
+   "type": "projet",
+   "date": "2026-06-24",
+   "titre": "Groupe Défense – année d’immersion et de découvertes",
+   "extrait": "Une année d’immersion et de découvertes pour le Groupe Défense du lycée",
+   "resume": "Le Groupe Défense du lycée Poutrain a mené, le 24 juin 2026, une année d’immersion et de découvertes, regroupant diverses activités pédagogiques et citoyennes.",
+   "source": "https://lyceepoutrain.fr/trois-eleves-du-lycee-poutrain-recompenses-par-le-prix-de-lhonneur-en-action/",
+   "page": "Trois élèves du lycée Poutrain récompensés par le Prix de l'Honneur en Action - Lycée professionnel Privé Pierre et Louis Poutrain",
+   "site": "Lycée professionnel Privé Pierre et Louis Poutrain",
+   "image": "https://lyceepoutrain.fr/wp-content/uploads/2026/07/PXL_20260701_155943106.MP_-771x1024.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": "2011-02-09",
+   "titre": "Unité marraine",
+   "extrait": "4e Régiment de chasseurs",
+   "resume": "L'unité marraine de la classe défense du LP Poutrain est le 4e Régiment de chasseurs.",
+   "source": "https://www.laprovence.com/article/echoplanete/3930336/fiche-metier-chauffagiste-fabrice-met-du-soleil-dans-ses-chaudieres.html",
+   "page": "Fiche métier: Chauffagiste, Fabrice met du soleil dans ses chaudières",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Option groupe défense",
+   "extrait": "Les options groupe défense Préparation possible aux tests techniques de pisteur‑secouriste section vtt / ski alpin",
+   "resume": "Le lycée propose une option groupe défense qui prépare les élèves aux tests techniques de pisteur‑secouriste, notamment en VTT et ski alpin.",
+   "source": "https://lyceepoutrain.fr",
+   "page": "Accueil - Lycée professionnel Privé Pierre et Louis Poutrain",
+   "site": "Lycée professionnel Privé Pierre et Louis Poutrain",
+   "image": "https://lyceepoutrain.fr/wp-content/uploads/2024/03/lycee-poutrain-1.jpeg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "unité marraine : 4e Régiment de chasseurs",
+   "resume": "Le lycée professionnel Pierre et Louis Poutrain a pour unité marraine le 4e Régiment de chasseurs.",
+   "source": "https://annuaire-education.fr/etablissement/saint-jean-saint-nicolas/lycee-professionnel-pierre-et-louis-poutrain/0050039R.html",
+   "page": "Lycée professionnel Pierre et Louis Poutrain, Saint-Jean-Saint-Nicolas — effectifs, brevet, bac",
+   "site": "Annuaire de l’éducation",
+   "image": "https://annuaire-education.fr/partage.png",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 25,
+   "nouveaux": 4
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "LPP Poutrain (Saint-Jean-Saint-Nicolas)"
+ "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+  "https://annuaire-education.fr/etablissement/saint-jean-saint-nicolas/lycee-professionnel-pierre-et-louis-poutrain/0050039R.html",
+  "https://linkpick.fr/blog/lycee-poutrain-formation-d-excellence-et-engagement-durable-pour-les-etudiants",
+  "https://lyceepoutrain.fr",
+  "https://lyceepoutrain.fr/trois-eleves-du-lycee-poutrain-recompenses-par-le-prix-de-lhonneur-en-action",
+  "https://tavily.com/knowledge/company/3RPUyUy6CVb8",
+  "https://tavily.com/knowledge/company/7SJ9CmzVNJTG",
+  "https://www.facebook.com/100065134805156/mentions",
+  "https://www.facebook.com/100065134805156/posts/1405652601615887",
+  "https://www.facebook.com/100065134805156/posts/7215ee9c/1405651571615990",
+  "https://www.facebook.com/100065134805156/videos/lyc%C3%A9e-pierre-et-louis-poutrain/2435467596684637",
+  "https://www.facebook.com/100065134805156?locale=ka_GE",
+  "https://www.facebook.com/p/Lyc%C3%A9e-Professionnel-Pierre-et-Louis-Poutrain-100065134805156",
+  "https://www.instagram.com/lpppoutrain",
+  "https://www.laprovence.com/article/echoplanete/3930336/fiche-metier-chauffagiste-fabrice-met-du-soleil-dans-ses-chaudieres.html",
+  "https://www.laprovence.com/article/edition-alpes/3999289/le-centre-jean-escudie-a-ouvert-ses-portes-aux-visiteurs.html",
+  "https://www.laprovence.com/article/edition-arles/2946971/florian-recoit-un-prix-de-la-legion-dhonneur.html",
+  "https://www.ledauphine.com/education/2023/03/27/avec-et-pour-les-eleves-le-lycee-poutrain-se-renouvelle",
+  "https://www.ledauphine.com/education/2025/12/02/le-lycee-poutrain-a-ouvert-ses-portes",
+  "https://www.ledauphine.com/education/2026/02/05/le-lycee-poutrain-ouvre-ses-portes-ce-samedi",
+  "https://www.ledauphine.com/education/2026/10/16/les-eleves-du-lycee-poutrain-dans-les-coulisses-du-btp",
+  "https://www.ledauphine.com/hautes-alpes/2019/09/05/le-lycee-poutrain-s-ouvre-a-l-international",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-prive-pierre-et-louis-poutrain-05.html",
+  "https://www.linternaute.com/ville/lycee/lycee-professionnel-pierre-et-louis-poutrain/lycee-0050039R",
+  "https://www.metiers-foret-bois.org/etablissement/lycee-professionnel-prive-poutrain"
+ ],
+ "etablissement": "LPP Poutrain (Saint-Jean-Saint-Nicolas)",
+ "referents_cites": [
+  "Mme Thomas",
+  "M. Collin"
+ ],
+ "unite_citee": "4e Régiment de chasseurs"
 }

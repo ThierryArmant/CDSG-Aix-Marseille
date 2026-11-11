@@ -2,6 +2,17 @@
  "fiche": "college-georges-brassens-marignane",
  "elements": [
   {
+   "type": "ceremonie",
+   "date": "2026-10-15",
+   "titre": "Cérémonie de remise du D.N.B. et du C.F.G.",
+   "extrait": "Une cérémonie de remise du Diplôme National du Brevet et du Certificat de Formation Générale aura lieu le Jeudi 15 octobre 2026 à 18h.",
+   "resume": "Le collège Georges Brassens organise le 15 octobre 2026 une cérémonie de remise du Diplôme National du Brevet et du Certificat de Formation Générale aux élèves, dont la classe Défense.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/Ceremonie-de-remise-du-D-N-B-et-du-C-F-G.html",
+   "page": "Cérémonie de remise du D.N.B. et du C.F.G. - Collège Georges BrassensAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "sortie",
    "date": "2025-05-12",
    "titre": "Matinée de rencontre intergénérationnelle",
@@ -26,6 +37,17 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "sortie",
+   "date": "2025-05-09",
+   "titre": "Miss Marignane 2025",
+   "extrait": "Classe Défense du Collège Georges Brassens, Miss Marignane 2025.",
+   "resume": "Le même groupe a été présent le 9 mai 2025 lors de l’élection Miss Marignane, illustrant son implication dans la vie locale.",
+   "source": "https://www.facebook.com/ville.marignane/posts/-retour-en-images-ce-8-mai-au-matin-marignane-a-rendu-hommage-%C3%A0-la-victoire-de-1/1084738120353566",
+   "page": "[📷 RETOUR EN IMAGES 📷] Ce 8 mai au matin, Marignane ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "ceremonie",
    "date": "2025-05-08",
    "titre": "Cérémonie du 8 mai",
@@ -38,6 +60,17 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "article",
+   "date": "2023-04-19",
+   "titre": "Présentation des Cadets de la sécurité civile",
+   "extrait": "Présentation des « Cadets de la sécurité civile »",
+   "resume": "Article publié le 19 avril 2023 présentant la classe « Défense » « Cadets de la sécurité civile » du collège Georges Brassens à Marignane.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/-Cadets-de-la-securite-civile-.html",
+   "page": "Cadets de la sécurité civile - Collège Georges BrassensAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les ",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "sortie",
    "date": null,
    "titre": "Visite à la Maison de la France",
@@ -47,6 +80,42 @@
    "page": "[ VIE PATRIOTIQUE ] Les élèves... - Ville de Marignane | Facebook",
    "site": "facebook.com (extrait public)",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe « Défense »",
+   "extrait": "Classe « Défense »",
+   "resume": "Le collège Georges Brassens propose une classe « Défense » intitulée Cadets de la sécurité civile.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/-Cadets-de-la-securite-civile-.html",
+   "page": "Cadets de la sécurité civile - Collège Georges BrassensAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les ",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11",
+   "autres_sources": [
+    "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/"
+   ]
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Invitation des élèves de la classe Défense",
+   "extrait": "Les élèves de la classe Defense du college Georges Brassens ont été invités",
+   "resume": "Les élèves de la classe Défense du collège Georges Brassens ont reçu une invitation, selon la ville de Marignane.",
+   "source": "https://www.facebook.com/ville.marignane/posts/-vie-patriotique-les-%C3%A9l%C3%A8ves-de-la-%F0%9D%97%B0%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%98%82-%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%CC%80%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%B4%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%95%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80-o/1235005128660197",
+   "page": "Ville de Marignane",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Mention de la classe Défense",
+   "extrait": "Parcours CITOYEN Cadets de la sécurité civile Classe « Défense »",
+   "resume": "Le site indique que le collège propose une classe Défense dans le cadre du Parcours Citoyen et des Cadets de la sécurité civile.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/Ceremonie-de-remise-du-D-N-B-et-du-C-F-G.html",
+   "page": "Cérémonie de remise du D.N.B. et du C.F.G. - Collège Georges BrassensAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
   }
  ],
  "recherches": [
@@ -54,28 +123,57 @@
    "date": "2026-11-11",
    "pages": 16,
    "nouveaux": 5
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 24,
+   "nouveaux": 6
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
   "https://annuaire-education.fr/etablissement/marignane/college-georges-brassens/0131607B.html",
   "https://annuaire.ecole-futee.com/etablissement/0131607B",
   "https://clg-mace-clichy.ac-versailles.fr/spip.php?article317",
   "https://college-lycee.com/college-georges-brassens/Marignane-0131607B",
   "https://moovitapp.com/index/fr/transport_en_commun-Collège_Georges_Brassens-Marseille_Metropole-site_16683767-1562",
+  "https://tavily.com/knowledge/company/fXcG7BdstfjD",
   "https://vis-ma-classe.fr/etablissement/13700-marignane/college-georges-brassens-0131607b",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/25467/153019/file/recueil-13-2017-282-recueil-des-actes-administratifs%20du%2008%20d%C3%A9cembre%202017.pdf",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/33026/190534/file/M%C3%A9moire%20en%20r%C3%A9ponse%20de%20l%27exploitant%20%C3%A0%20l%27avis%20de%20la%20Mission%20r%C3%A9gionale%20d%27Autorit%C3%A9%20environnementale.pdf",
   "https://www.clg-brassens-marignane.ac-aix-marseille.fr/",
+  "https://www.facebook.com/100080117060627/posts/c%C3%A9r%C3%A9monie-dnb-linfo-a-%C3%A9t%C3%A9-transmise-aux-lyc%C3%A9es-mais-voici-linfo-avec-le-mail-pou/830282909652270",
   "https://www.facebook.com/VMatinAvignon/",
+  "https://www.facebook.com/ville.marignane/posts/-retour-en-images-%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%9E%CC%80%F0%9D%90%AC-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%9F%91%F0%9D%9F%8E%F0%9D%9F%8E-%F0%9D%90%9A%F0%9D%90%9D%F0%9D%90%A8%F0%9D%90%AC-%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%AD-%F0%9D%90%9C%F0%9D%90%9E%CC%81%F0%9D%90%A5%F0%9D%90%9E%CC%81%F0%9D%90%9B%F0%9D%90%AB%F0%9D%90%9E%CC%81-%F0%9D%90%A5%F0%9D%90%9A-%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%A7-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%A5%F0%9D%90%9E%F0%9D%90%AE%F0%9D%90%AB%F0%9D%90%AC-%F0%9D%90%9E%CC%81%F0%9D%90%AD%F0%9D%90%AE%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%9A%F0%9D%90%AE-%F0%9D%90%9C%F0%9D%90%A8/1126485096178868",
+  "https://www.facebook.com/ville.marignane/posts/-retour-en-images-ce-8-mai-au-matin-marignane-a-rendu-hommage-%C3%A0-la-victoire-de-1/1084738120353566",
+  "https://www.facebook.com/ville.marignane/posts/-retour-en-images-la-semaine-derni%C3%A8re-les-%C3%A9l%C3%A8ves-de-6%C3%A8me-des-coll%C3%A8ges-georges-br/701543765339672",
+  "https://www.facebook.com/ville.marignane/posts/-vie-patriotique-les-%C3%A9l%C3%A8ves-de-la-%F0%9D%97%B0%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%98%82-%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%CC%80%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%B4%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%95%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80-o/1235005128660197",
   "https://www.facebook.com/ville.marignane/posts/-vie-patriotique-les-élèves-de-la-classe-défense-du-collège-georges-brassens-se-/1083542983806413/",
   "https://www.laprovence.com/",
+  "https://www.laprovence.com/article/edition-etang/35989/au-college-brassens-une-section-sportive-unique.html",
+  "https://www.laprovence.com/article/edition-vitrolles-marignane/2549862/les-collegiens-ont-decouvert-la-charte-sur-la-laicite-a-lecole.html",
+  "https://www.laprovence.com/article/papier/4379422/les-collegiens-de-brassens-sont-passes-des-mots-a-lart.html",
   "https://www.laprovence.com/article/region/1838066081972715/a-marignane-les-collegiens-de-la-classe-defense-tissent-le-lien-entre-memoire-citoyennete-et-armee",
+  "https://www.laprovence.com/article/region/41253389118457/au-college-brassens-de-marignane-la-magie-d-une-classe-pas-comme-les-autres-et-un-spectacle-de-solidarite",
   "https://www.laprovence.com/region/Edition-vaucluse",
   "https://www.laprovence.com/vaucluse",
+  "https://www.ledauphine.com/archives/2023/19-11",
+  "https://www.ledauphine.com/archives/2024/11-02",
+  "https://www.ledauphine.com/archives/2024/20-11",
+  "https://www.ledauphine.com/archives/2025/19-12",
+  "https://www.ledauphine.com/archives/2026/10-10",
   "https://www.ledauphine.com/vaucluse",
   "https://www.leprogres.fr/education/2026/10/04/grace-a-la-classe-defense-ces-eleves-vont-decouvrir-plus-de-150-metiers-differents",
-  "https://www.politis.fr/articles/2023/06/politis-hors-serie-ecole-quand-larmee-envahit-lecole/"
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-georges-brassens-13.html",
+  "https://www.politis.fr/articles/2023/06/politis-hors-serie-ecole-quand-larmee-envahit-lecole/",
+  "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/",
+  "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/-Cadets-de-la-securite-civile-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/Ceremonie-de-remise-du-D-N-B-et-du-C-F-G.html",
+  "https://www.youtube.com/watch?v=RpsxDx2dYRg"
  ],
  "etablissement": "Collège Georges Brassens (Marignane)",
- "referents_cites": "Mme Ndiaye",
+ "referents_cites": "Mme Ndiaye, Thierry Delahaye",
  "unite_citee": "Gendarmerie, BTA de Carry-le-Rouet"
 }
