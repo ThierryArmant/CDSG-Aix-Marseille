@@ -4,7 +4,7 @@ name: Recherche web
 # filtre « toutes » : les 89 fiches en parallèle (8 équipes), puis fusion des résultats.
 on:
   schedule:
-    - cron: "17 2 * * *"   # chaque nuit vers 3 h : 3 fiches vérifiées il y a le plus longtemps (+ palmarès le dimanche)
+    - cron: "17 2 * * *"   # chaque nuit vers 3 h : 5 fiches vérifiées il y a le plus longtemps (+ palmarès le dimanche)
   workflow_dispatch:
     inputs:
       fiche:
@@ -69,7 +69,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             PALM=""; [ "$(date +%u)" = "7" ] && PALM="--palmares"   # palmarès le dimanche
-            python3 recherche/recherche_web.py $PALM --rotation 3
+            python3 recherche/recherche_web.py $PALM --rotation 5
           elif [ -n "$FICHE" ]; then
             python3 recherche/recherche_web.py --fiche "$FICHE" --liens "$LIENS"
           elif [ "$FILTRE" = "toutes" ]; then
