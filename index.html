@@ -476,7 +476,7 @@ function rangDistinction(d){
 const METAL = {or:["#f7d774","#c9962b","#8a6413"], argent:["#f1f3f6","#b8bec8","#7c8390"], bronze:["#f0b98a","#b8733c","#7a4520"], mention:["#dfe6ff","#6f86e0","#2c3f9e"]};
 const RUBAN = {or:["#1d2f8f","#ffffff","#d8243a"], argent:["#1d2f8f","#ffffff","#1d2f8f"], bronze:["#d8243a","#ffffff","#d8243a"], mention:["#2c3f9e","#8fa3f0","#2c3f9e"]};
 const NATURE = u => /laprovence|ledauphine|vauclusematin|lamarseillaise|francetvinfo|france3|francebleu|actu\.fr|varmatin|frequencemistral|20minutes|ouest-france|lefigaro|lemonde/i.test(u||"") ? "presse"
-  : /gouv\.fr|onac-vg|union-ihedn|ihedn|pedagogie\.ac-aix|ac-aix-marseille\.fr\/jcms|education\.gouv|feminisonslaeronautique|souvenir-francais|anmonm|assemblee-nationale/i.test(u||"") ? "officielle" : "autre";
+  : /\.gouv\.fr|ac-[a-z-]+\.fr|education\.fr|onisep|gendarmerie|marine\.|armee|onac-vg|ihedn|feminisonslaeronautique|souvenir-francais|anmonm|reseau-canope|assemblee-nationale|senat\.fr|mairie|ville-|maregion|departement|vaucluse\.fr|marseille\.fr|pompiers|sdis|bmpm|legion-etrangere|cirfa/i.test(u||"") ? "officielle" : "autre";
 function verif(d){
   if(d.verifie) return d.verifie;
   const n = (d.sources||[d.source]).map(NATURE);
@@ -486,7 +486,7 @@ function medaille(d, taille){
   const r = rangDistinction(d), m = METAL[r], rb = RUBAN[r], uid = "m"+Math.random().toString(36).slice(2,8), w = taille||34;
   const vf = verif(d), pale = vf==="a_confirmer";
   const lib = {or:"1er prix / lauréat", argent:"2e prix", bronze:"3e prix", mention:"Mention / participation"}[r];
-  return `<svg width="${w}" height="${w*1.55}" viewBox="0 0 40 62" role="img" style="${pale?"opacity:.38;filter:grayscale(.6)":""}"><title>${esc((d.titre||"Distinction")+" — "+(dateFr(d.date)||"date ?")+" ("+lib+") — "+(vf==="presse"?"vérifié par la presse":vf==="officielle"?"vérifié par une source officielle":"à confirmer par la presse"))}</title>
+  return `<svg width="${w}" height="${w*1.55}" viewBox="0 0 40 62" role="img" style="${pale?"opacity:.38;filter:grayscale(.6)":""}"><title>${esc((d.titre||"Distinction")+" — "+(dateFr(d.date)||"date ?")+" ("+lib+") — "+(vf==="presse"?"vérifié par la presse":vf==="officielle"?"vérifié par un site institutionnel":"à confirmer (presse ou site institutionnel)"))}</title>
     <defs><radialGradient id="${uid}" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="${m[0]}"/><stop offset=".6" stop-color="${m[1]}"/><stop offset="1" stop-color="${m[2]}"/></radialGradient></defs>
     <path d="M8 0 h8 v24 l-4 4 l-4 -4z" fill="${rb[0]}"/><path d="M16 0 h8 v26 l-4 3 l-4 -3z" fill="${rb[1]}"/><path d="M24 0 h8 v24 l-4 4 l-4 -4z" fill="${rb[2]}"/>
     <circle cx="20" cy="43" r="15" fill="url(#${uid})" stroke="${m[2]}" stroke-width="1.2" ${pale?'stroke-dasharray="2 2"':''}/>
@@ -734,7 +734,7 @@ async function chargerVeille(id){
   zone.innerHTML = `<h4>Dossier de la classe · ${els.length} élément(s) trouvé(s) en ligne</h4>
     ${Object.keys(der).length?`<div class="derniers">${Object.entries(der).map(([t,d])=>`<div><b>${TYP[t]||t}</b>${esc(dateFr(d.date)||"date ?")} — ${esc(d.titre||"")}</div>`).join("")}</div>`:""}
     ${(()=>{ const d=els.filter(e=>e.type==="distinction"); return d.length?`<div class="distinctions"><h4>🏅 Distinctions, prix et récompenses (${d.length}) <button class="ajout g-only" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><ul style="margin:0;padding-left:18px">${d.map(e=>{ const srcs=[e.source].concat(e.autres_sources||[]).filter(Boolean); const vf=verif({sources:srcs, verifie:e.verifie});
-      return `<li><b>${esc(dateFr(e.date)||"date ?")}</b> — ${esc(e.titre||"")} ${vf==="a_confirmer"?'<span class="badge b-verif">à confirmer</span>':`<span class="badge b-active">✔ vérifié${vf==="presse"?" (presse)":" (source officielle)"}</span>`}
+      return `<li><b>${esc(dateFr(e.date)||"date ?")}</b> — ${esc(e.titre||"")} ${vf==="a_confirmer"?'<span class="badge b-verif">à confirmer</span>':`<span class="badge b-active">✔ vérifié${vf==="presse"?" (presse)":" (site institutionnel)"}</span>`}
       <span style="font-size:12px">${srcs.map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(hote(u))}</a>`).join(" · ")}</span></li>`; }).join("")}</ul></div>`:`<div class="distinctions"><h4>🏅 Distinctions <button class="ajout g-only" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><div style="font-size:13px">Aucune distinction trouvée en ligne pour l'instant.</div></div>`; })()}
     ${presse.length?`<h4>Revue de presse et photos</h4><div class="presse">${presse.map(e=>carteArticle(e,true)).join("")}</div>`:""}
     <h4>Chronologie</h4>

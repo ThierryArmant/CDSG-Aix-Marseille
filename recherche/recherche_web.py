@@ -79,15 +79,16 @@ MOTS_DISTINCTION = re.compile(r"prix|laur[ée]at|concours|r[ée]compens|distinct
 
 PRESSE = re.compile(r"laprovence|ledauphine|vauclusematin|lamarseillaise|francetvinfo|france3|francebleu|actu\.fr|varmatin|"
                     r"frequencemistral|20minutes|lepoint|ouest-france|lefigaro|lemonde|liberation|radio|tv|info", re.I)
-OFFICIEL = re.compile(r"gouv\.fr|defense\.gouv|onac-vg|union-ihedn|ihedn|ac-aix-marseille\.fr/jcms|pedagogie\.ac-aix|education\.gouv|"
-                      r"feminisonslaeronautique|souvenir-francais|anmonm|reseau-canope|assemblee-nationale|senat\.fr", re.I)
+OFFICIEL = re.compile(r"\.gouv\.fr|ac-[a-z-]+\.fr|education\.fr|onisep|defense\.gouv|gendarmerie|marine\.|armee|onac-vg|ihedn|"
+                      r"feminisonslaeronautique|souvenir-francais|anmonm|reseau-canope|assemblee-nationale|senat\.fr|"
+                      r"mairie|ville-|maregion|departement|conseil-?departemental|vaucluse\.fr|departement13|marseille\.fr|"
+                      r"pompiers|sdis|bmpm|legion-etrangere|cirfa", re.I)
 
 
 def nature_source(u):
     """presse / officielle / etablissement / autre"""
     if PRESSE.search(u or ""): return "presse"
-    if OFFICIEL.search(u or ""): return "officielle"
-    if re.search(r"site\.ac-aix-marseille\.fr|web\.ac-aix-marseille\.fr", u or ""): return "etablissement"
+    if OFFICIEL.search(u or ""): return "officielle"   # sites institutionnels, dont ceux des établissements (ac-aix-marseille.fr)
     return "autre"
 
 

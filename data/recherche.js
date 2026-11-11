@@ -49,7 +49,7 @@ window.CDSG_WEB = {
     "titre": "Remise du prix inter armées 2025-2026",
     "resume": "Le 3 juillet 2026, le Collège Jean Giono a reçu le prix inter armées 2025-2026 lors d’une cérémonie.",
     "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
-    "verifie": "a_confirmer",
+    "verifie": "officielle",
     "sources": [
      "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
      "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html"

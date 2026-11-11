@@ -12,7 +12,8 @@
    "trouve_le": "2026-11-10",
    "autres_sources": [
     "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html"
-   ]
+   ],
+   "verifie": "officielle"
   },
   {
    "type": "article",
@@ -96,7 +97,8 @@
    "page": "Orange. Le recteur de l’académie remet un prix prestigieux aux collégiens",
    "site": "ledauphine.com",
    "image": "https://cdn-s-www.ledauphine.com/images/71799470-A785-4E9D-BC2B-8680A55751D2/FB1200/photo-1742754980.jpg",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-11",
+   "verifie": "presse"
   },
   {
    "type": "ceremonie",
@@ -168,7 +170,8 @@
    "page": "Des élèves avignonnais reçoivent le Prix de l’Éducation citoyenne",
    "site": "laprovence.com",
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=169,trim.height=1125,trim.width=2000/media/2024/05/18/FQ-CITOYENNETE-B.jpg",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-11",
+   "verifie": "presse"
   },
   {
    "type": "sortie",
@@ -236,7 +239,8 @@
    "page": "Orange. Un prix et un moment convivial pour les CDSG du collège Giono",
    "site": "ledauphine.com",
    "image": "https://cdn-s-www.ledauphine.com/images/41765D24-C8D9-4D9D-9C01-84B3F410BAE5/FB1200/photo-1685901633.jpg",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-11",
+   "verifie": "presse"
   },
   {
    "type": "ceremonie",
@@ -368,7 +372,8 @@
    "page": "Prix spécial - Féminisons les métiers de l'aéronautique",
    "site": "Féminisons les métiers de l'aéronautique",
    "image": "https://feminisonslaeronautique.fr/wp-content/uploads/2022/05/Prix-Special-BD23-La-conquˆte-de-Luna-College-jean-Giono-dOrange-copie.jpg",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-11",
+   "verifie": "officielle"
   },
   {
    "type": "autre",
