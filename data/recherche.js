@@ -3,7 +3,7 @@ window.CDSG_WEB = {
  "college-jean-giono-orange": {
   "date": "11/11/2026",
   "resume": "",
-  "nb": 21,
+  "nb": 27,
   "derniere_activite": "2026-07-03",
   "derniers": {
    "distinction": {
@@ -37,10 +37,10 @@ window.CDSG_WEB = {
     "source": "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris"
    },
    "projet": {
-    "date": "2022-05-10",
-    "titre": "Mémoire de l’esclavage",
-    "resume": "Les élèves de la classe défense préparent un projet de mémoire sur l’esclavage en vue de la journée nationale du 10 mai 2022.",
-    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84"
+    "date": "2025",
+    "titre": "Travail sur les déportés du Train fantôme",
+    "resume": "Les élèves de la classe défense du Collège Giono ont réalisé un projet de devoir de mémoire portant sur les victimes déportées du « Train fantôme ».",
+    "source": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens"
    }
   },
   "distinctions": [
@@ -53,6 +53,16 @@ window.CDSG_WEB = {
     "sources": [
      "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
      "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html"
+    ]
+   },
+   {
+    "date": "2025-03-19",
+    "titre": "Prix national Louis‑Quinio",
+    "resume": "Le recteur Benoît Delaunay, accompagné de responsables académiques et militaires, a décerné le prix national Louis‑Quinio à la classe défense du Collège Jean Giono pour son travail de mémoire.",
+    "source": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
+    "verifie": "presse",
+    "sources": [
+     "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens"
     ]
    },
    {
@@ -79,6 +89,8 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
    "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris",
+   "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
+   "https://www.union-ihedn.org/wp-content/uploads/2025/01/Presentation-Prix-Louis-QUINIO-2024-optimise.pdf",
    "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono",
    "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
    "https://www.ledauphine.com/defense-guerre-conflit/2022/06/19/des-eleves-du-college-giono-ont-commemore-l-appel-du-18-juin",
