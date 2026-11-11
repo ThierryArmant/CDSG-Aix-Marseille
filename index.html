@@ -173,6 +173,11 @@
   .fiche .photo .credit a{color:var(--encre)}
   .btn-photo{border:1px solid var(--trait);background:#fff;border-radius:10px;padding:8px 14px}
   .carte .vignette{height:96px;margin:-16px -18px 8px;background:#e9ecf8 center/cover no-repeat;border-radius:12px 12px 0 0}
+  .statutRapide{display:inline-flex;gap:6px;flex-wrap:wrap;align-items:center;cursor:pointer}
+  .menuStatut{display:none;margin-top:8px;background:#fff;border:1px solid var(--trait);border-radius:12px;padding:10px 12px;box-shadow:0 8px 24px rgba(16,27,92,.12)}
+  .menuStatut.on{display:block}
+  .menuStatut button{border:1px solid var(--trait);background:#fff;border-radius:999px;padding:5px 12px;margin:3px 4px 3px 0;font-size:13px}
+  .menuStatut button.sel{background:var(--bleu-f);color:#fff;border-color:var(--bleu-f)}
   footer{border-top:1px solid var(--trait);padding:26px 6vw;text-align:center;color:var(--gris);font-size:13px}
   @media (max-width:820px){.tuiles{grid-template-columns:repeat(2,1fr)}.reglages .grid{grid-template-columns:1fr}.qbox{flex-direction:column}.qbox button{padding:12px}}
   @media print{
@@ -527,7 +532,13 @@ function ouvrir(id){
     <div class="c">
     <button class="fermer" aria-label="Fermer">×</button>
     ${(()=>{ const D=triDist((w&&w.distinctions)||[]); return D.length?`<div class="medailles">${D.map(d=>medaille(d,D.length>8?22:30)).join("")}</div>`:""; })()}
-    <div>${badges(c)}</div>
+    <div class="statutRapide" id="statutRapide" title="Cliquer pour changer le statut">${badges(c)} <span style="font-size:12px;color:var(--gris)">✎ changer</span></div>
+    <div class="menuStatut" id="menuStatut">
+      <div style="font-size:12px;color:var(--gris);margin-bottom:4px">Statut de la classe</div>
+      ${Object.keys(LIB).map(k=>`<button data-s="${k}" class="${c.statut===k?"sel":""}">${LIB[k]}</button>`).join("")}
+      <div style="margin-top:6px"><button data-v="1" class="${c.verifier?"sel":""}">${c.verifier?"✔ ":""}À vérifier</button></div>
+      <div class="msg" id="msgStatut"></div>
+    </div>
     <h3>${esc(c.etab)}</h3>
     <div class="id">Fiche ${esc(id)}</div>
     <table>${rows.map(r=>`<tr><th>${r[0]}</th><td>${esc(r[1])}</td></tr>`).join("")}</table>
@@ -545,6 +556,9 @@ function ouvrir(id){
   history.replaceState(null,"","#fiche="+id);
   document.querySelector(".fermer").onclick = fermer;
   document.getElementById("modifier").onclick = ()=>editer(id);
+  document.getElementById("statutRapide").onclick = ()=>document.getElementById("menuStatut").classList.toggle("on");
+  document.querySelectorAll("#menuStatut button[data-s]").forEach(b=>b.onclick=()=>changerStatut(id,{statut:b.dataset.s}));
+  document.querySelector("#menuStatut button[data-v]").onclick = ()=>changerStatut(id,{verifier:!PAR_ID[id].verifier});
   document.getElementById("photoBtn").onclick = ()=>formPhoto(id);
   document.getElementById("chercherEnLigne").onclick = ()=>lancerVeille(id);
   chargerVeille(id);
@@ -650,6 +664,30 @@ async function enregistrer(id){
   }catch(e){ dire("Échec : "+e.message+".","err"); }
 }
 document.getElementById("ajouter").onclick = ()=>editer(null);
+
+/* Changement rapide de statut depuis la fiche */
+async function changerStatut(id, modif){
+  const m = document.getElementById("msgStatut"), dire=(t,k)=>{ m.className="msg on "+k; m.textContent=t; };
+  const tok = jeton.value.trim();
+  if(!tok){ dire("Collez d'abord le jeton GitHub (cadre « Modifier les fiches et lancer les recherches : réglage »).","err"); return; }
+  const f = Object.assign({}, PAR_ID[id], modif);
+  if(!f.verifier) delete f.verifier;
+  f.maj = new Date().toLocaleDateString("fr-FR");
+  dire("Enregistrement…","info");
+  try{
+    const url = `https://api.github.com/repos/${DEPOT.owner}/${DEPOT.repo}/contents/${DEPOT.chemin}`;
+    const h = {Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"};
+    const r1 = await fetch(url+"?ref="+DEPOT.branche,{headers:h, cache:"no-store"});
+    if(!r1.ok) throw new Error("lecture impossible ("+r1.status+")");
+    const j1 = await r1.json(); const w = {}; new Function("window", b64dec(j1.content))(w);
+    const liste = appliquer(w.CDSG||[], f, id);
+    const r2 = await fetch(url,{method:"PUT",headers:h,body:JSON.stringify({message:"Statut modifié : "+f.etab+" ("+f.ville+") → "+LIB[f.statut]+(f.verifier?", à vérifier":""),
+      content:b64enc(fichierJS(liste)), sha:j1.sha, branch:DEPOT.branche})});
+    if(!r2.ok) throw new Error("écriture impossible ("+r2.status+")");
+    const i = DATA.findIndex(x=>x.id===id); DATA[i]=f; PAR_ID = Object.fromEntries(DATA.map(c=>[c.id,c]));
+    synthese(); afficher(); ouvrir(id);
+  }catch(e){ dire("Échec : "+e.message+".","err"); }
+}
 
 /* ───────── Dossier de la classe (veille en ligne) ───────── */
 const ICO = {distinction:"🏅",sortie:"⛰",ceremonie:"✦",convention:"✍",article:"❝",rapport:"▤",projet:"◆",partenaire:"⚑",autre:"•"};
