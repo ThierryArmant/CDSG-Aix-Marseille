@@ -1,0 +1,71 @@
+{
+ "fiche": "lycee-professionnel-la-floride-marseille",
+ "elements": [
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Professeur référent Lt Royer",
+   "extrait": "Lt Royer (professeur, aussi à l'Estaque)",
+   "resume": "Le professeur référent de la classe défense est le lieutenant Royer, également enseignant à l'Estaque.",
+   "source": "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-la-floride/0130056R.html",
+   "page": "Lycée professionnel la Floride, Marseille 14e — effectifs, bac, formations",
+   "site": "Annuaire de l’éducation",
+   "image": "https://annuaire-education.fr/partage.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "503e Régiment du train",
+   "resume": "L'unité marraine de la classe défense est le 503e Régiment du train.",
+   "source": "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-la-floride/0130056R.html",
+   "page": "Lycée professionnel la Floride, Marseille 14e — effectifs, bac, formations",
+   "site": "Annuaire de l’éducation",
+   "image": "https://annuaire-education.fr/partage.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe défense",
+   "extrait": "Lt Royer (professeur, aussi à l'Estaque)",
+   "resume": "Le lycée professionnel La Floride dispose d’une classe défense encadrée par le lieutenant Royer, également professeur à l’Estaque.",
+   "source": "https://etablissements.pass-education.fr/etablissement/lycee-professionnel-la-floride-lycee-public-a-marseille/",
+   "page": "Lycée professionnel la Floride à Marseille : 75 % au bac pro 2025",
+   "site": "Annuaire des établissements scolaires",
+   "image": "https://etablissements.pass-education.fr/wp-content/uploads/2026/04/pe-159564-dfs-2.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "503e Régiment du train",
+   "resume": "L’unité marraine de la classe défense du lycée est le 503e Régiment du train.",
+   "source": "https://etablissements.pass-education.fr/etablissement/lycee-professionnel-la-floride-lycee-public-a-marseille/",
+   "page": "Lycée professionnel la Floride à Marseille : 75 % au bac pro 2025",
+   "site": "Annuaire des établissements scolaires",
+   "image": "https://etablissements.pass-education.fr/wp-content/uploads/2026/04/pe-159564-dfs-2.jpg",
+   "trouve_le": "2026-11-11"
+  }
+ ],
+ "recherches": [
+  {
+   "date": "2026-11-11",
+   "pages": 5,
+   "nouveaux": 4
+  }
+ ],
+ "exclus": [],
+ "pages_lues": [
+  "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-la-floride/0130056R.html",
+  "https://etablissements.pass-education.fr/etablissement/lycee-professionnel-la-floride-lycee-public-a-marseille/",
+  "https://vis-ma-classe.fr/etablissement/13014-marseille/lycee-professionnel-la-floride-0130056r",
+  "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-lycee-des-metiers-la-floride-13.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-professionnel-la-floride"
+ ],
+ "etablissement": "Lycée professionnel La Floride (Marseille)",
+ "referents_cites": "Lt Royer",
+ "unite_citee": "503e Régiment du train"
+}

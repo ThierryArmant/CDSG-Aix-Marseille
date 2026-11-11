@@ -1,0 +1,65 @@
+{
+ "fiche": "college-saint-joseph-prive-chateaurenard",
+ "elements": [
+  {
+   "type": "convention",
+   "date": "2023-06",
+   "titre": "Signature de convention",
+   "extrait": "conv : Juin 2023",
+   "resume": "Le collège a signé une convention en juin 2023 avec la Gendarmerie de Châteaurenard, unité marraine de la classe défense.",
+   "source": "https://vis-ma-classe.fr/etablissement/13832-chateaurenard/college-saint-joseph-0131366p",
+   "page": "Collège Saint-Joseph à Châteaurenard — IPS 116, 100% réussite | Vis-Ma-Classe.fr",
+   "site": "Vis-Ma-Classe.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "unite : Gendarmerie de Châteaurenard",
+   "resume": "La Gendarmerie de Châteaurenard est désignée comme unité marraine de la classe défense du collège.",
+   "source": "https://vis-ma-classe.fr/etablissement/13832-chateaurenard/college-saint-joseph-0131366p",
+   "page": "Collège Saint-Joseph à Châteaurenard — IPS 116, 100% réussite | Vis-Ma-Classe.fr",
+   "site": "Vis-Ma-Classe.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Sortie classe défense à Saint-Andiol",
+   "extrait": "Le jeudi 7 mai les élèves de la classe défense en quatrième se sont rendus à Saint Andiol sur les traces de Jean Moulin.",
+   "resume": "Le 7 mai, les élèves de la classe défense de quatrième du collège Saint-Joseph se sont rendus à Saint-Andiol pour visiter le musée de Jean Moulin et découvrir son histoire, incluant une initiation au morse.",
+   "source": "https://www.facebook.com/saintjo/",
+   "page": "Saint Joseph Chateaurenard | Châteaurenard - Facebook",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
+ "recherches": [
+  {
+   "date": "2026-11-11",
+   "pages": 14,
+   "nouveaux": 3
+  }
+ ],
+ "exclus": [],
+ "pages_lues": [
+  "https://annuaire-education.fr/etablissement/chateaurenard/college-saint-joseph/0131366P.html",
+  "https://clg-mace-clichy.ac-versailles.fr/spip.php?article317",
+  "https://etudiant.lefigaro.fr/article/college/classement-2026-des-meilleurs-colleges-en-france-selon-le-figaro-etudiant-20260407/",
+  "https://lumigo.app/fr/fr/schools/provence-alpes-cote-d-azur/bouches-du-rhone/chateaurenard/colleges/college-saint-joseph",
+  "https://mariemauron.fr/classe-defense/",
+  "https://st-jo.fr/",
+  "https://ville-data.com/college/College-Saint-Joseph-13832/Chateaurenard/13-44870-13027",
+  "https://vis-ma-classe.fr/etablissement/13832-chateaurenard/college-saint-joseph-0131366p",
+  "https://www.cookomix.com/recettes/gratin-dauphinois-thermomix/",
+  "https://www.facebook.com/saintjo/",
+  "https://www.ledauphine.com/vaucluse",
+  "https://www.leprogres.fr/education/2026/10/04/grace-a-la-classe-defense-ces-eleves-vont-decouvrir-plus-de-150-metiers-differents",
+  "https://www.ouest-france.fr/pays-de-la-loire/la-chataigneraie-85120/a-la-chataigneraie-la-classe-defense-du-college-saint-joseph-a-accueilli-des-militaires-du-137e-regiment-dinfanterie-fe35c130-bb44-11f1-889b-45b1452cdab8",
+  "https://www.stjomaristes.com/"
+ ],
+ "etablissement": "Collège Saint-Joseph (privé) (Châteaurenard)",
+ "referents_cites": "Mme Beltri, Mme Put",
+ "unite_citee": "Gendarmerie de Châteaurenard"
+}

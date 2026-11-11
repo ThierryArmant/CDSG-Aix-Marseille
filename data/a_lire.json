@@ -1,22 +1,30 @@
 {
- "a_lire": [
+ "a_lire": [],
+ "traites": [
   {
    "url": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
    "fiche": "college-jean-giono-orange",
-   "ajoute_le": "2026-11-11"
+   "ajoute_le": "2026-11-11",
+   "resultat": "Collège Jean Giono (Orange) : 3 élément(s)",
+   "traite_le": "2026-11-11"
   },
   {
    "url": "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des",
-   "ajoute_le": "2026-11-11"
+   "ajoute_le": "2026-11-11",
+   "resultat": "Lycée Val de Durance (Pertuis) : 1 élément(s) ; Collège Paul Gauthier (Cavaillon) : 3 élément(s) ; Collège Jean Giono (Orange) : 3 élément(s) ; Collège Jean Giono (Manosque) : 0 élément(s) ; Collège Saint-Louis (privé) (Orange) : 0 élément(s) ; Collège de La Bâtie-Neuve (La Bâtie-Neuve) : 0 élément(s) ; Lycée Provence (Marseille) : 0 élément(s)",
+   "traite_le": "2026-11-11"
   },
   {
    "url": "https://www.union-ihedn.org/wp-content/uploads/2025/01/Presentation-Prix-Louis-QUINIO-2024-optimise.pdf",
-   "ajoute_le": "2026-11-11"
+   "ajoute_le": "2026-11-11",
+   "resultat": "Collège Jean Giono (Orange) : 2 élément(s) ; Collège Saint-Louis (privé) (Orange) : 0 élément(s) ; Lycée Provence (Marseille) : 0 élément(s)",
+   "traite_le": "2026-11-11"
   },
   {
    "url": "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf",
-   "ajoute_le": "2026-11-11"
+   "ajoute_le": "2026-11-11",
+   "resultat": "MFR de Lambesc (3e) (Lambesc) : 3 élément(s) ; MFR de Lambesc (4e) (Lambesc) : 2 élément(s) ; MFR de Lambesc (lycée) (Lambesc) : 1 élément(s) ; Lycée Méditerranée (La Ciotat) : 0 élément(s) ; Collège Auguste Renoir (Marseille) : 0 élément(s) ; Lycée Provence (Marseille) : 1 élément(s)",
+   "traite_le": "2026-11-11"
   }
- ],
- "traites": []
+ ]
 }

@@ -1,0 +1,41 @@
+{
+ "fiche": "lycee-d-ormesson-chateaurenard",
+ "elements": [
+  {
+   "type": "projet",
+   "date": "2025-03-28",
+   "titre": "Lancement de l'Agora Défense",
+   "extrait": "Renaud Muselier, président de la Région PACA a lancé son 'Agora Défense' afin de plaider la nécessité d'une 'économie de guerre'.",
+   "resume": "Le président de la Région PACA, Renaud Muselier, a présenté le projet Agora Défense, visant à promouvoir la défense et l'économie de guerre, en mentionnant le lycée d'Ormesson dans le cadre de la tenue unique.",
+   "source": "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480",
+   "page": "\"Je maintiens la tenue unique au lycée d'Ormesson à Châteaurenard\", dit Renaud Muselier - ICI",
+   "site": "ici.fr",
+   "image": "https://www.ici.fr/pikapi/images/8d6b5504-accc-4155-93ee-173ce2c669b2/1200x630?webp=false",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2025-03-28",
+   "titre": "Reconduction de l'expérimentation de la tenue unique",
+   "extrait": "L’expérimentation de la tenue unique est reconduite pour au moins un an dans le lycée d’Ormesson à Châteaurenard.",
+   "resume": "L’État et la Région confirment la poursuite de l’expérimentation de la tenue unique au lycée d’Ormesson pour une année supplémentaire, malgré le retrait initial de l’État.",
+   "source": "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480",
+   "page": "\"Je maintiens la tenue unique au lycée d'Ormesson à Châteaurenard\", dit Renaud Muselier - ICI",
+   "site": "ici.fr",
+   "image": "https://www.ici.fr/pikapi/images/8d6b5504-accc-4155-93ee-173ce2c669b2/1200x630?webp=false",
+   "trouve_le": "2026-11-11"
+  }
+ ],
+ "recherches": [
+  {
+   "date": "2026-11-11",
+   "pages": 1,
+   "nouveaux": 2
+  }
+ ],
+ "exclus": [],
+ "pages_lues": [
+  "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480"
+ ],
+ "etablissement": "Lycée d'Ormesson (Châteaurenard)"
+}
