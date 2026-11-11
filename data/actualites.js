@@ -109,6 +109,42 @@ window.CDSG_ACTUS = [
   "ville": "Orange"
  },
  {
+  "date": "2022-06-19",
+  "type": "convention",
+  "titre": "Renouvellement de la convention",
+  "resume": "La convention liant le collège Jean Giono à l’unité marraine doit être renouvelée en novembre 2029.",
+  "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
+  "image": "https://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/png/2022-03/cdsg_giono-orange_2.png",
+  "site": "WPAM",
+  "fiche": "college-jean-giono-orange",
+  "etab": "Collège Jean Giono",
+  "ville": "Orange"
+ },
+ {
+  "date": "2022-06-19",
+  "type": "article",
+  "titre": "Des élèves du collège Giono ont commémoré l’appel du 18 juin",
+  "resume": "Le 19 juin 2022, Le Dauphiné Libéré publie un article relatant la lecture de l’appel du 18 juin par les élèves de la classe défense du collège Giono à Orange.",
+  "source": "https://www.ledauphine.com/defense-guerre-conflit/2022/06/19/des-eleves-du-college-giono-ont-commemore-l-appel-du-18-juin",
+  "image": "https://cdn-s-www.ledauphine.com/images/FBB2328E-DD8B-4D3A-ADCE-DD04D0DB33E6/FB1200/photo-1655650222.jpg",
+  "site": "ledauphine.com",
+  "fiche": "college-jean-giono-orange",
+  "etab": "Collège Jean Giono",
+  "ville": "Orange"
+ },
+ {
+  "date": "2022-06-18",
+  "type": "ceremonie",
+  "titre": "Commémoration de l’appel du 18 juin",
+  "resume": "Le 18 juin 2022, les élèves de la classe défense et sécurité globale du collège Giono ont participé à la commémoration de l’appel du 18 juin, devant la stèle du général de Gaulle, en présence du maire Yann Bompard, de l’armée de l’air, de la gendarmerie et de la police.",
+  "source": "https://www.ledauphine.com/defense-guerre-conflit/2022/06/19/des-eleves-du-college-giono-ont-commemore-l-appel-du-18-juin",
+  "image": "https://cdn-s-www.ledauphine.com/images/FBB2328E-DD8B-4D3A-ADCE-DD04D0DB33E6/FB1200/photo-1655650222.jpg",
+  "site": "ledauphine.com",
+  "fiche": "college-jean-giono-orange",
+  "etab": "Collège Jean Giono",
+  "ville": "Orange"
+ },
+ {
   "date": "2022-05-10",
   "type": "projet",
   "titre": "Mémoire de l’esclavage",
@@ -200,18 +236,6 @@ window.CDSG_ACTUS = [
   "source": "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono",
   "image": "https://cdn-s-www.ledauphine.com/images/41765D24-C8D9-4D9D-9C01-84B3F410BAE5/FB1200/photo-1685901633.jpg",
   "site": "ledauphine.com",
-  "fiche": "college-jean-giono-orange",
-  "etab": "Collège Jean Giono",
-  "ville": "Orange"
- },
- {
-  "date": null,
-  "type": "convention",
-  "titre": "Renouvellement de la convention",
-  "resume": "La convention liant le collège Jean Giono à l’unité marraine doit être renouvelée en novembre 2029.",
-  "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
-  "image": "https://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/png/2022-03/cdsg_giono-orange_2.png",
-  "site": "WPAM",
   "fiche": "college-jean-giono-orange",
   "etab": "Collège Jean Giono",
   "ville": "Orange"

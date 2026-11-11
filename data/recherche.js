@@ -3,7 +3,7 @@ window.CDSG_WEB = {
  "college-jean-giono-orange": {
   "date": "11/11/2026",
   "resume": "",
-  "nb": 19,
+  "nb": 21,
   "derniere_activite": "2026-07-03",
   "derniers": {
    "distinction": {
@@ -25,7 +25,7 @@ window.CDSG_WEB = {
     "source": "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris"
    },
    "convention": {
-    "date": null,
+    "date": "2022-06-19",
     "titre": "Renouvellement de la convention",
     "resume": "La convention liant le collège Jean Giono à l’unité marraine doit être renouvelée en novembre 2029.",
     "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84"
@@ -68,6 +68,7 @@ window.CDSG_WEB = {
    "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris",
    "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono",
    "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
+   "https://www.ledauphine.com/defense-guerre-conflit/2022/06/19/des-eleves-du-college-giono-ont-commemore-l-appel-du-18-juin",
    "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
   ]
  }

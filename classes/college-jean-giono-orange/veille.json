@@ -111,6 +111,42 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "convention",
+   "date": "2022-06-19",
+   "titre": "Renouvellement de la convention",
+   "extrait": "Convention à renouveler nov 2029.",
+   "resume": "La convention liant le collège Jean Giono à l’unité marraine doit être renouvelée en novembre 2029.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
+   "page": "Défense et sécurité nationale",
+   "site": "WPAM",
+   "image": "https://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/png/2022-03/cdsg_giono-orange_2.png",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2022-06-19",
+   "titre": "Des élèves du collège Giono ont commémoré l’appel du 18 juin",
+   "extrait": "Les élèves de la classe défense et sécurité globale du collège Giono lisent l’appel du 18 juin.",
+   "resume": "Le 19 juin 2022, Le Dauphiné Libéré publie un article relatant la lecture de l’appel du 18 juin par les élèves de la classe défense du collège Giono à Orange.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2022/06/19/des-eleves-du-college-giono-ont-commemore-l-appel-du-18-juin",
+   "page": "Orange. Des élèves du collège Giono ont commémoré l’appel du 18 juin",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/FBB2328E-DD8B-4D3A-ADCE-DD04D0DB33E6/FB1200/photo-1655650222.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2022-06-18",
+   "titre": "Commémoration de l’appel du 18 juin",
+   "extrait": "Samedi 18 juin, devant la stèle du général de Gaulle, le maire Yann Bompard a rassemblé la société civile et militaire.",
+   "resume": "Le 18 juin 2022, les élèves de la classe défense et sécurité globale du collège Giono ont participé à la commémoration de l’appel du 18 juin, devant la stèle du général de Gaulle, en présence du maire Yann Bompard, de l’armée de l’air, de la gendarmerie et de la police.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2022/06/19/des-eleves-du-college-giono-ont-commemore-l-appel-du-18-juin",
+   "page": "Orange. Des élèves du collège Giono ont commémoré l’appel du 18 juin",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/FBB2328E-DD8B-4D3A-ADCE-DD04D0DB33E6/FB1200/photo-1655650222.jpg",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "projet",
    "date": "2022-05-10",
    "titre": "Mémoire de l’esclavage",
@@ -209,18 +245,6 @@
   {
    "type": "convention",
    "date": null,
-   "titre": "Renouvellement de la convention",
-   "extrait": "Convention à renouveler nov 2029.",
-   "resume": "La convention liant le collège Jean Giono à l’unité marraine doit être renouvelée en novembre 2029.",
-   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
-   "page": "Défense et sécurité nationale",
-   "site": "WPAM",
-   "image": "https://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/png/2022-03/cdsg_giono-orange_2.png",
-   "trouve_le": "2026-11-11"
-  },
-  {
-   "type": "convention",
-   "date": null,
    "titre": "Renouvellement de la convention de partenariat",
    "extrait": "À renouveler nov 2029",
    "resume": "La convention liant le collège Giono à son unité marraine doit être renouvelée en novembre 2029.",
@@ -256,14 +280,21 @@
    "date": "2026-11-11",
    "pages": 7,
    "nouveaux": 20
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 3,
+   "nouveaux": 2
   }
  ],
  "pages_lues": [
   "https://annuaire-education.fr/etablissement/orange/college-jean-giono/0840116V.html",
+  "https://annuaire.action-sociale.org/CLIS,ULIS/ULIS-84-Vaucluse/ULIS Collège Jean Giono-0840116V.html",
   "https://clg-giono-orange.ac-aix-marseille.fr/spip/spip.php?rubrique3",
   "https://college-lycee.com/College-Jean-Giono/Orange-0840116V",
   "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/",
   "https://fr.wikipedia.org/wiki/Base_aérienne_115_Orange-Caritat",
+  "https://jean-giono.agora06.fr/",
   "https://ou-vivre-en-france.fr/etablissement/0840116V-college-jean-giono",
   "https://threerage.com/college-giono-orange-college-jean-giono-de-orange-0840116v/",
   "https://ville-data.com/college/College-Jean-Giono-84106/Orange/84-12809-84087",
@@ -278,6 +309,7 @@
   "https://www.frequencemistral.com/Une-classe-defense-du-College-Jean-Giono_a3202.html",
   "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono",
   "https://www.ledauphine.com/culture-loisirs/2026/05/08/un-musee-au-coeur-de-la-memoire-de-la-base-aerienne-caritat",
+  "https://www.ledauphine.com/defense-guerre-conflit/2022/06/19/des-eleves-du-college-giono-ont-commemore-l-appel-du-18-juin",
   "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris",
   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/",
