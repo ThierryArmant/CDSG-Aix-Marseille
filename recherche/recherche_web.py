@@ -620,6 +620,9 @@ def fusionner_dossiers(dossier_run):
         for m, n in json.loads(fq.read_text()).items():
             base[m] = base.get(m, 0) + max(0, n - depart.get(m, 0))
         FICHIER_QUOTA.write_text(json.dumps(base, indent=1))
+    for f in (run / "reponses").glob("*.json") if (run / "reponses").exists() else []:
+        DOSSIER_REPONSES.mkdir(parents=True, exist_ok=True)
+        (DOSSIER_REPONSES / f.name).write_text(f.read_text(encoding="utf-8"), encoding="utf-8")
     fb = run / "a_lire.json"
     if fb.exists():
         traitee = json.loads(fb.read_text(encoding="utf-8"))
@@ -933,6 +936,59 @@ def derniere_recherche(cid):
     return r[-1]["date"] if r else ""
 
 
+DOSSIER_REPONSES = RACINE / "data" / "reponses"
+
+
+def question_web(question, qid, classes, resumes):
+    """Question posée depuis le site : recherche web (moteurs à clé) + fiches, réponse sourcée par le modèle.
+    Les informations trouvées sur une classe sont aussi rangées dans sa fiche."""
+    print(f"Question : {question}")
+    # 1. le modèle propose des requêtes de recherche ciblées
+    r = demander("Tu prépares des recherches web pour répondre à une question sur les classes défense et sécurité globales (CDSG) "
+                 "de l'académie d'Aix-Marseille (Bouches-du-Rhône, Vaucluse, Alpes-de-Haute-Provence, Hautes-Alpes). "
+                 'Réponds en JSON : {"requetes": ["…", "…", "…"]} (3 requêtes courtes, en français).', question, max_tokens=300)
+    requetes = (r or {}).get("requetes") or []
+    requetes = list(dict.fromkeys([question + " classe défense"] + requetes))[:4]
+    urls = []
+    for q in requetes:
+        for u in recherche_web(q, n=6):
+            if u not in urls: urls.append(u)
+    print(f"   {len(urls)} page(s) trouvée(s)")
+    # 2. lecture des pages
+    pages, sources = [], []
+    for u in urls[:8]:
+        p = lire_page(u, maxi=8000)
+        if not p or len(p["texte"]) < 150: continue
+        sources.append({"url": p["url"], "titre": p["titre"][:150], "site": p.get("site")})
+        pages.append(f"[{len(sources)}] {p['titre']} — {p['url']}\n{p['texte'][:5000]}")
+        # ranger dans les fiches concernées
+        for c in fiches_citees(classes, p):
+            n = ranger_page(c, p, resumes)
+            if n: print(f"   ✓ {c['etab']} ({c['ville']}) : {n} élément(s) ajouté(s) à la fiche")
+    # 3. réponse
+    lignes = []
+    for c in classes:
+        w = resumes.get(c["id"], {})
+        lignes.append(f'[{c["id"]}] {c["etab"]} | {c["ville"]} | {c["dep"]} | {c["statut"]} | CE {c.get("ce")} | réf. {c.get("ref")} '
+                      f'| unité {c.get("unite")} | conv. {c.get("conv")} | {w.get("resume","")} '
+                      f'| distinctions: {"; ".join((d.get("date") or "?") + " " + d.get("titre","") for d in w.get("distinctions", []))}')
+    rep = demander("Tu réponds à un inspecteur sur les classes défense (CDSG) de l'académie d'Aix-Marseille. "
+                   "Appuie-toi sur les fiches et sur les pages web fournies. Cite les pages web avec leur numéro entre crochets [1]. "
+                   "N'invente rien ; si l'information manque, dis-le. Réponds en français, de façon claire et concise. "
+                   "Termine par une ligne 'FICHES: id1, id2' (fiches concernées, au plus 8).",
+                   "Fiches :\n" + "\n".join(lignes)[:40000] + "\n\nPages web :\n" + ("\n\n".join(pages)[:30000] or "(aucune)") +
+                   "\n\nQuestion : " + question, jsonmode=False, max_tokens=1200, specialite="question") or "Pas de réponse du service."
+    m = re.search(r"FICHES\s*:\s*(.*)$", rep, re.M | re.I)
+    ids = [x.strip(" []") for x in re.split(r"[,\s]+", m.group(1))] if m else []
+    ids = [x for x in ids if any(c["id"] == x for c in classes)]
+    rep = re.sub(r"FICHES\s*:.*$", "", rep, flags=re.M | re.I).strip()
+    DOSSIER_REPONSES.mkdir(parents=True, exist_ok=True)
+    (DOSSIER_REPONSES / f"{qid}.json").write_text(json.dumps({"question": question, "date": datetime.datetime.now().isoformat(timespec="minutes"),
+        "reponse": rep, "sources": sources, "fiches": ids}, ensure_ascii=False, indent=1), encoding="utf-8")
+    ecrire_resumes(resumes); ecrire_actualites(classes)
+    print("Réponse enregistrée.")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Veille web des CDSG")
     ap.add_argument("--fiche", help="identifiant d'une fiche (ex. college-jean-giono-orange)")
@@ -942,6 +998,8 @@ def main():
     ap.add_argument("--max", type=int, default=0)
     ap.add_argument("--profondeur", type=int, default=25, help="pages lues par fiche (hors site de l'établissement)")
     ap.add_argument("--question")
+    ap.add_argument("--question-web", help="question posée depuis le site (recherche web + réponse sourcée)")
+    ap.add_argument("--qid", default="", help="identifiant de la réponse (data/reponses/<qid>.json)")
     ap.add_argument("--tranche", help="traitement en parallèle : i/n (ex. 0/8) = une fiche sur n à partir de i")
     ap.add_argument("--sans-boite", action="store_true", help="ne pas traiter la boîte « Articles à lire »")
     ap.add_argument("--fusionner", help="fusionne les résultats copiés dans ce dossier avec le dépôt (usage interne)")
@@ -964,6 +1022,8 @@ def main():
     print(f"{len(classes)} fiches · {BASE} · modèle principal {choisir_modele()} · " + ", ".join(f"{k}={v or choisir_modele()}" for k, v in SPECIALITES.items()))
     if a.question:
         question_libre(a.question, classes, resumes); return
+    if a.question_web:
+        question_web(a.question_web, re.sub(r"[^\w-]", "", a.qid) or datetime.datetime.now().strftime("%Y%m%d%H%M%S"), classes, resumes); return
     if not a.sans_boite:
         traiter_a_lire(classes, resumes)
     if a.palmares:

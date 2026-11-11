@@ -19,12 +19,19 @@ on:
       maximum:
         description: "Nombre maximum de fiches (0 = pas de limite)"
         default: "0"
+      question:
+        description: "Question posée depuis le site (recherche web + réponse)"
+        default: ""
+      qid:
+        description: "Identifiant de la réponse"
+        default: ""
 
 permissions:
   contents: write
 
 concurrency:
-  group: recherche
+  # les questions passent à part : elles n'attendent pas les longues recherches et ne les annulent pas
+  group: ${{ inputs.question != '' && format('question-{0}', inputs.qid) || 'recherche' }}
   cancel-in-progress: false
 
 env:
@@ -66,8 +73,12 @@ jobs:
           FILTRE: ${{ inputs.filtre }}
           MAXI: ${{ inputs.maximum }}
           TRANCHE: ${{ matrix.tranche }}
+          QUESTION: ${{ inputs.question }}
+          QID: ${{ inputs.qid }}
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ -n "$QUESTION" ]; then
+            python3 recherche/recherche_web.py --sans-boite --question-web "$QUESTION" --qid "$QID"
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
             PALM=""; [ "$(date +%u)" = "7" ] && PALM="--palmares"   # palmarès le dimanche
             python3 recherche/recherche_web.py $PALM --rotation 5
           elif [ -n "$FICHE" ]; then
@@ -92,6 +103,7 @@ jobs:
         run: |
           mkdir -p res
           [ -d classes ] && cp -r classes res/ || true
+          [ -d data/reponses ] && cp -r data/reponses res/ || true
           cp data/recherche.js data/a_lire.json data/quota.json res/ 2>/dev/null || true
           cp /tmp/quota_depart.json res/ 2>/dev/null || true
       - uses: actions/upload-artifact@v4
@@ -121,9 +133,9 @@ jobs:
             git fetch -q origin main
             git reset -q --hard origin/main
             for d in /tmp/resultats/*/; do python3 recherche/recherche_web.py --fusionner "$d"; done
-            git add data/recherche.js data/actualites.js data/a_lire.json data/quota.json classes
+            git add data/recherche.js data/actualites.js data/a_lire.json data/quota.json classes data/reponses 2>/dev/null || git add data/recherche.js data/actualites.js data/a_lire.json data/quota.json classes
             git diff --cached --quiet && exit 0
-            git commit -q -m "Veille web : ${{ inputs.fiche || inputs.filtre || 'veille automatique' }}"
+            git commit -q -m "${{ inputs.question != '' && 'Question web' || 'Veille web' }} : ${{ inputs.fiche || inputs.qid || inputs.filtre || 'veille automatique' }}"
             git push -q origin HEAD:main && exit 0
             sleep $((essai * 5))
           done

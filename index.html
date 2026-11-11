@@ -233,8 +233,15 @@
     <div class="qbox">
       <input id="q" type="text" placeholder="Votre question sur une classe, un établissement, une unité…" autocomplete="off">
       <button id="go">Chercher</button>
+      <button id="goWeb" class="g-only" style="background:#fff;color:var(--bleu-f)" title="Recherche sur Internet avec vos clés (1 à 3 minutes)">🌐 Chercher aussi sur le web</button>
     </div>
     <div class="exemples" id="exemples"></div>
+    <div class="reponse" id="repWeb">
+      <div style="font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--bleu);font-weight:600;margin-bottom:6px">Réponse avec recherche web</div>
+      <div class="txt" id="repWebTxt"></div>
+      <div class="chips" id="repWebFiches"></div>
+      <div class="src" id="repWebSrc"></div>
+    </div>
     <div class="reponse" id="rep">
       <div class="txt" id="repTxt"></div>
       <div class="chips" id="repFiches"></div>
@@ -1029,6 +1036,42 @@ async function repondre(){
   }
 }
 document.getElementById("go").onclick = repondre;
+
+/* Question avec recherche web (via GitHub : les clés de recherche restent secrètes) */
+document.getElementById("goWeb").onclick = async ()=>{
+  const question = document.getElementById("q").value.trim(); if(!question) return;
+  const box=document.getElementById("repWeb"), txt=document.getElementById("repWebTxt"), src=document.getElementById("repWebSrc");
+  box.classList.add("on"); document.getElementById("repWebFiches").innerHTML=""; src.innerHTML="";
+  const tok = jeton.value.trim();
+  if(!tok){ txt.textContent = "Collez d'abord le jeton GitHub (cadre « Modifier les fiches et lancer les recherches : réglage », au-dessus des fiches)."; return; }
+  const h = {Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"};
+  const qid = new Date().toISOString().replace(/[-:T.Z]/g,"").slice(0,14)+"-"+Math.random().toString(36).slice(2,6);
+  txt.textContent = "Recherche lancée sur le web… (1 à 3 minutes). Vous pouvez continuer à consulter les fiches.";
+  try{
+    const r = await fetch(`https://api.github.com/repos/${DEPOT.owner}/${DEPOT.repo}/actions/workflows/recherche.yml/dispatches`,{method:"POST",headers:h,
+      body:JSON.stringify({ref:DEPOT.branche, inputs:{question, qid}})});
+    if(r.status!==204) throw new Error(r.status===403||r.status===404 ? "le jeton n'a pas le droit « Actions : Read and write »" : "code "+r.status);
+  }catch(e){ txt.textContent = "Échec du lancement : "+e.message+"."; return; }
+  const debut = Date.now(); let points = 0;
+  const attendre = async ()=>{
+    if(Date.now()-debut > 8*60*1000){ txt.textContent = "La recherche prend plus de temps que prévu. La réponse apparaîtra dans « Dernières réponses web » dès qu'elle sera prête."; return; }
+    try{
+      const f = await lireFichierGH(`data/reponses/${qid}.json`, h);
+      if(f){ afficherReponseWeb(JSON.parse(f.texte)); return; }
+    }catch(e){}
+    points=(points+1)%4; txt.textContent = "Recherche en cours sur le web"+".".repeat(points+1)+" ("+Math.round((Date.now()-debut)/1000)+" s)";
+    setTimeout(attendre, 12000);
+  };
+  setTimeout(attendre, 30000);
+};
+function afficherReponseWeb(r){
+  const txt=document.getElementById("repWebTxt"), src=document.getElementById("repWebSrc");
+  document.getElementById("repWeb").classList.add("on");
+  txt.innerHTML = esc(r.reponse||"").replace(/\[(\d+)\]/g,(m,n)=>{ const s=(r.sources||[])[+n-1]; return s?`<a href="${esc(s.url)}" target="_blank" rel="noopener">[${n}]</a>`:m; });
+  document.getElementById("repWebFiches").innerHTML = (r.fiches||[]).filter(id=>PAR_ID[id]).map(id=>`<span class="chip" data-id="${id}">${esc(PAR_ID[id].etab)} · ${esc(PAR_ID[id].ville)}</span>`).join("");
+  document.querySelectorAll("#repWebFiches .chip").forEach(c=>c.onclick=()=>ouvrir(c.dataset.id));
+  src.innerHTML = (r.sources||[]).length ? "Sources : "+r.sources.map((s,i)=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">[${i+1}] ${esc(s.site||hote(s.url))}</a>`).join(" · ") : "Aucune page web exploitable : réponse tirée des fiches.";
+}
 document.getElementById("q").addEventListener("keydown", e=>{ if(e.key==="Enter") repondre(); });
 })();
 </script>
