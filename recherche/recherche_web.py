@@ -52,7 +52,7 @@ TYPES = ["distinction", "sortie", "ceremonie", "convention", "article", "rapport
 # Concours et prix cherchés pour CHAQUE établissement (ajouter ici tout nouveau concours)
 CONCOURS = ["prix de l'éducation citoyenne", "prix Armées zone Sud", "prix inter-armées", "concours national de la Résistance et de la Déportation",
             "concours Clemenceau", "Bulles de mémoire", "Petits artistes de la mémoire", "Féminisons l'aéronautique",
-            "prix Trinôme", "IHEDN", "label CDSG", "Souvenir français", "ANMONM", "médaille de la jeunesse"]
+            "prix Trinôme", "prix Louis Quinio", "Union-IHEDN", "AR-IHEDN", "IHEDN", "label CDSG", "Souvenir français", "ANMONM", "médaille de la jeunesse"]
 ANNEES = list(range(2018, datetime.date.today().year + 1))
 PREFECTURES = {"13": "bouches-du-rhone.gouv.fr", "84": "vaucluse.gouv.fr", "04": "alpes-de-haute-provence.gouv.fr", "05": "hautes-alpes.gouv.fr"}
 # Concours et prix où les classes défense sont souvent récompensées (recherche « palmarès »)
@@ -66,7 +66,9 @@ PALMARES = ["prix Armées zone Sud lauréats", "prix Armées zone Sud collège c
             "base aérienne 125 Istres classe défense collège", "marins-pompiers Marseille classe défense collège",
             "1er régiment étranger de cavalerie classe défense collège", "4e régiment de chasseurs Gap classe défense",
             "2e régiment étranger de génie classe défense collège", "site:facebook.com classe défense collège Vaucluse",
-            "site:facebook.com classe défense Bouches-du-Rhône collège prix", "classe défense prix Provence collège", "labellisation classe défense et sécurité globales Aix-Marseille"]
+            "site:facebook.com classe défense Bouches-du-Rhône collège prix", "classe défense prix Provence collège", "labellisation classe défense et sécurité globales Aix-Marseille",
+            "prix Louis Quinio lauréats", "prix Louis Quinio collège classe défense", "site:union-ihedn.org prix Louis Quinio",
+            "AR-IHEDN Provence prix classe défense", "prix Louis Quinio Aix-Marseille trinôme"]
 MOTS_DEFENSE = re.compile(r"d[ée]fense|cdsg|prix|laur[ée]at|concours|r[ée]compens|distinction|m[ée]daille|troph[ée]e|militaire|arm[ée]e|base a[ée]rienne|r[ée]giment|gendarmerie|pompier|marine|"
                           r"l[ée]gion|c[ée]r[ée]monie|comm[ée]mor|m[ée]moire|11 novembre|8 mai|rallye|trin[ôo]me|convention", re.I)
 
