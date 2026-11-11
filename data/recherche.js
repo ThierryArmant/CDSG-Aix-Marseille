@@ -395,12 +395,48 @@ window.CDSG_WEB = {
  },
  "college-stephane-mallarme-marseille-13e": {
   "date": "11/11/2026",
-  "nb": 0,
+  "nb": 5,
   "photo": null,
-  "derniere_activite": null,
-  "derniers": {},
-  "distinctions": [],
-  "sources": []
+  "derniere_activite": "2025",
+  "derniers": {
+   "distinction": {
+    "date": "2025",
+    "titre": "Prix armées zone Sud 2025",
+    "resume": "Le général Laval a décerné le prix « armées zone Sud » 2025 aux élèves du collège Stéphane Mallarmé, reconnaissant leur projet de classe défense.",
+    "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723"
+   },
+   "convention": {
+    "date": "2022-09-22",
+    "titre": "Parrainage de la classe défense par les Marins Pompiers de Marseille",
+    "resume": "Depuis 2018, la classe défense du collège Stéphane Mallarmé (Marseille 13e) est parrainée par le Bataillon de marins‑pompiers de Marseille, convention officielle signée le 22 septembre 2022.",
+    "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   },
+   "article": {
+    "date": null,
+    "titre": "Les rencontres du gouverneur militaire – Jeunesse et défense",
+    "resume": "Le gouverneur militaire a rencontré Sandrine Babou, professeure du collège Stéphane Mallarmé, formatrice des classes défense, lors d’une séance à Marseille.",
+    "source": "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2025",
+    "titre": "Prix armées zone Sud 2025",
+    "resume": "Le général Laval a décerné le prix « armées zone Sud » 2025 aux élèves du collège Stéphane Mallarmé, reconnaissant leur projet de classe défense.",
+    "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
+   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U",
+   "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321"
+  ],
+  "resume": "La classe défense du collège Stéphane Mallarmé a reçu en 2025 le prix « Armées zone Sud » décerné par le général Laval, récompensant son projet. Elle"
  },
  "college-francois-raspail-carpentras": {
   "date": "11/11/2026",

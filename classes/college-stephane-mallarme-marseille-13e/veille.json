@@ -1,14 +1,102 @@
 {
  "fiche": "college-stephane-mallarme-marseille-13e",
- "elements": [],
+ "elements": [
+  {
+   "type": "distinction",
+   "date": "2025",
+   "titre": "Prix armées zone Sud 2025",
+   "extrait": "Le général Laval a remis hier le prix « armées zone Sud » 2025 aux minots du collège Stéphane Mallarmé.",
+   "resume": "Le général Laval a décerné le prix « armées zone Sud » 2025 aux élèves du collège Stéphane Mallarmé, reconnaissant leur projet de classe défense.",
+   "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
+   "page": "Prix armées zone Sud : les minots du collège Stéphane ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2022-09-22",
+   "titre": "Parrainage de la classe défense par les Marins Pompiers de Marseille",
+   "extrait": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé de Marseille, parrainée par les Marins Pompiers de Marseille...",
+   "resume": "Depuis 2018, la classe défense du collège Stéphane Mallarmé (Marseille 13e) est parrainée par le Bataillon de marins‑pompiers de Marseille, convention officielle signée le 22 septembre 2022.",
+   "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "page": "Depuis 2018, la Classe Défense du collège Stéphane ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2022-09-22",
+   "titre": "Signature de la convention avec le BMPM",
+   "extrait": "Convention signée le 22/09/2022 avec le Bataillon de marins‑pompiers (BMPM).",
+   "resume": "Le collège Stéphane Mallarmé a signé une convention de partenariat avec le Bataillon de marins‑pompiers le 22 septembre 2022.",
+   "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
+   "page": "Prix armées zone Sud : les minots du collège Stéphane ...",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2022-09-22",
+   "titre": "Convention avec le Bataillon de marins-pompiers",
+   "extrait": "Bataillon de marins-pompiers (BMPM) – convention le 22/09/2022",
+   "resume": "Le Collège Stéphane Mallarmé a signé une convention le 22 septembre 2022 avec le Bataillon de marins-pompiers (BMPM), unité marraine de la classe défense.",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U",
+   "page": "Collège Stéphane Mallarmé (13381, Marseille)",
+   "site": "journaldesfemmes.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "Les rencontres du gouverneur militaire – Jeunesse et défense",
+   "extrait": "Marseille et Sandrine Babou, professeur au collège Stéphane Mallarmé de Marseille et formatrice pour les classes défense.",
+   "resume": "Le gouverneur militaire a rencontré Sandrine Babou, professeure du collège Stéphane Mallarmé, formatrice des classes défense, lors d’une séance à Marseille.",
+   "source": "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321",
+   "page": "[Les rencontres du gouverneur militaire] Jeunesse et défense",
+   "site": "facebook.com (extrait public)",
+   "trouve_le": "2026-11-11"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 0,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-11",
+   "pages": 24,
+   "nouveaux": 5
   }
  ],
  "exclus": [],
- "pages_lues": [],
- "etablissement": "Collège Stéphane Mallarmé (Marseille 13e)"
+ "pages_lues": [
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-engagement-valeurs-jeunesse-volontaire",
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-fraternite-engagement-au-service-defense",
+  "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/peripeties-classe-defense-journal-qui-fait-vivre-lengagement-eleves",
+  "https://annuaire-education.fr/etablissement/marseille/college-stephane-mallarme/0132313U.html",
+  "https://college-lycee.com/college-stephane-mallarme/Marseille-13e-Arrondissement-0132313U",
+  "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321",
+  "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
+  "https://www.facebook.com/marionbareille1314/posts/entour%C3%A9e-des-professeurs-et-de-la-directrice-du-coll%C3%A8ge-malraux-jai-eu-lhonneur-/1109658771165282",
+  "https://www.facebook.com/marsactu/posts/bref-un-collectif-soppose-au-d%C3%A9placement-du-coll%C3%A8ge-de-mallarm%C3%A9%EF%B8%8F/1294041932747790",
+  "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+  "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U",
+  "https://www.lamarseillaise.fr/societe/la-disparition-de-la-classe-relais-de-mallarme-brise-la-confiance-IC17737069",
+  "https://www.ledauphine.com/archives/2018/13-06",
+  "https://www.ledauphine.com/archives/2026/04-10",
+  "https://www.ledauphine.com/education/2024/09/26/tirs-sur-un-college-a-marseille-genetet-organise-une-reunion-sur-la-securite",
+  "https://www.ledauphine.com/p/manuel-bompard/titres?page=16",
+  "https://www.ledauphine.com/p/michel-barnier/titres?page=73",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-stephane-mallarme-13.html",
+  "https://www.site.ac-aix-marseille.fr/clg-mallarme/",
+  "https://www.site.ac-aix-marseille.fr/clg-mallarme/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-mallarme/spip/-Classe-Defense-.html",
+  "https://www.terre.defense.gouv.fr/reserve-citoyenne/actualites?ID=1018460&page=5",
+  "https://www.terre.defense.gouv.fr/reserve-citoyenne/actualites?page=3"
+ ],
+ "etablissement": "Collège Stéphane Mallarmé (Marseille 13e)",
+ "referents_cites": "Mme Babou",
+ "unite_citee": "Bataillon de marins-pompiers (BMPM)"
 }
