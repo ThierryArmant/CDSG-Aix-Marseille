@@ -475,7 +475,9 @@ SYSTEME_EXTRACTION = """Tu fais la veille d'une classe défense et sécurité gl
 On te donne la fiche de la classe et le texte d'UNE page web.
 Relève TOUT ce qui concerne la classe défense (ou atelier défense) de CET établissement (pas un homonyme, pas un autre collège),
 y compris une simple brève ou un titre d'actualité, et toutes les années citées (pas seulement la plus récente).
-Un prix obtenu par l'établissement pour un projet citoyen ou de mémoire mené par la classe défense compte comme distinction :
+Un prix obtenu par l'établissement pour un projet citoyen ou de mémoire mené par la classe défense compte comme distinction.
+NE RELÈVE JAMAIS les décorations ou honneurs personnels d'un adulte (enseignant, chef d'établissement, militaire) : Ordre national du Mérite,
+Légion d'honneur, palmes académiques, médailles individuelles, promotions — seules comptent les distinctions de la classe ou de l'établissement :
 DISTINCTIONS en priorité : prix, concours (prix Armées zone Sud, prix inter-armées, concours Clemenceau, CNRD, Bulles de mémoire,
 prix ANMONM…), récompenses, lauréats, mentions, labels, médailles, décorations, remises de fanion ou de diplôme, félicitations du préfet ;
 puis sorties, visites de base ou de régiment, cérémonies (11 novembre, 8 mai…), signature ou renouvellement de convention,
@@ -500,6 +502,7 @@ def analyser_page(c, page):
                  f"\n\nPage : {page['url']}\nTitre : {page['titre']}\n\n{page['texte']}", specialite="extraction")
     if not r or not r.get("concerne"): return None
     aujourd_hui = datetime.date.today().isoformat()
+    r["elements"] = [e for e in r.get("elements", []) if not honneur_personnel(e)]
     for e in r.get("elements", []):
         if e.get("date") and str(e["date"])[:10] > aujourd_hui[:len(str(e["date"])[:10])]:
             e["date"] = None   # date dans le futur : erreur de lecture
@@ -520,6 +523,21 @@ def trier(c, page):
     return r is None or "OUI" in r.upper()   # en cas de panne du tri, on laisse passer
 
 
+HONNEUR_PERSONNEL = re.compile(r"chevalier|officier de l|commandeur|insignes?|ordre national du m[ée]rite|l[ée]gion d.honneur|"
+                               r"palmes acad[ée]miques|promu|promotion de|d[ée]cor[ée]e? (de|à titre)", re.I)
+
+
+def honneur_personnel(e):
+    """Décoration personnelle d'un adulte : ne doit jamais apparaître dans une fiche."""
+    return bool(HONNEUR_PERSONNEL.search((e.get("titre") or "") + " " + (e.get("resume") or "")))
+
+
+def saison(e):
+    """Année scolaire (2025-2026) si elle figure dans le titre, sinon l'année de la date."""
+    m = re.search(r"(20\d\d)\s*[-–‑/]\s*(20\d\d)", (e.get("titre") or "") + " " + (e.get("resume") or ""))
+    return f"{m.group(1)}-{m.group(2)}" if m else str(e.get("date") or "")[:4]
+
+
 def cle_element(e):
     """Un même événement cité sur plusieurs pages = un seul élément.
     Pour les distinctions : même concours (mots significatifs du titre), quelle que soit la page."""
@@ -530,7 +548,7 @@ def cle_element(e):
         for k in CONCOURS + ["prix inter-armées", "inter armees", "gouverneur militaire"]:
             ks = "-".join(m for m in slug(k).split("-") if m not in ("prix", "concours", "de", "du", "la", "le", "l", "d", "national", "nationale"))
             if ks and ks in texte:
-                return ("distinction", ks, str(e.get("date") or "")[:4])
+                return ("distinction", ks, saison(e))
         vides = {"prix", "de", "du", "la", "le", "des", "et", "edition", "college", "jean", "giono", "orange", "avec", "remise", "d", "l", "les", "au", "a"}
         mots = sorted(m for m in t.split("-") if len(m) > 2 and m not in vides and not m.isdigit())
         return ("distinction", "-".join(mots[:4]))
@@ -576,6 +594,29 @@ def infos_resume(v):
             "sources": list(dict.fromkeys(e["source"] for e in els))[:8]}
 
 
+def nettoyer(v):
+    """Retire les honneurs personnels (et les exclut) ; rattache un prix sans date au même concours daté."""
+    garde = []
+    for e in v["elements"]:
+        if honneur_personnel(e):
+            v.setdefault("exclus", []).append({"source": e.get("source"), "type": e.get("type"), "cle": slug(e.get("titre", ""))[:50],
+                                               "titre": e.get("titre"), "retire_le": datetime.date.today().isoformat(), "motif": "honneur personnel"})
+        else:
+            garde.append(e)
+    dates = {}
+    for e in garde:
+        k = cle_element(e)
+        if e.get("type") == "distinction" and k[-1]: dates.setdefault(k[:2], e)
+    final = []
+    for e in garde:
+        k = cle_element(e)
+        if e.get("type") == "distinction" and not k[-1] and k[:2] in dates and len(k) == 3:
+            fusionner(dates[k[:2]], e); continue   # « date ? » : même concours qu'un prix daté
+        final.append(e)
+    v["elements"] = final
+    return v
+
+
 def fusionner_dossiers(dossier_run):
     """Fusionne les résultats d'une recherche (copiés dans dossier_run) avec la version actuelle du dépôt,
     sans perdre les modifications faites entre-temps (retraits, ajouts manuels, autres recherches)."""
@@ -600,6 +641,7 @@ def fusionner_dossiers(dossier_run):
             else: tous[k] = e
         # un élément retiré sur le site depuis le lancement : il n'est plus dans b mais est dans b.exclus -> déjà filtré
         b["elements"] = sorted(tous.values(), key=date_tri, reverse=True)
+        nettoyer(b)
         b["exclus"] = list({(x.get("source"), x.get("cle")): x for x in b.get("exclus", []) + a.get("exclus", [])}.values())
         b["pages_lues"] = sorted(set(b.get("pages_lues", [])) | set(a.get("pages_lues", [])))
         vues = {json.dumps(r, sort_keys=True) for r in b.get("recherches", [])}

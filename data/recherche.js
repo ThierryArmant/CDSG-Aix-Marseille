@@ -3,7 +3,7 @@ window.CDSG_WEB = {
  "college-jean-giono-orange": {
   "date": "11/11/2026",
   "resume": "",
-  "nb": 78,
+  "nb": 75,
   "derniere_activite": "2026-11-11",
   "derniers": {
    "distinction": {
@@ -82,28 +82,8 @@ window.CDSG_WEB = {
     "source": "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
     "verifie": "presse",
     "sources": [
-     "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens"
-    ]
-   },
-   {
-    "date": "2025-03-07",
-    "titre": "Remise des insignes de chevalier Ordre national du Mérite à M. Thierry Armant",
-    "resume": "Le 7 mars 2025, M. Thierry Armant, référent de l’atelier défense, a reçu les insignes de chevalier de l’Ordre national du Mérite à Orange.",
-    "source": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/03.03.2025%20Agenda%20Mme%20Patricia%20Miralles%2C%20ministre%20d%C3%A9l%C3%A9gu%C3%A9e%2C%20charg%C3%A9e%20de%20la%20m%C3%A9moire%20et%20des%20anciens%20combattants.pdf",
-    "verifie": "officielle",
-    "sources": [
-     "https://www.defense.gouv.fr/sites/default/files/ministere-armees/03.03.2025%20Agenda%20Mme%20Patricia%20Miralles%2C%20ministre%20d%C3%A9l%C3%A9gu%C3%A9e%2C%20charg%C3%A9e%20de%20la%20m%C3%A9moire%20et%20des%20anciens%20combattants.pdf"
-    ]
-   },
-   {
-    "date": "2025",
-    "titre": "Prix inter armées 2025-2026",
-    "resume": "Le collège Jean Giono d'Orange a reçu le prix inter armées 2025-2026, distinction attribuée à la classe défense (CDSG).",
-    "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html",
-    "verifie": "officielle",
-    "sources": [
-     "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html",
-     "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Actualites-Pedagogiques-.html"
+     "https://www.ledauphine.com/culture-loisirs/2025/03/23/le-recteur-de-l-academie-remet-un-prix-prestigieux-aux-collegiens",
+     "https://fr.linkedin.com/posts/academie-d-aix-marseille_grande-fiert%C3%A9-au-coll%C3%A8ge-jean-giono-dorange-activity-7308071412689178624-n-5r"
     ]
    },
    {
@@ -134,16 +114,6 @@ window.CDSG_WEB = {
     "verifie": "officielle",
     "sources": [
      "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
-    ]
-   },
-   {
-    "date": null,
-    "titre": "Prix National Louis Quinio",
-    "resume": "Le recteur et le DASEN ont décerné le Prix National Louis Quinio à la principale Mme Coulet pour son travail avec les équipes éducatives et les 70 élèves des classes de défense.",
-    "source": "https://fr.linkedin.com/posts/academie-d-aix-marseille_grande-fiert%C3%A9-au-coll%C3%A8ge-jean-giono-dorange-activity-7308071412689178624-n-5r",
-    "verifie": "a_confirmer",
-    "sources": [
-     "https://fr.linkedin.com/posts/academie-d-aix-marseille_grande-fiert%C3%A9-au-coll%C3%A8ge-jean-giono-dorange-activity-7308071412689178624-n-5r"
     ]
    },
    {
@@ -2509,7 +2479,7 @@ window.CDSG_WEB = {
  },
  "college-grande-bastide-marseille-9e": {
   "date": "11/11/2026",
-  "nb": 11,
+  "nb": 10,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
@@ -2562,7 +2532,8 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
     "verifie": "presse",
     "sources": [
-     "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+     "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+     "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723"
     ]
    },
    {
@@ -2573,16 +2544,6 @@ window.CDSG_WEB = {
     "verifie": "presse",
     "sources": [
      "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
-    ]
-   },
-   {
-    "date": null,
-    "titre": "Prix armées zone Sud",
-    "resume": "Le collège Grande Bastide a participé à la compétition « Prix armées zone Sud » avec sa classe de défense, parmi 14 classes de la zone.",
-    "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
-    "verifie": "officielle",
-    "sources": [
-     "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723"
     ]
    }
   ],

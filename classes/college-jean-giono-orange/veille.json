@@ -362,7 +362,10 @@
    "site": "ledauphine.com",
    "image": "https://cdn-s-www.ledauphine.com/images/71799470-A785-4E9D-BC2B-8680A55751D2/FB1200/photo-1742754980.jpg",
    "trouve_le": "2026-11-11",
-   "verifie": "presse"
+   "verifie": "presse",
+   "autres_sources": [
+    "https://fr.linkedin.com/posts/academie-d-aix-marseille_grande-fiert%C3%A9-au-coll%C3%A8ge-jean-giono-dorange-activity-7308071412689178624-n-5r"
+   ]
   },
   {
    "type": "ceremonie",
@@ -410,20 +413,6 @@
    "site": "ledauphine.com",
    "image": "https://cdn-s-www.ledauphine.com/images/71799470-A785-4E9D-BC2B-8680A55751D2/FB1200/photo-1742754980.jpg",
    "trouve_le": "2026-11-11"
-  },
-  {
-   "type": "distinction",
-   "date": "2025",
-   "titre": "Prix inter armées 2025-2026",
-   "extrait": "Remise du prix inter armées 2025-2026",
-   "resume": "Le collège Jean Giono d'Orange a reçu le prix inter armées 2025-2026, distinction attribuée à la classe défense (CDSG).",
-   "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html",
-   "page": "Remise du prix inter armées 2025-2026 - Collège Jean GionoAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer l",
-   "site": "site.ac-aix-marseille.fr",
-   "trouve_le": "2026-11-11",
-   "autres_sources": [
-    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Actualites-Pedagogiques-.html"
-   ]
   },
   {
    "type": "projet",
@@ -873,18 +862,6 @@
    "trouve_le": "2026-11-11"
   },
   {
-   "type": "distinction",
-   "date": null,
-   "titre": "Prix National Louis Quinio",
-   "extrait": "Le recteur Benoit Delaunay et le DASEN de Vaucluse ont remis le prestigieux Prix National Louis Quinio à Mme Coulet…",
-   "resume": "Le recteur et le DASEN ont décerné le Prix National Louis Quinio à la principale Mme Coulet pour son travail avec les équipes éducatives et les 70 élèves des classes de défense.",
-   "source": "https://fr.linkedin.com/posts/academie-d-aix-marseille_grande-fiert%C3%A9-au-coll%C3%A8ge-jean-giono-dorange-activity-7308071412689178624-n-5r",
-   "page": "Grande fierté au collège Jean Giono d'Orange ! 🤩 Le recteur Benoit Delaunay et le DASEN de Vaucluse ont remis le prestigieux Prix National Louis Quinio à Mme Coulet, principale du collège pour son… | Académie d'Aix-Marseille",
-   "site": "fr.linkedin.com (extrait public)",
-   "trouve_le": "2026-11-11",
-   "verifie": "a_confirmer"
-  },
-  {
    "type": "projet",
    "date": null,
    "titre": "Projet de commémoration du Train fantôme",
@@ -1107,7 +1084,7 @@
    "source": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/03.03.2025%20Agenda%20Mme%20Patricia%20Miralles%2C%20ministre%20d%C3%A9l%C3%A9gu%C3%A9e%2C%20charg%C3%A9e%20de%20la%20m%C3%A9moire%20et%20des%20anciens%20combattants.pdf",
    "type": "distinction",
    "cle": "remise-des-insignes-de-chevalier-ordre-national-du",
-   "titre": "Remise des insignes de chevalier Ordre national du Mérite à M. Thierry Armant",
+   "titre": "Honneur personnel (retiré)",
    "retire_le": "2026-11-11"
   }
  ],
