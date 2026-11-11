@@ -781,6 +781,8 @@ def main():
     ap.add_argument("--max", type=int, default=0)
     ap.add_argument("--profondeur", type=int, default=25, help="pages lues par fiche (hors site de l'établissement)")
     ap.add_argument("--question")
+    ap.add_argument("--tranche", help="traitement en parallèle : i/n (ex. 0/8) = une fiche sur n à partir de i")
+    ap.add_argument("--sans-boite", action="store_true", help="ne pas traiter la boîte « Articles à lire »")
     ap.add_argument("--fusionner", help="fusionne les résultats copiés dans ce dossier avec le dépôt (usage interne)")
     ap.add_argument("--palmares", action="store_true", help="cherche les palmarès des concours et prix pour tout le réseau")
     ap.add_argument("--rotation", type=int, default=0,
@@ -801,7 +803,8 @@ def main():
     print(f"{len(classes)} fiches · {BASE} · modèle principal {choisir_modele()} · " + ", ".join(f"{k}={v or choisir_modele()}" for k, v in SPECIALITES.items()))
     if a.question:
         question_libre(a.question, classes, resumes); return
-    traiter_a_lire(classes, resumes)
+    if not a.sans_boite:
+        traiter_a_lire(classes, resumes)
     if a.palmares:
         palmares(classes, resumes)
         if not (a.rotation or a.fiche or a.statut or a.verifier): return
@@ -811,6 +814,9 @@ def main():
              and (not a.statut or c["statut"] == a.statut)
              and (not a.verifier or c.get("verifier"))]
     if a.fiche and not cible: sys.exit(f"Fiche inconnue : {a.fiche}")
+    if a.tranche:
+        i, n = map(int, a.tranche.split("/"))
+        cible = [c for k, c in enumerate(cible) if k % n == i]
     if a.rotation:
         cible = sorted(cible, key=lambda c: (derniere_recherche(c["id"]), {"active": 0, "dormante": 1, "projet": 2}[c["statut"]]))[:a.rotation]
     if a.max: cible = cible[:a.max]

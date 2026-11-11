@@ -1,10 +1,10 @@
 name: Recherche web
 
-# Lancée depuis une fiche du site (bouton « Chercher en ligne ») ou à la main depuis l'onglet Actions.
+# Lancée depuis le site (bouton « Chercher en ligne »), à la main (onglet Actions), ou chaque nuit.
+# filtre « toutes » : les 89 fiches en parallèle (8 équipes), puis fusion des résultats.
 on:
-  # Veille automatique : chaque nuit vers 3 h, les 10 fiches vérifiées il y a le plus longtemps
   schedule:
-    - cron: "17 2 * * *"
+    - cron: "17 2 * * *"   # chaque nuit vers 3 h : palmarès + 10 fiches vérifiées il y a le plus longtemps
   workflow_dispatch:
     inputs:
       fiche:
@@ -27,13 +27,18 @@ concurrency:
   group: recherche
   cancel-in-progress: false
 
+env:
+  TZ: Europe/Paris
+  PYTHONUNBUFFERED: "1"
+
 jobs:
-  recherche:
+  veille:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
-    env:
-      TZ: Europe/Paris
-      PYTHONUNBUFFERED: "1"
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        tranche: ${{ fromJSON((github.event_name == 'workflow_dispatch' && inputs.filtre == 'toutes' && inputs.fiche == '') && '[0,1,2,3,4,5,6,7]' || '[0]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -48,15 +53,23 @@ jobs:
           MODELE_TRI: ${{ vars.MODELE_TRI }}
           MODELE_EXTRACTION: ${{ vars.MODELE_EXTRACTION }}
           MODELE_SYNTHESE: ${{ vars.MODELE_SYNTHESE }}
+          MODELE_VISION: ${{ vars.MODELE_VISION }}
           FICHE: ${{ inputs.fiche }}
           LIENS: ${{ inputs.liens }}
           FILTRE: ${{ inputs.filtre }}
           MAXI: ${{ inputs.maximum }}
+          TRANCHE: ${{ matrix.tranche }}
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             python3 recherche/recherche_web.py --palmares --rotation 10
           elif [ -n "$FICHE" ]; then
             python3 recherche/recherche_web.py --fiche "$FICHE" --liens "$LIENS"
+          elif [ "$FILTRE" = "toutes" ]; then
+            BOITE=""; [ "$TRANCHE" != "0" ] && BOITE="--sans-boite"
+            PALM=""; [ "$TRANCHE" = "0" ] && PALM="--palmares"
+            python3 recherche/recherche_web.py $PALM $BOITE --statut active --tranche "$TRANCHE/8" || true
+            python3 recherche/recherche_web.py --sans-boite --statut dormante --tranche "$TRANCHE/8" || true
+            python3 recherche/recherche_web.py --sans-boite --statut projet --tranche "$TRANCHE/8" || true
           else
             OPT=""
             case "$FILTRE" in
@@ -66,19 +79,39 @@ jobs:
             esac
             python3 recherche/recherche_web.py $OPT --max "${MAXI:-0}"
           fi
-      - name: Enregistrer dans le dépôt (fusion avec la version la plus récente)
+      - name: Mettre de côté les résultats
         if: always()
+        run: |
+          mkdir -p res
+          [ -d classes ] && cp -r classes res/ || true
+          cp data/recherche.js data/a_lire.json res/ 2>/dev/null || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: resultats-${{ matrix.tranche }}
+          path: res
+          retention-days: 3
+
+  enregistrer:
+    needs: veille
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/resultats
+      - name: Fusionner avec la version la plus récente et enregistrer
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          mkdir -p /tmp/res
-          [ -d classes ] && cp -r classes /tmp/res/ || true
-          cp data/recherche.js /tmp/res/ 2>/dev/null || true
-          cp data/a_lire.json /tmp/res/ 2>/dev/null || true
           for essai in 1 2 3 4 5; do
             git fetch -q origin main
             git reset -q --hard origin/main
-            python3 recherche/recherche_web.py --fusionner /tmp/res
+            for d in /tmp/resultats/*/; do python3 recherche/recherche_web.py --fusionner "$d"; done
             git add data/recherche.js data/actualites.js data/a_lire.json classes
             git diff --cached --quiet && exit 0
             git commit -q -m "Veille web : ${{ inputs.fiche || inputs.filtre || 'veille automatique' }}"
