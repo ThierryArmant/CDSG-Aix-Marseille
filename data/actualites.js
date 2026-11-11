@@ -1,30 +1,6 @@
 // Dernières nouvelles du réseau — généré par recherche/recherche_web.py
 window.CDSG_ACTUS = [
  {
-  "date": "2029-11",
-  "type": "convention",
-  "titre": "Renouvellement de la convention",
-  "resume": "La convention liant le collège Jean Giono à l’unité marraine doit être renouvelée en novembre 2029.",
-  "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
-  "image": "https://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/png/2022-03/cdsg_giono-orange_2.png",
-  "site": "WPAM",
-  "fiche": "college-jean-giono-orange",
-  "etab": "Collège Jean Giono",
-  "ville": "Orange"
- },
- {
-  "date": "2029-11",
-  "type": "convention",
-  "titre": "Renouvellement de la convention de partenariat",
-  "resume": "La convention liant le collège Giono à son unité marraine doit être renouvelée en novembre 2029.",
-  "source": "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris",
-  "image": "https://cdn-s-www.ledauphine.com/images/1EF89220-7832-4B5B-83E5-E2CCBCC44BD0/FB1200/photo-1746983914.jpg",
-  "site": "ledauphine.com",
-  "fiche": "college-jean-giono-orange",
-  "etab": "Collège Jean Giono",
-  "ville": "Orange"
- },
- {
   "date": "2026-07-03",
   "type": "distinction",
   "titre": "Remise du prix inter armées 2025-2026",
@@ -235,6 +211,30 @@ window.CDSG_ACTUS = [
   "resume": "Le collège Giono a créé sa classe de défense et sécurité globale en 2018.",
   "source": "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono",
   "image": "https://cdn-s-www.ledauphine.com/images/41765D24-C8D9-4D9D-9C01-84B3F410BAE5/FB1200/photo-1685901633.jpg",
+  "site": "ledauphine.com",
+  "fiche": "college-jean-giono-orange",
+  "etab": "Collège Jean Giono",
+  "ville": "Orange"
+ },
+ {
+  "date": null,
+  "type": "convention",
+  "titre": "Renouvellement de la convention",
+  "resume": "La convention liant le collège Jean Giono à l’unité marraine doit être renouvelée en novembre 2029.",
+  "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
+  "image": "https://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/png/2022-03/cdsg_giono-orange_2.png",
+  "site": "WPAM",
+  "fiche": "college-jean-giono-orange",
+  "etab": "Collège Jean Giono",
+  "ville": "Orange"
+ },
+ {
+  "date": null,
+  "type": "convention",
+  "titre": "Renouvellement de la convention de partenariat",
+  "resume": "La convention liant le collège Giono à son unité marraine doit être renouvelée en novembre 2029.",
+  "source": "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris",
+  "image": "https://cdn-s-www.ledauphine.com/images/1EF89220-7832-4B5B-83E5-E2CCBCC44BD0/FB1200/photo-1746983914.jpg",
   "site": "ledauphine.com",
   "fiche": "college-jean-giono-orange",
   "etab": "Collège Jean Giono",

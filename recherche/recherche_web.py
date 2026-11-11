@@ -183,6 +183,7 @@ def lire_page(url, maxi=16000):
         return None
 
 
+STATS = {"requetes": 0, "vides": 0}
 EXTRAITS = {}   # url -> (titre, extrait) tels qu'affichés par le moteur de recherche
 RESEAUX = re.compile(r"facebook\.com|instagram\.com|linkedin\.com|(^|//)(www\.)?x\.com|twitter\.com|tiktok\.com|youtube\.com", re.I)
 
@@ -209,6 +210,17 @@ def recherche_web(requete, n=5):
             if l.startswith("http") and "duckduckgo" not in l and l not in trouves:
                 trouves.append(l)
         if trouves: break
+    if not trouves:   # moteur de secours
+        try:
+            page, _ = http_get("https://www.bing.com/search?" + urllib.parse.urlencode({"q": requete, "setlang": "fr", "cc": "FR"}))
+            for u, t, x in re.findall(r'<li class="b_algo".*?<h2[^>]*><a[^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>.*?(?:<p[^>]*>(.*?)</p>|</li>)', page, re.S):
+                u = html.unescape(u)
+                if "bing.com" in u or u in trouves: continue
+                nettoie = lambda y: re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", y or ""))).strip()
+                EXTRAITS[u] = (nettoie(t), nettoie(x)); trouves.append(u)
+        except Exception:
+            pass
+    STATS["requetes"] += 1; STATS["vides"] += 0 if trouves else 1
     return trouves[:n]
 
 
@@ -330,7 +342,10 @@ def analyser_page(c, page):
                  "Fiche :\n" + json.dumps(fiche, ensure_ascii=False) +
                  f"\n\nPage : {page['url']}\nTitre : {page['titre']}\n\n{page['texte']}", specialite="extraction")
     if not r or not r.get("concerne"): return None
+    aujourd_hui = datetime.date.today().isoformat()
     for e in r.get("elements", []):
+        if e.get("date") and str(e["date"])[:10] > aujourd_hui[:len(str(e["date"])[:10])]:
+            e["date"] = None   # date dans le futur : erreur de lecture
         e["source"] = page["url"]; e["page"] = page["titre"]; e["site"] = page.get("site")
         if page.get("image"): e["image"] = page["image"]
         if not e.get("date") and page.get("date_pub"): e["date"] = page["date_pub"]
@@ -349,8 +364,14 @@ def trier(c, page):
 
 
 def cle_element(e):
-    """Un même événement cité sur plusieurs pages = un seul élément."""
-    return (e.get("type"), slug(e.get("titre", ""))[:50])
+    """Un même événement cité sur plusieurs pages = un seul élément.
+    Pour les distinctions : même concours (mots significatifs du titre), quelle que soit la page."""
+    t = slug(e.get("titre", ""))
+    if e.get("type") == "distinction":
+        vides = {"prix", "de", "du", "la", "le", "des", "et", "edition", "college", "jean", "giono", "orange", "avec", "remise", "d", "l", "les", "au", "a"}
+        mots = sorted(m for m in t.split("-") if len(m) > 2 and m not in vides and not m.isdigit())
+        return ("distinction", "-".join(mots[:4]))
+    return (e.get("type"), t[:50])
 
 
 def fusionner(existant, e):
@@ -499,7 +520,7 @@ def traiter_fiche(c, liens_manuels=(), profondeur=25):
     for q in requetes:
         for u in recherche_web(q.strip()):
             if u not in urls_web: urls_web.append(u)
-        time.sleep(1.0)
+        time.sleep(1.0 + (hash(q) % 10) / 10)
     # site de l'établissement : celui de la fiche, sinon celui repéré dans les résultats
     sites = [c.get("site")] if c.get("site") else []
     for u in urls_web:
@@ -529,6 +550,7 @@ def traiter_fiche(c, liens_manuels=(), profondeur=25):
     exclus_pages = {x.get("source") for x in v.get("exclus", [])}
     urls = [u for u in urls if u in liens_manuels or u not in exclus_pages]
     a_lire = [u for u in urls if u in liens_manuels or u in urls_site or u not in vues][: profondeur + len(liens_manuels) + len(urls_site)]
+    print(f"   moteurs : {STATS['requetes']} requêtes, {STATS['vides']} sans résultat")
     print(f"   {len(urls)} pages trouvées ({len(urls_site)} sur le site de l'établissement), {len(a_lire)} à lire")
     nouveaux = 0
     for u in a_lire:
