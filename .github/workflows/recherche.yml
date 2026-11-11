@@ -30,8 +30,8 @@ permissions:
   contents: write
 
 concurrency:
-  # les questions passent à part : elles n'attendent pas les longues recherches et ne les annulent pas
-  group: ${{ inputs.question != '' && format('question-{0}', inputs.qid) || 'recherche' }}
+  # les questions et vérifications passent à part : elles n'attendent pas les longues recherches et ne les annulent pas
+  group: ${{ inputs.question != '' && format('question-{0}', inputs.qid) || (startsWith(inputs.filtre, 'chefs') && format('verif-{0}', inputs.filtre)) || 'recherche' }}
   cancel-in-progress: false
 
 env:
