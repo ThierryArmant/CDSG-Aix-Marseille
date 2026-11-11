@@ -63,11 +63,22 @@ jobs:
             esac
             python3 recherche/recherche_web.py $OPT --max "${MAXI:-0}"
           fi
-      - name: Enregistrer dans le dépôt
+      - name: Enregistrer dans le dépôt (fusion avec la version la plus récente)
+        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add data/recherche.js data/actualites.js classes || true
-          git diff --cached --quiet && exit 0
-          git commit -m "Veille web : ${{ inputs.fiche || inputs.filtre || 'veille automatique' }}"
-          git pull --rebase origin main && git push
+          mkdir -p /tmp/res
+          [ -d classes ] && cp -r classes /tmp/res/ || true
+          cp data/recherche.js /tmp/res/ 2>/dev/null || true
+          for essai in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 recherche/recherche_web.py --fusionner /tmp/res
+            git add data/recherche.js data/actualites.js classes
+            git diff --cached --quiet && exit 0
+            git commit -q -m "Veille web : ${{ inputs.fiche || inputs.filtre || 'veille automatique' }}"
+            git push -q origin HEAD:main && exit 0
+            sleep $((essai * 5))
+          done
+          exit 1

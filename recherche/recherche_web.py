@@ -367,6 +367,58 @@ def date_tri(e):
     return d + "-00-00"[len(d) - 4:] if len(d) < 10 else d
 
 
+def infos_resume(v):
+    """Partie du résumé calculée sans modèle (dernières activités, distinctions…)."""
+    els = sorted(v["elements"], key=date_tri, reverse=True)
+    derniers = {}
+    for t in ("distinction", "sortie", "ceremonie", "convention", "article", "rapport", "projet"):
+        e = next((x for x in els if x["type"] == t), None)
+        if e: derniers[t] = {k: e.get(k) for k in ("date", "titre", "resume", "source")}
+    return {"nb": len(els), "derniere_activite": els[0].get("date") if els else None, "derniers": derniers,
+            "distinctions": [{"date": e.get("date"), "titre": e.get("resume") if e.get("manuel") else e.get("titre"),
+                              "resume": e.get("resume"), "source": e.get("source")} for e in els if e["type"] == "distinction"],
+            "sources": list(dict.fromkeys(e["source"] for e in els))[:8]}
+
+
+def fusionner_dossiers(dossier_run):
+    """Fusionne les résultats d'une recherche (copiés dans dossier_run) avec la version actuelle du dépôt,
+    sans perdre les modifications faites entre-temps (retraits, ajouts manuels, autres recherches)."""
+    run = Path(dossier_run)
+    res_run = {}
+    f = run / "recherche.js"
+    if f.exists():
+        m = re.search(r"window\.CDSG_WEB\s*=\s*(\{.*\});", f.read_text(encoding="utf-8"), re.S)
+        res_run = json.loads(m.group(1)) if m else {}
+    resumes = lire_resumes()
+    for vf in (run / "classes").glob("*/veille.json"):
+        cid = vf.parent.name
+        a = json.loads(vf.read_text(encoding="utf-8"))
+        b = lire_veille(cid)
+        exclus = {(x.get("source"), x.get("cle")) for x in b.get("exclus", []) + a.get("exclus", [])}
+        ex_src = {x.get("source") for x in b.get("exclus", []) if not x.get("cle")}
+        tous = {}
+        for e in b.get("elements", []) + a.get("elements", []):
+            if (e.get("source"), slug(e.get("titre", ""))[:50]) in exclus or e.get("source") in ex_src: continue
+            k = cle_element(e)
+            if k in tous: fusionner(tous[k], e)
+            else: tous[k] = e
+        # un élément retiré sur le site depuis le lancement : il n'est plus dans b mais est dans b.exclus -> déjà filtré
+        b["elements"] = sorted(tous.values(), key=date_tri, reverse=True)
+        b["exclus"] = list({(x.get("source"), x.get("cle")): x for x in b.get("exclus", []) + a.get("exclus", [])}.values())
+        b["pages_lues"] = sorted(set(b.get("pages_lues", [])) | set(a.get("pages_lues", [])))
+        vues = {json.dumps(r, sort_keys=True) for r in b.get("recherches", [])}
+        b["recherches"] = b.get("recherches", []) + [r for r in a.get("recherches", []) if json.dumps(r, sort_keys=True) not in vues]
+        for k in ("fiche", "etablissement", "referents_cites", "unite_citee"):
+            if a.get(k): b[k] = a[k]
+        ecrire_veille(cid, b)
+        r = dict(res_run.get(cid) or resumes.get(cid) or {})
+        r.update(infos_resume(b))
+        resumes[cid] = r
+    ecrire_resumes(resumes)
+    ecrire_actualites(lire_classes())
+    print(f"Fusion : {len(list((run / 'classes').glob('*/veille.json')))} dossier(s) fusionné(s)")
+
+
 def faire_resume(c, v):
     els = sorted(v["elements"], key=date_tri, reverse=True)
     derniers = {}
@@ -592,10 +644,13 @@ def main():
     ap.add_argument("--max", type=int, default=0)
     ap.add_argument("--profondeur", type=int, default=25, help="pages lues par fiche (hors site de l'établissement)")
     ap.add_argument("--question")
+    ap.add_argument("--fusionner", help="fusionne les résultats copiés dans ce dossier avec le dépôt (usage interne)")
     ap.add_argument("--palmares", action="store_true", help="cherche les palmarès des concours et prix pour tout le réseau")
     ap.add_argument("--rotation", type=int, default=0,
                     help="veille automatique : traite les N fiches vérifiées il y a le plus longtemps")
     a = ap.parse_args()
+    if a.fusionner:
+        fusionner_dossiers(a.fusionner); return
     if not CLE:
         sys.exit("Clé absente : export ALBERT_API_KEY=\"…\" (ou secret GitHub ALBERT_API_KEY).")
 
