@@ -52,7 +52,9 @@ jobs:
         env:
           ALBERT_API_KEY: ${{ secrets.ALBERT_API_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           MAX_REQUETES_FICHE: ${{ vars.MAX_REQUETES_FICHE }}
           API_MODEL: ${{ vars.API_MODEL }}
           MODELE_TRI: ${{ vars.MODELE_TRI }}

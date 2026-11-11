@@ -258,57 +258,86 @@ EXTRAITS = {}   # url -> (titre, extrait) tels qu'affichés par le moteur de rec
 RESEAUX = re.compile(r"facebook\.com|instagram\.com|linkedin\.com|(^|//)(www\.)?x\.com|twitter\.com|tiktok\.com|youtube\.com", re.I)
 
 
-TAVILY = os.environ.get("TAVILY_API_KEY", "")
-BRAVE = os.environ.get("BRAVE_API_KEY", "")
-BUDGET = int(os.environ.get("MAX_REQUETES_FICHE") or ("10" if (TAVILY or BRAVE) else "60"))   # requêtes par fiche
-
-
+# Moteurs de recherche par clé, utilisés à tour de rôle. Chacun a un plafond sous sa limite gratuite :
+# l'assistant n'en dépasse jamais aucun (aucune carte bancaire, aucun frais).
+MOTEURS = [   # (nom, variable de la clé, plafond, période : "mois" ou "total")
+    ("tavily",  "TAVILY_API_KEY",  int(os.environ.get("PLAFOND_TAVILY")  or 900),  "mois"),
+    ("exa",     "EXA_API_KEY",     int(os.environ.get("PLAFOND_EXA")     or 800),  "mois"),
+    ("serper",  "SERPER_API_KEY",  int(os.environ.get("PLAFOND_SERPER")  or 2400), "total"),
+    ("serpapi", "SERPAPI_API_KEY", int(os.environ.get("PLAFOND_SERPAPI") or 90),   "mois"),
+]
+CLES = {nom: os.environ.get(var, "") for nom, var, _, _ in MOTEURS}
+TAVILY = CLES["tavily"]; BRAVE = ""
+BUDGET = int(os.environ.get("MAX_REQUETES_FICHE") or ("10" if any(CLES.values()) else "60"))   # requêtes par fiche
 FICHIER_QUOTA = RACINE / "data" / "quota.json"
-PLAFOND = int(os.environ.get("PLAFOND_MENSUEL") or "900")   # sous les 1 000 gratuites de Tavily : jamais de frais
+EPUISES = set()
 
 
-def quota(ajout=0):
-    """Compteur mensuel des recherches payantes potentielles. Renvoie le nombre utilisé ce mois-ci."""
-    mois = datetime.date.today().strftime("%Y-%m")
-    q = json.loads(FICHIER_QUOTA.read_text()) if FICHIER_QUOTA.exists() else {}
+def _quota_lire():
+    return json.loads(FICHIER_QUOTA.read_text()) if FICHIER_QUOTA.exists() else {}
+
+
+def quota(moteur="tavily", ajout=0, periode="mois"):
+    """Compteur par moteur : par mois (« tavily:2026-11 ») ou depuis toujours (« serper:total »)."""
+    cle = f"{moteur}:{datetime.date.today().strftime('%Y-%m') if periode == 'mois' else 'total'}"
+    q = _quota_lire()
+    # compatibilité avec l'ancien compteur (« 2026-11 » = Tavily)
+    if moteur == "tavily" and periode == "mois" and cle not in q:
+        q[cle] = q.pop(datetime.date.today().strftime('%Y-%m'), 0)
     if ajout:
-        q[mois] = q.get(mois, 0) + ajout
+        q[cle] = q.get(cle, 0) + ajout
         FICHIER_QUOTA.write_text(json.dumps(q, indent=1))
-    return q.get(mois, 0)
+    return q.get(cle, 0)
+
+
+def _post(url, corps, entetes):
+    req = urllib.request.Request(url, data=json.dumps(corps).encode(), headers={**entetes, "Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read())
+
+
+def _appel(nom, cle, requete, n):
+    if nom == "tavily":
+        res = _post("https://api.tavily.com/search", {"query": requete, "max_results": n, "search_depth": "basic", "country": "france"},
+                    {"Authorization": "Bearer " + cle}).get("results", [])
+        return [(x["url"], x.get("title", ""), x.get("content", "")) for x in res]
+    if nom == "exa":
+        res = _post("https://api.exa.ai/search", {"query": requete, "numResults": n, "type": "auto",
+                    "contents": {"summary": False, "highlights": {"numSentences": 2}}}, {"x-api-key": cle}).get("results", [])
+        return [(x["url"], x.get("title") or "", " ".join(x.get("highlights") or [])) for x in res]
+    if nom == "serper":
+        res = _post("https://google.serper.dev/search", {"q": requete, "gl": "fr", "hl": "fr", "num": n}, {"X-API-KEY": cle}).get("organic", [])
+        return [(x["link"], x.get("title", ""), x.get("snippet", "")) for x in res]
+    if nom == "serpapi":
+        with urllib.request.urlopen("https://serpapi.com/search.json?" + urllib.parse.urlencode(
+                {"engine": "google", "q": requete, "gl": "fr", "hl": "fr", "num": n, "api_key": cle}), timeout=30) as r:
+            res = json.loads(r.read()).get("organic_results", [])
+        return [(x["link"], x.get("title", ""), x.get("snippet", "")) for x in res]
+    return None
 
 
 def recherche_cle(requete, n):
-    """Moteur fiable par clé (Tavily ou Brave). Renvoie None si aucune clé, plafond atteint ou échec."""
-    if not (TAVILY or BRAVE): return None
-    if quota() >= PLAFOND:
-        if not STATS.get("plafond"): print(f"   ! plafond mensuel atteint ({PLAFOND} recherches) : moteur gratuit de secours")
-        STATS["plafond"] = True
-        return None
-    quota(1)
-    try:
-        if TAVILY:
-            corps = {"query": requete, "max_results": n, "search_depth": "basic", "country": "france"}
-            req = urllib.request.Request("https://api.tavily.com/search", data=json.dumps(corps).encode(),
-                                         headers={"Authorization": "Bearer " + TAVILY, "Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=30) as r:
-                res = json.loads(r.read()).get("results", [])
+    """Premier moteur à clé encore sous son plafond. Renvoie None si aucun n'est disponible."""
+    for nom, _, plafond, periode in MOTEURS:
+        cle = CLES.get(nom)
+        if not cle or nom in EPUISES: continue
+        if quota(nom, 0, periode) >= plafond:
+            EPUISES.add(nom); print(f"   ! {nom} : plafond atteint ({plafond}), moteur suivant"); continue
+        try:
+            quota(nom, 1, periode)
+            res = _appel(nom, cle, requete, n)
+            STATS[nom] = STATS.get(nom, 0) + 1
             out = []
-            for x in res:
-                EXTRAITS[x["url"]] = (x.get("title", ""), (x.get("content") or "")[:600]); out.append(x["url"])
+            for u, t, x in res or []:
+                EXTRAITS[u] = (t, (x or "")[:600]); out.append(u)
             return out
-        if BRAVE:
-            req = urllib.request.Request("https://api.search.brave.com/res/v1/web/search?" + urllib.parse.urlencode(
-                {"q": requete, "count": n, "country": "fr", "search_lang": "fr"}),
-                headers={"X-Subscription-Token": BRAVE, "Accept": "application/json"})
-            with urllib.request.urlopen(req, timeout=30) as r:
-                res = json.loads(r.read()).get("web", {}).get("results", [])
-            time.sleep(1.1)   # offre gratuite : 1 requête par seconde
-            out = []
-            for x in res:
-                EXTRAITS[x["url"]] = (x.get("title", ""), re.sub(r"<[^>]+>", "", x.get("description", ""))); out.append(x["url"])
-            return out
-    except Exception as e:
-        print(f"     ! moteur à clé : {e}", file=sys.stderr)
+        except urllib.error.HTTPError as e:
+            if e.code in (401, 402, 403, 429, 432, 433):   # clé refusée, crédit épuisé ou trop de requêtes
+                EPUISES.add(nom); print(f"   ! {nom} indisponible (code {e.code}), moteur suivant")
+            else:
+                print(f"     ! {nom} : {e}", file=sys.stderr)
+        except Exception as e:
+            print(f"     ! {nom} : {e}", file=sys.stderr)
     return None
 
 
@@ -741,7 +770,7 @@ def traiter_fiche(c, liens_manuels=(), profondeur=25):
     exclus_pages = {x.get("source") for x in v.get("exclus", [])}
     urls = [u for u in urls if u in liens_manuels or u not in exclus_pages]
     a_lire = [u for u in urls if u in liens_manuels or u in urls_site or u not in vues][: profondeur + len(liens_manuels) + len(urls_site)]
-    print(f"   moteurs : {STATS['requetes']} requêtes, {STATS['vides']} sans résultat")
+    print(f"   moteurs : {STATS['requetes']} requêtes, {STATS['vides']} sans résultat · " + ", ".join(f"{k} {v}" for k, v in STATS.items() if k in CLES))
     print(f"   {len(urls)} pages trouvées ({len(urls_site)} sur le site de l'établissement), {len(a_lire)} à lire")
     nouveaux = 0
     for u in a_lire:
