@@ -49,16 +49,29 @@ SPECIALITES = {
     "question":   os.environ.get("MODELE_QUESTION")   or "",   # réponses aux questions
 }
 TYPES = ["distinction", "sortie", "ceremonie", "convention", "article", "rapport", "projet", "partenaire", "autre"]
+# Concours et prix cherchés pour CHAQUE établissement (ajouter ici tout nouveau concours)
+CONCOURS = ["prix de l'éducation citoyenne", "prix Armées zone Sud", "prix inter-armées", "concours national de la Résistance et de la Déportation",
+            "concours Clemenceau", "Bulles de mémoire", "Petits artistes de la mémoire", "Féminisons l'aéronautique",
+            "prix Trinôme", "IHEDN", "label CDSG", "Souvenir français", "ANMONM", "médaille de la jeunesse"]
+ANNEES = list(range(2018, datetime.date.today().year + 1))
 PREFECTURES = {"13": "bouches-du-rhone.gouv.fr", "84": "vaucluse.gouv.fr", "04": "alpes-de-haute-provence.gouv.fr", "05": "hautes-alpes.gouv.fr"}
 # Concours et prix où les classes défense sont souvent récompensées (recherche « palmarès »)
 PALMARES = ["prix Armées zone Sud lauréats", "prix Armées zone Sud collège classe défense", "prix inter-armées classe défense lauréat",
             "concours Clemenceau lauréats collège", "concours national de la Résistance et de la Déportation lauréats Vaucluse",
             "concours national de la Résistance et de la Déportation lauréats Bouches-du-Rhône", "Bulles de mémoire ONACVG lauréats",
             "prix de l'éducation citoyenne ANMONM lauréats", "trophées classes défense lauréats", "prix trinôme académique Aix-Marseille",
-            "classe défense récompensée préfet", "classe défense prix Provence collège", "labellisation classe défense et sécurité globales Aix-Marseille"]
+            "classe défense récompensée préfet", "site:vaucluse.gouv.fr classe défense collège",
+            "site:bouches-du-rhone.gouv.fr classe défense collège", "site:alpes-de-haute-provence.gouv.fr classe défense",
+            "site:hautes-alpes.gouv.fr classe défense", "base aérienne 115 Orange collège classe défense",
+            "base aérienne 125 Istres classe défense collège", "marins-pompiers Marseille classe défense collège",
+            "1er régiment étranger de cavalerie classe défense collège", "4e régiment de chasseurs Gap classe défense",
+            "2e régiment étranger de génie classe défense collège", "site:facebook.com classe défense collège Vaucluse",
+            "site:facebook.com classe défense Bouches-du-Rhône collège prix", "classe défense prix Provence collège", "labellisation classe défense et sécurité globales Aix-Marseille"]
 MOTS_DEFENSE = re.compile(r"d[ée]fense|cdsg|prix|laur[ée]at|concours|r[ée]compens|distinction|m[ée]daille|troph[ée]e|militaire|arm[ée]e|base a[ée]rienne|r[ée]giment|gendarmerie|pompier|marine|"
                           r"l[ée]gion|c[ée]r[ée]monie|comm[ée]mor|m[ée]moire|11 novembre|8 mai|rallye|trin[ôo]me|convention", re.I)
 
+
+MOTS_DISTINCTION = re.compile(r"prix|laur[ée]at|concours|r[ée]compens|distinction|m[ée]daille|troph[ée]e|palmar[eè]s|1er|premier prix|class[ée]|drapeau|fanion|label", re.I)
 
 # ───────────────────────── fichiers ─────────────────────────
 def slug(s):
@@ -149,7 +162,11 @@ class Page(HTMLParser):
         if not self.skip and d.strip(): self.txt.append(d.strip())
 
 
-def lire_page(url, maxi=7000):
+def lire_page(url, maxi=16000):
+    if RESEAUX.search(url) and url in EXTRAITS:
+        t, x = EXTRAITS[url]
+        return {"url": url, "titre": t, "texte": f"{t}. {x}", "liens": [], "image": None, "date_pub": None,
+                "site": urllib.parse.urlsplit(url).netloc.replace("www.", "") + " (extrait public)"}
     try:
         brut, final = http_get(url)
         p = Page(); p.feed(brut)
@@ -166,14 +183,25 @@ def lire_page(url, maxi=7000):
         return None
 
 
+EXTRAITS = {}   # url -> (titre, extrait) tels qu'affichés par le moteur de recherche
+RESEAUX = re.compile(r"facebook\.com|instagram\.com|linkedin\.com|(^|//)(www\.)?x\.com|twitter\.com|tiktok\.com|youtube\.com", re.I)
+
+
 def recherche_web(requete, n=5):
-    """DuckDuckGo (HTML puis version lite), sans clé."""
+    """DuckDuckGo (HTML puis version lite), sans clé. Garde aussi titre et extrait de chaque résultat."""
     trouves = []
     for base in ("https://html.duckduckgo.com/html/?", "https://lite.duckduckgo.com/lite/?"):
         try:
             page, _ = http_get(base + urllib.parse.urlencode({"q": requete, "kl": "fr-fr"}))
         except Exception:
             continue
+        # titre + extrait de chaque résultat (version HTML)
+        for bloc in re.findall(r'class="result__a"[^>]*href="([^"]+)"[^>]*>(.*?)</a>.*?class="result__snippet"[^>]*>(.*?)</a>', page, re.S):
+            u = html.unescape(bloc[0])
+            if "uddg=" in u:
+                u = urllib.parse.unquote(urllib.parse.parse_qs(urllib.parse.urlparse(u).query).get("uddg", [u])[0])
+            nettoie = lambda x: re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", x))).strip()
+            EXTRAITS[u] = (nettoie(bloc[1]), nettoie(bloc[2]))
         for l in re.findall(r'href="([^"]+)"', page):
             l = html.unescape(l)
             if "uddg=" in l:
@@ -195,29 +223,47 @@ def racine_site(u):
     return f"{p.scheme}://{p.netloc}/{seg[0]}/" if seg else None
 
 
-def explorer_site(site, maxi=10):
-    """Pages du site de l'établissement qui parlent de défense, sorties, cérémonies…
-    Utilise aussi le moteur de recherche interne (sites SPIP de l'académie)."""
+def explorer_site(site, maxi=30):
+    """Fouille le site de l'établissement : page d'accueil, rubriques liées à la défense,
+    moteur de recherche interne (sites SPIP de l'académie), puis les articles trouvés (2 niveaux)."""
     if not site: return []
     if not site.startswith("http"): site = "https://" + site
     site = site if site.endswith("/") else site + "/"
     hote = urllib.parse.urlsplit(site).netloc
     chemin = urllib.parse.urlsplit(site).path
-    cand = []
-    def garder(liens):
-        for u, t in liens:
-            pu = urllib.parse.urlsplit(u)
-            if pu.netloc != hote or not pu.path.startswith(chemin): continue
-            if re.search(r"\.(jpg|jpeg|png|gif|pdf|zip|doc|docx)$|page=recherche|page=backend|#|lang=", u, re.I): continue
-            if (MOTS_DEFENSE.search(u + " " + t) or re.search(r"article|spip\.php\?article|\.html$", u)) and u not in cand:
-                cand.append(u)
+    def interne(u):
+        pu = urllib.parse.urlsplit(u)
+        return pu.netloc == hote and pu.path.startswith(chemin) and not re.search(
+            r"\.(jpg|jpeg|png|gif|zip|doc|docx|mp4)$|page=recherche|page=backend|lang=|/ecrire/|#", u, re.I)
+    def pertinent(u, t): return bool(MOTS_DEFENSE.search(u + " " + t) or MOTS_DISTINCTION.search(u + " " + t))
+    cand, rubriques = [], []
+    def ajouter(u):
+        if u not in cand: cand.append(u)
     for base in (site, site + "spip/"):
         acc = lire_page(base)
-        if acc: garder([(u, t) for u, t in acc["liens"] if MOTS_DEFENSE.search(u + " " + t)])
-        for mot in ("classe défense", "défense", "base aérienne", "cérémonie", "sortie militaire", "CDSG"):
+        if not acc: continue
+        ajouter(acc["url"])  # la page d'accueil annonce souvent les prix
+        for u, t in acc["liens"]:
+            if interne(u) and pertinent(u, t):
+                ajouter(u)
+                if re.search(r"/-[^/]+-\.html$|rubrique", u): rubriques.append(u)   # rubriques SPIP : -CDSG-.html
+        for mot in ("classe défense", "CDSG", "défense", "prix", "concours", "lauréat", "éducation citoyenne",
+                    "cérémonie", "mémoire", "drapeau", "base aérienne", "sortie"):
             r = lire_page(base + "spip.php?" + urllib.parse.urlencode({"page": "recherche", "recherche": mot}))
-            if r: garder(r["liens"])
-        if len(cand) >= maxi: break
+            if r:
+                for u, t in r["liens"]:
+                    if interne(u) and re.search(r"\.html$|article", u) and u != r["url"]: ajouter(u)
+        break
+    # 2e niveau : contenu des rubriques (avec pagination SPIP debut_articles=)
+    for rub in rubriques[:6]:
+        for page_n in range(0, 4):
+            u = rub if page_n == 0 else rub + ("&" if "?" in rub else "?") + f"debut_articles={page_n * 10}"
+            r = lire_page(u)
+            if not r: break
+            avant = len(cand)
+            for l, t in r["liens"]:
+                if interne(l) and re.search(r"\.html$|article", l): ajouter(l)
+            if len(cand) == avant: break
     print(f"   site de l'établissement {site} : {len(cand)} page(s) candidates")
     return cand[:maxi]
 
@@ -242,7 +288,7 @@ def choisir_modele():
     MODELE = ids[0]; return MODELE
 
 
-def demander(systeme, utilisateur, jsonmode=True, max_tokens=1500, specialite=""):
+def demander(systeme, utilisateur, jsonmode=True, max_tokens=2500, specialite=""):
     corps = {"model": SPECIALITES.get(specialite) or choisir_modele(), "temperature": 0.1, "max_tokens": max_tokens,
              "messages": [{"role": "system", "content": systeme}, {"role": "user", "content": utilisateur}]}
     for essai in range(3):
@@ -258,7 +304,9 @@ def demander(systeme, utilisateur, jsonmode=True, max_tokens=1500, specialite=""
 
 SYSTEME_EXTRACTION = """Tu fais la veille d'une classe défense et sécurité globales (CDSG) de l'académie d'Aix-Marseille.
 On te donne la fiche de la classe et le texte d'UNE page web.
-Relève tout ce qui concerne la classe défense de CET établissement (pas un homonyme, pas un autre collège) :
+Relève TOUT ce qui concerne la classe défense (ou atelier défense) de CET établissement (pas un homonyme, pas un autre collège),
+y compris une simple brève ou un titre d'actualité, et toutes les années citées (pas seulement la plus récente).
+Un prix obtenu par l'établissement pour un projet citoyen ou de mémoire mené par la classe défense compte comme distinction :
 DISTINCTIONS en priorité : prix, concours (prix Armées zone Sud, prix inter-armées, concours Clemenceau, CNRD, Bulles de mémoire,
 prix ANMONM…), récompenses, lauréats, mentions, labels, médailles, décorations, remises de fanion ou de diplôme, félicitations du préfet ;
 puis sorties, visites de base ou de régiment, cérémonies (11 novembre, 8 mai…), signature ou renouvellement de convention,
@@ -294,8 +342,8 @@ def analyser_page(c, page):
 def trier(c, page):
     """Petit modèle : la page concerne-t-elle la classe défense de cet établissement ?"""
     r = demander("Réponds uniquement par OUI ou NON.",
-                 f"La page suivante parle-t-elle de la classe défense (CDSG), d'une sortie, d'une cérémonie ou d'un partenariat "
-                 f"militaire des élèves de « {c['etab']} » à {c['ville']} ?\n\nTitre : {page['titre']}\n{page['texte'][:2500]}",
+                 f"La page suivante mentionne-t-elle, même brièvement, la classe défense (CDSG) ou l'atelier défense, un prix, un concours, "
+                 f"une distinction, une sortie, une cérémonie ou un partenariat militaire des élèves de « {c['etab']} » à {c['ville']} ?\n\nTitre : {page['titre']}\n{page['texte'][:2500]}",
                  jsonmode=False, max_tokens=5, specialite="tri")
     return r is None or "OUI" in r.upper()   # en cas de panne du tri, on laisse passer
 
@@ -337,29 +385,61 @@ def faire_resume(c, v):
             "nb": len(els),
             "derniere_activite": els[0].get("date") if els else None,
             "derniers": derniers,
-            "distinctions": [{k: e.get(k) for k in ("date", "titre", "resume", "source")} for e in els if e["type"] == "distinction"],
+            "distinctions": [{"date": e.get("date"), "titre": e.get("resume") if e.get("manuel") else e.get("titre"), "resume": e.get("resume"), "source": e.get("source")} for e in els if e["type"] == "distinction"],
             "sources": list(dict.fromkeys(e["source"] for e in els))[:8]}
 
 
 # ───────────────────────── traitement d'une fiche ─────────────────────────
-def traiter_fiche(c, liens_manuels=(), profondeur=12):
+def traiter_fiche(c, liens_manuels=(), profondeur=25):
     nom, ville = c["etab"], c["ville"]
     unite = c.get("unite") if c.get("unite") not in (None, "", "—") else ""
+    # nom court tel qu'employé par la presse : « collège Giono », « lycée Mistral »
+    genre = "lycée" if re.search(r"lyc[ée]e|LP|LPP|LPO", nom) else "collège"
+    mots = [m for m in re.sub(r"\(.*?\)", "", nom).split() if m[:1].isupper() and m.lower() not in ("collège", "lycée", "college", "lycee", "lpp", "lp", "lpo", "des", "de", "du", "la", "le", "les")]
+    court = f"{genre} {mots[-1]}" if mots else nom
+    presse = ["laprovence.com", "ledauphine.com", "lamarseillaise.fr", "france3-regions.francetvinfo.fr",
+              "francebleu.fr", "actu.fr", "varmatin.com", "lepoint.fr", "20minutes.fr"]
     requetes = [
         f'"{nom}" {ville} classe défense',
+        f'"{court}" {ville} classe défense',
+        f'"{court}" {ville} élèves prix OR concours OR lauréat',
+        f'"{court}" {ville} cérémonie élèves commémoration',
+        f'"{court}" {ville} {unite} élèves' if unite else f'"{court}" {ville} militaires élèves',
+        f'site:{ville.split()[0].lower().replace("é","e").replace("è","e")}.fr "{court}"',
         f'{nom} {ville} CDSG',
         f'{nom} {ville} sortie {unite or "base militaire"}',
         f'{nom} {ville} cérémonie 11 novembre élèves',
         f'{nom} {ville} convention classe défense {unite}',
         f'{nom} {ville} classe défense La Provence OR Vaucluse Matin OR Dauphiné',
         f'collège OR lycée {ville} "classe défense" élèves',
-        f'site:laprovence.com {nom} {ville} défense',
-        f'site:ledauphine.com {nom} {ville} défense',
+        *[f'site:{d} "{court}" {ville}' for d in presse[:5]],
+        *[f'site:{d} {court} {ville} défense' for d in presse[5:]],
         f'site:defense.gouv.fr {nom} {ville}',
         f'{nom} {ville} prix OR lauréat OR concours OR récompense classe défense',
         f'"prix Armées zone Sud" OR "prix inter-armées" OR "concours Clemenceau" {nom} {ville}',
         f'site:{PREFECTURES.get(c.get("dep"), "gouv.fr")} {nom} {ville}',
         f'site:onac-vg.fr {nom} {ville}',
+        # concours un par un
+        *[f'"{court}" {ville} "{k}"' for k in CONCOURS],
+        # balayage des années depuis 2018 (prix, lauréats)
+        *[f'"{court}" {ville} prix OR lauréat OR concours {" OR ".join(map(str, ANNEES[i:i+3]))}' for i in range(0, len(ANNEES), 3)],
+        # radios locales
+        f'site:frequencemistral.com OR site:francebleu.fr "{court}" {ville}',
+        # actualités des bases et unités marraines
+        f'site:defense.gouv.fr "{court}" {ville}',
+        f'{unite} actualités élèves "{court}"' if unite else f'base militaire élèves "{court}" {ville}',
+        f'site:gendarmerie.interieur.gouv.fr "{court}" {ville}',
+        f'site:{PREFECTURES.get(c.get("dep"), "gouv.fr")} "{court}"',
+        # réseaux sociaux (extraits publics)
+        f'site:facebook.com "{court}" {ville} défense OR militaires OR cérémonie OR prix',
+        f'site:facebook.com {unite} "{court}"' if unite else f'site:facebook.com "{court}" {ville} classe défense',
+        f'site:instagram.com "{court}" {ville} défense',
+        f'site:linkedin.com "{court}" {ville} classe défense',
+        f'site:x.com OR site:twitter.com "{court}" {ville} défense',
+        f'site:pedagogie.ac-aix-marseille.fr {nom} {ville} défense',
+        f'site:pedagogie.ac-aix-marseille.fr classe défense {ville}',
+        f'{nom} {ville} "prix" "éducation citoyenne"',
+        f'{nom} {ville} lauréat concours mémoire',
         f'site:ac-aix-marseille.fr {nom} {ville} classe défense',
         f'{ville} {unite} élèves classe défense' if unite else f'{ville} classe défense élèves {nom}',
     ]
@@ -367,7 +447,7 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
     for q in requetes:
         for u in recherche_web(q.strip()):
             if u not in urls_web: urls_web.append(u)
-        time.sleep(1.2)
+        time.sleep(1.0)
     # site de l'établissement : celui de la fiche, sinon celui repéré dans les résultats
     sites = [c.get("site")] if c.get("site") else []
     for u in urls_web:
@@ -376,6 +456,10 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
     urls_site = []
     for st in sites:
         urls_site += [u for u in explorer_site(st) if u not in urls_site]
+    def score(u):
+        t, x = EXTRAITS.get(u, ("", ""))
+        return 0 if MOTS_DISTINCTION.search(u + " " + t + " " + x) else 1
+    urls_web.sort(key=score)
     urls = list(liens_manuels) + [u for u in urls_site + urls_web if u not in liens_manuels]
     v = lire_veille(c["id"])
     # dédoublonne aussi ce qui a été trouvé lors des recherches précédentes
@@ -392,18 +476,18 @@ def traiter_fiche(c, liens_manuels=(), profondeur=12):
     vues = set(v.get("pages_lues", []))
     exclus_pages = {x.get("source") for x in v.get("exclus", [])}
     urls = [u for u in urls if u in liens_manuels or u not in exclus_pages]
-    a_lire = [u for u in urls if u in liens_manuels or u not in vues][: profondeur + len(liens_manuels) + len(urls_site)]
+    a_lire = [u for u in urls if u in liens_manuels or u in urls_site or u not in vues][: profondeur + len(liens_manuels) + len(urls_site)]
     print(f"   {len(urls)} pages trouvées ({len(urls_site)} sur le site de l'établissement), {len(a_lire)} à lire")
     nouveaux = 0
     for u in a_lire:
         page = lire_page(u)
         vues.add(u)
-        if not page or len(page["texte"]) < 200:
+        if not page or len(page["texte"]) < (40 if RESEAUX.search(u) else 200):
             print(f"     · illisible      {u[:100]}"); continue
         t = slug(page["texte"])
-        if u not in liens_manuels and not (MOTS_DEFENSE.search(page["texte"]) and (u in urls_site or slug(ville) in t)):
+        if u not in liens_manuels and not RESEAUX.search(u) and not (MOTS_DEFENSE.search(page["texte"]) and (u in urls_site or slug(ville) in t)):
             print(f"     · hors sujet     {u[:100]}"); continue
-        if u not in liens_manuels and not trier(c, page):
+        if u not in liens_manuels and u not in urls_site and not MOTS_DISTINCTION.search(page["texte"]) and not trier(c, page):
             print(f"     · écartée (tri)  {u[:100]}"); continue
         r = analyser_page(c, page)
         if not r:
@@ -506,7 +590,7 @@ def main():
     ap.add_argument("--statut", choices=["active", "dormante", "projet"])
     ap.add_argument("--verifier", action="store_true")
     ap.add_argument("--max", type=int, default=0)
-    ap.add_argument("--profondeur", type=int, default=12, help="pages lues par fiche")
+    ap.add_argument("--profondeur", type=int, default=25, help="pages lues par fiche (hors site de l'établissement)")
     ap.add_argument("--question")
     ap.add_argument("--palmares", action="store_true", help="cherche les palmarès des concours et prix pour tout le réseau")
     ap.add_argument("--rotation", type=int, default=0,

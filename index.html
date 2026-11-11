@@ -640,13 +640,13 @@ async function chargerVeille(id){
   let v = null;
   try{ const r = await fetch("classes/"+id+"/veille.json",{cache:"no-store"}); if(r.ok) v = await r.json(); }catch(e){}
   const w = WEB[id];
-  if(!v || !(v.elements||[]).length){ zone.innerHTML = ""; return; }
-  const els = v.elements;
+  if(!v) v = {elements:[], recherches:[]};
+  const els = v.elements||[];
   const presse = els.filter(e=>e.image || e.type==="article" || /presse|laprovence|ledauphine|vaucluse|defense\.gouv|varmatin|actu\.fr/.test(e.source||""));
   const der = (w && w.derniers) || {};
   zone.innerHTML = `<h4>Dossier de la classe · ${els.length} élément(s) trouvé(s) en ligne</h4>
     ${Object.keys(der).length?`<div class="derniers">${Object.entries(der).map(([t,d])=>`<div><b>${TYP[t]||t}</b>${esc(dateFr(d.date)||"date ?")} — ${esc(d.titre||"")}</div>`).join("")}</div>`:""}
-    ${(()=>{ const d=els.filter(e=>e.type==="distinction"); return d.length?`<div class="distinctions"><h4>🏅 Distinctions, prix et récompenses (${d.length})</h4><ul style="margin:0;padding-left:18px">${d.map(e=>`<li><b>${esc(dateFr(e.date)||"date ?")}</b> — ${esc(e.titre||"")} <a href="${esc(e.source)}" target="_blank" rel="noopener" style="font-size:12px">${esc(e.site||hote(e.source))}</a></li>`).join("")}</ul></div>`:`<div class="distinctions" style="opacity:.8"><h4>🏅 Distinctions</h4><div style="font-size:13px">Aucune distinction trouvée en ligne pour l'instant.</div></div>`; })()}
+    ${(()=>{ const d=els.filter(e=>e.type==="distinction"); return d.length?`<div class="distinctions"><h4>🏅 Distinctions, prix et récompenses (${d.length}) <button class="ajout" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><ul style="margin:0;padding-left:18px">${d.map(e=>`<li><b>${esc(dateFr(e.date)||"date ?")}</b> — ${esc(e.titre||"")} <a href="${esc(e.source)}" target="_blank" rel="noopener" style="font-size:12px">${esc(e.site||hote(e.source))}</a></li>`).join("")}</ul></div>`:`<div class="distinctions"><h4>🏅 Distinctions <button class="ajout" style="float:right;padding:3px 10px;font-size:12px" id="ajDist">+ Ajouter</button></h4><div style="font-size:13px">Aucune distinction trouvée en ligne pour l'instant.</div></div>`; })()}
     ${presse.length?`<h4>Revue de presse et photos</h4><div class="presse">${presse.map(e=>carteArticle(e,true)).join("")}</div>`:""}
     <h4>Chronologie</h4>
     <ul class="chrono">${els.slice(0,40).map(e=>`<li><b>${esc(dateFr(e.date)||"date ?")}</b> · ${esc(TYP[e.type]?TYP[e.type].replace(/^Derni(er|ère) /,""):e.type)} — ${esc(e.titre||"")}
@@ -656,6 +656,7 @@ async function chargerVeille(id){
     <div class="msg" id="msgRetrait"></div>
     <div style="font-size:12px;color:var(--gris)">Informations publiques, à confirmer auprès de l'établissement. Dernière recherche : ${esc(dateFr((v.recherches||[]).slice(-1)[0]?.date||""))}. Un élément erroné ? « ✕ Retirer » : il ne sera plus repris.</div>`;
   zone.querySelectorAll(".retirer").forEach(b=>b.onclick=(ev)=>{ ev.preventDefault(); ev.stopPropagation(); retirer(id, b.dataset.src, b.dataset.titre); });
+  const aj = document.getElementById("ajDist"); if(aj) aj.onclick = ()=>formDistinction(id);
 }
 
 /* Retirer un élément erroné du dossier d'une classe (et ne plus jamais le reprendre) */
@@ -699,6 +700,42 @@ async function retirer(id, source, titre){
     dire("Retiré. Il ne sera plus repris par la veille.","ok");
     setTimeout(()=>chargerVeille(id), 900);
   }catch(e){ dire("Échec : "+e.message+".","err"); }
+}
+
+/* Ajouter une distinction à la main */
+function formDistinction(id){
+  const z = document.getElementById("msgRetrait");
+  z.className = "msg on info";
+  z.innerHTML = `<b>Nouvelle distinction</b>
+    <div class="edit"><label>Intitulé (prix, concours, classement)<input id="d_titre" placeholder="ex. 1er Prix départemental de l'Éducation citoyenne"></label>
+    <div class="deux"><label>Date ou année<input id="d_date" placeholder="2024 ou 2024-06-12"></label>
+    <label>Rang<select id="d_rang"><option value="1er prix">1er prix / lauréat (or)</option><option value="2e prix">2e prix (argent)</option><option value="3e prix">3e prix (bronze)</option><option value="mention">Mention / participation</option></select></label></div>
+    <label>Lien vers un article (facultatif)<input id="d_lien" placeholder="https://…"></label>
+    <div class="actions"><button class="btn-prim" id="d_ok">Enregistrer</button></div></div>`;
+  z.scrollIntoView({block:"nearest"});
+  document.getElementById("d_ok").onclick = ()=>ajouterDistinction(id);
+}
+async function ajouterDistinction(id){
+  const z = document.getElementById("msgRetrait"), dire=(t,k)=>{ z.className="msg on "+k; z.textContent=t; };
+  const titre = document.getElementById("d_titre").value.trim(); if(!titre){ return; }
+  const e = {type:"distinction", titre, date:document.getElementById("d_date").value.trim()||null,
+    resume: titre+" ("+document.getElementById("d_rang").value+")", source:document.getElementById("d_lien").value.trim()||location.href.split("#")[0]+"#fiche="+id,
+    site:"saisie manuelle", manuel:true, trouve_le:new Date().toISOString().slice(0,10)};
+  const tok = jeton.value.trim();
+  if(!tok){ dire("Pour enregistrer, collez d'abord le jeton GitHub (cadre au-dessus des fiches).","err"); return; }
+  const h = {Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"};
+  dire("Enregistrement…","info");
+  try{
+    const f = await lireFichierGH(`classes/${id}/veille.json`, h);
+    const v = f ? JSON.parse(f.texte) : {fiche:id, elements:[], recherches:[]};
+    v.elements.unshift(e);
+    await ecrireFichierGH(`classes/${id}/veille.json`, JSON.stringify(v,null,1), f?f.sha:undefined, "Distinction ajoutée : "+titre+" ("+id+")", h);
+    // médaille immédiate
+    WEB[id] = WEB[id] || {}; (WEB[id].distinctions = WEB[id].distinctions||[]).unshift({date:e.date,titre:e.resume,source:e.source});
+    try{ const r = await lireFichierGH("data/recherche.js", h); if(r){ const w2={}; new Function("window",r.texte)(w2); const W=w2.CDSG_WEB||{}; W[id]=W[id]||{}; (W[id].distinctions=W[id].distinctions||[]).unshift({date:e.date,titre:e.resume,source:e.source});
+      await ecrireFichierGH("data/recherche.js","// Résumés de la veille web — généré par recherche/recherche_web.py (détail : classes/<fiche>/veille.json)\nwindow.CDSG_WEB = "+JSON.stringify(W,null,1)+";\n", r.sha, "Médaille ajoutée ("+id+")", h); } }catch(x){}
+    afficher(); ouvrir(id);
+  }catch(err){ dire("Échec : "+err.message+".","err"); }
 }
 
 /* Actualités du réseau (page d'accueil) */

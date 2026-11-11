@@ -2,7 +2,7 @@ name: Recherche web
 
 # Lancée depuis une fiche du site (bouton « Chercher en ligne ») ou à la main depuis l'onglet Actions.
 on:
-  # Veille automatique : chaque nuit vers 3 h, les 12 fiches vérifiées il y a le plus longtemps
+  # Veille automatique : chaque nuit vers 3 h, les 10 fiches vérifiées il y a le plus longtemps
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
@@ -30,7 +30,7 @@ concurrency:
 jobs:
   recherche:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     env:
       TZ: Europe/Paris
     steps:
@@ -51,7 +51,7 @@ jobs:
           MAXI: ${{ inputs.maximum }}
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
-            python3 recherche/recherche_web.py --palmares --rotation 12
+            python3 recherche/recherche_web.py --palmares --rotation 10
           elif [ -n "$FICHE" ]; then
             python3 recherche/recherche_web.py --fiche "$FICHE" --liens "$LIENS"
           else
