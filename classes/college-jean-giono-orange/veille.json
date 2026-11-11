@@ -388,17 +388,6 @@
    "trouve_le": "2026-11-11"
   },
   {
-   "type": "distinction",
-   "date": "2025-03-07",
-   "titre": "Remise des insignes de chevalier Ordre national du Mérite à M. Thierry Armant",
-   "extrait": "Cérémonie de remise des insignes de chevalier Ordre national du Mérite à M. Thierry Armant – Avenue Charles Dardun, Orange",
-   "resume": "Le 7 mars 2025, M. Thierry Armant, référent de l’atelier défense, a reçu les insignes de chevalier de l’Ordre national du Mérite à Orange.",
-   "source": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/03.03.2025%20Agenda%20Mme%20Patricia%20Miralles%2C%20ministre%20d%C3%A9l%C3%A9gu%C3%A9e%2C%20charg%C3%A9e%20de%20la%20m%C3%A9moire%20et%20des%20anciens%20combattants.pdf",
-   "page": "03.03.2025 Agenda Mme Patricia Miralles, ministre déléguée, chargée de la mémoire et des anciens combattants.pdf",
-   "site": "defense.gouv.fr (PDF)",
-   "trouve_le": "2026-11-11"
-  },
-  {
    "type": "projet",
    "date": "2025",
    "titre": "Travail sur les déportés du Train fantôme",
@@ -1112,6 +1101,13 @@
    "type": "article",
    "cle": "une-classe-defense-du-college-jean-giono",
    "titre": "Une classe défense du Collège Jean Giono",
+   "retire_le": "2026-11-11"
+  },
+  {
+   "source": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/03.03.2025%20Agenda%20Mme%20Patricia%20Miralles%2C%20ministre%20d%C3%A9l%C3%A9gu%C3%A9e%2C%20charg%C3%A9e%20de%20la%20m%C3%A9moire%20et%20des%20anciens%20combattants.pdf",
+   "type": "distinction",
+   "cle": "remise-des-insignes-de-chevalier-ordre-national-du",
+   "titre": "Remise des insignes de chevalier Ordre national du Mérite à M. Thierry Armant",
    "retire_le": "2026-11-11"
   }
  ],
