@@ -3,7 +3,7 @@ window.CDSG_WEB = {
  "college-jean-giono-orange": {
   "date": "11/11/2026",
   "resume": "",
-  "nb": 20,
+  "nb": 19,
   "derniere_activite": "2026-07-03",
   "derniers": {
    "distinction": {
@@ -57,15 +57,9 @@ window.CDSG_WEB = {
     "source": "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono"
    },
    {
-    "date": "2022-05-24",
-    "titre": "Prix spécial - Collège Jean Giono d’Orange avec Airbus Helicopters",
-    "resume": "Le Collège Jean Giono d’Orange a reçu le Prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le lycée professionnel Pierre Mendes France de Vitrolles.",
-    "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
-   },
-   {
     "date": "2019",
-    "titre": "Édition 2019 - Prix spécial",
-    "resume": "Le Collège Jean Giono d’Orange était cité dans l’édition 2019 du concours, recevant un prix spécial aux côtés d’Airbus Helicopters et du lycée Pierre Mendes France.",
+    "titre": "Prix spécial « Féminisons l'aéronautique » 2019 (BD avec Airbus Helicopters)",
+    "resume": "Le Collège Jean Giono d’Orange a reçu le Prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le lycée professionnel Pierre Mendes France de Vitrolles.",
     "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
    }
   ],
@@ -73,8 +67,8 @@ window.CDSG_WEB = {
    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
    "https://www.ledauphine.com/education/2025/05/11/college-giono-les-eleves-de-la-classe-defense-a-paris",
    "https://www.ledauphine.com/culture-loisirs/2023/06/04/un-prix-et-un-moment-convivial-pour-les-cdsg-du-college-giono",
-   "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/",
-   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84"
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11008573/fr/atelier-defense-du-college-jean-giono-d-orange-84",
+   "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
   ]
  }
 };

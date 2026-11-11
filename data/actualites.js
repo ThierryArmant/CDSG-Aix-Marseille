@@ -109,18 +109,6 @@ window.CDSG_ACTUS = [
   "ville": "Orange"
  },
  {
-  "date": "2022-05-24",
-  "type": "distinction",
-  "titre": "Prix spécial - Collège Jean Giono d’Orange avec Airbus Helicopters",
-  "resume": "Le Collège Jean Giono d’Orange a reçu le Prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le lycée professionnel Pierre Mendes France de Vitrolles.",
-  "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/",
-  "image": "https://feminisonslaeronautique.fr/wp-content/uploads/2022/05/Prix-Special-BD23-La-conquˆte-de-Luna-College-jean-Giono-dOrange-copie.jpg",
-  "site": "Féminisons les métiers de l'aéronautique",
-  "fiche": "college-jean-giono-orange",
-  "etab": "Collège Jean Giono",
-  "ville": "Orange"
- },
- {
   "date": "2022-05-10",
   "type": "projet",
   "titre": "Mémoire de l’esclavage",
@@ -195,8 +183,8 @@ window.CDSG_ACTUS = [
  {
   "date": "2019",
   "type": "distinction",
-  "titre": "Édition 2019 - Prix spécial",
-  "resume": "Le Collège Jean Giono d’Orange était cité dans l’édition 2019 du concours, recevant un prix spécial aux côtés d’Airbus Helicopters et du lycée Pierre Mendes France.",
+  "titre": "Prix spécial « Féminisons l'aéronautique » 2019 (BD avec Airbus Helicopters)",
+  "resume": "Le Collège Jean Giono d’Orange a reçu le Prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le lycée professionnel Pierre Mendes France de Vitrolles.",
   "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/",
   "image": "https://feminisonslaeronautique.fr/wp-content/uploads/2022/05/Prix-Special-BD23-La-conquˆte-de-Luna-College-jean-Giono-dOrange-copie.jpg",
   "site": "Féminisons les métiers de l'aéronautique",
