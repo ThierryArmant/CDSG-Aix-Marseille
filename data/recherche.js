@@ -289,7 +289,7 @@ window.CDSG_WEB = {
   "resume": "Le 8 novembre 2023, les élèves de 3ᵉ du collège des Garcins, accompagnés d’une classe du collège Vauban, ont déposé un hommage aux poilus sur la place du monument aux morts de Briançon. En 2023, le Collège d’altitude Vauban a signé (ou renouvelé) une convention pour la mise en place de"
  },
  "college-les-gorguettes-cassis": {
-  "date": "11/11/2026",
+  "date": "12/11/2026",
   "nb": 16,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/04/28/z-1745823815_c078cdcaec086f478cdcaec08e878cv_.jpg",
@@ -368,9 +368,9 @@ window.CDSG_WEB = {
   "resume": "En juillet 2023, la classe défense du lycée Frédéric‑Mistral d’Avignon a signé une convention avec l’unité DMD 84, qui agit comme marraine du dispositif. Aucun prix ni distinction n’est mentionné dans les éléments de veille. Le partenariat avec le DMD 84 constitue le fait marquant le plus récent pour la classe défense."
  },
  "mfr-de-lambesc-4e-lambesc": {
-  "date": "11/11/2026",
+  "date": "12/11/2026",
   "resume": "En 2025, la classe défense du MFR de Lambesc a participé au projet inter‑académ",
-  "nb": 48,
+  "nb": 58,
   "derniere_activite": "2026",
   "derniers": {
    "distinction": {
@@ -380,16 +380,16 @@ window.CDSG_WEB = {
     "source": "https://www.linkedin.com/feed/update/urn:li:activity:7516401285504425984"
    },
    "sortie": {
-    "date": "2025",
-    "titre": "Visite du musée de la Résistance",
-    "resume": "Dans le cadre du même projet, les élèves du MFR de Lambesc ont visité le musée de la Résistance accompagnés de M. JL. PANICACCI.",
-    "source": "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf"
+    "date": "2025-05-12",
+    "titre": "Immersion au cœur de la justice",
+    "resume": "Le 12 mai 2025, la classe de quatrième Défense a visité le tribunal judiciaire d’Aix‑En‑Provence pour suivre le déroulement d’une audience correctionnelle.",
+    "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf"
    },
    "ceremonie": {
-    "date": "2024-12-04",
-    "titre": "Visite de l'ENSOSP et cérémonie de la Sainte‑Barbe",
-    "resume": "Les élèves de la classe défense ont assisté à la cérémonie de la Sainte‑Barbe à l’ENSOSP, reçu des médailles et visité les salles de formation.",
-    "source": "https://www.garachon.com/_files/ugd/475ebd_a5a314cc50b34abca6a106283cf4e292.pdf"
+    "date": "2025-06-25",
+    "titre": "Remise des attestations « Esprit de Défense »",
+    "resume": "Le 25 juin 2025, une cérémonie a eu lieu dans la salle des BTS de la MFR pour remettre les attestations « Esprit de Défense » aux élèves, avec la présence du directeur, Mme Sicard et M. Bruguier.",
+    "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf"
    },
    "convention": {
     "date": "2025-07-03",
@@ -404,21 +404,21 @@ window.CDSG_WEB = {
     "source": "https://www.garachon.com/3e-classe-de-defense"
    },
    "projet": {
-    "date": "2025",
-    "titre": "Projet inter‑académique des classes défense – 50e anniversaire de l’Union‑IHEDN",
-    "resume": "Le MFR de Lambesc a participé, avec d’autres établissements, à un projet inter‑académique et inter‑régional de classes défense pour commémorer le cinquantenaire de l’Union‑IHEDN, impliquant 58 élèves au total.",
-    "source": "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf"
+    "date": "2025-06-05",
+    "titre": "Journée de prévention avec la police municipale et l’Automobile Club",
+    "resume": "Le 5 juin 2025, la classe a organisé une journée de prévention routière avec la police municipale et l’Automobile Club de Lambesc, incluant des ateliers sur le code de la route et l’usage du radar portatif.",
+    "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf"
    }
   },
   "sources": [
    "https://www.garachon.com/3e-classe-de-defense",
    "https://www.laprovence.com/article/ecoplanete/1972648107691214/un-jardin-ecologique-inaugure-au-college-jean-guehenno-a-lambesc-une-promesse-pour-demain",
+   "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
    "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf",
    "https://www.garachon.com/_files/ugd/475ebd_a5a314cc50b34abca6a106283cf4e292.pdf",
+   "https://www.garachon.com/_files/ugd/475ebd_41cb975ece994c738b0827704284ea4a.pdf",
    "https://www.garachon.com/_files/ugd/475ebd_b804755f37d6474f95a6aa249d9ea07d.pdf",
-   "https://www.garachon.com/_files/ugd/475ebd_de075de7f30f4b9cb7b09fde7587e949.pdf",
-   "https://www.linkedin.com/feed/update/urn:li:activity:7516401285504425984",
-   "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf"
+   "https://www.garachon.com/_files/ugd/475ebd_de075de7f30f4b9cb7b09fde7587e949.pdf"
   ],
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/07/03/l-equipe-engagee-le-principal-en-cravate-et-l-adjointe-1751530215_839856fb11686879856fb11686b985v_.jpg",
@@ -618,7 +618,7 @@ window.CDSG_WEB = {
   ]
  },
  "mfr-de-lambesc-3e-lambesc": {
-  "date": "11/11/2026",
+  "date": "12/11/2026",
   "resume": "Le 27 mai 2025, la classe défense de la MFR de Lambesc a réalisé un projet inter‑académique avec deux établissements partenaires pour le cinquantième de l’Union‑IHEDN, incluant une visite du musée de la Résistance guidée par",
   "nb": 29,
   "derniere_activite": "2026-11-09",
@@ -1226,9 +1226,9 @@ window.CDSG_WEB = {
   "resume": "La classe défense du lycée des métiers Sévigné a signé en mai 2026 une convention avec le 4e Régiment de chasseurs, qui devient son unité marraine. Elle avait déjà présenté en mars 2024"
  },
  "college-saint-joseph-prive-chateaurenard": {
-  "date": "11/11/2026",
+  "date": "12/11/2026",
   "resume": "Le 7 mai 2024, les élèves de quatrième de la classe défense du collège Saint‑Joseph se sont rendus à Saint‑Andiol pour visiter le musée de Jean Moulin et découvrir le morse. En juin 2023, le collège a signé une convention avec la Gendarmerie de Châteaurenard, qui en est désormais l’unité marraine de la classe défense. Aucun prix ou distinction n’a été mentionné dans les informations disponibles.",
-  "nb": 30,
+  "nb": 38,
   "derniere_activite": "2023-2024",
   "derniers": {
    "distinction": {
@@ -1562,8 +1562,8 @@ window.CDSG_WEB = {
   ]
  },
  "college-andre-malraux-fos-sur-mer": {
-  "date": "11/11/2026",
-  "nb": 24,
+  "date": "12/11/2026",
+  "nb": 29,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/01/le-maire-mario-martinet-accompagne-du-nouveau-directeur-1788275448_d1577949e69a6e5577949e69ae9577v_.jpg",
    "source": "https://www.laprovence.com/article/societe/15607604868163/bonne-rentree-ma-puce-a-fos-sur-mer-lheure-des-retrouvailles-avec-lecole-a-sonne",
@@ -1623,6 +1623,26 @@ window.CDSG_WEB = {
     "date": null,
     "titre": "19ᵉ Prix Départemental – Devoir Individuel",
     "resume": "Les élèves ont également décroché le 19ᵉ prix départemental du même concours dans la catégorie Devoir Individuel.",
+    "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+    ]
+   },
+   {
+    "date": null,
+    "titre": "5e Prix Départemental – Devoir Collectif (concours de la Résistance)",
+    "resume": "Les élèves de l’Option Défense ont reçu le 5e prix départemental du concours de la Résistance pour un devoir collectif.",
+    "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+    ]
+   },
+   {
+    "date": null,
+    "titre": "19e Prix Départemental – Devoir Individuel (concours de la Résistance)",
+    "resume": "Les élèves de l’Option Défense ont obtenu le 19e prix départemental du même concours pour un devoir individuel.",
     "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
     "verifie": "a_confirmer",
     "sources": [

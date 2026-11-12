@@ -26,6 +26,18 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "article",
+   "date": "2026-05-08",
+   "titre": "La Commémoration du 8 Mai 1945",
+   "extrait": "L’Option Défense du Collège André Malraux se compose cette année de 30 élèves de troisième et travaille avec des professionnels de la Défense.",
+   "resume": "Article publié le 8 mai 2026 présentant l’Option Défense du Collège André Malraux, son effectif, ses activités et ses partenaires.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-12"
+  },
+  {
    "type": "sortie",
    "date": "2024-09-28",
    "titre": "Fos atterrit à la base aérienne 125",
@@ -109,6 +121,17 @@
    "site": "laprovence.com",
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2013-10/2013-10-08/20131008_1_2_6_1_1_obj4900509_1.jpg",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "convention",
+   "date": "2024-06",
+   "titre": "Convention de la classe défense",
+   "extrait": "conv: Juin 2024",
+   "resume": "Signature de la convention de la classe défense du Collège André Malraux en juin 2024.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
+   "page": "﻿Accueil",
+   "site": "WPAM",
+   "trouve_le": "2026-11-12"
   },
   {
    "type": "sortie",
@@ -289,6 +312,43 @@
    "site": "Fossa FM",
    "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine",
+   "extrait": "unite: 25e Régiment du génie de l'air",
+   "resume": "Le 25e Régiment du génie de l'air est l'unité marraine de la classe défense du Collège André Malraux.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
+   "page": "﻿Accueil",
+   "site": "WPAM",
+   "trouve_le": "2026-11-12"
+  },
+  {
+   "type": "distinction",
+   "date": null,
+   "titre": "5e Prix Départemental – Devoir Collectif (concours de la Résistance)",
+   "extrait": "Ils ont remporté le 5e Prix Départemental pour la catégorie « Devoir Collectif » au concours de la Résistance.",
+   "resume": "Les élèves de l’Option Défense ont reçu le 5e prix départemental du concours de la Résistance pour un devoir collectif.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-12",
+   "verifie": "a_confirmer"
+  },
+  {
+   "type": "distinction",
+   "date": null,
+   "titre": "19e Prix Départemental – Devoir Individuel (concours de la Résistance)",
+   "extrait": "Ils ont remporté le 19e Prix Départemental dans la catégorie « Devoir Individuel » au concours de la Résistance.",
+   "resume": "Les élèves de l’Option Défense ont obtenu le 19e prix départemental du même concours pour un devoir individuel.",
+   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+   "site": "Fossa FM",
+   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+   "trouve_le": "2026-11-12",
+   "verifie": "a_confirmer"
   }
  ],
  "recherches": [
@@ -306,27 +366,42 @@
    "date": "2026-11-11",
    "pages": 26,
    "nouveaux": 8
+  },
+  {
+   "date": "2026-11-12",
+   "pages": 24,
+   "nouveaux": 5
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://www.defense.gouv.fr/epae/mieux-nous-connaitre/scolarite-lepae/reglement-interieur",
   "https://annuaire-education.fr/etablissement/fos-sur-mer/college-andre-malraux/0132634T.html",
   "https://clg-malraux-asnieres.ac-versailles.fr/spip.php?rubrique234=",
   "https://college-lycee.com/College-Andre-Malraux/Fos-sur-Mer-0132634T",
   "https://college-lycee.com/college-andre-malraux/Fos-sur-Mer-0132634T",
   "https://copainsdavant.linternaute.com/e/college-andre-malraux-36150",
   "https://cvrduvaucluse.canalblog.com/2024/06/mercredi-12-juin-2024-au-thor-remise-des-prix-aux-laureats-vauclusiens-du-concours-national-de-la-resistance-et-de-la-deportation.html",
+  "https://eduscol.education.gouv.fr/media/81381/download?attachment=",
   "https://fossafm.com/ceremonie-de-fin-dannee-pour-la-classe-defense-du-college-a-malraux/",
   "https://fossafm.com/la-commemoration-du-8-mai-1945",
+  "https://fossafm.com/la-commemoration-du-8-mai-1945/",
   "https://fr.linkedin.com/posts/fournier-sandra-746850244_orientation-equipe-collectif-activity-7417968493645451265-qwEW",
   "https://lescolleges.fr/fos-sur-mer-13270/college-andre-malraux-ie.html",
+  "https://logement.defense.gouv.fr/sites/default/files/2025-03/4_Liste%20coll%C3%A8ge%20public.pdf",
   "https://malraux-granville.college.ac-normandie.fr/spip.php?article907=",
   "https://tavily.com/knowledge/company/8dVVpqa4qz1X",
   "https://tavily.com/knowledge/company/x8dlpj3staTq",
+  "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Jeunesse-sport-et-vie-associative",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/21395/130784/file/Recueil-13-2016-269-recueil-des-actes-administratifs-special%20du%2029%20novembre%202016.pdf",
+  "https://www.bouches-du-rhone.gouv.fr/content/download/31142/181724/file/recueil-13-2019-101-recueil-des-actes-administratifs%20du%2017%20avril%202019.pdf",
+  "https://www.bouches-du-rhone.gouv.fr/contenu/telechargement/55039/396382/file/Liste%20%C3%A9tablissements%20scolaires%20en%20Cit%C3%A9s%20Educatives.pdf",
+  "https://www.bouches-du-rhone.gouv.fr/index.php/Actions-de-l-Etat/Marseille-en-Grand/Education/Ecoles",
   "https://www.calameo.com/books/0002922453fadac1b2011",
   "https://www.clg-malraux-fos.ac-aix-marseille.fr/spip/",
   "https://www.commune-mairie.fr/enseignement/college-andre-malraux-0132634T",
   "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/SGA-DRHMD_INSCRIPTIONS%20SCOLAIRES-CONTACTS-UTILES.pdf",
   "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.enfance-jeunesse.fossurmer.fr/activites-mercredi-samedi/jeunesse/conseil-municipal-des-jeunes-cmj/",
   "https://www.facebook.com/Fossafm/posts/-retour-en-images-sur-la-remise-des-brevets-du-coll%C3%A8ge-andr%C3%A9-malraux-qui-sest-te/1600736925419850",
@@ -343,6 +418,9 @@
   "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html",
   "https://www.laprovence.com/article/edition-martigues-istres/2584201/un-cross-solidaire-au-college-andre-malraux.html",
   "https://www.laprovence.com/article/edition-martigues-istres/2869852/en-pensant-aux-soldats-du-mali.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/3764414/portes-ouvertes-sur-les-metiers-de-la-defense-et-de-la-securite.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/3764525/portes-ouvertes-sur-les-metiers-de-la-defense-et-de-la-securite.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/3963368/les-presents.html",
   "https://www.laprovence.com/article/edition-martigues-istres/5356068/swag-fm-la-radio-educative-accede-au-grand-public.html",
   "https://www.laprovence.com/article/faits-divers-justice/32049400859731/fos-sur-mer-un-adolescent-de-15-ans-tabasse-a-la-sortie-du-college",
   "https://www.laprovence.com/article/papier/6410125/il-est-le-premier-torero-de-fos.html",
@@ -358,9 +436,19 @@
   "https://www.ledauphine.com/culture-loisirs/2026/02/28/quinze-ans-d-amitie-franco-italienne-au-college-malraux",
   "https://www.ledauphine.com/education/2021/11/17/le-college-malraux-recompense-au-festival-de-provencal-de-fuveau",
   "https://www.ledauphine.com/education/2022/10/19/les-eleves-du-college-malraux-decouvrent-les-vendanges",
+  "https://www.ledauphine.com/education/2023/04/04/quand-des-collegiens-vauclusiens-rencontrent-une-rescapee-de-la-shoah",
   "https://www.ledauphine.com/social/2021/11/27/les-collegiens-s-impliquent-dans-la-collecte-de-la-banque-alimentaire",
   "https://www.ledauphine.com/sport/2026/04/03/handball-l-equipe-feminine-du-college-malraux-qualifiee-pour-le-championnat-de-france",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-13-1.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11052834/fr/palmares-academique-2016-2017-du-concours-national-de-la-resistance-et-de-la-deportation",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/aide.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10444225/fr/ent-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10761841/fr/inversons-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10988338/fr/ia-dans-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_11228482/fr/enseignant-du-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_11248634/fr/concours-scolaires",
   "https://www.planete-perles.org/2025/03/17/eko-lanta-sensibilisation-ludique-a-lenvironnement-dans-les-colleges-du-departement/",
   "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/",
   "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip",
@@ -368,6 +456,6 @@
   "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip/spip.php?lang=fr&page=plan"
  ],
  "etablissement": "Collège André Malraux (Fos-sur-Mer)",
- "referents_cites": "Mmes Ardement, Benoit, David",
+ "referents_cites": "Sophie David",
  "unite_citee": "25e Régiment du génie de l'air"
 }
