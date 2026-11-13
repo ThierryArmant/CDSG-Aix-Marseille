@@ -2,6 +2,29 @@
  "fiche": "college-stephane-mallarme-marseille-13e",
  "elements": [
   {
+   "type": "distinction",
+   "date": "2026",
+   "titre": "Trophée de l’AFDET 2026",
+   "extrait": "La classe de 3e Défense a reçu une coupe et des diplômes individuels des mains de M BAUX Président de l’AFDET.",
+   "resume": "En 2026, la classe de 3e Défense du Collège Stéphane Mallarmé a remporté le prix d’honneur de l’AFDET, recevant une coupe et des diplômes remis par M. Baux, président de l’AFDET.",
+   "source": "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp",
+   "page": "Collège Mallarmé - Trophée de l’AFDET 2026 | Florence MESPIEDRE",
+   "site": "fr.linkedin.com (extrait public)",
+   "trouve_le": "2026-11-13",
+   "verifie": "a_confirmer"
+  },
+  {
+   "type": "projet",
+   "date": "2026",
+   "titre": "Projet vidéo sur le BMPM",
+   "extrait": "La réalisation de la classe est un projet vidéo permettant de découvrir le Bataillon des Marins-Pompiers de Marseille (BMPM) unité marraine de la 3e Défense.",
+   "resume": "La même classe a produit une vidéo présentant le Bataillon des Marins‑Pompiers de Marseille, unité marraine de la classe de 3e Défense.",
+   "source": "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp",
+   "page": "Collège Mallarmé - Trophée de l’AFDET 2026 | Florence MESPIEDRE",
+   "site": "fr.linkedin.com (extrait public)",
+   "trouve_le": "2026-11-13"
+  },
+  {
    "type": "partenaire",
    "date": "2025-06-04",
    "titre": "Partenaires du prix",
@@ -89,6 +112,48 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "partenaire",
+   "date": "2024-09-27",
+   "titre": "Unité marraine",
+   "extrait": "Bataillon de marins-pompiers (BMPM)",
+   "resume": "Le BMPM est l’unité militaire qui parraine la classe Défense du collège Mallarmé.",
+   "source": "https://www.lamarseillaise.fr/societe/avec-blanquer-l-ecole-se-met-au-pas-FN10486021",
+   "page": "Avec Blanquer, l’école se met au pas",
+   "site": "www.lamarseillaise.fr",
+   "image": "https://www.lamarseillaise.fr/binrepository/480x360/0c27/480d250/none/150910102/FOQA/blanquer_542-5019360_20220221174152.jpg",
+   "trouve_le": "2026-11-13",
+   "autres_sources": [
+    "https://www.laprovence.com/article/region/849991552917514/impacts-de-plombs-dans-un-college-a-marseille-13e-le-cas-mallarme-fera-t-il-ecole"
+   ]
+  },
+  {
+   "type": "distinction",
+   "date": "2024-09-19",
+   "titre": "Certificat de Mérite",
+   "extrait": "la classe de Défense du collège Stéphane Mallarmé de Marseille (13e) a été honorée par la remise d’un certificat de Mérite.",
+   "resume": "Le 19 septembre 2024, la classe de Défense du collège Stéphane Mallarmé a reçu un certificat de Mérite du jury de la Commission Nationale de l'Éducation Citoyenne de l'ANMONM pour son projet « Restauration des carrés militaires avec le Souvenir Français ».",
+   "source": "https://www.anmonm.org/news/remise-certificat-de-merite-468",
+   "page": "REMISE CERTIFICAT DE MERITE",
+   "site": "anmonm.org",
+   "image": "https://www.anmonm.org/ressources/temp/images/100_1000x1000_926653805_2024092914-whatsapp-image-2024-09-19-a-23-02-09-90c44cc2.jpg",
+   "trouve_le": "2026-11-13",
+   "autres_sources": [
+    "https://bouches-du-rhone.anmonm.org/news/remise-certificat-de-merite-468"
+   ]
+  },
+  {
+   "type": "projet",
+   "date": "2024",
+   "titre": "Restauration des carrés militaires avec le Souvenir Français",
+   "extrait": "pour leur projet emblématique intitulé « Restauration des carrés militaires avec le Souvenir Français »",
+   "resume": "Dans le cadre du concours national de l’Éducation à la Citoyenneté 2024, la classe de Défense du collège Mallarmé a présenté le projet « Restauration des carrés militaires avec le Souvenir Français », qui a été récompensé par le certificat de Mérite.",
+   "source": "https://bouches-du-rhone.anmonm.org/news/remise-certificat-de-merite-468",
+   "page": "REMISE CERTIFICAT DE MERITE",
+   "site": "bouches-du-rhone.anmonm.org",
+   "image": "https://bouches-du-rhone.anmonm.org/ressources/temp/images/100_1000x1000_926653805_2024092914-whatsapp-image-2024-09-19-a-23-02-09-90c44cc2.jpg",
+   "trouve_le": "2026-11-13"
+  },
+  {
    "type": "convention",
    "date": "2022-09-22",
    "titre": "Parrainage de la classe défense par les Marins Pompiers de Marseille",
@@ -101,7 +166,20 @@
    "autres_sources": [
     "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
     "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U"
-   ]
+   ],
+   "image": "https://www.lamarseillaise.fr/binrepository/480x360/0c27/480d250/none/150910102/FOQA/blanquer_542-5019360_20220221174152.jpg"
+  },
+  {
+   "type": "sortie",
+   "date": "2022-02-21",
+   "titre": "Rencontre des ministres avec la classe Défense du collège Mallarmé",
+   "extrait": "Jean-Michel Blanquer et Sarah El Haïri rencontrent les élèves de la classe Défense du collège Mallarmé à Marseille (13e).",
+   "resume": "Le 21 février 2022, le ministre de l’Éducation nationale et la secrétaire d’État à la jeunesse ont visité la classe Défense du collège Stéphane Mallarmé à Marseille.",
+   "source": "https://www.lamarseillaise.fr/societe/avec-blanquer-l-ecole-se-met-au-pas-FN10486021",
+   "page": "Avec Blanquer, l’école se met au pas",
+   "site": "www.lamarseillaise.fr",
+   "image": "https://www.lamarseillaise.fr/binrepository/480x360/0c27/480d250/none/150910102/FOQA/blanquer_542-5019360_20220221174152.jpg",
+   "trouve_le": "2026-11-13"
   },
   {
    "type": "article",
@@ -130,25 +208,52 @@
    "date": "2026-11-11",
    "pages": 1,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-13",
+   "pages": 26,
+   "nouveaux": 6
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://www.defense.gouv.fr/marine/actualites/nouvelle-promotion-cadets-rejoint-famille-du-bataillon-marins-pompiers-marseille",
   "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-engagement-valeurs-jeunesse-volontaire",
   "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/journal-classe-defense-mallarme-fraternite-engagement-au-service-defense",
   "http://www.terre.defense.gouv.fr/reserve-citoyenne/actualites/peripeties-classe-defense-journal-qui-fait-vivre-lengagement-eleves",
   "https://annuaire-education.fr/etablissement/marseille/college-stephane-mallarme/0132313U.html",
+  "https://bouches-du-rhone.anmonm.org/news/prix-de-la-citoyennete-2024-256",
+  "https://bouches-du-rhone.anmonm.org/news/remise-certificat-de-merite-468",
+  "https://clg-mallarme.monbureaunumerique.fr/l-etablissement/",
   "https://college-lycee.com/college-stephane-mallarme/Marseille-13e-Arrondissement-0132313U",
+  "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp",
+  "https://www.anmonm.org/news/prix-de-la-citoyennete-2024-256",
+  "https://www.anmonm.org/news/remise-certificat-de-merite-468",
+  "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Marseille-en-Grand/Education/Ecoles",
+  "https://www.bouches-du-rhone.gouv.fr/contenu/telechargement/60582/428241/file/SPEM%20-%20Cartographie%20des%203%20premi%C3%A8res%20vagues.pdf",
+  "https://www.cheminsdememoire.gouv.fr/fr/enseignement-secondaire",
   "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321",
   "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
   "https://www.facebook.com/marionbareille1314/posts/entour%C3%A9e-des-professeurs-et-de-la-directrice-du-coll%C3%A8ge-malraux-jai-eu-lhonneur-/1109658771165282",
   "https://www.facebook.com/marsactu/posts/bref-un-collectif-soppose-au-d%C3%A9placement-du-coll%C3%A8ge-de-mallarm%C3%A9%EF%B8%8F/1294041932747790",
   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
   "https://www.journaldesfemmes.fr/maman/ecole/college-stephane-mallarme/college-0132313U",
+  "https://www.lamarseillaise.fr/france/la-jeunesse-marseillaise-aussi-entretient-la-flamme-du-souvenir-du-11-novembre-DC17049219",
+  "https://www.lamarseillaise.fr/societe/avec-blanquer-l-ecole-se-met-au-pas-FN10486021",
   "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
   "https://www.lamarseillaise.fr/societe/la-disparition-de-la-classe-relais-de-mallarme-brise-la-confiance-IC17737069",
+  "https://www.laprovence.com/article/edition-marseille/2410900/lecole-letat-de-droit.html",
+  "https://www.laprovence.com/article/edition-marseille/2875251/des-collegiens-simprovisent-commissaires-dexposition.html",
+  "https://www.laprovence.com/article/edition-marseille/4056488/retraites-et-anciens-militaires-a-lhonneur.html",
+  "https://www.laprovence.com/article/edition-marseille/6668815/blanquer-en-mission-citoyenne.html",
   "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+  "https://www.laprovence.com/article/region/50511298538207/la-greve-au-college-mallarme-a-marseille-contre-la-suppression-de-la-classe-relais-reconduite",
+  "https://www.laprovence.com/article/region/6475492043458714/marseille-le-college-mallarme-a-la-rose-13e-ferme-apres-la-decouverte-dimpacts-de-balles",
+  "https://www.laprovence.com/article/region/7997030088404314/impacts-de-plombs-au-college-mallarme-13e-la-ministre-de-leducation-organise-une-reunion-sur-la-securite",
+  "https://www.laprovence.com/article/region/849991552917514/impacts-de-plombs-dans-un-college-a-marseille-13e-le-cas-mallarme-fera-t-il-ecole",
+  "https://www.laprovence.com/article/societe/2742866990838/demenagement-du-college-mallarme-a-marseille-un-tres-mauvais-signal-pour-les-enseignants",
   "https://www.ledauphine.com/archives/2018/13-06",
   "https://www.ledauphine.com/archives/2026/04-10",
   "https://www.ledauphine.com/education/2024/09/26/tirs-sur-un-college-a-marseille-genetet-organise-une-reunion-sur-la-securite",
@@ -157,9 +262,12 @@
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-stephane-mallarme-13.html",
   "https://www.site.ac-aix-marseille.fr/clg-mallarme/",
   "https://www.site.ac-aix-marseille.fr/clg-mallarme/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-mallarme/spip/",
   "https://www.site.ac-aix-marseille.fr/clg-mallarme/spip/-Classe-Defense-.html",
   "https://www.terre.defense.gouv.fr/reserve-citoyenne/actualites?ID=1018460&page=5",
-  "https://www.terre.defense.gouv.fr/reserve-citoyenne/actualites?page=3"
+  "https://www.terre.defense.gouv.fr/reserve-citoyenne/actualites?page=3",
+  "https://www.terre.defense.gouv.fr/sites/default/files/reserve-citoyenne/20250117_colle%CC%80ge%20S.%20Mallarme%CC%81%20Marseille_%20Journal%20CD%20n%C2%B02.pdf",
+  "https://www.terre.defense.gouv.fr/sites/default/files/reserve-citoyenne/20251117_Journal%20n%C2%B01%20de%20la%208e%CC%80me%20promotion%20classe%20de%CC%81fense%20anne%CC%81e%20scolaire%202025-2026.pdf"
  ],
  "etablissement": "Collège Stéphane Mallarmé (Marseille 13e)",
  "referents_cites": "Mme Babou",

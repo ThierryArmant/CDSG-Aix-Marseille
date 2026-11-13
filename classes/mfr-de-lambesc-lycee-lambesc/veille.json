@@ -2,6 +2,28 @@
  "fiche": "mfr-de-lambesc-lycee-lambesc",
  "elements": [
   {
+   "type": "ceremonie",
+   "date": "2025-06-25",
+   "titre": "Remise des attestations « Esprit de Défense »",
+   "extrait": "Ce mercredi 25 juin à 17h, nous avons vécu un moment très spécial : la remise de nos attestations « Esprit de Défense ».",
+   "resume": "Le 25 juin 2025, une cérémonie a été organisée dans la salle des BTS de la MFR pour remettre les certificats « Esprit de Défense » aux élèves, en présence de Mme Sicard et M. Bruguier.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "page": "475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "projet",
+   "date": "2025-06-05",
+   "titre": "Journée de prévention avec la police municipale et l’Automobile Club",
+   "extrait": "Jeudi 5 juin, nous avons participé à une matinée de prévention avec la police municipale et l’Automobile Club de Lambesc.",
+   "resume": "Le 5 juin 2025, la classe a suivi une journée de prévention routière, alcool‑et‑drogue, organisée avec la police municipale et l’Automobile Club, incluant un test de radar portable.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "page": "475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
    "type": "projet",
    "date": "2025-05-27",
    "titre": "Projet inter‑académique de classes défense",
@@ -11,6 +33,94 @@
    "page": "Presentation-Prix-Louis-QUINIO-2025.pdf",
    "site": "union-ihedn.org (PDF)",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-05-12",
+   "titre": "Immersion au cœur de la justice",
+   "extrait": "Le lundi 12 mai, nous sommes partis au tribunal judiciaire d’Aix‑en‑Provence pour assister à une audience correctionnelle.",
+   "resume": "Le 12 mai 2025, la classe de 4ᵉ Défense de la MFR de Lambesc a visité le tribunal judiciaire d’Aix‑en‑Provence afin d’observer une audience correctionnelle.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "page": "475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-04-23",
+   "titre": "Rencontre avec Marius",
+   "extrait": "Nous avons rencontré Marius, ancien militaire des forces spéciales, lors d’une séance à la MFR le mercredi 23 avril 2025.",
+   "resume": "Le 23 avril 2025, les élèves ont rencontré Marius, ancien commando des forces spéciales, qui a partagé son parcours et ses valeurs.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "page": "475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "autre",
+   "date": "2025-04-23",
+   "titre": "Initiation à la self‑défense",
+   "extrait": "Nous avons ensuite pratiqué une initiation à la self‑défense avec Alain Alivon, surnommé Marius, au city‑stade de la MFR.",
+   "resume": "Le même jour, les élèves ont reçu un atelier de self‑défense animé par Marius, apprenant des techniques de neutralisation d’un agresseur.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "page": "475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "sortie",
+   "date": "2024-06-18",
+   "titre": "Rencontre des élus de la région PACA",
+   "extrait": "Le mardi 18 juin, la classe a visité l'hôtel de région à Marseille pour rencontrer les élus de la région Sud PACA.",
+   "resume": "Les élèves ont été reçus par le directeur du protocole du conseil régional et ont pu poser des questions aux élus, dont Madame Patricia Colin, vice‑présidente de la commission formation sanitaire et sociale.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "page": "475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2024-06-12",
+   "titre": "Cérémonie de commémoration du 12 juin",
+   "extrait": "Le mercredi 12 juin 2024, la classe a participé à la cérémonie de commémoration du monument aux morts de Sainte‑Anne, avec dépôt de gerbes.",
+   "resume": "Les élèves, aidés par des militaires, pompiers et élus, ont nettoyé le monument, déposé des gerbes et observé une minute de silence en hommage aux résistants.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "page": "475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "projet",
+   "date": "2024-05-28",
+   "titre": "Randonnée citoyenne à Sainte‑Anne",
+   "extrait": "Le mardi 28 mai 2024, la classe a effectué une randonnée citoyenne à Sainte‑Anne, accompagnée du 25e Régiment du Génie de l’Air.",
+   "resume": "Dans le cadre du projet citoyen, les élèves ont marché jusqu’au monument aux morts, partagé un repas de rations de combat et rencontré l’historien Sylvain Labarre.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "page": "475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "sortie",
+   "date": "2024-04-04",
+   "titre": "Journée olympique à la MFR de Lambesc",
+   "extrait": "Le jeudi 4 avril, notre classe de troisième défense a participé à une journée sportive à la MFR de Lambesc avec pétanque, volley et quiz.",
+   "resume": "Les élèves de la classe de troisième défense ont pris part à une journée olympique organisée par le CROS, incluant pétanque, volley‑ball et un quiz sur les Jeux Olympiques.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "page": "475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "sortie",
+   "date": "2024-03-13",
+   "titre": "Visite de la base navale de Toulon",
+   "extrait": "Le mercredi 13 mars 2024, notre classe de troisième défense a visité la base navale de Toulon, accueillie par le maître principal Marc.",
+   "resume": "Accompagnés de Messieurs Bappel et Bruguier, les élèves ont découvert les missions, les métiers et plusieurs navires de la Marine Nationale, dont le porte‑avions Charles de Gaulle.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "page": "475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
   },
   {
    "type": "autre",
@@ -34,6 +144,30 @@
    "site": "laprovence.com",
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=30,trim.top=78,trim.height=305,trim.width=556/media/hermes/2021-06/2021-06-04/20210604_1_2_3_1_1_obj24384469_1.jpg",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": "2014-02-21",
+   "titre": "Don du sang, mobilisation record",
+   "extrait": "La direction du service national et l'Établissement français du sang viennent de signer un protocole d'accord visant à promouvoir le don de sang lors des",
+   "resume": "L’article signale la mise en place d’un protocole national pour intégrer la sensibilisation au don de sang aux journées défense et citoyenneté, auxquelles participent les jeunes de Lambesc.",
+   "source": "https://www.laprovence.com/article/edition-aix-pays-daix/2761735/don-du-sang-mobilisation-record.html",
+   "page": "Don du sang, mobilisation record",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2014-02/2014-02-21/20140221_1_2_1_1_1_obj5884007_1.jpg",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "convention",
+   "date": "2014-02-21",
+   "titre": "Protocole d’accord JDC – don de sang",
+   "extrait": "La direction du service national et l'Établissement français du sang viennent de signer un protocole d'accord visant à promouvoir le don de sang lors des",
+   "resume": "Le Service national et l’EFS ont signé un protocole d’accord pour inclure la sensibilisation au don de sang dans les journées défense et citoyenneté, impliquant les élèves de la région de Lambesc.",
+   "source": "https://www.laprovence.com/article/edition-aix-pays-daix/2761735/don-du-sang-mobilisation-record.html",
+   "page": "Don du sang, mobilisation record",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2014-02/2014-02-21/20140221_1_2_1_1_1_obj5884007_1.jpg",
+   "trouve_le": "2026-11-13"
   },
   {
    "type": "convention",
@@ -103,7 +237,8 @@
    "autres_sources": [
     "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
     "https://www.garachon.com"
-   ]
+   ],
+   "image": "https://apprentus-uploads.twic.pics/user_images/458236/andreas-1772534466.jpg?twic=v1/focus=auto/cover=200x200/from=1"
   },
   {
    "type": "partenaire",
@@ -170,6 +305,109 @@
    "page": "Accueil | MFRGarachon",
    "site": "MFRGarachon",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Partenariat 4e EA – Gendarmerie des Bouches-du-Rhône",
+   "extrait": "4e EA en partenariat avec la Gendarmerie des Bouches-du-Rhône",
+   "resume": "La classe de 4e défense de la MFR de Garachon collabore avec la Gendarmerie des Bouches‑du‑Rhône.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "page": "475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Partenariat 3e EA – 25ᵉ Régiment du Génie de l’Air",
+   "extrait": "3e EA en partenariat avec le 25ième Régiment du Génie de l’Air",
+   "resume": "La classe de 3e défense de la MFR de Garachon travaille en partenariat avec le 25ᵉ Régiment du Génie de l’Air.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "page": "475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visite et étude avec les unités militaires marraine",
+   "extrait": "Visite et étude en lien avec les unités militaires marraine",
+   "resume": "Les élèves de la classe défense effectuent des visites et études auprès des unités militaires marraine, dont l’École de l’air et de l’espace.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "page": "475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "convention",
+   "date": null,
+   "titre": "Convention de partenariat",
+   "extrait": "Convention OK",
+   "resume": "L’établissement a signé une convention de partenariat pour la mise en œuvre de la classe défense.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "page": "475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13",
+   "autres_sources": [
+    "https://www.garachon.com/"
+   ]
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Création de la classe de défense",
+   "extrait": "4e & 3e Classe de Défense GARACHON - LAMBESC",
+   "resume": "La MFR de Garachon propose une classe de défense en 4ᵉ et 3ᵉ années, intégrée à son enseignement agricole.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "page": "475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Visites de la brigade, de l’ENSOSP et du tribunal",
+   "extrait": "Revoir notre visite à la brigade, à l’ENSOSP ou encore au tribunal nous a fait repenser à tout ce que nous avons appris.",
+   "resume": "Au cours de l’année, la classe a effectué des visites de la brigade, de l’École nationale supérieure des officiers de police (ENSOSP) et du tribunal, renforçant son apprentissage de la défense.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "page": "475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Groupement de Gendarmerie Départemental des Bouches‑du‑Rhône – Compagnie de Salon‑de‑Provence",
+   "extrait": "Groupement de Gendarmerie Départemental des Bouches‑du‑Rhône - Compagnie de Salon‑de‑Provence",
+   "resume": "Le Groupement de Gendarmerie Départemental des Bouches‑du‑Rhône, compagnie de Salon‑de‑Provence, apparaît comme partenaire des activités de la classe Défense.",
+   "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "page": "475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+   "site": "garachon.com (PDF)",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "École de l'air et de l'espace",
+   "extrait": "École de l'air et de l'espace",
+   "resume": "L’unité marraine de la classe défense du MFR de Lambesc est l’École de l'air et de l'espace.",
+   "source": "https://www.apprentus.fr/cours-particuliers/lambesc/soutien-scolaire/maths/sciences-mathematiques-physique-chimie-svt",
+   "page": "Cours de sciences (mathématiques, physique, chimie, SVT) niveaux collège/lycée. - Lambesc - Cours particulier",
+   "site": "apprentus.fr",
+   "image": "https://apprentus-uploads.twic.pics/user_images/458236/andreas-1772534466.jpg?twic=v1/focus=auto/cover=200x200/from=1",
+   "trouve_le": "2026-11-13"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Armée, sécurité Défense publique",
+   "extrait": "Armée, sécurité Défense publique Sécurité, prévention",
+   "resume": "Le domaine de formation « Armée, sécurité Défense publique » est mentionné dans la liste des formations proposées par la MFR de Lambesc.",
+   "source": "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/maison-familiale-rurale-garachon",
+   "page": "Maison familiale rurale Garachon",
+   "site": "onisep.fr",
+   "trouve_le": "2026-11-13"
   }
  ],
  "recherches": [
@@ -182,38 +420,68 @@
    "date": "2026-11-11",
    "pages": 25,
    "nouveaux": 14
+  },
+  {
+   "date": "2026-11-13",
+   "pages": 25,
+   "nouveaux": 21
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://chaineo.fr/lambesc-13410/lycee-lambesc",
   "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "http://www.snepfsu-aix.net/aix/conseil-acad-de-len-eps-et-les-lycees-en-paca/",
+  "https://annuaire-education.fr/bassin/jean-guehenno/013015.html",
+  "https://ecomnews.fr/news/region-sud-1-milliard-euros-lycees-territoire/",
   "https://en.wikipedia.org/wiki/Charles_Eugene,_Prince_of_Lambesc",
   "https://en.wikipedia.org/wiki/Lambesc",
   "https://maps.google.com/maps/search/ville+de+lambesc",
   "https://mesinfos.fr/13410-lambesc/le-futur-lycee-de-lambesc-est-il-remis-en-question-180017.html",
+  "https://mesinfos.fr/provence-alpes-cote-d-azur/dossier-special-education-les-ecoles-de-salon-sur-le-point-detre-desengorgees-171347.html",
   "https://ville-data.com/college-lycee/Lambesc-13-13050",
   "https://www.ac-aix-marseille.fr/la-classe-defense-du-college-roumanille-participe-au-rallye-citoyen-esprit-defense-126459",
   "https://www.ac-aix-marseille.fr/les-eleves-du-college-guehenno-de-lambesc-participent-au-concours-d-eloquence-mots-en-scene-124472",
   "https://www.apprentissage-sud.fr/cfa/mfr-cfa-garachon",
+  "https://www.apprentus.fr/cours-particuliers/lambesc/soutien-scolaire/maths/sciences-mathematiques-physique-chimie-svt",
   "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.facebook.com/100063999970020/posts/-%F0%9D%97%9F%F0%9D%97%AE-%F0%9D%9F%AF%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%AE%F0%9D%98%82-%F0%9D%97%B0%C5%93%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%B1%F0%9D%98%82%F0%9D%97%BB-%F0%9D%97%B2%F0%9D%98%85%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%B0%F0%9D%97%B6%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%97%B5%F0%9D%97%B2%CC%81%F0%9D%97%B9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%AE%CC%80-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%A0%F0%9D%97%99%F0%9D%97%A5mardi-les-%C3%A9l%C3%A8ves-/1446265787516740",
   "https://www.facebook.com/100063999970020/videos/aujourdhui-les-%C3%A9l%C3%A8ves-de-la-troisi%C3%A8me-d%C3%A9fense-de-la-mfr-de-lambesc-ont-re%C3%A7u-des-/701454245285506",
   "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623",
   "https://www.facebook.com/groups/196855621657420/posts/1405079287501708",
   "https://www.garachon.com",
+  "https://www.garachon.com/",
   "https://www.garachon.com/3e-classe-de-defense",
+  "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
+  "https://www.garachon.com/_files/ugd/475ebd_66d97732d3c1491395d21cd2bc79ca41.pdf",
+  "https://www.garachon.com/_files/ugd/475ebd_6ea4903ae7154b04b73ee1c5d8dd6d23.pdf",
+  "https://www.garachon.com/_files/ugd/475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
+  "https://www.garachon.com/citoyen",
   "https://www.instagram.com/p/DMI0D1yOlXZ",
   "https://www.lambesc.fr",
+  "https://www.lambesc.fr/devoir-de-memoire-commemoration-du-11-novembre-3/",
+  "https://www.laprovence.com/article/contenu-sponsorise/6492799/1-milliard-pour-les-lycees-de-la-region-sud.html",
+  "https://www.laprovence.com/article/ecoplanete/1972648107691214/un-jardin-ecologique-inaugure-au-college-jean-guehenno-a-lambesc-une-promesse-pour-demain",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/2761735/don-du-sang-mobilisation-record.html",
   "https://www.laprovence.com/article/edition-aix-pays-daix/6376503/le-nouveau-lycee-annonce-en-2024.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/4457011/istres-laureat.html",
+  "https://www.laprovence.com/article/region/61700463768218/lycees-a-aix-cezanne-fait-peu-neuve-lambesc-toujours-en-suspens",
+  "https://www.laprovence.com/article/societe/5451429/un-futur-lycee-a-lambesc.html",
   "https://www.ledauphine.com/archives/2026/15-04",
   "https://www.ledauphine.com/education/2025/06/03/une-escapade-a-marseille-pour-les-collegiens-de-notre-dame",
   "https://www.ledauphine.com/vaucluse/2013/09/26/lycee-louis-giraud-du-papier-a-la-realite",
   "https://www.ledauphine.com/vaucluse/2017/02/14/marjorie-philippe-et-theo-touil-se-sont-rencontres-sur-un-forum-quand-ils-etaient-au-lycee",
   "https://www.ledauphine.com/vaucluse/2019/05/13/exposition-a-la-decouverte-de-l-ecole-d-autrefois",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/maison-familiale-rurale-garachon",
+  "https://www.routard.com/forums/t/ou-vivre-a-45-min-autour-daix-en-provence/203230",
+  "https://www.routard.com/forums/t/ou-vivre-a-45-min-autour-daix-en-provence/203230/32",
   "https://www.tiktok.com/@mfrgarachon/video/7659743644311637280",
-  "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf"
+  "https://www.trombi.com/Ecoles/Lambesc/Lycee/MFR-domaine-de-Garachon-S-3IHT-S",
+  "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf",
+  "https://www.voscours.fr/pour-lycee/la-roque-d-antheron/"
  ],
  "etablissement": "MFR de Lambesc (lycée) (Lambesc)",
- "referents_cites": "M. L. Bruguier, M. Jamet",
+ "referents_cites": "M. L. Bruguier, M. Jamet (biologie)",
  "unite_citee": "École de l'air et de l'espace"
 }

@@ -144,16 +144,22 @@ window.CDSG_WEB = {
   }
  },
  "mfr-de-lambesc-lycee-lambesc": {
-  "date": "11/11/2026",
+  "date": "13/11/2026",
   "resume": "L’activité la plus récente du MFR de Lambesc est la participation, le 27 mai 2025, d’un projet inter‑académique de classes défense avec 58 élèves. Ce projet a été organisé à l’occasion du cinquantième anniversaire de l’Union‑IHEDN, incluant une cérémonie d’hommage et une visite du musée",
-  "nb": 15,
-  "derniere_activite": "2025-05-27",
+  "nb": 36,
+  "derniere_activite": "2025-06-25",
   "derniers": {
    "sortie": {
-    "date": null,
-    "titre": "Visite des services du groupement GGD13 à Marseille",
-    "resume": "Les élèves de 4e de la classe défense de la MFR Lambesc, encadrés par M. Bruguier et le capitaine Christophe V., ont visité les services et unités du groupement GGD13 à Marseille.",
-    "source": "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623"
+    "date": "2025-05-12",
+    "titre": "Immersion au cœur de la justice",
+    "resume": "Le 12 mai 2025, la classe de 4ᵉ Défense de la MFR de Lambesc a visité le tribunal judiciaire d’Aix‑en‑Provence afin d’observer une audience correctionnelle.",
+    "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf"
+   },
+   "ceremonie": {
+    "date": "2025-06-25",
+    "titre": "Remise des attestations « Esprit de Défense »",
+    "resume": "Le 25 juin 2025, une cérémonie a été organisée dans la salle des BTS de la MFR pour remettre les certificats « Esprit de Défense » aux élèves, en présence de Mme Sicard et M. Bruguier.",
+    "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf"
    },
    "convention": {
     "date": "2021-06-04",
@@ -162,27 +168,27 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/article/edition-aix-pays-daix/6376503/le-nouveau-lycee-annonce-en-2024.html"
    },
    "article": {
-    "date": null,
-    "titre": "Intégrer une classe de défense à la MFR de Lambesc",
-    "resume": "Le post Instagram annonce la mise en place d’une classe de défense à la MFR de Lambesc, ouverte aux élèves de 4e et 3e de l’enseignement agricole, avec la possibilité de poursuivre jusqu’au Bac Technologique.",
-    "source": "https://www.instagram.com/p/DMI0D1yOlXZ"
+    "date": "2014-02-21",
+    "titre": "Don du sang, mobilisation record",
+    "resume": "L’article signale la mise en place d’un protocole national pour intégrer la sensibilisation au don de sang aux journées défense et citoyenneté, auxquelles participent les jeunes de Lambesc.",
+    "source": "https://www.laprovence.com/article/edition-aix-pays-daix/2761735/don-du-sang-mobilisation-record.html"
    },
    "projet": {
-    "date": "2025-05-27",
-    "titre": "Projet inter‑académique de classes défense",
-    "resume": "Le MFR de Lambesc a participé, avec 58 élèves, à un projet inter‑académique de classes défense pour le cinquantième anniversaire de l’Union‑IHEDN, incluant une cérémonie d’hommage le 27 mai 2025 et une visite du musée de la Résistance.",
-    "source": "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf"
+    "date": "2025-06-05",
+    "titre": "Journée de prévention avec la police municipale et l’Automobile Club",
+    "resume": "Le 5 juin 2025, la classe a suivi une journée de prévention routière, alcool‑et‑drogue, organisée avec la police municipale et l’Automobile Club, incluant un test de radar portable.",
+    "source": "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf"
    }
   },
   "sources": [
+   "https://www.garachon.com/_files/ugd/475ebd_4e476e0391e44d38a65e676083e97746.pdf",
    "https://www.union-ihedn.org/wp-content/uploads/2026/01/Presentation-Prix-Louis-QUINIO-2025.pdf",
+   "https://www.garachon.com/_files/ugd/475ebd_df7bf246849a4612bfd039399e67ca0a.pdf",
    "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
    "https://www.laprovence.com/article/edition-aix-pays-daix/6376503/le-nouveau-lycee-annonce-en-2024.html",
+   "https://www.laprovence.com/article/edition-aix-pays-daix/2761735/don-du-sang-mobilisation-record.html",
    "https://www.facebook.com/gendarmeriedesbouchesdurhone/posts/visite-de-la-classe-d%C3%A9fense-de-la-mfr-lambescdans-le-cadre-de-la-convention-entr/1065577795610623",
-   "https://www.instagram.com/p/DMI0D1yOlXZ",
-   "https://www.garachon.com/3e-classe-de-defense",
-   "https://www.facebook.com/100063999970020/videos/aujourdhui-les-%C3%A9l%C3%A8ves-de-la-troisi%C3%A8me-d%C3%A9fense-de-la-mfr-de-lambesc-ont-re%C3%A7u-des-/701454245285506",
-   "https://www.garachon.com"
+   "https://www.instagram.com/p/DMI0D1yOlXZ"
   ],
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=30,trim.top=78,trim.height=305,trim.width=556/media/hermes/2021-06/2021-06-04/20210604_1_2_3_1_1_obj24384469_1.jpg",
@@ -754,11 +760,17 @@ window.CDSG_WEB = {
   "resume": "La classe Défense du collège Jean Zay a publié son projet éducatif destiné aux élèves de 4e et 3e le 2 juillet 2026. Le 16 juin 2026, les élèves de 4e ont remporté le premier prix du concours vidéo international « Buzzons contre le sexisme » (catégorie jeunesse 10‑14 ans). L’unité marraine de la classe est le 1er Régiment Étranger d’Aubagne, avec une convention de partenariat réactualisée en décembre 2025."
  },
  "college-pont-de-vivaux-marseille-10e": {
-  "date": "11/11/2026",
-  "nb": 4,
+  "date": "13/11/2026",
+  "nb": 6,
   "photo": null,
-  "derniere_activite": "2025-05-15",
+  "derniere_activite": "2026-01-27",
   "derniers": {
+   "ceremonie": {
+    "date": "2026-01-27",
+    "titre": "Rencontre entre l'état-major de la 3e division et la classe défense du collège Pont‑de‑Vivaux",
+    "resume": "Le 27 janvier 2026, l'état-major de la 3e Division a rencontré la classe défense du collège Pont‑de‑Vivaux, unité marraine, afin de faire découvrir aux élèves les valeurs des armées et de renforcer leur citoyenneté.",
+    "source": "https://fr.linkedin.com/posts/3e-division_classed%C3%A9fense-arm%C3%A9esnation-arm%C3%A9edeterre-activity-7421809522681204736-g0Ih"
+   },
    "convention": {
     "date": "2024-05-23",
     "titre": "Signature de convention",
@@ -774,7 +786,9 @@ window.CDSG_WEB = {
   },
   "distinctions": [],
   "sources": [
+   "https://fr.linkedin.com/posts/3e-division_classed%C3%A9fense-arm%C3%A9esnation-arm%C3%A9edeterre-activity-7421809522681204736-g0Ih",
    "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "https://fr.linkedin.com/posts/3e-division_classedefense-terrejeunesse-activity-7290772003563720705-YI8k",
    "https://www.youtube.com/watch?v=nUTZkFX1UTU"
   ]
  },
@@ -938,20 +952,26 @@ window.CDSG_WEB = {
   ]
  },
  "college-stephane-mallarme-marseille-13e": {
-  "date": "11/11/2026",
-  "nb": 9,
+  "date": "13/11/2026",
+  "nb": 15,
   "photo": {
    "url": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
    "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
    "manuel": false
   },
-  "derniere_activite": "2025-06-04",
+  "derniere_activite": "2026",
   "derniers": {
    "distinction": {
-    "date": "2025",
-    "titre": "Prix armées zone Sud 2025",
-    "resume": "Le général Laval a décerné le prix « armées zone Sud » 2025 aux élèves du collège Stéphane Mallarmé, reconnaissant leur projet de classe défense.",
-    "source": "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723"
+    "date": "2026",
+    "titre": "Trophée de l’AFDET 2026",
+    "resume": "En 2026, la classe de 3e Défense du Collège Stéphane Mallarmé a remporté le prix d’honneur de l’AFDET, recevant une coupe et des diplômes remis par M. Baux, président de l’AFDET.",
+    "source": "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp"
+   },
+   "sortie": {
+    "date": "2022-02-21",
+    "titre": "Rencontre des ministres avec la classe Défense du collège Mallarmé",
+    "resume": "Le 21 février 2022, le ministre de l’Éducation nationale et la secrétaire d’État à la jeunesse ont visité la classe Défense du collège Stéphane Mallarmé à Marseille.",
+    "source": "https://www.lamarseillaise.fr/societe/avec-blanquer-l-ecole-se-met-au-pas-FN10486021"
    },
    "ceremonie": {
     "date": "2025-06-03",
@@ -972,13 +992,23 @@ window.CDSG_WEB = {
     "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
    },
    "projet": {
-    "date": "2025",
-    "titre": "Jeu de plateau sur les zones Sud",
-    "resume": "Les élèves du collège Stéphane Mallarmé ont conçu un jeu de plateau pédagogique sur les zones Sud, projet primé.",
-    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
+    "date": "2026",
+    "titre": "Projet vidéo sur le BMPM",
+    "resume": "La même classe a produit une vidéo présentant le Bataillon des Marins‑Pompiers de Marseille, unité marraine de la classe de 3e Défense.",
+    "source": "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp"
    }
   },
   "distinctions": [
+   {
+    "date": "2026",
+    "titre": "Trophée de l’AFDET 2026",
+    "resume": "En 2026, la classe de 3e Défense du Collège Stéphane Mallarmé a remporté le prix d’honneur de l’AFDET, recevant une coupe et des diplômes remis par M. Baux, président de l’AFDET.",
+    "source": "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp"
+    ]
+   },
    {
     "date": "2025",
     "titre": "Prix armées zone Sud 2025",
@@ -988,14 +1018,28 @@ window.CDSG_WEB = {
     "sources": [
      "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723"
     ]
+   },
+   {
+    "date": "2024-09-19",
+    "titre": "Certificat de Mérite",
+    "resume": "Le 19 septembre 2024, la classe de Défense du collège Stéphane Mallarmé a reçu un certificat de Mérite du jury de la Commission Nationale de l'Éducation Citoyenne de l'ANMONM pour son projet « Restauration des carrés militaires avec le Souvenir Français ».",
+    "source": "https://www.anmonm.org/news/remise-certificat-de-merite-468",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.anmonm.org/news/remise-certificat-de-merite-468",
+     "https://bouches-du-rhone.anmonm.org/news/remise-certificat-de-merite-468"
+    ]
    }
   ],
   "sources": [
+   "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp",
    "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
    "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
    "https://www.facebook.com/ArmeesZoneSud/posts/prix-arm%C3%A9es-zone-sud-les-minots-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-%C3%A0-lhonneurle-g%C3%A9n%C3%A9ra/1141939894646723",
-   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
-   "https://www.facebook.com/ArmeesZoneSud/posts/les-rencontres-du-gouverneur-militaire-jeunesse-et-d%C3%A9fense-renforcer-la-coh%C3%A9sion/1260717236102321"
+   "https://www.lamarseillaise.fr/societe/avec-blanquer-l-ecole-se-met-au-pas-FN10486021",
+   "https://www.anmonm.org/news/remise-certificat-de-merite-468",
+   "https://bouches-du-rhone.anmonm.org/news/remise-certificat-de-merite-468",
+   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
   ],
   "resume": "La classe défense du collège Stéphane Mallarmé a reçu en 2025 le prix « Armées zone Sud » décerné par le général Laval, récompensant son projet. Elle"
  },
@@ -2327,8 +2371,8 @@ window.CDSG_WEB = {
   "sources": []
  },
  "college-caroline-aigle-lancon-de-provence": {
-  "date": "11/11/2026",
-  "resume": "Le CFAMI (Centre de formation aéronautique militaire initiale) a signé, le 18 avril 2024, la première convention avec le collège Caroline Aigle pour créer une classe défense dès septembre 2024, et a été désigné comme unité marraine du dispositif pédagogique. Le projet s’articulera autour de la thématique « engagement citoyen », incluant mémoire, lien armées‑Nation, orientation et environnement.",
+  "date": "13/11/2026",
+  "resume": "Le collège Caroline Aigle",
   "nb": 7,
   "derniere_activite": "2024-09",
   "derniers": {
@@ -2806,14 +2850,14 @@ window.CDSG_WEB = {
   "resume": "En octobre 2026, la classe défense du Collège Lucie Aubrac a signé (ou renouvelé) une convention de partenariat avec son unité marraine, la BA 115 « Capitaine de Seynes ». Cette unité constitue le principal partenaire de la classe défense, aucun prix ou distinction n’a été signalé dans les éléments de veille."
  },
  "college-georges-brassens-marignane": {
-  "date": "11/11/2026",
+  "date": "13/11/2026",
   "resume": "Le 15 octobre 2026, la classe Défense du collège Georges Brassens a organisé la cérémonie de remise du Diplôme National du Brevet et du Certificat de Formation Générale à ses élèves. Elle intervient régulièrement dans des manifestations citoyennes – cérémonie du 8 mai 2025, dépôt de gerbe au Jardin des St",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/05/12/classe-defense-1747042461_9b17c0ea80286d127c0ea80285627cv_.jpg",
    "source": "https://www.laprovence.com/article/region/1838066081972715/a-marignane-les-collegiens-de-la-classe-defense-tissent-le-lien-entre-memoire-citoyennete-et-armee",
    "manuel": false
   },
-  "nb": 10,
+  "nb": 18,
   "derniere_activite": "2026-10-15",
   "derniers": {
    "sortie": {
@@ -2829,19 +2873,27 @@ window.CDSG_WEB = {
     "source": "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/Ceremonie-de-remise-du-D-N-B-et-du-C-F-G.html"
    },
    "article": {
-    "date": "2023-04-19",
-    "titre": "Présentation des Cadets de la sécurité civile",
-    "resume": "Article publié le 19 avril 2023 présentant la classe « Défense » « Cadets de la sécurité civile » du collège Georges Brassens à Marignane.",
-    "source": "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/-Cadets-de-la-securite-civile-.html"
+    "date": "2026-09-28",
+    "titre": "Présentation de la Classe Défense",
+    "resume": "Page de présentation de la classe Défense du Collège Georges Brassens à Marignane, publiée le 28 septembre 2026.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/Presentation-de-la-Classe-Defense.html"
+   },
+   "projet": {
+    "date": "2013-06-21",
+    "titre": "Projet « citoyenneté et devoir de mémoire »",
+    "resume": "Un projet pédagogique visant à découvrir des lieux de mémoire et de résistance, mené avec les troisièmes du collège.",
+    "source": "https://www.laprovence.com/article/edition-etang/2412362/un-voyage-de-memoire-pour-les-collegiens-de-brassens.html"
    }
   },
   "sources": [
    "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/Ceremonie-de-remise-du-D-N-B-et-du-C-F-G.html",
+   "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/Presentation-de-la-Classe-Defense.html",
    "https://www.laprovence.com/article/region/1838066081972715/a-marignane-les-collegiens-de-la-classe-defense-tissent-le-lien-entre-memoire-citoyennete-et-armee",
    "https://www.facebook.com/ville.marignane/posts/-retour-en-images-ce-8-mai-au-matin-marignane-a-rendu-hommage-%C3%A0-la-victoire-de-1/1084738120353566",
    "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/-Cadets-de-la-securite-civile-.html",
-   "https://www.facebook.com/ville.marignane/posts/-vie-patriotique-les-élèves-de-la-classe-défense-du-collège-georges-brassens-se-/1083542983806413/",
-   "https://www.facebook.com/ville.marignane/posts/-vie-patriotique-les-%C3%A9l%C3%A8ves-de-la-%F0%9D%97%B0%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%98%82-%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%CC%80%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%B4%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%95%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%80%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80-o/1235005128660197"
+   "https://www.laprovence.com/article/edition-vitrolles-marignane/2618704/les-collegiens-sapproprient-lhistoire-de-leurs-aieux.html",
+   "https://www.laprovence.com/article/edition-etang/2412362/un-voyage-de-memoire-pour-les-collegiens-de-brassens.html",
+   "https://www.facebook.com/ville.marignane/posts/-vie-patriotique-les-élèves-de-la-classe-défense-du-collège-georges-brassens-se-/1083542983806413/"
   ],
   "distinctions": []
  },
