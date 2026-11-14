@@ -1377,7 +1377,7 @@ window.CDSG_WEB = {
   "resume": "Le Collège Collines‑Durance de Mallemort maintient sa classe défense, comme le confirme un article du 3 septembre 2024. En décembre 2023, les élèves de 3e défense ont accueilli le 25e régiment du génie de l’air d’Istres, suite à la signature d’une convention de partenariat avec cette unité. Parmi les faits marquants, la classe a également réalisé une sortie à Berlin en 2022 dans le cadre de ses échanges avec le même régiment."
  },
  "college-clair-soleil-marseille-14e": {
-  "date": "11/11/2026",
+  "date": "14/11/2026",
   "nb": 2,
   "photo": null,
   "derniere_activite": "2025-05-15",
@@ -1399,7 +1399,7 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
   ],
-  "resume": "La promotion 2024/2025 de la Classe Défense a été invitée le 15 mai 2025 par Valérie Boyer à une visite du Sénat. Depuis 2018, la classe est parrainée par les Marins Pompiers de Marseille, qui assurent son accompagnement et ses activités. Aucun prix ou distinction n’est mentionné dans les éléments de veille."
+  "resume": "Le 15 mai 2025, la promotion 2024/2025 de la Classe Défense du collège Stéphane Mallarmé a été invitée par Valérie Boyer au Sénat. Depuis 2018, la classe est parrainée par les Marins Pompiers de Marseille, aucun prix ou distinction n’étant mentionné dans les éléments de veille."
  },
  "lycee-d-ormesson-chateaurenard": {
   "date": "11/11/2026",
@@ -1706,9 +1706,13 @@ window.CDSG_WEB = {
   ]
  },
  "college-jules-massenet-marseille-14e": {
-  "date": "11/11/2026",
+  "date": "14/11/2026",
   "nb": 5,
-  "photo": null,
+  "photo": {
+   "url": "https://www.quelcollege.fr/college/college-massenet-marseille-14e-arrondissement/opengraph-image?8e44622dea19aafd",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jules-massenet/college-0132207D",
+   "manuel": false
+  },
   "derniere_activite": "2025-05-15",
   "derniers": {
    "distinction": {
@@ -1899,7 +1903,7 @@ window.CDSG_WEB = {
   "resume": "La classe défense du lycée Philippe de Girard forme actuellement des élèves de 3e aux métiers de l’armée, comme le montre une vidéo diffusée par Réunion la 1ère. Le 16 mars 2026, l’équipe « Girard » a remporté la première place de la catégorie bac professionnel du challenge « Passe Ton Hack d’Abord 2026 », lors d’une cérémonie au campus cyber de La Défense. Depuis le"
  },
  "lycee-saint-exupery-marseille-15e": {
-  "date": "11/11/2026",
+  "date": "14/11/2026",
   "nb": 6,
   "photo": null,
   "derniere_activite": "2025-05-15",
@@ -1929,7 +1933,8 @@ window.CDSG_WEB = {
    "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
    "https://dossierappel.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=24460&typeBac=0&originePc=0",
    "https://www.facebook.com/activeradio52/posts/sengager-se-d%C3%A9passer-et-apprendre-le-lyc%C3%A9e-saint-exup%C3%A9ry-aux-couleurs-de-la-d%C3%A9fe/1472348774902035"
-  ]
+  ],
+  "resume": "Le 15 mai 2025, la promotion 202"
  },
  "lycee-professionnel-la-floride-marseille": {
   "date": "11/11/2026",
@@ -2267,29 +2272,44 @@ window.CDSG_WEB = {
   "resume": "La classe Défense du Collège Joseph Roumanille a réalisé, le 9 novembre 2026, une immersion auprès de son unité marraine, encadrée par Gaëlle Raffaelli. Le collège propose depuis 2023 une option « Défense », officialisée par la convention signée en mars 2023 pour l’atelier défense. Aucun prix ou distinction n’est mentionné dans les éléments de veille."
  },
  "lycee-des-metiers-de-l-estaque-marseille-16e": {
-  "date": "11/11/2026",
-  "nb": 3,
+  "date": "14/11/2026",
+  "nb": 7,
   "photo": {
    "url": "https://annuaire-education.fr/partage.png",
    "source": "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-et-technologique-regional-lestaque/0130058T.html",
    "manuel": false
   },
-  "derniere_activite": "2023-09",
+  "derniere_activite": "2025-11-16",
   "derniers": {
+   "ceremonie": {
+    "date": null,
+    "titre": "Commémoration du 11 novembre",
+    "resume": "Le post d'Alexis di Segna présente les Classes défense et mentionne la commémoration du 11 novembre.",
+    "source": "https://fr.linkedin.com/posts/alexis-di-segna-892561178_classedefense-11novembre-activity-7395759923151863808-rWFN"
+   },
    "convention": {
     "date": "2023-09",
     "titre": "Renouvellement convention atelier défense",
     "resume": "Convention signée ou renouvelée en septembre 2023 pour l'atelier défense du Lycée des métiers de l'Estaque, en partenariat avec l'unité marraine 503e Régiment du train (Nîmes).",
     "source": "https://www.youtube.com/watch?v=_cDvi54zbqU"
+   },
+   "article": {
+    "date": "2025-11-16",
+    "titre": "Merci à Imene Koulla pour cette mise en avant des projets déployés dans le cadre la Classe Défense",
+    "resume": "Imene Koulla a mis en avant les projets de la Classe Défense du lycée des métiers de l'Estaque, publié sur LinkedIn le 16 novembre 2025.",
+    "source": "https://fr.linkedin.com/posts/lyc%C3%A9e-des-m%C3%A9tiers-l-estaque_merci-%C3%A0-imene-koulla-pour-cette-mise-en-avant-activity-7395760320725696512-xPs6"
    }
   },
   "distinctions": [],
   "sources": [
+   "https://fr.linkedin.com/posts/lyc%C3%A9e-des-m%C3%A9tiers-l-estaque_merci-%C3%A0-imene-koulla-pour-cette-mise-en-avant-activity-7395760320725696512-xPs6",
    "https://www.youtube.com/watch?v=_cDvi54zbqU",
    "https://dossierappel.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=25048&typeBac=0&originePc=0",
-   "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-et-technologique-regional-lestaque/0130058T.html"
+   "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-et-technologique-regional-lestaque/0130058T.html",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10988338/fr/ia-dans-la-classe",
+   "https://fr.linkedin.com/posts/alexis-di-segna-892561178_classedefense-11novembre-activity-7395759923151863808-rWFN"
   ],
-  "resume": "En septembre 2023, le lycée des métiers de l’Estaque a signé (ou renouvelé) la convention de son atelier défense avec l’unité marraine 503e Régiment du train basé à Nîmes. Cette convention confirme le partenariat entre l’établissement et le régiment, garantissant la continuité des activités de formation et d’échanges dans le domaine de la défense. Aucun prix ou distinction n’a été signalé à ce jour."
+  "resume": "La classe Défense du lycée des Métiers de l’Estaque a été mise en avant le 16 novembre 2025 par Imène Koulla sur LinkedIn, qui a présenté les projets réalisés dans le cadre de l’atelier défense. Le lycée a renouvelé en septembre 2023 une convention avec l’unité marraine 503ᵉ Régiment du train (Nîmes), garantissant le partenariat pour cet atelier. Les classes défense ont également été mentionnées dans le post d’Alexis di Segna lors de la commémoration du 11 novembre."
  },
  "college-charles-de-gaulle-apt": {
   "date": "11/11/2026",
@@ -2542,7 +2562,7 @@ window.CDSG_WEB = {
   "sources": []
  },
  "college-grande-bastide-marseille-9e": {
-  "date": "11/11/2026",
+  "date": "14/11/2026",
   "nb": 10,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
