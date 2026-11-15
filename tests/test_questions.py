@@ -11,6 +11,32 @@ spec.loader.exec_module(app)
 
 
 class QuestionsTests(unittest.TestCase):
+    def test_memoire_ignore_les_faits_non_valides_et_sans_source(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / 'data').mkdir()
+            (root / 'data/memoire.json').write_text(json.dumps({'entrees': [
+                {'id': 'valide', 'statut': 'valide', 'verifie_le': '2026-11-15', 'texte': 'Fait sourcé', 'sources': [{'url': 'https://source.fr'}]},
+                {'id': 'proposition', 'statut': 'a_verifier', 'verifie_le': '2026-11-15', 'texte': 'NE PAS INCLURE', 'sources': [{'url': 'https://source.fr'}]},
+                {'id': 'sans-source', 'statut': 'valide', 'verifie_le': '2026-11-15', 'texte': 'NE PAS INCLURE', 'sources': []}
+            ]}))
+            with patch.object(app, 'RACINE', root):
+                result = app.contexte_memoire()
+            self.assertIn('Fait sourcé', result)
+            self.assertNotIn('NE PAS INCLURE', result)
+
+    def test_recherche_pdf_atteint_une_page_lointaine(self):
+        texte = '\f'.join(['Sommaire général.'] * 35 + ['Les subventions et le financement du transport sont étudiés ici.'])
+        result = app.passages_reference(texte, 'financement transport subventions')
+        self.assertIn('[Page PDF 36]', result)
+        self.assertIn('financement du transport', result)
+
+    def test_catalogue_oriente_vers_les_guides_et_sources_de_financement(self):
+        guides = app.references_question('memento vademecum créer une CDSG')
+        financements = app.references_question('aides financières subventions transport')
+        self.assertTrue(any('vade-mecum' in u for u in guides))
+        self.assertTrue(any('/6060/' in u for u in financements))
+
     def test_dedoublonnage_preserve_rangs_dates_sources_et_evenements_distincts(self):
         base = {'type': 'distinction', 'date': None, 'source': 'https://source.fr'}
         es = [{**base, 'titre': '5ᵉ Prix Départemental – Devoir Collectif'},
@@ -38,6 +64,7 @@ class QuestionsTests(unittest.TestCase):
         question = 'Combien d’unités militaires dans le Vaucluse ?'
         with tempfile.TemporaryDirectory() as tmp, \
                 patch.object(app, 'DOSSIER_REPONSES', Path(tmp)), \
+                patch.object(app, 'references_question', return_value=[]), \
                 patch.object(app, 'demander', side_effect=[{'requetes': ['unités Vaucluse site:defense.gouv.fr']}, 'Résultat à vérifier.\nFICHES: inconnu']), \
                 patch.object(app, 'recherche_web', return_value=['https://exemple.fr']) as search, \
                 patch.object(app, 'lire_page', return_value={'url': 'https://exemple.fr', 'titre': 'Unités', 'texte': 'a' * 200}), \
