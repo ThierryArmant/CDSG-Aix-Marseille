@@ -46,6 +46,7 @@ jobs:
           assert not r.get('erreur'), r.get('erreur')
           assert r.get('reponse'), 'Réponse absente'
           assert r.get('sources'), 'Aucune source web consultée'
+          assert not any('exa.ai/library/' in s['url'] for s in r['sources']), 'Annuaire synthétique utilisé comme source'
           print('Réponse produite avec', len(r['sources']), 'source(s) web.')
           PY
       - uses: actions/upload-artifact@v4
