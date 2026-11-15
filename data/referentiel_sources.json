@@ -1,0 +1,694 @@
+{
+  "version": 1,
+  "mise_a_jour": "2026-11-15",
+  "couverture": "Socle documentaire et répertoire de sources, non inventaire exhaustif national des parrainages ou des financements. Une source identifiée n’est pas un document déjà intégralement dépouillé.",
+  "sources": [
+    {
+      "id": "vademecum",
+      "titre": "Vade-mecum des classes de défense — DSNJ, 2022",
+      "url": "https://www.pedagogie.ac-aix-marseille.fr/upload/docs/application/pdf/2024-11/2022_np_sga-dsnj_vade-mecum-classe-de-defense.pdf",
+      "theme": "cadre_cdsg",
+      "mots_cles": [
+        "memento",
+        "vademecum",
+        "vade mecum",
+        "creer",
+        "classe defense",
+        "cdsg",
+        "partenariat",
+        "convention"
+      ],
+      "note": "Document officiel identifié. Ne pas le présenter comme une édition plus récente.",
+      "nature": "guide",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "eduscol-cdsg",
+      "titre": "Éduscol — CDSG et dispositifs d’éducation à la défense",
+      "url": "https://eduscol.education.gouv.fr/6078/actions-educatives-et-dispositifs-pedagogiques-d-education-la-defense-et-la-securite",
+      "theme": "cadre_cdsg",
+      "mots_cles": [
+        "cdsg",
+        "cadets",
+        "creer",
+        "partenaire",
+        "convention",
+        "cdcn"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "protocole2016",
+      "titre": "Protocole interministériel de 2016",
+      "url": "https://www.education.gouv.fr/bo/16/Hebdo26/MENE1600477X.htm",
+      "theme": "textes_officiels",
+      "mots_cles": [
+        "protocole",
+        "texte officiel",
+        "reglement",
+        "cadre legal"
+      ],
+      "note": "Version à confronter aux textes postérieurs.",
+      "nature": "texte_officiel",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "protocole2021",
+      "titre": "Développement des classes de défense — protocole de décembre 2021",
+      "url": "https://www.education.gouv.fr/signature-du-protocole-interministeriel-sur-le-developpement-des-classes-de-defense-et-de-securite-459723",
+      "theme": "textes_officiels",
+      "mots_cles": [
+        "protocole",
+        "texte officiel",
+        "classe defense",
+        "convention"
+      ],
+      "note": "Page de présentation ; consulter le texte lié pour une règle précise.",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "code-education",
+      "titre": "Code de l’éducation — L312-12",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006182404",
+      "theme": "textes_officiels",
+      "mots_cles": [
+        "loi",
+        "legal",
+        "obligation",
+        "code education",
+        "l312",
+        "reglement"
+      ],
+      "note": "Consulter la version en vigueur.",
+      "nature": "texte_officiel",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "convention2025",
+      "titre": "Convention générique classe de défense — janvier 2025",
+      "url": "https://www.defense.gouv.fr/sites/default/files/sga/convention%20g%C3%A9n%C3%A9rique%20classe%20de%20d%C3%A9fense%20janvier%202025.pdf",
+      "theme": "cadre_cdsg",
+      "mots_cles": [
+        "convention",
+        "signature",
+        "renouvellement",
+        "duree"
+      ],
+      "note": "Modèle, à distinguer des conventions signées localement.",
+      "nature": "modele",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "guide-cyber",
+      "titre": "Guide CDSG Cyber — août 2025",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/guide-cdsg-cyberpdf-113382.pdf",
+      "theme": "projets",
+      "mots_cles": [
+        "cyber",
+        "numerique",
+        "ia",
+        "enigma",
+        "informatique"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "guide-sante",
+      "titre": "Guide CDSG Soins et santé",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/guide-cdsg-soins-et-sante-130455.pdf",
+      "theme": "projets",
+      "mots_cles": [
+        "sante",
+        "ssa",
+        "soins",
+        "hopital",
+        "medecin"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "acteurs",
+      "titre": "Éduscol — acteurs de l’éducation à la défense",
+      "url": "https://eduscol.education.gouv.fr/6075/les-acteurs-de-l-education-la-defense",
+      "theme": "acteurs",
+      "mots_cles": [
+        "dmd",
+        "trinome",
+        "dsnj",
+        "dmca",
+        "csnj",
+        "ihedn",
+        "interlocuteur"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "trinome-aix",
+      "titre": "Trinôme académique d’Aix-Marseille — comité 2026",
+      "url": "https://www.ac-aix-marseille.fr/comite-de-pilotage-du-trinome-academique-d-aix-marseille-126378",
+      "theme": "aix_marseille",
+      "mots_cles": [
+        "aix",
+        "marseille",
+        "trinome",
+        "academie"
+      ],
+      "note": "Les chiffres de cette page sont un état daté, pas le total vivant du dossier.",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "otiad",
+      "titre": "Organisation territoriale interarmées de défense",
+      "url": "https://www.defense.gouv.fr/ema/qui-sommes-nous/organisation-territoriale-interarmees-defense",
+      "theme": "territoires",
+      "mots_cles": [
+        "otiad",
+        "zone defense",
+        "territoire",
+        "ogzds",
+        "emzds",
+        "sud",
+        "region"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "dmd-national",
+      "titre": "Annuaire national des délégations militaires départementales",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/dmd?page=5",
+      "theme": "annuaires",
+      "mots_cles": [
+        "dmd",
+        "delegation militaire",
+        "adresse",
+        "telephone",
+        "contacter"
+      ],
+      "note": "Liste paginée : ne pas traiter une page comme l’annuaire entier.",
+      "nature": "annuaire_dynamique",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "dmd84",
+      "titre": "DMD du Vaucluse — annuaire officiel",
+      "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/vaucluse/b34d2376-79b1-4c24-bb83-4776d8752691",
+      "theme": "annuaires",
+      "mots_cles": [
+        "dmd vaucluse",
+        "dmd 84",
+        "delegation militaire vaucluse",
+        "avignon"
+      ],
+      "note": "Coordonnées et responsables à revérifier à chaque réponse.",
+      "nature": "annuaire_dynamique",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "terre-unites",
+      "titre": "Unités et régiments de l’armée de Terre",
+      "url": "https://www.defense.gouv.fr/terre/unites-larmee-terre/nos-regiments",
+      "theme": "unites",
+      "mots_cles": [
+        "regiment",
+        "terre",
+        "brigade",
+        "corps armee",
+        "unite militaire"
+      ],
+      "note": "Une implantation ne prouve pas un parrainage CDSG.",
+      "nature": "annuaire_dynamique",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "legion",
+      "titre": "Régiments et unités de la Légion étrangère",
+      "url": "https://www.terre.defense.gouv.fr/legion-etrangere/qui-sommes-nous/regiments-unites-legion-etrangere",
+      "theme": "unites",
+      "mots_cles": [
+        "legion",
+        "reg",
+        "rec",
+        "rep",
+        "etranger"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "air-bases",
+      "titre": "Carte des bases aériennes",
+      "url": "https://www.defense.gouv.fr/air/mieux-nous-connaitre/carte-bases-aeriennes?page=1",
+      "theme": "unites",
+      "mots_cles": [
+        "air",
+        "base aerienne",
+        "escadre",
+        "escadron",
+        "aviateur"
+      ],
+      "note": "Carte paginée, non inventaire des unités marraines.",
+      "nature": "annuaire_dynamique",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "marine-forces",
+      "titre": "Organisation de la Marine nationale",
+      "url": "https://www.defense.gouv.fr/marine/mieux-nous-connaitre/notre-organisation",
+      "theme": "unites",
+      "mots_cles": [
+        "marine",
+        "mer",
+        "naval",
+        "fregate",
+        "fan",
+        "fost",
+        "fusilier",
+        "flottille"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "terre-livret",
+      "titre": "Présentation de l’armée de Terre — livret 2025",
+      "url": "https://www.defense.gouv.fr/sites/default/files/terre/livret-presentation-armee-de-terre-2025.pdf",
+      "theme": "jargon",
+      "mots_cles": [
+        "jargon",
+        "arme",
+        "armee",
+        "brigade",
+        "division",
+        "regiment",
+        "bataillon",
+        "compagnie",
+        "section",
+        "corps"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "grades-terre",
+      "titre": "Grades et appellations de l’armée de Terre",
+      "url": "https://www.defense.gouv.fr/terre/grades-larmee-terre",
+      "theme": "grades",
+      "mots_cles": [
+        "grade",
+        "galon",
+        "appellation",
+        "colonel",
+        "caporal",
+        "lieutenant",
+        "adjudant"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "grades-interarmees",
+      "titre": "Guide des commémorations — grades et galons des armées et de la gendarmerie, novembre 2026",
+      "url": "https://www.defense.gouv.fr/sites/default/files/chemins-memoire/20261104_SGA-DMCA_Guide_Commemorations_mode_d_emploi.pdf",
+      "theme": "grades",
+      "mots_cles": [
+        "grade",
+        "galon",
+        "marine",
+        "amiral",
+        "maitre",
+        "gendarme",
+        "protocole ceremonie",
+        "salut"
+      ],
+      "note": "Les insignes sont des images : consulter les planches originales pour identifier visuellement un galon.",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "grades-ssa",
+      "titre": "Grades et galons du Service de santé des armées",
+      "url": "https://www.defense.gouv.fr/sites/default/files/%5Bcurrent-user%3Afield_organism_entity%5D/Grades-et-galons-du-SSA.pdf",
+      "theme": "grades",
+      "mots_cles": [
+        "grade medecin",
+        "ssa",
+        "sante",
+        "pharmacien"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "financements",
+      "titre": "Éduscol — monter et financer des actions d’éducation à la défense",
+      "url": "https://eduscol.education.gouv.fr/6060/mettre-en-place-des-actions-educatives-la-defense",
+      "theme": "financements",
+      "mots_cles": [
+        "financ",
+        "aide",
+        "subvention",
+        "don",
+        "mecenat",
+        "transport",
+        "projet",
+        "prix",
+        "concours",
+        "dsnj",
+        "dmca",
+        "fnam",
+        "souvenir"
+      ],
+      "note": "Cadre des aides ; revérifier chaque appel et ses conditions. Ne pas promettre de financement.",
+      "nature": "guide_financement",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "dmca",
+      "titre": "Soutien aux projets mémoriels et d’éducation à la défense",
+      "url": "https://eduscol.education.gouv.fr/6051/soutien-du-ministere-des-armees-aux-projets-educatifs-lies-au-travail-de-memoire-ou-l-education-la-defense",
+      "theme": "financements",
+      "mots_cles": [
+        "dmca",
+        "cicp",
+        "subvention",
+        "memoire",
+        "financ"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "circulaire-subvention",
+      "titre": "Circulaire conjointe de soutien aux projets pédagogiques — 2017",
+      "url": "https://www.education.gouv.fr/bo/17/Hebdo7/MENE1702805C.htm?cid_bo=112919",
+      "theme": "textes_officiels",
+      "mots_cles": [
+        "subvention",
+        "circulaire",
+        "financ",
+        "cicp"
+      ],
+      "note": "Confronter aux instructions et formulaires actuels.",
+      "nature": "texte_officiel",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "sorties-guide",
+      "titre": "Guide des sorties et voyages scolaires du second degré — décembre 2025",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/guide-sorties-et-voyages-scolaires-second-degre-101619.pdf",
+      "theme": "financements",
+      "mots_cles": [
+        "don",
+        "mecenat",
+        "budget",
+        "transport",
+        "voyage",
+        "famille",
+        "financ",
+        "fse",
+        "mdl"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "sorties-circulaire",
+      "titre": "Organisation des sorties et voyages scolaires — circulaire juillet 2024",
+      "url": "https://www.education.gouv.fr/bo/2024/Hebdo30/MENE2407159C",
+      "theme": "textes_officiels",
+      "mots_cles": [
+        "voyage",
+        "sortie",
+        "autorisation",
+        "conseil administration",
+        "don",
+        "encadrement"
+      ],
+      "note": "Vérifier textes et guides plus récents avant conseil réglementaire.",
+      "nature": "texte_officiel",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "trousse",
+      "titre": "Trousse à projets — financement participatif scolaire",
+      "url": "https://eduscol.education.gouv.fr/6465/financez-vos-projets-avec-la-trousse-projets",
+      "theme": "financements",
+      "mots_cles": [
+        "don",
+        "collecte",
+        "financement participatif",
+        "trousse",
+        "mecenat"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "souvenir",
+      "titre": "Souvenir Français — espace pédagogique",
+      "url": "https://le-souvenir-francais.fr/espace-pedagogiques/",
+      "theme": "financements",
+      "mots_cles": [
+        "souvenir",
+        "voyage memoire",
+        "subvention",
+        "drapeau"
+      ],
+      "note": "Vérifier les modalités avec la délégation du département.",
+      "nature": "organisateur",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "cnrd",
+      "titre": "CNRD — participation et session en cours",
+      "url": "https://eduscol.education.gouv.fr/6390/participer-au-concours-national-de-la-resistance-et-de-la-deportation",
+      "theme": "concours",
+      "mots_cles": [
+        "cnrd",
+        "resistance",
+        "deportation",
+        "concours",
+        "prix"
+      ],
+      "note": "Thème, règlement et dates annuels à vérifier.",
+      "nature": "appel_annuel",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "bulles",
+      "titre": "Bulles de mémoire — ONaCVG",
+      "url": "https://eduscol.education.gouv.fr/6456/concours-bulles-de-memoire",
+      "theme": "concours",
+      "mots_cles": [
+        "bulles",
+        "bande dessinee",
+        "bd",
+        "concours"
+      ],
+      "note": "Session annuelle à vérifier.",
+      "nature": "appel_annuel",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "clemenceau",
+      "titre": "Concours Clemenceau",
+      "url": "https://eduscol.education.gouv.fr/6174/concours-clemenceau",
+      "theme": "concours",
+      "mots_cles": [
+        "clemenceau",
+        "police",
+        "gendarmerie",
+        "concours"
+      ],
+      "note": "Ne pas étendre sans vérification le public au-delà du règlement.",
+      "nature": "appel_annuel",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "pam",
+      "titre": "Petits artistes de la mémoire",
+      "url": "https://www.education.gouv.fr/les-petits-artistes-de-la-memoire-465699",
+      "theme": "concours",
+      "mots_cles": [
+        "petits artistes",
+        "primaire",
+        "cm1",
+        "cm2",
+        "concours"
+      ],
+      "note": "Concours du premier degré, pas une candidature collège automatique.",
+      "nature": "appel_annuel",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "quinio",
+      "titre": "Prix Louis Quinio — Union-IHEDN",
+      "url": "https://www.union-ihedn.org/ihedn-rayonner/",
+      "theme": "concours",
+      "mots_cles": [
+        "quinio",
+        "ihedn",
+        "trinome",
+        "prix"
+      ],
+      "note": "Vérifier le porteur de candidature, les règles et la session.",
+      "nature": "organisateur",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "paj",
+      "titre": "Prix Armées-Jeunesse — organisateur, édition 2026",
+      "url": "https://www.defense.gouv.fr/sga/actualites/prix-armees-jeunesse-2026-engagement-accru-jeunes-faveur-nation",
+      "theme": "concours",
+      "mots_cles": [
+        "armees jeunesse",
+        "paj",
+        "prix"
+      ],
+      "note": "Article de bilan 2026 : ce n’est pas un appel encore ouvert. Rechercher la session suivante.",
+      "nature": "bilan_date",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "gouverneur-sud",
+      "titre": "Prix du Gouverneur — exemple académique et périmètre zone Sud",
+      "url": "https://www.ac-aix-marseille.fr/le-1er-prix-du-gouverneur-decerne-a-la-classe-de-3eme-du-college-mallarme-de-marseille-122558",
+      "theme": "concours",
+      "mots_cles": [
+        "prix gouverneur",
+        "armees zone sud",
+        "prix zone sud",
+        "concours"
+      ],
+      "note": "Exemple antérieur ; règlement et appellation de la session en cours à vérifier.",
+      "nature": "bilan_date",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "lieux-photo",
+      "titre": "Concours et projets sur les lieux de mémoire",
+      "url": "https://eduscol.education.gouv.fr/6414/les-lieux-de-memoire",
+      "theme": "concours",
+      "mots_cles": [
+        "photographie",
+        "lieu memoire",
+        "concours",
+        "flamme egalite"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "ba115",
+      "titre": "BA 115 — implantation et composantes",
+      "url": "https://www.defense.gouv.fr/unites-du-defile-du-14-juillet-2025/14-juillet-2025-troupes-pied/14-juillet-2025-base-aerienne-115-capitaine",
+      "theme": "unites",
+      "mots_cles": [
+        "vaucluse",
+        "orange",
+        "ba 115",
+        "jonquieres",
+        "camaret"
+      ],
+      "note": "Ne pas confondre avec le site du 2e REG à Saint-Christol.",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "2reg",
+      "titre": "2e REG — Saint-Christol d’Albion",
+      "url": "https://www.defense.gouv.fr/terre/unites-larmee-terre/armes/genie/2e-regiment-etranger-genie",
+      "theme": "unites",
+      "mots_cles": [
+        "vaucluse",
+        "saint christol",
+        "albion",
+        "2e reg"
+      ],
+      "note": "",
+      "nature": "reference",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    }
+  ],
+  "chantiers": [
+    {
+      "theme": "memento_exact",
+      "etat": "vade_mecum_2022_identifie",
+      "reste": "Vérifier l’édition exacte du mémento souhaitée et les textes qui lui succèdent."
+    },
+    {
+      "theme": "unites_marraines_france",
+      "etat": "partiel",
+      "reste": "Construire les liens établissement ↔ unité par convention ou source académique datée ; ne pas les déduire de la seule implantation. Le dossier local reste la source opérationnelle Aix-Marseille."
+    },
+    {
+      "theme": "dmd_france",
+      "etat": "annuaire_officiel_connecte",
+      "reste": "Consulter les coordonnées actuelles par département ; ne pas figer noms et téléphones."
+    },
+    {
+      "theme": "financements_locaux",
+      "etat": "a_completer_par_territoire",
+      "reste": "Région, départements, communes, fondations et associations : éligibilité et appels annuels à contrôler."
+    }
+  ]
+}
