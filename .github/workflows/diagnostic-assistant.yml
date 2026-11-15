@@ -24,6 +24,7 @@ jobs:
       - name: Tests du branchement et des erreurs
         run: |
           node --check data/recherche.js
+          python -c "import json; from pathlib import Path; m=json.loads(Path('data/memoire.json').read_text()); assert len(m['entrees']) >= 7; assert json.loads(Path('data/referentiel_sources.json').read_text())['sources']"
           python -m unittest discover -s tests -v
           node --test tests/questions.test.cjs
       - name: Outils de lecture
