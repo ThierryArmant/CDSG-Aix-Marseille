@@ -217,6 +217,18 @@ window.CDSG_ACTUS = [
   "ville": "Marseille"
  },
  {
+  "date": "2026-10-13",
+  "type": "partenaire",
+  "titre": "Unité marraine",
+  "resume": "L'unité marraine de la classe défense du collège est la Légion étrangère.",
+  "source": "https://www.ledauphine.com/faits-divers-justice/2026/10/13/aubagne-la-garde-a-vue-du-collegien-prolongee-de-24-heures",
+  "image": "https://cdn-s-www.ledauphine.com/images/A904B81F-A76A-4E1D-A1EF-70FDA606E331/FB1200/photo-1791886745.jpg",
+  "site": "ledauphine.com",
+  "fiche": "college-lou-garlaban-aubagne",
+  "etab": "Collège Lou Garlaban",
+  "ville": "Aubagne"
+ },
+ {
   "date": "2026-10-02",
   "type": "sortie",
   "titre": "Matinée exceptionnelle Classe Défense",
@@ -272,18 +284,6 @@ window.CDSG_ACTUS = [
   "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-joseph-vernet-84.html",
   "image": null,
   "site": "letudiant.fr",
-  "fiche": "college-joseph-vernet-avignon",
-  "etab": "Collège Joseph Vernet",
-  "ville": "Avignon"
- },
- {
-  "date": "2026-10",
-  "type": "convention",
-  "titre": "Convention prête",
-  "resume": "La convention de la classe défense du Collège Joseph Vernet est prête depuis octobre 2026.",
-  "source": "https://www.journaldesfemmes.fr/maman/ecole/college-joseph-vernet/college-0840697B",
-  "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/07/15/avignon-festival-off-radio-broutage-au-college-vernet-avec-les-acteurs-sebastien-bouchet-et-sylvain-1752598842_b7f2efd692786abf2efd692787ff2ev_.jpg",
-  "site": "journaldesfemmes.fr",
   "fiche": "college-joseph-vernet-avignon",
   "etab": "Collège Joseph Vernet",
   "ville": "Avignon"

@@ -1,7 +1,7 @@
 // Résumés de la veille web — généré par recherche/recherche_web.py (détail : classes/<fiche>/veille.json)
 window.CDSG_WEB = {
  "college-jean-giono-orange": {
-  "date": "11/11/2026",
+  "date": "15/11/2026",
   "resume": "",
   "nb": 75,
   "derniere_activite": "2026-11-11",
@@ -349,15 +349,21 @@ window.CDSG_WEB = {
   "resume": "La classe défense du collège Les Gorguettes (Cassis) est parrainée depuis le 28 avril 2025 par le 1er Régiment Étranger de Cavalerie"
  },
  "lycee-frederic-mistral-avignon": {
-  "date": "11/11/2026",
-  "nb": 3,
+  "date": "15/11/2026",
+  "nb": 6,
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/4EC740E8-EC67-448F-8B59-EDA730A343F2/FB1200/photo-1764529145.jpg",
    "source": "https://www.ledauphine.com/education/2025/11/30/les-eleves-du-college-mistral-recoivent-leur-brevet",
    "manuel": false
   },
-  "derniere_activite": "2023-07",
+  "derniere_activite": "2026-05",
   "derniers": {
+   "distinction": {
+    "date": "2026-05",
+    "titre": "14e prix – rédaction d’un devoir individuel",
+    "resume": "Anaëlle Mayet, élève du lycée Frédéric Mistral d'Avignon, a reçu le 14e prix du concours de rédaction d’un devoir individuel en classe, catégorie première, en 2026.",
+    "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
+   },
    "convention": {
     "date": "2023-07",
     "titre": "Convention classe défense",
@@ -365,13 +371,45 @@ window.CDSG_WEB = {
     "source": "https://fr.wikipedia.org/wiki/Cit%C3%A9_scolaire_Fr%C3%A9d%C3%A9ric-Mistral"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2026-05",
+    "titre": "14e prix – rédaction d’un devoir individuel",
+    "resume": "Anaëlle Mayet, élève du lycée Frédéric Mistral d'Avignon, a reçu le 14e prix du concours de rédaction d’un devoir individuel en classe, catégorie première, en 2026.",
+    "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
+    ]
+   },
+   {
+    "date": "2026-05",
+    "titre": "12e prix – rédaction d’un devoir individuel",
+    "resume": "Norenn Moumen-Thanoon, élève du lycée Frédéric Mistral d'Avignon, a obtenu le 12e prix du même concours de rédaction d’un devoir individuel en classe, catégorie première, en 2026.",
+    "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
+    ]
+   },
+   {
+    "date": "2026-05",
+    "titre": "5e prix – rédaction d’un devoir individuel",
+    "resume": "Coralie Jorge, élève du lycée Frédéric Mistral d'Avignon, a été classée 5e au concours de rédaction d’un devoir individuel en classe, catégorie première, lors du palmarès 2026.",
+    "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
+    ]
+   }
+  ],
   "sources": [
+   "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
    "https://fr.wikipedia.org/wiki/Cit%C3%A9_scolaire_Fr%C3%A9d%C3%A9ric-Mistral",
    "https://www.ledauphine.com/education/2025/11/30/les-eleves-du-college-mistral-recoivent-leur-brevet",
    "https://www.ledauphine.com/education/2026/10/11/le-lycee-mistral-aureole-pour-son-ouverture-a-l-europe"
   ],
-  "resume": "En juillet 2023, la classe défense du lycée Frédéric‑Mistral d’Avignon a signé une convention avec l’unité DMD 84, qui agit comme marraine du dispositif. Aucun prix ni distinction n’est mentionné dans les éléments de veille. Le partenariat avec le DMD 84 constitue le fait marquant le plus récent pour la classe défense."
+  "resume": "La classe défense du lycée Frédéric‑Mistral d’Avignon, mise en place après la signature d’une convention en juillet 2023 avec l’unité DMD 84 qui en est la"
  },
  "mfr-de-lambesc-4e-lambesc": {
   "date": "12/11/2026",
@@ -678,14 +716,14 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-jean-zay-rousset": {
-  "date": "11/11/2026",
-  "nb": 19,
+  "date": "15/11/2026",
+  "nb": 25,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/06/16/des-quatriemes-motives-qui-ont-remporte-le-premier-du-concours-international-buzzons-contre-le-sexis-1781625979_b1758a093c2a6d5758a093c2ae9758v_.jpg",
    "source": "https://www.laprovence.com/article/region/1327539905566314/les-collegiens-de-rousset-distingues-pour-leur-projet-video-de-grande-lessive-pour-lutter-contre-le-sexisme",
    "manuel": false
   },
-  "derniere_activite": "2026-07-02",
+  "derniere_activite": "2026-11-13",
   "derniers": {
    "distinction": {
     "date": "2026-06-16",
@@ -700,10 +738,10 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/actu/en-direct/5759946/unss-2400-participants-au-cross-departemental-a-marignane.html"
    },
    "ceremonie": {
-    "date": "11-11",
-    "titre": "Porte-drapeau 11 novembre",
-    "resume": "Le 11 novembre, un ancien combattant remettra le drapeau à un élève du collège Jean Zay lors d’une cérémonie au Monument aux morts.",
-    "source": "https://www.facebook.com/villedecapbreton/posts/un-porte-drapeau-pour-le-college-jean-rostand-le-10-novembre-les-associations-d/1148968654027828"
+    "date": "2025-11-11",
+    "titre": "Cérémonie commémorative de l’Armistice 1918",
+    "resume": "Le 11 novembre 2025, une cérémonie d’Armistice a eu lieu sur la Place Paul Borde à Rousset, avec la participation de la Classe Défense du Collège Jean Zay aux côtés d’une délégation du Lycée Militaire d’Aix.",
+    "source": "https://ville-rousset13.fr/event/ceremonie-commemorative-de-larmistice-1918/"
    },
    "convention": {
     "date": "2025-12",
@@ -748,14 +786,14 @@ window.CDSG_WEB = {
    }
   ],
   "sources": [
+   "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/",
    "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/-La-classe-Defense-.html",
    "https://www.laprovence.com/article/region/1327539905566314/les-collegiens-de-rousset-distingues-pour-leur-projet-video-de-grande-lessive-pour-lutter-contre-le-sexisme",
    "https://ville-rousset13.fr/education-et-jeunesse/scolaire-periscolaire/etablissements-enseignement-secondaire/",
    "https://www.journaldesfemmes.fr/maman/ecole/college-jean-zay/college-0133451F",
+   "https://ville-rousset13.fr/event/ceremonie-commemorative-de-larmistice-1918/",
    "https://www.laprovence.com/actu/en-direct/5759946/unss-2400-participants-au-cross-departemental-a-marignane.html",
-   "https://www.laprovence.com/article/edition-vitrolles-marignane/3856685/des-collegiens-de-rousset-en-visite-a-airbus-helicopters.html",
-   "https://www.facebook.com/villedecapbreton/posts/un-porte-drapeau-pour-le-college-jean-rostand-le-10-novembre-les-associations-d/1148968654027828",
-   "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/Adminisration.html"
+   "https://www.laprovence.com/article/edition-vitrolles-marignane/3856685/des-collegiens-de-rousset-en-visite-a-airbus-helicopters.html"
   ],
   "resume": "La classe Défense du collège Jean Zay a publié son projet éducatif destiné aux élèves de 4e et 3e le 2 juillet 2026. Le 16 juin 2026, les élèves de 4e ont remporté le premier prix du concours vidéo international « Buzzons contre le sexisme » (catégorie jeunesse 10‑14 ans). L’unité marraine de la classe est le 1er Régiment Étranger d’Aubagne, avec une convention de partenariat réactualisée en décembre 2025."
  },
@@ -845,8 +883,8 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-francoise-dolto-saint-andiol": {
-  "date": "11/11/2026",
-  "nb": 10,
+  "date": "15/11/2026",
+  "nb": 19,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/02/09/forum-des-metiers-saint-andiol-1739109902_f05878a478a76455878a478a729587v_.jpg",
    "source": "https://www.laprovence.com/article/region/5596865884483414/a-saint-andiol-les-eleves-du-college-francoise-dolto-cherchent-leur-voie-au-forum-des-metiers",
@@ -877,6 +915,12 @@ window.CDSG_WEB = {
     "titre": "2025 [Défense] Sortie cohésion Martigues",
     "resume": "Un article publié le 15 octobre 2026 présente la sortie de cohésion 2025 de la classe Défense du collège Françoise Dolto à Martigues.",
     "source": "https://www.site.ac-aix-marseille.fr/clg-dolto/spip/2025-Defense-Sortie-cohesion-Martigues.html"
+   },
+   "projet": {
+    "date": "2017-04-20",
+    "titre": "Expositions de l'atelier défense sur les territoires d'outre-mer et le commando Kieffer",
+    "resume": "Les élèves de 3ème du collège Françoise Dolto, dans le cadre de l'atelier défense, ont réalisé deux expositions destinées à leurs camarades, portant sur les territoires d'outre‑mer oubliés et sur le commando Kieffer, en lien avec le programme d’histoire‑géographie.",
+    "source": "https://www.laprovence.com/article/edition-arles/4414489/une-semaine-citoyenne-et-solidaire-au-college-dolto.html"
    }
   },
   "distinctions": [
@@ -895,7 +939,11 @@ window.CDSG_WEB = {
    "https://www.site.ac-aix-marseille.fr/clg-dolto/spip/2025-Defense-Sortie-cohesion-Martigues.html",
    "https://www.laprovence.com/article/region/5596865884483414/a-saint-andiol-les-eleves-du-college-francoise-dolto-cherchent-leur-voie-au-forum-des-metiers",
    "https://www.instagram.com/college.francoise_dolto",
-   "https://fr.wikipedia.org/wiki/Classes_d%C3%A9fense_et_s%C3%A9curit%C3%A9_globale"
+   "https://www.site.ac-aix-marseille.fr/clg-dolto/spip/2023-05-Visite-chez-le-gouverneur-militaire-de-Marseille-au-chateau-Saint.html",
+   "https://www.site.ac-aix-marseille.fr/clg-dolto/spip/2022-05-Parcours-du-combattant-classe-Defense.html",
+   "https://fr.wikipedia.org/wiki/Classes_d%C3%A9fense_et_s%C3%A9curit%C3%A9_globale",
+   "https://www.laprovence.com/article/edition-arles/4414489/une-semaine-citoyenne-et-solidaire-au-college-dolto.html",
+   "https://www.laprovence.com/article/edition-arles/3881238/semaine-citoyenne-et-solidaire-au-college-dolto.html"
   ]
  },
  "college-jean-garcin-l-isle-sur-la-sorgue": {
@@ -952,7 +1000,7 @@ window.CDSG_WEB = {
   ]
  },
  "college-stephane-mallarme-marseille-13e": {
-  "date": "13/11/2026",
+  "date": "15/11/2026",
   "nb": 15,
   "photo": {
    "url": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
@@ -1502,20 +1550,20 @@ window.CDSG_WEB = {
   "resume": "Le 11 novembre 2025, les"
  },
  "college-lou-garlaban-aubagne": {
-  "date": "11/11/2026",
-  "nb": 14,
+  "date": "15/11/2026",
+  "nb": 30,
   "photo": {
-   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=399,trim.height=1013,trim.width=1800/media/hermes/20241112/20241112_1_2_5_1_1_obj29840528_1.jpg",
-   "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere",
+   "url": "https://cdn-s-www.ledauphine.com/images/A904B81F-A76A-4E1D-A1EF-70FDA606E331/FB1200/photo-1791886745.jpg",
+   "source": "https://www.ledauphine.com/faits-divers-justice/2026/10/13/aubagne-la-garde-a-vue-du-collegien-prolongee-de-24-heures",
    "manuel": false
   },
-  "derniere_activite": "2025-12",
+  "derniere_activite": "2026-10-13",
   "derniers": {
    "sortie": {
-    "date": null,
-    "titre": "Forums métiers sur les bases de Salon et Toulon",
-    "resume": "Dans le cadre de la classe Défense, les élèves ont assisté à des forums métiers organisés sur les bases militaires de Salon et Toulon.",
-    "source": "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/"
+    "date": "2025-05-16",
+    "titre": "Rencontre Police nationale – Plage du Prophète (Marseille)",
+    "resume": "Le 16 mai 2025, la classe Défense a rencontré la Police nationale sur la plage du Prophète à Marseille.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/spip.php?page=plan"
    },
    "ceremonie": {
     "date": null,
@@ -1535,20 +1583,29 @@ window.CDSG_WEB = {
     "resume": "L’article du 12 novembre 2024 annonce que le collège Lou Garlaban d’Aubagne ouvre la 51e classe défense de l’académie, en partenariat avec la Légion étrangère.",
     "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere"
    },
+   "rapport": {
+    "date": "2024-2025",
+    "titre": "Gabarit classe défense 2024‑2025",
+    "resume": "Le gabarit officiel de la classe défense pour l’année scolaire 2024‑2025 est disponible en PDF.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/Creation-d-une-classe-defense-au-college-Lou-Garlaban.html"
+   },
    "projet": {
-    "date": "2024-10",
-    "titre": "Mise en place du projet classe défense",
-    "resume": "En octobre 2024, le collège Lou Garlaban a conclu un accord avec la Légion étrangère afin de créer sa première classe défense, la 51e de l’académie.",
-    "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere"
+    "date": "2025",
+    "titre": "Ouverture de la 51e classe défense",
+    "resume": "En 2025, le collège Lou Garlaban a lancé sa 51e classe défense, destinée à faire connaître les enjeux et les métiers des armées.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/Creation-d-une-classe-defense-au-college-Lou-Garlaban.html"
    }
   },
   "distinctions": [],
   "sources": [
+   "https://www.ledauphine.com/faits-divers-justice/2026/10/13/aubagne-la-garde-a-vue-du-collegien-prolongee-de-24-heures",
    "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere",
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-lou-garlaban-13.html",
    "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/",
-   "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre/",
-   "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/"
+   "https://www.ledauphine.com/faits-divers-justice/2026/10/16/tirs-dans-un-college-a-aubagne-le-deuxieme-mineur-presente-a-un-juge-d-instruction",
+   "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/spip.php?page=plan",
+   "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/Creation-d-une-classe-defense-au-college-Lou-Garlaban.html",
+   "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre/"
   ],
   "resume": "Le collège Lou Garlaban d’Aubagne a ouvert en octobre‑novembre 2024 sa 51ᵉ classe défense, en partenariat avec la Légion étrangère. Depuis, les élèves ont effectué une immersion de deux jours au 1ᵉʳ Régiment étranger, participé à des forums métiers sur les bases de Salon et Toulon et pris part aux cérémonies commémoratives du 8 mai, 14 juillet, 21 août et 11 novembre. La convention liant le dispositif de classe défense à la"
  },
@@ -1753,15 +1810,21 @@ window.CDSG_WEB = {
   ]
  },
  "lycee-pierre-mendes-france-vitrolles": {
-  "date": "11/11/2026",
-  "nb": 4,
+  "date": "15/11/2026",
+  "nb": 7,
   "photo": {
-   "url": "https://www.upsti.fr/static/fav/mstile-310x310.png",
-   "source": "https://www.upsti.fr/etablissements/etablissement/295/",
+   "url": "https://feminisonslaeronautique.fr/wp-content/uploads/2022/05/Prix-Special-BD23-La-conquˆte-de-Luna-College-jean-Giono-dOrange-copie.jpg",
+   "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/",
    "manuel": false
   },
   "derniere_activite": "2024-12",
   "derniers": {
+   "distinction": {
+    "date": "2022-05-24",
+    "titre": "Prix spécial - Lycée Pierre Mendès France",
+    "resume": "Le lycée professionnel Pierre Mendès France de Vitrolles a reçu le prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le Collège Jean Giono d’Orange.",
+    "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
+   },
    "convention": {
     "date": "2024-12",
     "titre": "Signature / renouvellement de convention",
@@ -1769,12 +1832,25 @@ window.CDSG_WEB = {
     "source": "https://www.upsti.fr/etablissements/etablissement/295/"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2022-05-24",
+    "titre": "Prix spécial - Lycée Pierre Mendès France",
+    "resume": "Le lycée professionnel Pierre Mendès France de Vitrolles a reçu le prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le Collège Jean Giono d’Orange.",
+    "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/",
+    "verifie": "officielle",
+    "sources": [
+     "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
+    ]
+   }
+  ],
   "sources": [
    "https://www.upsti.fr/etablissements/etablissement/295/",
-   "https://www.youtube.com/watch?v=9FuNeBpxNM0"
+   "https://www.youtube.com/watch?v=9FuNeBpxNM0",
+   "https://view.genially.com/6079aca0095f400d4bcb7b2f",
+   "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
   ],
-  "resume": "En décembre 2024, le lycée Pierre Mendès‑France a signé (ou renouvelé) une convention pour sa classe défense avec l’unité marraine, le BA 125 d’Istres. Aucun prix ou distinction n’est mentionné dans les informations disponibles. Le BA 125 d’Istres constitue le principal partenaire de la classe défense."
+  "resume": "En décembre 2024, le lycée Pierre Mendès France a signé (ou renouvelé) une convention pour sa classe défense avec"
  },
  "lycee-l-emperi-salon-de-provence": {
   "date": "11/11/2026",
@@ -2562,8 +2638,8 @@ window.CDSG_WEB = {
   "sources": []
  },
  "college-grande-bastide-marseille-9e": {
-  "date": "14/11/2026",
-  "nb": 10,
+  "date": "15/11/2026",
+  "nb": 11,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
@@ -2682,28 +2758,59 @@ window.CDSG_WEB = {
   "resume": "Le 30 août 2026, le Collège Saint‑Louis d’Orange a ouvert une classe défense au sein du lycée. Cette création s’est faite en partenariat avec la Délégation militaire départementale. Aucun prix ou distinction n’a encore été attribué à cette classe."
  },
  "college-jean-jaures-peyrolles-en-provence": {
-  "date": "11/11/2026",
-  "nb": 3,
+  "date": "15/11/2026",
+  "nb": 7,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/04/29/olivier-fregeac-maire-de-peyrolles-et-president-du-grand-site-concors-sainte-victoire-maire-280125sd-1777465867_7165d289d07865565d289d0782965dv_.jpg",
    "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-jaures-13.html",
    "manuel": false
   },
-  "derniere_activite": "2022-09-09",
+  "derniere_activite": "2023-06",
   "derniers": {
+   "distinction": {
+    "date": "2023-06",
+    "titre": "2ème prix d'honneur des Armées Zone Sud",
+    "resume": "Le collège Jean Jaurès a reçu le 2ème prix d'honneur des Armées Zone Sud en juin 2023, distinction attribuée à la classe Défense ou à son projet.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/-Labels-concours-et-distinctions-.html"
+   },
+   "sortie": {
+    "date": null,
+    "titre": "Sortie de la 3° Défense à Toulon",
+    "resume": "La classe 3° Défense du collège a effectué une sortie à Toulon, en lien avec l’unité marraine FREMM Provence.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Sortie-de-la-3o-Defense-a-Toulon.html"
+   },
    "convention": {
     "date": "2022-09-09",
     "titre": "Signature de convention avec l'unité FREMM Provence (Toulon)",
     "resume": "Le collège Jean Jaurès a signé une convention le 9 septembre 2022 avec l’unité FREMM Provence de Toulon, marraine de la classe défense.",
     "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-jaures-13.html"
+   },
+   "article": {
+    "date": "2022-11-27",
+    "titre": "Article de Mme Nozais",
+    "resume": "Un article rédigé par Mme Nozais décrit la sortie de la classe défense à Toulon, publié le 27 novembre 2022.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Sortie-de-la-3o-Defense-a-Toulon.html"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2023-06",
+    "titre": "2ème prix d'honneur des Armées Zone Sud",
+    "resume": "Le collège Jean Jaurès a reçu le 2ème prix d'honneur des Armées Zone Sud en juin 2023, distinction attribuée à la classe Défense ou à son projet.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/-Labels-concours-et-distinctions-.html",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/-Labels-concours-et-distinctions-.html"
+    ]
+   }
+  ],
   "sources": [
+   "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/-Labels-concours-et-distinctions-.html",
+   "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Sortie-de-la-3o-Defense-a-Toulon.html",
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-jaures-13.html",
    "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/"
   ],
-  "resume": "Le 9 septembre 2022, le collège Jean Jaurès a signé une convention avec l’unité FREMM Provence de Toulon, qui agit comme marraine de la classe Défense. La classe de 3ᵉ Défense, intégrée aux EPI, s’appuie sur ce partenariat pour développer des activités pédagogiques liées à la défense. Aucun prix ou distinction n’a été signalé à ce jour."
+  "resume": "En juin 2023, la classe Défense du collège Jean Jaurès a reçu le 2ᵉ prix d’honneur des Armées Zone Sud. Intégrée aux EPI de 3ᵉ, elle a signé"
  },
  "college-les-garcins-briancon": {
   "date": "11/11/2026",

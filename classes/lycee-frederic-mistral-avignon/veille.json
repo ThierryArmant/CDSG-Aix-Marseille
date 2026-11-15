@@ -2,6 +2,39 @@
  "fiche": "lycee-frederic-mistral-avignon",
  "elements": [
   {
+   "type": "distinction",
+   "date": "2026-05",
+   "titre": "14e prix – rédaction d’un devoir individuel",
+   "extrait": "14e prix - Anaëlle MAYET - Frédéric Mistral, Avignon",
+   "resume": "Anaëlle Mayet, élève du lycée Frédéric Mistral d'Avignon, a reçu le 14e prix du concours de rédaction d’un devoir individuel en classe, catégorie première, en 2026.",
+   "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+   "page": "Palmarès_2026.pdf",
+   "site": "vaucluse.fr (PDF)",
+   "trouve_le": "2026-11-15"
+  },
+  {
+   "type": "distinction",
+   "date": "2026-05",
+   "titre": "12e prix – rédaction d’un devoir individuel",
+   "extrait": "12e prix - Norenn MOUMEN-THANOON - Frédéric Mistral, Avignon",
+   "resume": "Norenn Moumen-Thanoon, élève du lycée Frédéric Mistral d'Avignon, a obtenu le 12e prix du même concours de rédaction d’un devoir individuel en classe, catégorie première, en 2026.",
+   "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+   "page": "Palmarès_2026.pdf",
+   "site": "vaucluse.fr (PDF)",
+   "trouve_le": "2026-11-15"
+  },
+  {
+   "type": "distinction",
+   "date": "2026-05",
+   "titre": "5e prix – rédaction d’un devoir individuel",
+   "extrait": "5e prix - Coralie JORGE - Frédéric Mistral, Avignon",
+   "resume": "Coralie Jorge, élève du lycée Frédéric Mistral d'Avignon, a été classée 5e au concours de rédaction d’un devoir individuel en classe, catégorie première, lors du palmarès 2026.",
+   "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+   "page": "Palmarès_2026.pdf",
+   "site": "vaucluse.fr (PDF)",
+   "trouve_le": "2026-11-15"
+  },
+  {
    "type": "convention",
    "date": "2023-07",
    "titre": "Convention classe défense",
@@ -81,7 +114,8 @@
   "https://www.site.ac-aix-marseille.fr/clg-mistral-avignon/spip",
   "https://www.site.ac-aix-marseille.fr/lyc-mistral-avignon/",
   "https://www.site.ac-aix-marseille.fr/lyc-mistral-avignon/spip",
-  "https://www.site.ac-aix-marseille.fr/lyc-mistral-avignon/spip/Option-Theatre.html"
+  "https://www.site.ac-aix-marseille.fr/lyc-mistral-avignon/spip/Option-Theatre.html",
+  "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
  ],
  "etablissement": "Lycée Frédéric Mistral (Avignon)",
  "referents_cites": "M. Noique, M. Donnat",

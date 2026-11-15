@@ -2,6 +2,17 @@
  "fiche": "college-jean-zay-rousset",
  "elements": [
   {
+   "type": "autre",
+   "date": "2026-11-13",
+   "titre": "Classes défense en 4ème",
+   "extrait": "Classes défense en 4ème",
+   "resume": "Rubrique du site mentionnant les classes défense proposées aux élèves de 4ème.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/",
+   "page": "Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriqu",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-11"
+  },
+  {
    "type": "article",
    "date": "2026-07-02",
    "titre": "La classe Défense - Collège Jean Zay",
@@ -77,6 +88,18 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "ceremonie",
+   "date": "2025-11-11",
+   "titre": "Cérémonie commémorative de l’Armistice 1918",
+   "extrait": "Mardi 11 novembre 2025, à 11h30, Place Paul Borde, présence d’une délégation du Lycée Militaire d’Aix et de la Classe Défense du Collège Jean Zay",
+   "resume": "Le 11 novembre 2025, une cérémonie d’Armistice a eu lieu sur la Place Paul Borde à Rousset, avec la participation de la Classe Défense du Collège Jean Zay aux côtés d’une délégation du Lycée Militaire d’Aix.",
+   "source": "https://ville-rousset13.fr/event/ceremonie-commemorative-de-larmistice-1918/",
+   "page": "Cérémonie Commémorative de l’Armistice 1918, - Mairie de Rousset",
+   "site": "Mairie de Rousset",
+   "image": "https://ville-rousset13.fr/wp-content/uploads/2025/10/11-novembre-2021.jpg",
+   "trouve_le": "2026-11-15"
+  },
+  {
    "type": "sortie",
    "date": "2019-11-13",
    "titre": "Cross départemental UNSS à Marignane",
@@ -99,6 +122,30 @@
    "site": "laprovence.com",
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2016-03/2016-03-22/20160322_1_2_10_4_1_obj11319756_1.jpg",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2014-05-20",
+   "titre": "Matinée pédagogique au collège Jean‑Zay de Rousset",
+   "extrait": "La même matinée pédagogique sera organisée le mardi 20 mai à partir de 7 h 45 au collège Jean‑Zay de Rousset.",
+   "resume": "Le 20 mai 2014, une nouvelle matinée pédagogique sur la Résistance, la Déportation et le débarquement de Provence sera tenue au collège Jean‑Zay de Rousset, organisée par l'association Jean Zay en Provence.",
+   "source": "https://www.laprovence.com/article/edition-aix-pays-daix/2879405/des-temoins-de-lhistoire-face-aux-lyceens-de-fourcade.html",
+   "page": "Des témoins de l'histoire\nface aux lycéens de Fourcade",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2014-05/2014-05-16/20140516_1_2_1_2_1_obj6460493_1.jpg",
+   "trouve_le": "2026-11-15"
+  },
+  {
+   "type": "sortie",
+   "date": "2014-05-15",
+   "titre": "Matinée pédagogique « Résistance, Déportation et débarquement de Provence »",
+   "extrait": "Une matinée pédagogique a été organisée, hier, avec l'association Jean Zay, en présence de résistants et anciens combattants du débarquement de Provence.",
+   "resume": "Le 15 mai 2014, l'association Jean Zay en Provence a organisé une matinée pédagogique sur la Résistance, la Déportation et le débarquement de Provence, avec la participation de résistants et d'anciens combattants, pour les lycéens du lycée Marie‑Madeleine‑Fourcade.",
+   "source": "https://www.laprovence.com/article/edition-aix-pays-daix/2879405/des-temoins-de-lhistoire-face-aux-lyceens-de-fourcade.html",
+   "page": "Des témoins de l'histoire\nface aux lycéens de Fourcade",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2014-05/2014-05-16/20140516_1_2_1_2_1_obj6460493_1.jpg",
+   "trouve_le": "2026-11-15"
   },
   {
    "type": "ceremonie",
@@ -220,15 +267,37 @@
    "verifie": "presse"
   },
   {
+   "type": "ceremonie",
+   "date": null,
+   "titre": "La classe Défense commémore Lionel Hart",
+   "extrait": "La classe Défense commémore Lionel Hart",
+   "resume": "La classe Défense du collège Jean Zay organise une commémoration en hommage à Lionel Hart.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/spip.php?page=plan&tri_arts=sansnum+titre",
+   "page": "Plan du site Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-15"
+  },
+  {
    "type": "autre",
    "date": null,
-   "titre": "Classes défense en 4ème",
-   "extrait": "Classes défense en 4ème",
-   "resume": "Rubrique du site mentionnant les classes défense proposées aux élèves de 4ème.",
+   "titre": "Qu'est-ce que la classe défense ?",
+   "extrait": "Qu'est-ce que la classe défense ?",
+   "resume": "Page explicative du site présentant le fonctionnement et les objectifs de la classe Défense au collège.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/spip.php?page=plan&tri_arts=sansnum+titre",
+   "page": "Plan du site Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-15"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Projets Classes défense en 4ème",
+   "extrait": "Projets Classes défense en 4ème",
+   "resume": "Dans la section « Projets », le collège répertorie les « Classes défense en 4ème », confirmant la mise en place d’activités de défense pour ce niveau.",
    "source": "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/",
    "page": "Collège Jean ZayAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriqu",
    "site": "site.ac-aix-marseille.fr",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-15"
   }
  ],
  "recherches": [
@@ -241,15 +310,31 @@
    "date": "2026-11-11",
    "pages": 26,
    "nouveaux": 19
+  },
+  {
+   "date": "2026-11-15",
+   "pages": 26,
+   "nouveaux": 6
   }
  ],
  "exclus": [],
  "pages_lues": [
   "https://annuaire-education.fr/etablissement/rousset/college-jean-zay/0133451F.html",
+  "https://archives.rhone.fr/search/results?keyword=COLLEGE&mode=mosaic&resultsPerPage=80&target=controlledAccessSubject",
+  "https://arci-hdf.org/wp-content/uploads/2025/05/Rapport-dactivite-2024-ARCI-HdF_compressed.pdf",
+  "https://azana.mon-ent-occitanie.fr/vie-du-college/classe-defense-et-securite-globale/ceremonie-du-8-mai-au-cours-foucault-a-montauban-29882.htm?URL_BLOG_FILTRE=%238755",
+  "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/2014/05/21/rousset-une-journee-consacree-l-histoire-de-la-resistance-pour-des-collegiens-481575.html",
   "https://uat-cdn-s-www.ledauphine.com/elections/resultats/elections-europeennes-2019?commune=26362&bureau=0004",
   "https://uat-cdn-s-www.ledauphine.com/elections/resultats/elections-municipales-2020?commune=26362&bureau=0036",
   "https://ville-rousset13.fr/education-et-jeunesse/scolaire-periscolaire/etablissements-enseignement-secondaire",
+  "https://ville-rousset13.fr/education-et-jeunesse/scolaire-periscolaire/etablissements-enseignement-secondaire/",
+  "https://ville-rousset13.fr/event/ceremonie-commemorative-de-larmistice-1918/",
+  "https://www.bouches-du-rhone.gouv.fr/Actions-de-l-Etat/Vie-democratique/Les-elections/Les-elections-en-20242/Les-elections-municipales/Elections-municipales-et-communautaires-integrales-partielles-de-ROUSSET",
+  "https://www.bouches-du-rhone.gouv.fr/index.php/Actions-de-l-Etat/Marseille-en-Grand/Education/Ecoles",
+  "https://www.calameo.com/books/000024600c6f883f29901",
   "https://www.clg-rousset.ac-aix-marseille.fr/spip",
+  "https://www.clg-rousset.ac-aix-marseille.fr/spip/",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.facebook.com/groups/728061177238831/posts/27984016751216572",
   "https://www.facebook.com/groups/854603239257790",
   "https://www.facebook.com/groups/854603239257790/posts/1498825114835596",
@@ -258,21 +343,35 @@
   "https://www.facebook.com/mairiedelens/posts/r%C3%A9compensele-coll%C3%A8ge-jean-zay-de-lens-a-re%C3%A7u-un-prix-sp%C3%A9cial/1428568520620808?locale=fr_FR",
   "https://www.facebook.com/villedecapbreton/posts/un-porte-drapeau-pour-le-college-jean-rostand-le-10-novembre-les-associations-d/1148968654027828",
   "https://www.journaldesfemmes.fr/maman/ecole/college-jean-zay/college-0133451F",
+  "https://www.lamarseillaise.fr/societe/a-rousset-en-prelude-a-la-pantheonisation-de-jean-zay-CCLM039128",
+  "https://www.lanouvellerepublique.fr/indre-et-loire/les-acad-se-passent-bien-pour-l-indre-et-loire",
   "https://www.laprovence.com/actu/en-direct/5759946/unss-2400-participants-au-cross-departemental-a-marignane.html",
+  "https://www.laprovence.com/article/edition-ailleurs/2696558/hommage-a-jean-zay-ministre-du-front-populaire-assassine.html",
   "https://www.laprovence.com/article/edition-ailleurs/2715499/le-college-jean-zay-en-memoire-dun-humaniste-de-la-republique.html",
+  "https://www.laprovence.com/article/edition-ailleurs/4513652/le-nouveau-complexe-sportif-du-college-inaugure.html",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/2879405/des-temoins-de-lhistoire-face-aux-lyceens-de-fourcade.html",
   "https://www.laprovence.com/article/edition-vitrolles-marignane/3856685/des-collegiens-de-rousset-en-visite-a-airbus-helicopters.html",
   "https://www.laprovence.com/article/region/1327539905566314/les-collegiens-de-rousset-distingues-pour-leur-projet-video-de-grande-lessive-pour-lutter-contre-le-sexisme",
   "https://www.laprovence.com/article/societe/57912855743117/a-rousset-deux-classes-du-college-jean-zay-mobilisees-contre-les-stereotypes-de-genre-et-le-harcelement",
+  "https://www.ledauphine.com/actualite/2020/03/22/au-college-jean-zay-a-valence-la-crise-est-bien-geree",
   "https://www.ledauphine.com/archives/2025/28-05",
+  "https://www.ledauphine.com/drome/2019/04/08/tables-rondes-d-orientation-une-premiere-experience-reussie-a-jean-zay",
+  "https://www.ledauphine.com/drome/2019/08/29/j-3-avant-la-rentree-des-classes-les-derniers-preparatifs",
+  "https://www.ledauphine.com/education/2023/04/28/college-jean-zay-la-reorganisation-des-classes-a-horaire-amenage-inquiete-certains-parents",
+  "https://www.ledauphine.com/education/2023/05/06/classe-a-horaire-amenage-et-options-au-college-il-faudra-choisir",
   "https://www.ledauphine.com/elections/resultats/elections-municipales-2020?commune=26362&bureau=0016",
   "https://www.ledauphine.com/hautes-alpes/2018/05/16/les-basketteurs-en-tournoi",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-zay-05.html",
+  "https://www.lobservateur.fr/a-aulnoye-aymeries-le-lycee-p-m-curie-fait-decouvrir-la-maintenance-aux-collegiens-a-travers-un-concours/",
   "https://www.site.ac-aix-marseille.fr/clg-rousset/",
   "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/-La-classe-Defense-.html",
   "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/Adminisration.html",
-  "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/spip.php?page=plan"
+  "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/Les-nuits-de-la-Lecture.html",
+  "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/spip.php?page=plan",
+  "https://www.site.ac-aix-marseille.fr/clg-rousset/spip/spip.php?page=plan&tri_arts=sansnum+titre",
+  "https://zayvuzaylu.wixsite.com/zay-vu-zay-lu/fete-du-college"
  ],
  "etablissement": "Collège Jean Zay (Rousset)",
- "referents_cites": "Mme Chalabi, M. Divaret",
+ "referents_cites": "Valérie Thiebaut",
  "unite_citee": "1er RE (Aubagne)"
 }

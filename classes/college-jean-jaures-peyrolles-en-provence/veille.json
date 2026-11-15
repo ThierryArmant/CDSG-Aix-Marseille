@@ -2,6 +2,28 @@
  "fiche": "college-jean-jaures-peyrolles-en-provence",
  "elements": [
   {
+   "type": "distinction",
+   "date": "2023-06",
+   "titre": "2ème prix d'honneur des Armées Zone Sud",
+   "extrait": "2ème prix d'honneur des Armées Zone Sud pour le collège Jean Jaurès en juin 2023",
+   "resume": "Le collège Jean Jaurès a reçu le 2ème prix d'honneur des Armées Zone Sud en juin 2023, distinction attribuée à la classe Défense ou à son projet.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/-Labels-concours-et-distinctions-.html",
+   "page": "Labels, Prix et distinctions - Collège Olivier FrégeacAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les s",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-15"
+  },
+  {
+   "type": "article",
+   "date": "2022-11-27",
+   "titre": "Article de Mme Nozais",
+   "extrait": "Article de Mme Nozais (doc PDF)",
+   "resume": "Un article rédigé par Mme Nozais décrit la sortie de la classe défense à Toulon, publié le 27 novembre 2022.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Sortie-de-la-3o-Defense-a-Toulon.html",
+   "page": "Sortie de la 3° Défense à Toulon - Collège Olivier FrégeacAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer l",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-15"
+  },
+  {
    "type": "convention",
    "date": "2022-09-09",
    "titre": "Signature de convention avec l'unité FREMM Provence (Toulon)",
@@ -39,6 +61,28 @@
    "page": "Collège Olivier FrégeacAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-",
    "site": "site.ac-aix-marseille.fr",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": null,
+   "titre": "Sortie de la 3° Défense à Toulon",
+   "extrait": "Sortie de la 3° Défense à Toulon Publié le dimanche 27 novembre 2022 par admin",
+   "resume": "La classe 3° Défense du collège a effectué une sortie à Toulon, en lien avec l’unité marraine FREMM Provence.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Sortie-de-la-3o-Defense-a-Toulon.html",
+   "page": "Sortie de la 3° Défense à Toulon - Collège Olivier FrégeacAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer l",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-15"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Unité marraine : FREMM Provence (Toulon)",
+   "extrait": "Unité marraine citée : FREMM Provence (Toulon)",
+   "resume": "L’unité navale FREMM Provence, basée à Toulon, est désignée comme unité marraine de la classe défense du collège.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Sortie-de-la-3o-Defense-a-Toulon.html",
+   "page": "Sortie de la 3° Défense à Toulon - Collège Olivier FrégeacAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer l",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-15"
   }
  ],
  "recherches": [
@@ -51,15 +95,29 @@
    "date": "2026-11-11",
    "pages": 26,
    "nouveaux": 3
+  },
+  {
+   "date": "2026-11-15",
+   "pages": 26,
+   "nouveaux": 4
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://aor78.com/wp-content/uploads/2021/03/ID78-2021-02-V2.pdf",
   "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://acam.cristal-provence.fr/concours-internationaux/",
+  "https://bahncabdrolcomptopc.firebaseapp.com/2917197129.pdf",
+  "https://edencinemalaciotat.com/off/lumexplore-junior-un-pari-sur-lavenir/",
+  "https://lespetitsdebrouillardspaca.org/wp-content/uploads/2022/04/Les-Petits-Debrouillards-Rapport-dactivite-2020.pdf",
+  "https://mimix13mimix.wordpress.com/2015/01/18/contact-liens/",
   "https://tavily.com/knowledge/company/2HGPz1iAnptQ",
   "https://tavily.com/knowledge/company/ZQhnNqqI6J9l",
   "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre",
+  "https://www.cheminsdememoire.gouv.fr/fr/enseignement-secondaire",
+  "https://www.clg-jaures-peyrolles.ac-aix-marseille.fr/spip/",
   "https://www.defense.gouv.fr/gendarmerie",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.facebook.com/MartineVassalOfficiel/posts/aujourdhui-le-coll%C3%A8ge-de-peyrolles-en-provence-porte-d%C3%A9sormais-le-nom-dolivier-f/1634573331371714",
   "https://www.facebook.com/departement13/videos/%EF%B8%8F-voselusontvot%C3%A9sous-limpulsion-de-martine-vassal-et-de-vos-%C3%A9lus-4-rapports-phar/1728822811826277",
   "https://www.facebook.com/groups/359816797922779/posts/2172102900027484",
@@ -67,7 +125,13 @@
   "https://www.facebook.com/laprovence/posts/un-coll%C3%A8ge-de-peyrolles-en-provence-devrait-%C3%AAtre-renomm%C3%A9-par-le-conseil-d%C3%A9partem/1409473107890516",
   "https://www.facebook.com/p/Parents-Unis-Jean-Jaur%C3%A8s-100086214540960",
   "https://www.journaldesfemmes.fr/maman/ecole/college-jean-jaures/college-0131723C",
+  "https://www.ladepeche.fr/article/2009/01/02/515984-education-ceremonie-prestigieuse-jeunes-eleves-college-jean-jaures.html",
+  "https://www.ladepeche.fr/article/2012/04/05/1323988-maubourguet-engagement-citoyen-recompense-a-j-jaures.html",
+  "https://www.ladepeche.fr/article/2015/11/09/2213682-enfants-ecoles-laden-centre-chanteront-marseillaise-11-11.html",
+  "https://www.ladepeche.fr/article/2015/11/13/2215922-a-jean-jaures-des-eleves-tres-concentres-sur-l-armistice.html",
   "https://www.laprovence.com/actu/en-direct/5759946/unss-2400-participants-au-cross-departemental-a-marignane.html",
+  "https://www.laprovence.com/article/edition-aubagne-la-ciotat/1412290/a-jaures-et-lumiere-lexperience-freinet-a-4-ans.html",
+  "https://www.laprovence.com/article/edition-aubagne-la-ciotat/29660/le-nouveau-college-jaures-sinstalle-en-douceur.html",
   "https://www.laprovence.com/article/politique/9820599445225814/un-college-olivier-fregeac-du-nom-de-lancien-maire-disparu-bientot-inaugure-a-peyrolles",
   "https://www.laprovence.com/article/region/20398128504248/le-nom-de-l-ancien-maire-decede-de-peyrolles-en-provence-olivier-fregeac-inscrit-dans-l-avenir-des-collegiens",
   "https://www.laprovence.com/article/societe/1032101534670415/le-college-de-peyrolles-rebaptise-du-nom-de-lex-maire-olivier-fregeac",
@@ -75,14 +139,24 @@
   "https://www.ledauphine.com/archives/2018/29-09",
   "https://www.ledauphine.com/archives/2022/22-06",
   "https://www.ledauphine.com/archives/2024/16-10",
+  "https://www.ledauphine.com/d/decouvrez-les-meilleurs-colleges-de-votre-departement-0c0720da-7b33-4bd2-839a-cb2e74e3b521",
   "https://www.ledauphine.com/edition-gap-alpes-du-sud/2019/12/19/les-marseillais-qualifies-pour-la-finale",
+  "https://www.ledauphine.com/education/2023/03/29/palmares-des-colleges-decouvrez-les-performances-des-etablissements-de-votre-region",
   "https://www.ledauphine.com/sport/2022/11/25/les-matchs-championnat-regional-honneur",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-jaures-13.html",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/college-jean-jaures",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/college-jean-jaures/classes-de-college",
   "https://www.plus.transformation.gouv.fr/0131723c-college-jean-jaures",
+  "https://www.servicehistorique.sga.defense.gouv.fr/ark/1465369",
   "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/",
-  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip"
+  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/-Annee-2022-2023-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/-Labels-concours-et-distinctions-.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Representation-du-JJCC-a-Jouques-dans-le-cadre-du-Telethon-2022.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Resultats-et-photos-du-championnat-d-Academie-UNSS-d-Aviron.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jaures-peyrolles/spip/Sortie-de-la-3o-Defense-a-Toulon.html"
  ],
  "etablissement": "Collège Jean Jaurès (Peyrolles-en-Provence)",
- "referents_cites": "Mme Nozais",
+ "referents_cites": "Mme Nozais, Mmes Brunaux, Mmes Pluot",
  "unite_citee": "FREMM Provence (Toulon)"
 }
