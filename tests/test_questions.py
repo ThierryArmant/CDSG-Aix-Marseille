@@ -65,7 +65,7 @@ class QuestionsTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp, \
                 patch.object(app, 'DOSSIER_REPONSES', Path(tmp)), \
                 patch.object(app, 'references_question', return_value=[]), \
-                patch.object(app, 'demander', side_effect=[{'requetes': ['unités Vaucluse site:defense.gouv.fr']}, {'lacunes': [], 'requetes': []}, 'Résultat à vérifier.\nFICHES: inconnu']), \
+                patch.object(app, 'demander', side_effect=[{'suffisant': False}, {'requetes': ['unités Vaucluse site:defense.gouv.fr']}, {'lacunes': [], 'requetes': []}, 'Résultat à vérifier.\nFICHES: inconnu']), \
                 patch.object(app, 'recherche_web', return_value=['https://exemple.fr']) as search, \
                 patch.object(app, 'lire_page', return_value={'url': 'https://exemple.fr', 'titre': 'Unités', 'texte': 'a' * 200}), \
                 patch.object(app, 'fiches_citees') as enrichir, \
@@ -82,7 +82,7 @@ class QuestionsTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp, \
                 patch.object(app, 'DOSSIER_REPONSES', Path(tmp)), \
                 patch.object(app, 'references_question', return_value=[]), \
-                patch.object(app, 'demander', side_effect=[{'requetes': []},
+                patch.object(app, 'demander', side_effect=[{'suffisant': False}, {'requetes': []},
                     {'lacunes': ['Convention manquante'], 'requetes': ['convention officielle CDSG']},
                     'Convention confirmée [2].\nFICHES: ecole']), \
                 patch.object(app, 'recherche_web', side_effect=[['https://source.fr/a'], ['https://source.fr/b']]) as search, \
@@ -94,6 +94,20 @@ class QuestionsTests(unittest.TestCase):
             self.assertEqual(len(result['sources']), 2)
             self.assertEqual(result['fiches'], ['ecole'])
             self.assertEqual(result['recherche'][1]['pages_lues'], 1)
+
+    def test_bibliotheque_suffisante_ne_declenche_aucun_outil_web(self):
+        with tempfile.TemporaryDirectory() as tmp, \
+                patch.object(app, 'DOSSIER_REPONSES', Path(tmp)), \
+                patch.object(app, 'demander', return_value={'suffisant': True, 'reponse': 'Voici les concours du répertoire.', 'fiches': []}) as ia, \
+                patch.object(app, 'recherche_web') as search, \
+                patch.object(app, 'lire_page') as page, patch.object(app, 'lire_reference') as reference:
+            app.question_web('Quels concours donnent un prix ?', 'local', [], {})
+            search.assert_not_called()
+            page.assert_not_called()
+            reference.assert_not_called()
+            self.assertEqual(ia.call_count, 1)
+            result = json.loads((Path(tmp) / 'local.json').read_text())
+            self.assertEqual(result['recherche'][0]['etape'], 'bibliotheque_suffisante')
 
     def test_absence_de_cle_produit_un_resultat_explicite(self):
         with tempfile.TemporaryDirectory() as tmp, patch.object(app, 'DOSSIER_REPONSES', Path(tmp)), \
