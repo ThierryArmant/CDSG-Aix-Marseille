@@ -1173,7 +1173,7 @@ async function lancerQuestionWeb(){
     }catch(e){
       erreursLecture++; if(erreursLecture>=3){ txt.textContent="Impossible de récupérer la réponse : "+e.message+". Vérifiez la connexion animateur."; terminer(); return; }
     }
-    points=(points+1)%4; txt.textContent = "Recherche en cours sur le web"+".".repeat(points+1)+" ("+Math.round((Date.now()-debut)/1000)+" s)";
+    points=(points+1)%4; txt.textContent = "Consultation des fiches, puis du web si nécessaire"+".".repeat(points+1)+" ("+Math.round((Date.now()-debut)/1000)+" s)";
     setTimeout(attendre, 12000);
   };
   setTimeout(attendre, 15000);
