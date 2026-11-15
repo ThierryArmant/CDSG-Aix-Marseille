@@ -29,6 +29,7 @@ Chaque classe a son dossier `classes/<identifiant>/veille.json`. On y trouve, cu
 sorties, cérémonies, conventions, articles et rapports trouvés en ligne, avec la date, un court extrait et la source.
 Les **Observations** de la fiche et les encadrés « Dernière sortie / convention / article » en sont tirés.
 
+- **Questions** : le bouton **Chercher** utilise le service côté serveur dès que l’accès animateur est connecté (code d’accès ou jeton déjà configuré). Les clés Albert et des moteurs restent dans les secrets GitHub. Sans connexion, un message le signale ; la recherche par mots-clés ne vaut pas réponse IA. Les questions conservent leurs sources dans `data/reponses/` ; elles ne lancent pas l’enrichissement complet des fiches.
 - **Depuis une fiche** : bouton **Chercher en ligne** (on peut coller des liens d'articles à lire en priorité). Résultat en 3 à 6 minutes.
 - **Pour plusieurs fiches** : onglet **Actions → Recherche web → Run workflow** (`verifier`, `dormante`, `projet`, `active`, `toutes`).
 
