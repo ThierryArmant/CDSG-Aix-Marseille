@@ -1,0 +1,43 @@
+{
+ "question": "combien y a til d unite militaire en vaucluse",
+ "date": "2026-11-15T23:15",
+ "reponse": "**Réponse à l’inspecteur – Unités militaires implantées dans le Vaucluse (département 84)**  \n\n| Source | Information confirmée |\n|--------|-----------------------|\n| **[1] LPM 24‑30 – VAUCLUSE** (page « Principales implantations du ministère des Armées dans le département ») | • *Base aérienne 115* (Orange – ST‑Christol) hébergeant le **2ᵉ Régiment étranger de génie (2ᵉ REG)**.<br>• Le même document indique également un *Groupement de soutien de la base de défense* (Istres – Salon‑de‑Provence), mais il n’est pas précisé s’il s’agit d’une unité distincte ou d’un dispositif de soutien rattaché à la BA 115. |\n| **[2] Visite de la ministre des Armées au 2ᵉ REG** | Confirme la présence du **2ᵉ REG** à Saint‑Christol (Vaucluse). |\n\n**Ce qui peut être affirmé :**  \n\n- Le **2ᵉ Régiment étranger de génie** est la seule unité militaire explicitement identifiée comme implantée dans le Vaucluse par les sources institutionnelles consultées.  \n- Cette unité est logée à la **Base aérienne 115** (site : Orange / Saint‑Christol).  \n\n**Ce qui ne peut pas être affirmé :**  \n\n- Aucun autre chiffre global (ex. « X unités dans le Vaucluse ») n’est fourni par les documents consultés.  \n- Les fiches de classes défense (CDSG) mentionnent le 2ᵉ REG comme unité marraine de plusieurs établissements (ex. Collège Lou Garlaban, Collège Charles de Gaulle, etc.), mais la présence de l’unité dans le département ne dépend pas du département de l’établissement ; seule la source [1] confirme son implantation physique.  \n\n**Conclusion :**  \nSur la base des sources officielles disponibles, **une seule unité militaire (le 2ᵉ Régiment étranger de génie)",
+ "sources": [
+  {
+   "url": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/LPM%2024-30%20--%20VAUCLUSE.pdf",
+   "titre": "LPM 24-30 -- VAUCLUSE.pdf",
+   "site": "defense.gouv.fr (PDF)"
+  },
+  {
+   "url": "https://www.vaucluse.gouv.fr/Actualites/Salle-de-presse/Dossiers-de-presse/2019/Juillet-a-Decembre/VISITE-DE-LA-MINISTRE-DES-ARMEES-AU-2E-REGIMENT-ETRANGER-DE-GENIE-2E-REG-a-Saint-Christol-84",
+   "titre": "VISITE DE LA MINISTRE DES ARMÉES AU 2E RÉGIMENT ÉTRANGER DE GÉNIE (2E REG) à Saint-Christol (84)",
+   "site": "Les services de l'État en Vaucluse"
+  },
+  {
+   "url": "https://www.provence7.com/portails/armees/villes-militaires/",
+   "titre": "Villes Militaires de Provence | Provence 7",
+   "site": "Provence 7 | A Vivre, A Voir, A Visiter, A Connaître"
+  },
+  {
+   "url": "https://www.ledauphine.com/defense-guerre-conflit/2025/03/06/armee-decouvrez-les-unites-implantees-dans-nos-departements",
+   "titre": "Carte interactive. Armée : découvrez les unités implantées dans nos départements",
+   "site": "ledauphine.com"
+  },
+  {
+   "url": "https://www.echodumardi.com/dossier/defense-nationale-le-vaucluse-combien-de-divisions/",
+   "titre": "Défense nationale : Le Vaucluse combien de divisions ? - Dossier",
+   "site": "echodumardi.com"
+  },
+  {
+   "url": "https://www.insee.fr/fr/statistiques/8276681?sommaire=8276708",
+   "titre": "Département du Vaucluse − Le ministère des Armées dans les territoires alpins : 22 000 personnes et 11 000 emplois dépendent de la 27e brigade d’infan",
+   "site": "insee.fr"
+  },
+  {
+   "url": "https://www.insee.fr/fr/statistiques/fichier/8276708/ar_ind_16.pdf",
+   "titre": "ar_ind_16.pdf",
+   "site": "insee.fr (PDF)"
+  }
+ ],
+ "fiches": []
+}

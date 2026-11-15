@@ -23,19 +23,21 @@
    "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
    "site": "Fossa FM",
    "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
-   "trouve_le": "2026-11-11"
-  },
-  {
-   "type": "article",
-   "date": "2026-05-08",
-   "titre": "La Commémoration du 8 Mai 1945",
-   "extrait": "L’Option Défense du Collège André Malraux se compose cette année de 30 élèves de troisième et travaille avec des professionnels de la Défense.",
-   "resume": "Article publié le 8 mai 2026 présentant l’Option Défense du Collège André Malraux, son effectif, ses activités et ses partenaires.",
-   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
-   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
-   "site": "Fossa FM",
-   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
-   "trouve_le": "2026-11-12"
+   "trouve_le": "2026-11-11",
+   "variantes_fusionnees": [
+    {
+     "type": "article",
+     "date": "2026-05-08",
+     "titre": "La Commémoration du 8 Mai 1945",
+     "extrait": "L’Option Défense du Collège André Malraux se compose cette année de 30 élèves de troisième et travaille avec des professionnels de la Défense.",
+     "resume": "Article publié le 8 mai 2026 présentant l’Option Défense du Collège André Malraux, son effectif, ses activités et ses partenaires.",
+     "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+     "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+     "site": "Fossa FM",
+     "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+     "trouve_le": "2026-11-12"
+    }
+   ]
   },
   {
    "type": "sortie",
@@ -262,7 +264,22 @@
    "site": "Fossa FM",
    "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
    "trouve_le": "2026-11-11",
-   "verifie": "a_confirmer"
+   "verifie": "a_confirmer",
+   "variantes_fusionnees": [
+    {
+     "type": "distinction",
+     "date": null,
+     "titre": "5e Prix Départemental – Devoir Collectif (concours de la Résistance)",
+     "extrait": "Ils ont remporté le 5e Prix Départemental pour la catégorie « Devoir Collectif » au concours de la Résistance.",
+     "resume": "Les élèves de l’Option Défense ont reçu le 5e prix départemental du concours de la Résistance pour un devoir collectif.",
+     "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+     "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+     "site": "Fossa FM",
+     "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+     "trouve_le": "2026-11-12",
+     "verifie": "a_confirmer"
+    }
+   ]
   },
   {
    "type": "distinction",
@@ -275,7 +292,22 @@
    "site": "Fossa FM",
    "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
    "trouve_le": "2026-11-11",
-   "verifie": "a_confirmer"
+   "verifie": "a_confirmer",
+   "variantes_fusionnees": [
+    {
+     "type": "distinction",
+     "date": null,
+     "titre": "19e Prix Départemental – Devoir Individuel (concours de la Résistance)",
+     "extrait": "Ils ont remporté le 19e Prix Départemental dans la catégorie « Devoir Individuel » au concours de la Résistance.",
+     "resume": "Les élèves de l’Option Défense ont obtenu le 19e prix départemental du même concours pour un devoir individuel.",
+     "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+     "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
+     "site": "Fossa FM",
+     "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
+     "trouve_le": "2026-11-12",
+     "verifie": "a_confirmer"
+    }
+   ]
   },
   {
    "type": "partenaire",
@@ -323,32 +355,6 @@
    "page": "﻿Accueil",
    "site": "WPAM",
    "trouve_le": "2026-11-12"
-  },
-  {
-   "type": "distinction",
-   "date": null,
-   "titre": "5e Prix Départemental – Devoir Collectif (concours de la Résistance)",
-   "extrait": "Ils ont remporté le 5e Prix Départemental pour la catégorie « Devoir Collectif » au concours de la Résistance.",
-   "resume": "Les élèves de l’Option Défense ont reçu le 5e prix départemental du concours de la Résistance pour un devoir collectif.",
-   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
-   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
-   "site": "Fossa FM",
-   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
-   "trouve_le": "2026-11-12",
-   "verifie": "a_confirmer"
-  },
-  {
-   "type": "distinction",
-   "date": null,
-   "titre": "19e Prix Départemental – Devoir Individuel (concours de la Résistance)",
-   "extrait": "Ils ont remporté le 19e Prix Départemental dans la catégorie « Devoir Individuel » au concours de la Résistance.",
-   "resume": "Les élèves de l’Option Défense ont obtenu le 19e prix départemental du même concours pour un devoir individuel.",
-   "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
-   "page": "La Commémoration du 8 Mai 1945 - Fossa FM",
-   "site": "Fossa FM",
-   "image": "https://fossafm.com/wp-content/uploads/2026/05/Design-sans-titre48.png",
-   "trouve_le": "2026-11-12",
-   "verifie": "a_confirmer"
   }
  ],
  "recherches": [
