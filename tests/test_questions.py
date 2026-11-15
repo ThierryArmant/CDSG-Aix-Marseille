@@ -11,6 +11,29 @@ spec.loader.exec_module(app)
 
 
 class QuestionsTests(unittest.TestCase):
+    def test_dedoublonnage_preserve_rangs_dates_sources_et_evenements_distincts(self):
+        base = {'type': 'distinction', 'date': None, 'source': 'https://source.fr'}
+        es = [{**base, 'titre': '5ᵉ Prix Départemental – Devoir Collectif'},
+              {**base, 'titre': '5e Prix Départemental – Devoir Collectif (concours de la Résistance)'},
+              {**base, 'titre': '19e Prix Départemental – Devoir Individuel'},
+              {**base, 'titre': '5e Prix Départemental – Devoir Collectif', 'date': '2025'}]
+        result = app.elements_uniques(es)
+        self.assertEqual(len(result), 3)
+        self.assertEqual(len(result[0]['variantes_fusionnees']), 1)
+        self.assertEqual(len(es), 4)
+        self.assertNotEqual(app.cle_element({'type': 'sortie', 'date': '2025-01-01', 'titre': 'Visite A'}),
+                            app.cle_element({'type': 'sortie', 'date': '2025-01-01', 'titre': 'Visite B'}))
+
+    def test_extraction_refuse_une_citation_de_la_fiche_absente_de_la_page(self):
+        extraction = {'concerne': True, 'elements': [
+            {'type': 'convention', 'titre': 'Convention', 'extrait': 'Convention signée en juin 2024 avec le régiment'},
+            {'type': 'article', 'titre': 'Visite', 'extrait': 'Les élèves visitent la base aérienne'}]}
+        page = {'url': 'https://source.fr', 'titre': 'Visite', 'texte': 'Les élèves visitent la base aérienne.', 'image': 'photo.jpg'}
+        with patch.object(app, 'demander', return_value=extraction):
+            result = app.analyser_page({}, page)
+        self.assertEqual(len(result['elements']), 1)
+        self.assertEqual(result['elements'][0]['image_nature'], 'illustration_article')
+
     def test_question_conserve_le_perimetre_et_ne_lance_pas_la_veille(self):
         question = 'Combien d’unités militaires dans le Vaucluse ?'
         with tempfile.TemporaryDirectory() as tmp, \
