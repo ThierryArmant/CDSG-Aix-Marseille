@@ -1,0 +1,73 @@
+{
+ "question": "donne moi les concours qui permettent de recuperer un prix en numeraire",
+ "date": "2026-11-15T23:40",
+ "reponse": "Les seules sources qui mentionnent explicitement des concours avec un **prix en numéraire** sont la page [4] (« concours‑gagner‑argent ») ; les autres pages ([1]‑[3], [5]‑[8]) répertorient des lots matériels, des bons d’achat, des séjours ou des objets, mais ne précisent pas de remise d’argent.  \n\n- Page [4] : indique que le site recense des jeux‑concours dont le gain est de l’**argent** (ex. « concours‑gagner‑argent‑1.html »). Aucun détail de chaque concours (nom, montant, modalités) n’est fourni dans les extraits disponibles ; il n’est donc pas possible d’énumérer les concours individuels.  \n\nEn l’absence de listes détaillées, le total des concours à prix monétaire ne peut être établi. Seules les implantations confirmées sont : **page [4]** comme source de concours à prix en numéraire.",
+ "sources": [
+  {
+   "url": "https://mitspiel.fr/",
+   "titre": "Concours en France : concours actuels et vérifiés · Mitspiel",
+   "site": "Mitspiel"
+  },
+  {
+   "url": "https://winkad.fr/",
+   "titre": "Concours du jour — 15/11",
+   "site": "winkad.fr"
+  },
+  {
+   "url": "https://giveowl.com/c/fr/",
+   "titre": "Jeux-concours en France (novembre 2026) – GiveOwl",
+   "site": "GiveOwl"
+  },
+  {
+   "url": "https://www.ledemondujeu.com/concours-gagner-argent-1.html",
+   "titre": "LDDJ - Gagnez des bons d'achat et des chèques avec les jeux concours - page 1 - qualite",
+   "site": "ledemondujeu.com"
+  },
+  {
+   "url": "https://mitspiel.fr/concours-sans-newsletter",
+   "titre": "Concours sans newsletter en France · Mitspiel",
+   "site": "Mitspiel"
+  },
+  {
+   "url": "https://mitspiel.fr/concours/a-gagner-bons-d-achat-demeter-25565",
+   "titre": "Concours Demeter France 2026 : Bons d’achat Demeter · Mitspiel",
+   "site": "Mitspiel"
+  },
+  {
+   "url": "https://mitspiel.fr/magazine/gagner-un-bon-d-achat-ou-et-comment-participer",
+   "titre": "Gagner un bon d'achat : où et comment participer · Mitspiel",
+   "site": "Mitspiel"
+  },
+  {
+   "url": "https://giveowl.com/e/dearbball-orizon--dearbball-grand-jeu-black-friday-2026-voyage-de-2-000-aux-etats-unis--2026/",
+   "titre": "DearBBall : grand jeu Black Friday 2026 | GiveOwl",
+   "site": "GiveOwl"
+  }
+ ],
+ "fiches": [],
+ "recherche": [
+  {
+   "etape": "recherche_initiale",
+   "requetes": [
+    "donne moi les concours qui permettent de recuperer un prix en numeraire",
+    "concours prix en numéraire défense et sécurité France",
+    "liste concours éducatifs avec récompense monétaire"
+   ],
+   "pages_lues": 4
+  },
+  {
+   "etape": "verification_des_lacunes",
+   "lacunes": [
+    "Les sources fournies listent les concours en cours mais ne précisent pas, pour chacun, si le lot est un prix en numéraire (argent liquide) ou un bon d'achat, une carte cadeau ou un autre type de lot.",
+    "Aucun des documents cités ne propose de filtre ou de catégorie « Argent »/« Cash » permettant d’identifier directement les concours à prix monétaire.",
+    "Il manque une source officielle ou un agrégateur qui, à la date du 15‑nov‑2026, recense les concours dont le lot principal est un paiement en espèces (ex. « gain de X € en argent », « remise d’un chèque », etc.)."
+   ],
+   "requetes": [
+    "site:mitspiel.fr \"concours\" \"argent\" \"2026\" \"France\"",
+    "site:giveowl.com \"concours\" \"argent\" \"2026\" \"France\" \"prix en espèces\"",
+    "site:winkad.fr \"concours\" \"argent\" \"cash\" \"2026\" \"France\""
+   ],
+   "pages_lues": 4
+  }
+ ]
+}
