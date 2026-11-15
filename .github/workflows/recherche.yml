@@ -1,4 +1,5 @@
 name: Recherche web
+run-name: ${{ inputs.question != '' && format('Question IA · {0}', inputs.qid) || 'Recherche web' }}
 
 # Lancée depuis le site (bouton « Chercher en ligne »), à la main (onglet Actions), ou chaque nuit.
 # filtre « toutes » : les 89 fiches en parallèle (8 équipes), puis fusion des résultats.
@@ -63,7 +64,9 @@ jobs:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           MAX_REQUETES_FICHE: ${{ vars.MAX_REQUETES_FICHE }}
+          API_BASE_URL: ${{ vars.API_BASE_URL || 'https://albert.api.etalab.gouv.fr/v1' }}
           API_MODEL: ${{ vars.API_MODEL }}
+          MODELE_QUESTION: ${{ vars.MODELE_QUESTION }}
           MODELE_TRI: ${{ vars.MODELE_TRI }}
           MODELE_EXTRACTION: ${{ vars.MODELE_EXTRACTION }}
           MODELE_SYNTHESE: ${{ vars.MODELE_SYNTHESE }}
