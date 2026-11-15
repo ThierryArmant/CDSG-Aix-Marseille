@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "mise_a_jour": "2026-11-15",
+  "objet": "Repères documentaires de départ de l’assistant CDSG. Cette base n’est ni un annuaire exhaustif des armées ni un historique de conversations.",
+  "validation": "Seules les entrées au statut valide avec une source sont transmises au modèle. Une recherche ou une réponse IA ne valide jamais automatiquement un fait.",
+  "entrees": [
+    {
+      "id": "perimetre-dossier",
+      "statut": "valide",
+      "nature": "regle_du_projet",
+      "texte": "Le dossier porte sur les CDSG de l’académie d’Aix-Marseille : Bouches-du-Rhône (13), Vaucluse (84), Alpes-de-Haute-Provence (04), Hautes-Alpes (05). Les fiches décrivent les établissements et leurs partenaires, pas toutes les implantations militaires de ces départements.",
+      "sources": [{"titre": "Présentation du projet", "url": "https://github.com/ThierryArmant/CDSG-Aix-Marseille/blob/main/README.md"}],
+      "verifie_le": "2026-11-15"
+    },
+    {
+      "id": "definition-cdsg",
+      "statut": "valide",
+      "nature": "repere_institutionnel",
+      "texte": "Une CDSG est un projet pédagogique interdisciplinaire construit par une équipe d’établissement, avec une unité partenaire relevant de la défense ou de la sécurité. Elle peut réunir une classe ou un groupe d’élèves. Un partenaire peut être militaire, gendarme ou acteur de la sécurité ; tous les partenaires ne sont donc pas des unités militaires.",
+      "sources": [{"titre": "Éduscol — Classes de défense et de sécurité globales", "url": "https://eduscol.education.gouv.fr/6078/classes-de-defense-et-de-securite-globales-cadets"}],
+      "verifie_le": "2026-11-15"
+    },
+    {
+      "id": "statuts-du-suivi",
+      "statut": "valide",
+      "nature": "regle_du_projet",
+      "texte": "Dans ce dossier : active = classe signalée en fonctionnement avec convention ; dormante = en sommeil, abandonnée ou sans reprise ; projet = ouverture en préparation. Le marqueur à vérifier signale un suivi à confirmer et peut accompagner un statut. Ces catégories sont celles du tableau de suivi, pas une nouvelle définition réglementaire.",
+      "sources": [{"titre": "Champs des fiches et règles de suivi", "url": "https://github.com/ThierryArmant/CDSG-Aix-Marseille/blob/main/README.md"}],
+      "verifie_le": "2026-11-15"
+    },
+    {
+      "id": "vocabulaire-militaire",
+      "statut": "valide",
+      "nature": "regle_de_lecture",
+      "texte": "Distinguer unité marraine, site militaire, base, régiment, escadre et escadron. Plusieurs unités peuvent partager un site. Le département d’une CDSG n’établit pas l’implantation de son partenaire. Pour un comptage, donner le périmètre ; ne jamais additionner établissements, sites et sous-unités comme une seule catégorie.",
+      "sources": [{"titre": "Ministère des Armées — organisation de la BA 115", "url": "https://www.defense.gouv.fr/unites-du-defile-du-14-juillet-2025/14-juillet-2025-troupes-pied/14-juillet-2025-base-aerienne-115-capitaine"}],
+      "verifie_le": "2026-11-15"
+    },
+    {
+      "id": "implantation-ba115",
+      "statut": "valide",
+      "nature": "repere_geographique_non_exhaustif",
+      "texte": "La base aérienne 115 Capitaine de Seynes est implantée à Orange, Jonquières et Camaret dans le Vaucluse. Elle accueille plusieurs unités. Ce repère ne constitue pas un total des unités du département. Son organisation doit être revérifiée pour une réponse à date.",
+      "sources": [{"titre": "Ministère des Armées — BA 115", "url": "https://www.defense.gouv.fr/unites-du-defile-du-14-juillet-2025/14-juillet-2025-troupes-pied/14-juillet-2025-base-aerienne-115-capitaine"}],
+      "verifie_le": "2026-11-15"
+    },
+    {
+      "id": "implantation-2reg",
+      "statut": "valide",
+      "nature": "repere_geographique_non_exhaustif",
+      "texte": "Le 2e régiment étranger de génie (2e REG) est implanté à Saint-Christol d’Albion, dans le Vaucluse. Ne pas le confondre avec le 1er REG de Laudun-l’Ardoise, dans le Gard. Cette liste de repères n’est pas exhaustive.",
+      "sources": [
+        {"titre": "Ministère des Armées — 2e REG", "url": "https://www.defense.gouv.fr/terre/unites-larmee-terre/armes/genie/2e-regiment-etranger-genie"},
+        {"titre": "Armée de Terre — régiments de la Légion étrangère", "url": "https://www.terre.defense.gouv.fr/legion-etrangere/regiments-unites-legion-etrangere/regiments-metropole"}
+      ],
+      "verifie_le": "2026-11-15"
+    },
+    {
+      "id": "sources-et-doublons",
+      "statut": "valide",
+      "nature": "regle_du_projet",
+      "texte": "Un article peut décrire plusieurs activités, mais son image ne prouve pas chacune d’elles. Un prix recopié sur plusieurs pages reste le même prix s’il s’agit de la même édition, du même rang et de la même catégorie. Une réponse IA, un annuaire synthétique ou une recherche sans résultat ne suffisent pas à établir un total exhaustif ou l’absence d’une unité.",
+      "sources": [{"titre": "Journal de correction et validation des résultats", "url": "https://github.com/ThierryArmant/CDSG-Aix-Marseille/blob/main/docs/diagnostic_assistant_et_doublons_2026-11-15.md"}],
+      "verifie_le": "2026-11-15"
+    }
+  ]
+}
