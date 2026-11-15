@@ -29,3 +29,6 @@ Les fiches et conventions du dossier restent distinctes de la documentation nati
 ## Contrôles et limites
 Tests : filtrage de la mémoire non validée, orientation vers les guides, lecture d’une page PDF lointaine, recherche question, absence de clé, erreurs, doublons et citations issues réellement de la page.
 La mémoire est une base documentaire consultée, pas un réentraînement d’Albert ni la garantie de réponses infaillibles. Les coordonnées, responsables, rattachements et appels annuels doivent être recontrôlés sur leurs sources.
+
+## Test réel final
+Le diagnostic GitHub Actions 43769303557 a réussi avec les secrets serveur et la mémoire. La question sur le Vaucluse distingue maintenant la BA 115 (Orange, Jonquières, Camaret) du 2e REG (Saint-Christol), cite les sources institutionnelles et refuse de déduire un total exhaustif. Le vade-mecum 2022 a aussi été téléchargé et lu effectivement : passages ciblés retrouvés sur les pages PDF 17, 18, 31, 32 et 34. Huit tests Python et six tests JavaScript passent.
