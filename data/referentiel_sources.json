@@ -667,6 +667,76 @@
       "nature": "reference",
       "verifie_le": "2026-11-15",
       "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "pass-culture",
+      "titre": "Part collective du pass Culture / ADAGE",
+      "url": "https://eduscol.education.gouv.fr/6042/le-pass-culture-un-dispositif-collectif-pour-les-classes-et-individuel-pour-les-eleves",
+      "theme": "financements",
+      "mots_cles": [
+        "pass culture",
+        "Part collective du pass Culture / ADAGE"
+      ],
+      "note": "Modalités, public et session à vérifier auprès du porteur.",
+      "nature": "organisateur",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "cidan",
+      "titre": "Trophée Civisme et Défense",
+      "url": "https://cidan.org/trophee-c-d-2/",
+      "theme": "concours",
+      "mots_cles": [
+        "cidan",
+        "Trophée Civisme et Défense"
+      ],
+      "note": "Modalités, public et session à vérifier auprès du porteur.",
+      "nature": "organisateur",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "anmonm",
+      "titre": "Prix de l’Éducation citoyenne",
+      "url": "https://eduscol.education.gouv.fr/6111/l-association-nationale-des-membres-de-l-ordre-national-du-merite",
+      "theme": "concours",
+      "mots_cles": [
+        "anmonm",
+        "Prix de l’Éducation citoyenne"
+      ],
+      "note": "Modalités, public et session à vérifier auprès du porteur.",
+      "nature": "organisateur",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "colbert",
+      "titre": "Concours de chefs-d’œuvre Colbert",
+      "url": "https://www.fondationcolbert.fr/concours-de-chef-doeuvre/",
+      "theme": "concours",
+      "mots_cles": [
+        "colbert",
+        "Concours de chefs-d’œuvre Colbert"
+      ],
+      "note": "Modalités, public et session à vérifier auprès du porteur.",
+      "nature": "organisateur",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
+    },
+    {
+      "id": "villes-marraines",
+      "titre": "Concours national des Villes Marraines",
+      "url": "https://www.villes-marraines.org/presentation-concours",
+      "theme": "concours",
+      "mots_cles": [
+        "villes marraines",
+        "Concours national des Villes Marraines"
+      ],
+      "note": "Modalités, public et session à vérifier auprès du porteur.",
+      "nature": "organisateur",
+      "verifie_le": "2026-11-15",
+      "statut": "source_identifiee_contenu_a_consulter"
     }
   ],
   "chantiers": [
