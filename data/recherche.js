@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 60187)
-Total output lines: 3736
-
 // Résumés de la veille web — généré par recherche/recherche_web.py (détail : classes/<fiche>/veille.json)
 window.CDSG_WEB = {
  "college-jean-giono-orange": {
@@ -1357,7 +1354,953 @@ window.CDSG_WEB = {
     "source": "https://www.site.ac-aix-marseille.fr/clg-veil/spip/-La-classe-defense-.html"
    },
    "rapport": {
-    "date": "2023-06-2…15187 tokens truncated…94cd50e5c76d994cd50e5c7bd94cv_.jpg",
+    "date": "2023-06-26",
+    "titre": "Bilan de la première période",
+    "resume": "Compte‑rendu des activités de la première période, dont une visite de la base aérienne BA115 d’Orange le 10 novembre.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-veil/spip/-La-classe-defense-.html"
+   },
+   "projet": {
+    "date": "2023-06-26",
+    "titre": "Bleuet de France",
+    "resume": "Les élèves ont participé à la collecte du Bleuet de France, une action caritative au profit des anciens combattants.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-veil/spip/-La-classe-defense-.html"
+   }
+  },
+  "sources": [
+   "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+   "https://www.instagram.com/reel/DfhS43dKQFW",
+   "https://www.site.ac-aix-marseille.fr/clg-veil/spip/-La-classe-defense-.html",
+   "https://vis-ma-classe.fr/etablissement/13832-chateaurenard/college-saint-joseph-0131366p",
+   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-prive-saint-joseph-13-1.html",
+   "https://www.facebook.com/saintjo/videos/les-%C3%A9l%C3%A8ves-de-la-future-classe-d%C3%A9fense-qui-verra-le-jour-officiellement-en-septe/1306202900274979",
+   "https://www.instagram.com/p/DaQOijLjKdG",
+   "https://www.laprovence.com/article/edition-arles/3871809/les-collegiens-de-saint-joseph-ont-planche-pour-le-jeu-concours-national-de-francais-defimots.html"
+  ],
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2013-10/2013-10-20/20131020_1_2_7_6_1_obj4998334_1.jpg",
+   "source": "https://www.laprovence.com/article/edition-arles/2585417/les-collegiens-de-saint-joseph-vont-plancher-sur-la-liberation.html",
+   "manuel": false
+  },
+  "distinctions": [
+   {
+    "date": "2013",
+    "titre": "Prix d'encouragement au principal",
+    "resume": "Lors de la visite du 20/10/2013, le principal Jean‑Jacques Ayme a reçu un Prix d'encouragement pour la participation du collège à l’édition 2013 du concours de la Résistance et de la Déportation.",
+    "source": "https://www.laprovence.com/article/edition-arles/2585417/les-collegiens-de-saint-joseph-vont-plancher-sur-la-liberation.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-arles/2585417/les-collegiens-de-saint-joseph-vont-plancher-sur-la-liberation.html"
+    ]
+   }
+  ]
+ },
+ "college-collines-durance-mallemort": {
+  "date": "11/11/2026",
+  "nb": 4,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=0,trim.height=534,trim.width=950/media/hermes/20240903/20240903_1_2_3_1_1_obj29669154_1.jpg",
+   "source": "https://www.laprovence.com/article/region/1703869161308715/a-mallemort-municipalite-et-parents-deleves-cherchent-une-solution-pour-le-periscolaire",
+   "manuel": false
+  },
+  "derniere_activite": "2024-09-03",
+  "derniers": {
+   "sortie": {
+    "date": "2023-12-02",
+    "titre": "Visite du 25e régiment du génie de l'air",
+    "resume": "La classe de 3e défense du Collège Collines Durance a reçu le 25e régiment du génie de l'air (RGA) d'Istres, permettant aux élèves d’échanger sur les missions et le quotidien des militaires.",
+    "source": "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance"
+   },
+   "convention": {
+    "date": "2023-12-02",
+    "titre": "Signature d’une convention avec le 25e RGA",
+    "resume": "Le collège a officialisé son partenariat avec le 25e régiment du génie de l'air en signant une convention, cadre de l’activité de la classe défense.",
+    "source": "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.laprovence.com/article/region/1703869161308715/a-mallemort-municipalite-et-parents-deleves-cherchent-une-solution-pour-le-periscolaire",
+   "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance"
+  ],
+  "resume": "Le Collège Collines‑Durance de Mallemort maintient sa classe défense, comme le confirme un article du 3 septembre 2024. En décembre 2023, les élèves de 3e défense ont accueilli le 25e régiment du génie de l’air d’Istres, suite à la signature d’une convention de partenariat avec cette unité. Parmi les faits marquants, la classe a également réalisé une sortie à Berlin en 2022 dans le cadre de ses échanges avec le même régiment."
+ },
+ "college-clair-soleil-marseille-14e": {
+  "date": "14/11/2026",
+  "nb": 2,
+  "photo": null,
+  "derniere_activite": "2025-05-15",
+  "derniers": {
+   "sortie": {
+    "date": "2025-05-15",
+    "titre": "Invitation de la promotion 2024/2025 au Sénat",
+    "resume": "Le 15 mai 2025, Valérie Boyer a invité la promotion 2024/2025 de la Classe Défense du collège Stéphane Mallarmé au Sénat.",
+    "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   },
+   "convention": {
+    "date": "2018",
+    "titre": "Parrainage de la Classe Défense",
+    "resume": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé est parrainée par les Marins Pompiers de Marseille.",
+    "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+  ],
+  "resume": "Le 15 mai 2025, la promotion 2024/2025 de la Classe Défense du collège Stéphane Mallarmé a été invitée par Valérie Boyer au Sénat. Depuis 2018, la classe est parrainée par les Marins Pompiers de Marseille, aucun prix ou distinction n’étant mentionné dans les éléments de veille."
+ },
+ "lycee-d-ormesson-chateaurenard": {
+  "date": "11/11/2026",
+  "resume": "Le 28 mars 2025, le président de la Région PACA, R",
+  "photo": {
+   "url": "https://www.ici.fr/pikapi/images/8d6b5504-accc-4155-93ee-173ce2c669b2/1200x630?webp=false",
+   "source": "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480",
+   "manuel": false
+  },
+  "nb": 3,
+  "derniere_activite": "2025-05-16",
+  "derniers": {
+   "convention": {
+    "date": "2025-03-28",
+    "titre": "Reconduction de l'expérimentation de la tenue unique",
+    "resume": "L’État et la Région confirment la poursuite de l’expérimentation de la tenue unique au lycée d’Ormesson pour une année supplémentaire, malgré le retrait initial de l’État.",
+    "source": "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480"
+   },
+   "projet": {
+    "date": "2025-03-28",
+    "titre": "Lancement de l'Agora Défense",
+    "resume": "Le président de la Région PACA, Renaud Muselier, a présenté le projet Agora Défense, visant à promouvoir la défense et l'économie de guerre, en mentionnant le lycée d'Ormesson dans le cadre de la tenue unique.",
+    "source": "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480"
+   }
+  },
+  "sources": [
+   "https://www.laprovence.com/article/societe/15336635642311/port-de-l-uniforme-au-lycee-de-chateaurenard-des-eleves-en-desaccord-avec-l-experimentation",
+   "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480"
+  ],
+  "distinctions": []
+ },
+ "college-jean-giono-manosque": {
+  "date": "11/11/2026",
+  "nb": 11,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/11/11/les-classes-cdsg-du-college-giono-ont-participe-a-la-ceremonie-aux-monuments-aux-morts-1762883413_43f850c843196d7f850c843197cf85v_.jpg",
+   "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+   "manuel": false
+  },
+  "derniere_activite": "2025-11-11",
+  "derniers": {
+   "distinction": {
+    "date": "2025",
+    "titre": "Prix national Louis Quinio",
+    "resume": "En 2025, les élèves de la classe défense du Collège Jean Giono ont reçu le prix national Louis Quinio décerné par l'IHEDN, première fois attribué à cet établissement.",
+    "source": "https://www.facebook.com/nonauharcelementalecole/posts/prix-cycle-3-bravo-au-coll%C3%A8ge-jean-giono-de-lacad%C3%A9mie-de-nice-nonauharcelement/3148014958609454"
+   },
+   "sortie": {
+    "date": "2018",
+    "titre": "Visite des chasseurs alpins à Gap",
+    "resume": "Les élèves de la classe défense ont visité les chasseurs alpins à Gap en 2018.",
+    "source": "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html"
+   },
+   "ceremonie": {
+    "date": "2025-11-11",
+    "titre": "Cérémonie du 11‑novembre 2025 à Orange",
+    "resume": "Les élèves de 4e et 3e CDSG du collège Jean‑Giono d’Orange ont assisté à la cérémonie du 11 novembre 2025 au cimetière Saint‑Clément, en présence de civils, militaires et associations d’anciens combattants.",
+    "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus"
+   },
+   "article": {
+    "date": "2025-11-11",
+    "titre": "11‑Novembre : les élèves du collège Jean‑Giono d’Orange rendent hommage aux Poilus",
+    "resume": "Publication du 11 novembre 2025 relatant la participation des élèves de CDSG du collège Jean‑Giono à la cérémonie du 11‑Novembre à Orange.",
+    "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus"
+   },
+   "projet": {
+    "date": "2025-11-11",
+    "titre": "Projet avec le Souvenir français",
+    "resume": "Les élèves de CDSG du collège Jean‑Giono ont mené un projet de mémoire en collaboration avec le Souvenir français et Jean‑Claude Tibere‑Inglesse.",
+    "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2025",
+    "titre": "Prix national Louis Quinio",
+    "resume": "En 2025, les élèves de la classe défense du Collège Jean Giono ont reçu le prix national Louis Quinio décerné par l'IHEDN, première fois attribué à cet établissement.",
+    "source": "https://www.facebook.com/nonauharcelementalecole/posts/prix-cycle-3-bravo-au-coll%C3%A8ge-jean-giono-de-lacad%C3%A9mie-de-nice-nonauharcelement/3148014958609454",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://www.facebook.com/nonauharcelementalecole/posts/prix-cycle-3-bravo-au-coll%C3%A8ge-jean-giono-de-lacad%C3%A9mie-de-nice-nonauharcelement/3148014958609454"
+    ]
+   },
+   {
+    "date": "2022-03-02",
+    "titre": "Remise du drapeau de la 2e DB du général Leclerc",
+    "resume": "Le 2 mars 2022, l’association de la 2e division blindée a remis le drapeau de la 2e DB du général Leclerc aux élèves de CDSG du collège Jean‑Giono, au nom de Pierre Retzignac.",
+    "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
+   "https://www.facebook.com/nonauharcelementalecole/posts/prix-cycle-3-bravo-au-coll%C3%A8ge-jean-giono-de-lacad%C3%A9mie-de-nice-nonauharcelement/3148014958609454",
+   "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html"
+  ],
+  "resume": "Le 11 novembre 2025, les"
+ },
+ "college-lou-garlaban-aubagne": {
+  "date": "15/11/2026",
+  "nb": 30,
+  "photo": {
+   "url": "https://cdn-s-www.ledauphine.com/images/A904B81F-A76A-4E1D-A1EF-70FDA606E331/FB1200/photo-1791886745.jpg",
+   "source": "https://www.ledauphine.com/faits-divers-justice/2026/10/13/aubagne-la-garde-a-vue-du-collegien-prolongee-de-24-heures",
+   "manuel": false
+  },
+  "derniere_activite": "2026-10-13",
+  "derniers": {
+   "sortie": {
+    "date": "2025-05-16",
+    "titre": "Rencontre Police nationale – Plage du Prophète (Marseille)",
+    "resume": "Le 16 mai 2025, la classe Défense a rencontré la Police nationale sur la plage du Prophète à Marseille.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/spip.php?page=plan"
+   },
+   "ceremonie": {
+    "date": null,
+    "titre": "Participation à la cérémonie du 11 novembre",
+    "resume": "Les élèves de la classe Défense ont pris part à la cérémonie nationale du 11 novembre, rappelant le devoir de mémoire.",
+    "source": "https://www.aubagne.fr/actualite/aubagne-au-coeur-du-lien-armee-nation/"
+   },
+   "convention": {
+    "date": "2025-12",
+    "titre": "Convention réactualisée avec la Légion étrangère",
+    "resume": "Le collège a actualisé en décembre 2025 la convention liant l’établissement à la Légion étrangère pour le dispositif de classe défense.",
+    "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere"
+   },
+   "article": {
+    "date": "2024-11-12",
+    "titre": "Ouverture d'une classe défense à Lou Garlaban",
+    "resume": "L’article du 12 novembre 2024 annonce que le collège Lou Garlaban d’Aubagne ouvre la 51e classe défense de l’académie, en partenariat avec la Légion étrangère.",
+    "source": "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere"
+   },
+   "rapport": {
+    "date": "2024-2025",
+    "titre": "Gabarit classe défense 2024‑2025",
+    "resume": "Le gabarit officiel de la classe défense pour l’année scolaire 2024‑2025 est disponible en PDF.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/Creation-d-une-classe-defense-au-college-Lou-Garlaban.html"
+   },
+   "projet": {
+    "date": "2025",
+    "titre": "Ouverture de la 51e classe défense",
+    "resume": "En 2025, le collège Lou Garlaban a lancé sa 51e classe défense, destinée à faire connaître les enjeux et les métiers des armées.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/Creation-d-une-classe-defense-au-college-Lou-Garlaban.html"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.ledauphine.com/faits-divers-justice/2026/10/13/aubagne-la-garde-a-vue-du-collegien-prolongee-de-24-heures",
+   "https://www.laprovence.com/article/region/7636921865622/a-aubagne-le-college-lou-garlaban-ouvre-une-classe-defense-en-partenariat-avec-la-legion-etrangere",
+   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-lou-garlaban-13.html",
+   "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/",
+   "https://www.ledauphine.com/faits-divers-justice/2026/10/16/tirs-dans-un-college-a-aubagne-le-deuxieme-mineur-presente-a-un-juge-d-instruction",
+   "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/spip.php?page=plan",
+   "https://www.site.ac-aix-marseille.fr/clg-garlaban/spip/Creation-d-une-classe-defense-au-college-Lou-Garlaban.html",
+   "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre/"
+  ],
+  "resume": "Le collège Lou Garlaban d’Aubagne a ouvert en octobre‑novembre 2024 sa 51ᵉ classe défense, en partenariat avec la Légion étrangère. Depuis, les élèves ont effectué une immersion de deux jours au 1ᵉʳ Régiment étranger, participé à des forums métiers sur les bases de Salon et Toulon et pris part aux cérémonies commémoratives du 8 mai, 14 juillet, 21 août et 11 novembre. La convention liant le dispositif de classe défense à la"
+ },
+ "college-marcel-pagnol-pertuis": {
+  "date": "11/11/2026",
+  "nb": 7,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/09/en-amont-de-la-grande-fete-danniversaire-la-college-marcel-pagnol-a-inaugure-lexposition-passeurs-de-1749479413_3bc33ad6e64864fc33ad6e64823d33v_.jpg",
+   "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+   "manuel": false
+  },
+  "derniere_activite": "2025-06-09",
+  "derniers": {
+   "distinction": {
+    "date": null,
+    "titre": "Remise du drapeau de l'ACPG-CATM",
+    "resume": "Le maire de Pertuis a assisté à la remise du drapeau de l'ACPG-CATM au collège Marcel Pagnol, honorant Lidia Llario comme porte-drapeau de l’établissement.",
+    "source": "https://www.facebook.com/Ville.de.Pertuis/posts/-pertuis-ville-solidairece-matin-le-maire-de-pertuis-%C3%A9tait-pr%C3%A9sent-pour-la-remis/1499783199027569"
+   },
+   "sortie": {
+    "date": "2025-03",
+    "titre": "Visite du camp d’Auschwitz‑Birkenau",
+    "resume": "Voyage pédagogique de huit élèves de la 3e à la terminale, encadrés par leurs professeurs d’histoire, au camp d’Auschwitz‑Birkenau en mars 2025.",
+    "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier"
+   },
+   "convention": {
+    "date": "2023-12-01",
+    "titre": "Convention avec la Base navale de Toulon (compagnie de marins‑pompiers)",
+    "resume": "Le collège Marcel Pagnol a signé une convention avec la Base navale de Toulon, compagnie de marins‑pompiers, du 1 décembre 2023 jusqu’en septembre 2024.",
+    "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marcel-pagnol-84.html"
+   },
+   "projet": {
+    "date": "2025-06-02",
+    "titre": "Inauguration de l’exposition « Passeurs de Mémoire »",
+    "resume": "Exposition présentée le 2 juin 2025, fruit d’un projet pédagogique entre le collège et le lycée Val‑de‑Durance, soutenu par la Ville et le Rotary Club.",
+    "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier"
+   }
+  },
+  "distinctions": [
+   {
+    "date": null,
+    "titre": "Remise du drapeau de l'ACPG-CATM",
+    "resume": "Le maire de Pertuis a assisté à la remise du drapeau de l'ACPG-CATM au collège Marcel Pagnol, honorant Lidia Llario comme porte-drapeau de l’établissement.",
+    "source": "https://www.facebook.com/Ville.de.Pertuis/posts/-pertuis-ville-solidairece-matin-le-maire-de-pertuis-%C3%A9tait-pr%C3%A9sent-pour-la-remis/1499783199027569",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.facebook.com/Ville.de.Pertuis/posts/-pertuis-ville-solidairece-matin-le-maire-de-pertuis-%C3%A9tait-pr%C3%A9sent-pour-la-remis/1499783199027569"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marcel-pagnol-84.html",
+   "https://www.facebook.com/Ville.de.Pertuis/posts/-pertuis-ville-solidairece-matin-le-maire-de-pertuis-%C3%A9tait-pr%C3%A9sent-pour-la-remis/1499783199027569"
+  ]
+ },
+ "college-andre-malraux-fos-sur-mer": {
+  "date": "12/11/2026",
+  "nb": 26,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/01/le-maire-mario-martinet-accompagne-du-nouveau-directeur-1788275448_d1577949e69a6e5577949e69ae9577v_.jpg",
+   "source": "https://www.laprovence.com/article/societe/15607604868163/bonne-rentree-ma-puce-a-fos-sur-mer-lheure-des-retrouvailles-avec-lecole-a-sonne",
+   "manuel": false
+  },
+  "derniere_activite": "2026-05-08",
+  "derniers": {
+   "distinction": {
+    "date": null,
+    "titre": "5ᵉ Prix Départemental – Devoir Collectif",
+    "resume": "L’Option Défense a remporté le 5ᵉ prix départemental du concours de la Résistance dans la catégorie Devoir Collectif.",
+    "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+   },
+   "sortie": {
+    "date": "2024-09-28",
+    "titre": "Fos atterrit à la base aérienne 125",
+    "resume": "Le collège a participé aux journées portes ouvertes de la base aérienne 125 d'Istres les 28‑29 septembre 2024, offrant aux habitants une découverte des activités de l'Armée de l'air.",
+    "source": "https://www.fossurmer.fr/app/uploads/2024/09/2024-09-Mensuel-348-BD.pdf"
+   },
+   "ceremonie": {
+    "date": "2026-05-08",
+    "titre": "Commémoration du 8 mai 1945 à Fos‑sur‑Mer",
+    "resume": "Le 8 mai 2026, les élèves de l’Option Défense ont participé à la cérémonie officielle du 8 mai 1945 sur la place des Producteurs à Fos‑sur‑Mer.",
+    "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+   },
+   "convention": {
+    "date": "2024-06",
+    "titre": "Signature de convention avec le 25e Régiment du génie de l'air",
+    "resume": "Le collège André Malraux a signé en juin 2024 une convention avec le 25e Régiment du génie de l'air, unité marraine de la classe défense.",
+    "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-13-1.html"
+   },
+   "article": {
+    "date": "2026-05-08",
+    "titre": "La Commémoration du 8 Mai 1945 – Fossa FM",
+    "resume": "Un article du site Fossa FM, publié le 8 mai 2026, décrit la participation de l’Option Défense à la commémoration du 8 mai 1945.",
+    "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+   },
+   "projet": {
+    "date": null,
+    "titre": "Participation au concours de la Résistance",
+    "resume": "Les élèves ont mené un projet pédagogique autour du concours de la Résistance, aboutissant aux distinctions départementales mentionnées.",
+    "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+   }
+  },
+  "distinctions": [
+   {
+    "date": null,
+    "titre": "5ᵉ Prix Départemental – Devoir Collectif",
+    "resume": "L’Option Défense a remporté le 5ᵉ prix départemental du concours de la Résistance dans la catégorie Devoir Collectif.",
+    "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+    ]
+   },
+   {
+    "date": null,
+    "titre": "19ᵉ Prix Départemental – Devoir Individuel",
+    "resume": "Les élèves ont également décroché le 19ᵉ prix départemental du même concours dans la catégorie Devoir Individuel.",
+    "source": "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://fossafm.com/la-commemoration-du-8-mai-1945/"
+    ]
+   }
+  ],
+  "sources": [
+   "https://fossafm.com/la-commemoration-du-8-mai-1945/",
+   "https://www.fossurmer.fr/app/uploads/2024/09/2024-09-Mensuel-348-BD.pdf",
+   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-13-1.html",
+   "https://www.laprovence.com/article/societe/15607604868163/bonne-rentree-ma-puce-a-fos-sur-mer-lheure-des-retrouvailles-avec-lecole-a-sonne",
+   "https://www.laprovence.com/actu/en-direct/6768618/breve-evacuation-college-fos-sur-mer-domino-22.html",
+   "https://copainsdavant.linternaute.com/e/college-andre-malraux-36150",
+   "https://www.site.ac-aix-marseille.fr/clg-malraux-fos/spip/spip.php?lang=fr&page=plan",
+   "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html"
+  ]
+ },
+ "college-jules-massenet-marseille-14e": {
+  "date": "14/11/2026",
+  "nb": 5,
+  "photo": {
+   "url": "https://www.quelcollege.fr/college/college-massenet-marseille-14e-arrondissement/opengraph-image?8e44622dea19aafd",
+   "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jules-massenet/college-0132207D",
+   "manuel": false
+  },
+  "derniere_activite": "2025-05-15",
+  "derniers": {
+   "distinction": {
+    "date": "2016",
+    "titre": "Cérémonie de remise des prix aux collégiens méritants de Provence",
+    "resume": "Depuis 2016, une cérémonie récompense chaque année les élèves de 3e de 115 collèges provençaux, dont le Collège Jules Massenet, pour leurs mérites académiques.",
+    "source": "https://www.facebook.com/MartineVassalOfficiel/videos/instaur%C3%A9e-depuis-2016-la-c%C3%A9r%C3%A9monie-de-remise-des-prix-aux-coll%C3%A9giens-m%C3%A9ritants-d/2316376918578437"
+   },
+   "sortie": {
+    "date": "2025-05-15",
+    "titre": "Invitation de la promotion 2024/2025 au Sénat",
+    "resume": "Le 15 mai 2025, Valérie Boyer a invité la promotion 2024/2025 de la Classe Défense du collège Stéphane Mallarmé à une visite du Sénat.",
+    "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   },
+   "convention": {
+    "date": "2022-09-01",
+    "titre": "Convention classe défense",
+    "resume": "Convention signée le 1 septembre 2022, mise à jour en novembre 2025, pour la classe défense du collège Jules Massenet.",
+    "source": "https://www.journaldesfemmes.fr/maman/ecole/college-jules-massenet/college-0132207D"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2016",
+    "titre": "Cérémonie de remise des prix aux collégiens méritants de Provence",
+    "resume": "Depuis 2016, une cérémonie récompense chaque année les élèves de 3e de 115 collèges provençaux, dont le Collège Jules Massenet, pour leurs mérites académiques.",
+    "source": "https://www.facebook.com/MartineVassalOfficiel/videos/instaur%C3%A9e-depuis-2016-la-c%C3%A9r%C3%A9monie-de-remise-des-prix-aux-coll%C3%A9giens-m%C3%A9ritants-d/2316376918578437",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://www.facebook.com/MartineVassalOfficiel/videos/instaur%C3%A9e-depuis-2016-la-c%C3%A9r%C3%A9monie-de-remise-des-prix-aux-coll%C3%A9giens-m%C3%A9ritants-d/2316376918578437"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "https://www.journaldesfemmes.fr/maman/ecole/college-jules-massenet/college-0132207D",
+   "https://www.facebook.com/MartineVassalOfficiel/videos/instaur%C3%A9e-depuis-2016-la-c%C3%A9r%C3%A9monie-de-remise-des-prix-aux-coll%C3%A9giens-m%C3%A9ritants-d/2316376918578437"
+  ]
+ },
+ "lycee-pierre-mendes-france-vitrolles": {
+  "date": "15/11/2026",
+  "nb": 7,
+  "photo": {
+   "url": "https://feminisonslaeronautique.fr/wp-content/uploads/2022/05/Prix-Special-BD23-La-conquˆte-de-Luna-College-jean-Giono-dOrange-copie.jpg",
+   "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/",
+   "manuel": false
+  },
+  "derniere_activite": "2024-12",
+  "derniers": {
+   "distinction": {
+    "date": "2022-05-24",
+    "titre": "Prix spécial - Lycée Pierre Mendès France",
+    "resume": "Le lycée professionnel Pierre Mendès France de Vitrolles a reçu le prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le Collège Jean Giono d’Orange.",
+    "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
+   },
+   "convention": {
+    "date": "2024-12",
+    "titre": "Signature / renouvellement de convention",
+    "resume": "Le lycée Pierre Mendès France a signé ou renouvelé une convention pour la classe défense en décembre 2024.",
+    "source": "https://www.upsti.fr/etablissements/etablissement/295/"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2022-05-24",
+    "titre": "Prix spécial - Lycée Pierre Mendès France",
+    "resume": "Le lycée professionnel Pierre Mendès France de Vitrolles a reçu le prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le Collège Jean Giono d’Orange.",
+    "source": "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/",
+    "verifie": "officielle",
+    "sources": [
+     "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.upsti.fr/etablissements/etablissement/295/",
+   "https://www.youtube.com/watch?v=9FuNeBpxNM0",
+   "https://view.genially.com/6079aca0095f400d4bcb7b2f",
+   "https://feminisonslaeronautique.fr/portfolio/prix-special-college-jean-giono-dorange-avec-airbus-helicopters-et-le-lycee-professionnel-lycee-pierre-mendes-france-de-vitrolles/"
+  ],
+  "resume": "En décembre 2024, le lycée Pierre Mendès France a signé (ou renouvelé) une convention pour sa classe défense avec"
+ },
+ "lycee-l-emperi-salon-de-provence": {
+  "date": "11/11/2026",
+  "nb": 1,
+  "photo": null,
+  "derniere_activite": "2026-06-18",
+  "derniers": {
+   "ceremonie": {
+    "date": "2026-06-18",
+    "titre": "Commémoration de l'appel du 18 juin",
+    "resume": "Le 18 juin 2026, les lycéens du lycée L'Empéri ont participé à la journée nationale commémorative de l’appel du général de Gaulle, organisée dans le cadre de la célébration des valeurs de la République.",
+    "source": "https://www.site.ac-aix-marseille.fr/lyc-emperi/spip/"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.site.ac-aix-marseille.fr/lyc-emperi/spip/"
+  ],
+  "resume": "La classe défense du lycée L'Empéri a participé le 18 juin 2026 à la commémoration nationale de l’appel du 18 juin, organisée dans le cadre de la célébration des valeurs de la République. Aucun prix, distinction ou partenariat n’a été signalé dans les informations disponibles. Aucun autre fait marquant n’a été relevé pour le moment."
+ },
+ "lpp-saint-andre-marseille-16e": {
+  "date": "11/11/2026",
+  "nb": 2,
+  "photo": null,
+  "derniere_activite": "2022-08-29",
+  "derniers": {
+   "sortie": {
+    "date": "2022-06-11",
+    "titre": "Immersion au cœur de l'État",
+    "resume": "Les élèves de la classe défense du LPP Saint‑André ont participé le jeudi 11 juin 2022 à une immersion au sein des services de l’État, organisée par la préfecture.",
+    "source": "https://www.facebook.com/prefetaube/posts/classed%C3%A9fense-une-immersion-au-c%C5%93ur-de-l%C3%A9tat-jeudi-11-juin-charles-no%C3%AFn-sous-pr%C3%A9/1626614756130626"
+   },
+   "convention": {
+    "date": "2022-08-29",
+    "titre": "Signature de la convention de la classe défense",
+    "resume": "Convention officielle signée le 29 août 2022 entre le lycée professionnel Pierre‑Paul Saint‑André et l’unité marraine 1er REC pour la mise en place de la classe défense.",
+    "source": "https://www.facebook.com/prefetaube/posts/classed%C3%A9fense-une-immersion-au-c%C5%93ur-de-l%C3%A9tat-jeudi-11-juin-charles-no%C3%AFn-sous-pr%C3%A9/1626614756130626"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.facebook.com/prefetaube/posts/classed%C3%A9fense-une-immersion-au-c%C5%93ur-de-l%C3%A9tat-jeudi-11-juin-charles-no%C3%AFn-sous-pr%C3%A9/1626614756130626"
+  ],
+  "resume": "La classe défense du lycée professionnel Pierre‑Paul Saint‑André a réalisé son activité la plus récente le 11 juin 2022, une immersion au cœur des services de l’État organisée par la préfecture. Elle a officialisé son partenariat avec l’unité marraine du 1er REC par la signature d’une convention le 29 août 2022. Aucun prix ou distinction n’est mentionné à ce jour."
+ },
+ "lp-martin-bret-manosque": {
+  "date": "11/11/2026",
+  "nb": 1,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/10/27/les-decorations-d-halloween-sont-mis-a-l-honneur-au-lycee-louis-martin-bret-a-manosque-1793119974_cc026d4eb0ea6c0126d4eb0ea94126v_.jpg",
+   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-louis-martin-bret-lycee-des-metiers-de-lhotellerie-restauration-des-secteurs-tertiaire-et-industriel-04.html",
+   "manuel": false
+  },
+  "derniere_activite": "2022-09-01",
+  "derniers": {
+   "convention": {
+    "date": "2022-09-01",
+    "titre": "Signature de convention pour la classe défense",
+    "resume": "Le lycée professionnel Louis Martin Bret a signé une convention le 1er septembre 2022, mise à jour en novembre 2025, relative à la mise en place ou au suivi de la classe défense.",
+    "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-louis-martin-bret-lycee-des-metiers-de-lhotellerie-restauration-des-secteurs-tertiaire-et-industriel-04.html"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-louis-martin-bret-lycee-des-metiers-de-lhotellerie-restauration-des-secteurs-tertiaire-et-industriel-04.html"
+  ],
+  "resume": "La classe défense du lycée professionnel Louis Martin Bret a signé une convention le 1 septembre 2022, mise à jour en novembre 2025, pour encadrer son dispositif. Aucun prix, distinction ou partenariat n’est mentionné dans les éléments de veille disponibles"
+ },
+ "lycee-philippe-de-girard-avignon": {
+  "date": "11/11/2026",
+  "nb": 4,
+  "photo": {
+   "url": "https://www.campus-avignon.fr/wp-content/uploads/2024/12/campus-actu-BA115.jpg",
+   "source": "https://www.campus-avignon.fr/les-eleves-du-lycee-philippe-de-girard-feront-leur-classe-avec-la-ba115",
+   "manuel": false
+  },
+  "derniere_activite": "2026-03-16",
+  "derniers": {
+   "distinction": {
+    "date": "2026-03-16",
+    "titre": "Prix Passe Ton Hack d'Abord 2026 – catégorie bac professionnel",
+    "resume": "Le 16 mars 2026, l’équipe « Girard » du lycée professionnel Philippe de Girard d’Avignon a reçu le prix de la 4e édition du challenge « Passe Ton Hack d’Abord » dans la catégorie bac professionnel, lors d’une cérémonie au campus cyber de La Défense.",
+    "source": "https://www.defense.gouv.fr/comcyber/actualites/ceremonie-passe-ton-hack-dabord-celebre-gagnants-4e-edition"
+   },
+   "convention": {
+    "date": "2024-11-25",
+    "titre": "Signature d’une convention de partenariat pour la classe défense",
+    "resume": "La base aérienne 115 (BA115) a signé une convention de partenariat avec le lycée Philippe de Girard d’Avignon afin de soutenir la classe défense de l’établissement.",
+    "source": "https://www.campus-avignon.fr/les-eleves-du-lycee-philippe-de-girard-feront-leur-classe-avec-la-ba115"
+   },
+   "article": {
+    "date": null,
+    "titre": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+    "resume": "Une vidéo publiée par Réunion la 1ère présente les élèves de 3e du lycée Philippe de Girard formés aux métiers de l'armée dans le cadre de la classe défense.",
+    "source": "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2026-03-16",
+    "titre": "Prix Passe Ton Hack d'Abord 2026 – catégorie bac professionnel",
+    "resume": "Le 16 mars 2026, l’équipe « Girard » du lycée professionnel Philippe de Girard d’Avignon a reçu le prix de la 4e édition du challenge « Passe Ton Hack d’Abord » dans la catégorie bac professionnel, lors d’une cérémonie au campus cyber de La Défense.",
+    "source": "https://www.defense.gouv.fr/comcyber/actualites/ceremonie-passe-ton-hack-dabord-celebre-gagnants-4e-edition",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.defense.gouv.fr/comcyber/actualites/ceremonie-passe-ton-hack-dabord-celebre-gagnants-4e-edition"
+    ]
+   },
+   {
+    "date": "2026",
+    "titre": "1er – catégorie bac pro – Lycée Philippe de Girard",
+    "resume": "Le Lycée Philippe de Girard (Avignon) a remporté la première place de la catégorie bac pro du challenge « Passe Ton Hack d’Abord 2026 », organisé par le Commandement de la cyberdéfense.",
+    "source": "https://www.defense.gouv.fr/comcyber/actualites/passe-ton-hack-dabord-2026-lyceens-etudiants-terminent-challenge",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.defense.gouv.fr/comcyber/actualites/passe-ton-hack-dabord-2026-lyceens-etudiants-terminent-challenge"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.defense.gouv.fr/comcyber/actualites/ceremonie-passe-ton-hack-dabord-celebre-gagnants-4e-edition",
+   "https://www.defense.gouv.fr/comcyber/actualites/passe-ton-hack-dabord-2026-lyceens-etudiants-terminent-challenge",
+   "https://www.campus-avignon.fr/les-eleves-du-lycee-philippe-de-girard-feront-leur-classe-avec-la-ba115",
+   "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514"
+  ],
+  "resume": "La classe défense du lycée Philippe de Girard forme actuellement des élèves de 3e aux métiers de l’armée, comme le montre une vidéo diffusée par Réunion la 1ère. Le 16 mars 2026, l’équipe « Girard » a remporté la première place de la catégorie bac professionnel du challenge « Passe Ton Hack d’Abord 2026 », lors d’une cérémonie au campus cyber de La Défense. Depuis le"
+ },
+ "lycee-saint-exupery-marseille-15e": {
+  "date": "14/11/2026",
+  "nb": 6,
+  "photo": null,
+  "derniere_activite": "2025-05-15",
+  "derniers": {
+   "sortie": {
+    "date": "2025-05-15",
+    "titre": "Invitation de la promotion 2024/2025 au Sénat",
+    "resume": "Le 15 mai 2025, Valérie Boyer a invité la promotion 2024‑2025 de la classe défense du collège Stéphane Mallarmé à une visite du Sénat.",
+    "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   },
+   "convention": {
+    "date": "2023-11",
+    "titre": "Convention classe défense",
+    "resume": "Convention signée en novembre 2023 et renouvelée en octobre 2024 pour la classe défense du lycée Saint‑Exupéry.",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre"
+   },
+   "article": {
+    "date": null,
+    "titre": "S'engager, se dépasser et apprendre",
+    "resume": "L'article met en avant la Classe Défense du Lycée Saint-Exupéry, soulignant son rôle de lien entre les élèves de Saint‑Dizier et les forces armées.",
+    "source": "https://www.facebook.com/activeradio52/posts/sengager-se-d%C3%A9passer-et-apprendre-le-lyc%C3%A9e-saint-exup%C3%A9ry-aux-couleurs-de-la-d%C3%A9fe/1472348774902035"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
+   "https://dossierappel.parcoursup.fr/Candidats/public/fiches/afficherFicheFormation?g_ta_cod=24460&typeBac=0&originePc=0",
+   "https://www.facebook.com/activeradio52/posts/sengager-se-d%C3%A9passer-et-apprendre-le-lyc%C3%A9e-saint-exup%C3%A9ry-aux-couleurs-de-la-d%C3%A9fe/1472348774902035"
+  ],
+  "resume": "Le 15 mai 2025, la promotion 202"
+ },
+ "lycee-professionnel-la-floride-marseille": {
+  "date": "11/11/2026",
+  "resume": "La classe défense du lycée professionnel La Floride (Marseille) est encadrée par le lieutenant Royer, qui enseigne également à l’Estaque. Son unité marraine est le 503e Régiment du train.",
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/30/lycee-paul-langevin-martigues-mobilisation-lyceens-blocus-lycee-1790758866_ae0f411fccba6821f411fccba761f4v_.jpg",
+   "source": "https://www.laprovence.com/article/societe/7183251002019414/blocus-des-lycees-a-marseille-aix-et-martigues-la-colere-des-eleves-ne-faiblit-pas-ce-mercredi",
+   "manuel": false
+  },
+  "nb": 9,
+  "sources": [
+   "https://www.laprovence.com/article/societe/7183251002019414/blocus-des-lycees-a-marseille-aix-et-martigues-la-colere-des-eleves-ne-faiblit-pas-ce-mercredi",
+   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "https://annuaire-education.fr/etablissement/marseille/lycee-professionnel-la-floride/0130056R.html",
+   "https://etablissements.pass-education.fr/etablissement/lycee-professionnel-la-floride-lycee-public-a-marseille/",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_11248634/fr/concours-scolaires"
+  ],
+  "derniere_activite": "2026-09-30",
+  "derniers": {
+   "sortie": {
+    "date": "2025-05-15",
+    "titre": "Invitation de la promotion 2024/2025 au Sénat",
+    "resume": "La députée Valérie Boyer a invité la promotion 2024‑2025 de la classe défense du collège Stéphane Mallarmé à une visite du Sénat.",
+    "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   },
+   "article": {
+    "date": "2026-09-30",
+    "titre": "Blocus des lycées à Marseille, Aix et Martigues",
+    "resume": "Le 30 septembre 2026, cinq élèves ont été interpellés au lycée professionnel La Floride à Marseille lors du mouvement de blocage des lycées.",
+    "source": "https://www.laprovence.com/article/societe/7183251002019414/blocus-des-lycees-a-marseille-aix-et-martigues-la-colere-des-eleves-ne-faiblit-pas-ce-mercredi"
+   }
+  },
+  "distinctions": []
+ },
+ "college-jean-claude-izzo-marseille-13e": {
+  "date": "11/11/2026",
+  "nb": 0,
+  "photo": null,
+  "derniere_activite": null,
+  "derniers": {},
+  "distinctions": [],
+  "sources": []
+ },
+ "college-andre-malraux-mazan": {
+  "date": "11/11/2026",
+  "nb": 7,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=336,trim.top=0,trim.height=863,trim.width=1536/media/2024/09/02/THUMBNAIL_20240704_162448.jpg",
+   "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "manuel": false
+  },
+  "derniere_activite": "2024-09-02",
+  "derniers": {
+   "sortie": {
+    "date": "2024-09-02",
+    "titre": "Stage de trois jours dans une compagnie de gendarmerie",
+    "resume": "Les élèves de la classe sécurité‑défense effectueront un stage de trois jours au sein d’une compagnie de gendarmerie.",
+    "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan"
+   },
+   "convention": {
+    "date": "2024-09-02",
+    "titre": "Signature de la convention de partenariat",
+    "resume": "Le principal Thierry Poulain et le colonel Cédric Garence ont signé la convention de partenariat avec la gendarmerie, en présence de plusieurs responsables.",
+    "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan"
+   },
+   "article": {
+    "date": "2024-09-02",
+    "titre": "Une classe sécurité-défense au collège André-Malraux de Mazan",
+    "resume": "Publication du 2 septembre 2024 présentant la mise en place d’une classe sécurité‑défense au collège André‑Malraux de Mazan.",
+    "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan"
+   },
+   "projet": {
+    "date": "2024-09-02",
+    "titre": "Atelier mémoire et citoyenneté devenu classe sécurité-défense",
+    "resume": "L’atelier mémoire et citoyenneté, initié par les professeurs Léa Bourgues et Cécile Bonnet, se transforme en classe sécurité‑défense pour 24 élèves de 3e.",
+    "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-84.html",
+   "https://www.facebook.com/departementdevaucluse/posts/les-coll%C3%A9giens-reporters-en-herbe-r%C3%A9compens%C3%A9sorganis%C3%A9-par-le-club-de-la-presse-d/1425203299652111"
+  ],
+  "resume": "Le 2 septembre 2024, le collège André‑Malraux de Mazan a créé une classe sécurité‑défense pour 24 élèves de 3e, issue de l’atelier mémoire et citoyenneté. Le collège a signé en juillet 2024, puis le 2 septembre, des conventions de partenariat avec la gendar"
+ },
+ "college-des-hautes-vallees-guillestre": {
+  "date": "11/11/2026",
+  "nb": 1,
+  "photo": null,
+  "derniere_activite": null,
+  "derniers": {
+   "article": {
+    "date": null,
+    "titre": "Classe défense : des élèves de 3e formés aux métiers de l'armée",
+    "resume": "Le collège des Hautes Vallées (Guillestre) a présenté, via un post de Réunion la 1ère, sa classe défense où les élèves de 3e sont initiés aux métiers de l'armée.",
+    "source": "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514"
+  ],
+  "resume": "Le collège des Hautes Vallées (Guillestre) a récemment présenté, via un post de Réunion la 1ère, sa « classe défense » qui initie les élèves de 3e aux métiers de l’armée. Cette mise en avant constitue la première communication officielle de ce dispositif au sein de l’établissement. Aucun prix, distinction ou partenariat n’a été mentionné dans les informations disponibles."
+ },
+ "college-itard-oraison": {
+  "date": "11/11/2026",
+  "nb": 19,
+  "photo": {
+   "url": "https://cdn-s-www.ledauphine.com/images/A2378B2D-CD19-4A06-A676-D47BF8B6643A/FB1200/photo-1782580617.jpg",
+   "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
+   "manuel": false
+  },
+  "derniere_activite": "2026-06-27",
+  "derniers": {
+   "distinction": {
+    "date": "2026-06-27",
+    "titre": "Lauréats du Concours national de la Résistance",
+    "resume": "Le 27 juin 2026, la classe de 3e du Collège Itard d’Oraison a été désignée lauréate bas-alpins du Concours national de la Résistance, prix national créé en 1961.",
+    "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses"
+   },
+   "sortie": {
+    "date": "2026-06-02",
+    "titre": "Sortie au Camp des Milles",
+    "resume": "Le 2 juin 2026, les élèves de 3e, dont ceux de la classe défense, ont visité le Camp des Milles dans le cadre d’une sortie pédagogique.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/"
+   },
+   "ceremonie": {
+    "date": "2015-06-04",
+    "titre": "Cérémonie de remise du drapeau",
+    "resume": "Lors d’une cérémonie officielle, le sous‑préfet Pascal Zingraff a présidé la remise du drapeau du Souvenir français aux collégiens du Collège Itard, avec la participation du corps enseignant et de personnalités locales.",
+    "source": "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html"
+   },
+   "convention": {
+    "date": "2026-06",
+    "titre": "Convention de la classe défense",
+    "resume": "La convention encadrant la classe défense du Collège JMG Itard a été re‑signée en juin 2026.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/-Classe-defense-.html"
+   },
+   "article": {
+    "date": "2026-06-24",
+    "titre": "La Classe Défense 2025/2026",
+    "resume": "Publication du bilan de la classe défense 2025‑2026, rédigée par Didier Crocitti et Isabelle Guerra, diffusée le 24 juin 2026.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/-Classe-defense-.html"
+   },
+   "projet": {
+    "date": "2026",
+    "titre": "Bilan CNRD 2026",
+    "resume": "Le projet mémoire CNRD 2026, présenté par Didier Crocitti, porte sur la fin de la Shoah et le jugement des crimes nazis, réalisé avec la classe défense.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-itard/spip/"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2026-06-27",
+    "titre": "Lauréats du Concours national de la Résistance",
+    "resume": "Le 27 juin 2026, la classe de 3e du Collège Itard d’Oraison a été désignée lauréate bas-alpins du Concours national de la Résistance, prix national créé en 1961.",
+    "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
+    "verifie": "presse",
+    "sources": [
+     "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses"
+    ]
+   },
+   {
+    "date": "2022-06-22",
+    "titre": "Lauréates au concours national de la Résistance",
+    "resume": "En 2022, deux élèves de 3e du collège Itard, Manon Carnoli et Adèle Renouf, ont été lauréates du concours national de la Résistance et de la déportation.",
+    "source": "https://www.laprovence.com/article/edition-alpes/6811593/deux-eleves-du-college-itard-laureates-au-concours-national-de-la-resistance.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-alpes/6811593/deux-eleves-du-college-itard-laureates-au-concours-national-de-la-resistance.html"
+    ]
+   },
+   {
+    "date": "2015-06-04",
+    "titre": "Remise du drapeau du Souvenir français",
+    "resume": "Le drapeau du Souvenir français a été remis aux élèves du Collège Itard d’Oraison par le collège Camille‑Reymond, en présence du sous‑préfet de Forcalquier et du président du Conseil départemental, en récompense des résultats au Concours national annuel de la Résistance.",
+    "source": "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html"
+    ]
+   },
+   {
+    "date": "2014",
+    "titre": "Premier prix du Concours national annuel de la Résistance",
+    "resume": "Caroline Fouque, élève de 3e du Collège Itard, a obtenu le premier prix du Concours national annuel de la Résistance, contribuant à l’attribution du drapeau du Souvenir français à l’établissement.",
+    "source": "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
+   "https://www.site.ac-aix-marseille.fr/clg-itard/spip/-Classe-defense-.html",
+   "https://www.site.ac-aix-marseille.fr/clg-itard/spip/",
+   "https://www.laprovence.com/article/edition-grand-vaucluse/3870621/la-science-infuse-chez-les-jeunes.html",
+   "https://www.laprovence.com/article/edition-alpes/6811593/deux-eleves-du-college-itard-laureates-au-concours-national-de-la-resistance.html",
+   "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
+   "https://www.site.ac-aix-marseille.fr/clg-itard/spip/Le-college-en-bref.html"
+  ]
+ },
+ "college-chape-marseille": {
+  "date": "11/11/2026",
+  "nb": 8,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2015-04/2015-04-15/20150415_1_5_1_1_0_obj8681876_1.jpg",
+   "source": "https://www.laprovence.com/article/edition-marseille/3361908/cajazz-pour-les-eleves-du-college-chape.html",
+   "manuel": false
+  },
+  "derniere_activite": "2026-03",
+  "derniers": {
+   "convention": {
+    "date": "2026-03",
+    "titre": "Signature de convention avec l'unité marraine",
+    "resume": "Le Collège Chape a signé en mars 2026 une convention avec le BRF Jacques Chevallier de la base navale de Toulon, unité marraine de la classe défense.",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10444225/fr/ent-1er-degre"
+   },
+   "article": {
+    "date": "2025-05-15",
+    "titre": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé",
+    "resume": "Le 15 mai 2025, Valérie Boyer publie sur Facebook que la classe défense du collège Stéphane Mallarmé, parrainée par les Marins Pompiers de Marseille, montre un engagement exemplaire et qu’elle a invité la promotion 2024/2025 au Sénat.",
+    "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   }
+  },
+  "distinctions": [],
+  "sources": [
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10444225/fr/ent-1er-degre",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille",
+   "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre/",
+   "https://www.laprovence.com/article/edition-marseille/3361908/cajazz-pour-les-eleves-du-college-chape.html",
+   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+  ],
+  "resume": "En mars 2026, le Collège Chape a signé une convention de classe défense et une convention de partenariat pour son atelier défense avec le BRF Jacques Chevallier, brigade de fusiliers marins de la base navale de Toulon, qui constitue son unité marraine. Aucun prix ou distinction n’est mentionné dans les éléments de veille. Le BRF Jacques Chevallier reste le principal partenaire de la classe défense"
+ },
+ "college-alphonse-daudet-carpentras": {
+  "date": "11/11/2026",
+  "resume": "Le 31 mars 2020, les vingt élèves de la classe Défense du collège Alphonse Daudet ont effectué une sortie à bord d’un sous‑marin",
+  "photo": {
+   "url": "https://www.ici.fr/pikapi/images/62e54915-9e31-42c7-adc0-ea4bb2b6fbf3/1200x630?webp=false",
+   "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385",
+   "manuel": false
+  },
+  "nb": 12,
+  "derniere_activite": "2026-04-06",
+  "derniers": {
+   "distinction": {
+    "date": "2020",
+    "titre": "Prix du Gouverneur militaire",
+    "resume": "L’exposé d’Erwan sur les hélices d’un sous‑marin sera présenté dans le cadre du prix du Gouverneur militaire.",
+    "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385"
+   },
+   "sortie": {
+    "date": "2020-03-31",
+    "titre": "Visite du sous‑marin",
+    "resume": "Les vingt élèves de la classe Défense ont effectué une sortie à bord d’un sous‑marin le 31 mars 2020.",
+    "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385"
+   },
+   "ceremonie": {
+    "date": "2020-02-13",
+    "titre": "Cérémonie du 11 novembre",
+    "resume": "Les élèves et leurs familles de la classe Défense assistent chaque année à la cérémonie du 11 novembre.",
+    "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385"
+   },
+   "convention": {
+    "date": "2019-09-24",
+    "titre": "Signature de la convention trinôme académique",
+    "resume": "Le même jour, signature d’une convention inter‑ministerielle (préfecture, armée, Éducation nationale) officialisant le partenariat pour la classe Défense.",
+    "source": "https://www.ledauphine.com/vaucluse/2019/09/24/une-classe-defense-ouverte-au-college-daudet"
+   },
+   "article": {
+    "date": "2026-04-06",
+    "titre": "Le premier forum des métiers du collège Alphonse-Daudet de Carpentras réunit 38 intervenants",
+    "resume": "Le mercredi 1er avril 2026, le collège Alphonse‑Daudet de Carpentras a organisé son premier forum des métiers, réunissant 38 professionnels dont des représentants du ministère de la Défense, afin d’informer les élèves de la 5e à la 3e sur les débouchés et les compétences attendues.",
+    "source": "https://www.laprovence.com/article/politique/26227111636542/le-premier-forum-des-metiers-du-college-alphonse-daudet-de-carpentras-reunit-38-intervenants"
+   },
+   "projet": {
+    "date": "2020-02-13",
+    "titre": "Exposé sur les hélices d’un sous‑marin",
+    "resume": "Erwan, élève de la classe Défense, prépare un exposé technique sur les hélices d’un sous‑marin.",
+    "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2020",
+    "titre": "Prix du Gouverneur militaire",
+    "resume": "L’exposé d’Erwan sur les hélices d’un sous‑marin sera présenté dans le cadre du prix du Gouverneur militaire.",
+    "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385",
+    "verifie": "presse",
+    "sources": [
+     "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385"
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.laprovence.com/article/politique/26227111636542/le-premier-forum-des-metiers-du-college-alphonse-daudet-de-carpentras-reunit-38-intervenants",
+   "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385",
+   "https://www.ledauphine.com/vaucluse/2019/09/24/une-classe-defense-ouverte-au-college-daudet",
+   "https://www.facebook.com/Carpentras/posts/classe-d%C3%A9fense-coll%C3%A8ge-adaudet-la-classe-d%C3%A9fense-est-une-cr%C3%A9ation-en-partenariat/10156675874600914"
+  ]
+ },
+ "college-joseph-roumanille-avignon": {
+  "date": "11/11/2026",
+  "nb": 3,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/03/03/college-roumanille-a-avignon-des-professeurs-du-college-tirent-la-sonnette-d-alarme-a-cause-de-l-ins-1741027422_d594cd50e5c76d994cd50e5c7bd94cv_.jpg",
    "source": "https://www.laprovence.com/article/region/57157942872534/a-avignon-craignant-pour-leur-securite-et-celle-des-eleves-des-professeurs-du-college-roumanille-debrayent",
    "manuel": false
   },
