@@ -358,7 +358,7 @@
 const DEP = {"13":"Bouches-du-Rhône","84":"Vaucluse","04":"Alpes-de-Haute-Provence","05":"Hautes-Alpes"};
 const LIB = {active:"Active", dormante:"En sommeil", projet:"En projet"};
 const TYP = {distinction:"Dernière distinction",sortie:"Dernière sortie",ceremonie:"Dernière cérémonie",convention:"Dernière convention",article:"Dernier article",rapport:"Dernier rapport",projet:"Dernier projet",partenaire:"Partenaire",autre:"Autre"};
-const WEB = window.CDSG_WEB || {};
+const WEB = photosSansRepetition(window.CDSG_WEB || {});
 const norm = s => (s||"").toString().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
 const slug = s => norm(s).replace(/ /g,"-");
 const esc = s => (s||"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -485,6 +485,38 @@ document.getElementById("tabDep").innerHTML =
 
 synthese();
 
+/* Dédoublonnage de présentation : conserve les événements et toutes leurs sources. */
+function titreDoublon(t){return String(t||"").normalize("NFKC").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
+function memeElement(a,b){
+  if((a.type||"")!==(b.type||"") || (a.date||"")!==(b.date||"")) return false;
+  const x=titreDoublon(a.titre),y=titreDoublon(b.titre); if(!x||!y)return false; if(x===y)return true;
+  if(JSON.stringify(x.match(/\d+/g)||[])!==JSON.stringify(y.match(/\d+/g)||[]))return false;
+  const sa=[a.source,...(a.autres_sources||[]),...(a.sources||[])].filter(Boolean),sb=[b.source,...(b.autres_sources||[]),...(b.sources||[])].filter(Boolean);
+  if(!sa.some(u=>sb.includes(u)))return false;
+  if(Math.min(x.length,y.length)>=18&&(x.startsWith(y)||y.startsWith(x)))return true;
+  const sx=new Set(x.split("-")),sy=new Set(y.split("-")),union=new Set([...sx,...sy]);
+  return Math.min(sx.size,sy.size)>=4&&[...sx].filter(w=>sy.has(w)).length/union.size>=.85;
+}
+function elementsUniques(L){
+  const out=[];for(const e of L){const a=out.find(a=>memeElement(a,e));if(!a){out.push({...e});continue;}
+    a.autres_sources=[...new Set([...(a.autres_sources||[]),...(a.sources||[]),e.source,...(e.autres_sources||[]),...(e.sources||[])].filter(u=>u&&u!==a.source))];
+    a.sources=[...new Set([a.source,...a.autres_sources].filter(Boolean))];
+  }return out;
+}
+function photosSansRepetition(W){
+  const compte=new Map();for(const w of Object.values(W)){const p=w.photo;if(p?.url&&!p.manuel)compte.set(p.url,(compte.get(p.url)||0)+1);}
+  return Object.fromEntries(Object.entries(W).map(([id,w])=>[id,w.photo&&!w.photo.manuel&&compte.get(w.photo.url)>1?{...w,photo:null}:w]));
+}
+function articlesUniques(L){
+  const groupes=new Map(),images=new Set();
+  for(const e of elementsUniques(L)){
+    const cle=(e.source||"").split("#")[0]||titreDoublon(e.titre),a=groupes.get(cle);
+    if(a){if(e.etab&&!String(a.etab||"").includes(e.etab))a.etab=[a.etab,e.etab].filter(Boolean).join(" · ");continue;}
+    const copie={...e}; if(copie.image){if(images.has(copie.image))delete copie.image;else images.add(copie.image);}
+    groupes.set(cle,copie);
+  }return [...groupes.values()];
+}
+
 /* ───────── Médailles (distinctions) ───────── */
 function rangDistinction(d){
   const t = norm((d.titre||"")+" "+(d.resume||""));
@@ -517,7 +549,7 @@ function medaille(d, taille){
   </svg>`;
 }
 const ORDRE_RANG = {or:0,argent:1,bronze:2,mention:3};
-const triDist = L => L.slice().sort((a,b)=>ORDRE_RANG[rangDistinction(a)]-ORDRE_RANG[rangDistinction(b)] || (b.date||"").localeCompare(a.date||""));
+const triDist = L => elementsUniques(L).sort((a,b)=>ORDRE_RANG[rangDistinction(a)]-ORDRE_RANG[rangDistinction(b)] || (b.date||"").localeCompare(a.date||""));
 
 /* ───────── Fiches ───────── */
 const etat = {statut:"", dep:"", q:""};
@@ -776,8 +808,8 @@ async function chargerVeille(id){
   try{ const r = await fetch("classes/"+id+"/veille.json",{cache:"no-store"}); if(r.ok) v = await r.json(); }catch(e){}
   const w = WEB[id];
   if(!v) v = {elements:[], recherches:[]};
-  const els = v.elements||[];
-  const presse = els.filter(e=>e.image || e.type==="article" || /presse|laprovence|ledauphine|vaucluse|defense\.gouv|varmatin|actu\.fr/.test(e.source||""));
+  const els = elementsUniques(v.elements||[]);
+  const presse = articlesUniques(els.filter(e=>e.image || e.type==="article" || /presse|laprovence|ledauphine|vaucluse|defense\.gouv|varmatin|actu\.fr/.test(e.source||"")));
   const der = (w && w.derniers) || {};
   zone.innerHTML = `<h4>Dossier de la classe · ${els.length} élément(s) trouvé(s) en ligne</h4>
     ${Object.keys(der).length?`<div class="derniers">${Object.entries(der).map(([t,d])=>`<div><b>${TYP[t]||t}</b>${esc(dateFr(d.date)||"date ?")} — ${esc(d.titre||"")}</div>`).join("")}</div>`:""}
@@ -988,7 +1020,7 @@ boite();
 
 /* Actualités du réseau (page d'accueil) */
 function actualites(){
-  const L = window.CDSG_ACTUS || [];
+  const L = articlesUniques(window.CDSG_ACTUS || []);
   document.getElementById("actusGrille").innerHTML = L.length ? L.slice(0,12).map(e=>carteArticle(e,false)).join("")
     : `<div style="color:var(--gris);font-size:14px">Les premières actualités apparaîtront après la veille de la nuit.</div>`;
 }
