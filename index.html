@@ -236,9 +236,10 @@
       <button id="go">Chercher</button>
       <button id="goWeb" class="g-only a-only" style="background:#fff;color:var(--bleu-f)" title="Recherche sur Internet avec vos clés (1 à 3 minutes)">🌐 Chercher aussi sur le web</button>
     </div>
+    <p id="etatIA" style="font-size:13px">Pour interroger l’IA, utilisez votre accès animateur. <button type="button" id="connecterIA" style="font:inherit">Connecter l’IA</button></p>
     <div class="exemples" id="exemples"></div>
     <div class="reponse" id="repWeb">
-      <div style="font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--bleu);font-weight:600;margin-bottom:6px">Réponse avec recherche web</div>
+      <div style="font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--bleu);font-weight:600;margin-bottom:6px">Réponse de l’IA · fiches et recherche web</div>
       <div class="txt" id="repWebTxt"></div>
       <div class="chips" id="repWebFiches"></div>
       <div class="src" id="repWebSrc"></div>
@@ -261,7 +262,7 @@
         <label>Adresse de l'API <input id="cfgUrl" placeholder="https://…/v1"></label>
         <label>Modèle <input id="cfgModele" placeholder="openweight-large (par défaut)"></label>
         <label>Clé personnelle <input id="cfgCle" type="password" placeholder="conservée uniquement dans ce navigateur"></label>
-        <div class="note">Sans clé, la recherche fonctionne quand même : elle retrouve les fiches par mots-clés. Avec une clé, les réponses sont rédigées. La clé n'est jamais publiée : elle reste dans votre navigateur.</div>
+        <div class="note">Avec votre accès animateur, l’IA utilise les clés déjà configurées sur le serveur. Ces réglages personnels permettent un appel direct à un autre service compatible ; Albert doit passer par le serveur. Sans connexion, seuls les résultats par mots-clés sont disponibles.</div>
       </div>
     </details>
   </section>
@@ -634,12 +635,14 @@ document.getElementById("cadenas").onclick = async ()=>{
   if(await empreinte(code.trim()) === EMPREINTE){ modeGestion("animateur", null); return; }   // avant configuration des accès
   alert("Code incorrect.");
 };
-try{ const r = sessionStorage.getItem("cdsg_role"); if(r) modeGestion(r, sessionStorage.getItem("cdsg_tok")); }catch(e){}
+
 
 /* ───────── Édition des fiches ───────── */
 const DEPOT = {owner:"thierryarmant", repo:"cdsg-aix-marseille", chemin:"data/classes.js", branche:"main"};
 const jeton = document.getElementById("ghJeton");
 jeton.value = cfg0("gh"); jeton.onchange = ()=>cfg0("gh", jeton.value.trim());
+// Restaurer après initialisation du champ : le jeton de session ne doit pas être perdu.
+try{ const r = sessionStorage.getItem("cdsg_role"); if(r) modeGestion(r, sessionStorage.getItem("cdsg_tok")); }catch(e){}
 function cfg0(k,v){ try{ if(v===undefined) return localStorage.getItem("cdsg_"+k)||""; localStorage.setItem("cdsg_"+k,v); }catch(e){ return ""; } }
 const CHAMPS = [["etab","Établissement"],["ville","Ville"],["ce","Chef d'établissement"],["ref","Professeur(s) référent(s)"],["unite","Unité marraine / partenaire"],["conv","Convention (date, renouvellement…)"],["suivi","Suivi formateur"],["site","Site de l'établissement (adresse web)"]];
 
@@ -1068,12 +1071,17 @@ async function choisirModele(base, cle){
 
 async function repondre(){
   const question = document.getElementById("q").value.trim(); if(!question) return;
+  if(jeton.value.trim()){ document.getElementById("rep").classList.remove("on"); return lancerQuestionWeb(); }
   const rep=document.getElementById("rep"), txt=document.getElementById("repTxt"), src=document.getElementById("repSrc");
   rep.classList.add("on");
   const r = chercherLocal(question);
   fichesChips(r.liste);
   const cle = inK.value.trim(), base = inU.value.trim();
-  if(!cle || !base){ txt.textContent = resumeLocal(r); src.textContent = "Réponse tirée directement des fiches."; if(r.liste.length===1) ouvrir(r.liste[0].id); return; }
+  if(!cle || !base || /albert\.api\.etalab\.gouv\.fr/i.test(base)){
+    txt.textContent = "L’IA n’est pas connectée dans cette session. Cliquez sur « Connecter l’IA » et utilisez votre code animateur pour poser cette question au service de recherche.";
+    src.textContent = "Recherche par mots-clés uniquement : "+r.liste.length+" fiche(s) correspondante(s). Une recherche par mots-clés ne remplace pas une réponse de l’IA.";
+    return;
+  }
   txt.textContent = "Recherche en cours…"; src.textContent="";
   try{
     const modele = await choisirModele(base, cle);
@@ -1092,13 +1100,14 @@ async function repondre(){
     src.textContent = "Réponse rédigée à partir des fiches (modèle : "+modele+").";
   }catch(e){
     txt.textContent = resumeLocal(r);
-    src.textContent = "Le service de réponse n'a pas pu être joint ("+e.message+") : résultat de la recherche par mots-clés.";
+    src.textContent = "L’appel direct au service a échoué ("+e.message+"). Cliquez sur « Connecter l’IA » pour utiliser la recherche côté serveur. Le texte affiché provient seulement des fiches par mots-clés.";
   }
 }
 document.getElementById("go").onclick = repondre;
 
 /* Question avec recherche web (via GitHub : les clés de recherche restent secrètes) */
-document.getElementById("goWeb").onclick = async ()=>{
+async function lancerQuestionWeb(){
+  if(lancerQuestionWeb.enCours) return;
   const question = document.getElementById("q").value.trim(); if(!question) return;
   const box=document.getElementById("repWeb"), txt=document.getElementById("repWebTxt"), src=document.getElementById("repWebSrc");
   box.classList.add("on"); document.getElementById("repWebFiches").innerHTML=""; src.innerHTML="";
@@ -1106,24 +1115,44 @@ document.getElementById("goWeb").onclick = async ()=>{
   if(!tok){ txt.textContent = "Collez d'abord le jeton GitHub (cadre « Modifier les fiches et lancer les recherches : réglage », au-dessus des fiches)."; return; }
   const h = {Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"};
   const qid = new Date().toISOString().replace(/[-:T.Z]/g,"").slice(0,14)+"-"+Math.random().toString(36).slice(2,6);
+  lancerQuestionWeb.enCours = true; document.getElementById("go").disabled=true; document.getElementById("goWeb").disabled=true;
+  const terminer = ()=>{ lancerQuestionWeb.enCours=false; document.getElementById("go").disabled=false; document.getElementById("goWeb").disabled=false; };
   txt.textContent = "Recherche lancée sur le web… (1 à 3 minutes). Vous pouvez continuer à consulter les fiches.";
   try{
     const r = await fetch(`https://api.github.com/repos/${DEPOT.owner}/${DEPOT.repo}/actions/workflows/recherche.yml/dispatches`,{method:"POST",headers:h,
       body:JSON.stringify({ref:DEPOT.branche, inputs:{question, qid}})});
     if(r.status!==204) throw new Error(r.status===403||r.status===404 ? "le jeton n'a pas le droit « Actions : Read and write »" : "code "+r.status);
-  }catch(e){ txt.textContent = "Échec du lancement : "+e.message+"."; return; }
-  const debut = Date.now(); let points = 0;
+  }catch(e){ txt.textContent = "Échec du lancement : "+e.message+"."; terminer(); return; }
+  const debut = Date.now(); let points = 0, erreursLecture = 0;
   const attendre = async ()=>{
-    if(Date.now()-debut > 8*60*1000){ txt.textContent = "La recherche prend plus de temps que prévu. La réponse apparaîtra dans « Dernières réponses web » dès qu'elle sera prête."; return; }
+    if(Date.now()-debut > 8*60*1000){ txt.textContent = "La recherche prend plus de temps que prévu. Consultez son exécution dans GitHub Actions ou réessayez plus tard."; terminer(); return; }
     try{
       const f = await lireFichierGH(`data/reponses/${qid}.json`, h);
-      if(f){ afficherReponseWeb(JSON.parse(f.texte)); return; }
-    }catch(e){}
+      if(f){ afficherReponseWeb(JSON.parse(f.texte)); terminer(); return; }
+      erreursLecture=0;
+      if(points===0){
+        const runs=await fetch(`https://api.github.com/repos/${DEPOT.owner}/${DEPOT.repo}/actions/workflows/recherche.yml/runs?event=workflow_dispatch&per_page=30`,{headers:h,cache:"no-store"});
+        if(runs.ok){ const j=await runs.json(); const run=(j.workflow_runs||[]).find(x=>(x.display_title||"").includes(qid));
+          if(run?.status==="completed" && ["failure","cancelled","timed_out","action_required"].includes(run.conclusion)){
+            txt.textContent="Le traitement s’est arrêté ("+run.conclusion+"). Aucune réponse IA n’a été produite."; src.textContent="Détail : "+run.html_url; terminer(); return;
+          }
+        }
+      }
+    }catch(e){
+      erreursLecture++; if(erreursLecture>=3){ txt.textContent="Impossible de récupérer la réponse : "+e.message+". Vérifiez la connexion animateur."; terminer(); return; }
+    }
     points=(points+1)%4; txt.textContent = "Recherche en cours sur le web"+".".repeat(points+1)+" ("+Math.round((Date.now()-debut)/1000)+" s)";
     setTimeout(attendre, 12000);
   };
-  setTimeout(attendre, 30000);
+  setTimeout(attendre, 15000);
+}
+document.getElementById("goWeb").onclick=lancerQuestionWeb;
+document.getElementById("connecterIA").onclick=async ()=>{
+  if(jeton.value.trim()){ document.getElementById("etatIA").firstChild.textContent="Accès au service IA configuré. "; return; }
+  await document.getElementById("cadenas").onclick();
+  if(jeton.value.trim()) document.getElementById("etatIA").firstChild.textContent="Accès au service IA configuré. Vous pouvez poser votre question. ";
 };
+if(jeton.value.trim()) document.getElementById("etatIA").firstChild.textContent="Accès au service IA configuré. ";
 function miseEnForme(t){
   // mise en forme simple : gras, titres, listes, tableaux
   const lignes = esc(t).split(/\n/); let html = "", tab = [];
@@ -1142,6 +1171,7 @@ function afficherReponseWeb(r){
   const txt=document.getElementById("repWebTxt"), src=document.getElementById("repWebSrc");
   document.getElementById("repWeb").classList.add("on");
   txt.style.whiteSpace = "normal";
+  if(r.erreur){ txt.textContent=r.reponse||"Le service IA n’a pas pu produire de réponse. Réessayez plus tard."; src.textContent="Échec du traitement IA ("+r.erreur+")."; return; }
   txt.innerHTML = miseEnForme(r.reponse||"").replace(/\[(\d+)\]/g,(m,n)=>{ const s=(r.sources||[])[+n-1]; return s?`<a href="${esc(s.url)}" target="_blank" rel="noopener">[${n}]</a>`:m; });
   document.getElementById("repWebFiches").innerHTML = (r.fiches||[]).filter(id=>PAR_ID[id]).map(id=>`<span class="chip" data-id="${id}">${esc(PAR_ID[id].etab)} · ${esc(PAR_ID[id].ville)}</span>`).join("");
   document.querySelectorAll("#repWebFiches .chip").forEach(c=>c.onclick=()=>ouvrir(c.dataset.id));
