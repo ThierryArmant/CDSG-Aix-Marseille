@@ -65,7 +65,7 @@ class QuestionsTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp, \
                 patch.object(app, 'DOSSIER_REPONSES', Path(tmp)), \
                 patch.object(app, 'references_question', return_value=[]), \
-                patch.object(app, 'demander', side_effect=[{'requetes': ['unités Vaucluse site:defense.gouv.fr']}, 'Résultat à vérifier.\nFICHES: inconnu']), \
+                patch.object(app, 'demander', side_effect=[{'requetes': ['unités Vaucluse site:defense.gouv.fr']}, {'lacunes': [], 'requetes': []}, 'Résultat à vérifier.\nFICHES: inconnu']), \
                 patch.object(app, 'recherche_web', return_value=['https://exemple.fr']) as search, \
                 patch.object(app, 'lire_page', return_value={'url': 'https://exemple.fr', 'titre': 'Unités', 'texte': 'a' * 200}), \
                 patch.object(app, 'fiches_citees') as enrichir, \
@@ -77,6 +77,23 @@ class QuestionsTests(unittest.TestCase):
             self.assertEqual(result['fiches'], [])
             self.assertEqual(len(result['sources']), 1)
             self.assertNotIn('FICHES:', result['reponse'])
+
+    def test_albert_transmet_une_lacune_aux_moteurs_et_conserve_la_trace(self):
+        with tempfile.TemporaryDirectory() as tmp, \
+                patch.object(app, 'DOSSIER_REPONSES', Path(tmp)), \
+                patch.object(app, 'references_question', return_value=[]), \
+                patch.object(app, 'demander', side_effect=[{'requetes': []},
+                    {'lacunes': ['Convention manquante'], 'requetes': ['convention officielle CDSG']},
+                    'Convention confirmée [2].\nFICHES: ecole']), \
+                patch.object(app, 'recherche_web', side_effect=[['https://source.fr/a'], ['https://source.fr/b']]) as search, \
+                patch.object(app, 'lire_page', side_effect=lambda u, **kw: {'url': u, 'titre': 'Preuve', 'texte': 'preuve ' * 50}):
+            app.question_web('Quelle convention ?', 'coordination',
+                [{'id': 'ecole', 'etab': 'École', 'ville': 'Ville', 'dep': '84', 'statut': 'active'}], {})
+            result = json.loads((Path(tmp) / 'coordination.json').read_text())
+            self.assertEqual(search.call_args_list[1].args[0], 'convention officielle CDSG')
+            self.assertEqual(len(result['sources']), 2)
+            self.assertEqual(result['fiches'], ['ecole'])
+            self.assertEqual(result['recherche'][1]['pages_lues'], 1)
 
     def test_absence_de_cle_produit_un_resultat_explicite(self):
         with tempfile.TemporaryDirectory() as tmp, patch.object(app, 'DOSSIER_REPONSES', Path(tmp)), \
