@@ -30,5 +30,9 @@ Les fiches et conventions du dossier restent distinctes de la documentation nati
 Tests : filtrage de la mémoire non validée, orientation vers les guides, lecture d’une page PDF lointaine, recherche question, absence de clé, erreurs, doublons et citations issues réellement de la page.
 La mémoire est une base documentaire consultée, pas un réentraînement d’Albert ni la garantie de réponses infaillibles. Les coordonnées, responsables, rattachements et appels annuels doivent être recontrôlés sur leurs sources.
 
-## Test réel final
-Le diagnostic GitHub Actions 43769303557 a réussi avec les secrets serveur et la mémoire. La question sur le Vaucluse distingue maintenant la BA 115 (Orange, Jonquières, Camaret) du 2e REG (Saint-Christol), cite les sources institutionnelles et refuse de déduire un total exhaustif. Le vade-mecum 2022 a aussi été téléchargé et lu effectivement : passages ciblés retrouvés sur les pages PDF 17, 18, 31, 32 et 34. Huit tests Python et six tests JavaScript passent.
+
+## Coordination documentaire Albert
+
+Albert prépare les requêtes, reçoit les pages de ses outils web et les fiches de la bibliothèque, puis examine les lacunes et contradictions. Une seconde vague ciblée est possible (3 requêtes et 4 pages supplémentaires maximum ; première vague : 8 pages). La réponse relie les fiches concernées et les sources numérotées. La trace des requêtes, lacunes et pages consultées est conservée dans le résultat, sans raisonnement interne ni secret. Les fiches ne sont pas réécrites par une simple question.
+
+Le paramètre max_tokens de la réponse finale est fixé à 12 000 : plafond de sortie, pas budget global de toute la recherche ni taille garantie du contexte. La réponse reste concise. Ce réglage doit être accepté par le modèle configuré. Les moteurs web sont des outils orchestrés par Albert, pas des agents autonomes distincts. Les vérifications automatisées locales couvrent la transmission d’une lacune, le retour des preuves et le lien vers la fiche ; une vérification en service reste nécessaire après publication.
