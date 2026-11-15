@@ -23,6 +23,7 @@ jobs:
           node-version: '22'
       - name: Tests du branchement et des erreurs
         run: |
+          node --check data/recherche.js
           python -m unittest discover -s tests -v
           node --test tests/questions.test.cjs
       - name: Outils de lecture
