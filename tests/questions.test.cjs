@@ -31,3 +31,27 @@ test('la session est restaurée après initialisation du champ, sans écraser le
   vm.runInNewContext(snippet,context);
   assert.equal(field.value,'jeton-session');
 });
+
+const helpers=page.slice(page.indexOf('function titreDoublon('),page.indexOf('/* ───────── Médailles'));
+function dedup(){const c={};vm.createContext(c);vm.runInContext(helpers,c);return c;}
+test('fusionne les variantes de rang typographique sans fusionner des prix distincts',()=>{
+  const c=dedup(),base={type:'distinction',date:null,source:'https://source.fr'};
+  const result=c.elementsUniques([
+    {...base,titre:'5ᵉ Prix Départemental – Devoir Collectif'},
+    {...base,titre:'5e Prix Départemental – Devoir Collectif (concours de la Résistance)'},
+    {...base,titre:'19e Prix Départemental – Devoir Individuel'},
+    {...base,titre:'5e Prix Départemental – Devoir Collectif',date:'2025'},
+  ]);assert.equal(result.length,3);
+});
+test('une carte par article, sans effacer les événements de la chronologie',()=>{
+  const c=dedup(),events=[{type:'article',titre:'Article',source:'https://a.fr',image:'photo.jpg'},
+    {type:'sortie',titre:'Visite',source:'https://a.fr',image:'photo.jpg'},
+    {type:'ceremonie',titre:'Cérémonie',source:'https://b.fr',image:'photo.jpg'}];
+  const cards=c.articlesUniques(events);assert.equal(cards.length,2);
+  assert.equal(cards.filter(e=>e.image).length,1);assert.equal(c.elementsUniques(events).length,3);
+});
+test('préserve les photos manuelles et masque les images automatiques partagées',()=>{
+  const c=dedup(),w={a:{photo:{url:'x.jpg'}},b:{photo:{url:'x.jpg'}},c:{photo:{url:'x.jpg',manuel:true}}};
+  const result=c.photosSansRepetition(w);assert.equal(result.a.photo,null);
+  assert.equal(result.c.photo.manuel,true);assert.equal(w.a.photo.url,'x.jpg');
+});
