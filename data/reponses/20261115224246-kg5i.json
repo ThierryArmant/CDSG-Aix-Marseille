@@ -1,0 +1,58 @@
+{
+ "question": "donne moi les concours 2027",
+ "date": "2026-11-15T23:44",
+ "reponse": "- **Défense – Médecins, pharmaciens, vétérinaires et chirurgiens‑dentistes des armées** : clôture des candidatures 8 janvier 2027 [1].  \n- **Ingénieurs des Ponts, des Eaux et des Forêts** : clôture 22 janvier 2027 [1].  \n- **Contrôleurs des finances publiques** : inscriptions 16 octobre 2026 – 17 novembre 2026 ; épreuves d’admissibilité 11 janvier 2027, orales 15‑19 mars 2027 [4].  \n- **Architectes et urbanistes de l’État** : clôture 17 novembre 2026 ; épreuves écrites 22‑24 février 2027, orales à partir du 31 mai 2027 [5].  \n- **Ministère de la Transition écologique – concours divers** : calendrier 2026‑2027 disponible, incluant plusieurs appels prévus en 2027 (ex. « concours externes », « concours internes ») [2].  \n\nCes informations proviennent des calendriers officiels publiés par les ministères et le portail de la fonction publique. Aucun total exhaustif n’est possible ; seules les dates et types de concours explicitement indiqués sont présentés.",
+ "sources": [
+  {
+   "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/calendrier-general-concours",
+   "titre": "Le calendrier général des concours - Page 1 sur 17 - Le portail de la fonction publique | Le portail de la fonction publique",
+   "site": "fonction-publique.gouv.fr"
+  },
+  {
+   "url": "https://recrutement.ecologie.gouv.fr/calendrier-concours",
+   "titre": "Calendrier des concours | Les ministères Transition écologique, Aménagement du territoire, Transports, Ville et Logement recrutent",
+   "site": "Les ministères Transition écologique, Aménagement du territoire, Transports, Ville et Logement recrutent"
+  },
+  {
+   "url": "https://pedagogie.ac-clermont.fr/disciplines/histoire-geographie/wp-content/uploads/sites/3/2026/09/reglement-cnrd-2026-2027-129580.pdf",
+   "titre": "reglement-cnrd-2026-2027-129580.pdf",
+   "site": "pedagogie.ac-clermont.fr (PDF)"
+  },
+  {
+   "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/calendrier-general-concours/controleurs-des-finances-publiques",
+   "titre": "Contrôleurs des finances publiques | Le portail de la fonction publique",
+   "site": "Le portail de la fonction publique"
+  },
+  {
+   "url": "https://www.fonction-publique.gouv.fr/devenir-agent-public/calendrier-general-concours/architectes-et-urbanistes-de-letat",
+   "titre": "Architectes et urbanistes de l'État | Le portail de la fonction publique",
+   "site": "Le portail de la fonction publique"
+  }
+ ],
+ "fiches": [],
+ "recherche": [
+  {
+   "etape": "recherche_initiale",
+   "requetes": [
+    "donne moi les concours 2027",
+    "concours national de la Résistance et de la Déportation 2027 dates d’appel et modalités",
+    "concours Bulles de mémoire 2027 règlement et date de dépôt"
+   ],
+   "pages_lues": 3
+  },
+  {
+   "etape": "verification_des_lacunes",
+   "lacunes": [
+    "Absence d’une liste exhaustive et structurée de tous les concours prévus en 2027 (titre, date de clôture, ministère, catégorie) – les sources fournies ne couvrent qu’une partie du calendrier général et un seul ministère.",
+    "Manque d’informations sur les concours spécifiques au ministère de la Défense ou aux établissements partenaires des CDSG pour l’année 2027.",
+    "Pas de données normalisées (ex. tableau CSV ou JSON) permettant de répondre clairement à la demande « donne moi les concours 2027 » sans devoir extraire manuellement les informations des pages PDF ou HTML."
+   ],
+   "requetes": [
+    "site:fonction-publique.gouv.fr \"concours 2027\" \"calendrier général des concours\"",
+    "site:gouvernement.fr \"concours 2027\" \"ministère de la Défense\"",
+    "site:ecologie.gouv.fr \"Calendrier des concours 2027\" filetype:pdf"
+   ],
+   "pages_lues": 2
+  }
+ ]
+}
