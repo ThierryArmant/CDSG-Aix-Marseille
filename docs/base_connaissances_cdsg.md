@@ -12,8 +12,8 @@ Demandes de référence de Thierry, 15 novembre 2026.
 
 ## Trois niveaux effectivement installés
 1. `data/memoire.json` : sept repères validés et datés, avec sources. Le modèle reçoit uniquement les entrées validées avec source et date. Aucun apprentissage automatique à partir de ses réponses.
-2. `data/referentiel_sources.json` : 38 sources identifiées, par thème et mots-clefs. Les guides pertinents sont consultés avant la recherche générale. Pour un PDF, recherche de passages sur toutes les pages et restitution des numéros de pages. Une source inscrite au catalogue n’est pas pour autant intégralement dépouillée ni une donnée toujours actuelle.
-3. `data/opportunites.json` : quinze dispositifs ou pistes, avec porteur, périmètre, source et état de vérification. Les montants et échéances sont volontairement non figés. Les prix ne sont pas tous des aides financières.
+2. `data/referentiel_sources.json` : 43 sources identifiées, par thème et mots-clefs. Les guides pertinents sont consultés avant la recherche générale. Pour un PDF, recherche de passages sur toutes les pages et restitution des numéros de pages. Une source inscrite au catalogue n’est pas pour autant intégralement dépouillée ni une donnée toujours actuelle.
+3. `data/opportunites.json` : vingt-trois dispositifs ou pistes, avec porteur, périmètre, source et état de vérification. Les montants et échéances sont volontairement non figés. Les prix ne sont pas tous des aides financières.
 
 Les fiches et conventions du dossier restent distinctes de la documentation nationale. Une unité militaire implantée dans une commune n’est pas automatiquement une unité marraine. Une liste de lieux ne permet pas de compter toutes les unités.
 
