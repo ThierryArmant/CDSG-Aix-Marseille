@@ -1,0 +1,56 @@
+name: Diagnostic assistant IA
+# Déclenché uniquement lorsque ce fichier de diagnostic est modifié, ou à la main.
+on:
+  push:
+    paths:
+      - .github/workflows/diagnostic-assistant.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Tests du branchement et des erreurs
+        run: |
+          python -m unittest discover -s tests -v
+          node --test tests/questions.test.cjs
+      - name: Outils de lecture
+        run: sudo apt-get install -y -qq poppler-utils >/dev/null
+      - name: Question réelle avec les clés serveur
+        env:
+          ALBERT_API_KEY: ${{ secrets.ALBERT_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          API_BASE_URL: ${{ vars.API_BASE_URL || 'https://albert.api.etalab.gouv.fr/v1' }}
+          API_MODEL: ${{ vars.API_MODEL }}
+          MODELE_QUESTION: ${{ vars.MODELE_QUESTION }}
+        run: |
+          python recherche/recherche_web.py --sans-boite --question-web "Combien y a-t-il d’unités militaires dans le Vaucluse ?" --qid diagnostic-vaucluse
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/reponses/diagnostic-vaucluse.json').read_text())
+          assert not r.get('erreur'), r.get('erreur')
+          assert r.get('reponse'), 'Réponse absente'
+          assert r.get('sources'), 'Aucune source web consultée'
+          print('Réponse produite avec', len(r['sources']), 'source(s) web.')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: diagnostic-question-vaucluse
+          path: data/reponses/diagnostic-vaucluse.json
+          retention-days: 3
