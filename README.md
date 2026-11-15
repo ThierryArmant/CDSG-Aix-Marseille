@@ -63,3 +63,7 @@ Dans `data/classes.js`, modifier la ligne de l'établissement. Champs :
 `dep`, `etab`, `ville`, `ce` (chef d'établissement), `ref` (référents), `unite`, `conv` (convention),
 `statut` (`active` / `dormante` / `projet`), `verifier` (`true` si à confirmer), `suivi` (formateur), `site` (site de l'établissement, aide la recherche), `note` (notes de suivi).
 Le plus simple : bouton **Modifier la fiche** sur le site.
+
+## Mémoire documentaire de départ
+
+`data/memoire.json` contient les repères institutionnels et géographiques validés, leurs sources et leur date de vérification. Le script les fournit au modèle pour préparer les recherches et rédiger les réponses. Une entrée sans source, sans date ou non validée est ignorée. Les fiches restent la référence pour le suivi des classes ; la mémoire n’est pas un recensement exhaustif des unités. Les résultats de recherche et conversations ne sont jamais ajoutés automatiquement à cette base.
