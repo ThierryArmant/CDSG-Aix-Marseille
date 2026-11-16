@@ -229,6 +229,18 @@ window.CDSG_ACTUS = [
   "ville": "Aubagne"
  },
  {
+  "date": "2026-10-03",
+  "type": "autre",
+  "titre": "Création d'une classe défense au lycée Thiers",
+  "resume": "Le 3 octobre 2026, le communiqué indique que le lycée Thiers à Marseille a mis en place une « classe défense », ce qui a soulevé des questions chez les parents d’élèves.",
+  "source": "https://www.lutte-ouvriere.org/portail/communiques/sans-profs-sans-courage-197632.html",
+  "image": "https://www.lutte-ouvriere.org/medias/communique/images/2026/10/signal-2026-10-02-233556.jpeg.420x236_q85_box-0%2C217%2C1205%2C896_crop_detail.jpg",
+  "site": "Lutte Ouvrière",
+  "fiche": "lycee-thiers-marseille",
+  "etab": "Lycée Thiers",
+  "ville": "Marseille"
+ },
+ {
   "date": "2026-10-02",
   "type": "sortie",
   "titre": "Matinée exceptionnelle Classe Défense",
@@ -275,17 +287,5 @@ window.CDSG_ACTUS = [
   "fiche": "college-lucie-aubrac-bollene",
   "etab": "Collège Lucie Aubrac",
   "ville": "Bollène"
- },
- {
-  "date": "2026-10",
-  "type": "convention",
-  "titre": "Convention de la classe défense",
-  "resume": "La convention de la classe défense du Collège Joseph Vernet est prête depuis octobre 2026.",
-  "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-joseph-vernet-84.html",
-  "image": null,
-  "site": "letudiant.fr",
-  "fiche": "college-joseph-vernet-avignon",
-  "etab": "Collège Joseph Vernet",
-  "ville": "Avignon"
  }
 ];

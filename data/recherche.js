@@ -831,15 +831,15 @@ window.CDSG_WEB = {
   ]
  },
  "lycee-thiers-marseille": {
-  "date": "11/11/2026",
+  "date": "16/11/2026",
   "resume": "Le conseil d’administration du lycée Thiers a validé le 6 juillet 2026 la création d’une classe défense, officialisant un partenariat de trois ans avec la Marine nationale qui prévoit des sorties pédagogiques dans des installations navales. Cette décision a suscité des manifestations, dont",
   "photo": {
    "url": "https://marsactu.fr/wp-content/uploads/2026/07/photo-thiers.jpg",
    "source": "https://marsactu.fr/bref/la-direction-du-lycee-thiers-fait-voter-en-catimini-la-creation-dune-classe-defense/",
    "manuel": false
   },
-  "nb": 14,
-  "derniere_activite": "2026-07-07",
+  "nb": 15,
+  "derniere_activite": "2026-10-03",
   "derniers": {
    "sortie": {
     "date": "2026-07-07",
@@ -873,6 +873,7 @@ window.CDSG_WEB = {
    }
   },
   "sources": [
+   "https://www.lutte-ouvriere.org/portail/communiques/sans-profs-sans-courage-197632.html",
    "https://marsactu.fr/bref/la-direction-du-lycee-thiers-fait-voter-en-catimini-la-creation-dune-classe-defense/",
    "https://www.laprovence.com/article/region/3088185170850514/18-septembre-200-manifestants-contre-l-austerite-bloquent-le-lycee-thiers-a-marseille",
    "https://www.revolutionpermanente.fr/Militarisme-au-lycee-Thiers-de-Marseille-la-direction-acte-l-ouverture-d-une-classe-defense",
@@ -2026,7 +2027,7 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-jean-claude-izzo-marseille-13e": {
-  "date": "11/11/2026",
+  "date": "16/11/2026",
   "nb": 0,
   "photo": null,
   "derniere_activite": null,
@@ -2196,8 +2197,8 @@ window.CDSG_WEB = {
   ]
  },
  "college-chape-marseille": {
-  "date": "11/11/2026",
-  "nb": 8,
+  "date": "16/11/2026",
+  "nb": 12,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2015-04/2015-04-15/20150415_1_5_1_1_0_obj8681876_1.jpg",
    "source": "https://www.laprovence.com/article/edition-marseille/3361908/cajazz-pour-les-eleves-du-college-chape.html",
@@ -2205,6 +2206,18 @@ window.CDSG_WEB = {
   },
   "derniere_activite": "2026-03",
   "derniers": {
+   "distinction": {
+    "date": "2023",
+    "titre": "Participation au Prix du Livre jeunesse de Marseille",
+    "resume": "Les élèves de la classe 6e défense ont pris part au Prix du Livre jeunesse de Marseille en 2023, sélectionnant le livre « Adieu Béton » comme favori.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-chape/spip/Superbe-vitrine-realisee-par-les-6eD-pour-le-PLJM.html"
+   },
+   "sortie": {
+    "date": null,
+    "titre": "Rencontre avec la garde nationale",
+    "resume": "Les élèves du collège Chape ont participé à une rencontre avec la garde nationale, sortie de découverte d’une unité de défense.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-chape/spip/spip.php?page=plan&tri_arts=sansnum+titre"
+   },
    "convention": {
     "date": "2026-03",
     "titre": "Signature de convention avec l'unité marraine",
@@ -2216,16 +2229,35 @@ window.CDSG_WEB = {
     "titre": "Depuis 2018, la Classe Défense du collège Stéphane Mallarmé",
     "resume": "Le 15 mai 2025, Valérie Boyer publie sur Facebook que la classe défense du collège Stéphane Mallarmé, parrainée par les Marins Pompiers de Marseille, montre un engagement exemplaire et qu’elle a invité la promotion 2024/2025 au Sénat.",
     "source": "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   },
+   "projet": {
+    "date": "2023-05-20",
+    "titre": "Vitrine du PLJM à la Librairie l’Hydre aux mille têtes",
+    "resume": "Du 20 au 27 mai 2023, la vitrine conçue par la classe 6e défense du Collège Chape a été exposée à la librairie L’Hydre aux mille têtes dans le cadre du PLJM.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-chape/spip/Superbe-vitrine-realisee-par-les-6eD-pour-le-PLJM.html"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2023",
+    "titre": "Participation au Prix du Livre jeunesse de Marseille",
+    "resume": "Les élèves de la classe 6e défense ont pris part au Prix du Livre jeunesse de Marseille en 2023, sélectionnant le livre « Adieu Béton » comme favori.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-chape/spip/Superbe-vitrine-realisee-par-les-6eD-pour-le-PLJM.html",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.site.ac-aix-marseille.fr/clg-chape/spip/Superbe-vitrine-realisee-par-les-6eD-pour-le-PLJM.html"
+    ]
+   }
+  ],
   "sources": [
    "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/jcms/c_10444225/fr/ent-1er-degre",
    "https://www.pedagogie.ac-aix-marseille.fr/jcms/spip/index.html",
    "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11243286/fr/les-classes-defense-de-l-academie-d-aix-marseille",
    "https://www.cgteduc-aixmarseille.org/lecole-de-la-guerre/",
    "https://www.laprovence.com/article/edition-marseille/3361908/cajazz-pour-les-eleves-du-college-chape.html",
-   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400"
+   "https://www.facebook.com/valerieboyer13/posts/depuis-2018-la-classe-d%C3%A9fense-du-coll%C3%A8ge-st%C3%A9phane-mallarm%C3%A9-de-marseille-parrain%C3%A9/1202152734615400",
+   "https://www.site.ac-aix-marseille.fr/clg-chape/spip/Superbe-vitrine-realisee-par-les-6eD-pour-le-PLJM.html",
+   "https://www.site.ac-aix-marseille.fr/clg-chape/spip/spip.php?page=plan&tri_arts=sansnum+titre"
   ],
   "resume": "En mars 2026, le Collège Chape a signé une convention de classe défense et une convention de partenariat pour son atelier défense avec le BRF Jacques Chevallier, brigade de fusiliers marins de la base navale de Toulon, qui constitue son unité marraine. Aucun prix ou distinction n’est mentionné dans les éléments de veille. Le BRF Jacques Chevallier reste le principal partenaire de la classe défense"
  },
@@ -2486,8 +2518,8 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-saint-charles-prive-arles": {
-  "date": "11/11/2026",
-  "nb": 4,
+  "date": "16/11/2026",
+  "nb": 6,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2015-04/2015-04-29/20150429_1_2_7_2_1_obj8794197_1.jpg",
    "source": "https://www.laprovence.com/article/edition-arles/3383692/le-lycee-saint-charles-trois-ans-dexigence-scolaire-et-humaine.html",
@@ -2495,6 +2527,12 @@ window.CDSG_WEB = {
   },
   "derniere_activite": "2026-06",
   "derniers": {
+   "ceremonie": {
+    "date": "2017-07-21",
+    "titre": "Cérémonie de remise des prix à l’Hôtel de ville",
+    "resume": "Une cérémonie de remise des prix a eu lieu dans la cour des Podestats de l'Hôtel de ville d’Arles, en présence d’élus, pour les lauréats dont les deux élèves du Collège Saint‑Charles.",
+    "source": "https://www.laprovence.com/article/edition-arles/4547667/les-eleves-arlesiens-primes-au-concours-de-la-resistance.html"
+   },
    "convention": {
     "date": "2026-06",
     "titre": "Renouvellement de convention",
@@ -2512,7 +2550,9 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-prive-saint-charles-13.html",
    "https://www.laprovence.com/article/edition-arles/3383692/le-lycee-saint-charles-trois-ans-dexigence-scolaire-et-humaine.html",
-   "https://www.facebook.com/StCharlesArles/posts/%EF%B8%8F-nouveaut%C3%A9-%C3%A0-saint-charles-%EF%B8%8F%C3%A0-partir-de-la-rentr%C3%A9e-2026-2027-les-%C3%A9l%C3%A8ves-de-4%C3%A8me/1656796456455252"
+   "https://www.facebook.com/StCharlesArles/posts/%EF%B8%8F-nouveaut%C3%A9-%C3%A0-saint-charles-%EF%B8%8F%C3%A0-partir-de-la-rentr%C3%A9e-2026-2027-les-%C3%A9l%C3%A8ves-de-4%C3%A8me/1656796456455252",
+   "https://www.laprovence.com/article/edition-arles/4649419/le-voyage-dans-le-temps-des-laureats.html",
+   "https://www.laprovence.com/article/edition-arles/4547667/les-eleves-arlesiens-primes-au-concours-de-la-resistance.html"
   ],
   "resume": "En juin 2026, le collège Saint‑Charles d’Arles a renouvelé et signé plusieurs conventions, dont une avec la Gendarmerie du groupement 13, pour mettre en place la Classe Défense. La même période a vu l’annonce, sur la page Facebook de l’établissement, du lancement d’un parcours Classe Défense destiné aux élèves de 4ᵉ"
  },
@@ -2847,8 +2887,8 @@ window.CDSG_WEB = {
   "resume": "La classe défense du collège Les Garcins se prépare à intervenir lors de la cérémonie du 11‑novembre 2026, après une visite du Souvenir français (antenne de Briançon) le 5 novembre 2026. Son partenariat principal reste le 4e Régiment de chasseurs de Gap, unité marraine depuis la convention signée en octobre 2023, complété par le Souvenir français comme partenaire local. Aucun prix ou distinction n’est mentionné dans les sources disponibles."
  },
  "college-frederic-mistral-rep-port-de-bouc": {
-  "date": "11/11/2026",
-  "nb": 3,
+  "date": "16/11/2026",
+  "nb": 5,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=7,trim.height=353,trim.width=642/media/hermes/2020-09/2020-09-02/20200902_1_2_6_1_1_obj23049449_1.jpg",
    "source": "https://www.laprovence.com/article/edition-martigues-istres/6095128/les-profs-de-mistral-presentent-leurs-projets-au-recteur.html",
@@ -2871,9 +2911,11 @@ window.CDSG_WEB = {
   },
   "distinctions": [],
   "sources": [
-   "https://www.laprovence.com/article/edition-martigues-istres/6095128/les-profs-de-mistral-presentent-leurs-projets-au-recteur.html"
+   "https://www.laprovence.com/article/edition-martigues-istres/6095128/les-profs-de-mistral-presentent-leurs-projets-au-recteur.html",
+   "https://www.lamarseillaise.fr/societe/education-prioritaire-l-etat-va-experimenter-sur-aix-marseille-KI6758972",
+   "https://www.lamarseillaise.fr/societe/a-port-de-bouc-la-cite-educative-aide-une-politique-volontariste-EO11970026"
   ],
-  "resume": "En juin 2026, le collège Frédéric‑Mistral a signé une convention avec la Flottil"
+  "resume": "En juin 2026, le collège Frédéric Mistral a signé une convention avec la Flottille 31F, qui devient l’unité marraine de la classe défense. Aucun prix ou distinction n’est mentionné, mais les partenaires de la classe sont la Flottille 31F et les sapeurs‑pompiers de Port‑de‑Bouc, qui assurent la formation en sécurité civile. La première promotion, constituée en mars 2021, comptait neuf filles et sept garçons, affichant ainsi une majorité féminine dès le lancement du dispositif."
  },
  "eboli-jas-de-bouffan-aix-en-provence": {
   "date": "11/11/2026",
