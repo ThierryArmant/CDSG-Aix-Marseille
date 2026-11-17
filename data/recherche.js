@@ -1,9 +1,9 @@
 // Résumés de la veille web — généré par recherche/recherche_web.py (détail : classes/<fiche>/veille.json)
 window.CDSG_WEB = {
  "college-jean-giono-orange": {
-  "date": "15/11/2026",
+  "date": "17/11/2026",
   "resume": "",
-  "nb": 75,
+  "nb": 105,
   "derniere_activite": "2026-11-11",
   "derniers": {
    "distinction": {
@@ -76,6 +76,16 @@ window.CDSG_WEB = {
     ]
    },
    {
+    "date": "2025-2026",
+    "titre": "Prix inter armées 2025-2026",
+    "resume": "La classe défense du Collège Jean Giono a reçu le prix inter armées pour l'année scolaire 2025‑2026.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/Remise-du-prix-inter-armees-2025-2026.html"
+    ]
+   },
+   {
     "date": "2025-03-19",
     "titre": "Prix national Louis‑Quinio",
     "resume": "Le recteur Benoît Delaunay, accompagné de responsables académiques et militaires, a décerné le prix national Louis‑Quinio à la classe défense du Collège Jean Giono pour son travail de mémoire.",
@@ -107,6 +117,26 @@ window.CDSG_WEB = {
     ]
    },
    {
+    "date": "2022-03-12",
+    "titre": "Remise d'un chèque de 630 € par le Lions Club",
+    "resume": "Le Lions Club a offert 630 € au collège Giono en reconnaissance des classes défense (CDSG) et des cadets de la sécurité civile.",
+    "source": "https://www.ledauphine.com/culture-loisirs/2022/03/12/un-cheque-aux-classes-defense-du-college-giono",
+    "verifie": "presse",
+    "sources": [
+     "https://www.ledauphine.com/culture-loisirs/2022/03/12/un-cheque-aux-classes-defense-du-college-giono"
+    ]
+   },
+   {
+    "date": "2022-03-02",
+    "titre": "Remise du drapeau de la 2e division blindée",
+    "resume": "Le 2 mars 2022, le collège Jean Giono a reçu le drapeau de l’amicale de la 2ᵉ division blindée, remis lors d’une cérémonie solennelle.",
+    "source": "https://www.ledauphine.com/culture-loisirs/2022/03/02/le-drapeau-de-la-2e-division-blindee-remis-au-college-giono",
+    "verifie": "presse",
+    "sources": [
+     "https://www.ledauphine.com/culture-loisirs/2022/03/02/le-drapeau-de-la-2e-division-blindee-remis-au-college-giono"
+    ]
+   },
+   {
     "date": "2019",
     "titre": "Prix spécial « Féminisons l'aéronautique » 2019 (BD avec Airbus Helicopters)",
     "resume": "Le Collège Jean Giono d’Orange a reçu le Prix spécial le 24 mai 2022, en partenariat avec Airbus Helicopters et le lycée professionnel Pierre Mendes France de Vitrolles.",
@@ -131,11 +161,11 @@ window.CDSG_WEB = {
    "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Pedagogie-.html",
    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-BIA-.html",
+   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Reglements-.html",
+   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDI-.html",
+   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Press-Book-10-.html",
    "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Organigramme-.html",
-   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html",
-   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-Pole-Litteraire-Humaniste-.html",
-   "https://www.laprovence.com/article/region/2979749636571915/colere-au-college-jean-giono-a-orange-face-au-manque-de-professeurs-de-francais",
-   "https://www.ledauphine.com/education/2026/03/31/les-collegiens-de-giono-travaillent-l-amitie-franco-amercaine-a-new-york"
+   "https://www.site.ac-aix-marseille.fr/clg-giono-orange/spip/-CDSG-.html"
   ],
   "photo": {
    "url": "classes/college-jean-giono-orange/photo.jpg?t=1794358116917",
@@ -522,13 +552,13 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-paul-gauthier-cavaillon": {
-  "date": "11/11/2026",
+  "date": "17/11/2026",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=169,trim.height=1125,trim.width=2000/media/2024/05/18/FQ-CITOYENNETE-B.jpg",
    "source": "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des",
    "manuel": false
   },
-  "nb": 13,
+  "nb": 18,
   "derniere_activite": "2024-05-18",
   "derniers": {
    "distinction": {
@@ -556,10 +586,10 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des"
    },
    "article": {
-    "date": "2016-05-23",
-    "titre": "Les sapeurs-pompiers au secours des collégiens de Paul-Gauthier",
-    "resume": "Article publié le 23 mai 2016 décrivant la visite de la classe défense du collège Paul‑Gauthier par les sapeurs‑pompiers du centre de secours de Cavaillon.",
-    "source": "https://www.laprovence.com/article/edition-vaucluse/3950959/les-sapeurs-pompiers-au-secours-des-collegiens-de-paul-gauthier.html"
+    "date": "2016-05-30",
+    "titre": "La classe défense découvre l'Armée de l'air",
+    "resume": "Publication du 30 mai 2016 relatant la visite de militaires de l'Armée de l'air auprès de la classe défense du collège Paul‑Gauthier.",
+    "source": "https://www.laprovence.com/article/papier/3961564/la-classe-defense-decouvre-larmee-de-lair.html"
    },
    "projet": {
     "date": "2016-06-02",
@@ -603,20 +633,22 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des",
    "https://www.laprovence.com/article/edition-vaucluse/3966643/le-gouverneur-militaire-recompense-la-classe-defense-du-college-paul-gauthier.html",
+   "https://www.laprovence.com/article/papier/3961564/la-classe-defense-decouvre-larmee-de-lair.html",
    "https://www.laprovence.com/article/edition-vaucluse/3950959/les-sapeurs-pompiers-au-secours-des-collegiens-de-paul-gauthier.html",
+   "https://www.laprovence.com/article/edition-sud-vaucluse/3773811/une-classe-labellisee-defense-et-securite.html",
    "https://www.echodumardi.com/tag/college-paul-gauthier?print=print-search"
   ]
  },
  "lycee-val-de-durance-pertuis": {
-  "date": "11/11/2026",
+  "date": "17/11/2026",
   "resume": "Le 15 mai 2024, la classe de 1ᵉ générale du lycée Val‑de‑Durance (29 élèves) a reçu le troisième prix du Prix de l’Éducation citoyenne à Avignon pour son mémoire sur le débarquement de Provence et le rôle des tr",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=169,trim.height=1125,trim.width=2000/media/2024/05/18/FQ-CITOYENNETE-B.jpg",
    "source": "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des",
    "manuel": false
   },
-  "nb": 10,
-  "derniere_activite": "2026-09-22",
+  "nb": 12,
+  "derniere_activite": "2026-10-25",
   "derniers": {
    "distinction": {
     "date": "2024-05-15",
@@ -629,6 +661,12 @@ window.CDSG_WEB = {
     "titre": "Journée Défense et avenir",
     "resume": "Le 9 octobre 2025, les élèves des classes de défense ont participé à la journée Défense et avenir organisée par l’IHEDN Provence en collaboration avec le proviseur Lionel Nègre.",
     "source": "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense"
+   },
+   "ceremonie": {
+    "date": "2026-10-25",
+    "titre": "12e Forum sécurité et défense à Pertuis",
+    "resume": "Le 12e Forum sécurité et défense a eu lieu à Pertuis, organisé par le groupe d’action de Pertuis sous la présidence du général Michel Foudriat et piloté par Lionel Negre, proviseur du lycée Val de Durance, avec la participation d’environ 500 collégiens et lycéens.",
+    "source": "https://www.laprovence.com/article/region/20769476207938/un-forum-pour-savoir-si-l-avenir-des-collegiens-de-pertuis-se-conjuguera-via-le-secteur-de-la-defense"
    },
    "convention": {
     "date": "2021-02-16",
@@ -656,9 +694,11 @@ window.CDSG_WEB = {
    }
   ],
   "sources": [
+   "https://www.laprovence.com/article/region/20769476207938/un-forum-pour-savoir-si-l-avenir-des-collegiens-de-pertuis-se-conjuguera-via-le-secteur-de-la-defense",
    "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/-Les-projets-d-equipe-.html",
    "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
-   "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des"
+   "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des",
+   "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/3eme-Prepa-Metiers.html"
   ]
  },
  "mfr-de-lambesc-3e-lambesc": {
@@ -1093,8 +1133,8 @@ window.CDSG_WEB = {
   "resume": "La classe défense du collège Stéphane Mallarmé a reçu en 2025 le prix « Armées zone Sud » décerné par le général Laval, récompensant son projet. Elle"
  },
  "college-francois-raspail-carpentras": {
-  "date": "11/11/2026",
-  "nb": 11,
+  "date": "17/11/2026",
+  "nb": 49,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/05/12/classe-chad-carpentras-1778601707_6664a240230a6ba64a240230aee64av_.jpg",
    "source": "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse",
@@ -1108,11 +1148,17 @@ window.CDSG_WEB = {
     "resume": "Le groupe compétition de la CHAD se qualifie pour le Festival national de danse UNSS qui se tiendra à Albi du 10 au 12 juin 2026.",
     "source": "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse"
    },
+   "sortie": {
+    "date": "2017-11-20",
+    "titre": "Retour des anciens de la classe Défense",
+    "resume": "Le 20 novembre 2017, à l’invitation de la principale Catherine Jullian, cinq anciens de la promotion 2012 sont revenus au collège pour partager leurs parcours.",
+    "source": "https://www.laprovence.com/article/edition-vaucluse/4715786/cinq-ans-apres-les-anciens-de-la-classe-defense-reviennent-au-college-raspail.html"
+   },
    "ceremonie": {
-    "date": "2012-09-28",
-    "titre": "Participation aux cérémonies du 11 novembre",
-    "resume": "Les élèves de la classe Défense assisteront aux commémorations du 11 novembre aux côtés des Anciens combattants.",
-    "source": "https://www.laprovence.com/article/edition-carpentras-comtat/1976797/le-college-raspail-ouvre-la-premiere-classe-defense-du-vaucluse.html"
+    "date": "2016-06",
+    "titre": "Remise solennelle d'un diplôme",
+    "resume": "En juin 2016, la mairie de Carpentras a décerné solennellement un diplôme aux élèves de la classe défense, en présence des partenaires.",
+    "source": "https://www.laprovence.com/article/edition-grand-vaucluse/3867289/le-commissariat-etape-privilegiee-de-la-classe-defense.html"
    },
    "convention": {
     "date": "2021-09-01",
@@ -1178,9 +1224,13 @@ window.CDSG_WEB = {
   ],
   "sources": [
    "https://www.laprovence.com/article/culture-loisirs/56187058366594/les-apprentis-danseurs-de-la-chad-du-college-raspail-de-carpentras-qualifies-au-festival-national-de-danse",
+   "https://fr.linkedin.com/posts/julien-cuminetto-b391bab5_zoom-sur-les-16-classes-d%C3%A9fense-du-vaucluse-activity-7250101171988656128-gpHW",
    "https://www.laprovence.com/article/edition-carpentras-comtat/1976797/le-college-raspail-ouvre-la-premiere-classe-defense-du-vaucluse.html",
-   "https://www.instagram.com/p/DXJz0Otiqte",
-   "https://www.facebook.com/Carpentras/posts/-victoire-%C3%A9clatante-de-la-classe-de-chad-classe-%C3%A0-horaires-am%C3%A9nag%C3%A9s-danse-du-con/759974486362140"
+   "https://www.laprovence.com/article/edition-vaucluse/4715786/cinq-ans-apres-les-anciens-de-la-classe-defense-reviennent-au-college-raspail.html",
+   "https://www.laprovence.com/article/edition-grand-vaucluse/3867289/le-commissariat-etape-privilegiee-de-la-classe-defense.html",
+   "https://www.laprovence.com/article/edition-grand-vaucluse/3614759/au-college-raspail-la-classe-defense-est-reconduite.html",
+   "https://www.laprovence.com/article/edition-carpentras-comtat/3125897/les-jeunes-dans-le-cortege-pour-le-devoir-de-memoire.html",
+   "https://www.laprovence.com/article/edition-haut-vaucluse/3100943/les-collegiens-de-raspail-lies-aux-militaires-de-la-ba-115.html"
   ]
  },
  "lycee-pierre-gilles-de-gennes-digne-les-bains": {
@@ -2329,11 +2379,11 @@ window.CDSG_WEB = {
   ]
  },
  "college-joseph-roumanille-avignon": {
-  "date": "11/11/2026",
-  "nb": 3,
+  "date": "17/11/2026",
+  "nb": 17,
   "photo": {
-   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/03/03/college-roumanille-a-avignon-des-professeurs-du-college-tirent-la-sonnette-d-alarme-a-cause-de-l-ins-1741027422_d594cd50e5c76d994cd50e5c7bd94cv_.jpg",
-   "source": "https://www.laprovence.com/article/region/57157942872534/a-avignon-craignant-pour-leur-securite-et-celle-des-eleves-des-professeurs-du-college-roumanille-debrayent",
+   "url": "https://www.lamarseillaise.fr/binrepository/480x360/1c74/480d250/none/150910102/MLXH/img_542-8524987_20250528072009.jpg",
+   "source": "https://www.lamarseillaise.fr/societe/avignon-des-collegiens-dans-le-train-de-l-histoire-des-cheminots-resistants-DK18210102",
    "manuel": false
   },
   "derniere_activite": "2026-11-09",
@@ -2344,18 +2394,41 @@ window.CDSG_WEB = {
     "resume": "La classe Défense du Collège Joseph Roumanille a réalisé une immersion auprès de son unité marraine, encadrée par Gaëlle Raffaelli.",
     "source": "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/La-classe-Defense-du-college-Roumanille-en-immersion-aupres-de-son-unite.html"
    },
+   "ceremonie": {
+    "date": "2026-04-30",
+    "titre": "Cérémonie commémorative de la bataille de Camerone",
+    "resume": "Le 30 avril 2026, la classe défense du collège Joseph Roumanille d’Avignon a assisté à la cérémonie commémorative de la bataille de Camerone, organisée par le 1er Régiment étranger de génie à Laudun‑L’Ardoise.",
+    "source": "https://ozp.fr/spip.php?article35190="
+   },
    "convention": {
-    "date": "2023-03",
-    "titre": "Convention classe défense",
-    "resume": "Signature d'une convention en mars 2023 pour l'atelier défense du collège Joseph Roumanille.",
-    "source": "https://www.laprovence.com/article/region/57157942872534/a-avignon-craignant-pour-leur-securite-et-celle-des-eleves-des-professeurs-du-college-roumanille-debrayent"
+    "date": "2026-03-31",
+    "titre": "Signature d’une nouvelle classe de défense",
+    "resume": "Le 1er Régiment étranger de génie a signé le 31 mars 2026 une convention de classe de défense avec le Collège Joseph Roumanille d’Avignon, ouvrant une activité d’intégration pour les jeunes d’origine étrangère.",
+    "source": "https://fr.linkedin.com/posts/1er-r%C3%A9giment-%C3%A9tranger-de-g%C3%A9nie_1reg-legionetrangere-classed%C3%A9fense-activity-7444647204553875456-3BZg"
+   },
+   "article": {
+    "date": "2026-06-04",
+    "titre": "Défense",
+    "resume": "Le collège Joseph Roumanille propose une option Défense, dont la dernière mise à jour en ligne date du 4 juin 2026.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/-Les-options-.html"
+   },
+   "projet": {
+    "date": "2025-06",
+    "titre": "Remise de l’exposition au club cheminots",
+    "resume": "En juin 2025, les élèves de la classe défense présenteront leur exposition sur la mémoire des cheminots au club cheminots d’Avignon.",
+    "source": "https://www.lamarseillaise.fr/societe/avignon-des-collegiens-dans-le-train-de-l-histoire-des-cheminots-resistants-DK18210102"
    }
   },
   "distinctions": [],
   "sources": [
    "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/La-classe-Defense-du-college-Roumanille-en-immersion-aupres-de-son-unite.html",
+   "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/-Les-options-.html",
+   "https://ozp.fr/spip.php?article35190=",
+   "https://fr.linkedin.com/posts/1er-r%C3%A9giment-%C3%A9tranger-de-g%C3%A9nie_1reg-legionetrangere-classed%C3%A9fense-activity-7444647204553875456-3BZg",
+   "https://www.lamarseillaise.fr/societe/avignon-des-collegiens-dans-le-train-de-l-histoire-des-cheminots-resistants-DK18210102",
+   "https://fr.wikipedia.org/wiki/Classes_d%C3%A9fense_et_s%C3%A9curit%C3%A9_globale",
    "https://www.laprovence.com/article/region/57157942872534/a-avignon-craignant-pour-leur-securite-et-celle-des-eleves-des-professeurs-du-college-roumanille-debrayent",
-   "https://www.site.ac-aix-marseille.fr/clg-roumanille/spip/"
+   "https://www.ledauphine.com/education/2021/04/02/la-gendarmerie-nationale-au-college-joseph-roumanille"
   ],
   "resume": "La classe Défense du Collège Joseph Roumanille a réalisé, le 9 novembre 2026, une immersion auprès de son unité marraine, encadrée par Gaëlle Raffaelli. Le collège propose depuis 2023 une option « Défense », officialisée par la convention signée en mars 2023 pour l’atelier défense. Aucun prix ou distinction n’est mentionné dans les éléments de veille."
  },

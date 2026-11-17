@@ -2,6 +2,19 @@
  "fiche": "lycee-val-de-durance-pertuis",
  "elements": [
   {
+   "type": "ceremonie",
+   "date": "2026-10-25",
+   "titre": "12e Forum sécurité et défense à Pertuis",
+   "extrait": "Nadia Armogathe, principale du collège Marie‑Mauron et Virginie Deletang, principale adjointe, ont ouvert le 12e Forum sécurité et défense à Pertuis.",
+   "resume": "Le 12e Forum sécurité et défense a eu lieu à Pertuis, organisé par le groupe d’action de Pertuis sous la présidence du général Michel Foudriat et piloté par Lionel Negre, proviseur du lycée Val de Durance, avec la participation d’environ 500 collégiens et lycéens.",
+   "source": "https://www.laprovence.com/article/region/20769476207938/un-forum-pour-savoir-si-l-avenir-des-collegiens-de-pertuis-se-conjuguera-via-le-secteur-de-la-defense",
+   "page": "Un forum pour savoir si l’avenir des collégiens de Pertuis se conjuguera via le secteur de la défense",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/10/23/pres-de-500-eleves-ont-participe-a-ce-forum-defense-1792774234_6314c917a7da66714c917a7da2b14cv_.jpg",
+   "image_nature": "illustration_article",
+   "trouve_le": "2026-11-17"
+  },
+  {
    "type": "article",
    "date": "2026-09-22",
    "titre": "Classe défense",
@@ -126,6 +139,17 @@
    "autres_sources": [
     "https://diplomeo.com/etablissement-lycee_polyvalent_val_de_durance_henri_silvy-15760"
    ]
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Classe Défense",
+   "extrait": "La Classe Défense, Préventions des risques Psycho-sociaux, Visites de sites industriels, Visites d’Entreprises",
+   "resume": "La classe propose une « Classe Défense » qui inclut la prévention des risques psychosociaux ainsi que des visites de sites industriels et d’entreprises.",
+   "source": "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/3eme-Prepa-Metiers.html",
+   "page": "3ème Prépa Métiers - Lycée Val de Durance - Henri SilvyAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les ",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-17"
   }
  ],
  "recherches": [
@@ -138,15 +162,24 @@
    "date": "2026-11-11",
    "pages": 26,
    "nouveaux": 9
+  },
+  {
+   "date": "2026-11-17",
+   "pages": 26,
+   "nouveaux": 2
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://www.defense.gouv.fr/air/journee-portes-ouvertes-lecole-pupilles-lair-lespace",
   "https://annuaire-education.fr/etablissement/pertuis/lycee-polyvalent-val-de-durance/0840918S.html",
   "https://college-lycee.com/lycee-polyvalent-val-de-durance-henri-silvy/Pertuis-0840918S",
+  "https://demarchesadministratives.fr/college/durance-47420",
   "https://diplomeo.com/etablissement-lycee_polyvalent_val_de_durance_henri_silvy-15760",
   "https://eduscol.education.gouv.fr/sites/default/files/document/2026guidecommemorationsexemplesceremoniescommemorativespdf-129274.pdf",
+  "https://fr.linkedin.com/posts/sandy-rolland-4a8184234_deux-classes-de-d%C3%A9fense-du-lycee-polyvalent-activity-7330671679162957824-YMp6",
   "https://www.dsden94.ac-creteil.fr/spip.php?article2686=",
+  "https://www.echodumardi.com/actualite/harcelement-scolaire-la-region-sud-remet-un-prix-au-lycee-de-pertuis/",
   "https://www.facebook.com/Blangysurbresle/videos/ce-matin-les-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-du-campigny-se-sont-r%C3%A9unis-pour-comm%C3%A9morer-larmis/1089687904072194",
   "https://www.facebook.com/Ville.de.Pertuis/posts/-50-ans-du-coll%C3%A8ge-marcel-pagnol-une-journ%C3%A9e-m%C3%A9morable-%C3%A0-pertuis-ce-mardi-17-jui/1060901546249072",
   "https://www.facebook.com/Ville.de.Pertuis/posts/-passeurs-de-m%C3%A9moire-une-jeunesse-engag%C3%A9e-pour-ne-jamais-oublierle-lundi-2-juin-/1049692277369999",
@@ -155,22 +188,43 @@
   "https://www.facebook.com/laprovence/posts/le-lyc%C3%A9e-val-de-durance-de-pertuis-sest-lanc%C3%A9-dans-laventure-erasmus-depuis-quat/1453590596812100",
   "https://www.facebook.com/laprovence/posts/les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-marie-mauron-de-pertuis-ont-particip%C3%A9/1383090087195485",
   "https://www.facebook.com/laprovence/posts/les-%C3%A9l%C3%A8ves-des-coll%C3%A8ges-marie-mauron-et-marcel-pagnol-ainsi-que-du-lyc%C3%A9e-val-de-/1481628200675006",
+  "https://www.ici.fr/infos/education/le-lycee-val-de-durance-change-de-nom-a-l-occasion-des-80-ans-du-debarquement-de-provence-6816834",
+  "https://www.laprovence.com/article/edition-sud-vaucluse/3021280/changements-au-college-pagnol-et-au-lycee-val-de-durance.html",
+  "https://www.laprovence.com/article/edition-vaucluse/4095303/dans-les-colleges-lycee-et-ecoles-de-pertuis.html",
   "https://www.laprovence.com/article/region/165721892885615/des-eleves-avignonnais-recoivent-le-prix-de-l-education-citoyenne-des",
+  "https://www.laprovence.com/article/region/20769476207938/un-forum-pour-savoir-si-l-avenir-des-collegiens-de-pertuis-se-conjuguera-via-le-secteur-de-la-defense",
+  "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance",
+  "https://www.laprovence.com/article/region/3804164183625214/les-premiers-lyceens-de-l-ensemble-scolaire-notre-dame-a-pertuis-ont-fait-leur-rentree",
   "https://www.laprovence.com/article/societe/25832799323081/les-lyceens-de-val-de-durance-a-pertuis-decouvrent-les-metiers-de-la-defense",
+  "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
   "https://www.ledauphine.com/archives/2026/20-09",
   "https://www.ledauphine.com/archives/2026/21-06",
+  "https://www.ledauphine.com/education/2022/06/26/le-nouveau-groupe-scolaire-des-moulieres-inaugure",
+  "https://www.ledauphine.com/education/2022/10/16/une-classe-d-un-college-de-pertuis-laureate-du-prix-samuel-paty",
+  "https://www.ledauphine.com/education/2022/10/17/prix-samuel-paty-a-des-collegiens-de-pertuis-ils-ont-seme-des-graines-sur-la-liberte-de-parole",
   "https://www.ledauphine.com/education/2024/05/17/trois-cent-vingt-cinq-eleves-aureoles-pour-leur-engagement-citoyen",
   "https://www.ledauphine.com/education/2026/04/03/classement-2026-voila-les-meilleurs-colleges-de-votre-departement",
+  "https://www.ledauphine.com/faits-divers-justice/2023/03/30/une-ado-assure-qu-elle-a-echappe-a-un-enlevement",
   "https://www.ledauphine.com/vaucluse/2015/11/29/la-jeunesse-mise-tout-sur-le-developpement-durable",
   "https://www.leparisien.fr/etudiant/orientation/lycees/annuaire-lycees/lycee-val-de-durance-pertuis",
   "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-val-de-durance-84.html",
+  "https://www.lucyol.fr/fiches/0840918S",
   "https://www.lyc-valdedurance.ac-aix-marseille.fr",
+  "https://www.lyc-valdedurance.ac-aix-marseille.fr/",
   "https://www.ouest-france.fr/bretagne/dinan-22100/les-eleves-de-3e-de-roger-vercel-a-dinan-rendent-hommage-aux-victimes-de-la-grande-guerre-5064650c-be5b-11f0-b8fb-6e3fd978b47c",
   "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/",
   "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/-Les-projets-d-equipe-.html",
+  "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/3eme-Prepa-Metiers.html",
+  "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/Construction-de-polyedres-a-la-faites-de-la-science.html",
+  "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/La-jeunesse-pour-les-droits-humains-a-Pertuis-Les-laureates-du-concours.html",
+  "https://www.site.ac-aix-marseille.fr/lyc-valdedurance/spip/Prix-Tangente-des-Lyceens-2025.html",
+  "https://www.sudouest.fr/lot-et-garonne/mezin/l-apprentissage-de-l-ecologie-9866504.php",
+  "https://www.terre.defense.gouv.fr/lycee-militaire-aix/qui-sommes-nous/lycee-militaire-daix",
+  "https://www.terre.defense.gouv.fr/sites/default/files/lycee-militaire-autun/05_LMA_DOSSIER_MODALITES_PRATIQUES.pdf",
+  "https://www.vaucluse.gouv.fr/Actions-de-l-Etat/Securite/Risques-majeurs/L-information-du-public-sur-les-risques-majeurs/Information-Acquereurs-Locataires-IAL/Documents-communaux/PERTUIS",
   "https://x.com/laprovence/status/1976236673122898373"
  ],
  "etablissement": "Lycée Val de Durance (Pertuis)",
- "referents_cites": "M. Dubois, Mme Abran, Mme Rolland, M. Eyriey",
+ "referents_cites": "Lionel Negre",
  "unite_citee": "BA 115 + commandos de l'air + escadron d'hélicoptères + gendarmerie de Pertuis"
 }

@@ -181,6 +181,18 @@ window.CDSG_ACTUS = [
   "ville": "Gap"
  },
  {
+  "date": "2026-10-25",
+  "type": "ceremonie",
+  "titre": "12e Forum sécurité et défense à Pertuis",
+  "resume": "Le 12e Forum sécurité et défense a eu lieu à Pertuis, organisé par le groupe d’action de Pertuis sous la présidence du général Michel Foudriat et piloté par Lionel Negre, proviseur du lycée Val de Durance, avec la participation d’environ 500 collégiens et lycéens.",
+  "source": "https://www.laprovence.com/article/region/20769476207938/un-forum-pour-savoir-si-l-avenir-des-collegiens-de-pertuis-se-conjuguera-via-le-secteur-de-la-defense",
+  "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/10/23/pres-de-500-eleves-ont-participe-a-ce-forum-defense-1792774234_6314c917a7da66714c917a7da2b14cv_.jpg",
+  "site": "laprovence.com",
+  "fiche": "lycee-val-de-durance-pertuis",
+  "etab": "Lycée Val de Durance",
+  "ville": "Pertuis"
+ },
+ {
   "date": "2026-10-15",
   "type": "ceremonie",
   "titre": "Cérémonie de remise du D.N.B. et du C.F.G.",
@@ -272,18 +284,6 @@ window.CDSG_ACTUS = [
   "source": "https://www.site.ac-aix-marseille.fr/lyc-bollene/spip/",
   "image": null,
   "site": "site.ac-aix-marseille.fr",
-  "fiche": "college-lucie-aubrac-bollene",
-  "etab": "Collège Lucie Aubrac",
-  "ville": "Bollène"
- },
- {
-  "date": "2026-10",
-  "type": "convention",
-  "titre": "Renouvellement de convention",
-  "resume": "Convention de partenariat pour la classe défense signée ou renouvelée en octobre 2026.",
-  "source": "https://www.ledauphine.com/education/2025/04/10/l-aubrac-confirme-son-bon-niveau-au-classement-des-lycees-vauclusiens",
-  "image": "https://cdn-s-www.ledauphine.com/images/BD00710A-430F-4C85-90B5-6920199B6CC4/FB1200/photo-1744308432.jpg",
-  "site": "ledauphine.com",
   "fiche": "college-lucie-aubrac-bollene",
   "etab": "Collège Lucie Aubrac",
   "ville": "Bollène"
