@@ -379,11 +379,11 @@ window.CDSG_WEB = {
   "resume": "La classe défense du collège Les Gorguettes (Cassis) est parrainée depuis le 28 avril 2025 par le 1er Régiment Étranger de Cavalerie"
  },
  "lycee-frederic-mistral-avignon": {
-  "date": "15/11/2026",
-  "nb": 6,
+  "date": "18/11/2026",
+  "nb": 9,
   "photo": {
-   "url": "https://cdn-s-www.ledauphine.com/images/4EC740E8-EC67-448F-8B59-EDA730A343F2/FB1200/photo-1764529145.jpg",
-   "source": "https://www.ledauphine.com/education/2025/11/30/les-eleves-du-college-mistral-recoivent-leur-brevet",
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2015-07/2015-07-17/20150717_1_2_7_1_1_obj9397229_1.jpg",
+   "source": "https://www.laprovence.com/article/edition-arles/3498258/les-collegiens-laureats-du-concours-de-la-resistance.html",
    "manuel": false
   },
   "derniere_activite": "2026-05",
@@ -393,6 +393,12 @@ window.CDSG_WEB = {
     "titre": "14e prix – rédaction d’un devoir individuel",
     "resume": "Anaëlle Mayet, élève du lycée Frédéric Mistral d'Avignon, a reçu le 14e prix du concours de rédaction d’un devoir individuel en classe, catégorie première, en 2026.",
     "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
+   },
+   "ceremonie": {
+    "date": "2015-07-17",
+    "titre": "Réception en mairie",
+    "resume": "Une cérémonie officielle a eu lieu dans la cour des Podestats à Arles, en présence des autorités locales et du Centre de la Résistance.",
+    "source": "https://www.laprovence.com/article/edition-arles/3498258/les-collegiens-laureats-du-concours-de-la-resistance.html"
    },
    "convention": {
     "date": "2023-07",
@@ -431,15 +437,26 @@ window.CDSG_WEB = {
     "sources": [
      "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
     ]
+   },
+   {
+    "date": "2015",
+    "titre": "Participation au concours national de la Résistance",
+    "resume": "Après leur succès départemental, les deux classes sont qualifiées pour le concours national de la Résistance et de la Déportation.",
+    "source": "https://www.laprovence.com/article/edition-arles/3498258/les-collegiens-laureats-du-concours-de-la-resistance.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-arles/3498258/les-collegiens-laureats-du-concours-de-la-resistance.html"
+    ]
    }
   ],
   "sources": [
    "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
    "https://fr.wikipedia.org/wiki/Cit%C3%A9_scolaire_Fr%C3%A9d%C3%A9ric-Mistral",
    "https://www.ledauphine.com/education/2025/11/30/les-eleves-du-college-mistral-recoivent-leur-brevet",
-   "https://www.ledauphine.com/education/2026/10/11/le-lycee-mistral-aureole-pour-son-ouverture-a-l-europe"
+   "https://www.ledauphine.com/education/2026/10/11/le-lycee-mistral-aureole-pour-son-ouverture-a-l-europe",
+   "https://www.laprovence.com/article/edition-arles/3498258/les-collegiens-laureats-du-concours-de-la-resistance.html"
   ],
-  "resume": "La classe défense du lycée Frédéric‑Mistral d’Avignon, mise en place après la signature d’une convention en juillet 2023 avec l’unité DMD 84 qui en est la"
+  "resume": "En mai 2026, trois élèves du lycée Frédéric‑Mistral (Anaëlle Mayet, Norenn Moumen‑Thanoon et Coralie Jorge) ont obtenu respectivement les 14ᵉ, 12ᵉ et 5ᵉ places au concours de rédaction d’un devoir individuel en classe de première. Le projet de classe défense est soutenu depuis juillet 2023 par l’unité DMD 84, suite à la signature d’une convention, et a également bénéficié de l’accompagnement du Centre de la Résistance et"
  },
  "mfr-de-lambesc-4e-lambesc": {
   "date": "12/11/2026",
@@ -988,8 +1005,8 @@ window.CDSG_WEB = {
   ]
  },
  "college-jean-garcin-l-isle-sur-la-sorgue": {
-  "date": "11/11/2026",
-  "nb": 19,
+  "date": "18/11/2026",
+  "nb": 22,
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/98755E81-C2E4-4D73-A62A-DAE4DEBE2BFB/FB1200/photo-1717267774.jpg",
    "source": "https://www.ledauphine.com/education/2024/06/01/le-college-jean-garcin-a-celebre-le-80e-anniversaire-de-la-liberation-de-la-ville",
@@ -1032,12 +1049,12 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.islesurlasorgue.fr/evenements/evenement/commemoration-de-larmistice-du-11-novembre-1918",
    "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
+   "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/3e-Defense-et-Citoyennete-rentree-2025.html",
    "https://www.ledauphine.com/education/2024/06/01/le-college-jean-garcin-a-celebre-le-80e-anniversaire-de-la-liberation-de-la-ville",
    "https://www.defense.gouv.fr/sites/default/files/ministere-armees/17.04.2024%20Patricia%20Miralle%CC%80s%2C%20secre%CC%81taire%20d%E2%80%99E%CC%81tat%20aupre%CC%80s%20du%20ministre%20des%20Arme%CC%81es%2C%20charge%CC%81e%20des%20Anciens%20combattants%20et%20de%20la%20Me%CC%81moire%2C%20se%20rendra%20en%20Vaucluse%20le%20vendredi%2019%20avril..pdf",
    "https://www.facebook.com/OnacvgPACA/posts/journ%C3%A9e-m%C3%A9morielle-en-vaucluseen-cette-ann%C3%A9e-2024-lactivit%C3%A9-m%C3%A9morielle-est-foiso/443366391388447",
    "https://www.ledauphine.com/societe/2023/04/16/le-college-jean-garcin-devient-le-gardien-du-drapeau-des-aieux",
-   "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Classe-3e-Defense-au-college-Jean-Garcin-des-eleves-engages-au-service-des.html",
-   "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/"
+   "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Classe-3e-Defense-au-college-Jean-Garcin-des-eleves-engages-au-service-des.html"
   ]
  },
  "college-stephane-mallarme-marseille-13e": {
@@ -1661,26 +1678,32 @@ window.CDSG_WEB = {
   "resume": "Le collège Lou Garlaban d’Aubagne a ouvert en octobre‑novembre 2024 sa 51ᵉ classe défense, en partenariat avec la Légion étrangère. Depuis, les élèves ont effectué une immersion de deux jours au 1ᵉʳ Régiment étranger, participé à des forums métiers sur les bases de Salon et Toulon et pris part aux cérémonies commémoratives du 8 mai, 14 juillet, 21 août et 11 novembre. La convention liant le dispositif de classe défense à la"
  },
  "college-marcel-pagnol-pertuis": {
-  "date": "11/11/2026",
-  "nb": 7,
+  "date": "18/11/2026",
+  "nb": 13,
   "photo": {
-   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/09/en-amont-de-la-grande-fete-danniversaire-la-college-marcel-pagnol-a-inaugure-lexposition-passeurs-de-1749479413_3bc33ad6e64864fc33ad6e64823d33v_.jpg",
-   "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2016-06/2016-06-02/20160602_1_1_4_1_0_obj11908111_1.jpg",
+   "source": "https://www.laprovence.com/article/edition-vaucluse/3966987/la-resistance-passe-par-les-arts-et-la-litterature.html",
    "manuel": false
   },
-  "derniere_activite": "2025-06-09",
+  "derniere_activite": "2026-11-12",
   "derniers": {
    "distinction": {
-    "date": null,
-    "titre": "Remise du drapeau de l'ACPG-CATM",
-    "resume": "Le maire de Pertuis a assisté à la remise du drapeau de l'ACPG-CATM au collège Marcel Pagnol, honorant Lidia Llario comme porte-drapeau de l’établissement.",
-    "source": "https://www.facebook.com/Ville.de.Pertuis/posts/-pertuis-ville-solidairece-matin-le-maire-de-pertuis-%C3%A9tait-pr%C3%A9sent-pour-la-remis/1499783199027569"
+    "date": "2016-06-02",
+    "titre": "Concours national de la Résistance et de la Déportation 2016",
+    "resume": "Les élèves de 5e du Collège Marcel Pagnol (Pertuis) ont participé au concours national de la Résistance et de la Déportation 2016 et ont reçu leurs prix lors d’une cérémonie officielle.",
+    "source": "https://www.laprovence.com/article/edition-vaucluse/3966987/la-resistance-passe-par-les-arts-et-la-litterature.html"
    },
    "sortie": {
     "date": "2025-03",
     "titre": "Visite du camp d’Auschwitz‑Birkenau",
     "resume": "Voyage pédagogique de huit élèves de la 3e à la terminale, encadrés par leurs professeurs d’histoire, au camp d’Auschwitz‑Birkenau en mars 2025.",
     "source": "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier"
+   },
+   "ceremonie": {
+    "date": "2026-11-12",
+    "titre": "Remise du drapeau de l’association ACPG‑CATM",
+    "resume": "Le 12 novembre 2026, la principale du collège Marcel‑Pagnol, Naïs Mengin, a organisé une cérémonie officielle où les élèves ont reçu le drapeau de l’association ACPG‑CATM, dans le cadre du devoir de mémoire de la Première Guerre mondiale.",
+    "source": "https://www.laprovence.com/article/region/1655191277613514/les-collegiens-et-les-lyceens-de-pertuis-entretiennent-le-devoir-de-memoire-de-la-premiere-guerre-mondiale"
    },
    "convention": {
     "date": "2023-12-01",
@@ -1697,6 +1720,36 @@ window.CDSG_WEB = {
   },
   "distinctions": [
    {
+    "date": "2016-06-02",
+    "titre": "Concours national de la Résistance et de la Déportation 2016",
+    "resume": "Les élèves de 5e du Collège Marcel Pagnol (Pertuis) ont participé au concours national de la Résistance et de la Déportation 2016 et ont reçu leurs prix lors d’une cérémonie officielle.",
+    "source": "https://www.laprovence.com/article/edition-vaucluse/3966987/la-resistance-passe-par-les-arts-et-la-litterature.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-vaucluse/3966987/la-resistance-passe-par-les-arts-et-la-litterature.html"
+    ]
+   },
+   {
+    "date": "2014",
+    "titre": "Prix départemental – Résistance et Déportation",
+    "resume": "Seventeen 3ᵉ‑year students received a departmental prize in the national Resistance and Deportation contest.",
+    "source": "https://www.laprovence.com/article/edition-sud-vaucluse/2881315/le-college-pagnol-distingue-au-concours-de-la-resistance.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-sud-vaucluse/2881315/le-college-pagnol-distingue-au-concours-de-la-resistance.html"
+    ]
+   },
+   {
+    "date": "2014",
+    "titre": "Prix d'excellence – Jeu de société Libération",
+    "resume": "Claire Bouchot and Manon Bouilloud won the excellence prize for creating a board game depicting the Liberation.",
+    "source": "https://www.laprovence.com/article/edition-sud-vaucluse/2881315/le-college-pagnol-distingue-au-concours-de-la-resistance.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-sud-vaucluse/2881315/le-college-pagnol-distingue-au-concours-de-la-resistance.html"
+    ]
+   },
+   {
     "date": null,
     "titre": "Remise du drapeau de l'ACPG-CATM",
     "resume": "Le maire de Pertuis a assisté à la remise du drapeau de l'ACPG-CATM au collège Marcel Pagnol, honorant Lidia Llario comme porte-drapeau de l’établissement.",
@@ -1708,8 +1761,12 @@ window.CDSG_WEB = {
    }
   ],
   "sources": [
+   "https://www.laprovence.com/article/region/1655191277613514/les-collegiens-et-les-lyceens-de-pertuis-entretiennent-le-devoir-de-memoire-de-la-premiere-guerre-mondiale",
    "https://www.laprovence.com/article/societe/65901574538986/au-college-marcel-pagnol-de-pertuis-une-jeunesse-engagee-pour-ne-jamais-oublier",
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marcel-pagnol-84.html",
+   "https://www.laprovence.com/article/edition-vaucluse/3966987/la-resistance-passe-par-les-arts-et-la-litterature.html",
+   "https://www.laprovence.com/article/edition-sud-vaucluse/2881315/le-college-pagnol-distingue-au-concours-de-la-resistance.html",
+   "https://www.laprovence.com/article/edition-sud-vaucluse/2872223/le-souvenir-francais-remet-1-000-euros-au-college-pagnol.html",
    "https://www.facebook.com/Ville.de.Pertuis/posts/-pertuis-ville-solidairece-matin-le-maire-de-pertuis-%C3%A9tait-pr%C3%A9sent-pour-la-remis/1499783199027569"
   ]
  },
@@ -2630,20 +2687,32 @@ window.CDSG_WEB = {
   "resume": "En juin 2026, le collège Saint‑Charles d’Arles a renouvelé et signé plusieurs conventions, dont une avec la Gendarmerie du groupement 13, pour mettre en place la Classe Défense. La même période a vu l’annonce, sur la page Facebook de l’établissement, du lancement d’un parcours Classe Défense destiné aux élèves de 4ᵉ"
  },
  "college-arausio-orange": {
-  "date": "11/11/2026",
-  "nb": 9,
+  "date": "18/11/2026",
+  "nb": 18,
   "photo": {
-   "url": "https://cdn-s-www.ledauphine.com/images/37C0A41E-CDB3-4A34-A729-05266A51BEAB/FB1200/photo-1678294381.jpg",
-   "source": "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie",
+   "url": "https://cdn-s-www.ledauphine.com/images/72DC19CA-55C7-46E9-B64C-6A6ACC73DDC1/FB1200/photo-1794594378.jpg",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/11/13/arausio-la-classe-defense-cheffe-d-orchestre-du-souvenir",
    "manuel": false
   },
-  "derniere_activite": "2025-12",
+  "derniere_activite": "2026-11-13",
   "derniers": {
+   "distinction": {
+    "date": "2025-06-02",
+    "titre": "2e prix au concours Clemenceau 2025",
+    "resume": "Le Collège Arausio d'Orange a reçu le 2e prix du concours Clemenceau 2025, organisé par l’académie, pour son projet de classe défense et sécurité globale.",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025"
+   },
    "sortie": {
-    "date": null,
-    "titre": "Rallye Sécurité‑Citoyen",
-    "resume": "Une activité de rallye sécurité‑citoyen organisée par la classe de défense du Collège Arausio, en partenariat avec la Police Nationale d'Orange.",
-    "source": "https://www.facebook.com/PoliceNat84/videos/rallye-s%C3%A9curit%C3%A9-d%C3%A9fense-coll%C3%A8ge-arausio/960911055552632"
+    "date": "2026-02-13",
+    "titre": "Arausio et Briand découvrent la base aérienne 115",
+    "resume": "Les élèves du Collège Arausio, accompagnés de ceux du lycée Aristide‑Briand, ont visité la base aérienne 115 d’Orange pour une journée d’immersion au sein de l’armée de l’Air et de l’Espace.",
+    "source": "https://www.ledauphine.com/education/2026/02/13/arausio-et-briand-decouvrent-la-base-aerienne-115"
+   },
+   "ceremonie": {
+    "date": "2026-11-13",
+    "titre": "Première commémoration de l’Armistice",
+    "resume": "Les élèves de la classe défense du collège Arausio ont réalisé leur première cérémonie de commémoration de l’Armistice, se réunissant dans la salle de réunion du collège en raison du mauvais temps.",
+    "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/11/13/arausio-la-classe-defense-cheffe-d-orchestre-du-souvenir"
    },
    "convention": {
     "date": "2025-12",
@@ -2652,10 +2721,10 @@ window.CDSG_WEB = {
     "source": "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-arausio-84.html"
    },
    "article": {
-    "date": "2023-03-08",
-    "titre": "Le collège Arausio a désormais une classe défense et sécurité, en partenariat avec la gendarmerie",
-    "resume": "Article du 8 mars 2023 annonçant la création d’une classe Défense et Sécurité Globale (CDSG) au Collège Arausio d’Orange, en partenariat avec la gendarmerie, avec 16 élèves inscrits.",
-    "source": "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie"
+    "date": "2026-11-13",
+    "titre": "Arausio : la classe “défense” cheffe d’orchestre du souvenir",
+    "resume": "Le 13 novembre 2026, le journal Le Dauphiné Libéré publie un article sur la classe défense du collège Arausio qui, malgré la météo, a organisé sa première commémoration de l’Armistice en jouant les chefs d’orchestre du souvenir.",
+    "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/11/13/arausio-la-classe-defense-cheffe-d-orchestre-du-souvenir"
    },
    "projet": {
     "date": "2023-03-08",
@@ -2664,12 +2733,27 @@ window.CDSG_WEB = {
     "source": "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2025-06-02",
+    "titre": "2e prix au concours Clemenceau 2025",
+    "resume": "Le Collège Arausio d'Orange a reçu le 2e prix du concours Clemenceau 2025, organisé par l’académie, pour son projet de classe défense et sécurité globale.",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025"
+    ]
+   }
+  ],
   "sources": [
+   "https://www.ledauphine.com/defense-guerre-conflit/2026/11/13/arausio-la-classe-defense-cheffe-d-orchestre-du-souvenir",
+   "https://www.ledauphine.com/education/2026/02/13/arausio-et-briand-decouvrent-la-base-aerienne-115",
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-arausio-84.html",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025",
+   "https://www.ledauphine.com/culture-loisirs/2024/04/18/policiers-pompiers-gendarmes-les-collegiens-d-arausio-decouvrent-les-metiers-de-la-securite",
+   "https://www.ledauphine.com/culture-loisirs/2023/06/06/classe-defense-d-arausio-journee-de-cohesion",
    "https://www.ledauphine.com/culture-loisirs/2023/03/08/le-college-arausio-a-desormais-une-classe-defense-et-securite-en-partenariat-avec-la-gendarmerie",
-   "https://www.facebook.com/PoliceNat84/videos/rallye-s%C3%A9curit%C3%A9-d%C3%A9fense-coll%C3%A8ge-arausio/960911055552632",
-   "https://www.facebook.com/baseaerienne115orange/posts/armeenation-une-journ%C3%A9e-de-partage-a-%C3%A9t%C3%A9-organis%C3%A9e-entre-la-ba115-et-la-jeunesse/763531105968431"
+   "https://www.laprovence.com/article/edition-haut-vaucluse/1403962/ba-115-lavenir-professionnel-peut-decoller-sur-le-tarmac.html"
   ],
   "resume": "La classe Défense et Sécurité Globale du Collège Arausio a vu sa convention actual"
  },
@@ -3010,7 +3094,7 @@ window.CDSG_WEB = {
   "resume": "En 2022, le lycée militaire d’Aix‑en‑Provence (classe Éboli – Jas de Bouffan) a été répertorié parmi les six lycées de la Défense sur le site du ministère des Armées. Il participe depuis 2018 au « plan lycées », visant à élargir l’offre de formation, rénover les infrastructures et renforcer l’excellence comportementale. Aucun prix ou distinction n’est mentionné dans les éléments de veille disponibles."
  },
  "college-du-pays-de-sault-sault": {
-  "date": "11/11/2026",
+  "date": "18/11/2026",
   "nb": 3,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/18/maud-a-invite-les-les-eleves-a-reflechir-sur-le-gaspillage-alimentaire-1789725802_384575de69aa64c4575de69aa10557v_.jpg",
@@ -3044,7 +3128,7 @@ window.CDSG_WEB = {
    "https://www.laprovence.com/article/region/3727600961750414/les-eleves-du-college-de-sault-ont-ete-sensibilises-au-gaspillage-alimentaire",
    "https://www.ledauphine.com/vaucluse/2015/02/17/exercice-d-evacuation-reussi-au-college"
   ],
-  "resume": "Le Collège du Pays de Sault a présenté le 9 septembre 2026 sa classe défense, où les élèves de 3e sont initiés aux métiers de l’armée. La convention encadrant cette classe a été actualisée en novembre 2025. Un exercice d’évacuation réussi en 2015, avec 250 élèves évacués en moins de trois minutes, témoigne de la capacité du collège à gérer des situations d’urgence."
+  "resume": "Le 9 septembre 2026, le Collège du Pays de Sault a présenté sa classe défense, initiant les élèves de 3e aux métiers de l’armée. La convention encadrant cette classe a été actualisée en novembre 2025. Un exercice d’évacuation réussi, réalisé le 17 février 2015, a également démontré la capacité du collège à gérer des situations d’urgence."
  },
  "college-lucie-aubrac-bollene": {
   "date": "11/11/2026",

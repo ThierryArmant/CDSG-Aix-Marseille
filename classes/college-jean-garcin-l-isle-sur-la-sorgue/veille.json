@@ -36,6 +36,17 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "article",
+   "date": "2025-06-16",
+   "titre": "3e Défense et Citoyenneté rentrée 2025",
+   "extrait": "Afin de préparer la prochaine rentrée 2025, les élèves de 4e ont pu bénéficier d’une présentation de la classe de 3e Défense et Citoyenneté.",
+   "resume": "Les élèves de 4e ont reçu une présentation de la classe de 3e Défense et Citoyenneté par M. De Michele. Les candidatures doivent être déposées avant le 6 juin 2025.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/3e-Defense-et-Citoyennete-rentree-2025.html",
+   "page": "3e Défense et Citoyenneté rentrée 2025 - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-18"
+  },
+  {
    "type": "sortie",
    "date": "2025-03-13",
    "titre": "Rallye citoyen à la Base aérienne 115 d'Orange",
@@ -221,6 +232,28 @@
    "page": "L'Isle-sur-la-Sorgue ° L'Officiel",
    "site": "facebook.com (extrait public)",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "La classe défense du collège",
+   "extrait": "La classe défense du collège...",
+   "resume": "Le menu du site mentionne l’existence d’une classe défense au collège Jean Garcin, indiquée par le libellé « La classe défense du collège ».",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Prix-de-BD-de-l-Isle-sur-la-Sorgue-2024.html",
+   "page": "Prix de BD de l'Isle sur la Sorgue 2024 - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasque",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-18"
+  },
+  {
+   "type": "autre",
+   "date": null,
+   "titre": "Mention de la classe défense",
+   "extrait": "La classe défense du collège...",
+   "resume": "Le site du collège Jean Garcin comporte une rubrique « La classe défense du collège », attestant de l’existence d’une classe défense au sein de l’établissement.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/HYGIENE-DRIVE-Collecte-Solidaire-produits-d-Hygiene.html",
+   "page": "HYGIENE DRIVE (Collecte Solidaire produits d'Hygiène) - Collège Jean GarcinAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-r",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-18"
   }
  ],
  "recherches": [
@@ -233,13 +266,23 @@
    "date": "2026-11-11",
    "pages": 25,
    "nouveaux": 19
+  },
+  {
+   "date": "2026-11-18",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
  "pages_lues": [
   "https://annuaire-education.fr/etablissement/lisle-sur-la-sorgue/college-jean-garcin/0841118J.html",
+  "https://archives.defense.gouv.fr/terre/actu-terre/ils-etaient-eleves-en-lycee-militaire.html",
   "https://college-lycee.com/college-jean-garcin/L-Isle-sur-la-Sorgue-0841118J",
+  "https://logement.defense.gouv.fr/sites/default/files/2025-03/4_Liste%20coll%C3%A8ge%20public.pdf",
+  "https://unssvaucluse.org/wp-content/uploads/2022/04/resultats-deptx-de-futsal-clg-lyc-2022.pdf",
+  "https://www.defense.gouv.fr/lycees-defense-0",
   "https://www.defense.gouv.fr/sites/default/files/ministere-armees/17.04.2024%20Patricia%20Miralle%CC%80s%2C%20secre%CC%81taire%20d%E2%80%99E%CC%81tat%20aupre%CC%80s%20du%20ministre%20des%20Arme%CC%81es%2C%20charge%CC%81e%20des%20Anciens%20combattants%20et%20de%20la%20Me%CC%81moire%2C%20se%20rendra%20en%20Vaucluse%20le%20vendredi%2019%20avril..pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.facebook.com/100081629386198/posts/la-remise-des-prix-du-concours-2026-des-ecoles-fleuries-des-dden-a-eu-lieu-le-me/1003649215699382",
   "https://www.facebook.com/OnacvgPACA/posts/journ%C3%A9e-m%C3%A9morielle-en-vaucluseen-cette-ann%C3%A9e-2024-lactivit%C3%A9-m%C3%A9morielle-est-foiso/443366391388447",
   "https://www.facebook.com/VilledeLIslesurlaSorgue/posts/%F0%9D%97%A6%F0%9D%97%A2%F0%9D%97%A8%F0%9D%97%A9%F0%9D%97%98%F0%9D%97%A1%F0%9D%97%9C%F0%9D%97%A5-%F0%9D%97%96%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%BA%F0%9D%97%B2%CC%81%F0%9D%97%BA%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B9%F0%9D%97%94%F0%9D%97%BD%F0%9D%97%BD%F0%9D%97%B2%F0%9D%97%B9-%F0%9D%97%B5%F0%9D%97%B6%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%B6%F0%9D%97%BE%F0%9D%98%82%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%98%82-%F0%9D%9F%AD%F0%9D%9F%B4-%F0%9D%97%B7%F0%9D%98%82%F0%9D%97%B6%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%B5%F0%9D%9F%B0%F0%9D%9F%ACce-matin-la-ville-de/1482929187206986",
@@ -251,19 +294,39 @@
   "https://www.laprovence.com/article/culture-loisirs/1121319014363115/a-l-isle-sur-la-sorgue-manon-heral-est-finaliste-des-voix-du-college",
   "https://www.laprovence.com/article/ecoplanete/38922558650902/quatre-etablissements-de-vaucluse-primes-au-concours-des-ecoles-fleuries-pour-un-developpement-durable-et-citoyen",
   "https://www.laprovence.com/article/edition-vaucluse/4472251/a-lisle-sur-la-sorgue-patrick-bruel-en-tournee-dans-les-ecoles.html",
+  "https://www.laprovence.com/article/papier/3454731/les-eleves-du-college-garcin-et-du-lycee-benoit-honores.html",
+  "https://www.laprovence.com/article/papier/4629578/le-velo-club-lislois-ouvre-une-ecole.html",
   "https://www.laprovence.com/article/region/52597896310062/les-collegiens-de-lisle-sur-la-sorgue-mangeront-davantage-de-proteines-vegetales-a-la-cantine",
   "https://www.laprovence.com/article/societe/5147844/de-bons-reflexes-contre-le-gaspillage.html",
+  "https://www.laprovence.com/article/sports/2822396/arles-avignon-veut-positiver.html",
+  "https://www.ledauphine.com/defense-guerre-conflit/2022/05/27/des-collegiens-celebrent-la-journee-de-la-resistance",
+  "https://www.ledauphine.com/defense-guerre-conflit/2024/06/20/la-ville-s-est-souvenue-de-l-appel-du-general-de-gaulle",
   "https://www.ledauphine.com/education/2024/06/01/le-college-jean-garcin-a-celebre-le-80e-anniversaire-de-la-liberation-de-la-ville",
+  "https://www.ledauphine.com/faits-divers-justice/2019/06/27/au-moins-deux-adolescentes-se-disent-victimes-du-professeur",
   "https://www.ledauphine.com/societe/2023/04/16/le-college-jean-garcin-devient-le-gardien-du-drapeau-des-aieux",
+  "https://www.ledauphine.com/societe/2025/06/27/secondes-par-le-chef-chassigneux-les-3e-segpa-preparent-un-repas-gastro",
+  "https://www.ledauphine.com/sport/2025/05/17/volley-ball-lou-vignares-double-champion-departemental",
+  "https://www.ledauphine.com/vaucluse/2019/05/06/rescapee-d-auschwitz-denise-toros-marter-est-venue-temoigner-au-college-garcin",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-jean-garcin-84.html",
   "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/college-jean-garcin",
   "https://www.rentreediscount.com/etablissement/JEAN-GARCIN-51835004.html",
+  "https://www.servicehistorique.sga.defense.gouv.fr/ark/1466801",
   "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/",
   "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip",
   "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/-La-classe-defense-du-college-Jean-Garcin-.html",
-  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Classe-3e-Defense-au-college-Jean-Garcin-des-eleves-engages-au-service-des.html"
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/3e-Defense-et-Citoyennete-rentree-2025.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Classe-3e-Defense-au-college-Jean-Garcin-des-eleves-engages-au-service-des.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Commemoration-du-80e-anniversaire-de-la-liberation-de-L-Isle-sur-la-Sorgue-107.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/HYGIENE-DRIVE-Collecte-Solidaire-produits-d-Hygiene.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Prix-de-BD-de-l-Isle-sur-la-Sorgue-2024.html",
+  "https://www.site.ac-aix-marseille.fr/clg-jean-garcin/spip/Visite-de-la-Base-navale-de-Toulon.html",
+  "https://www.vaucluse.gouv.fr/Actions-de-l-Etat/Collectivites-territoriales/Service-des-relations-avec-les-collectivites-territoriales/Vie-des-collectivites-territoriales/Affaires-scolaires",
+  "https://www.vaucluse.gouv.fr/Actions-de-l-Etat/Securite/Risques-majeurs/L-information-du-public-sur-les-risques-majeurs/Information-Acquereurs-Locataires-IAL/Documents-communaux/L-ISLE-SUR-LA-SORGUE",
+  "https://www.vaucluse.gouv.fr/Archives-internet-Prefecture/Education-et-culture/L-Inspection-Academique-de-Vaucluse",
+  "https://www.vaucluse.gouv.fr/index.php/Actions-de-l-Etat/Education-et-formation/Education/Carte-scolaire-2025",
+  "https://www.verdon-info.net/2025/02/l-ecole-de-ski-du-seignus-une-destination-prisee-pour-les-jeunes-skieurs.html"
  ],
  "etablissement": "Collège Jean Garcin (L'Isle-sur-la-Sorgue)",
- "referents_cites": "M. De Michele",
- "unite_citee": "DMD 84"
+ "referents_cites": "Christophe De Michele",
+ "unite_citee": "Délégation Militaire Départementale"
 }

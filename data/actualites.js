@@ -1,6 +1,42 @@
 // Dernières nouvelles du réseau — généré par recherche/recherche_web.py
 window.CDSG_ACTUS = [
  {
+  "date": "2026-11-13",
+  "type": "article",
+  "titre": "Arausio : la classe “défense” cheffe d’orchestre du souvenir",
+  "resume": "Le 13 novembre 2026, le journal Le Dauphiné Libéré publie un article sur la classe défense du collège Arausio qui, malgré la météo, a organisé sa première commémoration de l’Armistice en jouant les chefs d’orchestre du souvenir.",
+  "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/11/13/arausio-la-classe-defense-cheffe-d-orchestre-du-souvenir",
+  "image": "https://cdn-s-www.ledauphine.com/images/72DC19CA-55C7-46E9-B64C-6A6ACC73DDC1/FB1200/photo-1794594378.jpg",
+  "site": "ledauphine.com",
+  "fiche": "college-arausio-orange",
+  "etab": "Collège Arausio",
+  "ville": "Orange"
+ },
+ {
+  "date": "2026-11-13",
+  "type": "ceremonie",
+  "titre": "Première commémoration de l’Armistice",
+  "resume": "Les élèves de la classe défense du collège Arausio ont réalisé leur première cérémonie de commémoration de l’Armistice, se réunissant dans la salle de réunion du collège en raison du mauvais temps.",
+  "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/11/13/arausio-la-classe-defense-cheffe-d-orchestre-du-souvenir",
+  "image": null,
+  "site": "ledauphine.com",
+  "fiche": "college-arausio-orange",
+  "etab": "Collège Arausio",
+  "ville": "Orange"
+ },
+ {
+  "date": "2026-11-12",
+  "type": "ceremonie",
+  "titre": "Remise du drapeau de l’association ACPG‑CATM",
+  "resume": "Le 12 novembre 2026, la principale du collège Marcel‑Pagnol, Naïs Mengin, a organisé une cérémonie officielle où les élèves ont reçu le drapeau de l’association ACPG‑CATM, dans le cadre du devoir de mémoire de la Première Guerre mondiale.",
+  "source": "https://www.laprovence.com/article/region/1655191277613514/les-collegiens-et-les-lyceens-de-pertuis-entretiennent-le-devoir-de-memoire-de-la-premiere-guerre-mondiale",
+  "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/11/11/raymond-colombard-et-lidia-llario-ont-ete-mis-a-lhonneur-pour-leur-engagement-1794398061_5c78153014fa68088153014fa64881v_.jpg",
+  "site": "laprovence.com",
+  "fiche": "college-marcel-pagnol-pertuis",
+  "etab": "Collège Marcel Pagnol",
+  "ville": "Pertuis"
+ },
+ {
   "date": "2026-11-11",
   "type": "ceremonie",
   "titre": "Cérémonie du 11 novembre",
@@ -251,41 +287,5 @@ window.CDSG_ACTUS = [
   "fiche": "lycee-thiers-marseille",
   "etab": "Lycée Thiers",
   "ville": "Marseille"
- },
- {
-  "date": "2026-10-02",
-  "type": "sortie",
-  "titre": "Matinée exceptionnelle Classe Défense",
-  "resume": "Du 2 au 5 octobre 2026, la classe Défense du Lycée des métiers de l'industrie Latécoère à Istres a vécu une matinée exceptionnelle autour du porte‑hélicoptères amphibie (PHA).",
-  "source": "https://www.instagram.com/p/DE4k9X3IpbE",
-  "image": null,
-  "site": "instagram.com (extrait public)",
-  "fiche": "lpp-latecoere-istres",
-  "etab": "LPP Latécoère",
-  "ville": "Istres"
- },
- {
-  "date": "2026-10",
-  "type": "convention",
-  "titre": "Convention de partenariat",
-  "resume": "Une convention liant la classe défense à son unité marraine a été signée en octobre 2026.",
-  "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-lucie-aubrac-84.html",
-  "image": null,
-  "site": "letudiant.fr",
-  "fiche": "college-lucie-aubrac-bollene",
-  "etab": "Collège Lucie Aubrac",
-  "ville": "Bollène"
- },
- {
-  "date": "2026-10",
-  "type": "convention",
-  "titre": "Convention",
-  "resume": "Renouvellement ou signature de la convention de la classe défense avec l'unité BA 115 « Capitaine de Seynes » en octobre 2026.",
-  "source": "https://www.site.ac-aix-marseille.fr/lyc-bollene/spip/",
-  "image": null,
-  "site": "site.ac-aix-marseille.fr",
-  "fiche": "college-lucie-aubrac-bollene",
-  "etab": "Collège Lucie Aubrac",
-  "ville": "Bollène"
  }
 ];
