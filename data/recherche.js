@@ -2008,7 +2008,7 @@ window.CDSG_WEB = {
   "resume": "La classe défense du lycée professionnel Louis Martin Bret a signé une convention le 1 septembre 2022, mise à jour en novembre 2025, pour encadrer son dispositif. Aucun prix, distinction ou partenariat n’est mentionné dans les éléments de veille disponibles"
  },
  "lycee-philippe-de-girard-avignon": {
-  "date": "11/11/2026",
+  "date": "19/11/2026",
   "nb": 4,
   "photo": {
    "url": "https://www.campus-avignon.fr/wp-content/uploads/2024/12/campus-actu-BA115.jpg",
@@ -2064,7 +2064,7 @@ window.CDSG_WEB = {
    "https://www.campus-avignon.fr/les-eleves-du-lycee-philippe-de-girard-feront-leur-classe-avec-la-ba115",
    "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514"
   ],
-  "resume": "La classe défense du lycée Philippe de Girard forme actuellement des élèves de 3e aux métiers de l’armée, comme le montre une vidéo diffusée par Réunion la 1ère. Le 16 mars 2026, l’équipe « Girard » a remporté la première place de la catégorie bac professionnel du challenge « Passe Ton Hack d’Abord 2026 », lors d’une cérémonie au campus cyber de La Défense. Depuis le"
+  "resume": "La classe défense du lycée Philippe de Girard a remporté la première place de la catégorie bac pro du challenge « Passe Ton Hack d’Abord 2026 », l’équipe « Girard » étant primée le 16 mars 2026 au campus cyber"
  },
  "lycee-saint-exupery-marseille-15e": {
   "date": "14/11/2026",
@@ -2143,20 +2143,32 @@ window.CDSG_WEB = {
   "sources": []
  },
  "college-andre-malraux-mazan": {
-  "date": "11/11/2026",
-  "nb": 7,
+  "date": "19/11/2026",
+  "nb": 17,
   "photo": {
-   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=336,trim.top=0,trim.height=863,trim.width=1536/media/2024/09/02/THUMBNAIL_20240704_162448.jpg",
-   "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/03/13/la-classe-securite-defense-du-college-andre-malraux-mazan-1741851002_06a88cd681d761aa88cd681d7fda88v_.jpg",
+   "source": "https://www.laprovence.com/article/societe/55806051107439/au-college-andre-malraux-de-mzan-la-classe-securite-defense-recoit-le-psig",
    "manuel": false
   },
-  "derniere_activite": "2024-09-02",
+  "derniere_activite": "2025-10-16",
   "derniers": {
+   "distinction": {
+    "date": "2025-06-02",
+    "titre": "1er prix du concours Clemenceau 2025",
+    "resume": "Le Collège André Malraux de Mazan a remporté le premier prix du concours Clemenceau 2025, thématique « l’action des policiers et des gendarmes en faveur de la jeunesse ».",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025"
+   },
    "sortie": {
-    "date": "2024-09-02",
-    "titre": "Stage de trois jours dans une compagnie de gendarmerie",
-    "resume": "Les élèves de la classe sécurité‑défense effectueront un stage de trois jours au sein d’une compagnie de gendarmerie.",
-    "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan"
+    "date": "2025-10-16",
+    "titre": "Première intervention de la gendarmerie de Mormoiron en classe Défense",
+    "resume": "Le 16 octobre 2025, la gendarmerie de Mormoiron est intervenue dans la classe Défense du collège André Malraux à Mazan.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-mazan/spip/-Nos-informations-.html"
+   },
+   "ceremonie": {
+    "date": "2024-07-05",
+    "titre": "Accueil du colonel Cédric Garence",
+    "resume": "Lors de la signature, le colonel Cédric Garence et deux gendarmes de la compagnie ont été reçus au collège, marquant la cérémonie de lancement de la classe défense.",
+    "source": "https://www.ledauphine.com/education/2024/07/05/ouverture-d-une-classe-defense-et-securite-globale-a-la-rentree"
    },
    "convention": {
     "date": "2024-09-02",
@@ -2165,10 +2177,10 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan"
    },
    "article": {
-    "date": "2024-09-02",
-    "titre": "Une classe sécurité-défense au collège André-Malraux de Mazan",
-    "resume": "Publication du 2 septembre 2024 présentant la mise en place d’une classe sécurité‑défense au collège André‑Malraux de Mazan.",
-    "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan"
+    "date": "2025-06-02",
+    "titre": "Palmarès académique du concours Clemenceau 2025",
+    "resume": "L’article publié le 2 juin 2025 présente le palmarès du concours Clemenceau et rappelle le rôle des classes de défense et de sécurité globale dans l’éducation citoyenne.",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025"
    },
    "projet": {
     "date": "2024-09-02",
@@ -2177,11 +2189,37 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2025-06-02",
+    "titre": "1er prix du concours Clemenceau 2025",
+    "resume": "Le Collège André Malraux de Mazan a remporté le premier prix du concours Clemenceau 2025, thématique « l’action des policiers et des gendarmes en faveur de la jeunesse ».",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025"
+    ]
+   },
+   {
+    "date": "2016-11-18",
+    "titre": "Remise de diplômes de secouriste aux 4e",
+    "resume": "Le 18 novembre 2016, les élèves de quatrième du collège André Malraux ont reçu leurs diplômes de secouriste après la formation suivie l'année précédente.",
+    "source": "https://www.laprovence.com/article/edition-vaucluse/4204942/mazan-formation-de-secourisme-lexemple-du-college-malraux.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-vaucluse/4204942/mazan-formation-de-secourisme-lexemple-du-college-malraux.html"
+    ]
+   }
+  ],
   "sources": [
+   "https://www.site.ac-aix-marseille.fr/clg-mazan/spip/-Nos-informations-.html",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025",
+   "https://www.laprovence.com/article/societe/55806051107439/au-college-andre-malraux-de-mzan-la-classe-securite-defense-recoit-le-psig",
    "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
+   "https://www.ledauphine.com/education/2024/07/05/ouverture-d-une-classe-defense-et-securite-globale-a-la-rentree",
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-84.html",
-   "https://www.facebook.com/departementdevaucluse/posts/les-coll%C3%A9giens-reporters-en-herbe-r%C3%A9compens%C3%A9sorganis%C3%A9-par-le-club-de-la-presse-d/1425203299652111"
+   "https://www.facebook.com/departementdevaucluse/posts/les-coll%C3%A9giens-reporters-en-herbe-r%C3%A9compens%C3%A9sorganis%C3%A9-par-le-club-de-la-presse-d/1425203299652111",
+   "https://www.laprovence.com/article/edition-vaucluse/4204942/mazan-formation-de-secourisme-lexemple-du-college-malraux.html"
   ],
   "resume": "Le 2 septembre 2024, le collège André‑Malraux de Mazan a créé une classe sécurité‑défense pour 24 élèves de 3e, issue de l’atelier mémoire et citoyenneté. Le collège a signé en juillet 2024, puis le 2 septembre, des conventions de partenariat avec la gendar"
  },
@@ -2530,7 +2568,7 @@ window.CDSG_WEB = {
   "resume": "La classe Défense du lycée des Métiers de l’Estaque a été mise en avant le 16 novembre 2025 par Imène Koulla sur LinkedIn, qui a présenté les projets réalisés dans le cadre de l’atelier défense. Le lycée a renouvelé en septembre 2023 une convention avec l’unité marraine 503ᵉ Régiment du train (Nîmes), garantissant le partenariat pour cet atelier. Les classes défense ont également été mentionnées dans le post d’Alexis di Segna lors de la commémoration du 11 novembre."
  },
  "college-charles-de-gaulle-apt": {
-  "date": "11/11/2026",
+  "date": "19/11/2026",
   "nb": 5,
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/DB94770D-D0FC-4709-B8A6-6A52F2ECB3E4/FB1200/photo-1634053276.jpg",
@@ -2551,7 +2589,7 @@ window.CDSG_WEB = {
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-charles-de-gaulle-84.html",
    "https://www.ledauphine.com/faits-divers-justice/2021/10/12/alerte-a-la-bombe-a-apt-le-college-evacue"
   ],
-  "resume": "En décembre 2025, la classe Défense et Sécurité Globales du collège Charles‑de‑Gaulle d’Apt a signé et renouvelé sa convention de partenariat. Son unité marraine est le 2e Régiment Étranger de Génie de Saint‑Christol, et Mme Fageot, professeure d’histoire‑géographie, en assure le suivi pédagogique. Aucun prix ou distinction n"
+  "resume": "La classe Défense et Sécurité Globales du collège Charles‑de‑Gaulle d’Apt a vu sa convention de partenariat renouvelée en décembre 2025, confirmant le cadre de coopération avec son unité marraine, le 2e Régiment Étranger de Génie de Saint‑Christol. Cette unité reste le principal partenaire de la classe, assurant un accompagnement technique et pédagogique depuis 2021. Mme Fageot, professeure d’histoire‑géographie, continue d’assurer la coordination académique en tant que référente de la classe."
  },
  "college-marcel-andre-seyne-les-alpes": {
   "date": "11/11/2026",
@@ -2767,8 +2805,8 @@ window.CDSG_WEB = {
   "sources": []
  },
  "college-marie-mauron-pertuis": {
-  "date": "11/11/2026",
-  "nb": 8,
+  "date": "19/11/2026",
+  "nb": 9,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/03/13/la-classe-defense-du-college-marie-mauron-en-sortie-consacree-a-l-aeronautique-photo-d-r-1773398153_3cfdb85292b96200eb85292b9e30ebv_.jpg",
    "source": "https://www.facebook.com/laprovence/posts/les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du-coll%C3%A8ge-marie-mauron-de-pertuis-ont-particip%C3%A9/1383090087195485",
@@ -2801,9 +2839,10 @@ window.CDSG_WEB = {
    "https://www.laprovence.com/article/societe/1036329933248314/les-eleves-du-college-marie-mauron-de-pertuis-participent-a-une-sortie-scolaire-sur-l-aeronautique",
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-marie-mauron-84.html",
    "https://www.instagram.com/p/DV0boo2jKF5",
-   "https://www.youtube.com/watch?v=d39pflpQSzo"
+   "https://www.youtube.com/watch?v=d39pflpQSzo",
+   "https://www.site.ac-aix-marseille.fr/clg-mauron-pertuis/spip/Classe-MEMOIRE-CITOYENNETE-DEFENSE-VISITE-D-AIRBUS.html"
   ],
-  "resume": "Le 13 mars 2026, les élèves de la classe défense du collège Marie‑Mauron (Pertuis) ont réalisé une sortie pédagogique d’aéronautique au musée de l’aviation de Saint‑"
+  "resume": "Le 13 mars 2026, les élèves de la classe Défense du collège Marie‑Mauron (Pertuis) ont effectué une sortie pédagogique d’aéronautique au musée de l’aviation de Saint‑Victoret, suivie d’une visite du site d’Airbus à Marignane. La classe est parrainée par le CIRFA d’Aix, unité marraine avec laquelle le collège a renouvelé une convention en novembre 2025. M. Morille (HG) assure la fonction de professeur référent de cette classe."
  },
  "college-de-la-batie-neuve-la-batie-neuve": {
   "date": "11/11/2026",
@@ -3131,8 +3170,8 @@ window.CDSG_WEB = {
   "resume": "Le 9 septembre 2026, le Collège du Pays de Sault a présenté sa classe défense, initiant les élèves de 3e aux métiers de l’armée. La convention encadrant cette classe a été actualisée en novembre 2025. Un exercice d’évacuation réussi, réalisé le 17 février 2015, a également démontré la capacité du collège à gérer des situations d’urgence."
  },
  "college-lucie-aubrac-bollene": {
-  "date": "11/11/2026",
-  "nb": 4,
+  "date": "19/11/2026",
+  "nb": 7,
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/BD00710A-430F-4C85-90B5-6920199B6CC4/FB1200/photo-1744308432.jpg",
    "source": "https://www.ledauphine.com/education/2025/04/10/l-aubrac-confirme-son-bon-niveau-au-classement-des-lycees-vauclusiens",
@@ -3140,20 +3179,50 @@ window.CDSG_WEB = {
   },
   "derniere_activite": "2026-10",
   "derniers": {
+   "distinction": {
+    "date": "2017-05-12",
+    "titre": "Reconnaissance académique",
+    "resume": "Le projet de recherche sur les poilus a reçu une reconnaissance académique, ouvrant la voie à une éventuelle labellisation de la mission centenaire.",
+    "source": "https://www.laprovence.com/article/edition-vaucluse/4445256/les-collegiens-et-lyceens-a-la-recherche-des-poilus.html"
+   },
    "convention": {
     "date": "2026-10",
     "titre": "Convention de partenariat",
     "resume": "Une convention liant la classe défense à son unité marraine a été signée en octobre 2026.",
     "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-lucie-aubrac-84.html"
+   },
+   "article": {
+    "date": "2017-05-12",
+    "titre": "Les collégiens et lycéens à la recherche des Poilus",
+    "resume": "Article publié le 12 mai 2017 présentant le projet de recherche sur les poilus mené par le collège Paul‑Éluard et le lycée Lucie‑Aubrac.",
+    "source": "https://www.laprovence.com/article/edition-vaucluse/4445256/les-collegiens-et-lyceens-a-la-recherche-des-poilus.html"
+   },
+   "projet": {
+    "date": "2016",
+    "titre": "Projet de recherche sur les Poilus",
+    "resume": "Depuis la rentrée 2016, une cinquantaine de classes (≈150 élèves) de Bollène et des communes voisines travaillent sur le recensement des poilus locaux dans le cadre du centenaire de la Grande Guerre.",
+    "source": "https://www.laprovence.com/article/edition-vaucluse/4445256/les-collegiens-et-lyceens-a-la-recherche-des-poilus.html"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2017-05-12",
+    "titre": "Reconnaissance académique",
+    "resume": "Le projet de recherche sur les poilus a reçu une reconnaissance académique, ouvrant la voie à une éventuelle labellisation de la mission centenaire.",
+    "source": "https://www.laprovence.com/article/edition-vaucluse/4445256/les-collegiens-et-lyceens-a-la-recherche-des-poilus.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-vaucluse/4445256/les-collegiens-et-lyceens-a-la-recherche-des-poilus.html"
+    ]
+   }
+  ],
   "sources": [
    "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-lucie-aubrac-84.html",
    "https://www.site.ac-aix-marseille.fr/lyc-bollene/spip/",
-   "https://www.ledauphine.com/education/2025/04/10/l-aubrac-confirme-son-bon-niveau-au-classement-des-lycees-vauclusiens"
+   "https://www.ledauphine.com/education/2025/04/10/l-aubrac-confirme-son-bon-niveau-au-classement-des-lycees-vauclusiens",
+   "https://www.laprovence.com/article/edition-vaucluse/4445256/les-collegiens-et-lyceens-a-la-recherche-des-poilus.html"
   ],
-  "resume": "En octobre 2026, la classe défense du Collège Lucie Aubrac a signé (ou renouvelé) une convention de partenariat avec son unité marraine, la BA 115 « Capitaine de Seynes ». Cette unité constitue le principal partenaire de la classe défense, aucun prix ou distinction n’a été signalé dans les éléments de veille."
+  "resume": "En octobre 2026, la classe défense du Collège Lucie‑Aubrac a signé (ou renouvelé) une convention de partenariat avec son unité marraine, la BA 115 « Capitaine"
  },
  "college-georges-brassens-marignane": {
   "date": "13/11/2026",

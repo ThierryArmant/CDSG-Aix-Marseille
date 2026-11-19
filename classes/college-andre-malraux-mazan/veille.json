@@ -2,6 +2,65 @@
  "fiche": "college-andre-malraux-mazan",
  "elements": [
   {
+   "type": "sortie",
+   "date": "2025-10-16",
+   "titre": "Première intervention de la gendarmerie de Mormoiron en classe Défense",
+   "extrait": "Première intervention de la gendarmerie de Mormoiron en classe Défense",
+   "resume": "Le 16 octobre 2025, la gendarmerie de Mormoiron est intervenue dans la classe Défense du collège André Malraux à Mazan.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-mazan/spip/-Nos-informations-.html",
+   "page": "Nos informations - Collège André MalrauxAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesA",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-19"
+  },
+  {
+   "type": "distinction",
+   "date": "2025-06-02",
+   "titre": "1er prix du concours Clemenceau 2025",
+   "extrait": "🥇 1er prix : Collège André Malraux – Mazan",
+   "resume": "Le Collège André Malraux de Mazan a remporté le premier prix du concours Clemenceau 2025, thématique « l’action des policiers et des gendarmes en faveur de la jeunesse ».",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025",
+   "page": "concours Clemenceau",
+   "site": "WPAM",
+   "trouve_le": "2026-11-19"
+  },
+  {
+   "type": "article",
+   "date": "2025-06-02",
+   "titre": "Palmarès académique du concours Clemenceau 2025",
+   "extrait": "Ce concours souligne l’intérêt pédagogique des classes de défense et de sécurité globale (CSDG).",
+   "resume": "L’article publié le 2 juin 2025 présente le palmarès du concours Clemenceau et rappelle le rôle des classes de défense et de sécurité globale dans l’éducation citoyenne.",
+   "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025",
+   "page": "concours Clemenceau",
+   "site": "WPAM",
+   "image": "https://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/jpeg/2023-05/clemenceau.jpg",
+   "image_nature": "illustration_article",
+   "trouve_le": "2026-11-19"
+  },
+  {
+   "type": "sortie",
+   "date": "2025-03-13",
+   "titre": "Visite du Psig",
+   "extrait": "Le Peloton de surveillance et d'intervention de la gendarmerie est allé à la rencontre des collégiens pour présenter leur métier.",
+   "resume": "Le Psig s’est rendu au collège André‑Malraux le 13 mars 2025 pour présenter ses missions, son matériel et réaliser des démonstrations aux élèves.",
+   "source": "https://www.laprovence.com/article/societe/55806051107439/au-college-andre-malraux-de-mzan-la-classe-securite-defense-recoit-le-psig",
+   "page": "Au collège André-Malraux de Mazan, la classe Sécurité défense reçoit le Psig",
+   "site": "laprovence.com",
+   "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/03/13/la-classe-securite-defense-du-college-andre-malraux-mazan-1741851002_06a88cd681d761aa88cd681d7fda88v_.jpg",
+   "image_nature": "illustration_article",
+   "trouve_le": "2026-11-19"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-03-13",
+   "titre": "Partenariat avec la Mission locale et la compagnie de Carpentras",
+   "extrait": "Pour faire connaître les métiers de la gendarmerie, la Mission locale et la compagnie de Carpentras deviennent partenaires.",
+   "resume": "Le collège a établi un partenariat avec la Mission locale et la compagnie de Carpentras afin de promouvoir les métiers de la gendarmerie auprès des élèves.",
+   "source": "https://www.laprovence.com/article/societe/55806051107439/au-college-andre-malraux-de-mzan-la-classe-securite-defense-recoit-le-psig",
+   "page": "Au collège André-Malraux de Mazan, la classe Sécurité défense reçoit le Psig",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-19"
+  },
+  {
    "type": "article",
    "date": "2024-09-02",
    "titre": "Une classe sécurité-défense au collège André-Malraux de Mazan",
@@ -62,6 +121,52 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "article",
+   "date": "2024-07-05",
+   "titre": "Ouverture d’une classe défense et sécurité globale à la rentrée",
+   "extrait": "Mazan. Ouverture d’une classe défense et sécurité globale à la rentrée",
+   "resume": "Le Dauphiné Libéré publie le 5 juillet 2024 un article annonçant la mise en place d’une classe défense et sécurité globale au collège André‑Malraux de Mazan.",
+   "source": "https://www.ledauphine.com/education/2024/07/05/ouverture-d-une-classe-defense-et-securite-globale-a-la-rentree",
+   "page": "Mazan. Ouverture d’une classe défense et sécurité globale à la rentrée",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/405B360D-571F-45BE-8341-E649698E6C86/FB1200/photo-1720198394.jpg",
+   "image_nature": "illustration_article",
+   "trouve_le": "2026-11-19"
+  },
+  {
+   "type": "partenaire",
+   "date": "2024-07-05",
+   "titre": "Parrainage par la gendarmerie",
+   "extrait": "Triple objectif du parrainage d’une classe scolaire par une unité militaire : contribuer à la cohésion nationale, promouvoir l’esprit de défense et garantir l’attractivité des",
+   "resume": "L’article précise que le projet repose sur le parrainage d’une unité militaire, ici le groupement de gendarmerie départementale du Vaucluse, pour soutenir la classe défense.",
+   "source": "https://www.ledauphine.com/education/2024/07/05/ouverture-d-une-classe-defense-et-securite-globale-a-la-rentree",
+   "page": "Mazan. Ouverture d’une classe défense et sécurité globale à la rentrée",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-19"
+  },
+  {
+   "type": "convention",
+   "date": "2024-07-05",
+   "titre": "Signature de la convention classe défense",
+   "extrait": "Lors de la signature de la convention classe défense et sécurité globale.",
+   "resume": "Le collège a signé une convention officielle avec la gendarmerie pour créer la classe défense et sécurité globale, événement mentionné dans l’article du 5 juillet 2024.",
+   "source": "https://www.ledauphine.com/education/2024/07/05/ouverture-d-une-classe-defense-et-securite-globale-a-la-rentree",
+   "page": "Mazan. Ouverture d’une classe défense et sécurité globale à la rentrée",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-19"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2024-07-05",
+   "titre": "Accueil du colonel Cédric Garence",
+   "extrait": "Le collège André-Malraux a accueilli le colonel Cédric Garence, commandant le groupement de gendarmerie départementale du Vaucluse, ainsi que deux gendarmes.",
+   "resume": "Lors de la signature, le colonel Cédric Garence et deux gendarmes de la compagnie ont été reçus au collège, marquant la cérémonie de lancement de la classe défense.",
+   "source": "https://www.ledauphine.com/education/2024/07/05/ouverture-d-une-classe-defense-et-securite-globale-a-la-rentree",
+   "page": "Mazan. Ouverture d’une classe défense et sécurité globale à la rentrée",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-19"
+  },
+  {
    "type": "convention",
    "date": "2024-07",
    "titre": "Convention avec la Gendarmerie (groupement, Carpentras)",
@@ -87,6 +192,17 @@
    "page": "Département de Vaucluse",
    "site": "facebook.com (extrait public)",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "distinction",
+   "date": "2016-11-18",
+   "titre": "Remise de diplômes de secouriste aux 4e",
+   "extrait": "les élèves de quatrième du collège André Malraux de Mazan ont reçu leurs diplômes de secouriste",
+   "resume": "Le 18 novembre 2016, les élèves de quatrième du collège André Malraux ont reçu leurs diplômes de secouriste après la formation suivie l'année précédente.",
+   "source": "https://www.laprovence.com/article/edition-vaucluse/4204942/mazan-formation-de-secourisme-lexemple-du-college-malraux.html",
+   "page": "MAZAN FORMATION DE SECOURISME:\nL'EXEMPLE DU COLLÈGE MALRAUX",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-19"
   }
  ],
  "recherches": [
@@ -99,6 +215,11 @@
    "date": "2026-11-11",
    "pages": 26,
    "nouveaux": 7
+  },
+  {
+   "date": "2026-11-19",
+   "pages": 34,
+   "nouveaux": 10
   }
  ],
  "exclus": [],
@@ -106,31 +227,66 @@
   "https://0451241e.index-education.net/pronote/pageetablissement.html",
   "https://annuaire-education.fr/etablissement/mazan/college-andre-malraux/0841043C.html",
   "https://clg-malraux-asnieres.ac-versailles.fr/spip.php?rubrique234=",
+  "https://cvrduvaucluse.canalblog.com/2024/06/mercredi-12-juin-2024-au-thor-remise-des-prix-aux-laureats-vauclusiens-du-concours-national-de-la-resistance-et-de-la-deportation.html",
   "https://tavily.com/knowledge/company/8dVVpqa4qz1X",
   "https://tavily.com/knowledge/company/x8dlpj3staTq",
+  "https://www.defense.gouv.fr/sites/default/files/sga/SGA-DRHMD_INSCRIPTIONS%20SCOLAIRES-LETTRES-TYPES.pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.facebook.com/LaProvenceVaucluse/posts/35-%C3%A9l%C3%A8ves-du-coll%C3%A8ge-andr%C3%A9-malraux-de-mazan-ont-particip%C3%A9-et-remport%C3%A9-le-premier/1586730036789969",
   "https://www.facebook.com/VilleMazan/posts/ce-soir-jai-assist%C3%A9-%C3%A0-la-remise-de-dipl%C3%B4me-national-du-brevet-aux-%C3%A9l%C3%A8ves-du-coll/1248591463968854",
   "https://www.facebook.com/VilleMazan/posts/la-ville-de-mazan-vous-invite-%C3%A0-participer-%C3%A0-la-c%C3%A9r%C3%A9monie-comm%C3%A9morative-de-larmi/1547232470771417",
   "https://www.facebook.com/departementdevaucluse/posts/les-coll%C3%A9giens-reporters-en-herbe-r%C3%A9compens%C3%A9sorganis%C3%A9-par-le-club-de-la-presse-d/1425203299652111",
+  "https://www.laprovence.com/article/edition-martigues-istres/2567501/les-collegiens-sinteressent-a-larmee.html",
   "https://www.laprovence.com/article/edition-vaucluse/4105935/mazan-les-deux-principales-du-college-rencontrent-le-maire.html",
+  "https://www.laprovence.com/article/edition-vaucluse/4195829/une-ceremonie-republicaine-sest-deroulee-pour-quelque-140-diplomes.html",
+  "https://www.laprovence.com/article/edition-vaucluse/4204942/mazan-formation-de-secourisme-lexemple-du-college-malraux.html",
   "https://www.laprovence.com/article/region/1106720134372715/une-classe-securite-defense-au-college-andre-malraux-de-mazan",
   "https://www.laprovence.com/article/societe/16611264486611/erasmus-le-college-andre-malraux-de-mazan-accueille-28-jeunes-italiens-en-immersion",
   "https://www.laprovence.com/article/societe/18438305424767/vingt-eleves-du-college-andre-malraux-de-mazan-ont-rendu-visite-a-leurs-correspondants-irlandais",
   "https://www.laprovence.com/article/societe/30961115420864/de-mazan-a-la-pologne-les-eleves-du-college-andre-malraux-sur-les-traces-de-la-shoah",
+  "https://www.laprovence.com/article/societe/55806051107439/au-college-andre-malraux-de-mzan-la-classe-securite-defense-recoit-le-psig",
+  "https://www.laprovence.com/article/societe/9478835911991314/reporters-en-herbe-les-apprentis-journalistes-de-mazan-recoivent-le-premier-prix",
   "https://www.laprovence.com/article/sports/1158507103778514/handball-les-u15-du-college-malraux-de-mazan-en-finale-du-championnat-de-france",
+  "https://www.ledauphine.com/education/2021/11/17/le-college-malraux-recompense-au-festival-de-provencal-de-fuveau",
   "https://www.ledauphine.com/education/2022/10/19/les-eleves-du-college-malraux-decouvrent-les-vendanges",
+  "https://www.ledauphine.com/education/2023/04/07/des-anciens-combattants-viennent-en-soutien-aux-collegiens",
   "https://www.ledauphine.com/education/2024/06/25/le-college-andre-malraux-confirme-son-engagement-d-ouverture-a-l-international",
+  "https://www.ledauphine.com/education/2024/07/05/ouverture-d-une-classe-defense-et-securite-globale-a-la-rentree",
   "https://www.ledauphine.com/education/2025/10/08/le-college-andre-malraux-a-l-heure-italienne",
   "https://www.ledauphine.com/education/2026/03/05/le-college-andre-malraux-a-l-heure-roumaine",
+  "https://www.ledauphine.com/education/2026/11/13/bel-accueil-pour-les-eleves-italiens",
   "https://www.ledauphine.com/sport/2026/04/03/handball-l-equipe-feminine-du-college-malraux-qualifiee-pour-le-championnat-de-france",
+  "https://www.ledauphine.com/vaucluse/2019/05/21/le-college-malraux-en-bleu-pour-soutenir-ses-handballeuses",
+  "https://www.ledauphine.com/vaucluse/2019/06/01/le-college-malraux-court-et-lutte-contre-la-faim-dans-le-monde",
+  "https://www.ledauphine.com/vaucluse/2019/06/20/lecture-danse-et-chant-au-menu-du-gala-du-college-malraux",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-andre-malraux-84.html",
   "https://www.mazan.fr/decouvrir-mazan/pratique/mes-enfants/au-college.html",
+  "https://www.memoiredeshommes.defense.gouv.fr/fichier/6819799/14463517",
   "https://www.ofaj.org/partenaires/atelier-memoire-et-citoyennete-college-andre-malraux-mazan",
   "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/vaucluse/college-andre-malraux",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/aide.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_10630940/fr/jap2018-epi-un-escape-game-college-andre-malraux-a-mazan-84",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_11273574/es/palmares-academique-du-concours-clemenceau-2025",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/index.html",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10444225/fr/ent-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10761841/fr/inversons-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_10988338/fr/ia-dans-la-classe",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11228482/fr/enseignant-du-1er-degre",
+  "https://www.pedagogie.ac-aix-marseille.fr/jcms/jcms/c_11248634/fr/concours-scolaires",
+  "https://www.servicehistorique.sga.defense.gouv.fr/ark/1465378",
+  "https://www.servicehistorique.sga.defense.gouv.fr/ark/1466801",
   "https://www.site.ac-aix-marseille.fr/clg-mazan/",
-  "https://www.site.ac-aix-marseille.fr/clg-mazan/spip"
+  "https://www.site.ac-aix-marseille.fr/clg-mazan/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-mazan/spip/",
+  "https://www.site.ac-aix-marseille.fr/clg-mazan/spip/-Nos-informations-.html",
+  "https://www.vaucluse.gouv.fr/Actions-de-l-Etat/Education-et-formation",
+  "https://www.vaucluse.gouv.fr/Actions-de-l-Etat/Jeunesse.-sports-et-vie-associative/Actions-en-direction-de-la-jeunesse-et-de-l-education-populaire/Politiques-Educatives-Territoriales/Plan-Mercredi",
+  "https://www.vaucluse.gouv.fr/index.php/Actions-de-l-Etat/Education-et-formation/Education/Carte-scolaire-2025"
  ],
  "etablissement": "Collège André Malraux (Mazan)",
- "referents_cites": "Mme Bourgues",
- "unite_citee": "Gendarmerie (groupement, Carpentras)"
+ "referents_cites": [
+  "François Tardieu"
+ ],
+ "unite_citee": "groupement de gendarmerie départementale du Vaucluse"
 }
