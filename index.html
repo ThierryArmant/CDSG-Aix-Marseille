@@ -179,7 +179,7 @@
   .menuStatut button{border:1px solid var(--trait);background:#fff;border-radius:999px;padding:5px 12px;margin:3px 4px 3px 0;font-size:13px}
   .menuStatut button.sel{background:var(--bleu-f);color:#fff;border-color:var(--bleu-f)}
   body:not(.gestion) .g-only{display:none!important}
-  body:not(.animateur) .a-only{display:none!important}
+  body:not(.administrateur) .a-only{display:none!important}
   body.gestion .g-off{display:none!important}
   .communication{background:#eaf6ee;border:1px solid #c5e0ce;border-radius:14px;padding:18px;margin:0 0 24px}
   .communication h3{margin:0 0 12px;color:#163b28}
@@ -250,7 +250,7 @@
       <button id="go">Chercher</button>
       <button id="goWeb" class="g-only a-only" style="background:#fff;color:var(--bleu-f)" title="Recherche sur Internet avec vos clés (1 à 3 minutes)">🌐 Chercher aussi sur le web</button>
     </div>
-    <p id="etatIA" style="font-size:13px">Pour interroger l’IA, utilisez votre accès animateur. <button type="button" id="connecterIA" style="font:inherit">Connecter l’IA</button></p>
+    <p id="etatIA" style="font-size:13px">Pour interroger l’IA, utilisez votre accès administrateur. <button type="button" id="connecterIA" style="font:inherit">Connecter l’IA</button></p>
     <div class="exemples" id="exemples"></div>
     <div class="reponse" id="repWeb">
       <div style="font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--bleu);font-weight:600;margin-bottom:6px">Réponse de l’IA · fiches et recherche web</div>
@@ -263,7 +263,7 @@
       <div class="chips" id="repFiches"></div>
       <div class="src" id="repSrc"></div>
     </div>
-    <details class="reglages">
+    <details class="reglages a-only">
       <summary>Réglages du service de réponse (facultatif)</summary>
       <div class="grid">
         <label>Service
@@ -276,7 +276,7 @@
         <label>Adresse de l'API <input id="cfgUrl" placeholder="https://…/v1"></label>
         <label>Modèle <input id="cfgModele" placeholder="openweight-large (par défaut)"></label>
         <label>Clé personnelle <input id="cfgCle" type="password" placeholder="conservée uniquement dans ce navigateur"></label>
-        <div class="note">Avec votre accès animateur, l’IA utilise les clés déjà configurées sur le serveur. Ces réglages personnels permettent un appel direct à un autre service compatible ; Albert doit passer par le serveur. Sans connexion, seuls les résultats par mots-clés sont disponibles.</div>
+        <div class="note">Avec votre accès administrateur, l’IA utilise les clés déjà configurées sur le serveur. Ces réglages personnels permettent un appel direct à un autre service compatible ; Albert doit passer par le serveur. Sans connexion, seuls les résultats par mots-clés sont disponibles.</div>
       </div>
     </details>
   </section>
@@ -316,17 +316,11 @@
         </ol>
         <label>Jeton GitHub<br><input id="ghJeton" type="password" placeholder="github_pat_…" autocomplete="off"></label>
         <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--trait)">
-          <b>Codes d'accès</b> — chaque code ouvre un jeton chiffré, rangé dans le site (personne ne voit le jeton).
-          <ul style="margin:6px 0;padding-left:18px">
-            <li><b>Animateur</b> (vous) : tout, y compris les recherches web. Jeton : Contents + Actions (celui collé ci-dessus).</li>
-            <li><b>Rédacteur</b> (collègues) : modifier les fiches, photos, distinctions, signaler un article. Jeton rédacteur <i>facultatif</i> : laissé vide, votre jeton sert aussi aux rédacteurs (plus simple) ; un 2<sup>e</sup> jeton « Contents » seul limite davantage leurs droits.</li>
-          </ul>
-          <div class="champ-code"><label for="acCodeA">Code animateur</label><span class="saisie-code"><input id="acCodeA" type="password" placeholder="votre code (long de préférence)"><button type="button" data-afficher-code="acCodeA" aria-controls="acCodeA">Afficher</button></span></div>
-          <div class="champ-code"><label for="acCodeR">Code rédacteur</label><span class="saisie-code"><input id="acCodeR" type="password" placeholder="code à donner aux collègues"><button type="button" data-afficher-code="acCodeR" aria-controls="acCodeR">Afficher</button></span></div>
-          <label>Jeton rédacteur (facultatif)<br><input id="acJetonR" type="password" placeholder="laisser vide = votre jeton"></label>
-          <div class="actions"><button class="btn-prim" id="acOk" style="border-radius:10px;padding:8px 14px;border:1px solid">Enregistrer les codes d'accès</button></div>
+          <b>Accès Animateur</b>
+          <p>Les animateurs peuvent rédiger et modifier les fiches, puis télécharger leurs modifications. La publication et les recherches web sont réservées à l’administrateur.</p>
+          <div class="champ-code"><label for="acCodeR">Code animateur</label><span class="saisie-code"><input id="acCodeR" type="password" placeholder="Au moins 12 caractères"><button type="button" data-afficher-code="acCodeR" aria-controls="acCodeR">Afficher</button></span></div>
+          <div class="actions"><button class="btn-prim" id="acOk" type="button">Enregistrer le code animateur</button></div>
           <div class="msg" id="acMsg"></div>
-          <div style="font-size:12px">Conseil : des codes d'au moins 12 caractères. Pour retirer l'accès des collègues, supprimez leur jeton sur GitHub (Settings → Developer settings → Fine-grained tokens).</div>
         </div>
         <div style="margin-top:6px">Sans jeton, le bouton « Enregistrer » télécharge le fichier <code>classes.js</code> mis à jour, à déposer dans le dossier <code>data</code> du dépôt.</div>
       </div>
@@ -702,22 +696,9 @@ const h = location.hash.match(/fiche=([\w-]+)/); if(h) ouvrir(h[1]);
 
 /* ───────── Mode gestion : codes rédacteur / animateur ───────── */
 const EMPREINTE = "9a4cbd5d5ed4a6ec1b7b3db0909b9ccd13d0db584f9977d23868ab14fe7e2d9c";   // ancien code animateur (empreinte seulement)
-const enc = new TextEncoder(), dec = new TextDecoder();
+const enc = new TextEncoder();
 const b64 = u8 => btoa(String.fromCharCode(...u8)), unb64 = t => Uint8Array.from(atob(t), c=>c.charCodeAt(0));
 async function empreinte(t){ const b = await crypto.subtle.digest("SHA-256", enc.encode(t)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join(""); }
-async function cleDe(code, sel){
-  const base = await crypto.subtle.importKey("raw", enc.encode(code), "PBKDF2", false, ["deriveKey"]);
-  return crypto.subtle.deriveKey({name:"PBKDF2", salt:sel, iterations:250000, hash:"SHA-256"}, base, {name:"AES-GCM", length:256}, false, ["encrypt","decrypt"]);
-}
-async function chiffrer(texte, code){
-  const sel = crypto.getRandomValues(new Uint8Array(16)), iv = crypto.getRandomValues(new Uint8Array(12));
-  const c = await crypto.subtle.encrypt({name:"AES-GCM", iv}, await cleDe(code, sel), enc.encode(texte));
-  return {sel:b64(sel), iv:b64(iv), donnees:b64(new Uint8Array(c))};
-}
-async function dechiffrer(bloc, code){
-  try{ const p = await crypto.subtle.decrypt({name:"AES-GCM", iv:unb64(bloc.iv)}, await cleDe(code, unb64(bloc.sel)), unb64(bloc.donnees)); return dec.decode(p); }
-  catch(e){ return null; }
-}
 const boutonsCodes = document.querySelectorAll("#gestion [data-afficher-code]");
 function afficherCode(bouton, visible){
   const champ = document.getElementById(bouton.dataset.afficherCode);
@@ -730,36 +711,38 @@ boutonsCodes.forEach(bouton=>bouton.addEventListener("click",()=>{
 document.getElementById("gestion").addEventListener("toggle", e=>{
   if(!e.currentTarget.open) boutonsCodes.forEach(bouton=>afficherCode(bouton,false));
 });
-function modeGestion(role, tok){
-  if(role!=="animateur") boutonsCodes.forEach(bouton=>afficherCode(bouton,false));
+let roleGestion = null;
+function modeGestion(role){
+  roleGestion = role;
+  boutonsCodes.forEach(bouton=>afficherCode(bouton,false));
   document.body.classList.toggle("gestion", !!role);
-  document.body.classList.toggle("animateur", role==="animateur");
-  document.getElementById("cadenas").textContent = role ? (role==="animateur" ? "🔓 Animateur (quitter)" : "🔓 Rédacteur (quitter)") : "🔒 Gestion";
-  if(tok) jeton.value = tok;
+  document.body.classList.toggle("administrateur", role==="administrateur");
+  document.getElementById("cadenas").textContent = role ? (role==="administrateur" ? "🔓 Administrateur (quitter)" : "🔓 Animateur (quitter)") : "🔒 Gestion";
+  jeton.value = role==="administrateur" ? cfg0("gh") : "";
   try{
-    if(role){ sessionStorage.setItem("cdsg_role", role); if(tok) sessionStorage.setItem("cdsg_tok", tok); }
-    else { sessionStorage.removeItem("cdsg_role"); sessionStorage.removeItem("cdsg_tok"); if(!localStorage.getItem("cdsg_gh")) jeton.value=""; }
-  }catch(e){}
+    sessionStorage.removeItem("cdsg_role");
+    sessionStorage.removeItem("cdsg_tok");
+  }catch{}
 }
 document.getElementById("cadenas").onclick = async ()=>{
-  if(document.body.classList.contains("gestion")){ modeGestion(null); return; }
-  const code = prompt("Code d'accès (rédacteur ou animateur) :");
-  if(code === null || !code.trim()) return;
-  let acces = {};
-  try{ const r = await fetch("data/acces.json?t="+Date.now(),{cache:"no-store"}); if(r.ok) acces = await r.json(); }catch(e){}
-  if(acces.animateur){ const t = await dechiffrer(acces.animateur, code.trim()); if(t){ modeGestion("animateur", t); return; } }
-  if(acces.redacteur){ const t = await dechiffrer(acces.redacteur, code.trim()); if(t){ modeGestion("redacteur", t); return; } }
-  if(await empreinte(code.trim()) === EMPREINTE){ modeGestion("animateur", null); return; }   // avant configuration des accès
+  if(roleGestion){ modeGestion(null); return; }
+  const code = prompt("Code d’accès (administrateur ou animateur) :")?.trim();
+  if(!code) return;
+  const hash = await empreinte(code);
+  if(hash === EMPREINTE){ modeGestion("administrateur"); return; }
+  try{
+    const r = await fetch("data/roles.json", {cache:"no-store"});
+    if(r.ok && (await r.json()).animateur === hash){ modeGestion("animateur"); return; }
+  }catch{}
   alert("Code incorrect.");
 };
-
 
 /* ───────── Édition des fiches ───────── */
 const DEPOT = {owner:"thierryarmant", repo:"cdsg-aix-marseille", chemin:"data/classes.js", branche:"main"};
 const jeton = document.getElementById("ghJeton");
-jeton.value = cfg0("gh"); jeton.onchange = ()=>cfg0("gh", jeton.value.trim());
-// Restaurer après initialisation du champ : le jeton de session ne doit pas être perdu.
-try{ const r = sessionStorage.getItem("cdsg_role"); if(r) modeGestion(r, sessionStorage.getItem("cdsg_tok")); }catch(e){}
+jeton.value = "";
+jeton.onchange = ()=>{ if(roleGestion==="administrateur") cfg0("gh", jeton.value.trim()); };
+try{ sessionStorage.removeItem("cdsg_role"); sessionStorage.removeItem("cdsg_tok"); }catch{}
 function cfg0(k,v){ try{ if(v===undefined) return localStorage.getItem("cdsg_"+k)||""; localStorage.setItem("cdsg_"+k,v); }catch(e){ return ""; } }
 const CHAMPS = [["etab","Établissement"],["ville","Ville"],["ce","Chef d'établissement"],["ref","Professeur(s) référent(s)"],["unite","Unité marraine / partenaire"],["conv","Convention (date, renouvellement…)"],["suivi","Suivi formateur"],["site","Site de l'établissement (adresse web)"]];
 
@@ -1050,25 +1033,23 @@ async function enregistrerPhoto(id, auto){
   }catch(e){ dire("Échec : "+e.message+".","err"); }
 }
 
-/* Codes d'accès : chiffrement des jetons et enregistrement dans data/acces.json */
 document.getElementById("acOk").onclick = async ()=>{
-  const m = document.getElementById("acMsg"), dire=(t,k)=>{ m.className="msg on "+k; m.textContent=t; };
-  const tokA = jeton.value.trim(), cA = document.getElementById("acCodeA").value.trim(), cR = document.getElementById("acCodeR").value.trim(), tokR = document.getElementById("acJetonR").value.trim();
-  if(!tokA){ dire("Collez d'abord votre jeton (animateur) dans la case « Jeton GitHub » ci-dessus.","err"); return; }
-  if(cA.length < 6){ dire("Choisissez un code animateur d'au moins 6 caractères.","err"); return; }
-  if(cR && cR===cA){ dire("Le code rédacteur doit être différent du code animateur.","err"); return; }
-
-  dire("Chiffrement et enregistrement…","info");
+  if(roleGestion!=="administrateur") return;
+  const msg = document.getElementById("acMsg");
+  const dire = (t,k)=>{ msg.className="msg on "+k; msg.textContent=t; };
+  const champ = document.getElementById("acCodeR");
+  const code = champ.value.trim(), tok = jeton.value.trim();
+  if(!tok){ dire("Renseignez votre jeton GitHub administrateur.","err"); return; }
+  if(code.length<12){ dire("Le code animateur doit compter au moins 12 caractères.","err"); return; }
+  const hash = await empreinte(code);
+  if(hash===EMPREINTE){ dire("Choisissez un code différent de celui de l’administrateur.","err"); return; }
   try{
-    const h = {Authorization:"Bearer "+tokA, Accept:"application/vnd.github+json"};
-    const f = await lireFichierGH("data/acces.json", h);
-    const acces = f ? JSON.parse(f.texte||"{}") : {};
-    acces.animateur = await chiffrer(tokA, cA);
-    if(cR) acces.redacteur = await chiffrer(tokR || tokA, cR);   // sans jeton rédacteur : le jeton animateur sert aussi aux rédacteurs
-    acces.maj = new Date().toISOString().slice(0,10);
-    await ecrireFichierGH("data/acces.json", JSON.stringify(acces,null,1), f?f.sha:undefined, "Codes d'accès mis à jour (jetons chiffrés)", h);
-    ["acCodeA","acCodeR","acJetonR"].forEach(i=>document.getElementById(i).value="");
-    dire("Codes enregistrés. Vos collègues entrent le code rédacteur via « 🔒 Gestion » ; vous, le code animateur (sur n'importe quel ordinateur, sans recoller le jeton).","ok");
+    const h = {Authorization:"Bearer "+tok, Accept:"application/vnd.github+json"};
+    const fichier = await lireFichierGH("data/roles.json", h);
+    await ecrireFichierGH("data/roles.json", JSON.stringify({animateur:hash},null,2), fichier?.sha, "Configurer le code animateur", h);
+    champ.value="";
+    afficherCode(document.querySelector('[data-afficher-code="acCodeR"]'),false);
+    dire("Code animateur enregistré.","ok");
   }catch(e){ dire("Échec : "+e.message+".","err"); }
 };
 
@@ -1118,6 +1099,7 @@ function actualites(){
 actualites();
 
 async function lancerVeille(id){
+  if(roleGestion!=="administrateur") return;
   const m = document.getElementById("msgVeille"), dire=(t,k)=>{ m.className="msg on "+k; m.textContent=t; };
   const tok = jeton.value.trim();
   const liensL = document.getElementById("liensManuels").value.split(/\s+/).filter(x=>/^https?:\/\//.test(x));
@@ -1194,14 +1176,14 @@ async function choisirModele(base, cle){
 
 async function repondre(){
   const question = document.getElementById("q").value.trim(); if(!question) return;
-  if(jeton.value.trim()){ document.getElementById("rep").classList.remove("on"); return lancerQuestionWeb(); }
+  if(roleGestion==="administrateur" && jeton.value.trim()){ document.getElementById("rep").classList.remove("on"); return lancerQuestionWeb(); }
   const rep=document.getElementById("rep"), txt=document.getElementById("repTxt"), src=document.getElementById("repSrc");
   rep.classList.add("on");
   const r = chercherLocal(question);
   fichesChips(r.liste);
   const cle = inK.value.trim(), base = inU.value.trim();
-  if(!cle || !base || /albert\.api\.etalab\.gouv\.fr/i.test(base)){
-    txt.textContent = "L’IA n’est pas connectée dans cette session. Cliquez sur « Connecter l’IA » et utilisez votre code animateur pour poser cette question au service de recherche.";
+  if(roleGestion!=="administrateur" || !cle || !base || /albert\.api\.etalab\.gouv\.fr/i.test(base)){
+    txt.textContent = "L’IA n’est pas connectée dans cette session. Cliquez sur « Connecter l’IA » et utilisez votre code administrateur pour poser cette question au service de recherche.";
     src.textContent = "Recherche par mots-clés uniquement : "+r.liste.length+" fiche(s) correspondante(s). Une recherche par mots-clés ne remplace pas une réponse de l’IA.";
     return;
   }
@@ -1230,6 +1212,7 @@ document.getElementById("go").onclick = repondre;
 
 /* Question avec recherche web (via GitHub : les clés de recherche restent secrètes) */
 async function lancerQuestionWeb(){
+  if(roleGestion!=="administrateur") return;
   if(lancerQuestionWeb.enCours) return;
   const question = document.getElementById("q").value.trim(); if(!question) return;
   const box=document.getElementById("repWeb"), txt=document.getElementById("repWebTxt"), src=document.getElementById("repWebSrc");
@@ -1262,7 +1245,7 @@ async function lancerQuestionWeb(){
         }
       }
     }catch(e){
-      erreursLecture++; if(erreursLecture>=3){ txt.textContent="Impossible de récupérer la réponse : "+e.message+". Vérifiez la connexion animateur."; terminer(); return; }
+      erreursLecture++; if(erreursLecture>=3){ txt.textContent="Impossible de récupérer la réponse : "+e.message+". Vérifiez la connexion administrateur."; terminer(); return; }
     }
     points=(points+1)%4; txt.textContent = "Consultation des fiches, puis du web si nécessaire"+".".repeat(points+1)+" ("+Math.round((Date.now()-debut)/1000)+" s)";
     setTimeout(attendre, 12000);
