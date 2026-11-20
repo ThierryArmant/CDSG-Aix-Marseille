@@ -629,7 +629,7 @@ document.addEventListener("keydown", e=>{ if(e.key==="Escape") fermer(); });
 const h = location.hash.match(/fiche=([\w-]+)/); if(h) ouvrir(h[1]);
 
 /* ───────── Mode gestion : codes rédacteur / animateur ───────── */
-const EMPREINTE = "dd5636e85da7fb7ae6dd9bc0e6639678c3ede4685750d310fdc5519563ac6d64";   // ancien code animateur (empreinte seulement)
+const EMPREINTE = "9a4cbd5d5ed4a6ec1b7b3db0909b9ccd13d0db584f9977d23868ab14fe7e2d9c";   // ancien code animateur (empreinte seulement)
 const enc = new TextEncoder(), dec = new TextDecoder();
 const b64 = u8 => btoa(String.fromCharCode(...u8)), unb64 = t => Uint8Array.from(atob(t), c=>c.charCodeAt(0));
 async function empreinte(t){ const b = await crypto.subtle.digest("SHA-256", enc.encode(t)); return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join(""); }
