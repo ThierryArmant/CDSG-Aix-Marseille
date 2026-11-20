@@ -80,7 +80,11 @@ jobs:
           QID: ${{ inputs.qid }}
         run: |
           if [ -n "$QUESTION" ]; then
-            python3 recherche/recherche_web.py --sans-boite --question-web "$QUESTION" --qid "$QID"
+            if [ "$FILTRE" = "interne" ]; then
+              python3 recherche/recherche_web.py --sans-boite --interne --question-web "$QUESTION" --qid "$QID"
+            else
+              python3 recherche/recherche_web.py --sans-boite --question-web "$QUESTION" --qid "$QID"
+            fi
           elif [ "${{ github.event_name }}" = "schedule" ]; then
             PALM=""; [ "$(date +%u)" = "7" ] && PALM="--palmares"   # palmarès le dimanche
             python3 recherche/recherche_web.py $PALM --rotation 5
