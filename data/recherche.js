@@ -228,20 +228,20 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-du-pays-de-banon-banon": {
-  "date": "11/11/2026",
-  "nb": 25,
+  "date": "20/11/2026",
+  "nb": 42,
   "photo": {
-   "url": "https://medias.hauteprovenceinfo.com/photos/1200/2233/",
-   "source": "https://www.hauteprovenceinfo.com/actualite-2233-banon-les-eleves-du-college-re-ccedil-oivent-le-drapeau-du-souvenir",
+   "url": "https://www.frequencemistral.com/photo/art/grande/22805138-25347338.jpg?v=1528305277",
+   "source": "https://www.frequencemistral.com/Des-prix-pour-ne-jamais-oublier-la-resistance-et-la-deportation_a6285.html",
    "manuel": false
   },
   "derniere_activite": "2026-09-09",
   "derniers": {
    "distinction": {
-    "date": "2013-05-08",
-    "titre": "Victoire au concours de la résistance",
-    "resume": "Les collégiens du Pays de Banon ont remporté le concours de la résistance dont le thème était la résistance dans les camps nazis.",
-    "source": "https://www.hauteprovenceinfo.com/actualite-2233-banon-les-eleves-du-college-re-ccedil-oivent-le-drapeau-du-souvenir"
+    "date": "2018-06-07",
+    "titre": "1er prix travaux collectifs – Collège du Pays de Banon",
+    "resume": "Le Collège du Pays de Banon a remporté le premier prix du concours national de la Résistance et de la Déportation pour son travail collectif.",
+    "source": "https://www.frequencemistral.com/Des-prix-pour-ne-jamais-oublier-la-resistance-et-la-deportation_a6285.html"
    },
    "sortie": {
     "date": "2026-03-26",
@@ -250,10 +250,10 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/article/societe/1981597427492914/des-eleves-du-college-du-pays-de-banon-ont-visite-l-ancien-camp-dinternement-des-milles"
    },
    "ceremonie": {
-    "date": "2023-12-04",
-    "titre": "Commémoration du 80ᵉ anniversaire de la rafle du Contadour",
-    "resume": "Les élèves de troisième de la classe défense du collège de Banon ont assisté à la cérémonie à Redortiers le 4 décembre 2023.",
-    "source": "https://www.hauteprovenceinfo.com/actualite-42671-banon-connaissez-vous-les-classes-defense"
+    "date": "2025-06-11",
+    "titre": "Rencontre avec la ministre déléguée aux armées",
+    "resume": "Le 11 juin 2025, la classe défense du Collège du Pays de Banon a rencontré la ministre déléguée aux armées lors d’une cérémonie commémorant les 80 ans de la Libération.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-banon/spip/Nouvel-article-No-52.html"
    },
    "convention": {
     "date": "2025-11",
@@ -276,6 +276,66 @@ window.CDSG_WEB = {
   },
   "distinctions": [
    {
+    "date": "2018-06-07",
+    "titre": "1er prix travaux collectifs – Collège du Pays de Banon",
+    "resume": "Le Collège du Pays de Banon a remporté le premier prix du concours national de la Résistance et de la Déportation pour son travail collectif.",
+    "source": "https://www.frequencemistral.com/Des-prix-pour-ne-jamais-oublier-la-resistance-et-la-deportation_a6285.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.frequencemistral.com/Des-prix-pour-ne-jamais-oublier-la-resistance-et-la-deportation_a6285.html"
+    ]
+   },
+   {
+    "date": "2018-06-07",
+    "titre": "2e prix travaux collectifs – Collège du Pays de Banon",
+    "resume": "Le même établissement a également obtenu le deuxième prix du même concours.",
+    "source": "https://www.frequencemistral.com/Des-prix-pour-ne-jamais-oublier-la-resistance-et-la-deportation_a6285.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.frequencemistral.com/Des-prix-pour-ne-jamais-oublier-la-resistance-et-la-deportation_a6285.html"
+    ]
+   },
+   {
+    "date": "2018-06-07",
+    "titre": "Mention au palmarès académique – Collège du Pays de Banon",
+    "resume": "Un élève du Collège du Pays de Banon, Johan GOUTORBE, figure parmi les lauréats du palmarès académique du concours.",
+    "source": "https://www.frequencemistral.com/Des-prix-pour-ne-jamais-oublier-la-resistance-et-la-deportation_a6285.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.frequencemistral.com/Des-prix-pour-ne-jamais-oublier-la-resistance-et-la-deportation_a6285.html"
+    ]
+   },
+   {
+    "date": "2016-06",
+    "titre": "3e prix photographie Reflets d'icônes",
+    "resume": "Valentin Roure a obtenu le troisième prix du même concours de photographie Reflets d'icônes, remise en juin 2016 à Marseille.",
+    "source": "https://www.laprovence.com/article/edition-alpes/4015544/college-11-eleves-primes-au-niveau-local-et-national.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-alpes/4015544/college-11-eleves-primes-au-niveau-local-et-national.html"
+    ]
+   },
+   {
+    "date": "2016",
+    "titre": "Premier prix CNRD 5e catégorie",
+    "resume": "Sept collégiens ont remporté le premier prix du Concours national de la résistance et de la déportation (CNRD), 5e catégorie, en 2016.",
+    "source": "https://www.laprovence.com/article/edition-alpes/4015544/college-11-eleves-primes-au-niveau-local-et-national.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-alpes/4015544/college-11-eleves-primes-au-niveau-local-et-national.html"
+    ]
+   },
+   {
+    "date": "2014",
+    "titre": "3 premiers prix au concours Reflets d'Icônes",
+    "resume": "Les élèves de 3e B du Collège du Pays de Banon ont remporté le 1er, 2e et 3e prix du concours académique Reflets d'Icônes, organisé par l'ONAC‑VG, la Mission du centenaire, l'Éducation nationale et le ministère de la Défense.",
+    "source": "https://www.laprovence.com/article/edition-alpes/2929610/les-collegiens-se-distinguent-au-concours-academique.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-alpes/2929610/les-collegiens-se-distinguent-au-concours-academique.html"
+    ]
+   },
+   {
     "date": "2013-05-08",
     "titre": "Victoire au concours de la résistance",
     "resume": "Les collégiens du Pays de Banon ont remporté le concours de la résistance dont le thème était la résistance dans les camps nazis.",
@@ -290,11 +350,11 @@ window.CDSG_WEB = {
    "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
    "https://www.laprovence.com/article/societe/1981597427492914/des-eleves-du-college-du-pays-de-banon-ont-visite-l-ancien-camp-dinternement-des-milles",
    "https://www.laprovence.com/article/societe/77837623379386/les-defis-de-la-ruralite-et-le-climat-scolaire-local-se-rencontrent-au-college-de-banon",
+   "https://www.site.ac-aix-marseille.fr/clg-banon/spip/Presentation-de-l-etablissement.html",
    "https://www.ici.fr/infos/education/le-college-de-banon-maintient-ses-20-minutes-de-lecture-obligatoire-pour-tous-1506616134",
-   "https://www.hauteprovenceinfo.com/actualite-42671-banon-connaissez-vous-les-classes-defense",
-   "https://www.laprovence.com/article/region/53751683313439/plusieurs-colleges-evacues-dans-les-alpes-de-haute-provence-a-la-suite-dune-alerte-a-la-bombe",
-   "https://www.ledauphine.com/defense-guerre-conflit/2023/09/29/eleves-professeurs-et-militaires-retirent-des-kilos-de-dechets-du-toulourenc",
-   "https://www.hauteprovenceinfo.com/actualite-2233-banon-les-eleves-du-college-re-ccedil-oivent-le-drapeau-du-souvenir"
+   "https://www.site.ac-aix-marseille.fr/clg-banon/spip/Nouvel-article-No-52.html",
+   "https://banon.fr/wp-content/uploads/2025/07/05.-BanonActus_juin_2025-LIVRET.pdf",
+   "https://www.hauteprovenceinfo.com/actualite-42671-banon-connaissez-vous-les-classes-defense"
   ]
  },
  "college-d-altitude-vauban-briancon": {
@@ -1251,11 +1311,11 @@ window.CDSG_WEB = {
   ]
  },
  "lycee-pierre-gilles-de-gennes-digne-les-bains": {
-  "date": "11/11/2026",
-  "nb": 5,
+  "date": "20/11/2026",
+  "nb": 10,
   "photo": {
-   "url": "https://astatic.ccmbg.com/www.linternaute.com/img/annuaire_palmareslycees/picto-partage-facebook.jpg",
-   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-pierre-gilles-de-gennes-04.html",
+   "url": "https://io-fsly-bfmtv.cdn.nextradiotv.com/57O-x8UIVk7DL7Ld-er3B2pLIkY=/0x0:1280x720/1280x0/images/Une-nouvelle-classe-defense-a-Digne-Les-Bains-1040649.jpg",
+   "source": "https://www.bfmtv.com/bfm-dici/replay-emissions/bonjour-dici/une-nouvelle-classe-defense-a-digne-les-bains_VN-202106040071.html",
    "manuel": false
   },
   "derniere_activite": "2022-09-01",
@@ -1273,20 +1333,22 @@ window.CDSG_WEB = {
     "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-pierre-gilles-de-gennes-04.html"
    },
    "article": {
-    "date": "2021-06-04",
-    "titre": "Nouvelle classe défense à Digne-Les-Bains",
-    "resume": "Le lycée Pierre‑Gilles de Gennes (Digne‑les‑Bains) annoncera l’ouverture d’une classe « défense » dès la prochaine rentrée, avec des rencontres régulières tout au long de l’année avec des militaires.",
-    "source": "https://www.facebook.com/BFMDICI/videos/une-nouvelle-classe-d%C3%A9fense-%C3%A0-digne-les-bains/567955724367491"
+    "date": "2021-06-13",
+    "titre": "Article dans La Provence",
+    "resume": "Un article publié dans le quotidien La Provence le 13 juin 2021 annonce la création de la classe Défense au lycée Pierre‑Gilles de Gennes.",
+    "source": "https://www.site.ac-aix-marseille.fr/lyc-gillesdegennes/spip/La-classe-Defense-est-creee.html"
    }
   },
   "distinctions": [],
   "sources": [
    "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-et-technologique-pierre-gilles-de-gennes-04.html",
+   "https://www.site.ac-aix-marseille.fr/lyc-gillesdegennes/spip/La-classe-Defense-est-creee.html",
    "https://www.facebook.com/BFMDICI/videos/une-nouvelle-classe-d%C3%A9fense-%C3%A0-digne-les-bains/567955724367491",
+   "https://www.bfmtv.com/bfm-dici/replay-emissions/bonjour-dici/une-nouvelle-classe-defense-a-digne-les-bains_VN-202106040071.html",
    "https://www.facebook.com/GendarmerieAlpesDeHauteProvence/posts/visite-de-la-classe-de-seconde-option-defensece-19-mai-la-classe-de-2nde-option-/1309086378076281",
    "https://www.site.ac-aix-marseille.fr/lyc-gillesdegennes/spip/"
   ],
-  "resume": "La classe défense du lycée Pierre‑Gilles de Gennes a été officialisée par une convention signée le 1 septembre 2022, mise à jour en novembre 2025. Depuis, les élèves de seconde profitent d’une option « défense et citoyenneté » avec des sorties réguli"
+  "resume": "La classe « Défense & Citoyenneté »"
  },
  "lpp-latecoere-istres": {
   "date": "11/11/2026",
@@ -1548,8 +1610,8 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-jean-giono-manosque": {
-  "date": "11/11/2026",
-  "nb": 11,
+  "date": "20/11/2026",
+  "nb": 25,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/11/11/les-classes-cdsg-du-college-giono-ont-participe-a-la-ceremonie-aux-monuments-aux-morts-1762883413_43f850c843196d7f850c843197cf85v_.jpg",
    "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
@@ -1564,16 +1626,22 @@ window.CDSG_WEB = {
     "source": "https://www.facebook.com/nonauharcelementalecole/posts/prix-cycle-3-bravo-au-coll%C3%A8ge-jean-giono-de-lacad%C3%A9mie-de-nice-nonauharcelement/3148014958609454"
    },
    "sortie": {
-    "date": "2018",
-    "titre": "Visite des chasseurs alpins à Gap",
-    "resume": "Les élèves de la classe défense ont visité les chasseurs alpins à Gap en 2018.",
-    "source": "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html"
+    "date": "2018-05-27",
+    "titre": "Visite de la frégate Auvergne",
+    "resume": "Dans le même déplacement, les collégiens ont découvert la frégate Auvergne, renforçant leur connaissance du milieu naval.",
+    "source": "https://www.laprovence.com/article/papier/4991585/la-parole-a-la-defense-pour-les-collegiens-de-giono.html"
    },
    "ceremonie": {
     "date": "2025-11-11",
     "titre": "Cérémonie du 11‑novembre 2025 à Orange",
     "resume": "Les élèves de 4e et 3e CDSG du collège Jean‑Giono d’Orange ont assisté à la cérémonie du 11 novembre 2025 au cimetière Saint‑Clément, en présence de civils, militaires et associations d’anciens combattants.",
     "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus"
+   },
+   "convention": {
+    "date": "2015-11-27",
+    "titre": "Signature de conventions Marine‑Éducation nationale",
+    "resume": "Le 27 novembre 2015, des conventions ont été signées à Manosque entre la Marine nationale et l’Éducation nationale, ouvrant le cadre du dispositif de classe de défense.",
+    "source": "https://www.laprovence.com/article/edition-alpes/3689941/colleges-lycees-la-parole-a-la-defense.html"
    },
    "article": {
     "date": "2025-11-11",
@@ -1613,9 +1681,14 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
    "https://www.facebook.com/nonauharcelementalecole/posts/prix-cycle-3-bravo-au-coll%C3%A8ge-jean-giono-de-lacad%C3%A9mie-de-nice-nonauharcelement/3148014958609454",
-   "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html"
+   "https://www.frequencemistral.com/La-classe-defense-du-college-Jean-Giono-en-direct_a6288.html",
+   "https://www.laprovence.com/article/papier/4991585/la-parole-a-la-defense-pour-les-collegiens-de-giono.html",
+   "https://www.laprovence.com/article/edition-alpes/4701400/les-reservistes-a-la-rencontre-des-collegiens.html",
+   "https://www.laprovence.com/article/edition-alpes/4655169/les-premiers-cadets-de-la-securite-civile-recus.html",
+   "https://www.frequencemistral.com/Une-classe-defense-du-College-Jean-Giono_a3202.html",
+   "https://www.laprovence.com/article/edition-alpes/3720692/defense-rapprochee-pour-les-collegiens-de-giono.html"
   ],
-  "resume": "Le 11 novembre 2025, les"
+  "resume": "En novembre 2025, les élèves de 4ᵉ et 3ᵉ CDSG du collège Jean‑Giono ont participé à la cérémonie du 11‑novembre à Orange et ont mené un projet de mémoire avec le Souvenir français. La même année, ils ont reçu le prix national Louis Quinio décerné par l’IHEDN, première distinction de ce type pour l’établissement (précédemment, le drapeau de la 2ᵉ DB du général Le"
  },
  "college-lou-garlaban-aubagne": {
   "date": "15/11/2026",
@@ -1985,27 +2058,52 @@ window.CDSG_WEB = {
   "resume": "La classe défense du lycée professionnel Pierre‑Paul Saint‑André a réalisé son activité la plus récente le 11 juin 2022, une immersion au cœur des services de l’État organisée par la préfecture. Elle a officialisé son partenariat avec l’unité marraine du 1er REC par la signature d’une convention le 29 août 2022. Aucun prix ou distinction n’est mentionné à ce jour."
  },
  "lp-martin-bret-manosque": {
-  "date": "11/11/2026",
-  "nb": 1,
+  "date": "20/11/2026",
+  "nb": 3,
   "photo": {
-   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/10/27/les-decorations-d-halloween-sont-mis-a-l-honneur-au-lycee-louis-martin-bret-a-manosque-1793119974_cc026d4eb0ea6c0126d4eb0ea94126v_.jpg",
-   "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-louis-martin-bret-lycee-des-metiers-de-lhotellerie-restauration-des-secteurs-tertiaire-et-industriel-04.html",
+   "url": "https://cdn-s-www.ledauphine.com/images/A2378B2D-CD19-4A06-A676-D47BF8B6643A/FB1200/photo-1782580617.jpg",
+   "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
    "manuel": false
   },
-  "derniere_activite": "2022-09-01",
+  "derniere_activite": "2026-06-27",
   "derniers": {
+   "distinction": {
+    "date": "2026-06-27",
+    "titre": "Concours national de la Résistance : les jeunes lauréats récompensés",
+    "resume": "Le 27 /06 /2026, les élèves du lycée professionnel Martin‑Bret de Manosque ont été désignés lauréats bas‑Alpins du Concours national de la Résistance, distinction attribuée à la classe défense.",
+    "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses"
+   },
    "convention": {
     "date": "2022-09-01",
     "titre": "Signature de convention pour la classe défense",
     "resume": "Le lycée professionnel Louis Martin Bret a signé une convention le 1er septembre 2022, mise à jour en novembre 2025, relative à la mise en place ou au suivi de la classe défense.",
     "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-louis-martin-bret-lycee-des-metiers-de-lhotellerie-restauration-des-secteurs-tertiaire-et-industriel-04.html"
+   },
+   "projet": {
+    "date": "2024-04-05",
+    "titre": "Confection de plaques commémoratives",
+    "resume": "Le 5 avril 2024, des élèves du lycée Martin Bret de Manosque réalisent des plaques commémoratives dans le cadre d’un projet de mémoire sur la Seconde Guerre mondiale, porté par la classe défense.",
+    "source": "https://www.bfmtv.com/bfm-dici/replay-emissions/bonjour-dici/manosque-des-lyceens-derriere-la-confection-de-plaques-commemoratives_VN-202404050463.html"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2026-06-27",
+    "titre": "Concours national de la Résistance : les jeunes lauréats récompensés",
+    "resume": "Le 27 /06 /2026, les élèves du lycée professionnel Martin‑Bret de Manosque ont été désignés lauréats bas‑Alpins du Concours national de la Résistance, distinction attribuée à la classe défense.",
+    "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
+    "verifie": "presse",
+    "sources": [
+     "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses"
+    ]
+   }
+  ],
   "sources": [
+   "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
+   "https://www.bfmtv.com/bfm-dici/replay-emissions/bonjour-dici/manosque-des-lyceens-derriere-la-confection-de-plaques-commemoratives_VN-202404050463.html",
    "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-louis-martin-bret-lycee-des-metiers-de-lhotellerie-restauration-des-secteurs-tertiaire-et-industriel-04.html"
   ],
-  "resume": "La classe défense du lycée professionnel Louis Martin Bret a signé une convention le 1 septembre 2022, mise à jour en novembre 2025, pour encadrer son dispositif. Aucun prix, distinction ou partenariat n’est mentionné dans les éléments de veille disponibles"
+  "resume": "La classe défense du lycée professionnel Martin‑Bret de Manosque a été désignée lauréate bas‑Alpins du Concours national de la Résistance le 27 juin 2026. Depuis 2024, les élèves réalisent des projets de mémoire, dont la confection"
  },
  "lycee-philippe-de-girard-avignon": {
   "date": "19/11/2026",
@@ -2243,8 +2341,8 @@ window.CDSG_WEB = {
   "resume": "Le collège des Hautes Vallées (Guillestre) a récemment présenté, via un post de Réunion la 1ère, sa « classe défense » qui initie les élèves de 3e aux métiers de l’armée. Cette mise en avant constitue la première communication officielle de ce dispositif au sein de l’établissement. Aucun prix, distinction ou partenariat n’a été mentionné dans les informations disponibles."
  },
  "college-itard-oraison": {
-  "date": "11/11/2026",
-  "nb": 19,
+  "date": "20/11/2026",
+  "nb": 24,
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/A2378B2D-CD19-4A06-A676-D47BF8B6643A/FB1200/photo-1782580617.jpg",
    "source": "https://www.ledauphine.com/education/2026/06/27/concours-national-de-la-resistance-les-jeunes-laureats-recompenses",
@@ -2321,6 +2419,16 @@ window.CDSG_WEB = {
     ]
    },
    {
+    "date": "2014-06-29",
+    "titre": "Concours national sur la résistance et la déportation",
+    "resume": "Trois élèves de 3e du collège Itard ont pris part au concours national sur la résistance et la déportation, et Caroline Fouque a remporté le premier prix.",
+    "source": "https://www.laprovence.com/article/edition-alpes/2940126/une-belle-mention-tres-bien-pour-les-collegiens.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-alpes/2940126/une-belle-mention-tres-bien-pour-les-collegiens.html"
+    ]
+   },
+   {
     "date": "2014",
     "titre": "Premier prix du Concours national annuel de la Résistance",
     "resume": "Caroline Fouque, élève de 3e du Collège Itard, a obtenu le premier prix du Concours national annuel de la Résistance, contribuant à l’attribution du drapeau du Souvenir français à l’établissement.",
@@ -2338,7 +2446,8 @@ window.CDSG_WEB = {
    "https://www.laprovence.com/article/edition-grand-vaucluse/3870621/la-science-infuse-chez-les-jeunes.html",
    "https://www.laprovence.com/article/edition-alpes/6811593/deux-eleves-du-college-itard-laureates-au-concours-national-de-la-resistance.html",
    "https://www.laprovence.com/article/edition-alpes/3434461/le-drapeau-du-souvenir-francais-a-ete-remis-aux-collegiens.html",
-   "https://www.site.ac-aix-marseille.fr/clg-itard/spip/Le-college-en-bref.html"
+   "https://www.laprovence.com/article/edition-alpes/4169477/au-college-la-securite-sapprend-sur-le-terrain.html",
+   "https://www.laprovence.com/article/edition-alpes/2940126/une-belle-mention-tres-bien-pour-les-collegiens.html"
   ]
  },
  "college-chape-marseille": {
