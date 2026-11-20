@@ -1212,7 +1212,7 @@ def appliquer_verifs(dossier_run):
     ecrire_classes(classes)
 
 
-def question_web(question, qid, classes, resumes):
+def question_web(question, qid, classes, resumes, interne=False):
     """Question posée depuis le site : recherche web (moteurs à clé) + fiches, réponse sourcée par le modèle.
     La réponse conserve les sources ; l’enrichissement des fiches relève de la veille dédiée."""
     print(f"Question : {question}")
@@ -1242,6 +1242,15 @@ def question_web(question, qid, classes, resumes):
             "recherche": [{"etape": "bibliotheque_suffisante", "requetes": [], "pages_lues": 0}]
         }, ensure_ascii=False, indent=1), encoding="utf-8")
         print("Réponse issue de la bibliothèque, sans recherche web.")
+        return
+    if interne:
+        DOSSIER_REPONSES.mkdir(parents=True, exist_ok=True)
+        (DOSSIER_REPONSES / f"{qid}.json").write_text(json.dumps({
+            "question": question, "date": datetime.datetime.now().isoformat(timespec="minutes"),
+            "reponse": "La bibliothèque CDSG ne contient pas assez d’informations pour répondre à cette question.",
+            "sources": [], "fiches": [],
+            "recherche": [{"etape": "bibliotheque_insuffisante", "requetes": [], "pages_lues": 0}]
+        }, ensure_ascii=False, indent=1), encoding="utf-8")
         return
     # 1. le modèle propose des requêtes de recherche ciblées
     r = demander("Tu prépares des recherches web pour un assistant des classes défense et sécurité globales (CDSG) "
@@ -1352,6 +1361,7 @@ def main():
     ap.add_argument("--question")
     ap.add_argument("--verifier-chefs", help="vérifie en ligne les chefs d'établissement d'un département (ex. 84)")
     ap.add_argument("--question-web", help="question posée depuis le site (recherche web + réponse sourcée)")
+    ap.add_argument("--interne", action="store_true", help="Répondre uniquement depuis la bibliothèque CDSG")
     ap.add_argument("--qid", default="", help="identifiant de la réponse (data/reponses/<qid>.json)")
     ap.add_argument("--tranche", help="traitement en parallèle : i/n (ex. 0/8) = une fiche sur n à partir de i")
     ap.add_argument("--sans-boite", action="store_true", help="ne pas traiter la boîte « Articles à lire »")
@@ -1372,7 +1382,7 @@ def main():
     if a.question_web:
         qid = re.sub(r"[^\w-]", "", a.qid) or datetime.datetime.now().strftime("%Y%m%d%H%M%S")
         try:
-            question_web(a.question_web, qid, classes, resumes)
+            question_web(a.question_web, qid, classes, resumes, interne=a.interne)
         except Exception:
             ecrire_erreur_question(a.question_web, qid, "service_indisponible")
             raise
