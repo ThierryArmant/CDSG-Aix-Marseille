@@ -181,6 +181,16 @@
   body:not(.gestion) .g-only{display:none!important}
   body:not(.animateur) .a-only{display:none!important}
   body.gestion .g-off{display:none!important}
+  .communication{background:#eaf6ee;border:1px solid #c5e0ce;border-radius:14px;padding:18px;margin:0 0 24px}
+  .communication h3{margin:0 0 12px;color:#163b28}
+  .communication fieldset{border:0;padding:0;margin:0 0 12px}
+  .communication legend{margin-bottom:6px}
+  .communication .choix{display:flex;gap:8px;flex-wrap:wrap}
+  .communication .choix label{background:white;border:1px solid #a6c7b2;border-radius:8px;padding:7px 10px}
+  .communication details{margin:8px 0}
+  .communication ul{padding-left:24px;max-height:15rem;overflow:auto}
+  .communication .actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+  .communication a,.contact-fiche{overflow-wrap:anywhere}
   .cadenas{margin-left:auto;border:1px solid var(--trait);background:#fff;border-radius:999px;padding:4px 12px;font-size:13px}
   body.gestion .cadenas{background:#e3f2ea;color:var(--vert);border-color:#bfe3cf}
   footer{border-top:1px solid var(--trait);padding:26px 6vw;text-align:center;color:var(--gris);font-size:13px}
@@ -270,6 +280,25 @@
   <!-- ═════════════ FICHES ═════════════ -->
   <section id="dossier">
     <h2>Les fiches</h2>
+    <div class="communication" aria-labelledby="titreCommunication">
+      <h3 id="titreCommunication">Communication</h3>
+      <fieldset>
+        <legend>Destinataires</legend>
+        <div class="choix">
+          <label><input type="radio" name="perimetre" value="84" checked> 84 · Vaucluse</label>
+          <label><input type="radio" name="perimetre" value="13"> 13 · Bouches-du-Rhône</label>
+          <label><input type="radio" name="perimetre" value="04"> 04 · Alpes-de-Haute-Provence</label>
+          <label><input type="radio" name="perimetre" value="05"> 05 · Hautes-Alpes</label>
+          <label><input type="radio" name="perimetre" value="global"> Global · Académie</label>
+        </div>
+      </fieldset>
+      <details><summary id="compteDestinataires">Adresses</summary><ul id="listeDestinataires"></ul></details>
+      <div class="actions">
+        <button type="button" id="copierDestinataires" class="btn-prim">Copier les adresses</button>
+        <a id="ouvrirMessagerie">Ouvrir un message en Cci</a>
+        <span id="etatCommunication" role="status"></span>
+      </div>
+    </div>
     <p class="lead">Une fiche par classe. Les classes marquées « à vérifier » n'ont pas donné de nouvelles récentes : leur statut reste à confirmer.</p>
     <details class="gestion g-only a-only" id="gestion">
       <summary>Modifier les fiches et lancer les recherches : réglage (une seule fois)</summary>
@@ -563,7 +592,46 @@ document.getElementById("recherche").oninput = e => { etat.q = norm(e.target.val
 const texte = c => norm([c.etab,c.ville,c.ce,c.ref,c.unite,c.conv,c.note,DEP[c.dep],c.dep,c.suivi].join(" "));
 const badges = c => `<span class="badge b-${c.statut}">${LIB[c.statut]}</span>${c.verifier?' <span class="badge b-verif">À vérifier</span>':''}`;
 
+function adresseUai(contact){return `${contact.uai}@ac-aix-marseille.fr`;}
+function directionFiche(fiche){
+  if(fiche.ce_note) return `${fiche.ce && fiche.ce!=="—" ? fiche.ce+" · " : ""}${fiche.ce_note}`;
+  if(!fiche.ce || fiche.ce==="—") return "Nom à confirmer";
+  return fiche.ce_verifie ? fiche.ce : `${fiche.ce} · à confirmer`;
+}
+function afficherCommunication(){
+  if(!document.querySelector('input[name="perimetre"]:checked')) return;
+  const perimetre=document.querySelector('input[name="perimetre"]:checked').value;
+  const contacts=new Map();
+  for(const fiche of DATA){
+    if(perimetre==="global" || fiche.dep===perimetre){
+      for(const contact of fiche.contacts || []){
+        if(contact.mail) contacts.set(contact.mail,contact.nom || fiche.etab);
+      }
+    }
+  }
+  const liste=[...contacts].sort((a,b)=>a[1].localeCompare(b[1],"fr"));
+  const adresses=liste.map(([mail])=>mail);
+  document.getElementById("compteDestinataires").textContent=`${adresses.length} adresse${adresses.length===1?"":"s"}`;
+  document.getElementById("listeDestinataires").innerHTML=liste.map(([mail,nom])=>`<li>${esc(nom)} · ${esc(mail)}</li>`).join("");
+  const lien=document.getElementById("ouvrirMessagerie");
+  if(adresses.length) lien.href="mailto:?bcc="+adresses.map(encodeURIComponent).join(",");
+  else lien.removeAttribute("href");
+  const etat=document.getElementById("etatCommunication");
+  etat.textContent="";
+  const copier=document.getElementById("copierDestinataires");
+  copier.disabled=!adresses.length;
+  copier.onclick=async ()=>{
+    try{
+      await navigator.clipboard.writeText(adresses.join(", "));
+      etat.textContent="Adresses copiées.";
+    }catch{
+      etat.textContent="Copiez les adresses depuis la liste.";
+    }
+  };
+}
+document.querySelectorAll('input[name="perimetre"]').forEach(el=>el.addEventListener("change",afficherCommunication));
 function afficher(){
+  afficherCommunication();
   const L = DATA.filter(c =>
     (!etat.statut || (etat.statut==="verif" ? c.verifier : c.statut===etat.statut)) &&
     (!etat.dep || c.dep===etat.dep) &&
@@ -574,7 +642,7 @@ function afficher(){
       ${WEB[c.id]&&WEB[c.id].photo&&WEB[c.id].photo.url?`<div class="vignette" style="background-image:url('${esc(WEB[c.id].photo.url)}')"></div>`:""}
       <div class="haut"><div class="t">${esc(c.etab)}</div><div style="text-align:right">${badges(c)}${(()=>{ const D=triDist((WEB[c.id]||{}).distinctions||[]); return D.length?`<div class="med" style="justify-content:flex-end">${D.map(d=>medaille(d,16)).join("")}</div>`:""; })()}</div></div>
       <div class="v">${esc(c.ville)} · ${c.dep}</div>
-      <dl><dt>Chef d'étab.</dt><dd>${esc(c.ce)}</dd><dt>Référent(s)</dt><dd>${esc(c.ref)}</dd><dt>Unité</dt><dd>${esc(c.unite)}</dd></dl>
+      <dl><dt>UAI</dt><dd class="contact-fiche">${(c.contacts||[]).map(adresseUai).map(esc).join("<br>")||"À confirmer"}</dd><dt>Chef d'étab.</dt><dd>${esc(directionFiche(c))}</dd><dt>Référent(s)</dt><dd>${esc(c.ref)}</dd><dt>Unité</dt><dd>${esc(c.unite)}</dd></dl>
     </article>`).join("");
   document.querySelectorAll(".carte").forEach(a=>a.onclick=()=>ouvrir(a.dataset.id));
 }
@@ -583,7 +651,7 @@ afficher();
 function ouvrir(id){
   const c = PAR_ID[id]; if(!c) return;
   const w = WEB[id];
-  const rows = [["Département",`${c.dep} · ${DEP[c.dep]}`],["Ville",c.ville],["Chef d'établissement",(c.ce||"—")+(c.ce_verifie?"  ✔ vérifié en ligne le "+new Date(c.ce_verifie.date).toLocaleDateString("fr-FR")+(c.ce_verifie.source?" ("+hote(c.ce_verifie.source)+")":""):"")],["Professeur(s) référent(s)",c.ref],["Unité marraine / partenaire",c.unite],["Convention",c.conv],["Site de l'établissement",c.site||"—"],["Suivi formateur",c.suivi||"—"],["Observations (veille en ligne)", w && w.resume ? w.resume : (w && w.nb ? "Dernières activités repérées : "+Object.entries(w.derniers||{}).slice(0,4).map(([t,d])=>(TYP[t]||t).replace(/^Derni(er|ère) /,"").toLowerCase()+" « "+(d.titre||"")+" » ("+(dateFr(d.date)||"date ?")+")").join(" ; ")+"." : "Pas encore de recherche en ligne pour cette classe.")],["Notes de suivi",c.note||"—"]];
+  const rows = [["Département",`${c.dep} · ${DEP[c.dep]}`],["Ville",c.ville],["UAI",(c.contacts||[]).map(adresseUai).join(" · ")||"À confirmer"],["Courriel publié",(c.contacts||[]).map(x=>x.mail).filter(Boolean).join(" · ")||"À confirmer"],["Chef d'établissement",directionFiche(c)+(c.ce_verifie?"  ✔ vérifié en ligne le "+new Date(c.ce_verifie.date).toLocaleDateString("fr-FR")+(c.ce_verifie.source?" ("+hote(c.ce_verifie.source)+")":""):"")],["Professeur(s) référent(s)",c.ref],["Unité marraine / partenaire",c.unite],["Convention",c.conv],["Site de l'établissement",c.site||"—"],["Suivi formateur",c.suivi||"—"],["Observations (veille en ligne)", w && w.resume ? w.resume : (w && w.nb ? "Dernières activités repérées : "+Object.entries(w.derniers||{}).slice(0,4).map(([t,d])=>(TYP[t]||t).replace(/^Derni(er|ère) /,"").toLowerCase()+" « "+(d.titre||"")+" » ("+(dateFr(d.date)||"date ?")+")").join(" ; ")+"." : "Pas encore de recherche en ligne pour cette classe.")],["Notes de suivi",c.note||"—"]];
   if(c.maj) rows.push(["Fiche mise à jour",c.maj]);
   document.getElementById("fiche").innerHTML = `
     <div class="bandeau"></div>
@@ -704,6 +772,12 @@ function editer(id){
 function lireFormulaire(id){
   const f = {dep:val("e_dep"), statut:val("e_statut"), note:val("e_note")};
   CHAMPS.forEach(([k])=>f[k]=val("e_"+k));
+  const ancienne = PAR_ID[id];
+  if(ancienne?.contacts) f.contacts = ancienne.contacts;
+  if(ancienne && f.ce === ancienne.ce){
+    if(ancienne.ce_verifie) f.ce_verifie = ancienne.ce_verifie;
+    if(ancienne.ce_note) f.ce_note = ancienne.ce_note;
+  }
   if(document.getElementById("e_verifier").checked) f.verifier=true;
   Object.keys(f).forEach(k=>{ if(f[k]==="" && k!=="note") delete f[k]; });
   f.maj = new Date().toLocaleDateString("fr-FR");
