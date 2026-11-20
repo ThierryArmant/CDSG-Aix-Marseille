@@ -191,6 +191,10 @@
   .communication ul{padding-left:24px;max-height:15rem;overflow:auto}
   .communication .actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
   .communication a,.contact-fiche{overflow-wrap:anywhere}
+  #gestion .champ-code{display:block;margin:0 0 8px}
+  #gestion .saisie-code{display:flex;gap:8px;align-items:center;max-width:640px}
+  #gestion .saisie-code input{flex:1;min-width:0}
+  #gestion .saisie-code button{background:#fff;border:1px solid var(--trait);border-radius:8px;padding:7px 10px;color:var(--bleu-f)}
   .cadenas{margin-left:auto;border:1px solid var(--trait);background:#fff;border-radius:999px;padding:4px 12px;font-size:13px}
   body.gestion .cadenas{background:#e3f2ea;color:var(--vert);border-color:#bfe3cf}
   footer{border-top:1px solid var(--trait);padding:26px 6vw;text-align:center;color:var(--gris);font-size:13px}
@@ -317,8 +321,8 @@
             <li><b>Animateur</b> (vous) : tout, y compris les recherches web. Jeton : Contents + Actions (celui collé ci-dessus).</li>
             <li><b>Rédacteur</b> (collègues) : modifier les fiches, photos, distinctions, signaler un article. Jeton rédacteur <i>facultatif</i> : laissé vide, votre jeton sert aussi aux rédacteurs (plus simple) ; un 2<sup>e</sup> jeton « Contents » seul limite davantage leurs droits.</li>
           </ul>
-          <label>Code animateur<br><input id="acCodeA" type="password" placeholder="votre code (long de préférence)"></label>
-          <label>Code rédacteur<br><input id="acCodeR" type="password" placeholder="code à donner aux collègues"></label>
+          <div class="champ-code"><label for="acCodeA">Code animateur</label><span class="saisie-code"><input id="acCodeA" type="password" placeholder="votre code (long de préférence)"><button type="button" data-afficher-code="acCodeA" aria-controls="acCodeA">Afficher</button></span></div>
+          <div class="champ-code"><label for="acCodeR">Code rédacteur</label><span class="saisie-code"><input id="acCodeR" type="password" placeholder="code à donner aux collègues"><button type="button" data-afficher-code="acCodeR" aria-controls="acCodeR">Afficher</button></span></div>
           <label>Jeton rédacteur (facultatif)<br><input id="acJetonR" type="password" placeholder="laisser vide = votre jeton"></label>
           <div class="actions"><button class="btn-prim" id="acOk" style="border-radius:10px;padding:8px 14px;border:1px solid">Enregistrer les codes d'accès</button></div>
           <div class="msg" id="acMsg"></div>
@@ -714,7 +718,20 @@ async function dechiffrer(bloc, code){
   try{ const p = await crypto.subtle.decrypt({name:"AES-GCM", iv:unb64(bloc.iv)}, await cleDe(code, unb64(bloc.sel)), unb64(bloc.donnees)); return dec.decode(p); }
   catch(e){ return null; }
 }
+const boutonsCodes = document.querySelectorAll("#gestion [data-afficher-code]");
+function afficherCode(bouton, visible){
+  const champ = document.getElementById(bouton.dataset.afficherCode);
+  champ.type = visible ? "text" : "password";
+  bouton.textContent = visible ? "Masquer" : "Afficher";
+}
+boutonsCodes.forEach(bouton=>bouton.addEventListener("click",()=>{
+  afficherCode(bouton, document.getElementById(bouton.dataset.afficherCode).type==="password");
+}));
+document.getElementById("gestion").addEventListener("toggle", e=>{
+  if(!e.currentTarget.open) boutonsCodes.forEach(bouton=>afficherCode(bouton,false));
+});
 function modeGestion(role, tok){
+  if(role!=="animateur") boutonsCodes.forEach(bouton=>afficherCode(bouton,false));
   document.body.classList.toggle("gestion", !!role);
   document.body.classList.toggle("animateur", role==="animateur");
   document.getElementById("cadenas").textContent = role ? (role==="animateur" ? "🔓 Animateur (quitter)" : "🔓 Rédacteur (quitter)") : "🔒 Gestion";
