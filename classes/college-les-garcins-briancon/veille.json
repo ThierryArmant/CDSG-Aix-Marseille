@@ -2,6 +2,17 @@
  "fiche": "college-les-garcins-briancon",
  "elements": [
   {
+   "type": "projet",
+   "date": "2026-11-16",
+   "titre": "Bar à mémoire de la Première Guerre Mondiale",
+   "extrait": "La classe défense a organiser ce vendredi 16/11 un bar à mémoire de la Première Guerre mondiale dans le passage cantine.",
+   "resume": "Le 16 novembre 2026, la classe défense du collège Les Garcins a organisé un « bar à mémoire » consacré à la Première Guerre mondiale dans le passage cantine.",
+   "source": "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/",
+   "page": "Collège Les GarcinsAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubr",
+   "site": "site.ac-aix-marseille.fr",
+   "trouve_le": "2026-11-21"
+  },
+  {
    "type": "ceremonie",
    "date": "2026-11-11",
    "titre": "Commémoration du 11‑Novembre",
@@ -59,6 +70,50 @@
    "page": "Collège Les GarcinsAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubriquesMasquer les sous-rubriquesAfficher les sous-rubr",
    "site": "site.ac-aix-marseille.fr",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2026-09-24",
+   "titre": "Rentrée scolaire",
+   "extrait": "La classe défense a effectué sa rentrée scolaire ce jeudi 24 septembre",
+   "resume": "Le 24 septembre 2026, la classe défense a repris les cours.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/24/promouvoir-un-rapprochement-entre-la-population-et-l-armee-nouveaute-pour-la-classe-defense-ils-s-inscrivent-sur-la-base-du-volontariat",
+   "page": "Briançon. « Promouvoir un rapprochement entre la population et l’armée »  : nouveauté pour la classe défense, les él-ves s’inscrivent sur la base du volontariat",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "sortie",
+   "date": "2026-09-24",
+   "titre": "Première séance",
+   "extrait": "Seize élèves étaient présents pour la première séance de le classe défense nouvelle formule ce jeudi midi",
+   "resume": "Le même jour, 16 élèves ont assisté à la première séance de la nouvelle formule.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/24/promouvoir-un-rapprochement-entre-la-population-et-l-armee-nouveaute-pour-la-classe-defense-ils-s-inscrivent-sur-la-base-du-volontariat",
+   "page": "Briançon. « Promouvoir un rapprochement entre la population et l’armée »  : nouveauté pour la classe défense, les él-ves s’inscrivent sur la base du volontariat",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "autre",
+   "date": "2026-09-24",
+   "titre": "Équipe enseignante",
+   "extrait": "Il est épaulé par Bastien Bertolino, enseignant en histoire-géographie et Karine Payen, assistante documentaliste",
+   "resume": "La classe défense est soutenue par les enseignants Bastien Bertolino et Karine Payen.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/24/promouvoir-un-rapprochement-entre-la-population-et-l-armee-nouveaute-pour-la-classe-defense-ils-s-inscrivent-sur-la-base-du-volontariat",
+   "page": "Briançon. « Promouvoir un rapprochement entre la population et l’armée »  : nouveauté pour la classe défense, les él-ves s’inscrivent sur la base du volontariat",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "autre",
+   "date": "2026-09-24",
+   "titre": "Effectif",
+   "extrait": "La vingtaine d’élèves de troisième inscrits en classe défense ont intégré la salle de l’enseignant",
+   "resume": "Environ vingt élèves de troisième sont inscrits en classe défense.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/24/promouvoir-un-rapprochement-entre-la-population-et-l-armee-nouveaute-pour-la-classe-defense-ils-s-inscrivent-sur-la-base-du-volontariat",
+   "page": "Briançon. « Promouvoir un rapprochement entre la population et l’armée »  : nouveauté pour la classe défense, les él-ves s’inscrivent sur la base du volontariat",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
   },
   {
    "type": "article",
@@ -120,6 +175,30 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "article",
+   "date": "2025-10-04",
+   "titre": "La classe défense des Garcins au fort du Randouillet",
+   "extrait": "La classe défense des Garcins a parcouru 8,5 km à pied pour rallier le fort du Randouillet.",
+   "resume": "Article du Dauphiné Libéré du 4 octobre 2025 relatant le déplacement de la classe défense du Collège Les Garcins vers le fort du Randouillet, distance de 8,5 km à pied.",
+   "source": "https://www.ledauphine.com/societe/2025/10/04/la-classe-defense-des-garcins-au-fort-du-randouillet",
+   "page": "Briançon. La classe défense des Garcins au fort du Randouillet",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/7C3B7240-104E-42F5-AFB6-BEFE17939F0D/FB1200/photo-1759597580.jpg",
+   "image_nature": "illustration_article",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-10-04",
+   "titre": "4e Régiment de chasseurs (Gap)",
+   "extrait": "parrainée par le 4 e Régiment de chasseurs de Gap",
+   "resume": "Le 4ᵉ Régiment de chasseurs basé à Gap agit comme unité marraine de la classe défense du Collège Les Garcins.",
+   "source": "https://www.ledauphine.com/societe/2025/10/04/la-classe-defense-des-garcins-au-fort-du-randouillet",
+   "page": "Briançon. La classe défense des Garcins au fort du Randouillet",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
+  },
+  {
    "type": "ceremonie",
    "date": "2025-10-02",
    "titre": "Présentez‑armes !",
@@ -143,6 +222,17 @@
   },
   {
    "type": "sortie",
+   "date": "2025-09-30",
+   "titre": "Première sortie au fort du Randouillet",
+   "extrait": "La classe défense du collège Les Garcins, parrainée par le 4 e Régiment de chasseurs de Gap, a effectué sa première sortie sur le terrain",
+   "resume": "Le 30 septembre 2025, la classe défense du Collège Les Garcins, sous le parrainage du 4ᵉ Régiment de chasseurs de Gap, a réalisé sa première sortie terrain en marchant 8,5 km jusqu’au fort du Randouillet.",
+   "source": "https://www.ledauphine.com/societe/2025/10/04/la-classe-defense-des-garcins-au-fort-du-randouillet",
+   "page": "Briançon. La classe défense des Garcins au fort du Randouillet",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "sortie",
    "date": "2025-09-05",
    "titre": "Visite surprise pour la classe défense",
    "extrait": "Le vendredi 5 septembre 2025, Monsieur Aymeric Meiss, Directeur Académique des Hautes‑Alpes, a visité le collège Les Garcins à Briançon.",
@@ -155,6 +245,39 @@
    "autres_sources": [
     "https://www.ledauphine.com/societe/2025/09/05/aux-garcins-des-classes-s-ajustent-aux-parcours-des-eleves"
    ]
+  },
+  {
+   "type": "projet",
+   "date": "2024-06",
+   "titre": "Travail de fin de projet",
+   "extrait": "présenter un travail de fin de projet, en juin.",
+   "resume": "Les élèves préparent un travail de fin de projet qui sera présenté en juin 2024.",
+   "source": "https://www.ledauphine.com/societe/2024/01/19/les-eleves-de-la-nouvelle-classe-defense-au-contact-des-valeurs-republicaines",
+   "page": "Briançon. Les élèves de la nouvelle classe Défense au contact des valeurs républicaines",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "sortie",
+   "date": "2024-01",
+   "titre": "Voyage à Paris, rencontre du 4e Régiment de chasseurs",
+   "extrait": "Lors du récent voyage de la classe à Paris, à la rencontre des militaires du 4 e Régiment de chasseurs de Gap en mission Sentinelle.",
+   "resume": "Les élèves ont effectué une sortie à Paris où ils ont rencontré le 4e Régiment de chasseurs de Gap en mission Sentinelle.",
+   "source": "https://www.ledauphine.com/societe/2024/01/19/les-eleves-de-la-nouvelle-classe-defense-au-contact-des-valeurs-republicaines",
+   "page": "Briançon. Les élèves de la nouvelle classe Défense au contact des valeurs républicaines",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "autre",
+   "date": "2024",
+   "titre": "Responsabilité pédagogique",
+   "extrait": "Ce professeur a récupéré la responsabilité de la classe défense en 2024",
+   "resume": "Sacha Ribolzi a pris la responsabilité de la classe défense en 2024.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/24/promouvoir-un-rapprochement-entre-la-population-et-l-armee-nouveaute-pour-la-classe-defense-ils-s-inscrivent-sur-la-base-du-volontariat",
+   "page": "Briançon. « Promouvoir un rapprochement entre la population et l’armée »  : nouveauté pour la classe défense, les él-ves s’inscrivent sur la base du volontariat",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
   },
   {
    "type": "convention",
@@ -234,7 +357,43 @@
    "source": "https://www.facebook.com/LeDL05/posts/si-la-classe-d%C3%A9fense-du-coll%C3%A8ge-des-garcins-a-%C3%A9t%C3%A9-cr%C3%A9%C3%A9e-en-septembre-2023-alors-/1901051861215537",
    "page": "Si la classe défense du collège des Garcins a été créée en ...",
    "site": "facebook.com (extrait public)",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-11",
+   "image": "https://cdn-s-www.ledauphine.com/images/3435B334-D309-4997-B279-BA983A795F3B/FB1200/photo-1790273063.jpg"
+  },
+  {
+   "type": "autre",
+   "date": "2023-09",
+   "titre": "Volontariat des élèves",
+   "extrait": "elle est, depuis cette année, basée sur le volontariat des élèves de troisième",
+   "resume": "Depuis 2023, la classe défense fonctionne sur la base du volontariat des élèves de troisième.",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2026/09/24/promouvoir-un-rapprochement-entre-la-population-et-l-armee-nouveaute-pour-la-classe-defense-ils-s-inscrivent-sur-la-base-du-volontariat",
+   "page": "Briançon. « Promouvoir un rapprochement entre la population et l’armée »  : nouveauté pour la classe défense, les él-ves s’inscrivent sur la base du volontariat",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "autre",
+   "date": "2023",
+   "titre": "Création de la classe Défense et sécurité globale",
+   "extrait": "Créée à la fin de l’année 2023, la classe “Défense et sécurité globale” du collège des Garcins compte 17 élèves.",
+   "resume": "La classe Défense et sécurité globale a été créée fin 2023 au Collège Les Garcins avec 17 élèves.",
+   "source": "https://www.ledauphine.com/societe/2024/01/19/les-eleves-de-la-nouvelle-classe-defense-au-contact-des-valeurs-republicaines",
+   "page": "Briançon. Les élèves de la nouvelle classe Défense au contact des valeurs républicaines",
+   "site": "ledauphine.com",
+   "image": "https://cdn-s-www.ledauphine.com/images/7D0C1244-AC4E-4CB8-8285-E80C20652A16/FB1200/photo-1705691427.jpg",
+   "image_nature": "illustration_article",
+   "trouve_le": "2026-11-21"
+  },
+  {
+   "type": "autre",
+   "date": "2023",
+   "titre": "Désignation classe Défense",
+   "extrait": "La classe de 3 e 5 a été désignée classe Défense, une classe prépa métier regroupant des jeunes en difficulté scolaire.",
+   "resume": "La classe a été désignée « classe Défense », destinée à préparer les jeunes en difficulté scolaire aux métiers de la défense.",
+   "source": "https://www.ledauphine.com/societe/2024/01/19/les-eleves-de-la-nouvelle-classe-defense-au-contact-des-valeurs-republicaines",
+   "page": "Briançon. Les élèves de la nouvelle classe Défense au contact des valeurs républicaines",
+   "site": "ledauphine.com",
+   "trouve_le": "2026-11-21"
   },
   {
    "type": "projet",
@@ -258,6 +417,11 @@
    "date": "2026-11-11",
    "pages": 26,
    "nouveaux": 21
+  },
+  {
+   "date": "2026-11-21",
+   "pages": 26,
+   "nouveaux": 14
   }
  ],
  "exclus": [],
@@ -266,30 +430,55 @@
   "https://annuaire-education.fr/etablissement/briancon/college-les-garcins/0050519M.html",
   "https://college-lycee.com/college-les-garcins/Briancon-0050519M",
   "https://data.pays-de-la-loire.education.gouv.fr/explore/assets/classes_defense",
+  "https://lecomptoirdesassos.com/dechets-ca-bouge-dans-les-ecoles/",
+  "https://www.defense.gouv.fr/sites/default/files/ministere-armees/17.04.2024%20Patricia%20Miralle%CC%80s%2C%20secre%CC%81taire%20d%E2%80%99E%CC%81tat%20aupre%CC%80s%20du%20ministre%20des%20Arme%CC%81es%2C%20charge%CC%81e%20des%20Anciens%20combattants%20et%20de%20la%20Me%CC%81moire%2C%20se%20rendra%20en%20Vaucluse%20le%20vendredi%2019%20avril..pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
+  "https://www.education.gouv.fr/sites/default/files/document/Tableau%20de%20classement%20des%20coll%C3%A8ges-247305.pdf",
   "https://www.facebook.com/Gendarmeriedeshautesalpes/posts/prise-de-commandement-ccie-brian%C3%A7onpr%C3%A9sentez-armeslors-dune-c%C3%A9r%C3%A9monie-militaire-/941981761304436",
   "https://www.facebook.com/LeDL05/posts/si-la-classe-d%C3%A9fense-du-coll%C3%A8ge-des-garcins-a-%C3%A9t%C3%A9-cr%C3%A9%C3%A9e-en-septembre-2023-alors-/1901051861215537",
   "https://www.facebook.com/murgiaarnaud/videos/c%C3%A9r%C3%A9monie-de-remise-des-dipl%C3%B4mes-du-brevet-des-coll%C3%A8ges-bravo-%C3%A0-nos-jeunes-brian/849928214390591",
   "https://www.hautes-alpes.gouv.fr/Services-de-l-Etat/Direction-des-services-departementaux-de-l-Education-nationale-DSDEN/Retour-sur-les-derniers-evenements",
+  "https://www.hautes-alpes.gouv.fr/index.php/Services-de-l-Etat/Direction-des-services-departementaux-de-l-Education-nationale-DSDEN/Bilan-de-la-rentree-scolaire-2025",
   "https://www.hautes-alpes.gouv.fr/layout/set/print/Services-de-l-Etat/Direction-des-services-departementaux-de-l-Education-nationale-DSDEN/Bilan-de-la-rentree-scolaire-2025",
   "https://www.journaldesfemmes.fr/maman/ecole/college-les-garcins/college-0050519M",
   "https://www.laprovence.com/actu/en-direct/5317755/hautes-alpes-blanquer-ne-confirme-pas-la-fin-des-allocations-des-parents-des-eleves-violents.html",
   "https://www.laprovence.com/article/bloc-note/6454572/etat-civil-mariages-et-naissances.html",
   "https://www.laprovence.com/article/culture-loisirs/1233257670426415/leducation-artistique-est-un-outil-majeur-le-cineaste-guediguian-epaule-les-collegiens-a-chateau-arnoux-saint-auban",
   "https://www.laprovence.com/article/edition-martigues-istres/3691880/une-jeune-istreenne-en-lice-pour-imposer-son-timbre.html",
+  "https://www.laprovence.com/article/papier/3454731/les-eleves-du-college-garcin-et-du-lycee-benoit-honores.html",
+  "https://www.laprovence.com/article/papier/4629578/le-velo-club-lislois-ouvre-une-ecole.html",
   "https://www.laprovence.com/article/papier/5318545/deux-ministres-face-a-la-colere-des-territoires-ruraux.html",
+  "https://www.laprovence.com/article/sports/2822396/arles-avignon-veut-positiver.html",
+  "https://www.ledauphine.com/defense-guerre-conflit/2024/06/20/la-ville-s-est-souvenue-de-l-appel-du-general-de-gaulle",
+  "https://www.ledauphine.com/defense-guerre-conflit/2026/09/24/promouvoir-un-rapprochement-entre-la-population-et-l-armee-nouveaute-pour-la-classe-defense-ils-s-inscrivent-sur-la-base-du-volontariat",
+  "https://www.ledauphine.com/education/2023/01/30/le-college-les-garcins-est-inscrit-au-concours-national-de-la-resistance",
   "https://www.ledauphine.com/education/2026/06/02/pourquoi-les-sacs-des-collegiens-ont-ils-ete-fouilles-aux-garcins",
   "https://www.ledauphine.com/education/2026/09/03/516-eleves-ont-fait-leur-rentree-aux-garcins",
+  "https://www.ledauphine.com/faits-divers-justice/2019/06/27/au-moins-deux-adolescentes-se-disent-victimes-du-professeur",
+  "https://www.ledauphine.com/societe/2024/01/19/les-eleves-de-la-nouvelle-classe-defense-au-contact-des-valeurs-republicaines",
+  "https://www.ledauphine.com/societe/2024/06/01/non-au-harcelement-le-prix-coup-de-coeur-revient-aux-6es-segpa",
+  "https://www.ledauphine.com/societe/2025/06/27/secondes-par-le-chef-chassigneux-les-3e-segpa-preparent-un-repas-gastro",
   "https://www.ledauphine.com/societe/2025/08/30/aux-garcins-les-equipes-sont-pretes",
   "https://www.ledauphine.com/societe/2025/09/05/aux-garcins-des-classes-s-ajustent-aux-parcours-des-eleves",
   "https://www.ledauphine.com/societe/2025/09/18/qui-est-flavien-james-le-nouveau-principal-des-garcins",
+  "https://www.ledauphine.com/societe/2025/10/04/la-classe-defense-des-garcins-au-fort-du-randouillet",
   "https://www.ledauphine.com/societe/2026/04/06/des-militaires-du-4-sup-e-sup-rch-en-visite-au-college-les-garcins",
+  "https://www.ledauphine.com/societe/2026/04/12/la-classe-defense-et-securite-en-visite-au-4-sup-e-sup-rch",
   "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
+  "https://www.ledauphine.com/vaucluse/2018/04/10/college-jean-garcin-lecture-pour-tous-avec-liromania",
+  "https://www.lefigaro.fr/assets/infographie/print/highcharts/graphiques/web_202026_5996_Classement_des_colleges_/web_202026_5996_Classement_des_colleges_.html",
+  "https://www.letudiant.fr/classements/classement-des-meilleurs-colleges/departement-hautes-alpes.html",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-les-garcins-05.html",
+  "https://www.memoiredeshommes.defense.gouv.fr/image/1054/7572299?crop=centre&download=1&force-inline=&format=pdf&realHeight=1240&realWidth=874&region=full&size=%21800%2C800",
+  "https://www.paysgrandbrianconnais.fr/fileadmin/user_upload/CTES/Bilan_Interne_PETR_CTES_Annee_1.pdf",
+  "https://www.paysgrandbrianconnais.fr/fileadmin/user_upload/Interieur/PETR/Rapports_d_activite_PETR/PETR_Bilan_2022.pdf",
   "https://www.site.ac-aix-marseille.fr/clg-garcins/",
   "https://www.site.ac-aix-marseille.fr/clg-garcins/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/",
   "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html"
  ],
  "etablissement": "Collège Les Garcins (Briançon)",
- "referents_cites": "Mme Baillard, Mme Payen",
+ "referents_cites": "Sacha Ribolzi, Bastien Bertolino, Karine Payen",
  "unite_citee": "4e Régiment de chasseurs (Gap)"
 }

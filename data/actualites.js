@@ -1,6 +1,30 @@
 // Dernières nouvelles du réseau — généré par recherche/recherche_web.py
 window.CDSG_ACTUS = [
  {
+  "date": "2026-11-19",
+  "type": "article",
+  "titre": "Présentation des CRS de montagne",
+  "resume": "Le collège Vauban a organisé une présentation des CRS de montagne le 19 novembre 2026, afin de faire découvrir aux élèves le rôle de ces unités de sécurité.",
+  "source": "https://www.site.ac-aix-marseille.fr/clg-vauban/spip/",
+  "image": null,
+  "site": "site.ac-aix-marseille.fr",
+  "fiche": "college-d-altitude-vauban-briancon",
+  "etab": "Collège d'altitude Vauban",
+  "ville": "Briançon"
+ },
+ {
+  "date": "2026-11-16",
+  "type": "projet",
+  "titre": "Bar à mémoire de la Première Guerre Mondiale",
+  "resume": "Le 16 novembre 2026, la classe défense du collège Les Garcins a organisé un « bar à mémoire » consacré à la Première Guerre mondiale dans le passage cantine.",
+  "source": "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/",
+  "image": null,
+  "site": "site.ac-aix-marseille.fr",
+  "fiche": "college-les-garcins-briancon",
+  "etab": "Collège Les Garcins",
+  "ville": "Briançon"
+ },
+ {
   "date": "2026-11-13",
   "type": "article",
   "titre": "Arausio : la classe “défense” cheffe d’orchestre du souvenir",
@@ -107,6 +131,30 @@ window.CDSG_ACTUS = [
   "fiche": "college-joseph-roumanille-avignon",
   "etab": "Collège Joseph Roumanille",
   "ville": "Avignon"
+ },
+ {
+  "date": "2026-11-09",
+  "type": "article",
+  "titre": "Intervention de la police municipale",
+  "resume": "Le 9 novembre 2026, la police municipale est intervenue au collège Vauban pour une action de sensibilisation à la sécurité auprès des élèves.",
+  "source": "https://www.site.ac-aix-marseille.fr/clg-vauban/spip/",
+  "image": null,
+  "site": "site.ac-aix-marseille.fr",
+  "fiche": "college-d-altitude-vauban-briancon",
+  "etab": "Collège d'altitude Vauban",
+  "ville": "Briançon"
+ },
+ {
+  "date": "2026-11-09",
+  "type": "article",
+  "titre": "Intervention de la police nationale au collège Vauban",
+  "resume": "Le même jour, 9 novembre 2026, la police nationale a mené une intervention au collège Vauban, présentant ses missions et les gestes de défense aux élèves.",
+  "source": "https://www.site.ac-aix-marseille.fr/clg-vauban/spip/",
+  "image": null,
+  "site": "site.ac-aix-marseille.fr",
+  "fiche": "college-d-altitude-vauban-briancon",
+  "etab": "Collège d'altitude Vauban",
+  "ville": "Briançon"
  },
  {
   "date": "2026-11-09",
@@ -239,53 +287,5 @@ window.CDSG_ACTUS = [
   "fiche": "college-georges-brassens-marignane",
   "etab": "Collège Georges Brassens",
   "ville": "Marignane"
- },
- {
-  "date": "2026-10-15",
-  "type": "article",
-  "titre": "2025 [Défense] Sortie cohésion Martigues",
-  "resume": "Un article publié le 15 octobre 2026 présente la sortie de cohésion 2025 de la classe Défense du collège Françoise Dolto à Martigues.",
-  "source": "https://www.site.ac-aix-marseille.fr/clg-dolto/spip/2025-Defense-Sortie-cohesion-Martigues.html",
-  "image": null,
-  "site": "site.ac-aix-marseille.fr",
-  "fiche": "college-francoise-dolto-saint-andiol",
-  "etab": "Collège Françoise Dolto",
-  "ville": "Saint-Andiol"
- },
- {
-  "date": "2026-10-14",
-  "type": "projet",
-  "titre": "Stage de neuroéducation à La Ciotat",
-  "resume": "Le 14 octobre 2026, les élèves du lycée militaire d’Aix‑en‑Provence ont participé à un stage de neuroéducation de deux jours et demi à La Ciotat pour approfondir leurs connaissances cérébrales.",
-  "source": "https://www.terre.defense.gouv.fr/lycee-militaire-aix/actualites/journee-marseille",
-  "image": null,
-  "site": "Lycée militaire d'Aix-en-Provence",
-  "fiche": "lycee-provence-marseille",
-  "etab": "Lycée Provence",
-  "ville": "Marseille"
- },
- {
-  "date": "2026-10-13",
-  "type": "partenaire",
-  "titre": "Unité marraine",
-  "resume": "L'unité marraine de la classe défense du collège est la Légion étrangère.",
-  "source": "https://www.ledauphine.com/faits-divers-justice/2026/10/13/aubagne-la-garde-a-vue-du-collegien-prolongee-de-24-heures",
-  "image": "https://cdn-s-www.ledauphine.com/images/A904B81F-A76A-4E1D-A1EF-70FDA606E331/FB1200/photo-1791886745.jpg",
-  "site": "ledauphine.com",
-  "fiche": "college-lou-garlaban-aubagne",
-  "etab": "Collège Lou Garlaban",
-  "ville": "Aubagne"
- },
- {
-  "date": "2026-10-03",
-  "type": "autre",
-  "titre": "Création d'une classe défense au lycée Thiers",
-  "resume": "Le 3 octobre 2026, le communiqué indique que le lycée Thiers à Marseille a mis en place une « classe défense », ce qui a soulevé des questions chez les parents d’élèves.",
-  "source": "https://www.lutte-ouvriere.org/portail/communiques/sans-profs-sans-courage-197632.html",
-  "image": "https://www.lutte-ouvriere.org/medias/communique/images/2026/10/signal-2026-10-02-233556.jpeg.420x236_q85_box-0%2C217%2C1205%2C896_crop_detail.jpg",
-  "site": "Lutte Ouvrière",
-  "fiche": "lycee-thiers-marseille",
-  "etab": "Lycée Thiers",
-  "ville": "Marseille"
  }
 ];

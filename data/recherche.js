@@ -358,10 +358,10 @@ window.CDSG_WEB = {
   ]
  },
  "college-d-altitude-vauban-briancon": {
-  "date": "11/11/2026",
-  "nb": 5,
+  "date": "21/11/2026",
+  "nb": 8,
   "photo": null,
-  "derniere_activite": "2023-11-08",
+  "derniere_activite": "2026-11-19",
   "derniers": {
    "ceremonie": {
     "date": "2023-11-08",
@@ -374,15 +374,22 @@ window.CDSG_WEB = {
     "titre": "Convention avec l'unité de défense",
     "resume": "Le Collège d'altitude Vauban a signé ou renouvelé une convention en 2023, probablement liée à la classe défense.",
     "source": "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-daltitude-05.html"
+   },
+   "article": {
+    "date": "2026-11-19",
+    "titre": "Présentation des CRS de montagne",
+    "resume": "Le collège Vauban a organisé une présentation des CRS de montagne le 19 novembre 2026, afin de faire découvrir aux élèves le rôle de ces unités de sécurité.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-vauban/spip/"
    }
   },
   "distinctions": [],
   "sources": [
+   "https://www.site.ac-aix-marseille.fr/clg-vauban/spip/",
    "https://www.facebook.com/villedebriancon/posts/la-le%C3%A7on-de-citoyennet%C3%A9-des-coll%C3%A9giens-brian%C3%A7onnaisles-7-et-8-novembre-180-coll%C3%A9/2621077484643772",
    "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-daltitude-05.html",
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-climatique-vauban-05.html"
   ],
-  "resume": "Le 8 novembre 2023, les élèves de 3ᵉ du collège des Garcins, accompagnés d’une classe du collège Vauban, ont déposé un hommage aux poilus sur la place du monument aux morts de Briançon. En 2023, le Collège d’altitude Vauban a signé (ou renouvelé) une convention pour la mise en place de"
+  "resume": "La classe défense du Collège d’altitude Vauban a été très active en novembre 2026, avec une présentation des CRS de montagne le 19 novembre et des interventions conjointes de la police municipale et de la police nationale le 9 novembre pour sensibiliser les élèves à la sécurité et aux gestes de défense. Le collège bénéficie d’une convention de partenariat signée en 2023 pour la mise en place de la classe défense, dont le référent est M. Doret (HG), et est soutenu par le 7ᵉ Bataillon de chasseurs alpins de Varces, unité marraine du dispositif. Aucun prix ou distinction n’est mentionné dans les éléments de veille."
  },
  "college-les-gorguettes-cassis": {
   "date": "12/11/2026",
@@ -1416,8 +1423,8 @@ window.CDSG_WEB = {
   ]
  },
  "lycee-des-metiers-sevigne-gap": {
-  "date": "11/11/2026",
-  "nb": 5,
+  "date": "21/11/2026",
+  "nb": 6,
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/FB1DB2D6-E4CC-4D1A-A44E-A34B93511F24/FB1200/photo-1673721988.jpg",
    "source": "https://www.ledauphine.com/education/2023/01/14/le-lycee-sevigne-tisse-des-liens-avec-le-quebec",
@@ -1425,6 +1432,12 @@ window.CDSG_WEB = {
   },
   "derniere_activite": "2026-05",
   "derniers": {
+   "distinction": {
+    "date": "2018-06-07",
+    "titre": "1er prix régional au concours BD Bulles de Mémoire",
+    "resume": "Le 7 juin 2018, les élèves de 3ePP du Lycée des métiers Sévigné à Gap ont été primés du premier prix régional du concours de bande dessinée « Bulles de Mémoire » dans la catégorie travaux collectifs, en présence des représentants de l'ONACVG.",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_10602351/fr/les-eleves-de-3epp-du-lycee-des-metiers-sevigne-a-gap-primes-au-concours-de-bd-bulles-de-memoire"
+   },
    "convention": {
     "date": "2026-05",
     "titre": "Convention avec l'unité marraine",
@@ -1438,12 +1451,24 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/article/region/27902799278321/patricia-miralles-secretaire-detat-chargee-des-anciens-combattants-en-deplacement-dans-les-hautes-alpes-ce-vendredi"
    }
   },
-  "distinctions": [],
+  "distinctions": [
+   {
+    "date": "2018-06-07",
+    "titre": "1er prix régional au concours BD Bulles de Mémoire",
+    "resume": "Le 7 juin 2018, les élèves de 3ePP du Lycée des métiers Sévigné à Gap ont été primés du premier prix régional du concours de bande dessinée « Bulles de Mémoire » dans la catégorie travaux collectifs, en présence des représentants de l'ONACVG.",
+    "source": "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_10602351/fr/les-eleves-de-3epp-du-lycee-des-metiers-sevigne-a-gap-primes-au-concours-de-bd-bulles-de-memoire",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_10602351/fr/les-eleves-de-3epp-du-lycee-des-metiers-sevigne-a-gap-primes-au-concours-de-bd-bulles-de-memoire"
+    ]
+   }
+  ],
   "sources": [
    "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-sevigne-lycee-des-metiers-de-la-restauration-des-services-aux-entreprises-et-aux-personnes-05.html",
    "https://www.facebook.com/parlementeuropeenmarseille/posts/-aujourdhui-vendredi-21-octobre-2022-le-lyc%C3%A9e-s%C3%A9vign%C3%A9-%C3%A0-gap-a-%C3%A9t%C3%A9-r%C3%A9compens%C3%A9-par/488559803312219",
    "https://www.ledauphine.com/education/2023/01/14/le-lycee-sevigne-tisse-des-liens-avec-le-quebec",
-   "https://www.laprovence.com/article/region/27902799278321/patricia-miralles-secretaire-detat-chargee-des-anciens-combattants-en-deplacement-dans-les-hautes-alpes-ce-vendredi"
+   "https://www.laprovence.com/article/region/27902799278321/patricia-miralles-secretaire-detat-chargee-des-anciens-combattants-en-deplacement-dans-les-hautes-alpes-ce-vendredi",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_10602351/fr/les-eleves-de-3epp-du-lycee-des-metiers-sevigne-a-gap-primes-au-concours-de-bd-bulles-de-memoire"
   ],
   "resume": "La classe défense du lycée des métiers Sévigné a signé en mai 2026 une convention avec le 4e Régiment de chasseurs, qui devient son unité marraine. Elle avait déjà présenté en mars 2024"
  },
@@ -2701,8 +2726,8 @@ window.CDSG_WEB = {
   "resume": "La classe Défense et Sécurité Globales du collège Charles‑de‑Gaulle d’Apt a vu sa convention de partenariat renouvelée en décembre 2025, confirmant le cadre de coopération avec son unité marraine, le 2e Régiment Étranger de Génie de Saint‑Christol. Cette unité reste le principal partenaire de la classe, assurant un accompagnement technique et pédagogique depuis 2021. Mme Fageot, professeure d’histoire‑géographie, continue d’assurer la coordination académique en tant que référente de la classe."
  },
  "college-marcel-andre-seyne-les-alpes": {
-  "date": "11/11/2026",
-  "nb": 12,
+  "date": "21/11/2026",
+  "nb": 15,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/25/un-bel-echange-transgenerationnel-sur-les-traces-du-debarquement-en-provence-1750845340_c0fbd7dc30586c4fbd7dc3058c8fbdv_.jpg",
    "source": "https://www.laprovence.com/article/region/7113780774025414/des-eleves-du-college-marcel-andre-de-seyne-les-alpes-sur-les-traces-du-debarquement-en-provence",
@@ -2739,12 +2764,13 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.site.ac-aix-marseille.fr/clg-andre/spip/",
    "https://www.laprovence.com/article/region/7113780774025414/des-eleves-du-college-marcel-andre-de-seyne-les-alpes-sur-les-traces-du-debarquement-en-provence",
+   "https://www.site.ac-aix-marseille.fr/clg-andre/spip/Classe-defense.html",
    "https://www.site.ac-aix-marseille.fr/clg-andre/spip/spip.php?page=plan&lang=fr&tri_arts=date",
    "https://www.site.ac-aix-marseille.fr/clg-andre/spip/Ceremonie-du-14-octobre-2024.html",
    "https://www.instagram.com/p/DWq7GrfjPAt",
    "https://www.ledauphine.com/haute-provence/2015/02/20/la-responsabilite-penale-des-mineurs-expliquee-aux-collegiens"
   ],
-  "resume": "La classe défense du collège Marcel André a été invitée à la cérémonie commémorative de l’armistice du 11 novembre 2026."
+  "resume": "La classe Défense du collège Marcel André"
  },
  "lycee-joliot-curie-aubagne": {
   "date": "11/11/2026",
@@ -3041,15 +3067,33 @@ window.CDSG_WEB = {
   "resume": "En septembre 2022, la classe défense du Collège Grande Bastide a signé une convention d’atelier défense, l’unité BMPM étant désignée comme marraine. Elle a ensuite participé à la compétition « Prix armées zone Sud », où elle était l’une des 14 classes de la zone à concourir. Aucun autre prix ou distinction n’est mentionné dans les éléments de veille."
  },
  "lpp-poutrain-saint-jean-saint-nicolas": {
-  "date": "11/11/2026",
-  "nb": 4,
+  "date": "21/11/2026",
+  "nb": 13,
   "photo": {
-   "url": "https://lyceepoutrain.fr/wp-content/uploads/2026/07/PXL_20260701_155943106.MP_-771x1024.jpg",
-   "source": "https://lyceepoutrain.fr/trois-eleves-du-lycee-poutrain-recompenses-par-le-prix-de-lhonneur-en-action/",
+   "url": "https://cdn-s-www.ledauphine.com/images/D8455D69-3EA7-4423-9FF2-7130B7140BF9/FB1200/photo-1670782070.jpg",
+   "source": "https://www.ledauphine.com/education/2022/12/11/la-seule-classe-defense-du-departement-au-lycee-poutrain",
    "manuel": false
   },
   "derniere_activite": "2026-06-24",
   "derniers": {
+   "sortie": {
+    "date": "2026-06-24",
+    "titre": "Accueil d’une délégation de la 2e division",
+    "resume": "Une délégation de la 2e division s’est rendue au lycée pour échanger avec les élèves du groupe défense.",
+    "source": "https://lyceepoutrain.fr/une-annee-dimmersion-et-de-decouvertes-pour-le-groupe-defense-du-lycee/"
+   },
+   "convention": {
+    "date": "2022-12-11",
+    "titre": "Signature d'une convention de partenariat",
+    "resume": "La directrice Marie‑Cécile Thomas a signé une convention de partenariat avec le 4e régiment de chasseurs de Gap pour soutenir la classe Défense du lycée Poutrain.",
+    "source": "https://www.ledauphine.com/education/2022/12/11/la-seule-classe-defense-du-departement-au-lycee-poutrain"
+   },
+   "article": {
+    "date": "2026-06-24",
+    "titre": "Une année d’immersion et de découvertes pour le Groupe Défense",
+    "resume": "Le Groupe Défense du lycée Pierre et Louis Poutrain a vécu une année d’immersion et de découvertes, comme indiqué dans l’article du 24 juin 2026.",
+    "source": "https://lyceepoutrain.fr/3035-2/"
+   },
    "projet": {
     "date": "2026-06-24",
     "titre": "Groupe Défense – année d’immersion et de découvertes",
@@ -3060,11 +3104,15 @@ window.CDSG_WEB = {
   "distinctions": [],
   "sources": [
    "https://lyceepoutrain.fr/trois-eleves-du-lycee-poutrain-recompenses-par-le-prix-de-lhonneur-en-action/",
+   "https://lyceepoutrain.fr/3035-2/",
+   "https://lyceepoutrain.fr/une-annee-dimmersion-et-de-decouvertes-pour-le-groupe-defense-du-lycee/",
+   "https://lyceepoutrain.fr/le-groupe-defense-au-sdis/",
+   "https://lyceepoutrain.fr/le-groupe-defense-en-entrainement-de-survie-en-milieu-montagnard/",
+   "https://www.ledauphine.com/education/2022/12/11/la-seule-classe-defense-du-departement-au-lycee-poutrain",
    "https://www.laprovence.com/article/echoplanete/3930336/fiche-metier-chauffagiste-fabrice-met-du-soleil-dans-ses-chaudieres.html",
-   "https://lyceepoutrain.fr",
-   "https://annuaire-education.fr/etablissement/saint-jean-saint-nicolas/lycee-professionnel-pierre-et-louis-poutrain/0050039R.html"
+   "https://lyceepoutrain.fr"
   ],
-  "resume": "Le 24 juin 2026, le Groupe Défense du lycée Pierre et Louis Poutrain (Saint‑Jean‑Saint‑Nicolas) a mené une « année d’immersion et de découvertes », regroupant diverses activités"
+  "resume": "Le groupe Défense du lycée Pierre‑et‑Louis Poutrain a clôturé son « année d’immersion et de découvertes » le 24 juin 2026, avec notamment la visite du Musée des Troupes de Montagne à Grenoble et l’accueil d’une délégation de la 2ᵉ division. Depuis la signature d’une convention le 11 décembre 2022, le 4ᵉ Rég"
  },
  "college-saint-louis-prive-orange": {
   "date": "11/11/2026",
@@ -3138,14 +3186,14 @@ window.CDSG_WEB = {
   "resume": "En juin 2023, la classe Défense du collège Jean Jaurès a reçu le 2ᵉ prix d’honneur des Armées Zone Sud. Intégrée aux EPI de 3ᵉ, elle a signé"
  },
  "college-les-garcins-briancon": {
-  "date": "11/11/2026",
-  "nb": 21,
+  "date": "21/11/2026",
+  "nb": 35,
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/762D3FE6-FDC0-4973-8ADE-A4AF1415F720/FB1200/photo-1793989579.jpg",
    "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
    "manuel": false
   },
-  "derniere_activite": "2026-11-11",
+  "derniere_activite": "2026-11-16",
   "derniers": {
    "sortie": {
     "date": "2026-11-05",
@@ -3172,24 +3220,24 @@ window.CDSG_WEB = {
     "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre"
    },
    "projet": {
-    "date": null,
-    "titre": "Projet classe défense avec le 4e régiment de chasseurs",
-    "resume": "La classe défense de 3e Prépa‑Métiers collabore toute l’année avec le 4e régiment de chasseurs de Gap pour découvrir les métiers de l’armée.",
-    "source": "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html"
+    "date": "2026-11-16",
+    "titre": "Bar à mémoire de la Première Guerre Mondiale",
+    "resume": "Le 16 novembre 2026, la classe défense du collège Les Garcins a organisé un « bar à mémoire » consacré à la Première Guerre mondiale dans le passage cantine.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/"
    }
   },
   "distinctions": [],
   "sources": [
-   "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
    "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/",
+   "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
+   "https://www.ledauphine.com/defense-guerre-conflit/2026/09/24/promouvoir-un-rapprochement-entre-la-population-et-l-armee-nouveaute-pour-la-classe-defense-ils-s-inscrivent-sur-la-base-du-volontariat",
    "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html",
    "https://www.ledauphine.com/societe/2026/04/06/des-militaires-du-4-sup-e-sup-rch-en-visite-au-college-les-garcins",
+   "https://www.ledauphine.com/societe/2025/10/04/la-classe-defense-des-garcins-au-fort-du-randouillet",
    "https://www.facebook.com/Gendarmeriedeshautesalpes/posts/prise-de-commandement-ccie-brian%C3%A7onpr%C3%A9sentez-armeslors-dune-c%C3%A9r%C3%A9monie-militaire-/941981761304436",
-   "https://www.facebook.com/LeDL05/posts/si-la-classe-d%C3%A9fense-du-coll%C3%A8ge-des-garcins-a-%C3%A9t%C3%A9-cr%C3%A9%C3%A9e-en-septembre-2023-alors-/1901051861215537",
-   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-les-garcins-05.html",
-   "https://www.ledauphine.com/societe/2025/09/05/aux-garcins-des-classes-s-ajustent-aux-parcours-des-eleves"
+   "https://www.ledauphine.com/societe/2024/01/19/les-eleves-de-la-nouvelle-classe-defense-au-contact-des-valeurs-republicaines"
   ],
-  "resume": "La classe défense du collège Les Garcins se prépare à intervenir lors de la cérémonie du 11‑novembre 2026, après une visite du Souvenir français (antenne de Briançon) le 5 novembre 2026. Son partenariat principal reste le 4e Régiment de chasseurs de Gap, unité marraine depuis la convention signée en octobre 2023, complété par le Souvenir français comme partenaire local. Aucun prix ou distinction n’est mentionné dans les sources disponibles."
+  "resume": "La classe défense du collège Les Garcins a repris les cours le 24 septembre 2026 avec une vingtaine d’élèves de troisième encadrés par les enseignants Bastien Bertolino et Karine Payen."
  },
  "college-frederic-mistral-rep-port-de-bouc": {
   "date": "16/11/2026",
