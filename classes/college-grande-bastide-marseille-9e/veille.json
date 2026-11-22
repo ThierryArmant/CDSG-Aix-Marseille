@@ -80,6 +80,39 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "distinction",
+   "date": "2025-06-03",
+   "titre": "Prix Armées zone Sud",
+   "extrait": "Ce dernier récompense une classe pour un travail collectif sur le lien armée‑nation. Cette année, ces élèves ont travaillé sur « la défense, la protection",
+   "resume": "Le collège Grande Bastide a été lauréat du Prix Armées zone Sud de l’académie d’Aix‑Marseille pour son projet sur la défense, la protection et la résilience des armées françaises en zone Sud.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-22"
+  },
+  {
+   "type": "ceremonie",
+   "date": "2025-06-03",
+   "titre": "Remise des prix Armées zone Sud au fort Ganteaume",
+   "extrait": "Ce mardi 3 juin a eu lieu la remise des prix Armées zone Sud de l'académie d'Aix‑Marseille au fort Ganteaume de Marseille.",
+   "resume": "La cérémonie de remise des prix s’est déroulée le 3 juin 2025 au fort Ganteaume, où les élèves du collège Grande Bastide ont reçu leur distinction.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-22"
+  },
+  {
+   "type": "partenaire",
+   "date": "2025-06-03",
+   "titre": "Référent académique Défense",
+   "extrait": "Julien Cuminetto, référent académique Défense, félicite les deux classes lauréates parmi six candidats au Fort Ganteaume.",
+   "resume": "Julien Cuminetto, référent académique Défense de l’académie d’Aix‑Marseille, a salué les élèves du collège Grande Bastide lors de la remise des prix.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-22"
+  },
+  {
    "type": "projet",
    "date": "2025",
    "titre": "Jeu de plateau sur les zones Sud",
@@ -136,6 +169,17 @@
    "site": "laprovence.com",
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
    "trouve_le": "2026-11-15"
+  },
+  {
+   "type": "partenaire",
+   "date": null,
+   "titre": "Soutien d’Airbus, Onet et Crédit Agricole",
+   "extrait": "Airbus, acteur majeur du tissu industriel local, a également apporté son soutien sans avoir pu être présent.",
+   "resume": "L’événement a été soutenu par la société de nettoyage Onet, le Crédit Agricole et Airbus, partenaires du ministère des Armées.",
+   "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "page": "L’armée décerne des prix aux collégiens",
+   "site": "www.lamarseillaise.fr",
+   "trouve_le": "2026-11-22"
   }
  ],
  "recherches": [

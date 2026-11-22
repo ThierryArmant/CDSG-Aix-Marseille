@@ -49,6 +49,19 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "distinction",
+   "date": "2025-06-04",
+   "titre": "Premier prix Armées zone sud",
+   "extrait": "Le premier prix Armées zone sud, doté de 1 000 euros, a été attribué au collège Stéphane‑Mallarmé pour un jeu de l’oie.",
+   "resume": "Le collège Stéphane‑Mallarmé a reçu le premier prix du concours Armées zone sud, doté de 1 000 €, pour la réalisation d’un jeu de l’oie.",
+   "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+   "page": "L’armée décerne des prix aux collégiens",
+   "site": "www.lamarseillaise.fr",
+   "image": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
+   "image_nature": "illustration_article",
+   "trouve_le": "2026-11-22"
+  },
+  {
    "type": "article",
    "date": "2025-06-03",
    "titre": "« Ça donne envie de travailler dans l'armée » : des collégiens marseillais lauréats des Prix Armées zone Sud",
@@ -58,7 +71,22 @@
    "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
    "site": "laprovence.com",
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-11",
+   "variantes_fusionnees": [
+    {
+     "type": "article",
+     "date": "2025-06-03",
+     "titre": "Ça donne envie de travailler dans l'armée",
+     "extrait": "« Ça donne envie de travailler dans l'armée » : des collégiens marseillais lauréats des Prix Armées zone Sud",
+     "resume": "Article publié le 3 juin 2025 relatant la victoire des classes du collège Stéphane Mallarmé aux Prix Armées zone Sud.",
+     "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+     "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+     "site": "laprovence.com",
+     "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
+     "image_nature": "illustration_article",
+     "trouve_le": "2026-11-22"
+    }
+   ]
   },
   {
    "type": "ceremonie",
@@ -74,6 +102,17 @@
    "autres_sources": [
     "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
    ]
+  },
+  {
+   "type": "distinction",
+   "date": "2025-06-03",
+   "titre": "Prix Armées zone Sud",
+   "extrait": "remise des prix Armées zone Sud de l'académie d'Aix-Marseille au fort Ganteaume de Marseille",
+   "resume": "La classe de troisième du collège Stéphane Mallarmé a reçu le Prix Armées zone Sud le 3 juin 2025 au fort Ganteaume, pour son projet sur la défense en zone Sud.",
+   "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+   "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+   "site": "laprovence.com",
+   "trouve_le": "2026-11-22"
   },
   {
    "type": "distinction",
@@ -109,7 +148,20 @@
    "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
    "site": "laprovence.com",
    "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
-   "trouve_le": "2026-11-11"
+   "trouve_le": "2026-11-11",
+   "variantes_fusionnees": [
+    {
+     "type": "projet",
+     "date": "2025",
+     "titre": "Diaporama prévention incendies",
+     "extrait": "On a fait un diaporama pour expliquer comment éviter les incendies à Marseille",
+     "resume": "Un groupe d’élèves a présenté un diaporama sur la prévention des incendies à Marseille, inspiré de l’incendie de Luminy en 2016.",
+     "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+     "page": "\"Ça donne envie de travailler dans l'armée\" : des collégiens marseillais lauréats des Prix Armées zone Sud",
+     "site": "laprovence.com",
+     "trouve_le": "2026-11-22"
+    }
+   ]
   },
   {
    "type": "partenaire",

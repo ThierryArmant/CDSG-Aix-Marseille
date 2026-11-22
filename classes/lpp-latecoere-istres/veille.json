@@ -3,6 +3,17 @@
  "elements": [
   {
    "type": "sortie",
+   "date": "2026-10-07",
+   "titre": "Journée exceptionnelle Classe Défense",
+   "extrait": "⚓️ Une journée exceptionnelle pour notre Classe Défense ! Du 2 au 5 octo",
+   "resume": "Le 7 octobre 2026, le lycée a annoncé une journée exceptionnelle organisée pour la Classe Défense du 2 au 5 octobre.",
+   "source": "https://fr.linkedin.com/school/lycee-professionnel-latecoere-istres/",
+   "page": "Lycée des métiers de l'industrie Latécoère Istres",
+   "site": "fr.linkedin.com (extrait public)",
+   "trouve_le": "2026-11-22"
+  },
+  {
+   "type": "sortie",
    "date": "2026-10-02",
    "titre": "Matinée exceptionnelle Classe Défense",
    "extrait": "Une matinée exceptionnelle pour notre Classe Défense ! Du 2 au 5 octobre 2026, le porte‑hélicoptères amphibie (PHA)",
@@ -11,6 +22,17 @@
    "page": "🔜 Toute l'équipe du Lycée des métiers de l'industrie Latécoère Istres vous ...",
    "site": "instagram.com (extrait public)",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "sortie",
+   "date": "2026-10-02",
+   "titre": "Visite du porte‑hélicoptères amphibie Tonnerre",
+   "extrait": "Du 2 au 5 octobre 2026, le porte‑hélicoptères amphibie (PHA) Tonnerre de la Marine Nationale faisait escale à Marseille, au Grand Port Maritime de Marseille.",
+   "resume": "Du 2 au 5 octobre 2026, la Classe Défense du lycée des métiers de l'industrie Latécoère à Istres a visité le porte‑hélicoptères amphibie Tonnerre, escale au Grand Port Maritime de Marseille, en compagnie de leurs professeurs.",
+   "source": "https://fr.linkedin.com/posts/lycee-professionnel-latecoere-istres_classed%C3%A9fense-marinenationale-tonnerre-activity-7513609427095040001-7SAA",
+   "page": "⚓️ Une journée exceptionnelle pour notre Classe Défense! | Lycée des métiers de l'industrie Latécoère Istres",
+   "site": "fr.linkedin.com (extrait public)",
+   "trouve_le": "2026-11-22"
   },
   {
    "type": "distinction",
@@ -112,6 +134,17 @@
    "site": "linternaute.com",
    "image": "https://astatic.ccmbg.com/www.linternaute.com/img/annuaire_palmareslycees/picto-partage-facebook.jpg",
    "trouve_le": "2026-11-11"
+  },
+  {
+   "type": "article",
+   "date": null,
+   "titre": "Classe de Défense Lycée Latécoère - Istres",
+   "extrait": "Classe de Défense Lycée Latécoère - Istres 1ère partie",
+   "resume": "Interview du proviseur Guillaume Longuet présentant la classe de défense du lycée Pierre‑Georges Latécoère à Istres, ses objectifs pédagogiques et les échanges avec les professionnels de la Défense.",
+   "source": "https://www.retaix.fr/lien-armee-nation/",
+   "page": "Lien Armée-Nation",
+   "site": "retaix.fr",
+   "trouve_le": "2026-11-22"
   }
  ],
  "recherches": [
@@ -124,27 +157,43 @@
    "date": "2026-11-11",
    "pages": 24,
    "nouveaux": 4
+  },
+  {
+   "date": "2026-11-22",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
  "pages_lues": [
   "http://www.codage.ext.cnamts.fr/codif/tips/index.php",
   "https://annuaire-education.fr/etablissement/istres/lycee-professionnel-pierre-latecoere/0132276D.html",
+  "https://cadarache.cea.fr/cad/Pages/Actualites/2021/Challenge-Energie-Mixte.aspx",
   "https://datascol.fr/etablissement/0132276D",
   "https://fr.linkedin.com/posts/audrey-bourgeon-463422292_rejoignez-la-classe-d%C3%A9fense-du-lyc%C3%A9e-professionnel-activity-7165342028866777090-DXAw",
+  "https://fr.linkedin.com/posts/base-a%C3%A9rienne-125-istres_jeunesse-armeenation-notred%C3%A9fense-activity-7042419401509249026-yqUm",
   "https://fr.linkedin.com/posts/bureau-des-entreprises-lycée-professionnel-latecoere-istres_vendredi-4-octobre-dans-la-continuité-du-activity-7248990303968182275-irCj",
+  "https://fr.linkedin.com/posts/guillaume-longuet-66a37840_c%C3%A9r%C3%A9monie-du-11-novembre-%C3%A0-la-base-a%C3%A9rienne-activity-6997986970752708609-qfXi",
+  "https://fr.linkedin.com/posts/lycee-professionnel-latecoere-istres_classed%C3%A9fense-marinenationale-tonnerre-activity-7513609427095040001-7SAA",
   "https://fr.linkedin.com/posts/lycee-professionnel-latecoere-istres_classed%C3%A9fense-olympiadess%C3%A9curit%C3%A9-fili%C3%A8res%C3%A9curit%C3%A9-activity-7338832833500635136-RsuG",
   "https://fr.linkedin.com/posts/lycee-professionnel-latecoere-istres_jeudi-4-juillet-le-lycée-professionnel-activity-7216705506965389315-9Kct",
   "https://fr.linkedin.com/posts/maritimamedias_istres-une-action-des-élèves-devant-le-activity-7510944844186316802-IdDS",
+  "https://fr.linkedin.com/school/lycee-professionnel-latecoere-istres/",
+  "https://linkedin.com/company/25e-r%C3%A9giment-du-g%C3%A9nie-de-l-air",
+  "https://linkedin.com/company/base-a%C3%A9rienne-125-istres",
+  "https://linkedin.com/company/lycee-professionnel-pierre-latecoere",
+  "https://linkedin.com/school/lycee-professionnel-latecoere-istres",
   "https://lyceevaclavhavel.fr/actions/classe_defense/la-classe-defense-remporte-le-1er-prix-national-du-ssa",
   "https://maitresseafrisettes.fr/wp-content/uploads/2026/08/ceremonie_11_novembre_A4.pdf",
   "https://maritima.fr/actualites/education/istres/15800/istres-une-action-des-eleves-devant-le-lycee-latecoere",
   "https://tavily.com/knowledge/company/3RPUyUy6CVb8",
   "https://www.118000.fr/e_C0044414061",
   "https://www.arearegionsud.com/realisations/lycee-latecoere/",
+  "https://www.bouches-du-rhone.gouv.fr/Publications/Publications-environnementales/Installations-Classees-pour-la-Protection-de-l-Environnement-ICPE/Installations-Classees-soumises-a-autorisation-et-a-enregistrement-Carrieres-et-Geothermie/Istres",
   "https://www.chimie-mediterranee.fr/le-lycee-latecoere-d-istres-a-l-honneur",
   "https://www.commune-mairie.fr/lycee/lycee-professionnel-pierre-latecoere-0132276D",
   "https://www.defense.gouv.fr/actualites/programme-du-11-novembre-2026-hommage-aux-etudiants-1940-ravivage-flamme",
+  "https://www.dircam.dsae.defense.gouv.fr/index.php/en/documentation-2/miam",
   "https://www.etablissements-scolaires.fr/etablissement-scolaire-lycee-professionnel-pierre-latecoere.html",
   "https://www.facebook.com/baseaerienne125istres/posts/lienarmeenationce-jeudi-4-juillet-une-convention-entre-le-lycée-latecoere-et-la-/917864880377721/",
   "https://www.facebook.com/laprovence/posts/-on-ne-veut-plus-avoir-de-salle-%C3%A0-40-degr%C3%A9s-on-veut-plus-de-profs-absents-et-il-/1582454427259049",
@@ -156,13 +205,24 @@
   "https://www.instagram.com/lyceelatecoereistres",
   "https://www.instagram.com/p/DCz3RfEoTP2",
   "https://www.instagram.com/p/DE4k9X3IpbE",
+  "https://www.istres.fr/fileadmin/user_upload/KIOSQUE/istres_mag/2022/IM315-JUILLET2022.pdf",
+  "https://www.jobology.fr/recrutement/cvtheque/professeur-documentaliste",
+  "https://www.laprovence.com/article/edition-martigues-istres/3331525/des-portes-ouvertes-au-lycee-latecoere.html",
   "https://www.laprovence.com/article/edition-martigues-istres/3863435/le-lycee-latecoere-en-plein-renouveau.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/3926941/latecoere-renforce-son-offre.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/4008211/eleves-et-apprentis-a-lhonneur.html",
   "https://www.laprovence.com/article/edition-martigues-istres/5160570/istres-rencontre-avec-guillaume-longuet-le-nouveau-proviseur-du-lycee-latecoere.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/5415089/apprendre-un-metier-de-lindustrie-le-bon-filon.html",
   "https://www.laprovence.com/article/edition-martigues-istres/6259279/le-lycee-latecoere-ferme-aujourdhui-faute-de-personnel.html",
+  "https://www.laprovence.com/article/edition-martigues-istres/6794416/a-latecoere-du-mobilier-urbain-realise-par-des-eleves-marseillais.html",
   "https://www.laprovence.com/article/region/1638109293920816/a-istres-ferme-depuis-fin-janvier-le-lycee-latecoere-accueille-de-nouveau-des-eleves",
   "https://www.laprovence.com/article/societe/47622188724158/on-nest-pas-des-mecs-tah-la-violence-les-lyceens-de-rimbaud-et-latecoere-toujours-mobilises-a-istres",
   "https://www.ledauphine.com/education/2023/09/06/securite-la-nouvelle-filiere-d-excellence-du-lycee-paul-arene",
+  "https://www.ledauphine.com/education/2026/04/03/voici-les-meilleurs-lycees-generaux-de-votre-departement",
+  "https://www.ledauphine.com/education/2026/04/03/voici-les-meilleurs-lycees-professionnels-de-votre-departement",
   "https://www.ledauphine.com/education/2026/09/16/sebastien-leconte-est-le-nouveau-principal-du-college-jean-brunet",
+  "https://www.ledauphine.com/education/resultats-examens?city=Istres&departmentCode=13",
+  "https://www.ledauphine.com/encadres/2024/11/28/istres-en-bref",
   "https://www.ledauphine.com/hautes-alpes/2018/09/21/je-connais-le-face-a-face-avec-les-eleves",
   "https://www.ledauphine.com/societe/2025/05/18/un-challenge-pour-feminiser-les-metiers-de-l-energie",
   "https://www.lefigaro.fr/actualite-france/commemoration-du-11-novembre-l-hommage-instaure-a-l-ecole-suscite-la-polemique-chez-les-syndicats-20261109",
@@ -172,11 +232,14 @@
   "https://www.linkedin.com/posts/guillaume-longuet-66a37840_félicitations-aux-élèves-et-aux-enseignants-activity-7247106476802981888-DKxA",
   "https://www.linternaute.com/ville/lycee/lycee-professionnel-pierre-latecoere/lycee-0132276D",
   "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-professionnel-pierre-latecoere",
+  "https://www.retaix.fr/lien-armee-nation/",
   "https://www.site.ac-aix-marseille.fr/lyc-latecoere/",
   "https://www.site.ac-aix-marseille.fr/lyc-latecoere/spip",
+  "https://www.site.ac-aix-marseille.fr/lyc-latecoere/spip/Les-formatiosn-au-sein-du-Lycee-Latecoere.html",
+  "https://www.site.ac-aix-marseille.fr/lyc-latecoere/spip/Palmares-des-lycees-2020.html",
   "https://www.unacita-istres.com/pages/celebration-du-11-novembre-a-istres.html"
  ],
  "etablissement": "LPP Latécoère (Istres)",
- "referents_cites": "M. Ranc, Mme Martin, M. Legras",
+ "referents_cites": "M. Ranc, M. Legras, Mme Dayan",
  "unite_citee": "BA 125 Istres"
 }

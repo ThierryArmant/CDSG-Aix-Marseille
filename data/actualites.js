@@ -63,6 +63,30 @@ window.CDSG_ACTUS = [
  {
   "date": "2026-11-11",
   "type": "ceremonie",
+  "titre": "Félicitations du maire de Mallemort",
+  "resume": "Le 11 novembre 2026, les élèves ont été félicités par la maire Hélène Gente pour leur engagement citoyen lors de la commémoration à Sainte‑Anne.",
+  "source": "https://www.laprovence.com/article/edition-salon/2925249/les-collegiens-se-souviennent-des-martyrs-de-sainte-anne.html",
+  "image": null,
+  "site": "laprovence.com",
+  "fiche": "college-collines-durance-mallemort",
+  "etab": "Collège Collines Durance",
+  "ville": "Mallemort"
+ },
+ {
+  "date": "2026-11-11",
+  "type": "ceremonie",
+  "titre": "Commémoration du 11 novembre à Sainte‑Anne",
+  "resume": "Les élèves de la classe de 3e ont participé à la cérémonie du 11 novembre 2026 sur le plateau de Manivert, en hommage aux résistants.",
+  "source": "https://www.laprovence.com/article/edition-salon/2925249/les-collegiens-se-souviennent-des-martyrs-de-sainte-anne.html",
+  "image": null,
+  "site": "laprovence.com",
+  "fiche": "college-collines-durance-mallemort",
+  "etab": "Collège Collines Durance",
+  "ville": "Mallemort"
+ },
+ {
+  "date": "2026-11-11",
+  "type": "ceremonie",
   "titre": "Cérémonie du 11 novembre",
   "resume": "Le 11 novembre 2026, plus de 50 élèves de 4e et 3e CDSG du collège Jean‑Giono ont assisté à la cérémonie au monument aux Morts du cimetière Saint‑Clément à Orange, en présence de civils, militaires et associations d’anciens combattants.",
   "source": "https://www.laprovence.com/article/societe/1080358257656814/11-novembre-les-eleves-du-college-jean-giono-dorange-rendent-hommage-aux-poilus",
@@ -263,29 +287,5 @@ window.CDSG_ACTUS = [
   "fiche": "lycee-saint-joseph-gap",
   "etab": "Lycée Saint-Joseph",
   "ville": "Gap"
- },
- {
-  "date": "2026-10-25",
-  "type": "ceremonie",
-  "titre": "12e Forum sécurité et défense à Pertuis",
-  "resume": "Le 12e Forum sécurité et défense a eu lieu à Pertuis, organisé par le groupe d’action de Pertuis sous la présidence du général Michel Foudriat et piloté par Lionel Negre, proviseur du lycée Val de Durance, avec la participation d’environ 500 collégiens et lycéens.",
-  "source": "https://www.laprovence.com/article/region/20769476207938/un-forum-pour-savoir-si-l-avenir-des-collegiens-de-pertuis-se-conjuguera-via-le-secteur-de-la-defense",
-  "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/10/23/pres-de-500-eleves-ont-participe-a-ce-forum-defense-1792774234_6314c917a7da66714c917a7da2b14cv_.jpg",
-  "site": "laprovence.com",
-  "fiche": "lycee-val-de-durance-pertuis",
-  "etab": "Lycée Val de Durance",
-  "ville": "Pertuis"
- },
- {
-  "date": "2026-10-15",
-  "type": "ceremonie",
-  "titre": "Cérémonie de remise du D.N.B. et du C.F.G.",
-  "resume": "Le collège Georges Brassens organise le 15 octobre 2026 une cérémonie de remise du Diplôme National du Brevet et du Certificat de Formation Générale aux élèves, dont la classe Défense.",
-  "source": "https://www.site.ac-aix-marseille.fr/clg-brassens-marignane/spip/Ceremonie-de-remise-du-D-N-B-et-du-C-F-G.html",
-  "image": null,
-  "site": "site.ac-aix-marseille.fr",
-  "fiche": "college-georges-brassens-marignane",
-  "etab": "Collège Georges Brassens",
-  "ville": "Marignane"
  }
 ];

@@ -446,8 +446,8 @@ window.CDSG_WEB = {
   "resume": "La classe défense du collège Les Gorguettes (Cassis) est parrainée depuis le 28 avril 2025 par le 1er Régiment Étranger de Cavalerie"
  },
  "lycee-frederic-mistral-avignon": {
-  "date": "18/11/2026",
-  "nb": 9,
+  "date": "22/11/2026",
+  "nb": 12,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2015-07/2015-07-17/20150717_1_2_7_1_1_obj9397229_1.jpg",
    "source": "https://www.laprovence.com/article/edition-arles/3498258/les-collegiens-laureats-du-concours-de-la-resistance.html",
@@ -506,6 +506,36 @@ window.CDSG_WEB = {
     ]
    },
    {
+    "date": "2026-05",
+    "titre": "14e prix - Frédéric Mistral",
+    "resume": "Anaëlle Mayet a reçu le 14e prix du concours de rédaction d'un devoir individuel en classe (première catégorie) au lycée Frédéric Mistral d'Avignon.",
+    "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
+    ]
+   },
+   {
+    "date": "2026-05",
+    "titre": "12e prix - Frédéric Mistral",
+    "resume": "Norenn Moumen-Thanoon a obtenu le 12e prix du même concours de rédaction d'un devoir individuel en classe (première catégorie) au lycée Frédéric Mistral d'Avignon.",
+    "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
+    ]
+   },
+   {
+    "date": "2026-05",
+    "titre": "5e prix - Frédéric Mistral",
+    "resume": "Coralie Jorge a été classée 5e au concours de rédaction d'un devoir individuel en classe (première catégorie) au lycée Frédéric Mistral d'Avignon.",
+    "source": "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.vaucluse.fr/fileadmin/02_Page_accueil-Images/Actualites_2026/Mai/Concours_r%C3%A9sistance/Palmar%C3%A8s_2026.pdf"
+    ]
+   },
+   {
     "date": "2015",
     "titre": "Participation au concours national de la Résistance",
     "resume": "Après leur succès départemental, les deux classes sont qualifiées pour le concours national de la Résistance et de la Déportation.",
@@ -523,7 +553,7 @@ window.CDSG_WEB = {
    "https://www.ledauphine.com/education/2026/10/11/le-lycee-mistral-aureole-pour-son-ouverture-a-l-europe",
    "https://www.laprovence.com/article/edition-arles/3498258/les-collegiens-laureats-du-concours-de-la-resistance.html"
   ],
-  "resume": "En mai 2026, trois élèves du lycée Frédéric‑Mistral (Anaëlle Mayet, Norenn Moumen‑Thanoon et Coralie Jorge) ont obtenu respectivement les 14ᵉ, 12ᵉ et 5ᵉ places au concours de rédaction d’un devoir individuel en classe de première. Le projet de classe défense est soutenu depuis juillet 2023 par l’unité DMD 84, suite à la signature d’une convention, et a également bénéficié de l’accompagnement du Centre de la Résistance et"
+  "resume": "La classe défense du lycée Frédéric‑Mistral"
  },
  "mfr-de-lambesc-4e-lambesc": {
   "date": "12/11/2026",
@@ -1125,8 +1155,8 @@ window.CDSG_WEB = {
   ]
  },
  "college-stephane-mallarme-marseille-13e": {
-  "date": "15/11/2026",
-  "nb": 15,
+  "date": "22/11/2026",
+  "nb": 17,
   "photo": {
    "url": "https://www.lamarseillaise.fr/binrepository/480x640/1c240/480d250/none/150910102/UORI/img_542-8540850_20250604071612.jpg",
    "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
@@ -1180,6 +1210,26 @@ window.CDSG_WEB = {
     "verifie": "a_confirmer",
     "sources": [
      "https://fr.linkedin.com/posts/florence-mespiedre-871081139_coll%C3%A8ge-mallarm%C3%A9-troph%C3%A9e-de-lafdet-2026-activity-7472655864693161985-SDqp"
+    ]
+   },
+   {
+    "date": "2025-06-04",
+    "titre": "Premier prix Armées zone sud",
+    "resume": "Le collège Stéphane‑Mallarmé a reçu le premier prix du concours Armées zone sud, doté de 1 000 €, pour la réalisation d’un jeu de l’oie.",
+    "source": "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358",
+    "verifie": "presse",
+    "sources": [
+     "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
+    ]
+   },
+   {
+    "date": "2025-06-03",
+    "titre": "Prix Armées zone Sud",
+    "resume": "La classe de troisième du collège Stéphane Mallarmé a reçu le Prix Armées zone Sud le 3 juin 2025 au fort Ganteaume, pour son projet sur la défense en zone Sud.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
     ]
    },
    {
@@ -1358,10 +1408,10 @@ window.CDSG_WEB = {
   "resume": "La classe « Défense & Citoyenneté »"
  },
  "lpp-latecoere-istres": {
-  "date": "11/11/2026",
+  "date": "22/11/2026",
   "resume": "La classe Défense du lycée professionnel Latécoère d’Istres a été renouvelée le 4 juillet 2024 grâce à une convention signée avec la base aérienne 125 d’Istres, sous la tutelle de la BA 125 et en présence du commandant de l’Escadron de Protection. Depuis, les élèves ont accueilli l’adjudant Anthony Vilain le 4 octobre 2024, ont participé aux Journées Portes Ouvertes de la base et, le 11 novembre 2024, ont visité une exposition au musée de la base aérienne 125 lors d’une cérémonie commémorative. Aucun prix ou distinction n’est mentionné dans les éléments de veille.",
-  "nb": 10,
-  "derniere_activite": "2026-10-02",
+  "nb": 13,
+  "derniere_activite": "2026-10-07",
   "derniers": {
    "distinction": {
     "date": "2025-05-27",
@@ -1370,10 +1420,10 @@ window.CDSG_WEB = {
     "source": "https://fr.linkedin.com/posts/lycee-professionnel-latecoere-istres_classed%C3%A9fense-olympiadess%C3%A9curit%C3%A9-fili%C3%A8res%C3%A9curit%C3%A9-activity-7338832833500635136-RsuG"
    },
    "sortie": {
-    "date": "2026-10-02",
-    "titre": "Matinée exceptionnelle Classe Défense",
-    "resume": "Du 2 au 5 octobre 2026, la classe Défense du Lycée des métiers de l'industrie Latécoère à Istres a vécu une matinée exceptionnelle autour du porte‑hélicoptères amphibie (PHA).",
-    "source": "https://www.instagram.com/p/DE4k9X3IpbE"
+    "date": "2026-10-07",
+    "titre": "Journée exceptionnelle Classe Défense",
+    "resume": "Le 7 octobre 2026, le lycée a annoncé une journée exceptionnelle organisée pour la Classe Défense du 2 au 5 octobre.",
+    "source": "https://fr.linkedin.com/school/lycee-professionnel-latecoere-istres/"
    },
    "ceremonie": {
     "date": "2024-11-11",
@@ -1395,14 +1445,14 @@ window.CDSG_WEB = {
    }
   },
   "sources": [
+   "https://fr.linkedin.com/school/lycee-professionnel-latecoere-istres/",
    "https://www.instagram.com/p/DE4k9X3IpbE",
+   "https://fr.linkedin.com/posts/lycee-professionnel-latecoere-istres_classed%C3%A9fense-marinenationale-tonnerre-activity-7513609427095040001-7SAA",
    "https://fr.linkedin.com/posts/lycee-professionnel-latecoere-istres_classed%C3%A9fense-olympiadess%C3%A9curit%C3%A9-fili%C3%A8res%C3%A9curit%C3%A9-activity-7338832833500635136-RsuG",
    "https://www.unacita-istres.com/pages/celebration-du-11-novembre-a-istres.html",
    "https://fr.linkedin.com/posts/lycee-professionnel-latecoere-istres_jeudi-4-juillet-le-lycée-professionnel-activity-7216705506965389315-9Kct",
    "https://www.facebook.com/baseaerienne125istres/posts/lienarmeenationce-jeudi-4-juillet-une-convention-entre-le-lycée-latecoere-et-la-/917864880377721/",
-   "https://fr.linkedin.com/posts/bureau-des-entreprises-lycée-professionnel-latecoere-istres_vendredi-4-octobre-dans-la-continuité-du-activity-7248990303968182275-irCj",
-   "https://www.linkedin.com/posts/guillaume-longuet-66a37840_félicitations-aux-élèves-et-aux-enseignants-activity-7247106476802981888-DKxA",
-   "https://fr.linkedin.com/posts/audrey-bourgeon-463422292_rejoignez-la-classe-d%C3%A9fense-du-lyc%C3%A9e-professionnel-activity-7165342028866777090-DXAw"
+   "https://fr.linkedin.com/posts/bureau-des-entreprises-lycée-professionnel-latecoere-istres_vendredi-4-octobre-dans-la-continuité-du-activity-7248990303968182275-irCj"
   ],
   "photo": {
    "url": "https://astatic.ccmbg.com/www.linternaute.com/img/annuaire_palmareslycees/picto-partage-facebook.jpg",
@@ -1550,34 +1600,66 @@ window.CDSG_WEB = {
   ]
  },
  "college-collines-durance-mallemort": {
-  "date": "11/11/2026",
-  "nb": 4,
+  "date": "22/11/2026",
+  "nb": 10,
   "photo": {
-   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=0,trim.height=534,trim.width=950/media/hermes/20240903/20240903_1_2_3_1_1_obj29669154_1.jpg",
-   "source": "https://www.laprovence.com/article/region/1703869161308715/a-mallemort-municipalite-et-parents-deleves-cherchent-une-solution-pour-le-periscolaire",
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/hermes/2014-06/2014-06-18/20140618_1_2_3_1_1_obj6669670_1.jpg",
+   "source": "https://www.laprovence.com/article/edition-salon/2925249/les-collegiens-se-souviennent-des-martyrs-de-sainte-anne.html",
    "manuel": false
   },
-  "derniere_activite": "2024-09-03",
+  "derniere_activite": "2026-11-11",
   "derniers": {
+   "distinction": {
+    "date": "2014-06-18",
+    "titre": "Lauréate régionale du concours",
+    "resume": "Anaïs Pauwlak, élève de la classe, a été désignée lauréate régionale du concours et a reçu son prix à la préfecture.",
+    "source": "https://www.laprovence.com/article/edition-salon/2925249/les-collegiens-se-souviennent-des-martyrs-de-sainte-anne.html"
+   },
    "sortie": {
     "date": "2023-12-02",
     "titre": "Visite du 25e régiment du génie de l'air",
     "resume": "La classe de 3e défense du Collège Collines Durance a reçu le 25e régiment du génie de l'air (RGA) d'Istres, permettant aux élèves d’échanger sur les missions et le quotidien des militaires.",
     "source": "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance"
    },
+   "ceremonie": {
+    "date": "2026-11-11",
+    "titre": "Félicitations du maire de Mallemort",
+    "resume": "Le 11 novembre 2026, les élèves ont été félicités par la maire Hélène Gente pour leur engagement citoyen lors de la commémoration à Sainte‑Anne.",
+    "source": "https://www.laprovence.com/article/edition-salon/2925249/les-collegiens-se-souviennent-des-martyrs-de-sainte-anne.html"
+   },
    "convention": {
     "date": "2023-12-02",
     "titre": "Signature d’une convention avec le 25e RGA",
     "resume": "Le collège a officialisé son partenariat avec le 25e régiment du génie de l'air en signant une convention, cadre de l’activité de la classe défense.",
     "source": "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance"
+   },
+   "article": {
+    "date": "2023-11-22",
+    "titre": "La classe « défense » passe dans le journal !",
+    "resume": "Un article du journal régional, publié le 22 novembre 2023, présente la classe de 3e3 du Collège Collines Durance et son projet « défense ».",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-durance/spip/La-classe-defense-passe-dans-le-journal.html"
    }
   },
-  "distinctions": [],
-  "sources": [
-   "https://www.laprovence.com/article/region/1703869161308715/a-mallemort-municipalite-et-parents-deleves-cherchent-une-solution-pour-le-periscolaire",
-   "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance"
+  "distinctions": [
+   {
+    "date": "2014-06-18",
+    "titre": "Lauréate régionale du concours",
+    "resume": "Anaïs Pauwlak, élève de la classe, a été désignée lauréate régionale du concours et a reçu son prix à la préfecture.",
+    "source": "https://www.laprovence.com/article/edition-salon/2925249/les-collegiens-se-souviennent-des-martyrs-de-sainte-anne.html",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/edition-salon/2925249/les-collegiens-se-souviennent-des-martyrs-de-sainte-anne.html"
+    ]
+   }
   ],
-  "resume": "Le Collège Collines‑Durance de Mallemort maintient sa classe défense, comme le confirme un article du 3 septembre 2024. En décembre 2023, les élèves de 3e défense ont accueilli le 25e régiment du génie de l’air d’Istres, suite à la signature d’une convention de partenariat avec cette unité. Parmi les faits marquants, la classe a également réalisé une sortie à Berlin en 2022 dans le cadre de ses échanges avec le même régiment."
+  "sources": [
+   "https://www.laprovence.com/article/edition-salon/2925249/les-collegiens-se-souviennent-des-martyrs-de-sainte-anne.html",
+   "https://www.laprovence.com/article/region/1703869161308715/a-mallemort-municipalite-et-parents-deleves-cherchent-une-solution-pour-le-periscolaire",
+   "https://www.laprovence.com/article/region/30464372523929/mallemort-les-militaires-du-25e-regiment-du-genie-de-lair-aupres-des-eleves-du-college-collines-durance",
+   "https://www.site.ac-aix-marseille.fr/clg-durance/spip/La-classe-defense-passe-dans-le-journal.html",
+   "https://www.mallemortdeprovence.com/fr/agenda/commemoration-de-la-fin-de-la-2nde-guerre-mondiale-574"
+  ],
+  "resume": "Le 11 novembre 2026, les élèves de la classe défense ont participé à la commémoration à Sainte‑Anne et ont été félicités par la maire d Mallemort, Hélène Gente. En 2014, Anaïs Pauwlak, élève de la classe, a été"
  },
  "college-clair-soleil-marseille-14e": {
   "date": "14/11/2026",
@@ -2058,7 +2140,7 @@ window.CDSG_WEB = {
   "resume": "La classe défense du lycée L'Empéri a participé le 18 juin 2026 à la commémoration nationale de l’appel du 18 juin, organisée dans le cadre de la célébration des valeurs de la République. Aucun prix, distinction ou partenariat n’a été signalé dans les informations disponibles. Aucun autre fait marquant n’a été relevé pour le moment."
  },
  "lpp-saint-andre-marseille-16e": {
-  "date": "11/11/2026",
+  "date": "22/11/2026",
   "nb": 2,
   "photo": null,
   "derniere_activite": "2022-08-29",
@@ -2080,7 +2162,7 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.facebook.com/prefetaube/posts/classed%C3%A9fense-une-immersion-au-c%C5%93ur-de-l%C3%A9tat-jeudi-11-juin-charles-no%C3%AFn-sous-pr%C3%A9/1626614756130626"
   ],
-  "resume": "La classe défense du lycée professionnel Pierre‑Paul Saint‑André a réalisé son activité la plus récente le 11 juin 2022, une immersion au cœur des services de l’État organisée par la préfecture. Elle a officialisé son partenariat avec l’unité marraine du 1er REC par la signature d’une convention le 29 août 2022. Aucun prix ou distinction n’est mentionné à ce jour."
+  "resume": "La classe défense du lycée professionnel Pierre‑Paul Saint‑André a officialisé son partenariat le 29 août 2022 en signant une convention avec l’unité marraine du 1er REC. Auparavant, les élèves avaient participé le 11 juin 2022 à une immersion au sein des services de l’État, organisée par la préfecture. Aucun prix ou distinction n’est mentionné dans les éléments de veille."
  },
  "lp-martin-bret-manosque": {
   "date": "20/11/2026",
@@ -2989,8 +3071,8 @@ window.CDSG_WEB = {
   "sources": []
  },
  "college-grande-bastide-marseille-9e": {
-  "date": "15/11/2026",
-  "nb": 11,
+  "date": "22/11/2026",
+  "nb": 15,
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/06/03/monsieur-cuminetto-felicite-les-deux-classes-laureates-parmi-six-candiadts-au-fort-ganteaume-le-3-ju-1748983215_e58b8f601f386f98b8f601f38cd8b8v_.jpg",
    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
@@ -3055,6 +3137,16 @@ window.CDSG_WEB = {
     "verifie": "presse",
     "sources": [
      "https://www.lamarseillaise.fr/societe/l-armee-decerne-des-prix-aux-collegiens-GN18268358"
+    ]
+   },
+   {
+    "date": "2025-06-03",
+    "titre": "Prix Armées zone Sud",
+    "resume": "Le collège Grande Bastide a été lauréat du Prix Armées zone Sud de l’académie d’Aix‑Marseille pour son projet sur la défense, la protection et la résilience des armées françaises en zone Sud.",
+    "source": "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/region/47785561469458/ca-donne-envie-de-travailler-dans-larmee-des-collegiens-marseillais-laureats-des-prix-armees-zone-sud"
     ]
    }
   ],
@@ -3540,14 +3632,14 @@ window.CDSG_WEB = {
   "sources": []
  },
  "college-fernand-leger-berre-l-etang": {
-  "date": "11/11/2026",
+  "date": "22/11/2026",
   "resume": "La classe défense du Collège Fernand Léger a récemment organisé une cérémonie de clôture, accompagnée d’interventions et de visites des différents corps de la défense et de la sécurité. Son unique partenaire déclaré est le Groupement de gendarmerie, unité marraine depuis au moins 201",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/2014/12/17/_iva9477.jpg",
    "source": "https://www.laprovence.com/article/actualites/3182035/la-nouvelle-carte-de-leducation-prioritaire.html",
    "manuel": false
   },
-  "nb": 8,
+  "nb": 9,
   "derniere_activite": "2025-11",
   "derniers": {
    "sortie": {
@@ -3584,6 +3676,7 @@ window.CDSG_WEB = {
   "sources": [
    "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-fernand-leger-13.html",
    "https://www.site.ac-aix-marseille.fr/clg-leger/spip/-PER-13-.html",
+   "https://fr.linkedin.com/posts/julien-cuminetto-b391bab5_signature-de-la-convention-entre-la-classe-activity-7244968210540695552-WGLc",
    "https://www.laprovence.com/article/actualites/3182035/la-nouvelle-carte-de-leducation-prioritaire.html",
    "https://www.facebook.com/villedeberre/posts/securite-%F0%9D%97%96%F0%9D%97%B9%F0%9D%97%AE%F0%9D%97%BD-%F0%9D%97%B1%F0%9D%97%B2-%F0%9D%97%B3%F0%9D%97%B6%F0%9D%97%BB-%F0%9D%97%BD%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%96%F0%9D%97%B9%F0%9D%97%AE%F0%9D%98%80%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%97%F0%9D%97%B2%CC%81%F0%9D%97%B3%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%80%F0%9D%97%B2-%F0%9D%97%B1%F0%9D%98%82-%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%CC%80%F0%9D%97%B4%F0%9D%97%B2-%F0%9D%97%99%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BB%F0%9D%97%AE%F0%9D%97%BB%F0%9D%97%B1-%F0%9D%97%9F%F0%9D%97%B2%CC%81%F0%9D%97%B4%F0%9D%97%B2%F0%9D%97%BF-jeudi-de/1659196949546467",
    "https://www.facebook.com/61568331065098/posts/pour-information-une-classe-defense-sur-th%C3%A8me-de-la-d%C3%A9fense-et-de-la-s%C3%A9curit%C3%A9-ci/122168372096611035"
@@ -3619,13 +3712,13 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-alphonse-silve-monteux": {
-  "date": "11/11/2026",
+  "date": "22/11/2026",
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/6B0F49EA-F921-4A2C-8FD2-33DC7CAD8B08/FB1200/photo-1778441283.jpg",
    "source": "https://www.ledauphine.com/societe/2026/05/10/le-comite-de-jumelage-recompense-la-classe-defense-du-college-silve",
    "manuel": false
   },
-  "nb": 7,
+  "nb": 14,
   "derniere_activite": "2026-05-10",
   "derniers": {
    "distinction": {
@@ -3639,6 +3732,18 @@ window.CDSG_WEB = {
     "titre": "Projection du documentaire sur le camp de Gurs",
     "resume": "Lors des rencontres franco‑allemandes en janvier 2026, la classe Défense a participé à la projection d’un documentaire sur le camp de Gurs à la chapelle des Pénitents noirs, suivie d’un débat.",
     "source": "https://www.ledauphine.com/societe/2026/05/10/le-comite-de-jumelage-recompense-la-classe-defense-du-college-silve"
+   },
+   "article": {
+    "date": "2026-05-09",
+    "titre": "Monteux : des collégiens plongés dans l’histoire du camp de Gurs",
+    "resume": "L’article de La Provence du 9 mai 2026 décrit la participation du collège Alphonse Silve à une journée de mémoire sur le camp de Gurs.",
+    "source": "https://www.laprovence.com/article/societe/2230921476116214/monteux-des-collegiens-plonges-dans-l-histoire-du-camp-de-gurs-lors-d-une-journee-solennelle"
+   },
+   "projet": {
+    "date": "2026-05-09",
+    "titre": "Débat citoyen après le documentaire",
+    "resume": "Après la projection, les élèves ont participé à un débat sur la citoyenneté française et européenne, organisé avec l’association Comtat France Allemagne.",
+    "source": "https://www.laprovence.com/article/societe/2230921476116214/monteux-des-collegiens-plonges-dans-l-histoire-du-camp-de-gurs-lors-d-une-journee-solennelle"
    }
   },
   "distinctions": [
@@ -3655,6 +3760,9 @@ window.CDSG_WEB = {
   ],
   "sources": [
    "https://www.ledauphine.com/societe/2026/05/10/le-comite-de-jumelage-recompense-la-classe-defense-du-college-silve",
+   "https://www.laprovence.com/article/societe/2230921476116214/monteux-des-collegiens-plonges-dans-l-histoire-du-camp-de-gurs-lors-d-une-journee-solennelle",
+   "https://www.ledauphine.com/education/2026/02/08/la-resistance-racontee-dans-une-piece-de-theatre-au-college-silve",
+   "https://www.ledauphine.com/societe/2023/05/09/deux-collegiens-ont-ete-promus-porte-drapeaux",
    "https://www.laprovence.com/article/edition-carpentras-comtat/2621653/au-college-silve-les-eleves-de-3e-sinteressent-au-patrimoine.html"
   ]
  },
