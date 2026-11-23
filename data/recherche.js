@@ -1687,8 +1687,8 @@ window.CDSG_WEB = {
   "resume": "Le 15 mai 2025, la promotion 2024/2025 de la Classe Défense du collège Stéphane Mallarmé a été invitée par Valérie Boyer au Sénat. Depuis 2018, la classe est parrainée par les Marins Pompiers de Marseille, aucun prix ou distinction n’étant mentionné dans les éléments de veille."
  },
  "lycee-d-ormesson-chateaurenard": {
-  "date": "11/11/2026",
-  "resume": "Le 28 mars 2025, le président de la Région PACA, R",
+  "date": "23/11/2026",
+  "resume": "La classe défense du lycée Jean d’Ormesson de Châteaurenard a vu, le 16 mai 2025, la Gendarmerie proposée comme unité marraine. Le 28 mars 2025, le président de la Région PACA, Renaud Muselier, a présenté le projet Agora Défense en citant le lycée dans le cadre de la tenue unique, et l’État ainsi que la Région ont confirmé la reconduction d’une année supplémentaire de l’expérimentation de cette tenue. Aucun prix ou distinction n’a été signalé dans les informations disponibles.",
   "photo": {
    "url": "https://www.ici.fr/pikapi/images/8d6b5504-accc-4155-93ee-173ce2c669b2/1200x630?webp=false",
    "source": "https://www.ici.fr/emissions/l-invite-de-7h45-d-ici-provence/je-maintiens-la-tenue-unique-au-lycee-d-ormesson-a-chateaurenard-dit-renaud-muselier-6759480",
@@ -2121,23 +2121,57 @@ window.CDSG_WEB = {
   "resume": "En décembre 2024, le lycée Pierre Mendès France a signé (ou renouvelé) une convention pour sa classe défense avec"
  },
  "lycee-l-emperi-salon-de-provence": {
-  "date": "11/11/2026",
-  "nb": 1,
-  "photo": null,
-  "derniere_activite": "2026-06-18",
+  "date": "23/11/2026",
+  "nb": 6,
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/06/01/les-laureats-du-concours-ont-ete-recompenses-au-lycee-l-emperi-pour-leur-remarquable-travail-de-rech-1780291849_aa229d79fa1a69e229d79fa1a62329v_.jpg",
+   "source": "https://www.laprovence.com/article/region/1157703935950515/193-laureats-recompenses-lors-du-concours-national-de-la-resistance-et-de-la-deportation",
+   "manuel": false
+  },
+  "derniere_activite": "2026-11-19",
   "derniers": {
+   "distinction": {
+    "date": "2026-06-01",
+    "titre": "Récompenses des lauréats du CNRD",
+    "resume": "Le 1 juin 2026, lors d’une cérémonie dans la cour du lycée L'Empéri, les lauréats du Concours national de la résistance et de la déportation ont reçu leurs prix pour leurs travaux sur la fin de la Shoah.",
+    "source": "https://www.laprovence.com/article/region/1157703935950515/193-laureats-recompenses-lors-du-concours-national-de-la-resistance-et-de-la-deportation"
+   },
    "ceremonie": {
-    "date": "2026-06-18",
-    "titre": "Commémoration de l'appel du 18 juin",
-    "resume": "Le 18 juin 2026, les lycéens du lycée L'Empéri ont participé à la journée nationale commémorative de l’appel du général de Gaulle, organisée dans le cadre de la célébration des valeurs de la République.",
-    "source": "https://www.site.ac-aix-marseille.fr/lyc-emperi/spip/"
+    "date": "2026-11-19",
+    "titre": "Cérémonie d’inauguration de la classe de défense",
+    "resume": "Le 19 novembre 2026, une cérémonie d’inauguration a eu lieu au lycée de l’Empéri avec la présence d’élèves, de représentants de l’Éducation nationale et de l’armée.",
+    "source": "https://www.laprovence.com/article/societe/1230586789467215/la-premiere-classe-de-defense-de-salon-de-provence-a-ete-creee-au-lycee-de-l-emperi"
    }
   },
-  "distinctions": [],
-  "sources": [
-   "https://www.site.ac-aix-marseille.fr/lyc-emperi/spip/"
+  "distinctions": [
+   {
+    "date": "2026-06-01",
+    "titre": "Récompenses des lauréats du CNRD",
+    "resume": "Le 1 juin 2026, lors d’une cérémonie dans la cour du lycée L'Empéri, les lauréats du Concours national de la résistance et de la déportation ont reçu leurs prix pour leurs travaux sur la fin de la Shoah.",
+    "source": "https://www.laprovence.com/article/region/1157703935950515/193-laureats-recompenses-lors-du-concours-national-de-la-resistance-et-de-la-deportation",
+    "verifie": "presse",
+    "sources": [
+     "https://www.laprovence.com/article/region/1157703935950515/193-laureats-recompenses-lors-du-concours-national-de-la-resistance-et-de-la-deportation"
+    ]
+   },
+   {
+    "date": "2025-05-14",
+    "titre": "Cérémonie de remise des prix du Concours national de la Résistance et de la Déportation",
+    "resume": "Le lycée L'Empéri de Salon‑de‑Provence a accueilli, le mercredi 14 mai 2025, la cérémonie de remise des prix aux lauréats départementaux du Concours national de la Résistance et de la Déportation, en présence de nombreuses personnalités civiles, militaires et académiques.",
+    "source": "https://www.anmonm.org/news/hommage-aux-valeurs-de-la-resistance-au-lycee-l-emperi-1896",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.anmonm.org/news/hommage-aux-valeurs-de-la-resistance-au-lycee-l-emperi-1896"
+    ]
+   }
   ],
-  "resume": "La classe défense du lycée L'Empéri a participé le 18 juin 2026 à la commémoration nationale de l’appel du 18 juin, organisée dans le cadre de la célébration des valeurs de la République. Aucun prix, distinction ou partenariat n’a été signalé dans les informations disponibles. Aucun autre fait marquant n’a été relevé pour le moment."
+  "sources": [
+   "https://www.laprovence.com/article/societe/1230586789467215/la-premiere-classe-de-defense-de-salon-de-provence-a-ete-creee-au-lycee-de-l-emperi",
+   "https://www.site.ac-aix-marseille.fr/lyc-emperi/spip/",
+   "https://www.laprovence.com/article/region/1157703935950515/193-laureats-recompenses-lors-du-concours-national-de-la-resistance-et-de-la-deportation",
+   "https://www.anmonm.org/news/hommage-aux-valeurs-de-la-resistance-au-lycee-l-emperi-1896"
+  ],
+  "resume": "Le 19 novembre 2026, la classe de défense du lycée L’Empéri a été inaugurée en présence d’élèves, de représentants de l’Éducation nationale et de l’armée, et bénéficie du partenariat de la base aérienne locale. Le même jour, le lycée a été intégré au groupe sélect de 870 établissements français accueillant une classe de défense, portant le nombre total à environ 1 000. En 2026, les lauréats du Concours national de la résistance et de la déportation ont reçu leurs prix lors de cérémonies organisées au lycée les 1 juin et 18 juin, rappelant l’engagement civique de la classe."
  },
  "lpp-saint-andre-marseille-16e": {
   "date": "22/11/2026",
@@ -2429,10 +2463,10 @@ window.CDSG_WEB = {
   "resume": "Le 2 septembre 2024, le collège André‑Malraux de Mazan a créé une classe sécurité‑défense pour 24 élèves de 3e, issue de l’atelier mémoire et citoyenneté. Le collège a signé en juillet 2024, puis le 2 septembre, des conventions de partenariat avec la gendar"
  },
  "college-des-hautes-vallees-guillestre": {
-  "date": "11/11/2026",
-  "nb": 1,
+  "date": "23/11/2026",
+  "nb": 2,
   "photo": null,
-  "derniere_activite": null,
+  "derniere_activite": "2015-01-22",
   "derniers": {
    "article": {
     "date": null,
@@ -2443,9 +2477,10 @@ window.CDSG_WEB = {
   },
   "distinctions": [],
   "sources": [
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_10340165/it/college-des-hautes-vallees",
    "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514"
   ],
-  "resume": "Le collège des Hautes Vallées (Guillestre) a récemment présenté, via un post de Réunion la 1ère, sa « classe défense » qui initie les élèves de 3e aux métiers de l’armée. Cette mise en avant constitue la première communication officielle de ce dispositif au sein de l’établissement. Aucun prix, distinction ou partenariat n’a été mentionné dans les informations disponibles."
+  "resume": "Le collège des Hautes Vallées (Guillestre) a créé une classe défense pour les élèves de 3e, afin de les initier aux métiers de l’armée, comme indiqué dans un article de Réunion la 1ère"
  },
  "college-itard-oraison": {
   "date": "20/11/2026",
@@ -2855,7 +2890,7 @@ window.CDSG_WEB = {
   "resume": "La classe Défense du collège Marcel André"
  },
  "lycee-joliot-curie-aubagne": {
-  "date": "11/11/2026",
+  "date": "23/11/2026",
   "nb": 0,
   "photo": null,
   "derniere_activite": null,
@@ -3985,8 +4020,8 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-ubelka-auriol": {
-  "date": "11/11/2026",
-  "resume": "Le collège Ubelka (Auriol) a pour unité marraine la Légion étrangère, via la Maison du légionnaire d’Auriol.",
+  "date": "23/11/2026",
+  "resume": "Le collège Ubelka d’Auriol a pour unité marraine la Légion étrangère, via la Maison du légionnaire d’Auriol. Aucun autre élément de veille (activité récente, distinctions ou prix) n’est disponible pour le moment.",
   "nb": 1,
   "sources": [
    "https://www.journaldesfemmes.fr/maman/ecole/college-ubelka/college-0133510V"

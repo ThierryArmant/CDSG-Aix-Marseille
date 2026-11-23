@@ -13,6 +13,30 @@ window.CDSG_ACTUS = [
   "ville": "Briançon"
  },
  {
+  "date": "2026-11-19",
+  "type": "ceremonie",
+  "titre": "Cérémonie d’inauguration de la classe de défense",
+  "resume": "Le 19 novembre 2026, une cérémonie d’inauguration a eu lieu au lycée de l’Empéri avec la présence d’élèves, de représentants de l’Éducation nationale et de l’armée.",
+  "source": "https://www.laprovence.com/article/societe/1230586789467215/la-premiere-classe-de-defense-de-salon-de-provence-a-ete-creee-au-lycee-de-l-emperi",
+  "image": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/11/19/lors-de-la-ceremonie-inaugurale-eleves-representants-de-l-education-nationale-et-de-l-armee-ont-pose-1795111534_8ee03b993ffa672f03b993ffa46f03v_.jpg",
+  "site": "laprovence.com",
+  "fiche": "lycee-l-emperi-salon-de-provence",
+  "etab": "Lycée L'Empéri",
+  "ville": "Salon-de-Provence"
+ },
+ {
+  "date": "2026-11-19",
+  "type": "partenaire",
+  "titre": "Partenariat avec la base aérienne",
+  "resume": "La classe de défense du lycée de l’Empéri est soutenue par la base aérienne locale, désignée comme partenaire du dispositif.",
+  "source": "https://www.laprovence.com/article/societe/1230586789467215/la-premiere-classe-de-defense-de-salon-de-provence-a-ete-creee-au-lycee-de-l-emperi",
+  "image": null,
+  "site": "laprovence.com",
+  "fiche": "lycee-l-emperi-salon-de-provence",
+  "etab": "Lycée L'Empéri",
+  "ville": "Salon-de-Provence"
+ },
+ {
   "date": "2026-11-16",
   "type": "projet",
   "titre": "Bar à mémoire de la Première Guerre Mondiale",
@@ -263,29 +287,5 @@ window.CDSG_ACTUS = [
   "fiche": "college-les-garcins-briancon",
   "etab": "Collège Les Garcins",
   "ville": "Briançon"
- },
- {
-  "date": "2026-11-05",
-  "type": "convention",
-  "titre": "Signature de la convention entre le lycée Saint-Joseph et l'armée",
-  "resume": "Le 5 novembre 2026, le lycée Saint‑Joseph de Gap signe une convention avec l’armée, officialisant le lancement de la première classe de défense.",
-  "source": "https://www.ledauphine.com/education/2026/11/09/ca-leur-ouvre-l-esprit-la-classe-de-defense-permet-de-decouvrir-les-coulisses-de-l-armee",
-  "image": "https://cdn-s-www.ledauphine.com/images/17D757F7-D2DF-4872-ACA3-65679C825285/FB1200/photo-1794248475.jpg",
-  "site": "ledauphine.com",
-  "fiche": "lycee-saint-joseph-gap",
-  "etab": "Lycée Saint-Joseph",
-  "ville": "Gap"
- },
- {
-  "date": "2026-11-05",
-  "type": "ceremonie",
-  "titre": "Cérémonie de signature de la convention",
-  "resume": "Les élèves, l’équipe éducative et des militaires assistent à la cérémonie de signature de la convention le 5 novembre 2026.",
-  "source": "https://www.ledauphine.com/education/2026/11/09/ca-leur-ouvre-l-esprit-la-classe-de-defense-permet-de-decouvrir-les-coulisses-de-l-armee",
-  "image": "https://cdn-s-www.ledauphine.com/images/17D757F7-D2DF-4872-ACA3-65679C825285/FB1200/photo-1794248475.jpg",
-  "site": "ledauphine.com",
-  "fiche": "lycee-saint-joseph-gap",
-  "etab": "Lycée Saint-Joseph",
-  "ville": "Gap"
  }
 ];
