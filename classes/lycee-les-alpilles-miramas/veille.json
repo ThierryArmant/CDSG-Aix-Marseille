@@ -1,6 +1,18 @@
 {
  "fiche": "lycee-les-alpilles-miramas",
- "elements": [],
+ "elements": [
+  {
+   "type": "article",
+   "date": "2025-10-06",
+   "titre": "Lycée des métiers Les Alpilles - Miramas - OFFICIEL",
+   "extrait": "En avant pour une classe defense 🎖️ Immersion militaire 🎖️",
+   "resume": "Publication LinkedIn du 6 octobre 2025 annonçant le lancement de la classe défense et une immersion militaire pour les élèves du lycée.",
+   "source": "https://fr.linkedin.com/posts/sylvie-andre-754a6a263_lyc%C3%A9e-des-m%C3%A9tiers-les-alpilles-miramas-activity-7380925602046062592-vrKR",
+   "page": "Lycée des métiers Les Alpilles - Miramas - OFFICIEL | Sylvie ANDRE",
+   "site": "fr.linkedin.com (extrait public)",
+   "trouve_le": "2026-11-24"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
@@ -11,35 +23,66 @@
    "date": "2026-11-11",
    "pages": 25,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-24",
+   "pages": 25,
+   "nouveaux": 1
   }
  ],
  "exclus": [],
  "pages_lues": [
   "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://alpilles-durance.org/",
+  "https://alpilles-durance.org/tag/ecole/",
+  "https://alpilles-durance.org/vie-scolaire/reglement-interieur/",
+  "https://cnrdalpillesdurance.blogspot.com/",
+  "https://fr.headtopics.com/news/nous-n-oublions-pas-les-sacrifices-de-ceux-qui-nous-ont-89872116",
+  "https://fr.linkedin.com/posts/alexis-di-segna-892561178_classedefense-11novembre-activity-7395759923151863808-rWFN",
+  "https://fr.linkedin.com/posts/sylvie-andre-754a6a263_lyc%C3%A9e-des-m%C3%A9tiers-les-alpilles-miramas-activity-7380925602046062592-vrKR",
   "https://lyceevaclavhavel.fr/actions/classe_defense/la-classe-defense-remporte-le-1er-prix-national-du-ssa",
+  "https://miramas.fr/active/formation/lycees-une-offre-complete-pour-viser-les-metiers-davenir",
   "https://pompidou-isere.ent.auvergnerhonealpes.fr/1-l-etablissement/actualites/la-classe-defense-poursuit-son-engagement-citoyen-9683.htm",
   "https://www.ac-aix-marseille.fr/la-classe-Defense-du-college-roumanille-en-immersion-aupres-de-son-unite-marraine-126221",
+  "https://www.ac-aix-marseille.fr/lycee-des-metiers",
+  "https://www.ac-aix-marseille.fr/mois-de-l-engagement-citoyen-et-des-valeurs-de-la-republique-au-lycee-des-metiers-les-alpilles-124971",
   "https://www.ac-montpellier.fr/education-a-la-defense-123206",
+  "https://www.catho-aixarles.fr/wp-content/uploads/sites/28/2026/02/enseignement-catholique-2026.pdf",
   "https://www.facebook.com/Ville.de.Miramas/posts/1%C3%A8re-c%C3%A9r%C3%A9monie-des-bacheliers-%C3%A0-miramas-200-jeunes-r%C3%A9compens%C3%A9s-pour-lobtention-d/5183811825067936",
   "https://www.facebook.com/Ville.de.Miramas/posts/education%F0%9D%97%A0%F0%9D%97%B6%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%BA%F0%9D%97%AE%F0%9D%98%80-%F0%9D%97%BA%F0%9D%97%B2%F0%9D%98%81-%F0%9D%97%AE%CC%80-%F0%9D%97%B9%F0%9D%97%B5%F0%9D%97%BC%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%B2%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%B9%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%B3%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B6%F0%9D%97%B2%CC%80%F0%9D%97%BF%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%BD%F0%9D%97%BF%F0%9D%97%BC%F0%9D%97%B3%F0%9D%97%B2%F0%9D%98%80%F0%9D%98%80%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB%F0%9D%97%BB%F0%9D%97%B2%F0%9D%97%B9%F0%9D%97%B9%F0%9D%97%B2%F0%9D%98%80-%F0%9D%97%B2%F0%9D%98%81-%F0%9D%97%B9%F0%9D%97%AE-%F0%9D%97%BA%F0%9D%97%BC%F0%9D%97%AF%F0%9D%97%B6%F0%9D%97%B9%F0%9D%97%B6%F0%9D%98%81%F0%9D%97%B2%CC%81-/1468561558646835",
   "https://www.facebook.com/Ville.de.Miramas/videos/-d%C3%A9couvrez-les-diff%C3%A9rentes-fili%C3%A8res-du-lyc%C3%A9e-les-alpilles/785809279014897",
   "https://www.facebook.com/Ville.de.Miramas/videos/lyc%C3%A9e-les-alpilles/560409511498511",
   "https://www.facebook.com/mairiedesommieres/posts/coll%C3%A8ge-gdoumergue-classe-d%C3%A9fensemardi-4-mars-les-%C3%A9l%C3%A8ves-de-la-classe-d%C3%A9fense-du/1055072296657091",
   "https://www.facebook.com/santearmees/videos/ils-ont-relev%C3%A9-le-d%C3%A9fi-ils-remportent-le-concours-national-des-classes-de-d%C3%A9fen/1301788792138214",
+  "https://www.guidedesdemarches.com/LYCEE/lycee-professionnel-alpilles-2418.htm",
+  "https://www.laprovence.com/article/edition-arles/2559223/concours-de-la-resistance-et-la-deportation-le-college-alpilles-durance-recoit-le-prix-dencouragem",
+  "https://www.laprovence.com/article/edition-arles/3543469/les-laureats-du-pays-darles-en-voyage.html",
+  "https://www.laprovence.com/article/edition-arles/4698705/de-nouveaux-locaux-amenages-au-college-alpilles-durance.html",
+  "https://www.laprovence.com/article/edition-salon/3019896/2-710-collegiens-et-lyceens-attendus-dans-le-secondaire.html",
+  "https://www.laprovence.com/article/edition-salon/3897854/le-lycee-des-alpilles-ouvre-ses-portes-aux-futurs-eleves.html",
   "https://www.laprovence.com/article/faits-divers-justice/54155041978310/les-lyceens-de-miramas-maintiennent-les-blocus-entre-revendications-et-tensions-avec-les-forces-de-lordre",
   "https://www.laprovence.com/article/region/1059321194935915/des-eleves-du-lycee-professionnel-les-alpilles-de-miramas-menent-des-actions-en-faveur-de-la-planete",
   "https://www.laprovence.com/article/region/109674348451514/portes-ouvertes-au-lycee-les-alpilles-de-miramas-150-familles-et-une-immersion-reussie-dans-les-metiers-de-demain",
+  "https://www.laprovence.com/article/region/29092609305533/plus-de-300-eleves-etaient-reunis-au-college-alpilles-durance-pour-le-devoir-de-memoire-a-rognonas",
+  "https://www.laprovence.com/article/region/30451765066851/nouveaux-chefs-d-etablissement-effectifs-ouverture-d-internat-l-actualite-des-colleges-et-lycees-de-miramas",
+  "https://www.laprovence.com/article/region/46865627078074/ils-nous-etonnent-par-leurs-valeurs-et-leur-engagement-ces-lyceens-de-miramas-ont-ete-mis-a-lhonneur",
   "https://www.laprovence.com/article/region/69812493169626/miramas-une-serie-de-conferences-pour-parfaire-sa-culture-g-au-lycee-des-metiers-les-alpilles",
+  "https://www.laprovence.com/article/societe/12969107474862/les-motards-de-l-association-ubaka-encouragent-les-collegiens-de-rognonas-a-oser-parler-en-cas-de-harcelement",
   "https://www.laprovence.com/article/societe/30055324268783/les-3-660-eleves-du-secondaire-ont-fait-leur-rentree-cette-semaine-a-miramas",
   "https://www.laprovence.com/article/societe/94616813187898/je-me-regale-de-voir-les-eleves-se-realiser-a-miramas-au-lycee-alpilles-ces-jeunes-osent-rever-plus-grand",
   "https://www.ledauphine.com/archives/2025/12-04",
   "https://www.ledauphine.com/archives/2025/21-05",
   "https://www.ledauphine.com/bouches-du-rhone/eyguieres",
+  "https://www.ledauphine.com/education/2026/04/03/classement-2026-voila-les-meilleurs-colleges-de-votre-departement",
+  "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-prive-alpilles-durance-13.html",
   "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-professionnel-les-alpilles-lycee-des-metiers-les-alpilles-13.html",
   "https://www.lyc-alpilles.ac-aix-marseille.fr",
   "https://www.metiers-foret-bois.org/etablissement/lycee-professionnel-les-alpilles",
   "https://www.miramas.fr/actualites/la-ceremonie-des-bacheliers",
-  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-professionnel-les-alpilles"
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/college-alpilles-durance",
+  "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/bouches-du-rhone/lycee-professionnel-les-alpilles",
+  "https://www.terre.defense.gouv.fr/sites/default/files/lyceedefenseterre/Circulaire%20relative%20%C3%A0%20l%27admission%20dans%20les%20classes%20de%20lyc%C3%A9es%20de%20l%27enseignement%20du%20second%20degr%C3%A9.pdf"
  ],
- "etablissement": "Lycée Les Alpilles (Miramas)"
+ "etablissement": "Lycée Les Alpilles (Miramas)",
+ "referents_cites": "Sylvie ANDRE"
 }

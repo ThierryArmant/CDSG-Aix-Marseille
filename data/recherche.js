@@ -3048,13 +3048,23 @@ window.CDSG_WEB = {
   "resume": "La classe Défense et Sécurité Globale du Collège Arausio a vu sa convention actual"
  },
  "lycee-les-alpilles-miramas": {
-  "date": "11/11/2026",
-  "nb": 0,
+  "date": "24/11/2026",
+  "nb": 1,
   "photo": null,
-  "derniere_activite": null,
-  "derniers": {},
+  "derniere_activite": "2025-10-06",
+  "derniers": {
+   "article": {
+    "date": "2025-10-06",
+    "titre": "Lycée des métiers Les Alpilles - Miramas - OFFICIEL",
+    "resume": "Publication LinkedIn du 6 octobre 2025 annonçant le lancement de la classe défense et une immersion militaire pour les élèves du lycée.",
+    "source": "https://fr.linkedin.com/posts/sylvie-andre-754a6a263_lyc%C3%A9e-des-m%C3%A9tiers-les-alpilles-miramas-activity-7380925602046062592-vrKR"
+   }
+  },
   "distinctions": [],
-  "sources": []
+  "sources": [
+   "https://fr.linkedin.com/posts/sylvie-andre-754a6a263_lyc%C3%A9e-des-m%C3%A9tiers-les-alpilles-miramas-activity-7380925602046062592-vrKR"
+  ],
+  "resume": "La classe défense du lycée des métiers Les Alpilles à Miramas a été lancée le 6 octobre 2025, avec une première immersion militaire proposée aux élèves. Aucun prix, distinction ou partenariat n’a été communiqué à ce jour. Aucun autre fait marquant n’est indiqué dans les sources disponibles."
  },
  "college-marie-mauron-pertuis": {
   "date": "19/11/2026",
@@ -3242,20 +3252,28 @@ window.CDSG_WEB = {
   "resume": "Le groupe Défense du lycée Pierre‑et‑Louis Poutrain a clôturé son « année d’immersion et de découvertes » le 24 juin 2026, avec notamment la visite du Musée des Troupes de Montagne à Grenoble et l’accueil d’une délégation de la 2ᵉ division. Depuis la signature d’une convention le 11 décembre 2022, le 4ᵉ Rég"
  },
  "college-saint-louis-prive-orange": {
-  "date": "11/11/2026",
-  "nb": 2,
+  "date": "24/11/2026",
+  "nb": 3,
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/E5DB99FE-97B1-4DE3-B47C-059B49E5F38E/FB1200/photo-1788109017.jpg",
    "source": "https://www.ledauphine.com/education/2026/08/30/1-300-eleves-vont-faire-leur-rentree-a-saint-louis",
    "manuel": false
   },
   "derniere_activite": "2026-08-30",
-  "derniers": {},
+  "derniers": {
+   "convention": {
+    "date": "2025-06-24",
+    "titre": "Convention avec l'Union départementale des sapeurs‑pompiers",
+    "resume": "Le dispositif de formation aux gestes qui sauvent est encadré par une convention annuelle entre le collège Saint‑Louis et l'Union départementale des sapeurs‑pompiers du Vaucluse.",
+    "source": "https://www.laprovence.com/article/societe/23036480529890/les-eleves-du-college-saint-louis-a-orange-formes-aux-gestes-de-premiers-secours"
+   }
+  },
   "distinctions": [],
   "sources": [
-   "https://www.ledauphine.com/education/2026/08/30/1-300-eleves-vont-faire-leur-rentree-a-saint-louis"
+   "https://www.ledauphine.com/education/2026/08/30/1-300-eleves-vont-faire-leur-rentree-a-saint-louis",
+   "https://www.laprovence.com/article/societe/23036480529890/les-eleves-du-college-saint-louis-a-orange-formes-aux-gestes-de-premiers-secours"
   ],
-  "resume": "Le 30 août 2026, le Collège Saint‑Louis d’Orange a ouvert une classe défense au sein du lycée. Cette création s’est faite en partenariat avec la Délégation militaire départementale. Aucun prix ou distinction n’a encore été attribué à cette classe."
+  "resume": "Le 30 août 2026, le collège Saint‑Louis d’Orange a ouvert une classe défense en partenariat avec la Délégation militaire départementale. Cette initiative s’appuie également sur une convention annuelle avec l’Union départementale des sapeurs‑pompiers du Vaucluse pour la formation aux gestes qui sauvent. Aucun prix ou distinction n’a été signalé à ce jour."
  },
  "college-jean-jaures-peyrolles-en-provence": {
   "date": "15/11/2026",
@@ -3719,13 +3737,44 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-francois-mitterrand-veynes": {
-  "date": "11/11/2026",
-  "nb": 0,
-  "photo": null,
-  "derniere_activite": null,
-  "derniers": {},
-  "distinctions": [],
-  "sources": []
+  "date": "24/11/2026",
+  "nb": 3,
+  "photo": {
+   "url": "https://feminisonslaeronautique.fr/wp-content/uploads/2022/05/ah-gkbqhqyg-2.png",
+   "source": "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/",
+   "manuel": false
+  },
+  "derniere_activite": "2022-02-19",
+  "derniers": {
+   "distinction": {
+    "date": "2022-02-19",
+    "titre": "1er prix – Collège François Mitterrand – Airbus Helicopters (PACA)",
+    "resume": "Le collège François Mitterrand de Veynes a remporté le premier prix du concours Féminisons les métiers de l’aéronautique, organisé avec Airbus Helicopters, le 19 février 2022.",
+    "source": "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/"
+   },
+   "sortie": {
+    "date": "2022-02",
+    "titre": "Forum des métiers – Gap",
+    "resume": "En février 2022, le collège a participé au Forum des métiers et des formations à Gap, sur le stand de l’E.A.E.A., avec la présence d’une pilote d’Air France.",
+    "source": "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/"
+   }
+  },
+  "distinctions": [
+   {
+    "date": "2022-02-19",
+    "titre": "1er prix – Collège François Mitterrand – Airbus Helicopters (PACA)",
+    "resume": "Le collège François Mitterrand de Veynes a remporté le premier prix du concours Féminisons les métiers de l’aéronautique, organisé avec Airbus Helicopters, le 19 février 2022.",
+    "source": "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/",
+    "verifie": "officielle",
+    "sources": [
+     "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/"
+    ]
+   }
+  ],
+  "sources": [
+   "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/"
+  ],
+  "resume": "En février 2022, le collège François Mitterrand de Veynes a participé au Forum des métiers et des formations à Gap, sur le stand de l’E.A.E.A., avec la présence d’une pilote d’Air France. Le 19 février 2022, il"
  },
  "college-philibert-le-puy-sainte-reparade": {
   "date": "11/11/2026",
@@ -3985,8 +4034,8 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-jules-verne-le-pontet": {
-  "date": "11/11/2026",
-  "resume": "Le collège Jules Verne a mené, le 11 octobre 2013, une activité pédagogique sur le centenaire de la Première Guerre mondiale, avec la visite de l’association des Poilus du Vaucluse qui a présenté le quotidien des soldats de 1914‑1918. Aucun prix ni distinction n’est mentionné dans les sources disponibles. L’association des Poilus du Vaucluse apparaît comme le principal partenaire de ce projet.",
+  "date": "24/11/2026",
+  "resume": "La classe défense du collège Jules Verne a mené, le 11 octobre 2013, une activité pédagogique commémorant le centenaire de la Première Guerre mondiale, en collaboration avec l’association des Poilus du Vaucluse et des professeurs d’histoire. Aucun prix ni distinction n’est mentionné dans les sources disponibles. Le principal partenaire identifié pour cette action est l’association des Poilus du Vaucluse, qui a animé la séance du 8 octobre 2013 sur le quotidien des soldats de 1914‑1918.",
   "photo": {
    "url": "https://i.servimg.com/u/f58/17/51/81/51/100_0210.jpg",
    "source": "https://www.passionmilitaria.com/t58212-college-jules-vernes-a-avignon-le-pontet",
@@ -4125,7 +4174,7 @@ window.CDSG_WEB = {
   "sources": []
  },
  "college-victor-sch-lcher-sainte-cecile-les-vignes": {
-  "date": "11/11/2026",
+  "date": "24/11/2026",
   "nb": 0,
   "photo": null,
   "derniere_activite": null,

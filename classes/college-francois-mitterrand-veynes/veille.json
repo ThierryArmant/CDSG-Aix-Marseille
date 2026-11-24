@@ -1,40 +1,106 @@
 {
  "fiche": "college-francois-mitterrand-veynes",
- "elements": [],
+ "elements": [
+  {
+   "type": "distinction",
+   "date": "2022-02-19",
+   "titre": "1er prix – Collège François Mitterrand – Airbus Helicopters (PACA)",
+   "extrait": "1e prix : Collège François Mitterrand, Veynes – Airbus Helicopters (PACA) 19 février 2022",
+   "resume": "Le collège François Mitterrand de Veynes a remporté le premier prix du concours Féminisons les métiers de l’aéronautique, organisé avec Airbus Helicopters, le 19 février 2022.",
+   "source": "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/",
+   "page": "1e pri - Féminisons les métiers de l'aéronautique",
+   "site": "Féminisons les métiers de l'aéronautique",
+   "image": "https://feminisonslaeronautique.fr/wp-content/uploads/2022/05/ah-gkbqhqyg-2.png",
+   "image_nature": "illustration_article",
+   "trouve_le": "2026-11-24"
+  },
+  {
+   "type": "sortie",
+   "date": "2022-02",
+   "titre": "Forum des métiers – Gap",
+   "extrait": "Février 2022 : Participation au Forum des métiers et des formations à Gap sur le stand de l’E.A.E.A., présence d’une pilote d’Air France",
+   "resume": "En février 2022, le collège a participé au Forum des métiers et des formations à Gap, sur le stand de l’E.A.E.A., avec la présence d’une pilote d’Air France.",
+   "source": "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/",
+   "page": "1e pri - Féminisons les métiers de l'aéronautique",
+   "site": "Féminisons les métiers de l'aéronautique",
+   "trouve_le": "2026-11-24"
+  },
+  {
+   "type": "sortie",
+   "date": "2021-12",
+   "titre": "Exposition écoles primaires",
+   "extrait": "Décembre 2021 : exposition dans les écoles primaires « Les femmes célèbres de l’aéronautique et du spatial »",
+   "resume": "En décembre 2021, le collège a organisé une exposition dans les écoles primaires sur les femmes célèbres de l’aéronautique et du spatial.",
+   "source": "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/",
+   "page": "1e pri - Féminisons les métiers de l'aéronautique",
+   "site": "Féminisons les métiers de l'aéronautique",
+   "trouve_le": "2026-11-24"
+  }
+ ],
  "recherches": [
   {
    "date": "2026-11-11",
    "pages": 25,
    "nouveaux": 0
+  },
+  {
+   "date": "2026-11-24",
+   "pages": 26,
+   "nouveaux": 3
   }
  ],
  "exclus": [],
  "pages_lues": [
   "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
+  "https://academie-arras.fr/images/PDF/palmares%202025.pdf",
   "https://annuaire-education.fr/etablissement/veynes/college-francois-mitterrand/0050022X.html",
   "https://annuaire.ecole-futee.com/etablissement/0050022X",
   "https://blogpeda.ac-bordeaux.fr/fmitterrand/2024/11/13/classe-defense-au-college-francois-mitterrand",
+  "https://blogpeda.ac-bordeaux.fr/fmitterrand/2024/11/13/classe-defense-au-college-francois-mitterrand/",
+  "https://campus-industriefutur-sud.com/feminisons-laeronautique-podium-et-1er-prix/",
   "https://college-lycee.com/college-francois-mitterrand/Veynes-0050022X",
   "https://copainsdavant.linternaute.com/e/college-francois-mitterrand-23003?type=photos&page=2",
+  "https://feminisonslaeronautique.fr/portfolio/college-francois-mitterrand-veynes-airbus-helicopters-paca/",
   "https://tavily.com/knowledge/company/z96NJFyQX3tV",
   "https://ville-data.com/college/College-Francois-Mitterrand-05400/Veynes/5-53162-05179",
   "https://www.ac-toulouse.fr/creation-d-une-classe-defense-au-college-francois-mitterrand-de-moissac-130461",
+  "https://www.anmonm.org/news/remise-d-un-drapeau-a-la-classe-defense-du-college-mitterrand-de-pessac-4167",
+  "https://www.culture.gouv.fr/Media/medias-creation-rapide/brochure-prix-de-l-audace-artistique-et-culturelle.pdf3",
+  "https://www.defense.gouv.fr/sites/default/files/sga/Les%20familles%20des%20classes%20de%20d%C3%A9fense%20partie%201.pdf",
+  "https://www.defense.gouv.fr/sites/default/files/sga/classes_defense_en_action_20221014.pdf",
   "https://www.facebook.com/BFMDICI/videos/veynes-vive-%C3%A9motion-apr%C3%A8s-la-mort-en-wingsuit-dun-professeur-deps/1233540797801849",
   "https://www.facebook.com/CampusIndustriefuturSud/photos/fiers-dannoncer-que-le-coll%C3%A8ge-fran%C3%A7ois-mitterrand-de-veynes-remporte-le-1er-pri/3447786415324306",
   "https://www.facebook.com/CampusIndustriefuturSud/posts/fiers-dannoncer-que-le-coll%C3%A8ge-fran%C3%A7ois-mitterrand-de-veynes-remporte-le-1er-pri/3447786725324275",
   "https://www.facebook.com/groups/claudenougaro/posts/1621935539482175",
   "https://www.facebook.com/lepasdeloiseau/posts/parcours-th%C3%A9%C3%A2tre-pour-la-jeunessece-matin-les-classes-de-4e-et-de-3e-du-coll%C3%A8ge-/1570988017696991",
+  "https://www.hautes-alpes.fr/annuaire/college-francois-mitterrand/",
+  "https://www.ladepeche.fr/2024/11/19/sensibiliser-les-jeunes-des-eleves-du-college-mitterrand-de-moissac-integrent-une-classe-defense-pour-etre-au-plus-pres-des-activites-de-larmee-12333260.php",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/2552888/presentation-et-initiation-aux-sports-scolaires-au-college-mitterrand.html",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/3561493/une-rentree-sur-le-mode-environnemental-au-college.html",
+  "https://www.laprovence.com/article/edition-aix-pays-daix/3970062/previsions-ensoleillees-pour-la-station-meteo-du-college.html",
   "https://www.laprovence.com/article/edition-aix-pays-daix/4126227/proviseurs-et-principaux-sortent-de-leur-reserve.html",
+  "https://www.laprovence.com/article/faits-divers-justice/4533767/apres-midi-des-talents-au-college-mitterrand.html",
+  "https://www.ledauphine.com/culture-loisirs/2021/06/26/concours-d-aeronautique-la-premiere-place-remportee-par-le-college",
   "https://www.ledauphine.com/education/2022/05/04/manque-de-personnel-le-college-francois-mitterrand-mobilise",
   "https://www.ledauphine.com/education/2022/09/01/une-restructuration-complete-du-college-prevue-en-2023",
   "https://www.ledauphine.com/education/2022/10/12/le-personnel-educatif-du-college-francois-mitterrand-sous-tension",
+  "https://www.ledauphine.com/education/2024/06/23/pluie-de-recompenses-pour-les-collegiens-poetes",
+  "https://www.ledauphine.com/education/2025/09/01/la-rentree-scolaire-du-college-et-du-lycee-de-veynes-se-fait-sous-une-direction-commune",
+  "https://www.ledauphine.com/education/2025/09/04/transport-scolaire-les-eleves-de-6e-sensibilises-a-la-securite",
+  "https://www.ledauphine.com/education/2025/11/16/la-promotion-2025-du-college-francois-mitterrand-diplomee",
+  "https://www.ledauphine.com/education/2026/09/02/la-rentree-des-6-sup-e-sup-au-college-francois-mitterrand",
   "https://www.ledauphine.com/hautes-alpes/2016/11/23/les-eleves-du-college-francois-mitterrand-ont-recu-leur-diplome-national-du-brevet",
   "https://www.ledauphine.com/hautes-alpes/2019/08/29/college-francois-mitterrand-la-rentree-scolaire-en-ligne-de-mire",
   "https://www.ledauphine.com/societe/2026/10/17/260-eleves-au-depart-du-cross-du-college-francois-mitterrand",
   "https://www.letudiant.fr/college/annuaire-des-colleges/fiche/college-francois-mitterrand-05.html",
+  "https://www.midilibre.fr/2018/07/05/le-college-mitterrand-un-bouillon-de-culture,4644830.php",
+  "https://www.midilibre.fr/2022/06/26/pluie-de-prix-au-college-10397086.php",
   "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/hautes-alpes/college-francois-mitterrand",
   "https://www.site.ac-aix-marseille.fr/clg-mitterrand-veynes/",
-  "https://www.site.ac-aix-marseille.fr/clg-mitterrand-veynes/spip"
+  "https://www.site.ac-aix-marseille.fr/clg-mitterrand-veynes/spip",
+  "https://www.site.ac-aix-marseille.fr/clg-mitterrand-veynes/spip/?lang=fr",
+  "https://www.sudouest.fr/gironde/pessac/a-nous-le-souvenir-a-eux-l-immortalite-devoir-de-memoire-au-college-francois-mitterrand-de-pessac-avec-les-eleves-de-la-classe-defense-31498243.php",
+  "https://www.sudouest.fr/gironde/pessac/pessac-la-convention-de-partenariat-de-la-classe-defense-a-ete-renouvelee-au-college-francois-mitterrand-30693218.php"
  ],
  "etablissement": "Collège François Mitterrand (Veynes)"
 }
