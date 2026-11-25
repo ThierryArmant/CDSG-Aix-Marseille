@@ -2340,8 +2340,8 @@ window.CDSG_WEB = {
   "resume": "Le 15 mai 2025, la promotion 202"
  },
  "lycee-professionnel-la-floride-marseille": {
-  "date": "11/11/2026",
-  "resume": "La classe défense du lycée professionnel La Floride (Marseille) est encadrée par le lieutenant Royer, qui enseigne également à l’Estaque. Son unité marraine est le 503e Régiment du train.",
+  "date": "25/11/2026",
+  "resume": "La classe défense du lycée professionnel La Floride, encadrée par le lieutenant Royer, est parrainée par le 503e Régiment du train. Le 30 septembre 2026, cinq élèves de cette classe",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/30/lycee-paul-langevin-martigues-mobilisation-lyceens-blocus-lycee-1790758866_ae0f411fccba6821f411fccba761f4v_.jpg",
    "source": "https://www.laprovence.com/article/societe/7183251002019414/blocus-des-lycees-a-marseille-aix-et-martigues-la-colere-des-eleves-ne-faiblit-pas-ce-mercredi",
@@ -2658,14 +2658,14 @@ window.CDSG_WEB = {
   "resume": "En mars 2026, le Collège Chape a signé une convention de classe défense et une convention de partenariat pour son atelier défense avec le BRF Jacques Chevallier, brigade de fusiliers marins de la base navale de Toulon, qui constitue son unité marraine. Aucun prix ou distinction n’est mentionné dans les éléments de veille. Le BRF Jacques Chevallier reste le principal partenaire de la classe défense"
  },
  "college-alphonse-daudet-carpentras": {
-  "date": "11/11/2026",
-  "resume": "Le 31 mars 2020, les vingt élèves de la classe Défense du collège Alphonse Daudet ont effectué une sortie à bord d’un sous‑marin",
+  "date": "25/11/2026",
+  "resume": "En avril 2026, la classe Défense du collège Alphonse",
   "photo": {
    "url": "https://www.ici.fr/pikapi/images/62e54915-9e31-42c7-adc0-ea4bb2b6fbf3/1200x630?webp=false",
    "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385",
    "manuel": false
   },
-  "nb": 12,
+  "nb": 16,
   "derniere_activite": "2026-04-06",
   "derniers": {
    "distinction": {
@@ -2681,10 +2681,10 @@ window.CDSG_WEB = {
     "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385"
    },
    "ceremonie": {
-    "date": "2020-02-13",
-    "titre": "Cérémonie du 11 novembre",
-    "resume": "Les élèves et leurs familles de la classe Défense assistent chaque année à la cérémonie du 11 novembre.",
-    "source": "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385"
+    "date": "2022-05-08",
+    "titre": "Cérémonie du 8 mai 2022 à Carpentras",
+    "resume": "La classe Défense du Collège Alphonse Daudet a participé à la cérémonie du 8 mai 2022 organisée par la ville de Carpentras, en présence du maire Serge Andrieu et du Conseil Municipal des Enfants.",
+    "source": "https://www.facebook.com/Carpentras/posts/-ce-dimanche-8-mai-2022-la-ville-de-carpentras-a-honor%C3%A9-la-m%C3%A9moire-des-acteurs-d/10158864650940914/"
    },
    "convention": {
     "date": "2019-09-24",
@@ -2719,8 +2719,12 @@ window.CDSG_WEB = {
   ],
   "sources": [
    "https://www.laprovence.com/article/politique/26227111636542/le-premier-forum-des-metiers-du-college-alphonse-daudet-de-carpentras-reunit-38-intervenants",
+   "https://www.facebook.com/Carpentras/posts/-ce-dimanche-8-mai-2022-la-ville-de-carpentras-a-honor%C3%A9-la-m%C3%A9moire-des-acteurs-d/10158864650940914/",
    "https://www.ici.fr/infos/education/une-classe-defense-au-college-de-carpentras-pour-apprendre-les-valeurs-de-la-republique-1581610385",
+   "https://www.site.ac-aix-marseille.fr/clg-daudet-carpentras/spip/-Education-Musicale-.html",
+   "https://www.site.ac-aix-marseille.fr/clg-daudet-carpentras/spip/spip.php?page=plan&tri_arts=date",
    "https://www.ledauphine.com/vaucluse/2019/09/24/une-classe-defense-ouverte-au-college-daudet",
+   "https://www.pedagogie.ac-aix-marseille.fr/jcms/c_177509/en/actions-transversales",
    "https://www.facebook.com/Carpentras/posts/classe-d%C3%A9fense-coll%C3%A8ge-adaudet-la-classe-d%C3%A9fense-est-une-cr%C3%A9ation-en-partenariat/10156675874600914"
   ]
  },
@@ -3107,13 +3111,27 @@ window.CDSG_WEB = {
   "resume": "Le 13 mars 2026, les élèves de la classe Défense du collège Marie‑Mauron (Pertuis) ont effectué une sortie pédagogique d’aéronautique au musée de l’aviation de Saint‑Victoret, suivie d’une visite du site d’Airbus à Marignane. La classe est parrainée par le CIRFA d’Aix, unité marraine avec laquelle le collège a renouvelé une convention en novembre 2025. M. Morille (HG) assure la fonction de professeur référent de cette classe."
  },
  "college-de-la-batie-neuve-la-batie-neuve": {
-  "date": "11/11/2026",
-  "nb": 0,
-  "photo": null,
-  "derniere_activite": null,
-  "derniers": {},
+  "date": "25/11/2026",
+  "nb": 1,
+  "photo": {
+   "url": "https://cdn-s-www.ledauphine.com/images/0A7CC40B-4EB9-41DD-A510-C9331800A2F9/FB1200/photo-1647004053.jpg",
+   "source": "https://www.ledauphine.com/defense-guerre-conflit/2022/03/11/les-collegiens-se-mobilisent-pour-l-ukraine",
+   "manuel": false
+  },
+  "derniere_activite": "2022-03-11",
+  "derniers": {
+   "article": {
+    "date": "2022-03-11",
+    "titre": "Les collégiens se mobilisent pour l’Ukraine",
+    "resume": "Le 11 mars 2022, le Dauphiné Libéré rapporte que les élèves du collège Simone‑Veil de La Bâtie‑Neuve ont organisé une collecte de dons pour l’Ukraine, mobilisant chaque classe.",
+    "source": "https://www.ledauphine.com/defense-guerre-conflit/2022/03/11/les-collegiens-se-mobilisent-pour-l-ukraine"
+   }
+  },
   "distinctions": [],
-  "sources": []
+  "sources": [
+   "https://www.ledauphine.com/defense-guerre-conflit/2022/03/11/les-collegiens-se-mobilisent-pour-l-ukraine"
+  ],
+  "resume": "Activité la plus récente : le 11 mars 2022, les collégiens du collège Simone‑Veil de La Bâtie‑Neuve ont organisé une collecte de dons en faveur de l’Ukraine, mobilisant chaque classe. Aucun prix, distinction ou partenariat n’est mentionné dans les éléments de veille. Aucun autre fait marquant n’est répertorié."
  },
  "college-grande-bastide-marseille-9e": {
   "date": "22/11/2026",
@@ -3416,8 +3434,8 @@ window.CDSG_WEB = {
   "resume": "En juin 2026, le collège Frédéric Mistral a signé une convention avec la Flottille 31F, qui devient l’unité marraine de la classe défense. Aucun prix ou distinction n’est mentionné, mais les partenaires de la classe sont la Flottille 31F et les sapeurs‑pompiers de Port‑de‑Bouc, qui assurent la formation en sécurité civile. La première promotion, constituée en mars 2021, comptait neuf filles et sept garçons, affichant ainsi une majorité féminine dès le lancement du dispositif."
  },
  "eboli-jas-de-bouffan-aix-en-provence": {
-  "date": "11/11/2026",
-  "nb": 2,
+  "date": "25/11/2026",
+  "nb": 3,
   "photo": null,
   "derniere_activite": "2022-02-15",
   "derniers": {
@@ -3430,9 +3448,10 @@ window.CDSG_WEB = {
   },
   "distinctions": [],
   "sources": [
-   "https://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense"
+   "https://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/lycees-militaires-defense",
+   "https://www.site.ac-aix-marseille.fr/clg-jasdebouffan/spip/"
   ],
-  "resume": "En 2022, le lycée militaire d’Aix‑en‑Provence (classe Éboli – Jas de Bouffan) a été répertorié parmi les six lycées de la Défense sur le site du ministère des Armées. Il participe depuis 2018 au « plan lycées », visant à élargir l’offre de formation, rénover les infrastructures et renforcer l’excellence comportementale. Aucun prix ou distinction n’est mentionné dans les éléments de veille disponibles."
+  "resume": "En février 2022, le lycée militaire d’Aix‑en‑Provence, auquel appartient le collège Muriel Hurtis, a été répertorié parmi les six lycées de la Défense du ministère des Armées. Depuis"
  },
  "college-du-pays-de-sault-sault": {
   "date": "18/11/2026",
@@ -4211,8 +4230,8 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-joseph-vernet-avignon": {
-  "date": "11/11/2026",
-  "resume": "La convention de la classe défense du Collège Joseph Vernet est prête depuis octobre 2026. L’unité marraine de ce dispositif est le DMD 84, qui souhaite même une frégate de Toulon comme soutien. Une vidéo de Réunion la 1ère montre que les élèves de 3e sont déjà formés aux métiers de l’armée.",
+  "date": "25/11/2026",
+  "resume": "La convention de la classe défense du Collège Joseph Vernet est prête depuis octobre 2026. L’unité marraine de ce dispositif est le DMD 84, qui souhaite notamment une frégate de Toulon. Une vidéo de Réunion la 1ère montre que les élèves de 3e sont formés aux métiers de l’armée.",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2025/07/15/avignon-festival-off-radio-broutage-au-college-vernet-avec-les-acteurs-sebastien-bouchet-et-sylvain-1752598842_b7f2efd692786abf2efd692787ff2ev_.jpg",
    "source": "https://www.journaldesfemmes.fr/maman/ecole/college-joseph-vernet/college-0840697B",
