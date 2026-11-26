@@ -3796,8 +3796,8 @@ window.CDSG_WEB = {
   "resume": "En février 2022, le collège François Mitterrand de Veynes a participé au Forum des métiers et des formations à Gap, sur le stand de l’E.A.E.A., avec la présence d’une pilote d’Air France. Le 19 février 2022, il"
  },
  "college-philibert-le-puy-sainte-reparade": {
-  "date": "11/11/2026",
-  "resume": "Le 9 septembre 2026, le collège Philibert a présenté une classe défense où les élèves de 3e ont été initiés aux métiers de l’armée, diffusion réalisée dans un post vidéo de Réunion la 1ère.",
+  "date": "26/11/2026",
+  "resume": "Le 9 septembre 2026, le collège Philibert a présenté une classe défense destinée aux élèves de 3e, avec une initiation aux métiers de l’armée, diffusée dans un post vidéo de Réunion la 1ère. Aucun prix, distinction ou récompense n’a été signalé pour cette",
   "nb": 1,
   "derniere_activite": "2026-09-09",
   "derniers": {
@@ -3870,8 +3870,8 @@ window.CDSG_WEB = {
   ]
  },
  "lycee-mediterranee-la-ciotat": {
-  "date": "11/11/2026",
-  "resume": "En juin 2026, la classe défense du lycée polyvalent de la Méditerranée (La Ciotat) est en cours de discussion pour la signature d’une convention de classe défense. Son unité marraine est le Groupe de plongeurs démineurs de la Méditerranée. Aucun prix ou distinction n’est mentionné dans les éléments de veille.",
+  "date": "26/11/2026",
+  "resume": "En juin 2026, la classe défense du lycée polyvalent de la Méditerranée poursuit les démarches pour signer une convention de classe défense. L’unité marraine de la classe est le Groupe de plongeurs démineurs de la Méditerranée, désignée depuis avril 2025. Aucune distinction ou prix n’a été signalé à ce jour.",
   "photo": {
    "url": "https://www.upsti.fr/static/fav/mstile-310x310.png",
    "source": "https://www.site.ac-aix-marseille.fr/lyc-mediterranee/spip/Non-Au-Harcelement.html",
@@ -4028,8 +4028,8 @@ window.CDSG_WEB = {
   ]
  },
  "college-auguste-renoir-marseille": {
-  "date": "11/11/2026",
-  "resume": "La classe défense a été créée le 26 janvier 2024 au collège Henri Barnier, avec la mise en ligne d’une rubrique d’articles et d’un lien vers le site du ministère de la Défense. Sa première sortie marquante a été la visite de la base aérienne 701, encadrée par VUIDOT G. Aucun prix ou distinction n’a encore été décerné, le ministère de la Défense étant le principal partenaire institutionnel.",
+  "date": "26/11/2026",
+  "resume": "La classe défense du collège Auguste Renoir a été créée le 26 janvier 2024, avec la mise en ligne d’une rubrique d’articles et d’un lien vers le site du ministère de la Défense. La première sortie marquante a été la visite de la base aérienne 701, encadrée par VUIDOT G. Aucun prix ni distinction n’a encore été attribué à la classe.",
   "nb": 2,
   "derniere_activite": "2024-01-26",
   "derniers": {
@@ -4158,8 +4158,8 @@ window.CDSG_WEB = {
   ]
  },
  "lycee-pierre-mendes-france-2e-partenariat-vitrolles": {
-  "date": "11/11/2026",
-  "resume": "En avril 2026, le lycée Pierre‑Mendès‑France a engagé des discussions pour formaliser une convention de partenariat avec la Direction Générale de l’Armement d’Istres, unité marraine de sa classe défense. Aucun prix ni distinction n’est répertorié à ce jour pour la classe défense. Le référent de la classe est M. Chiarri, qui assure le suivi du projet de convention.",
+  "date": "26/11/2026",
+  "resume": "La classe défense du lycée Pierre‑Mendès‑France a engagé en avril 2026 des discussions pour formaliser une convention de partenariat avec la Direction Générale de l’Armement (DGA) d’Istres, qui est déjà son unité marraine. Aucun prix ni distinction n’est répertorié à ce jour pour la classe. Le référent de la classe défense est M. Chiarri.",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/05/08/les-lyceens-de-mendes-france-chantent-imagine-1778244664_37aba5db1fe964baba5db1fe94fabav_.jpg",
    "source": "https://www.site.ac-aix-marseille.fr/lyc-mendesfrance-vitrolles/spip/",
@@ -4261,15 +4261,27 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-d-arbaud-salon-de-provence": {
-  "date": "11/11/2026",
-  "resume": "Aucune activité récente n’est mentionnée pour la classe défense du Collège d’Arbaud. Aucun prix ni distinction n’a été signalé. Le collège indique simplement une rubrique « Autres partenaires défense », sans préciser d’organisations ou d’activités associées.",
-  "nb": 1,
+  "date": "26/11/2026",
+  "resume": "La classe défense du collège Joseph d’Arbaud a récemment participé, le 30 avril 2026, à la journée du rallye citoyen où les élèves ont défilé et chanté la Marseillaise devant les militaires de la base. Un partenariat a été officialisé le 9 mai 2026 entre la Délégation Militaire Départementale des Bouches‑du‑Rhône et le ministère de l’Éducation nationale pour soutenir ces actions. Le site du collège mentionne également une rubrique « Autres partenaires défense », sans précision d’activités ou de distinctions associées.",
+  "nb": 3,
   "sources": [
+   "https://www.laprovence.com/article/region/1904006646908514/la-base-aerienne-701-de-salon-de-provence-a-ouvert-ses-portes-a-des-collegiens-pour-lerrallye-citoyen",
    "https://www.site.ac-aix-marseille.fr/clg-darbaud-salon/spip/"
   ],
-  "photo": null,
-  "derniere_activite": null,
-  "derniers": {},
+  "photo": {
+   "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/05/09/les-collegiens-chantent-la-marseillaise-devant-les-grades-1778307374_e35036036bf968f5036036bf947603v_.jpg",
+   "source": "https://www.laprovence.com/article/region/1904006646908514/la-base-aerienne-701-de-salon-de-provence-a-ouvert-ses-portes-a-des-collegiens-pour-lerrallye-citoyen",
+   "manuel": false
+  },
+  "derniere_activite": "2026-05-09",
+  "derniers": {
+   "ceremonie": {
+    "date": "2026-04-30",
+    "titre": "Chant de la Marseillaise devant les gradés",
+    "resume": "Lors de la journée du rallye citoyen, les élèves du collège Joseph d’Arbaud ont défilé et chanté la Marseillaise devant les militaires présents sur la base.",
+    "source": "https://www.laprovence.com/article/region/1904006646908514/la-base-aerienne-701-de-salon-de-provence-a-ouvert-ses-portes-a-des-collegiens-pour-lerrallye-citoyen"
+   }
+  },
   "distinctions": []
  },
  "college-charloun-rieu-saint-martin-de-crau": {
