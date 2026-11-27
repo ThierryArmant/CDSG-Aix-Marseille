@@ -58,6 +58,17 @@
    "trouve_le": "2026-11-11"
   },
   {
+   "type": "autre",
+   "date": "2018",
+   "titre": "AS Lycée Agricole des Emeyères",
+   "extrait": "76– AS Lycée Agricole des Emeyères",
+   "resume": "Le lycée agricole des Emeyères de Gap apparaît dans la brochure 2018 de l'Office Municipal des Sports de Gap comme club d'arts martiaux (AS Lycée Agricole des Emeyères).",
+   "source": "http://oms-gap.fr/wp-content/uploads/2018/02/BAT02-GAP-2018.pdf",
+   "page": "BAT02-GAP-2018.pdf",
+   "site": "oms-gap.fr (PDF)",
+   "trouve_le": "2026-11-27"
+  },
+  {
    "type": "distinction",
    "date": null,
    "titre": "Classe défense labellisée",
@@ -97,20 +108,30 @@
    "date": "2026-11-11",
    "pages": 26,
    "nouveaux": 8
+  },
+  {
+   "date": "2026-11-27",
+   "pages": 11,
+   "nouveaux": 1
   }
  ],
  "exclus": [],
  "pages_lues": [
+  "http://oms-gap.fr/wp-content/uploads/2018/02/BAT02-GAP-2018.pdf",
   "http://www.defense.gouv.fr/sga/au-service-nation-du-public/jeunesse/vous-avez-entre-13-18-ans/classes-defense",
   "https://agricampus-hautesalpes.fr",
+  "https://agricampus-hautesalpes.fr/",
   "https://agricampus-hautesalpes.fr/47c59d2d01",
   "https://alpesdusud.alpes1.com/news/locales/20137/tout-le-programme-des-ceremonies-de-commemoration-du-11-novembre",
   "https://educagri.fr/action-educ/sia-gap",
+  "https://fr.linkedin.com/in/valentin-mege-834b0818b",
   "https://gsa05.fr/retour-sur-la-ceremonie-dediee-aux-eleves-ambassadeurs-et-ambassadrices-de-legalite",
   "https://www.agrorientation.com/trouver-ma-formation/les-organismes-de-formation/legta-de-gap",
   "https://www.dailymotion.com/video/x9yr4us",
+  "https://www.debatpublic.fr/sites/default/files/2025-02/CANAL-DE-GAP-BilanConcertation_VF.pdf",
   "https://www.facebook.com/LeDL05/posts/vendredi-3-avril-au-matin-un-village-des-m%C3%A9tiers-%C3%A9t%C3%A9-install%C3%A9-au-lyc%C3%A9e-des-emey%C3%A8/1741103123877079",
   "https://www.facebook.com/cegepduvieuxmontreal/posts/prix-et-r%C3%A9ussite-mollie-cabana-%C3%A9lie-courchesne-et-ga%C3%ABlle-dupuis-se-sont-illustr%C3%A9/630774752427805",
+  "https://www.facebook.com/gapemeyeres/?locale=fr_FR",
   "https://www.facebook.com/gapemeyeres/posts/f%C3%A9licitations-%C3%A0-tous-les-%C3%A9l%C3%A8ves-de-premi%C3%A8re-sapat-cgea-pour-la-qualit%C3%A9-de-leurs-/1524088839720974",
   "https://www.facebook.com/gapemeyeres/posts/le-vendredi-19-mai-dernier-sest-d%C3%A9roul%C3%A9-%C3%A0-aubagne-le-25%C3%A8me-printemps-des-lyc%C3%A9ens/1896186020636208",
   "https://www.facebook.com/gapemeyeres/posts/sortie-%C3%A0-lime-avec-les-terminales-sapat-rencontre-des-professionnels-et-des-jeun/1428330452630147",
@@ -118,15 +139,21 @@
   "https://www.facebook.com/gapemeyeres?locale=fr_FR",
   "https://www.facebook.com/prefet05/videos/centenaire-de-larmistice-du-11-novembre-1918lharmonie-municipale-de-gap-a-propos/721830614856873",
   "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
+  "https://www.google.com/goto?url=CAESYwHEIkXX1h_PF04zwyh3XiX0Ycqkn97UMcavONDliTwviu7KtVeyV_A8r_VjhdRooidQaMUtunZAP5BtzAA7B8s6z6m6u2gk_LVnAiAYAOqlmTEpPvOrIb4mAb-lk1mFJxantw&gsessionid=GH5OxkTQDtEGzxkY1M6k-5ENf76A8AvGefOSjbwUpbbGo75CQr4q2w",
+  "https://www.google.com/goto?url=CAEStAEBxCJF16N9V2mMiGTDAds2lY4I6YG8P1EwDEfEEMENb5siWh-Li1awATJpNcPATBmRe7J5hsabcDNeKViAQL1MMnMkgVhoVjXqECVyMEOfdxIz5jZ-uIplkLb0L2pIHZ6xaSdYn8wilolSf0zJKtRaKkWVzMonHx5tp19JmwYsLwWEDumfy_PIxz64Hw6YP-q6qyw5Tpu3Wl3Rs1IO2o4GnuTENeP1QVd9d1FN-lXMDI4WRLY&gsessionid=GH5OxkTQDtEGzxkY1M6k-5ENf76A8AvGefOSjbwUpbbGo75CQr4q2w",
+  "https://www.google.com/goto?url=CAESuQEBxCJF13tPRkIvFNC8SPGe2mwKtGi6MFjBKO_BptCq0WkvO_UmeTvKMPO3AJaWKqA1Y-6n9VMrpXSgHS-9RGzr-DQ4fQD2U7QQ8h3ZW8KruDjQoXr8NUdm5sVHZTWW7VDyQOG7WxRXE8wTHwQ0xaRPz5lVuXZj2K12uytNpozKdR08GOder4-G6umKfYqNIcnsG_G8aFzhvCtkIlk83l0iQ1PAD2K4lnbWd4kbkdS0Fcr5xnEmisYDqg&gsessionid=GH5OxkTQDtEGzxkY1M6k-5ENf76A8AvGefOSjbwUpbbGo75CQr4q2w",
+  "https://www.hautes-alpes.gouv.fr/Actions-de-l-Etat/Elections-et-Citoyennete/Citoyennete/Rallye-citoyen-Defense-Premiere-edition-dans-les-Hautes-Alpes",
   "https://www.laprovence.com/actu/en-direct/6266735/une-petite-suite-au-cas-de-variant-sud-africain-au-lycee-de-barcelonnette.html",
   "https://www.laprovence.com/article/region/42189684926937/de-martigues-a-saint-paul-sur-ubaye-anais-reynaud-agricultrice-passionnee-reprend-lexploitation-familiale",
   "https://www.laprovence.com/article/region/85104434608324/salon-de-provence-les-meilleurs-jeunes-bergers-de-la-region-se-sont-affrontes-lors-des-ovinpiades",
+  "https://www.ledauphine.com/economie/2021/09/11/mcfly-et-carlito-de-la-boue-et-une-baleine-une-apres-midi-avec-emmanuel-macron",
   "https://www.ledauphine.com/education/2026/11/09/ca-leur-ouvre-l-esprit-la-classe-de-defense-permet-de-decouvrir-les-coulisses-de-l-armee",
   "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-denseignement-general-et-technologique-agricole-de-gap-05.html",
   "https://www.onisep.fr/ressources/structures-enseignement/provence-alpes-cote-d-azur/hautes-alpes/agricampus-hautes-alpes",
   "https://www.osrar.fr/jeunes/centres-de-formation/lycee-agricole-des-hautes-alpes",
   "https://www.site.ac-aix-marseille.fr/clg-garcins/",
-  "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html"
+  "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html",
+  "https://www.ville-gap.fr/wp-content/uploads/2025/07/04.01.REGLEMENT_13.06.205_compressed.pdf"
  ],
  "etablissement": "Lycée agricole des Emeyères (Gap)",
  "referents_cites": [

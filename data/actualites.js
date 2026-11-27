@@ -1,6 +1,18 @@
 // Dernières nouvelles du réseau — généré par recherche/recherche_web.py
 window.CDSG_ACTUS = [
  {
+  "date": "2026-11-24",
+  "type": "ceremonie",
+  "titre": "Activité autour du 11 novembre et de Remembrance Day",
+  "resume": "Les élèves de 6e et 4e ont participé à une activité d’hommage le 11 novembre, expliquant le Remembrance Day et le symbole du coquelicot.",
+  "source": "https://www.site.ac-aix-marseille.fr/clg-rimbaud/spip/",
+  "image": null,
+  "site": "site.ac-aix-marseille.fr",
+  "fiche": "college-arthur-rimbaud-marseille",
+  "etab": "Collège Arthur Rimbaud",
+  "ville": "Marseille"
+ },
+ {
   "date": "2026-11-19",
   "type": "article",
   "titre": "Présentation des CRS de montagne",
@@ -157,6 +169,42 @@ window.CDSG_ACTUS = [
   "ville": "Saint-Martin-de-Crau"
  },
  {
+  "date": "2026-11-10",
+  "type": "ceremonie",
+  "titre": "Cérémonie interne de commémoration du 11‑Novembre",
+  "resume": "Le 10 novembre 2026, le collège Charloun Rieu a tenu sa première cérémonie interne du 11‑Novembre, rassemblant direction, enseignants, personnel et élèves.",
+  "source": "https://www.site.ac-aix-marseille.fr/clg-rieu/spip/La-communaute-scolaire-unie-pour-la-commemoration-du-11-Novembre.html",
+  "image": null,
+  "site": "site.ac-aix-marseille.fr",
+  "fiche": "college-charloun-rieu-saint-martin-de-crau",
+  "etab": "Collège Charloun Rieu",
+  "ville": "Saint-Martin-de-Crau"
+ },
+ {
+  "date": "2026-11-10",
+  "type": "projet",
+  "titre": "Lancement du programme de découverte des métiers de la Défense",
+  "resume": "À partir du 10 novembre 2026, une trentaine d’élèves de terminale du lycée Saint-Joseph suivront un programme mensuel de rencontres avec des militaires et de visites de sites militaires.",
+  "source": "https://alpesdusud.laradioplus.com/news/hautes-alpes/15902/a-gap-le-lycee-saint-joseph-lance-un-programme-de-decouverte-des-metiers-de-la-defense",
+  "image": null,
+  "site": "La Radio Plus - Là La Radio",
+  "fiche": "lycee-saint-joseph-gap",
+  "etab": "Lycée Saint-Joseph",
+  "ville": "Gap"
+ },
+ {
+  "date": "2026-11-10",
+  "type": "sortie",
+  "titre": "Visites de régiment",
+  "resume": "Dans le cadre de la classe de défense, les élèves effectueront des visites de régiments ainsi que d’éventuelles bases aériennes ou navales.",
+  "source": "https://alpesdusud.laradioplus.com/news/hautes-alpes/15902/a-gap-le-lycee-saint-joseph-lance-un-programme-de-decouverte-des-metiers-de-la-defense",
+  "image": null,
+  "site": "La Radio Plus - Là La Radio",
+  "fiche": "lycee-saint-joseph-gap",
+  "etab": "Lycée Saint-Joseph",
+  "ville": "Gap"
+ },
+ {
   "date": "2026-11-09",
   "type": "ceremonie",
   "titre": "Cérémonie commémorative le 09/11/2026",
@@ -239,53 +287,5 @@ window.CDSG_ACTUS = [
   "fiche": "lycee-saint-joseph-gap",
   "etab": "Lycée Saint-Joseph",
   "ville": "Gap"
- },
- {
-  "date": "2026-11-06",
-  "type": "ceremonie",
-  "titre": "Invitation à la cérémonie commémorative de l’armistice du 11 novembre 1918",
-  "resume": "Le collège Marcel André invite les élèves et les familles à la cérémonie du 11 novembre 2026 commémorant l’armistice de 1918.",
-  "source": "https://www.site.ac-aix-marseille.fr/clg-andre/spip/",
-  "image": null,
-  "site": "site.ac-aix-marseille.fr",
-  "fiche": "college-marcel-andre-seyne-les-alpes",
-  "etab": "Collège Marcel André",
-  "ville": "Seyne-les-Alpes"
- },
- {
-  "date": "2026-11-06",
-  "type": "article",
-  "titre": "La classe défense se prépare pour le 11-Novembre",
-  "resume": "Article du Dauphiné Libéré du 6 novembre 2026 présentant les activités de la classe défense du collège Les Garcins.",
-  "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
-  "image": "https://cdn-s-www.ledauphine.com/images/762D3FE6-FDC0-4973-8ADE-A4AF1415F720/FB1200/photo-1793989579.jpg",
-  "site": "ledauphine.com",
-  "fiche": "college-les-garcins-briancon",
-  "etab": "Collège Les Garcins",
-  "ville": "Briançon"
- },
- {
-  "date": "2026-11-05",
-  "type": "sortie",
-  "titre": "Visite du Souvenir français",
-  "resume": "Le 5 novembre 2026, une délégation du Souvenir français (antenne de Briançon) a rendu visite à la classe défense du collège Les Garcins.",
-  "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
-  "image": "https://cdn-s-www.ledauphine.com/images/762D3FE6-FDC0-4973-8ADE-A4AF1415F720/FB1200/photo-1793989579.jpg",
-  "site": "ledauphine.com",
-  "fiche": "college-les-garcins-briancon",
-  "etab": "Collège Les Garcins",
-  "ville": "Briançon"
- },
- {
-  "date": "2026-11-05",
-  "type": "partenaire",
-  "titre": "Souvenir français (antenne de Briançon)",
-  "resume": "Le Souvenir français, antenne de Briançon, a été partenaire de la visite du 5 novembre 2026.",
-  "source": "https://www.ledauphine.com/societe/2026/11/06/la-classe-defense-se-prepare-pour-le-11-novembre",
-  "image": "https://cdn-s-www.ledauphine.com/images/762D3FE6-FDC0-4973-8ADE-A4AF1415F720/FB1200/photo-1793989579.jpg",
-  "site": "ledauphine.com",
-  "fiche": "college-les-garcins-briancon",
-  "etab": "Collège Les Garcins",
-  "ville": "Briançon"
  }
 ];

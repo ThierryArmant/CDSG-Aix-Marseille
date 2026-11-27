@@ -627,7 +627,7 @@ window.CDSG_WEB = {
   ]
  },
  "lycee-provence-marseille": {
-  "date": "11/11/2026",
+  "date": "27/11/2026",
   "nb": 6,
   "derniere_activite": "2026-10-14",
   "derniers": {
@@ -663,7 +663,8 @@ window.CDSG_WEB = {
    "https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-general-prive-de-provence-13.html"
   ],
   "photo": null,
-  "distinctions": []
+  "distinctions": [],
+  "resume": "Le 14 octobre 2026, les élèves du lycée Provence ont suivi un stage de neuroéducation de deux jours et demi à La Ciotat. En 2025, ils ont participé au projet inter‑académique AR 9 Marseille‑Provence,"
  },
  "college-paul-gauthier-cavaillon": {
   "date": "17/11/2026",
@@ -3629,15 +3630,15 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "lycee-saint-joseph-gap": {
-  "date": "11/11/2026",
-  "resume": "Le 9 novembre 2026, la classe de défense du lycée Saint",
+  "date": "27/11/2026",
+  "resume": "La classe de défense du lycée Saint‑Joseph de Gap a lancé, le 10 novembre 2026, un programme mensuel de découverte",
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/17D757F7-D2DF-4872-ACA3-65679C825285/FB1200/photo-1794248475.jpg",
    "source": "https://www.ledauphine.com/education/2026/11/09/ca-leur-ouvre-l-esprit-la-classe-de-defense-permet-de-decouvrir-les-coulisses-de-l-armee",
    "manuel": false
   },
-  "nb": 7,
-  "derniere_activite": "2026-11-09",
+  "nb": 10,
+  "derniere_activite": "2026-11-10",
   "derniers": {
    "distinction": {
     "date": "2025-06-06",
@@ -3646,10 +3647,10 @@ window.CDSG_WEB = {
     "source": "https://www.facebook.com/stjosephgap/posts/f%C3%A9licitations-%C3%A0-la-classe-de-3e3-qui-remporte-le-3%C3%A8me-prix-acad%C3%A9mique-du-concour/1566774207968737"
    },
    "sortie": {
-    "date": "2026-11-09",
-    "titre": "Visites de régiment et de base navale prévues",
-    "resume": "La classe de défense prévoit des sorties telles que des visites de régiment, de base navale et des échanges avec des militaires.",
-    "source": "https://www.ledauphine.com/education/2026/11/09/ca-leur-ouvre-l-esprit-la-classe-de-defense-permet-de-decouvrir-les-coulisses-de-l-armee"
+    "date": "2026-11-10",
+    "titre": "Visites de régiment",
+    "resume": "Dans le cadre de la classe de défense, les élèves effectueront des visites de régiments ainsi que d’éventuelles bases aériennes ou navales.",
+    "source": "https://alpesdusud.laradioplus.com/news/hautes-alpes/15902/a-gap-le-lycee-saint-joseph-lance-un-programme-de-decouverte-des-metiers-de-la-defense"
    },
    "ceremonie": {
     "date": "2026-11-05",
@@ -3670,10 +3671,10 @@ window.CDSG_WEB = {
     "source": "https://www.ledauphine.com/education/2026/11/09/ca-leur-ouvre-l-esprit-la-classe-de-defense-permet-de-decouvrir-les-coulisses-de-l-armee"
    },
    "projet": {
-    "date": "2026-11-09",
-    "titre": "Programme mensuel de sensibilisation",
-    "resume": "Le projet de classe de défense prévoit d’informer chaque mois une trentaine d’élèves de terminale pendant un après‑midi.",
-    "source": "https://www.ledauphine.com/education/2026/11/09/ca-leur-ouvre-l-esprit-la-classe-de-defense-permet-de-decouvrir-les-coulisses-de-l-armee"
+    "date": "2026-11-10",
+    "titre": "Lancement du programme de découverte des métiers de la Défense",
+    "resume": "À partir du 10 novembre 2026, une trentaine d’élèves de terminale du lycée Saint-Joseph suivront un programme mensuel de rencontres avec des militaires et de visites de sites militaires.",
+    "source": "https://alpesdusud.laradioplus.com/news/hautes-alpes/15902/a-gap-le-lycee-saint-joseph-lance-un-programme-de-decouverte-des-metiers-de-la-defense"
    }
   },
   "distinctions": [
@@ -3689,6 +3690,7 @@ window.CDSG_WEB = {
    }
   ],
   "sources": [
+   "https://alpesdusud.laradioplus.com/news/hautes-alpes/15902/a-gap-le-lycee-saint-joseph-lance-un-programme-de-decouverte-des-metiers-de-la-defense",
    "https://www.ledauphine.com/education/2026/11/09/ca-leur-ouvre-l-esprit-la-classe-de-defense-permet-de-decouvrir-les-coulisses-de-l-armee",
    "https://www.facebook.com/stjosephgap/posts/f%C3%A9licitations-%C3%A0-la-classe-de-3e3-qui-remporte-le-3%C3%A8me-prix-acad%C3%A9mique-du-concour/1566774207968737",
    "https://www.facebook.com/stjosephgap/photos/2049076676405152"
@@ -3894,13 +3896,13 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "lycee-agricole-des-emeyeres-gap": {
-  "date": "11/11/2026",
+  "date": "27/11/2026",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=163,trim.height=1015,trim.width=1800/media/hermes/20231222/20231222_1_2_7_1_1_obj28910417_1.jpeg",
    "source": "https://www.laprovence.com/article/region/85104434608324/salon-de-provence-les-meilleurs-jeunes-bergers-de-la-region-se-sont-affrontes-lors-des-ovinpiades",
    "manuel": false
   },
-  "nb": 8,
+  "nb": 9,
   "derniere_activite": "2026-09-09",
   "derniers": {
    "distinction": {
@@ -3958,8 +3960,10 @@ window.CDSG_WEB = {
    "https://www.facebook.com/reunionla1ere/posts/classe-d%C3%A9fense-des-%C3%A9l%C3%A8ves-de-3e-form%C3%A9s-aux-m%C3%A9tiers-de-larm%C3%A9e/1503448128482514",
    "https://www.site.ac-aix-marseille.fr/clg-garcins/spip/Visite-surprise-pour-la-classe-defense.html",
    "https://www.laprovence.com/article/region/85104434608324/salon-de-provence-les-meilleurs-jeunes-bergers-de-la-region-se-sont-affrontes-lors-des-ovinpiades",
+   "http://oms-gap.fr/wp-content/uploads/2018/02/BAT02-GAP-2018.pdf",
    "https://www.facebook.com/gapemeyeres/posts/f%C3%A9licitations-%C3%A0-tous-les-%C3%A9l%C3%A8ves-de-premi%C3%A8re-sapat-cgea-pour-la-qualit%C3%A9-de-leurs-/1524088839720974"
-  ]
+  ],
+  "resume": "Le 9 septembre 2026, le lycée agricole des Emeyères (Gap) a présenté, via une réunion en visioconférence, sa classe défense où des élèves de 3e sont formés aux métiers de l’armée. Le lycée a été distingué par"
  },
  "college-pytheas-marseille-13e": {
   "date": "11/11/2026",
@@ -3974,21 +3978,27 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-arthur-rimbaud-marseille": {
-  "date": "11/11/2026",
-  "resume": "Le projet de classe défense prévu avec la marine nationale de Toulon a été abandonné : la convention a été annulée, le vote du conseil d’administration a été supprimé et aucune classe défense n’a été ouverte à la rentrée. La visite prévue de l’inspecteur chargé des classes défense a également été annulée. En juin",
+  "date": "27/11/2026",
+  "resume": "Les élèves de 6e et 4e ont participé le 24 novembre 2026 à une activité d’hommage pour le 11 novembre et le Remembrance Day. En juin 2026, le Collège Arthur‑Rimbaud a reçu le prix NAH dans la catégorie collège. Le projet de classe",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,trim.left=0,trim.top=21,trim.height=353,trim.width=642/media/hermes/2018-10/2018-10-08/20181008_1_5_1_1_0_obj18603226_1.jpg",
    "source": "https://www.laprovence.com/article/edition-marseille/5187106/de-la-cite-consolat-a-lonu-les-ailes-de-hamza.html",
    "manuel": false
   },
-  "nb": 8,
-  "derniere_activite": "2026-06-23",
+  "nb": 9,
+  "derniere_activite": "2026-11-24",
   "derniers": {
    "distinction": {
     "date": "2026-06",
     "titre": "Prix NAH catégorie collège",
     "resume": "Le Collège Arthur‑Rimbaud de Marseille a reçu le prix NAH dans la catégorie collège, décerné à son école française à Dar Es Salaam.",
     "source": "https://www.youtube.com/watch?v=UiWobP6fgKk"
+   },
+   "ceremonie": {
+    "date": "2026-11-24",
+    "titre": "Activité autour du 11 novembre et de Remembrance Day",
+    "resume": "Les élèves de 6e et 4e ont participé à une activité d’hommage le 11 novembre, expliquant le Remembrance Day et le symbole du coquelicot.",
+    "source": "https://www.site.ac-aix-marseille.fr/clg-rimbaud/spip/"
    },
    "convention": {
     "date": "2026-06-23",
@@ -4022,6 +4032,7 @@ window.CDSG_WEB = {
    }
   ],
   "sources": [
+   "https://www.site.ac-aix-marseille.fr/clg-rimbaud/spip/",
    "https://npa-revolutionnaires.org/articles/marseille-se-defendre-contre-les-classes-defense",
    "https://www.youtube.com/watch?v=UiWobP6fgKk",
    "https://www.laprovence.com/article/edition-marseille/5187106/de-la-cite-consolat-a-lonu-les-ailes-de-hamza.html"
@@ -4285,14 +4296,14 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-charloun-rieu-saint-martin-de-crau": {
-  "date": "11/11/2026",
-  "resume": "Depuis la rentrée 2026‑2027, le collège Charloun‑Rieu a mis en place une classe de la défense en troisième, en partenariat avec le lycée Pasquet, afin de renforcer l’éducation civique et d’accompagner l’orientation post‑3",
+  "date": "27/11/2026",
+  "resume": "La classe défense du collège Charloun‑Rieu a organisé, le 10 novembre 2026, sa première cérémonie interne du 11‑Novembre, marquant la commémoration de l’armistice de 1918. Depuis le 1er septembre 2026, le projet d’ouverture d’une classe de défense en troisième pour la rentrée",
   "photo": {
    "url": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/09/01/olivier-puccini-principal-du-college-charloun-rieu-1788254290_8c2ca5d9869a6c03ca5d9869aa43cav_.jpg",
    "source": "https://www.laprovence.com/article/societe/1091100841043314/des-equipes-engagees-et-des-objectifs-stimulants-le-college-charloun-rieu-ambitieux-a-saint-martin-de-crau",
    "manuel": false
   },
-  "nb": 3,
+  "nb": 5,
   "derniere_activite": "2026-11-10",
   "derniers": {
    "ceremonie": {
@@ -4308,14 +4319,15 @@ window.CDSG_WEB = {
     "source": "https://www.laprovence.com/article/societe/1091100841043314/des-equipes-engagees-et-des-objectifs-stimulants-le-college-charloun-rieu-ambitieux-a-saint-martin-de-crau"
    },
    "projet": {
-    "date": "2026",
-    "titre": "Ouverture d’une classe de la défense en 3e",
-    "resume": "Le collège Charloun‑Rieu prévoit, dès la rentrée 2026‑2027, la mise en place d’une classe de la défense pour les élèves de troisième, en collaboration avec le lycée Pasquet, afin de renforcer l’éducation civique et préparer l’orientation post‑3e.",
+    "date": "2026-09-01",
+    "titre": "Ouverture d'une classe de la défense en 3e",
+    "resume": "Le collège Charloun‑Rieu prévoit, dès la rentrée 2026‑2027, d’ouvrir une classe de la défense en classe de 3e, en partenariat avec le lycée Pasquet, afin d’assurer l’éducation civique et préparer l’orientation post‑3e.",
     "source": "https://www.laprovence.com/article/societe/1091100841043314/des-equipes-engagees-et-des-objectifs-stimulants-le-college-charloun-rieu-ambitieux-a-saint-martin-de-crau"
    }
   },
   "sources": [
    "https://www.site.ac-aix-marseille.fr/clg-rieu/spip/",
+   "https://www.site.ac-aix-marseille.fr/clg-rieu/spip/La-communaute-scolaire-unie-pour-la-commemoration-du-11-Novembre.html",
    "https://www.laprovence.com/article/societe/1091100841043314/des-equipes-engagees-et-des-objectifs-stimulants-le-college-charloun-rieu-ambitieux-a-saint-martin-de-crau"
   ],
   "distinctions": []
