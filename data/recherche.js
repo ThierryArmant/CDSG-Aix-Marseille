@@ -3697,7 +3697,7 @@ window.CDSG_WEB = {
   ]
  },
  "lp-charles-mongrand-port-de-bouc": {
-  "date": "11/11/2026",
+  "date": "28/11/2026",
   "nb": 0,
   "photo": null,
   "derniere_activite": null,
@@ -4111,13 +4111,13 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "champfleury-prive-vaucluse": {
-  "date": "11/11/2026",
+  "date": "28/11/2026",
   "photo": {
    "url": "https://cdn-s-www.ledauphine.com/images/61322E44-68A2-4561-8369-5BC27766EBE5/FB1200/photo-1780599090.jpg",
    "source": "https://www.ledauphine.com/education/2026/06/04/on-connait-les-dix-laureats-du-prix-de-l-education-citoyenne",
    "manuel": false
   },
-  "nb": 9,
+  "nb": 11,
   "derniere_activite": "2026-06-03",
   "derniers": {
    "distinction": {
@@ -4161,11 +4161,34 @@ window.CDSG_WEB = {
     "sources": [
      "https://www.ledauphine.com/education/2026/06/04/on-connait-les-dix-laureats-du-prix-de-l-education-citoyenne"
     ]
+   },
+   {
+    "date": null,
+    "titre": "Premier prix du projet de mémoire collective « École des Portes Drapeaux »",
+    "resume": "Le préfet de Vaucluse Thierry Suquet a décerné le premier prix au collège Champfleury pour son projet de mémoire collective « École des Portes Drapeaux », distinction attribuée à la classe défense de l’établissement.",
+    "source": "https://www.facebook.com/prefet84/posts/citoyennet%C3%A9-le-pr%C3%A9fet-de-vaucluse-thierry-suquet-participait-hier-mercredi-3-jui/1337321365255046/",
+    "verifie": "officielle",
+    "sources": [
+     "https://www.facebook.com/prefet84/posts/citoyennet%C3%A9-le-pr%C3%A9fet-de-vaucluse-thierry-suquet-participait-hier-mercredi-3-jui/1337321365255046/",
+     "https://vaucluse.anmonm.org/news/remise-prix-education-citoyenne-5037"
+    ]
+   },
+   {
+    "date": null,
+    "titre": "Récompense ANMONM",
+    "resume": "Le collège Champfleury a été distingué par une récompense de l’ANMONM, parmi 22 dossiers présentés, mettant en avant le travail de sa classe défense.",
+    "source": "https://www.facebook.com/100082106238736/posts/cest-une-merveilleuse-r%C3%A9compense-qui-rejaillit-sur-notre-%C3%A9cole-des-porte-drapeau/982764341137098/",
+    "verifie": "a_confirmer",
+    "sources": [
+     "https://www.facebook.com/100082106238736/posts/cest-une-merveilleuse-r%C3%A9compense-qui-rejaillit-sur-notre-%C3%A9cole-des-porte-drapeau/982764341137098/"
+    ]
    }
   ],
   "sources": [
    "https://www.ledauphine.com/education/2026/06/04/on-connait-les-dix-laureats-du-prix-de-l-education-citoyenne",
-   "https://www.trinitaires84.org/Notre-Ecole-Porte-drapeaux.html"
+   "https://www.trinitaires84.org/Notre-Ecole-Porte-drapeaux.html",
+   "https://www.facebook.com/prefet84/posts/citoyennet%C3%A9-le-pr%C3%A9fet-de-vaucluse-thierry-suquet-participait-hier-mercredi-3-jui/1337321365255046/",
+   "https://www.facebook.com/100082106238736/posts/cest-une-merveilleuse-r%C3%A9compense-qui-rejaillit-sur-notre-%C3%A9cole-des-porte-drapeau/982764341137098/"
   ]
  },
  "lycee-pierre-mendes-france-2e-partenariat-vitrolles": {
@@ -4213,7 +4236,7 @@ window.CDSG_WEB = {
   "sources": []
  },
  "lycee-paul-langevin-martigues": {
-  "date": "11/11/2026",
+  "date": "28/11/2026",
   "nb": 0,
   "photo": null,
   "derniere_activite": null,
@@ -4222,8 +4245,8 @@ window.CDSG_WEB = {
   "sources": []
  },
  "annot-castellane-alpes-de-haute-provence": {
-  "date": "11/11/2026",
-  "resume": "La classe Annot / Castellane a récemment participé à un quiz « Brevet – Défense nationale et coopération internationale » proposé sur le site du Collège du Verdon (Castellane), portant sur l’enseignement moral et civique, la défense nationale et la coopération internationale. Aucun prix ou distinction n’a été signalé pour cette activité. Le partenariat identifié est avec le Collège du Verdon, qui a mis à disposition le questionnaire.",
+  "date": "28/11/2026",
+  "resume": "La classe Annot / Castellane a récemment proposé un quiz « Défense nationale et coopération internationale » sur le site du Collège du Verdon, destiné aux élèves préparant le brevet et portant sur l’enseignement moral et civique. Aucun prix, distinction ou partenariat n’a été signalé dans les informations disponibles. Aucun autre fait marquant n’a été relevé pour le moment.",
   "nb": 1,
   "derniers": {
    "article": {
@@ -4333,7 +4356,7 @@ window.CDSG_WEB = {
   "distinctions": []
  },
  "college-emilie-de-mirabeau-marignane": {
-  "date": "11/11/2026",
+  "date": "28/11/2026",
   "nb": 0,
   "photo": null,
   "derniere_activite": null,
